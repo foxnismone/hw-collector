@@ -698,6 +698,55 @@ function responder(txt){
     tts(`${c.m}, año ${c.y}. Índice ${c.x}. Entre ${hablarMoneda(c.v)} y ${hablarMoneda(c.V)}.`);return;
   }
   logMsg("a","No encontré ese modelo en el catálogo de 2.177 registros (Mainline 2016-2026). Probá con el nombre exacto: <i>Skyline</i>, <i>El Camino</i>, <i>Mustang GTD</i>. También podés preguntar <i>“cuánto pago de impuestos si lo traigo”</i> o <i>“dónde conviene vender”</i>.","");
+  if(iaKey()) preguntarIA(txt);
+}
+
+/* ===== IA para preguntas abiertas (Groq free tier) ===== */
+const GROQ_URL="https://api.groq.com/openai/v1/chat/completions";
+const GROQ_MODEL="openai/gpt-oss-120b";
+function iaKey(){ try{ return localStorage.getItem("hw_ia_key")||""; }catch(e){ return ""; } }
+function setIaKey(v){
+  v=(v||"").trim();
+  try{ localStorage.setItem("hw_ia_key",v); }catch(e){}
+  const s=document.getElementById("iainfo");
+  if(s) s.innerHTML = v ? "IA activada con <b>Groq</b> (1.000 consultas/día gratis). La key queda solo en este navegador."
+                        : "Sin key: el asistente responde solo con el catálogo. Con key: además responde preguntas abiertas con IA.";
+  logMsg("i", v ? "API key guardada en este navegador (nunca se sube al repositorio)." : "API key borrada.");
+}
+function contextoAuto(c){
+  if(!c) return "";
+  const h=_hist(c.m);
+  return "Auto del catálogo: "+c.m+", año "+c.y+", nº de colección "+c.c+", toy "+c.t+", serie "+c.s+
+    ", clase "+c.k+" ("+CLS[c.k].t+"), índice de coleccionabilidad "+c.x+"/100 (percentil "+c.px+
+    "), valor de referencia US$"+c.v+"-"+c.V+", venta estimada "+CLS[c.k].d[0]+"-"+CLS[c.k].d[1]+" días."+
+    (h?" Historia: "+h.historia:"");
+}
+async function preguntarIA(texto){
+  const key=iaKey();
+  if(!key){
+    logMsg("a","Para preguntas abiertas necesitás una API key gratuita de <b>Groq</b>: entrá a <b>console.groq.com</b>, creá una key (sin tarjeta) y pegala en el campo “IA” del panel de arriba.");
+    return;
+  }
+  logMsg("i","Consultando a la IA…");
+  const c=buscar(texto);
+  const sys="Sos un asistente experto en Hot Wheels para un coleccionista chileno. Respondés en español de Chile, breve (máximo 120 palabras), con datos concretos y sin relleno. NO inventes precios ni datos: si no sabés algo, decilo. Rangos reales de referencia: Mainline US$1-5, Treasure Hunt US$5-20, Super Treasure Hunt US$85-250. El catálogo del usuario tiene 2.177 registros Mainline 2016-2026. "+contextoAuto(c);
+  try{
+    const r=await fetch(GROQ_URL,{method:"POST",
+      headers:{"Content-Type":"application/json","Authorization":"Bearer "+key},
+      body:JSON.stringify({model:GROQ_MODEL,temperature:0.6,max_tokens:400,
+        messages:[{role:"system",content:sys},{role:"user",content:texto}]})});
+    if(!r.ok){
+      const e=await r.text();
+      const msg = r.status===401 ? "La API key no es válida. Revisala en console.groq.com."
+                : r.status===429 ? "Se agotó la cuota gratuita del día (1.000 consultas). Se renueva mañana."
+                : ("Error "+r.status+": "+e.slice(0,140));
+      logMsg("a","La IA no pudo responder. "+msg); return;
+    }
+    const j=await r.json();
+    const resp=j.choices&&j.choices[0]&&j.choices[0].message?j.choices[0].message.content.trim():"";
+    if(resp){ logMsg("a","<b>IA:</b> "+resp.replace(/\n/g,"<br>"),"Fuente: Groq · "+GROQ_MODEL); tts(resp); }
+    else logMsg("a","La IA no devolvió respuesta.");
+  }catch(e){ logMsg("a","No se pudo conectar con la IA: "+e.message); }
 }
 function stt(){
   const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
@@ -1385,6 +1434,7 @@ function initPage(){
   cargarEdgeVoces();
   setPersona(persona);
   try{ document.getElementById("datosfuente").textContent="Datos: "+DATOS_FUENTE.origen; }catch(e){}
+  try{ if(iaKey()){ const s=document.getElementById("iainfo"); if(s) s.innerHTML="IA activada con <b>Groq</b> (1.000 consultas/día gratis). La key queda solo en este navegador."; } }catch(e){}
   cicloPuente(); setInterval(cicloPuente,60000);
   window.addEventListener("online",cicloPuente);
   document.addEventListener("visibilitychange",()=>{ if(!document.hidden) cicloPuente(); });
