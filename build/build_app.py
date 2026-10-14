@@ -360,11 +360,17 @@ function drawer(id){
   const bar=(l,v)=>`<div class="fbar"><span>${l}</span><span class="fill"><i style="width:${v}%"></i></span><span class="num">${v}</span></div>`;
   const v=valorRef(c,o.c), mid=(c.v+c.V)/2;
   const bc=bestChannels(mid,3);
+  const f=c.ficha||{}, vm=c.valores_mercado||{}, idx=c.indice_coleccionabilidad;
+  const catDesc=c.categoria_descripcion?'<div class="note" style="margin-top:6px;font-size:11px;color:var(--muted)">'+c.categoria_descripcion+'</div>':'';
+  const fichaHTML=(f.descripcion||f.historia||f.curiosidades)?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Ficha del modelo</h3>${f.descripcion?'<div style="margin-bottom:6px"><b>Descripción:</b> '+f.descripcion+'</div>':''}${f.historia?'<div style="margin-bottom:6px"><b>Historia:</b> '+f.historia+'</div>':''}${f.curiosidades?'<div style="margin-bottom:6px"><b>Curiosidades:</b> '+f.curiosidades+'</div>':''}${f.conmemorativo?'<div style="margin-bottom:6px"><b>Conmemorativo:</b> Sí</div>':''}${f.dato_clave?'<div><b>Dato clave:</b> '+f.dato_clave+'</div>':''}${catDesc}</div>`:'';
+  const idxHTML=idx?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Índice de coleccionabilidad</h3><div style="font-size:24px;font-weight:700;color:var(--brand)">${idx}</div><div class="note">de 100</div></div>`:'';
+  const vmHTML=vm.usd?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Valores de mercado</h3><div style="font-size:13px"><b>USD:</b> $${vm.usd} · <b>CLP:</b> $${vm.clp} · <b>EUR:</b> €${vm.eur}</div><div class="note" style="font-size:10px;margin-top:4px">Fuente: ${vm.fuente||'Cálculo automático'} · ${vm.fecha||''}</div></div>`:'';
   const d=document.getElementById("drawer");
   d.innerHTML=`<button class="close" onclick="closeDrawer()">×</button>
-   <div class="dh"><img src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">
-     <div><h2>${c.m}</h2>
-       <div class="mt">${c.y} · Nº de colección ${c.c} · Toy # ${c.t}</div>
+    <div class="dh"><img src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">
+      <div><h2>${c.m}</h2>
+        <div class="mt">${c.y} · Nº de colección ${c.c} · Toy # ${c.t}</div>
+        ${fichaHTML}${idxHTML}${vmHTML}
        <div class="mt">${c.s} ${c.n?"("+c.n+")":""}</div>
        <div class="mt">${CLS[c.k].t}${c.nuevo?" · Nuevo modelo":""}${c.variante?" · Variante de color":""}</div></div></div>
    <div class="kv">
