@@ -1,0 +1,68 @@
+name: Actualización Semanal
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # Domingo 3:00 AM UTC
+  workflow_dispatch:  # También permite ejecución manual
+
+jobs:
+  actualizar-datos:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout del repositorio
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      # 2. Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      # 3. Instalar dependencias
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pytrends
+      
+      # 4. Scrapear catálogo (nuevos modelos)
+      - name: Scrapear catálogo
+        run: |
+          echo "Scrapeando catálogo de Hot Wheels..."
+          # python build/scraper_catalogo.py --sync
+          echo "Completado (simulado)"
+      
+      # 5. Scrapear precios
+      - name: Scrapear precios
+        run: |
+          echo "Scrapeando precios de eBay y Mercado Libre..."
+          # python build/scraper_precios.py --sync
+          echo "Completado (simulado)"
+      
+      # 6. Scrapear tendencias
+      - name: Scrapear tendencias
+        run: |
+          echo "Scrapeando tendencias de Google y Reddit..."
+          # python build/trend_watcher.py --sync
+          echo "Completado (simulado)"
+      
+      # 7. Actualizar índice de coleccionabilidad
+      - name: Actualizar índice
+        run: |
+          echo "Actualizando índice de coleccionabilidad..."
+          # python build/actualizar_indice.py
+          echo "Completado (simulado)"
+      
+      # 8. Reconstruir la app
+      - name: Reconstruir app
+        run: python build/build_app.py
+      
+      # 9. Commit y push de los cambios
+      - name: Commit y push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ web/
+          git diff --staged --quiet || git commit -m "Actualización semanal: $(date +%Y-%m-%d)"
+          git push
