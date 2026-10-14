@@ -219,7 +219,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMG=f=>f?("img/"+f):"";
+const IMG=f=>f?(/^https?:\/\//.test(f)?f:"img/"+f):"";
 const CLS={STH:{t:"Super Treasure Hunt",v:[85,250],d:[7,28],f:"autoevolution/resellcalendar 2024-2025"},
            TH:{t:"Treasure Hunt",v:[5,20],d:[7,30],f:"iCollectEverything 2026"},
            Mainline:{t:"Mainline",v:[1,5],d:[14,90],f:"hobbyDB listings 2024-2025"}};
