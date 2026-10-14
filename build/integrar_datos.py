@@ -100,7 +100,7 @@ def calcular_indice_coleccionabilidad(modelo):
     - Tendencia (0-100): basado en crecimiento de valor
     - Completitud (0-100): basado en importancia para la colección
     """
-    año = modelo.get('y', 2024)
+    año = modelo.get('y') or 2024
     año_actual = datetime.now().year
     edad = max(0, año_actual - año)
     
@@ -160,7 +160,7 @@ def calcular_valores_mercado(modelo):
     Basado en el valor base y factores de mercado.
     """
     valor_base = modelo.get('x', 5.0)
-    año = modelo.get('y', 2024)
+    año = modelo.get('y') or 2024
     año_actual = datetime.now().year
     edad = max(0, año_actual - año)
     
