@@ -1,0 +1,186 @@
+[[File:Midnight_Otto_M36.jpg|thumb|right|310px]] 
+'''Base codes''' (also known as '''date codes''' or '''production codes''') are a series of identifiers found on the base of any Hot Wheels model used to determine a date of production. Base codes of [[Charawheels]] models from [[2001]] to [[2003]] were toy identification numbers. A different [[Laser-etched base codes|laser-etching]] process was created and patented by [[Nathan Proch]], [[Bryan Benedict]] and [[Wayne Scott]] for some [[2005]] and [[2006]] releases.
+
+==Three-digit codes==
+This system of base codes is used on models produced in Malaysia, Indonesia or Thailand. This system has been used since 2008.
+
+Base codes consist of a letter (A-Z, some letters are omitted) followed by a two-digit number. The letter refers to the year of manufacture, while the number refers to the week number (1-52, 53 is rarely used and only can be found during leap years) within that year.
+
+For example, if the code is "M36", the letter "M" indicates that the car was manufactured in 2019, and the number "36" indicates the car was manufactured on the 36th week of that year. This puts the production date around the first week of September 2019 (2 to 8 September). 
+
+{| class="wikitable sortable" style="font-size: 85%"
+|-
+!style="border-style: none none solid solid; background:"|'''Letter'''
+!style="border-style: none none solid solid; background:"|'''Year of Manufacture'''
+|-
+|A
+|2008
+|-
+|B
+|2009
+|-
+|C
+|2010
+|-
+|D
+|2011
+|-
+|E
+|2012
+|-
+|F
+|2013
+|-
+|G
+|2014
+|-
+|H
+|2015
+|-
+|J
+|2016
+|-
+|K
+|2017
+|-
+|L
+|2018
+|-
+|M
+|2019
+|-
+|N
+|2020
+|-
+|P
+|2021
+|-
+|R
+|2022
+|-
+|S
+|2023
+|-
+|T
+|2024
+|-
+|U
+|2025
+|-
+|V
+|2026
+|-
+|}
+
+A fourth digit is sometimes added to the codes (e.g. "T50A"); this was initially mainly seen on [[Super Rigs]] and similar models but has since also appeared on [[mainline]] and [[Hot Wheels Premium|Premium]] models. This digit indicates the plant of manufacture.
+
+{| class="wikitable sortable" style="font-size: 85%"
+|-
+!style="border-style: none none solid solid; background:"|'''Letter'''
+!style="border-style: none none solid solid; background:"|'''Country of Manufacture'''
+|-
+|A
+|Thailand
+|-
+|I
+|Indonesia
+|-
+|N
+|Malaysia
+|-
+|}
+
+==China/Vietnam production codes==
+This system of base codes is used on models produced in China and more recently Vietnam. This system has been used since at least 1999.
+
+These production codes consist of a four-digit number followed by a two- or three-letter code. The four-digit number refers to the day and year of manufacture and the two- or three-letter code refers to the plant which the car is produced in. The following is an example.
+
+{| class="wikitable sortable" style="font-size: 85%, margin-left: auto; margin-right: auto; border: none; float:center "
+|-
+|colspan = "2" | <center>2203EAA</center>
+|-
+!style="border-style: none none solid solid; background:"|'''Digit'''
+!style="border-style: none none solid solid; background:"|'''Meaning'''
+|-
+|220
+|Day of production
+|-
+|3
+|Year of production
+|-
+|EAA
+|Production plant
+|}
+
+Therefore, a model with the production code "2203EAA" was produced on the 220th day of 2023 at a plant designated "EAA" (8 August 2023). The year identifier can mean multiple years (e.g. "3" can mean a car produced in 2013 or 2023) although logically the year closest to the model's release year is the correct production year for the model.
+
+{| class="wikitable sortable" style="font-size: 85%, margin-left: auto; margin-right: auto; border: none; float:center "
+|-
+|colspan = "2" | <center>Known production plants</center>
+|-
+!style="border-style: none none solid solid; background:"|'''Code'''
+!style="border-style: none none solid solid; background:"|'''Location'''
+|-
+|DP
+|China
+|-
+|EA
+|China
+|-
+|EAA
+|China
+|-
+|SD
+|Vietnam
+|-
+|TT
+|China
+|-
+|YY
+|China
+|-
+|}
+
+==Significance==
+These date codes have no real significance except for the possibility of a recall indicator as it can identify when a particular casting was in production at the manufacturing plant or to identify tooling changes between castings (e.g. base variations).
+
+Production of a full batch of 15 mixes of Hot Wheels cars generally takes about a year; models in a given year's first mix generally begin production in late July or early August of the previous year (with a little bit of last year's last mix overflowing into the first mix of the current year), with the final mix being produced around mid-July (with the same overflow into next year's first mix). The first mix of a given year is generally put out in stores in September of the previous year (e.g. 2023 mixes released in September 2022), with the last in August the next year; this can vary from country to country. This is why the initial few mixes of Hot Wheels cars for a given year feature base codes corresponding to dates from the previous year.
+
+Each mix is produced for between two to four weeks at a time.
+
+==Gallery==
+===Base code examples===
+<gallery widths="185">
+File:ACode.jpg|"A" base code
+File:BCode.jpg|"B" base code
+File:CCode.jpg|"C" base code
+File:DCode.jpg|"D" base code
+File:ECode.jpg|"E" base code
+File:FCode.jpg|"F" base code
+File:GCode.jpg|"G" base code
+File:HCode.jpg|"H" base code
+File:JCode.jpg|"J" base code
+File:KCode.jpg|"K" base code
+File:LCode.jpg|"L" base code
+File:MCode.jpg|"M" base code
+File:NCode.jpg|"N" base code
+File:PCode.jpg|"P" base code
+File:RCode.jpg|"R" base code
+File:SCode.jpg|"S" base code
+File:TCode.jpg|"T" base code
+File:U base code.jpg|"U" base code
+File:ChinaCode.jpg|Chinese production code
+File:Vietnam Code.jpg|Vietnamese production code
+File:Date code on card copie.jpg|Base code on cards
+</gallery>
+
+===Imprint===
+<gallery widths="185">
+StampedCode.jpg|Stamped
+PrintedCode1.jpg|Printed, style 1
+PrintedCode2.jpg|Printed, style 2
+PrintedCode3.jpg|Printed, style 3
+PrintedCode4.jpg|Printed, style 4
+</gallery>
+
+[[Category:Definitions]]

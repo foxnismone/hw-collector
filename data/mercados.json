@@ -1,0 +1,656 @@
+{
+ "meta": {
+  "generado": "2026-10-11",
+  "moneda_base": "USD",
+  "nota": "Todos los precios del catálogo están en USD y se convierten con estos tipos. El tipo EUR/USD y GBP/USD son tipos de cambio reales; EUR/CLP y GBP/CLP son TIPOS CRUZADOS calculados (no cotización directa).",
+  "advertencia": "Los tipos de cambio y las comisiones cambian. Refrescar antes de decidir una venta.",
+  "canales_nota": "pct = comisión sobre el precio de venta; fijo_usd = cargo fijo por orden convertido a USD con el tipo de cambio cargado; extra_pct = cargo adicional (p. ej. conversión de moneda)."
+ },
+ "monedas": {
+  "USD": {
+   "nombre": "Dólar estadounidense",
+   "simbolo": "US$",
+   "por_usd": 1.0,
+   "decimales": 2,
+   "sep_dec": ".",
+   "sep_mil": ",",
+   "fuente": "moneda base",
+   "fecha": "2026-10-11"
+  },
+  "CLP": {
+   "nombre": "Peso chileno",
+   "simbolo": "$",
+   "por_usd": 981.61,
+   "decimales": 0,
+   "sep_dec": ",",
+   "sep_mil": ".",
+   "fuente": "mindicador.cl /api/dolar (dólar observado)",
+   "fecha": "2026-10-09"
+  },
+  "EUR": {
+   "nombre": "Euro",
+   "simbolo": "€",
+   "por_usd": 1.1344,
+   "decimales": 2,
+   "sep_dec": ",",
+   "sep_mil": ".",
+   "fuente": "exchangerate-api.com EUR/USD 0,88152 — tipo cruzado para CLP",
+   "fecha": "2026-09-30"
+  },
+  "GBP": {
+   "nombre": "Libra esterlina",
+   "simbolo": "£",
+   "por_usd": 1.32282,
+   "decimales": 2,
+   "sep_dec": ".",
+   "sep_mil": ",",
+   "fuente": "exchangerate-api.com GBP/USD 0,755961",
+   "fecha": "2026-09-30"
+  }
+ },
+ "mercados": [
+  {
+   "id": "CL",
+   "nombre": "Chile",
+   "moneda": "CLP",
+   "bandera": "CL",
+   "retail": [
+    {
+     "item": "Auto básico (mainline)",
+     "precio_local": 1990,
+     "usd": 2.03,
+     "fuente": "littletoys.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Auto básico (mainline)",
+     "precio_local": 2450,
+     "usd": 2.5,
+     "fuente": "isatoyschile.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Pack 5 autos mainline",
+     "precio_local": 9990,
+     "usd": 10.18,
+     "fuente": "littletoys.cl / Lider.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Pack 5 autos (Rosso)",
+     "precio_local": 10990,
+     "usd": 11.2,
+     "fuente": "super.lider.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Car Culture / Auto Cultura Automotriz",
+     "precio_local": 6290,
+     "usd": 6.41,
+     "fuente": "super.lider.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Boulevard",
+     "precio_local": 7990,
+     "usd": 8.14,
+     "fuente": "super.lider.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Racing Club (colección)",
+     "precio_local": 7990,
+     "usd": 8.14,
+     "fuente": "isatoyschile.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Collector Fast & Furious (Datsun)",
+     "precio_local": 10990,
+     "usd": 11.2,
+     "fuente": "isatoyschile.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Premium Collector (Barbie GMC Panel Van)",
+     "precio_local": 12990,
+     "usd": 13.23,
+     "fuente": "isatoyschile.cl",
+     "fecha": "2026"
+    },
+    {
+     "item": "Character Cars (Mario Kart)",
+     "precio_local": 13990,
+     "usd": 14.25,
+     "fuente": "autofact.cl / MercadoLibre",
+     "fecha": "2026"
+    },
+    {
+     "item": "Character Cars (Minions)",
+     "precio_local": 19800,
+     "usd": 20.17,
+     "fuente": "autofact.cl / MercadoLibre",
+     "fecha": "2026"
+    },
+    {
+     "item": "Collector Premium transportador",
+     "precio_local": 19990,
+     "usd": 20.36,
+     "fuente": "super.lider.cl",
+     "fecha": "2026"
+    }
+   ],
+   "canales": [
+    {
+     "canal": "MercadoLibre Chile — Clásica",
+     "comision": "8%–17% según categoría",
+     "fijo": "~$700 hasta $9.990 · ~$1.000 entre $9.990 y $19.990 (referencial)",
+     "envio": "$800–$1.000 (≤0,3 kg, reputación verde) · $3.050 desde $19.990",
+     "extra": "IVA 19% sobre la comisión · cuotas sin interés 3%–10% si las ofrecés · envío gratis obligatorio sobre $19.990",
+     "fuente": "mercadolibre.cl/ayuda/Costos-de-vender-un-producto_870 · profitar.app/cl · mercadoru.com",
+     "verificado": "parcial"
+    },
+    {
+     "canal": "MercadoLibre Chile — Premium",
+     "comision": "11%–21% según categoría",
+     "fijo": "igual criterio",
+     "envio": "igual criterio",
+     "fuente": "mercadolibre.cl/ayuda",
+     "verificado": "si"
+    },
+    {
+     "canal": "Facebook Marketplace / grupos de coleccionistas",
+     "comision": "0%",
+     "fijo": "—",
+     "envio": "a convenir (retiro en persona o courier)",
+     "fuente": "facebook.com/marketplace",
+     "verificado": "si"
+    },
+    {
+     "canal": "Feria / persa presencial",
+     "comision": "0%",
+     "fijo": "—",
+     "envio": "—",
+     "fuente": "práctica local",
+     "verificado": "no"
+    }
+   ],
+   "importacion": {
+    "regla": "Hasta US$500: SOLO IVA 19% (sin arancel). Sobre US$500: 6% de arancel + 19% de IVA sobre el valor CIF. Envíos entre personas naturales (C2C) de hasta US$500 son exentos de IVA y derechos si son ocasionales y no comerciales.",
+    "iva": 0.19,
+    "arancel_sobre": 0.06,
+    "umbral_arancel": 500,
+    "exencion_c2c": 500,
+    "fuente": "aduana.cl (Ley N°21.713, vigente 25-oct-2025) · sii.cl · FedEx regulatory alert",
+    "verificado": "si"
+   }
+  },
+  {
+   "id": "US",
+   "nombre": "Estados Unidos",
+   "moneda": "USD",
+   "bandera": "US",
+   "retail": [
+    {
+     "item": "Auto básico (mainline)",
+     "precio_local": 1.25,
+     "usd": 1.25,
+     "fuente": "eathealthy365 (precio histórico ~$1)",
+     "fecha": "2026"
+    },
+    {
+     "item": "Premium / Car Culture (unidad)",
+     "precio_local": 6.95,
+     "usd": 6.95,
+     "fuente": "eBay listings",
+     "fecha": "2024-2025"
+    },
+    {
+     "item": "Premium (set de 5)",
+     "precio_local": 29.95,
+     "usd": 29.95,
+     "fuente": "eBay listings",
+     "fecha": "2024"
+    },
+    {
+     "item": "Super Treasure Hunt (reventa)",
+     "precio_local": 85,
+     "usd": 85,
+     "fuente": "resellcalendar / autoevolution",
+     "fecha": "2025"
+    }
+   ],
+   "canales": [
+    {
+     "canal": "eBay (vendedor particular/business)",
+     "comision": "13,25% + US$0,40",
+     "envio": "a cargo del vendedor o del comprador",
+     "fuente": "ebay.com/sellercenter/selling/seller-fees",
+     "verificado": "si"
+    },
+    {
+     "canal": "Mercari",
+     "comision": "10%",
+     "fuente": "mercari.com help center",
+     "verificado": "si"
+    },
+    {
+     "canal": "Whatnot (subasta en vivo)",
+     "comision": "8% + 2,9% + US$0,30",
+     "fuente": "fluf.io",
+     "verificado": "si"
+    },
+    {
+     "canal": "Facebook Marketplace",
+     "comision": "0%",
+     "fuente": "facebook.com/marketplace",
+     "verificado": "si"
+    },
+    {
+     "canal": "hobbyDB marketplace",
+     "comision": "0%",
+     "fuente": "hobbydb.com",
+     "verificado": "si"
+    }
+   ],
+   "importacion": {
+    "regla": "De minimis histórico de US$800 para arancel; el sales tax estatal puede aplicar según el estado.",
+    "fuente": "no verificado en esta investigación",
+    "verificado": "no"
+   }
+  },
+  {
+   "id": "EU",
+   "nombre": "Europa (eBay DE/UK)",
+   "moneda": "EUR",
+   "bandera": "EU",
+   "retail": [
+    {
+     "item": "Auto básico (mainline)",
+     "precio_local": 2.0,
+     "usd": 2.27,
+     "fuente": "eathealthy365 (mainline ≈€2-3 en Europa)",
+     "fecha": "2026"
+    },
+    {
+     "item": "Auto básico (mainline)",
+     "precio_local": 3.0,
+     "usd": 3.4,
+     "fuente": "eathealthy365",
+     "fecha": "2026"
+    },
+    {
+     "item": "Convention Porsche 911 GT3 RS (listado)",
+     "precio_local": 80.36,
+     "usd": 91.16,
+     "fuente": "ebay.de",
+     "fecha": "2026"
+    },
+    {
+     "item": "Listado colección (promedio de 96 avisos)",
+     "precio_local": 42.57,
+     "usd": 48.29,
+     "fuente": "for-sale.ie",
+     "fecha": "2026"
+    }
+   ],
+   "canales": [
+    {
+     "canal": "eBay DE/UE — vendedor business, categoría Collectables",
+     "comision": "10,9% + cargo por orden (€/£0,30–0,40)",
+     "fuente": "ebay.co.uk/help/selling (Fees for business sellers)",
+     "verificado": "si"
+    },
+    {
+     "canal": "eBay UK — vendedor particular",
+     "comision": "0% desde oct-2024 (excepto Motors); conversión de moneda 2,5% (2,75% desde 1-dic-2026)",
+     "fuente": "ebay.co.uk/help/selling (Fees for private sellers)",
+     "verificado": "si"
+    },
+    {
+     "canal": "eBay UK — vendedor business",
+     "comision": "12,8% + £0,30 (y £0,40 en órdenes > £10 desde 12-feb-2026) + Regulatory Operating Fee 0,35%",
+     "fuente": "ebay.co.uk/sellercentre/news/2026-january/rate-card-change",
+     "verificado": "si"
+    }
+   ],
+   "importacion": {
+    "regla": "Desde el 1-jul-2026 se eliminó la exención de arancel de €150: se aplica un ARANCEL FIJO TEMPORAL DE €3 POR ÍTEM en envíos de hasta €150 (hasta el 1-jul-2028). El IVA de importación se aplica a TODOS los bienes sin importar el valor (desde 2021); con IOSS el IVA se cobra en la compra y la importación queda exenta de IVA. Tipos de IVA típicos: 19%–21%.",
+    "iva": "19%–21% según país",
+    "arancel_fijo": 3,
+    "umbral": 150,
+    "fuente": "taxation-customs.ec.europa.eu (Council Regulation (EU) 2026/382) · zoll.de",
+    "verificado": "si"
+   }
+  },
+  {
+   "id": "UK",
+   "nombre": "Reino Unido",
+   "moneda": "GBP",
+   "bandera": "UK",
+   "retail": [
+    {
+     "item": "Auto suelto (listados eBay UK)",
+     "precio_local": 4.92,
+     "usd": 6.51,
+     "fuente": "ebay.co.uk",
+     "fecha": "2026"
+    },
+    {
+     "item": "Super Treasure Hunt 2026 Pontiac Firebird",
+     "precio_local": 38.82,
+     "usd": 51.35,
+     "fuente": "ebay.co.uk",
+     "fecha": "2026"
+    },
+    {
+     "item": "Premium set de 5 (2026 Aero Style)",
+     "precio_local": 31.58,
+     "usd": 41.77,
+     "fuente": "ebay.co.uk",
+     "fecha": "2026"
+    },
+    {
+     "item": "Lote 30 autos (joblot)",
+     "precio_local": 35.7,
+     "usd": 47.22,
+     "fuente": "ebay.co.uk",
+     "fecha": "2026",
+     "por_auto": 1.57
+    },
+    {
+     "item": "Lote 50 autos (clearance joblot)",
+     "precio_local": 85.0,
+     "usd": 112.44,
+     "fuente": "ebay.co.uk",
+     "fecha": "2026",
+     "por_auto": 2.25
+    },
+    {
+     "item": "Redline suelto común (compra → venta)",
+     "precio_local": 10.0,
+     "usd": 13.23,
+     "fuente": "listingmonster.ai (sourced £2-8, sold £10-40)",
+     "fecha": "2026"
+    }
+   ],
+   "canales": [
+    {
+     "canal": "eBay UK — particular",
+     "comision": "0% + conversión 2,5%",
+     "fuente": "ebay.co.uk/help/selling (private sellers)",
+     "verificado": "si"
+    },
+    {
+     "canal": "eBay UK — business",
+     "comision": "12,8% + £0,30/£0,40",
+     "fuente": "ebay.co.uk",
+     "verificado": "si"
+    }
+   ],
+   "importacion": {
+    "regla": "El IVA de importación (20%) aplica a bienes importados; el umbral de £135 rige para el tratamiento del IVA en ventas a distancia.",
+    "fuente": "no verificado en esta investigación",
+    "verificado": "no"
+   }
+  }
+ ],
+ "comparacion_clase": [
+  {
+   "clase": "Mainline (auto suelto)",
+   "US": [
+    "US$1,25 retail",
+    "US$1–5 reventa carded"
+   ],
+   "CL": [
+    "$1.990–$2.450 retail"
+   ],
+   "EU": [
+    "€2–€3 retail"
+   ],
+   "UK": [
+    "£4,92 listado típico"
+   ],
+   "lectura": "Chile está ~1,6–2× sobre el precio de EE.UU.; Europa ~1,8–2,7×."
+  },
+  {
+   "clase": "Premium / Car Culture",
+   "US": [
+    "US$6,95–12,50 unidad",
+    "US$29,95–64,99 set de 5"
+   ],
+   "CL": [
+    "$6.290–$12.990 unidad"
+   ],
+   "EU": [
+    "~€8–15 unidad"
+   ],
+   "UK": [
+    "£31,58 set de 5 (≈US$41,8)"
+   ],
+   "lectura": "El set de 5 europeo se paga cerca del techo del rango estadounidense."
+  },
+  {
+   "clase": "Treasure Hunt",
+   "US": [
+    "US$5–20 carded"
+   ],
+   "CL": [
+    "poco frecuente en retail local"
+   ],
+   "EU": [
+    "aparece en eBay DE/UK"
+   ],
+   "UK": [
+    "£38,82 un STH 2026 (≈US$51)"
+   ],
+   "lectura": "El coleccionista europeo paga más por STH que el estadounidense medio."
+  },
+  {
+   "clase": "Super Treasure Hunt",
+   "US": [
+    "US$85–250"
+   ],
+   "CL": [
+    "importación o mercado secundario"
+   ],
+   "EU": [
+    "€80–200 en eBay DE"
+   ],
+   "UK": [
+    "£38,82–£85"
+   ],
+   "lectura": "El mejor precio de venta para STH está en EE.UU.; Europa es el segundo mercado."
+  },
+  {
+   "clase": "Lotes (joblot)",
+   "US": [
+    "US$0,50–3 por auto"
+   ],
+   "CL": [
+    "$1.990 por auto nuevo"
+   ],
+   "EU": [
+    "~€2–3 por auto"
+   ],
+   "UK": [
+    "£1,19–£1,70 por auto (lotes de 30 y 50)"
+   ],
+   "lectura": "En el Reino Unido los lotes se pagan mejor por unidad que en EE.UU.: es el mejor destino para vender volumen."
+  }
+ ],
+ "por_que_difieren": [
+  {
+   "factor": "Aranceles e impuestos",
+   "efecto": "El IVA (19% en Chile, 19–21% en la UE, 20% en el Reino Unido) se suma al precio final.",
+   "fuente": "aduana.cl / taxation-customs.ec.europa.eu"
+  },
+  {
+   "factor": "Logística y envío",
+   "efecto": "El costo de mover el producto desde Asia hacia mercados lejanos encarece el precio.",
+   "fuente": "eathealthy365"
+  },
+  {
+   "factor": "Tipo de cambio",
+   "efecto": "El precio local depende del dólar y de la paridad; hoy 1 USD = $981,61 CLP.",
+   "fuente": "mindicador.cl"
+  },
+  {
+   "factor": "Margen del retail local",
+   "efecto": "Cada eslabón de la cadena agrega margen: un auto de US$1,25 se vende a $1.990–$2.450 en Chile.",
+   "fuente": "eathealthy365 + littletoys.cl"
+  },
+  {
+   "factor": "Oferta y demanda local",
+   "efecto": "Lo que en EE.UU. es basura de estantería, en Chile puede no llegar nunca: la escasez local sube el precio.",
+   "fuente": "análisis propio a partir de los precios observados"
+  }
+ ],
+ "calculadora_canales": [
+  {
+   "mercado": "US",
+   "moneda": "USD",
+   "canal": "eBay EE.UU.",
+   "pct": 0.1325,
+   "fijo_usd": 0.4,
+   "tiempo_dias": [
+    7,
+    28
+   ],
+   "fuente": "ebay.com/sellercenter/selling/seller-fees"
+  },
+  {
+   "mercado": "US",
+   "moneda": "USD",
+   "canal": "Mercari",
+   "pct": 0.1,
+   "fijo_usd": 0.0,
+   "tiempo_dias": [
+    7,
+    21
+   ],
+   "fuente": "mercari.com help center"
+  },
+  {
+   "mercado": "US",
+   "moneda": "USD",
+   "canal": "Whatnot (en vivo)",
+   "pct": 0.109,
+   "fijo_usd": 0.3,
+   "tiempo_dias": [
+    0,
+    1
+   ],
+   "fuente": "fluf.io"
+  },
+  {
+   "mercado": "US",
+   "moneda": "USD",
+   "canal": "Facebook Marketplace",
+   "pct": 0.0,
+   "fijo_usd": 0.0,
+   "tiempo_dias": [
+    7,
+    21
+   ],
+   "fuente": "facebook.com/marketplace"
+  },
+  {
+   "mercado": "CL",
+   "moneda": "CLP",
+   "canal": "MercadoLibre Chile (Clásica ~12,5%)",
+   "pct": 0.125,
+   "fijo_usd": 0.713,
+   "tiempo_dias": [
+    7,
+    30
+   ],
+   "fuente": "mercadolibre.cl/ayuda + profitar.app/cl"
+  },
+  {
+   "mercado": "CL",
+   "moneda": "CLP",
+   "canal": "MercadoLibre Chile (Premium ~16%)",
+   "pct": 0.16,
+   "fijo_usd": 0.713,
+   "tiempo_dias": [
+    7,
+    30
+   ],
+   "fuente": "mercadolibre.cl/ayuda"
+  },
+  {
+   "mercado": "CL",
+   "moneda": "CLP",
+   "canal": "Facebook Marketplace Chile",
+   "pct": 0.0,
+   "fijo_usd": 0.0,
+   "tiempo_dias": [
+    7,
+    21
+   ],
+   "fuente": "facebook.com/marketplace"
+  },
+  {
+   "mercado": "CL",
+   "moneda": "CLP",
+   "canal": "Feria / persa (presencial)",
+   "pct": 0.0,
+   "fijo_usd": 0.0,
+   "tiempo_dias": [
+    1,
+    1
+   ],
+   "fuente": "práctica local"
+  },
+  {
+   "mercado": "UK",
+   "moneda": "GBP",
+   "canal": "eBay UK — particular",
+   "pct": 0.0,
+   "fijo_usd": 0.0,
+   "extra_pct": 0.025,
+   "tiempo_dias": [
+    7,
+    28
+   ],
+   "fuente": "ebay.co.uk/help/selling (private sellers)"
+  },
+  {
+   "mercado": "UK",
+   "moneda": "GBP",
+   "canal": "eBay UK — business (Collectables 10,9%)",
+   "pct": 0.109,
+   "fijo_usd": 0.529,
+   "tiempo_dias": [
+    7,
+    28
+   ],
+   "fuente": "ebay.co.uk/help/selling (business sellers)"
+  },
+  {
+   "mercado": "EU",
+   "moneda": "EUR",
+   "canal": "eBay DE — business (Collectables 10,9%)",
+   "pct": 0.109,
+   "fijo_usd": 0.34,
+   "tiempo_dias": [
+    7,
+    28
+   ],
+   "fuente": "ebay.co.uk/help/selling (business sellers)"
+  },
+  {
+   "mercado": "EU",
+   "moneda": "EUR",
+   "canal": "Catawiki / subasta especializada",
+   "pct": 0.12,
+   "fijo_usd": 0.0,
+   "tiempo_dias": [
+    14,
+    45
+   ],
+   "fuente": "no verificado — comisión de referencia"
+  }
+ ]
+}

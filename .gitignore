@@ -1,0 +1,8 @@
+# Secretos — NUNCA subir al repositorio
+.env
+supabase/.env
+*.env
+
+# Respaldos de base de datos
+*.sql.dump
+respaldo*.sql

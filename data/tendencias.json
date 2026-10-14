@@ -1,0 +1,656 @@
+{
+ "meta": {
+  "generado": "2026-10-11",
+  "moneda_base": "USD",
+  "tipo_cambio_clp": 981.61,
+  "nota": "Señales de demanda y precios observados en el mercado real. Cada fila lleva fuente y fecha. Los rankings de coleccionistas NO son precios de mercado secundario."
+ },
+ "demanda_coleccionistas": {
+  "fuente": "HW Price Guide (hwpriceguide.com) — datos reales de tracking de coleccionistas",
+  "metodologia": "Cuenta cuántos coleccionistas agregaron cada casting a su colección durante el mes. NO refleja precio de mercado secundario.",
+  "url": "https://hwpriceguide.com/article/top-20-most-collected-2026-hot-wheels-mainlines-february-2026/",
+  "enero_2026": [
+   {
+    "rank": 1,
+    "modelo": "Ferrari SF90 Stradale",
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "coleccionistas": 135,
+    "catalogo_ids": [
+     "2025-HYW34",
+     "2025-HYY08",
+     "2026-JJJ12",
+     "2026-JJK89"
+    ]
+   },
+   {
+    "rank": 2,
+    "modelo": "'87 Buick Regal GNX",
+    "grupo": "2026 Treasure Hunts",
+    "categoria": "Treasure Hunt",
+    "coleccionistas": 107,
+    "catalogo_ids": [
+     "2021-GTB43",
+     "2021-GTD44",
+     "2026-JJM00"
+    ]
+   },
+   {
+    "rank": 3,
+    "modelo": "Ferrari F40 Competizione",
+    "grupo": "2026 Super Treasure Hunts",
+    "categoria": "Super Treasure Hunt",
+    "coleccionistas": 57,
+    "catalogo_ids": [
+     "2025-HYW59",
+     "2025-JBB92"
+    ]
+   },
+   {
+    "rank": 4,
+    "modelo": "Ferrari 250 GTO & Fiat 642 RN2 Bartoletti Transporter",
+    "grupo": "2025 Car Culture Team Transport",
+    "categoria": "Car Culture Team Transport",
+    "coleccionistas": 57,
+    "catalogo_ids": []
+   },
+   {
+    "rank": 5,
+    "modelo": "1997 Toyota Supra",
+    "grupo": "2025 Red Line Club",
+    "categoria": "Red Line Club",
+    "coleccionistas": 52,
+    "catalogo_ids": [
+     "2022-HCV16",
+     "2023-HKG62",
+     "2023-HKG87",
+     "2023-HKL08",
+     "2024-HTB09",
+     "2024-HTF27",
+     "2026-JJK28",
+     "2026-JJK51",
+     "2026-JJM25"
+    ]
+   },
+   {
+    "rank": 6,
+    "modelo": "Toyota Supra",
+    "grupo": "7-Eleven",
+    "categoria": "Silver Series",
+    "coleccionistas": 50,
+    "catalogo_ids": [
+     "2022-HCV16",
+     "2023-HKG62",
+     "2023-HKG87",
+     "2023-HKL08",
+     "2024-HTB09",
+     "2024-HTF27",
+     "2026-JJK28",
+     "2026-JJK51",
+     "2026-JJM25"
+    ]
+   },
+   {
+    "rank": 7,
+    "modelo": "1967 Ferrari 330 P4",
+    "grupo": "Elite 64",
+    "categoria": "Elite 64",
+    "coleccionistas": 49,
+    "catalogo_ids": []
+   },
+   {
+    "rank": 8,
+    "modelo": "Ferrari F50",
+    "grupo": "2025 Timeless Icons",
+    "categoria": "Car Culture",
+    "coleccionistas": 41,
+    "catalogo_ids": []
+   },
+   {
+    "rank": 9,
+    "modelo": "1995 Mitsubishi Eclipse",
+    "grupo": "2026 Fast & Furious Premium",
+    "categoria": "Fast & Furious Premium",
+    "coleccionistas": 40,
+    "catalogo_ids": []
+   },
+   {
+    "rank": 10,
+    "modelo": "LaFerrari",
+    "grupo": "2025 Eurospeed",
+    "categoria": "Car Culture",
+    "coleccionistas": 39,
+    "catalogo_ids": []
+   }
+  ],
+  "febrero_2026": [
+   {
+    "rank": 1,
+    "modelo": "Ferrari SF90 Stradale",
+    "coleccionistas": 263,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2025-HYW34",
+     "2025-HYY08",
+     "2026-JJJ12",
+     "2026-JJK89"
+    ]
+   },
+   {
+    "rank": 2,
+    "modelo": "83 Chevy Silverado Black Widow",
+    "coleccionistas": 211,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2016-DHR93",
+     "2017-DTX78",
+     "2020-GHD76",
+     "2024-HTC67"
+    ]
+   },
+   {
+    "rank": 3,
+    "modelo": "Ford Mustang GTD",
+    "coleccionistas": 164,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2016-DHN93",
+     "2018-FJW44",
+     "2019-FYC31",
+     "2020-GHC22",
+     "2025-HYW19",
+     "2025-JBB93",
+     "2026-JJJ14",
+     "2026-JJM16"
+    ]
+   },
+   {
+    "rank": 4,
+    "modelo": "Ferrari F40 Competizione",
+    "coleccionistas": 162,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2025-HYW59",
+     "2025-JBB92"
+    ]
+   },
+   {
+    "rank": 5,
+    "modelo": "Ferrari 365 GTB4 Competizione",
+    "coleccionistas": 144,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2025-HYW48",
+     "2025-JBC19"
+    ]
+   },
+   {
+    "rank": 6,
+    "modelo": "Porsche 911 Carrera T Arctic Grey",
+    "coleccionistas": 131,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2026-JJH33"
+    ]
+   },
+   {
+    "rank": 7,
+    "modelo": "Datsun 240Z",
+    "coleccionistas": 130,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2017-DTW89",
+     "2018-FJX64"
+    ]
+   },
+   {
+    "rank": 8,
+    "modelo": "Pass n Go",
+    "coleccionistas": 125,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": []
+   },
+   {
+    "rank": 9,
+    "modelo": "La Liebre",
+    "coleccionistas": 119,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2026-JJH36",
+     "2026-JJK77"
+    ]
+   },
+   {
+    "rank": 10,
+    "modelo": "Optimus Prime Red",
+    "coleccionistas": 114,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2026-JJJ00"
+    ]
+   },
+   {
+    "rank": 11,
+    "modelo": "Ferrari 12Cilindri",
+    "coleccionistas": 111,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": []
+   },
+   {
+    "rank": 12,
+    "modelo": "17 Audi RS 6 Avant Yellow",
+    "coleccionistas": 109,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": []
+   },
+   {
+    "rank": 13,
+    "modelo": "Porsche 911 Turbo Cabriolet",
+    "coleccionistas": 108,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2025-HYW37"
+    ]
+   },
+   {
+    "rank": 14,
+    "modelo": "McLaren Formula 1 Team",
+    "coleccionistas": 102,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2026-JJH95"
+    ]
+   },
+   {
+    "rank": 15,
+    "modelo": "Pagani Zonda Cinque",
+    "coleccionistas": 101,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2026-JJH34",
+     "2026-JJK75",
+     "2026-JJM32"
+    ]
+   },
+   {
+    "rank": 16,
+    "modelo": "67 Camaro Metalflake Gold",
+    "coleccionistas": 98,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": []
+   },
+   {
+    "rank": 17,
+    "modelo": "Bugatti Bolide",
+    "coleccionistas": 97,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2023-HKG64",
+     "2024-HTC22",
+     "2024-HTF08"
+    ]
+   },
+   {
+    "rank": 18,
+    "modelo": "16 Lamborghini Centenario Roadster Yellow",
+    "coleccionistas": 95,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": []
+   },
+   {
+    "rank": 19,
+    "modelo": "70 Dodge Hemi Challenger",
+    "coleccionistas": 86,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": [
+     "2025-HYY96",
+     "2026-JJJ07",
+     "2026-JJK79",
+     "2026-JJM38"
+    ]
+   },
+   {
+    "rank": 20,
+    "modelo": "HW KITT Concept",
+    "coleccionistas": 84,
+    "grupo": "2026 Mainline",
+    "categoria": "Mainline",
+    "catalogo_ids": []
+   }
+  ]
+ },
+ "precios_chile": {
+  "fuente": "minidiecast.cl — tienda especializada chilena (Hot Wheels Premium / STH / RLC)",
+  "url": "https://www.minidiecast.cl/hot-wheels-premium",
+  "moneda": "CLP",
+  "fecha_dato": "2026-10-11",
+  "nota": "Precios de LISTA de una tienda chilena especializada (asking), no ventas cerradas. En Chile el STH se paga entre $15.000 y $100.000 CLP según el casting.",
+  "items": [
+   {
+    "modelo": "HW STH Riley & Scott MK III",
+    "linea": "Super Treasure Hunt",
+    "clp": 15000,
+    "usd": 15.28
+   },
+   {
+    "modelo": "HW STH 1968 Cougar",
+    "linea": "Super Treasure Hunt",
+    "clp": 20000,
+    "usd": 20.37
+   },
+   {
+    "modelo": "HW STH 1957 Chevy",
+    "linea": "Super Treasure Hunt",
+    "clp": 25000,
+    "usd": 25.47
+   },
+   {
+    "modelo": "HW STH 1970 Plymouth Barracuda",
+    "linea": "Super Treasure Hunt",
+    "clp": 30000,
+    "usd": 30.56
+   },
+   {
+    "modelo": "HW 2011 Super Treasure Hunt '68 Olds",
+    "linea": "Super Treasure Hunt",
+    "clp": 35000,
+    "usd": 35.66
+   },
+   {
+    "modelo": "Hot Wheels 2012 Stockcar Series",
+    "linea": "Premium",
+    "clp": 40000,
+    "usd": 40.75
+   },
+   {
+    "modelo": "Hot Wheels STH Chaparral 2",
+    "linea": "Super Treasure Hunt",
+    "clp": 40000,
+    "usd": 40.75
+   },
+   {
+    "modelo": "HW STH 1971 Buick Riviera Real Riders",
+    "linea": "Super Treasure Hunt",
+    "clp": 40000,
+    "usd": 40.75
+   },
+   {
+    "modelo": "HW STH Dodge Challenger Funny Car",
+    "linea": "Super Treasure Hunt",
+    "clp": 40000,
+    "usd": 40.75
+   },
+   {
+    "modelo": "Hot Wheels 2011 Real Riders Tail",
+    "linea": "Real Riders",
+    "clp": 45000,
+    "usd": 45.84
+   },
+   {
+    "modelo": "HW STH 1971 Mustang Mach 1",
+    "linea": "Super Treasure Hunt",
+    "clp": 45000,
+    "usd": 45.84
+   },
+   {
+    "modelo": "HW 09 Corvette ZR1 Super Treasure Hunt",
+    "linea": "Super Treasure Hunt",
+    "clp": 50000,
+    "usd": 50.94
+   },
+   {
+    "modelo": "HW 2009 RLC Large And In Charger",
+    "linea": "Red Line Club",
+    "clp": 50000,
+    "usd": 50.94
+   },
+   {
+    "modelo": "HW 2006 6th Nationals Olds 442 Gold",
+    "linea": "Convention",
+    "clp": 60000,
+    "usd": 61.12
+   },
+   {
+    "modelo": "HW 18th Annual CC Custom Mustang",
+    "linea": "Convention",
+    "clp": 70000,
+    "usd": 71.31
+   },
+   {
+    "modelo": "HW Neo Classic Shelby Cobra 427 SC",
+    "linea": "Premium",
+    "clp": 80000,
+    "usd": 81.5
+   },
+   {
+    "modelo": "HW STH '70 Plymouth Superbird",
+    "linea": "Super Treasure Hunt",
+    "clp": 100000,
+    "usd": 101.87
+   },
+   {
+    "modelo": "HW 9th Nationals '65 Mustang Fastback",
+    "linea": "Convention",
+    "clp": 120000,
+    "usd": 122.25
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Set 5 autos Car Culture",
+    "linea": "Car Culture (set 5)",
+    "clp": 47000,
+    "usd": 47.88
+   },
+   {
+    "modelo": "Hot Wheels Premium 1:64 Car Culture",
+    "linea": "Car Culture",
+    "clp": 40000,
+    "usd": 40.75
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Car Cultures 2023",
+    "linea": "Car Culture (set 5)",
+    "clp": 49000,
+    "usd": 49.92
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Fast & Furious Premium",
+    "linea": "Fast & Furious Premium",
+    "clp": 40000,
+    "usd": 40.75
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Car Culture 2024",
+    "linea": "Car Culture (set 5)",
+    "clp": 46000,
+    "usd": 46.86
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Fast & Furious Premium 2025",
+    "linea": "Fast & Furious Premium",
+    "clp": 55000,
+    "usd": 56.03
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Car Culture 10th Anniversary 2026 V Case Road Trip (Chase)",
+    "linea": "Car Culture Chase",
+    "clp": 130000,
+    "usd": 132.44
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Set 10 autos Fast & Furious 7 Premium case",
+    "linea": "Fast & Furious Premium (10)",
+    "clp": 130000,
+    "usd": 132.44
+   },
+   {
+    "modelo": "2025 Hot Wheels RLC Collectors Formula 1",
+    "linea": "Red Line Club",
+    "clp": 90000,
+    "usd": 91.69
+   },
+   {
+    "modelo": "Hot Wheels 1:64 Team Transport 2024 D Case Fleet Street",
+    "linea": "Team Transport",
+    "clp": 27000,
+    "usd": 27.51
+   }
+  ]
+ },
+ "ebay_observado": {
+  "fuente": "eBay (listados observados vía búsqueda web)",
+  "fecha_dato": "2026-10-11",
+  "nota": "Precios PEDIDOS (asking) en listados activos, no ventas cerradas. eBay cerró findCompletedItems en feb-2025.",
+  "items": [
+   {
+    "modelo": "'99 Honda Civic Type R (EK9) STH 2022",
+    "condicion": "carded",
+    "usd_min": 200,
+    "usd_max": 798,
+    "nota": "varios listados: $798, $550, $299.95, $200; uno loose a $75"
+   },
+   {
+    "modelo": "'71 El Camino STH",
+    "condicion": "carded",
+    "usd_min": 34,
+    "usd_max": 36,
+    "nota": "listados 2024"
+   },
+   {
+    "modelo": "2025 STH '71 Mustang Funny Car",
+    "condicion": "carded",
+    "usd_min": 95,
+    "usd_max": 95,
+    "nota": "47 watchers"
+   },
+   {
+    "modelo": "Treasure Hunt (categoría general)",
+    "condicion": "carded",
+    "usd_min": 2.49,
+    "usd_max": 13.99,
+    "nota": "rango típico; outliers hasta $429"
+   },
+   {
+    "modelo": "STH 2026 Pontiac Firebird 400",
+    "condicion": "carded",
+    "usd_min": 51.3,
+    "usd_max": 51.3,
+    "nota": "eBay UK £38,82"
+   },
+   {
+    "modelo": "Lote 30 autos (joblot)",
+    "condicion": "nuevo",
+    "usd_min": 47.2,
+    "usd_max": 47.2,
+    "nota": "eBay UK £35,70 → £1,19 por auto"
+   },
+   {
+    "modelo": "Lote 50 autos (clearance joblot)",
+    "condicion": "nuevo",
+    "usd_min": 112.4,
+    "usd_max": 112.4,
+    "nota": "eBay UK £85 → £1,70 por auto"
+   }
+  ]
+ },
+ "mercadolibre_cl": {
+  "estado": "EXTRACCIÓN AUTOMÁTICA BLOQUEADA",
+  "detalle": "MercadoLibre Chile devuelve muro de login ('negative_traffic') a cualquier acceso automatizado sin sesión, y su API pública exige token de aplicación. Se necesita token oficial (developers.mercadolibre.cl) o un colector con navegador desde una IP residencial con sesión iniciada.",
+  "terminos_mas_buscados": [
+   "hot wheels",
+   "hot wheels premium",
+   "miniaturas hot wheels",
+   "autos hot wheels",
+   "hot wheels colección"
+  ],
+  "fuente_terminos": "listado.mercadolibre.cl (bloques 'Productos más buscados' y 'Los autos en miniatura más vendidos')",
+  "precios_retail_cl": [
+   {
+    "item": "Auto básico",
+    "clp": 1990,
+    "fuente": "littletoys.cl"
+   },
+   {
+    "item": "Auto básico",
+    "clp": 2450,
+    "fuente": "isatoyschile.cl"
+   },
+   {
+    "item": "Pack 5 autos",
+    "clp": 9990,
+    "fuente": "littletoys.cl / Lider.cl"
+   },
+   {
+    "item": "Car Culture",
+    "clp": 6290,
+    "fuente": "super.lider.cl"
+   },
+   {
+    "item": "Boulevard",
+    "clp": 7990,
+    "fuente": "super.lider.cl"
+   },
+   {
+    "item": "Collector F&F Datsun",
+    "clp": 10990,
+    "fuente": "isatoyschile.cl"
+   }
+  ]
+ },
+ "cobertura_y_limites": [
+  {
+   "marketplace": "MercadoLibre Chile",
+   "automatizable": "Solo con token de API o navegador con sesión",
+   "obtenido": "términos más buscados + precios retail locales",
+   "bloqueo": "muro de login para accesos automatizados"
+  },
+  {
+   "marketplace": "eBay",
+   "automatizable": "API Browse con clave gratuita (solo listados activos)",
+   "obtenido": "listados observados de STH/TH y lotes",
+   "bloqueo": "páginas de búsqueda bloqueadas a bots; sin ventas cerradas desde feb-2025"
+  },
+  {
+   "marketplace": "Facebook Marketplace",
+   "automatizable": "No (requiere sesión; sin API pública de búsqueda)",
+   "obtenido": "—",
+   "bloqueo": "login obligatorio"
+  },
+  {
+   "marketplace": "TikTok (Shop/videos)",
+   "automatizable": "No (sin API pública de búsqueda de productos)",
+   "obtenido": "—",
+   "bloqueo": "contenido dinámico + sin API"
+  },
+  {
+   "marketplace": "hwpriceguide.com",
+   "automatizable": "Parcial (artículos públicos)",
+   "obtenido": "ranking real de demanda de coleccionistas (enero y febrero 2026)",
+   "bloqueo": "—"
+  },
+  {
+   "marketplace": "Tiendas especializadas chilenas",
+   "automatizable": "Sí (HTML simple)",
+   "obtenido": "precios reales en CLP de STH, RLC y Car Culture",
+   "bloqueo": "—"
+  }
+ ]
+}

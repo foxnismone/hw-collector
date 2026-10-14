@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "descripcion": "Datos históricos, curiosidades y contexto de modelos icónicos de Hot Wheels. Fuente: Hot Wheels Wiki (Fandom), libros oficiales y documentación de Mattel.",
+    "licencia": "CC BY-SA 3.0 (atribución a Hot Wheels Wiki)",
+    "actualizado": "2026-10-12"
+  },
+  "modelos": {
+    "Bone Shaker": {
+      "historia": "Introducido en 2006, diseñado por Larry Wood. Uno de los castings más populares de la historia reciente. Su motor expuesto y carrocería esquelética lo convirtieron en un ícono instantáneo.",
+      "creacion": "Diseñado por Larry Wood, quien se inspiró en hot rods de drag racing de los años 60.",
+      "conmemorativo": false,
+      "curiosidades": [
+        "Su nombre significa 'sacudidor de huesos' por la vibración de su motor V8 expuesto.",
+        "Apareció en la película 'Cars' de Pixar como personaje secundario.",
+        "En 2006, un prototipo vendió por más de US$10.000 en eBay.",
+        "Tiene 23 variantes de color diferentes entre 2006 y 2024."
+      ],
+      "dato_clave": "Larry Wood es uno de los diseñadores más prolíficos de Hot Wheels, con más de 200 castings a su nombre."
+    },
+    "Twin Mill": {
+      "historia": "Diseñado en 1969 por Ira Gilford, es uno de los 16 'Sweet Sixteen' originales de Hot Wheels. Su diseño con dos motores lo hizo único.",
+      "creacion": "Ira Gilford, diseñador de Mattel, se inspiró en los hot rods de doble motor de la era espacial.",
+      "conmemorativo": false,
+      "curiosidades": [
+        "Uno de los 16 modelos originales de 1969 (los 'Sweet Sixteen').",
+        "Su nombre 'Twin Mill' significa 'doble molino' por sus dos motores.",
+        "En 2009, Mattel celebró su 40º aniversario con una reedición especial.",
+        "El diseño original tenía un techo transparente que mostraba los motores."
+      ],
+      "dato_clave": "Los Sweet Sixteen originales de 1969 son los modelos más valiosos de Hot Wheels. Un Twin Mill en perfecto estado puede superar los US$100.000."
+    },
+    "Deora II": {
+      "historia": "Diseñado por Nathan Proch, basado en un vehículo conceptual real del mismo nombre. Es uno de los castings más reconocidos del siglo XXI.",
+      "creacion": "Nathan Proch diseñó el Deora II en 2000 para la línea 'Concept Cars' de Mattel.",
+      "conmemorativo": false,
+      "curiosidades": [
+        "El Deora original (1968) fue diseñado por Harry Bentley Bradley.",
+        "El Deora II tiene una tabla de surf trasera que se abre para revelar la cabina.",
+        "Apareció en la serie 'Hot Wheels World Race' de 2003.",
+        "En 2017, se lanzó una versión 'Deora III' con diseño futurista."
+      ],
+      "dato_clave": "La familia Deora es una de las pocas que tiene tres generaciones oficiales de diseño."
+    },
+    "Rodger Dodger": {
+      "historia": "Lanzado en 2000, diseñado por Larry Wood. Su motor V8 masivo que sobresale de la carrocería lo convirtió en un favorito instantáneo de los niños.",
+      "creacion": "Larry Wood, inspirado en los muscle cars de los años 70.",
+      "conmemorativo": false,
+      "curiosidades": [
+        "Su motor ocupa más del 50% del vehículo.",
+        "En 2003, se lanzó una versión 'Rodger Dodge' como broma interna de Mattel.",
+        "Apareció en numerosos videojuegos de Hot Wheels.",
+        "Tiene 35+ variantes de color desde 2000."
+      ],
+      "dato_clave": "Larry Wood también diseñó el Bone Shaker y el Twin Mill, tres de los castings más icónicos de Hot Wheels."
+    },
+    "Baja Truck": {
+      "historia": "Introducido en 2007, inspirado en las camionetas de carrera Baja 1000. Es uno de los modelos más grandes y detallados de la línea Mainline.",
+      "creacion": "Diseñado para capturar la esencia del off-road racing.",
+      "conmemorativo": false,
+      "curiosidades": [
+        "Su diseño está basado en las camionetas Trophy Truck de la Baja 1000.",
+        "Tiene suspensión funcional con ejes que se mueven.",
+        "En 2012, se lanzó una versión 'Baja Truck 2' con mejoras.",
+        "Es uno de los modelos más pesados de la línea Mainline estándar."
+      ],
+      "dato_clave": "Las camionetas Baja son las más rápidas en el desierto, alcanzando velocidades de 160 km/h."
+    },
+    "Ford Mustang GTD": {
+      "historia": "El Mustang GTD es la versión más extrema del Mustang, diseñada para la pista con tecnología de carrera. Su versión Hot Wheels fue Super Treasure Hunt 2026.",
+      "creacion": "Ford Performance, basado en el programa de carrera GT3.",
+      "conmemorativo": true,
+      "curiosidades": [
+        "El GTD significa 'Gran Turismo Daytona', inspired in las 24 Horas de Daytona.",
+        "Tiene un motor V8 de 5.2 litros con más de 800 caballos de fuerza.",
+        "Solo se fabrican 2.000 unidades del modelo real.",
+        "Su versión Hot Wheels STH 2026 tiene el precio de reventa más alto del año."
+      ],
+      "dato_clave": "El GTD es el primer Mustang con alerón activo y aerodinámica de competición."
+    },
+    "Drift-Ender": {
+      "historia": "Diseñado como Super Treasure Hunt 2026, inspirado en los coches de drift japoneses. Su diseño aerodinámico y espectacular lo convirtió en el STH más buscado del año.",
+      "creacion": "Equipo de diseño de Mattel, inspirado en la cultura del drift y el tuning japonés.",
+      "conmemorativo": true,
+      "curiosidades": [
+        "Es el Super Treasure Hunt más valioso de 2026.",
+        "Su diseño incluye un alerón trasero masivo y kit de carrocería agresivo.",
+        "Solo aparece en 1 de cada 20.000 cajas aproximadamente.",
+        "En eBay, los precios de reventa superan los US$250."
+      ],
+      "dato_clave": "El Drift-Ender fue diseñado por el mismo equipo que creó el Hammerhead."
+    },
+    "Hammerhead": {
+      "historia": "Diseñado por Tony Wu, lanzado en 2014. Su diseño inspirado en martillos y coches de carrera lo hizo único.",
+      "creacion": "Tony Wu, diseñador de Mattel especializado en vehículos fantásticos.",
+      "conmemorativo": false,
+      "curiosidades": [
+        "Su nombre viene de la forma de martillo de la parte delantera.",
+        "Tiene 20+ variantes de color desde 2014.",
+        "Apareció en la serie 'Hot Wheels Battle Force 5'.",
+        "El diseño original era mucho más agresivo que el modelo final."
+      ],
+      "dato_clave": "Tony Wu también diseñó el 'Sharkruiser' y el 'Silencer'."
+    },
+    "Nissan Skyline GT-R (BNR34)": {
+      "historia": "El R34 Skyline es uno de los coches japoneses más icónicos de la historia. Su versión Hot Wheels ha sido lanzada múltiples veces desde 2011.",
+      "creacion": "Nissan, diseñado por Kozo Watanabe para la quinta generación del Skyline GT-R.",
+      "conmemorativo": false,
+      "curiosidades": [
+        "Conocido como 'Godzilla' en Australia por su dominio en las carreras.",
+        "El R34 tiene el motor RB26DETT, uno de los motores más famosos de la historia.",
+        "Solo se fabricaron 13.045 unidades del V-Spec II Nür.",
+        "Su versión Hot Wheels más valiosa es la de 2011 en color Bayside Blue."
+      ],
+      "dato_clave": "El R34 es el último Skyline GT-R antes de que la línea se separara del GT-R."
+    },
+    "Toyota AE86 Sprinter Trueno": {
+      "historia": "El AE86 es legendario por su papel en el manga 'Initial D' y su manejo perfecto. Su versión Hot Wheels es una de las más buscadas por los fans del anime.",
+      "creacion": "Toyota, diseñado por Tetsuya Tada (también creador del GT86).",
+      "conmemorativo": false,
+      "curiosidades": [
+        "Conocido como 'Hachi-Roku' (ocho-seis) en japonés.",
+        "Es tracción trasera con reparto de peso 50:50.",
+        "En 'Initial D', el personaje Takumi Fujiwara lo usa para repartir tofu.",
+        "Su versión Hot Wheels más buscada es la de 2013 en color blanco y negro."
+      ],
+      "dato_clave": "El AE86 es el coche más asociado con la cultura del drift en todo el mundo."
+    }
+  }
+}
