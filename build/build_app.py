@@ -1060,10 +1060,10 @@ async function agregarEscaneado(id){
 
 async function buscarEnInternet(codigo){
   const res=document.getElementById('scanresult');
-  res.innerHTML='<div class="note">🔍 Buscando en internet...<br><br>Ejecutá el scraper de rescate:</div>';
-  res.innerHTML+='<pre class="note" style="background:var(--elev);padding:8px;border-radius:4px;overflow-x:auto">python build/scraper_rescate.py "'+codigo+'"</pre>';
-  res.innerHTML+='<div class="note" style="margin-top:8px">El scraper buscará en SmartWheelers, HW Wiki, HW Price Guide, eBay y Mercado Libre.</div>';
-  logMsg('i','Scraping de rescate para: '+codigo);
+  logMsg('i','🔍 Scraping de rescate para: '+codigo);
+  res.innerHTML='<div class="note">🔍 Buscando en internet...<br><br>Ejecutá el scraper de rescate en tu PC:</div>';
+  res.innerHTML+='<pre class="note" style="background:var(--elev);padding:8px;border-radius:4px;overflow-x:auto;font-size:12px">python build/scraper_rescate.py "'+codigo+'"</pre>';
+  res.innerHTML+='<div class="note" style="margin-top:8px">El scraper buscará en SmartWheelers, HW Wiki, HW Price Guide, Reddit, eBay y Mercado Libre.<br><br>Si el scraper encuentra el modelo, los datos se guardan en caché por 7 días.</div>';
 }
 
 function agregarManual(codigo){
