@@ -28,6 +28,7 @@ OWNED = load("owned_collection.json")
 MKT = load("mercados.json")
 SEG = load("seguimiento.json")
 TEND = load("tendencias.json")
+DISEN = load("disenadores.json") if os.path.exists(os.path.join(ROOT, "data", "disenadores.json")) else {}
 CAJ = load("cajas.json")
 HIST = load("historias.json")
 IDXI = load("indice.json")
@@ -211,7 +212,7 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 
 JS = r"""
 /* ===== datos embebidos ===== */
-const CAT=__CAT__, PRE=__PRE__, OWNED_DEMO=__OWNED__, MKT=__MKT__, SEG=__SEG__, TEND=__TEND__, CAJ=__CAJ__, IDXINFO=__IDXI__, HIST=__HIST__;
+const CAT=__CAT__, PRE=__PRE__, OWNED_DEMO=__OWNED__, MKT=__MKT__, SEG=__SEG__, TEND=__TEND__, CAJ=__CAJ__, IDXINFO=__IDXI__, HIST=__HIST__, DISENADORES=__DISENADORES__;
 const CASEBY={};
 Object.keys(CAJ.cajas_por_anio).forEach(function(y){ (CAJ.cajas_por_anio[y]||[]).forEach(function(c){
   ["TH","STH"].forEach(function(t){ if(c[t]&&c[t].catalogo_id) CASEBY[c[t].catalogo_id]={letra:c.letra,anio:y,tipo:t}; }); }); });
@@ -363,6 +364,8 @@ function drawer(id){
   const bc=bestChannels(mid,3);
   const f=c.ficha||{}, vm=c.valores_mercado||{}, idx=c.indice_coleccionabilidad;
   const catDesc=c.categoria_descripcion?'<div class="note" style="margin-top:6px;font-size:11px;color:var(--muted)">'+c.categoria_descripcion+'</div>':'';
+  const disenador=c.diseñador?DISENADORES[c.diseñador]:null;
+  const disHTML=disenador?`<div class="sec" style="border:1px solid var(--brand);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Diseñador</h3><div style="font-size:16px;font-weight:600">${c.diseñador}</div><div class="note" style="margin-bottom:6px"><b>Nacionalidad:</b> ${disenador.nacionalidad}</div>${disenador.periodo?`<div class="note" style="margin-bottom:6px"><b>Período:</b> ${disenador.periodo}</div>`:''}${disenador.biografia_limpia?`<div class="note" style="margin-top:6px;font-size:12px;line-height:1.5">${disenador.biografia_limpia}</div>':''}</div>`:'';
   const fichaHTML=(f.descripcion||f.historia||f.curiosidades)?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Ficha del modelo</h3>${f.descripcion?'<div style="margin-bottom:6px"><b>Descripción:</b> '+f.descripcion+'</div>':''}${f.historia?'<div style="margin-bottom:6px"><b>Historia:</b> '+f.historia+'</div>':''}${f.curiosidades?'<div style="margin-bottom:6px"><b>Curiosidades:</b> '+f.curiosidades+'</div>':''}${f.conmemorativo?'<div style="margin-bottom:6px"><b>Conmemorativo:</b> Sí</div>':''}${f.dato_clave?'<div><b>Dato clave:</b> '+f.dato_clave+'</div>':''}${catDesc}</div>`:'';
   const idxHTML=idx?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Índice de coleccionabilidad</h3><div style="font-size:24px;font-weight:700;color:var(--brand)">${idx}</div><div class="note">de 100</div></div>`:'';
   const vmHTML=vm.usd?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Valores de mercado</h3><div style="font-size:13px"><b>USD:</b> $${vm.usd} · <b>CLP:</b> $${vm.clp} · <b>EUR:</b> €${vm.eur}</div><div class="note" style="font-size:10px;margin-top:4px">Fuente: ${vm.fuente||'Cálculo automático'} · ${vm.fecha||''}</div></div>`:'';
@@ -371,7 +374,7 @@ function drawer(id){
     <div class="dh"><img src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">
       <div><h2>${c.m}</h2>
         <div class="mt">${c.y} · Nº de colección ${c.c} · Toy # ${c.t}</div>
-        ${fichaHTML}${idxHTML}${vmHTML}
+        ${disHTML}${fichaHTML}${idxHTML}${vmHTML}
        <div class="mt">${c.s} ${c.n?"("+c.n+")":""}</div>
        <div class="mt">${CLS[c.k].t}${c.nuevo?" · Nuevo modelo":""}${c.variante?" · Variante de color":""}</div></div></div>
    <div class="kv">
@@ -2188,6 +2191,7 @@ def page(title, mode):
             .replace("__CAJ__", json.dumps(CAJ, ensure_ascii=False, separators=(",", ":")))
             .replace("__IDXI__", json.dumps(IDXI, ensure_ascii=False, separators=(",", ":")))
             .replace("__HIST__", json.dumps(HIST, ensure_ascii=False, separators=(",", ":")))
+            .replace("__DISENADORES__", json.dumps(DISEN, ensure_ascii=False, separators=(",", ":")))
             .replace("__MKT__", json.dumps(MKT, ensure_ascii=False, separators=(",", ":")))}</script>
 </body></html>"""
 
