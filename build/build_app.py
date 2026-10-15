@@ -308,6 +308,7 @@ function filtered(){
     if(state.year&&String(c.y)!==state.year) return false;
     if(state.clase&&c.k!==state.clase) return false;
     if(state.serie&&c.s!==state.serie) return false;
+    if(state.cat&&!(c.categorias_fandom||[]).some(x=>x.startsWith(state.cat+':'))) return false;
     if(state.trending&&!DEM[c.i]) return false;
     if(q&&!(c.m.toLowerCase().includes(q)||c.s.toLowerCase().includes(q)||String(c.t).toLowerCase().includes(q))) return false;
     return true;});
@@ -1676,10 +1677,13 @@ function initPage(){
   if(selY) selY.innerHTML=`<option value="">Todos los años</option>`+ys.map(y=>`<option value="${y}">${y}</option>`).join("");
   const ss=[...new Set(CAT.map(c=>c.s))].sort(), selS=document.getElementById("fserie");
   if(selS) selS.innerHTML=`<option value="">Todas las series</option>`+ss.map(s=>`<option value="${s}">${s}</option>`).join("");
+  const cats=[...new Set(CAT.flatMap(c=>(c.categorias_fandom||[]).map(x=>x.split(':')[0])))].sort(), selC=document.getElementById("fcat");
+  if(selC) selC.innerHTML=`<option value="">Todas las categorías</option>`+cats.map(c=>`<option value="${c}">${c}</option>`).join("");
   document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>tabTo(b.dataset.tab));
   const sq=document.getElementById("q"); if(sq) sq.oninput=()=>{state.q=sq.value;render(true);};
   if(selY) selY.onchange=()=>{state.year=selY.value;render(true);};
   if(selS) selS.onchange=()=>{state.serie=selS.value;render(true);};
+  if(selC) selC.onchange=()=>{state.cat=selC.value;render(true);};
   const so=document.getElementById("fsort"); if(so) so.onchange=()=>{state.sort=so.value;render(true);};
   document.querySelectorAll(".chip[data-clase]").forEach(ch=>ch.onclick=()=>{
     state.clase=(state.clase===ch.dataset.clase)?"":ch.dataset.clase;
@@ -1980,7 +1984,7 @@ def page(title, mode):
 <section data-view="catalogo" style="display:{'block' if default=='catalogo' else 'none'}">
   <div class="filters" style="border:1px solid var(--line);margin-bottom:14px">
     <input type="search" id="q" placeholder="Buscar modelo, serie o toy # (ej: Skyline, El Camino, JBC20)">
-    <select id="fyear"></select><select id="fserie"></select>
+    <select id="fyear"></select><select id="fserie"></select><select id="fcat"></select>
     <select id="fsort"><option value="rel">Orden: año / nº</option><option value="ind">Índice ↓</option><option value="val">Valor ↓</option></select>
     <div class="chips">
       <button class="chip" data-clase="Mainline" aria-pressed="false">Mainline</button>
