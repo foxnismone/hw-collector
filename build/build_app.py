@@ -567,7 +567,7 @@ function responder(txt){
       "Fuente: Hot Wheels Wiki (catálogo) + rangos por clase (confianza baja)");
     tts(`${c.m}, año ${c.y}. Índice ${c.x}. Entre ${hablarMoneda(c.v)} y ${hablarMoneda(c.V)}.`);return;
   }
-  logMsg("a","No encontré ese modelo en el catálogo de 2.644 registros (1968-2027). Probá con el nombre exacto: <i>Skyline</i>, <i>El Camino</i>, <i>Mustang GTD</i>. También podés preguntar cuánto pago de impuestos si lo traigo o dónde conviene vender.");
+  logMsg("a","No encontré ese modelo en el catálogo de 4.214 registros (1968-2027). Probá con el nombre exacto: <i>Skyline</i>, <i>El Camino</i>, <i>Mustang GTD</i>. También podés preguntar cuánto pago de impuestos si lo traigo o dónde conviene vender.");
   if(iaKey()) preguntarIA(txt);
 }
 
@@ -599,7 +599,7 @@ async function preguntarIA(texto){
   }
   logMsg("i","Consultando a la IA…");
   const c=buscar(texto);
-  const sys="Sos un asistente experto en Hot Wheels para un coleccionista chileno. Respondés en español de Chile, breve (máximo 120 palabras), con datos concretos y sin relleno. NO inventes precios ni datos: si no sabés algo, decilo. Rangos reales de referencia: Mainline US$1-5, Treasure Hunt US$5-20, Super Treasure Hunt US$85-250. El catálogo del usuario tiene 2.644 registros (1968-2027). "+contextoAuto(c);
+  const sys="Sos un asistente experto en Hot Wheels para un coleccionista chileno. Respondés en español de Chile, breve (máximo 120 palabras), con datos concretos y sin relleno. NO inventes precios ni datos: si no sabés algo, decilo. Rangos reales de referencia: Mainline US$1-5, Treasure Hunt US$5-20, Super Treasure Hunt US$85-250. El catálogo del usuario tiene 4.214 registros (1968-2027). "+contextoAuto(c);
   try{
     const r=await fetch(GROQ_URL,{method:"POST",
       headers:{"Content-Type":"application/json","Authorization":"Bearer "+key},
@@ -2086,7 +2086,7 @@ def page(title, mode):
       Responde SOLO con datos del catálogo, precios y mercados con fuente; nunca inventa valores. Entiende preguntas en pesos, dólares o euros.</div>
     <div class="log" id="log"><div class="msg a">Hola. Probá: <i>“cuántos autos tengo”</i>, <i>“cuánto vale el Skyline en pesos”</i>,
       <i>“qué trae la caja A de 2026”</i>, <i>“qué significa el código M36”</i> o <i>“dónde conviene vender”</i>.
-      <span class="src">Catálogo: Hot Wheels Wiki (2.644 registros 1968-2027) · Precios y mercados: research/02 + data/mercados.json</span></div></div>
+      <span class="src">Catálogo: Hot Wheels Wiki (4.214 registros 1968-2027) · Precios y mercados: research/02 + data/mercados.json</span></div></div>
     <div class="rowin"><input type="text" id="q2" placeholder="Escribí tu pregunta…"><button class="btn" id="talkbtn">Hablar</button></div>
   </div>
 </section>"""
