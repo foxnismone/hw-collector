@@ -106,8 +106,8 @@ def main():
     modelos_sin_imagen = [c for c in catalogo if not c.get('im')]
     print(f"Modelos sin imagen: {len(modelos_sin_imagen)}")
     
-    # Limitar a los primeros 50 para no sobrecargar
-    modelos_a_buscar = modelos_sin_imagen[:50]
+    # Buscar imágenes para todos los modelos sin imagen
+    modelos_a_buscar = modelos_sin_imagen
     
     encontradas = 0
     for i, modelo in enumerate(modelos_a_buscar):

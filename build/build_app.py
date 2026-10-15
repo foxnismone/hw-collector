@@ -1672,7 +1672,7 @@ function initPWA(){
 function refreshAll(){ if(state.tab==="coleccion") renderCol(); const t=document.getElementById("totcol"); if(t) t.textContent=colCount(); }
 function initPage(){
   loadCol(); initCur();
-  const ys=[...new Set(CAT.map(c=>c.y))].sort((a,b)=>b-a), selY=document.getElementById("fyear");
+  const ys=[...new Set(CAT.map(c=>c.y).filter(y=>y!=null))].sort((a,b)=>b-a), selY=document.getElementById("fyear");
   if(selY) selY.innerHTML=`<option value="">Todos los años</option>`+ys.map(y=>`<option value="${y}">${y}</option>`).join("");
   const ss=[...new Set(CAT.map(c=>c.s))].sort(), selS=document.getElementById("fserie");
   if(selS) selS.innerHTML=`<option value="">Todas las series</option>`+ss.map(s=>`<option value="${s}">${s}</option>`).join("");
