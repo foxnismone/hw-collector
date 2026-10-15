@@ -365,7 +365,14 @@ function drawer(id){
   const f=c.ficha||{}, vm=c.valores_mercado||{}, idx=c.indice_coleccionabilidad;
   const catDesc=c.categoria_descripcion?'<div class="note" style="margin-top:6px;font-size:11px;color:var(--muted)">'+c.categoria_descripcion+'</div>':'';
   const disenador=c.diseñador?DISENADORES[c.diseñador]:null;
-  const disHTML=disenador?`<div class="sec" style="border:1px solid var(--brand);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Diseñador</h3><div style="font-size:16px;font-weight:600">${c.diseñador}</div><div class="note" style="margin-bottom:6px"><b>Nacionalidad:</b> ${disenador.nacionalidad}</div>${disenador.periodo?`<div class="note" style="margin-bottom:6px"><b>Período:</b> ${disenador.periodo}</div>`:''}${disenador.biografia_limpia?`<div class="note" style="margin-top:6px;font-size:12px;line-height:1.5">${disenador.biografia_limpia}</div>':''}</div>`:'';
+  let disHTML='';
+  if(disenador){
+    let bio='';
+    if(disenador.biografia_limpia) bio='<div class="note" style="margin-top:6px;font-size:12px;line-height:1.5">'+disenador.biografia_limpia+'</div>';
+    let per='';
+    if(disenador.periodo) per='<div class="note" style="margin-bottom:6px"><b>Período:</b> '+disenador.periodo+'</div>';
+    disHTML='<div class="sec" style="border:1px solid var(--brand);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Diseñador</h3><div style="font-size:16px;font-weight:600">'+c.diseñador+'</div><div class="note" style="margin-bottom:6px"><b>Nacionalidad:</b> '+disenador.nacionalidad+'</div>'+per+bio+'</div>';
+  }
   const fichaHTML=(f.descripcion||f.historia||f.curiosidades)?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Ficha del modelo</h3>${f.descripcion?'<div style="margin-bottom:6px"><b>Descripción:</b> '+f.descripcion+'</div>':''}${f.historia?'<div style="margin-bottom:6px"><b>Historia:</b> '+f.historia+'</div>':''}${f.curiosidades?'<div style="margin-bottom:6px"><b>Curiosidades:</b> '+f.curiosidades+'</div>':''}${f.conmemorativo?'<div style="margin-bottom:6px"><b>Conmemorativo:</b> Sí</div>':''}${f.dato_clave?'<div><b>Dato clave:</b> '+f.dato_clave+'</div>':''}${catDesc}</div>`:'';
   const idxHTML=idx?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Índice de coleccionabilidad</h3><div style="font-size:24px;font-weight:700;color:var(--brand)">${idx}</div><div class="note">de 100</div></div>`:'';
   const vmHTML=vm.usd?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Valores de mercado</h3><div style="font-size:13px"><b>USD:</b> $${vm.usd} · <b>CLP:</b> $${vm.clp} · <b>EUR:</b> €${vm.eur}</div><div class="note" style="font-size:10px;margin-top:4px">Fuente: ${vm.fuente||'Cálculo automático'} · ${vm.fecha||''}</div></div>`:'';
