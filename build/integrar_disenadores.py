@@ -64,10 +64,38 @@ DATOS_FANDOM = {
     },
     'Larry Wood': {
         'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/LarryWood.jpg/revision/latest/scale-to-width-down/300',
-        'bio': 'Larry Wood is a former Hot Wheels designer who worked at Mattel from 1970 to 2004. He is one of the most prolific Hot Wheels designers, with over 200 designs to his name. He is best known for designing the Snake and Mongoose dragsters, as well as the Bye-Focal and Tri Baby.',
-        'periodo': '1970-2004',
+        'bio': 'Larry Wood is a former Hot Wheels designer who worked at Mattel from 1969 to 2019. He is one of the most prolific Hot Wheels designers, with over 200 designs to his name. He is best known for designing the Snake and Mongoose dragsters, as well as the Bye-Focal and Tri Baby. He was inducted in the Diecast Hall of Fame\'s inaugural class of 2009 and is widely known as Mr. Hot Wheels. In 2022, he released some old never-seen-before sketches of old unreleased designs as a digital collectible in The Ones That Got Away series, and was inducted into the Automotive Hall of Fame in 2023.',
+        'periodo': '1969-2019',
         'nacionalidad': 'Estadounidense',
-        'proyectos': ['Tri Baby', 'Jack Rabbit Special', 'Mongoose', 'Snake', 'Bye-Focal'],
+        'proyectos': ['Tri Baby', 'Jack Rabbit Special', 'Mongoose', 'Snake', 'Bye-Focal', 'Bugeye', 'Classic Cord', 'Grass Hopper', "Ice 'T'", 'Jet Threat', 'Mongoose II', 'Mongoose Rail Dragster', 'Mutt Mobile', 'Olds 442', "S'Cool Bus", 'Snake Rail Dragster'],
+    },
+    'Tom Daniel': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/TomDaniel.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Tom Daniel is an American industrial designer who is probably one of the most popular model designers around. With over 75 of his designs being manufactured as scale model kits. He is best known for designing the Red Baron, Paddy Wagon, Sand Crab, S\'Cool Bus, Ice \'T\', Tarantula Dragster, Dune Daddy, Fire Cracker and Bad Medicine.',
+        'periodo': '1970-1980',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Red Baron', 'Paddy Wagon', 'Sand Crab', "S'Cool Bus", "Ice 'T'", 'Tarantula Dragster', 'Dune Daddy', 'Fire Cracker', 'Bad Medicine'],
+    },
+    'Steve Gilmore': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/SteveGilmore.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Steven Gilmore is an American automotive designer who was one of the six designers who participated in the Hot Wheels Designers Challenge; he represented the Ford Motor Company, for he was Design Manager of Ford, by designing the Ford Gangster Grin for said series. Gilmore has been with Ford since 2000, and is one of two Designers Challenge designers with ties to Hot Wheels before going onto professional design; he interned at Mattel for four months in 1998 during college. He is currently Design Chief of Vehicle Personalization at Ford.',
+        'periodo': '2008',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Gangster Grin'],
+    },
+    'Harald Belker': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/HaraldBelker.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Harald Georg Belker is a German industrial designer who worked for Mattel from 2004 to 2006 as a design consultant. Born in Krefeld in 1961, Belker is noted for his futuristic automobile designs, such as the Lexus 2054 from the film Minority Report, the Batmobile from Batman & Robin and the Hover Car from Total Recall. He currently manages his own design firm, Harald Belker Design and designs vehicles for the movie industry on a part-time basis; he is also noted to have been employed on a contractural basis by Apple, Waymo and Samsung.',
+        'periodo': '2004-2006',
+        'nacionalidad': 'Alemán',
+        'proyectos': ['Batmobile', 'Fast Fuse', 'Furiosity', 'Phantom Racer', 'Xtreemster', 'Accelium', 'Metaloid', 'AMG-Mercedes CLK DTM'],
+    },
+    'Felix Holst': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/FelixHolst.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Felix C. Holst is a British designer who worked with Mattel\'s Hot Wheels division from 2004 to 2015 as the vice president of the creative division. A native of Newcastle upon Tyne, Holst came to the United States some time after graduation and joined Mattel. He left Mattel in 2015 to found Hackrod Inc., a company specializing in vehicle design, which appears to have since closed. He is currently self-employed and is the founder of Holst Automotive; on the side, plays the bass guitar with a band called The Kustom Built and is a painter.',
+        'periodo': '2004-2015',
+        'nacionalidad': 'Británico',
+        'proyectos': ['Fangula', 'Astro Funk', '2013 Hot Wheels Chevy Camaro Special Edition', 'Volkswagen Caddy'],
     },
 }
 
@@ -114,9 +142,24 @@ TOOL_NUMBERS = {
     '6458': 'Paul Tam', '6003': 'Paul Tam', '6021': 'Paul Tam',
     '5881': 'Paul Tam', '5880': 'Paul Tam',
     
-    # Larry Wood (1970-1971) - 5 modelos
+    # Larry Wood (1970-1971) - 12 modelos
     '6424': 'Larry Wood', '6410': 'Larry Wood', '6409': 'Larry Wood',
-    '6187': 'Larry Wood',
+    '6187': 'Larry Wood', '5178': 'Larry Wood', '6472': 'Larry Wood',
+    '6461': 'Larry Wood', '6184': 'Larry Wood', '6179': 'Larry Wood',
+    '5954': 'Larry Wood', '5952': 'Larry Wood', '6185': 'Larry Wood',
+    '6467': 'Larry Wood', '6468': 'Larry Wood', '5951': 'Larry Wood',
+    
+    # Steve Gilmore (2008) - 1 modelo
+    'M3305': 'Steve Gilmore',
+    
+    # Harald Belker (2004-2006) - 8 modelos
+    'C2707': 'Harald Belker', 'C2739': 'Harald Belker', 'C2713': 'Harald Belker',
+    'C2754': 'Harald Belker', 'C2742': 'Harald Belker', 'G8121': 'Harald Belker',
+    'G8124': 'Harald Belker', 'J3258': 'Harald Belker',
+    
+    # Felix Holst (2010-2015) - 4 modelos
+    'R0923': 'Felix Holst', 'T9697': 'Felix Holst', 'X1622': 'Felix Holst',
+    'CFV19': 'Felix Holst',
     
     # Jun Imai (2005-2018) - 100+ modelos
     'G6073': 'Jun Imai', 'G6716': 'Jun Imai', 'G6707': 'Jun Imai',
