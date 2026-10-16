@@ -1,0 +1,92 @@
+{
+ "meta": {
+  "usuario": "(tu nombre)",
+  "moneda": "USD",
+  "actualizado": "2026-10-11",
+  "demo": true,
+  "nota": "Este archivo es una PLANTILLA con datos de EJEMPLO. Reemplaza 'items' con tu colección real (o cárgala desde la app). 'catalog_id' debe coincidir con un id de data/catalog.json."
+ },
+ "items": [
+  {
+   "catalog_id": "2025-HYW18",
+   "cantidad": 2,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2025-HYW34",
+   "cantidad": 1,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2025-HYY72",
+   "cantidad": 1,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2024-HRY51",
+   "cantidad": 1,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2024-HTB08",
+   "cantidad": 2,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2025-HYW86",
+   "cantidad": 1,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2024-HTC73",
+   "cantidad": 1,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2026-JJJ14",
+   "cantidad": 1,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  },
+  {
+   "catalog_id": "2025-HYW72",
+   "cantidad": 1,
+   "condicion": "carded-nuevo",
+   "precio_compra": null,
+   "ubicacion": "Caja A",
+   "notas": "EJEMPLO — reemplazar por tu colección real",
+   "foto_propia": null
+  }
+ ]
+}

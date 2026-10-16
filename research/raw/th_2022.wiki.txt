@@ -1,0 +1,480 @@
+==2022 Treasure Hunts==
+
+The 2022 Treasure Hunts Series is part of the [[List of 2022 Hot Wheels|2022 Hot Wheels line]].
+
+Since 2013, Mattel has incorporated Treasure Hunts into other series instead of being their own series.
+
+Treasure Hunts are distinguished by the 'circle flame' symbol. [[File:Symbol_of_the_flame..jpg|75px]]
+
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Toy #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Col. #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Series'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Model Name'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Body Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Tampo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Base Color<br/>/<br/>Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Window Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Interior Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Wheel Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Country'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Photo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Case (Wave)'''
+|-
+|HCX94
+|007/250
+|[[Batman Mini Collection (2022)|Batman]]<br>1/5
+|[[The Dark Knight Batmobile]]
+|Navy Blue
+|Black camouflage pattern, Treasure Hunt flame logo on top
+|Black<br/>/<br/>Plastic
+|Black tint
+|Black
+|[[DD8]]
+|Malaysia
+|[[File:HCX94_007_The Dark Knight Batmobile.jpg|75px]]
+|A
+|-
+|HCX97
+|037/250
+|[[Fast Foodie Mini Collection (2022)|Fast Foodie]]<br>2/5
+|[[Good Humor Truck|Quick Bite]]
+|Orange
+|Hot dog picture, "HOT DOGS", "[[Mario Godoy|MG]]", menu on side, 
+Treasure Hunt flame logo on rear quarterpanel
+|Black<br/>/<br/>Metal
+|Light Blue tint
+|Gray
+|[[AeroDisc]]
+|Malaysia
+|[[File:HCX97_037_Quick Bite.jpg|75px]]
+|B
+|-
+|HCY01
+|066/250
+|[[HW Ride-Ons Mini Collection (2022)|HW Ride-Ons]]<br>4/5
+|[[Pixel Shaker]]
+|Olive drab
+|Black sidepipes with Red accents, pixelated lines, 
+Treasure Hunt flame logo on bottom
+|[[ZAMAC]]
+|None
+|Black
+|[[5SP]]
+|Malaysia
+|[[File:PixelShaker.jpg|75px]]
+|C
+|-
+|HCY08
+|081/250
+|[[Tooned Mini Collection (2022)|Tooned]]<br>3/5
+|[[Tooned Twin Mill]]
+|Glossy Black
+|Tribal design on hood, Yellow accents, 
+Treasure Hunt flame logo on hood
+|Black<br/>/<br/>Plastic
+|Smoke tint
+|Chrome
+|[[5SP]]
+|Malaysia
+|[[File:Tooned_Twin_Mill_2022_1_TH_Sealed.jpg|75px]]
+|D
+|-
+|HCY05
+|113/250
+|[[HW Speed Team Mini Collection (2022)|HW Speed Team]]<br>5/5
+|[[Draftnator]]
+|Orange
+|"SPEED TEAM" on sides, Yellow & Orange pulse lines, Black accents, Hot Wheels logo, 
+Treasure Hunt flame logo on rear quarterpanel
+|[[ZAMAC]]
+|Blue tint
+|Chrome
+|[[DD8]]
+|Malaysia
+|[[File:Draftnator Treasure Hunt.jpg|75px]]
+|E
+|-
+|HCY03
+|126/250
+|[[Mud Studs Mini Collection (2022)|Mud Studs]]<br>3/5
+|[['17 Jeep Wrangler]]
+|Matte Orange
+|Mud splatters on sides, Jeep logo, various trim detailing, Treasure Hunt flame logo on front quarterpanel
+|Black<br/>/<br/>Plastic
+|Smoke tint
+|Black
+|[[BLOR]]
+|Malaysia
+|[[File:17 Jeep Wrangler Treasure Hunt.jpg|75px]]
+|F
+|-
+|HCY06
+|139/250
+|[[Street Beasts Mini Collection (2022)|Street Beasts]]<br>5/5
+|[[Duck N' Roll]]
+|Anodized Chrome Gold
+|Blue eyes, Black eyelashes, Hot Wheels logo, "RYU" on wings, Treasure Hunt flame logo in pupils
+|Chartreuse<br/>/<br/>Plastic
+|None
+|Orange engine
+|[[PR5]]
+|Malaysia
+|[[File:2022-139 HCY06 TH Duck N' Roll open-1.jpg|75px]]
+|G
+|-
+|HCY07
+|161/250
+|[[Compact Kings Mini Collection (2022)|Compact Kings]]<br>5/5
+|[[Mini Cooper|Morris Mini]]
+|Yellow
+|Black accents, "[[Phil Riehlman|P. RIEHLMAN]]", "HW 7" on sides, Firestone, Castrol, KONI & Hot Wheels logos on sides, Treasure Hunt flame logo on doors
+|Chrome<br/>/<br/>Plastic
+|Clear
+|Black
+|[[DD8]]
+|Malaysia
+|[[File:RiehlmanMini.jpg|75px]]
+|H
+|-
+|HCX96
+|166/250
+|[[Experimotors Mini Collection (2022)|Experimotors]]<br>10/10
+|[[Gotta Go]]
+|Royal Blue
+|White & Golden accents, Treasure Hunt flame logo on front fender
+|Black<br/>/<br/>Plastic
+|None
+|Chrome
+|[[M5SP]] & [[5SP]]
+|Malaysia
+|[[File:GOTTA GO HCX96 TH 1.jpg|75px]]
+|J
+|-
+|HCX99
+|186/250
+|[[HW Daredevils Mini Collection (2022)|HW Daredevils]]<br>5/5
+|[['87 Dodge D100]]
+|Black
+|Red, White & Blue accents, HWGRFX & BFGoodrich logos on sides, Treasure Hunt flame logo on rear quarterpanel
+|Gray<br/>/<br/>Plastic
+|Smoke tint
+|Black
+|[[BLOR]]
+|Malaysia
+|[[File:HCX99.jpg|75px]]
+|K
+|-
+|HCX98
+|200/250
+|[[HW Art Cars Mini Collection (2022)|HW Art Cars]]<br>8/10
+|[['58 Impala]]
+|Matte Black
+|Skulls and Mexican-style tampos on sides, "A" on roof
+|Chrome<br>/<br>Plastic
+|Clear
+|Gray
+|[[Skull]]
+|Malaysia
+|[[File:DayOfTheDeadImpala.jpg|75px]]
+|L
+|-
+|HCY02
+|217/250
+|[[X-Raycers Mini Collection (2022)|X-Raycers]]<br>4/5
+|[[HW Warp Speeder]]
+|Clear
+|Pink accents, "X", Treasure Hunt flame logo on hood
+|Pink<br>/<br>Metal
+|Red tint
+|Photo-luminescent White
+|[[5SP]]
+|Malaysia
+|[[File:HW Warp Speeder.jpg|75px]]
+|M
+|-
+|HCY04
+|223/250
+|[[Rally Champs Mini Collection (2022)|Rally Champs]]<br>4/5
+|[['98 Subaru Impreza 22B STI-Version]]
+|White
+|Detailed headlamps and indicators, Black, Teal and Aqua accents, "EnG", "56", "HW RALLY", "A", "RYU DESIGN" on sides, Treasure Hunt flame logo on door
+|Black<br>/<br>Plastic
+|Smoke tint
+|Black
+|[[10SP]]
+|Malaysia
+|[[File:'98Impreza22B.jpg|75px]]
+|N
+|-
+|HCY00
+|240/250
+|[[HW Drift Mini Collection (2022)|HW Drift]]<br>5/5
+|[[Muscle and Blown]]
+|Glossy Black
+|White diagonals, "hw drift club" all around body, Treasure Hunt flame logo on right door
+|Black<br>/<br>Plastic
+|Chartreuse tint
+|Chrome
+|[[AeroDisc]] & [[PR5]]
+|Malaysia
+|[[File:DriftandBlown.jpg|75px]]
+|P
+|-
+|HCX95
+|244/250
+|[[HW Drag Strip Mini Collection (2022)|HW Drag Strip]]<br>9/10
+|[['71 Mustang Funny Car]]
+|Metalflake Brown
+|Red & Blue Stripes, "WILD PONY", "NHRA", "Goodyear"
+|Chrome<br>/<br>Plastic
+|Clear
+|Chrome
+|Chrome Gold [[5SP]]
+|Malaysia
+|[[File:'71 Mustang Funny Car TH.jpg|75px]]
+|Q
+|}
+
+==2022 Super Treasure Hunts==
+
+[[File:Super secret treasure hunt.jpg|right|150px|]]
+
+In 2022, Mattel released a series of Super Treasure Hunts, hidden among the other series.
+
+They are distinguished by one or more of the following: Spectraflame paint, Real Riders, extensive detail, and either a writing of 'TREASURE HUNT' symbol or a TH symbol. A new feature that was added in 2015 was a flame within a circle behind the vehicle on the [[Card|card]] like the one below, except it is the color gold.<br />
+[[File:HW LP Treasure Hunt Symbol.jpg|150px|]]
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|+ 
+|-
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Toy #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Col. #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Series'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Model Name'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Body Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Tampo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Base Color<br/>/<br/>Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Window Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Interior Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Wheel Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Country'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Photo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Case (Wave)'''
+|-
+|HCY10
+|020/250
+|[[Chevy Bel Air Mini Collection (2022)|Chevy Bel Air]]<br />1/5
+|[['55 Chevy (2006)|'55 Chevy]]
+|[[Spectraflame]] blue
+|Pinstriping, Black detailing, "Bel Air", TH logo on sides
+|Chrome<br/>/<br/>Plastic
+|Light blue tint
+|White
+|[[RR5SP]]
+|Malaysia
+|[[File:'55 chevy.jpg|75px]]
+|A
+|-
+|HCY20
+|034/250
+|[[Retro Racers Mini Collection (2022)|Retro Racers]]<br />2/10
+|[['73 BMW 3.0 CSL Race Car]]
+|[[Spectraflame]] gold
+|"73", Bilstein logo, TH logo on sides, red detailing
+|Red<br/>/<br/>Plastic
+|Smoke tint
+|Black
+|[[RR8SP]]
+|Malaysia
+|[[File:'73 BMW CSL RACE CAR.jpg|75px]]
+|B
+|-
+|HCY16
+|055/250
+|[[HW Metro Mini Collection (2022)|HW Metro]]<br />6/10
+|[[Dodge Van]]
+|[[Spectraflame]] lilac
+|"HW KART CO. SERVICE & PARTS", [[Ryu Asada|Ryu]], Hoosier, Castrol, Bell logos, TH logo on side
+|Black<br/>/<br/>Plastic
+|Light blue tint
+|Chrome
+|[[MiniC4SP]]
+|Malaysia
+|[[File:DODGE VAN.jpg|75px]]
+|C
+|-
+|HCY14
+|093/250
+|[[HW Hot Trucks Mini Collection (2022)|HW Hot Trucks]]<br />5/10
+|[['63 Studebaker Champ]]
+|[[Spectraflame]] black
+|Checkered flag design, red & gold accents, "63" on sides, TH logo on door
+|Gray<br/>/<br/>Plastic
+|Clear
+|Red
+|[[RR8SP]]
+|Malaysia
+|[[File:‘63 studebaker.jpg|75px]]
+|D
+|-
+|HCY11
+|106/250
+|[[Factory Fresh Mini Collection (2022)|Factory Fresh]]<br />3/10
+|[[2020 Corvette]]
+|[[Spectraflame]] blue
+|Detailed headlamps & taillamps, "CORVETTE", TH logo on rear
+|Black<br/>/<br/>Plastic
+|Smoke tint
+|Black
+|[[RR5SPM]]
+|Malaysia
+|[[File:2020 corvetteSTH.jpg|75px]]
+|E
+|-
+|HCY12
+|125/250
+|[[HW Hatchbacks Mini Collection (2022)|HW Hatchbacks]]<br />5/5
+|[['99 Honda Civic Type R (EK9)]]
+|[[Spectraflame]] yellow
+|Detailed headlamps & taillamps, "RYU" license plate, TH logo on rear
+|Black<br/>/<br/>Plastic
+|Smoke tint
+|Red
+|[[RR6SPM]]
+|Malaysia
+|[[File:Civic EK9.jpg|75px]]
+|F
+|-
+|HCY09
+|142/250
+|[[HW Contoured Mini Collection (2022)|HW Contoured]]<br />5/5
+|[[Volkswagen Käfer Racer]]
+|[[Spectraflame]] red
+|White lines, Volkswagen logo, "44" on sides, checkered flag design, TH logo on roof
+|Copper<br/>/<br/>Plastic
+|Smoke tint
+|Black
+|[[C4SPRR]]
+|Malaysia
+|[[File:Volkswagen caferracer.jpg|75px]]
+|G
+|-
+|HCY17
+|158/250
+|[[HW Turbo Mini Collection (2022)|HW Turbo]]<br />10/10
+|[[2020 Jaguar F-Type]]
+|[[Spectraflame]] black
+|Detailed headlamps & taillamps, Hot Wheels logo, TH logo on front fender
+|Black<br/>/<br/>Plastic
+|Smoke tint
+|Black
+|[[RR10SPM]]
+|Malaysia
+|[[File:2020 Jaguar F-Type.jpg|75px]]
+|H
+|-
+|HCY18
+|175/250
+|[[Spoiler Alert Mini Collection (2022)|Spoiler Alert]]<br />5/5
+|[[Custom '18 Ford Mustang GT]]
+|[[Spectraflame]] red
+|"SPOILER ALERT" on sides, various sponsors, TH logo on rear fender
+|Black<br/>/<br/>Plastic
+|Smoke tint
+|White
+|[[RR6SPM]]
+|Malaysia
+|[[File:O1CN01nW5A7H2Jn1VKsvghQ !!652649465.jpg|75x75px]]
+|J
+|-
+|HCY15
+|187/250
+|[[HW J-Imports Mini Collection (2022)|HW J-Imports]]<br />9/10
+|[[Nissan Skyline H/T 2000GT-X|Nissan Skyline HT 2000GT-X]]
+|[[Spectraflame]] seafoam green
+|Diagonal white lines, JDM•L logo on rear quarterpanel, TH logo on rear fender
+|Black<br/>/<br/>Plastic
+|Clear
+|Black
+|[[RR8SP]]
+|Malaysia
+|[[File:Nissan skyline HT 2000GT-X.jpg|75x75px]]
+|K
+|-
+|HCY13
+|202/250
+|[[HW Exotics Mini Collection (2022)|HW Exotics]]<br />5/10
+|[['71 Lamborghini Miura SV]]
+|[[Spectraflame]] orange
+|Detailed headlamps, taillamps, air intakes & trim, TH logo behind door
+|Orange<br/>/<br/>Plastic
+|Smoke tint
+|Light gray
+|[[RR10SP]]
+|Malaysia
+|[[File:E2fb2f06e2d5d4a068556e33c41535f.jpg|75x75px]]
+|L
+|-
+|HCY19
+|221/250
+|[[Muscle Mania Mini Collection (2022)|Muscle Mania]]<br />4/10
+|[['84 Mustang SVO]]
+|[[Spectraflame]] purple
+|Silver accents, TH logo on door
+|Gray<br />/<br />Plastic
+|Clear
+|Black
+|[[RR5SP]]
+|Malaysia
+|[[File:84MustangSVO.jpg|75x75px]]
+|M
+|-
+|HCY22
+|228/250
+|[[HW Wagons Mini Collection (2022)|HW Wagons]]<br />5/5
+|[['94 Audi Avant RS2]]
+|Spectraflame ''Brilliant Black''
+|Detailed headlamps, grille & taillamps, Audi RS logos & blank white license plates front & rear, TH logo on rear
+|Black<br />/<br />Plastic
+|Smoke tint
+|Black
+|[[RRA]]
+|Malaysia
+|[[File:'94 Audi Avant RS2.jpg|75x75px]]
+|N
+|-
+|HCY21
+|237/250
+|[[Rod Squad Mini Collection (2022)|Rod Squad]]<br />5/5
+|[['32 Ford]]
+|Spectraflame blue
+|Orange striping, "3" on sides, Gulf logos, TH logo on door
+|Black / Plastic
+|Clear
+|Black
+|[[RRSteelie]]
+|Malaysia
+|[[File:Sth 32 ford gulf.jpg|75x75px]]
+|P
+|-
+|HCY23
+|248/250
+|[[Then and Now Mini Collection (2022)|Then and Now]]<br />10/10
+|[['81 Camaro]]
+|Spectraflame green
+|Lime stripe, various logos on sides, TH logo on front fender
+|Black / Plastic
+|Smoke tint
+|Black
+|[[RR5SP]]
+|Malaysia
+|[[File:‘81 Camaro.jpg|75x75px]]
+|Q
+|}
+
+=='''Treasure Hunts by year'''==
+{{Template:TreasureHunts}}{{DEFAULTSORT:Treasure Hunts 2022}}
+[[Category:Treasure Hunts]]
+[[Category:Hot Wheels by Series]]
+[[Category:2022 Hot Wheels]]
+[[Category:Super Treasure Hunts]]

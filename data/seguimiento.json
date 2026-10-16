@@ -1,0 +1,283 @@
+{
+ "meta": {
+  "actualizado": "2026-10-12",
+  "motor": "build/refresh_market.py",
+  "nota": "Estado de seguimiento por auto. Los valores son referenciales por clase hasta que el motor cargue comparables del modelo exacto. El historial crece en cada actualización.",
+  "frescura_dias": {
+   "fresco": 7,
+   "aceptable": 30
+  }
+ },
+ "items": {
+  "2025-HYW18": {
+   "modelo": "Mazda MX-5 Miata",
+   "anio": 2025,
+   "clase": "Mainline",
+   "cantidad": 2,
+   "valor_actual_usd": 3.0,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 3.0,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": null,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 7.5,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2025-HYW34": {
+   "modelo": "Ferrari SF90 Stradale",
+   "anio": 2025,
+   "clase": "Mainline",
+   "cantidad": 1,
+   "valor_actual_usd": 3.0,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 3.0,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": 1,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 7.5,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2025-HYY72": {
+   "modelo": "Nissan Skyline GT-R (BNR32)",
+   "anio": 2025,
+   "clase": "Mainline",
+   "cantidad": 1,
+   "valor_actual_usd": 3.0,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 3.0,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": null,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 7.5,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2024-HRY51": {
+   "modelo": "Mazda Autozam",
+   "anio": 2024,
+   "clase": "Mainline",
+   "cantidad": 1,
+   "valor_actual_usd": 3.0,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 3.0,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": null,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 7.5,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2024-HTB08": {
+   "modelo": "'96 Nissan 180SX Type X",
+   "anio": 2024,
+   "clase": "STH",
+   "cantidad": 2,
+   "valor_actual_usd": 167.5,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 167.5,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": null,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 375.0,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2025-HYW86": {
+   "modelo": "Tesla Model S Plaid",
+   "anio": 2025,
+   "clase": "Mainline",
+   "cantidad": 1,
+   "valor_actual_usd": 3.0,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 3.0,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": null,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 7.5,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2024-HTC73": {
+   "modelo": "'83 Chevy Silverado",
+   "anio": 2024,
+   "clase": "STH",
+   "cantidad": 1,
+   "valor_actual_usd": 167.5,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 167.5,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": null,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 375.0,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2026-JJJ14": {
+   "modelo": "Ford Mustang GTD",
+   "anio": 2026,
+   "clase": "STH",
+   "cantidad": 1,
+   "valor_actual_usd": 167.5,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 167.5,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": 3,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 375.0,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  },
+  "2025-HYW72": {
+   "modelo": "'87 Audi quattro",
+   "anio": 2025,
+   "clase": "STH",
+   "cantidad": 1,
+   "valor_actual_usd": 167.5,
+   "valor_anterior_usd": null,
+   "fecha_actualizacion": "2026-10-11",
+   "fuente": "rango por clase (referencia)",
+   "confianza": "baja",
+   "frescura": "fresco",
+   "historial": [
+    {
+     "fecha": "2026-10-11",
+     "usd": 167.5,
+     "fuente": "rango por clase"
+    }
+   ],
+   "senales": {
+    "demanda_coleccionistas_rank": null,
+    "precio_chile_clp": null,
+    "ebay_usd": null,
+    "mercadolibre_clp": null
+   },
+   "alertas": {
+    "precio_objetivo_usd": 375.0,
+    "cambio_pct": 20,
+    "canal_preferido": "MercadoLibre Chile"
+   }
+  }
+ }
+}

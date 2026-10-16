@@ -1,0 +1,486 @@
+
+==2023 Treasure Hunts==
+The 2023 Treasure Hunts Series is part of the [[List of 2023 Hot Wheels|2023 Hot Wheels line]].
+
+Since 2013, Mattel has incorporated Treasure Hunts into other series instead of being their own series.
+
+Treasure Hunts are distinguished by the 'circle flame' symbol. [[File:RTH.png|30px]]
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Toy #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Col. #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Series'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Model Name'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Body Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Tampo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Base Color<br />/<br />Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Window Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Interior Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Wheel Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Country'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Photo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Case (Wave)'''
+|-
+|HKK98
+|010/250
+|[[HW Haulers Mini Collection (2023)|HW Haulers]]<br />1/5
+|[[Raijin Express]]
+|Red
+|"ルーィホトッホ", "RAIJIN EXPRESS" on trailer, Treasure Hunt flame logo on trailer
+|[[ZAMAC]]
+|Purple tint
+|Chrome
+|[[AeroDisc]]
+|Malaysia
+|[[File:RaijinHauler.jpg|75px]]
+|A
+|-
+|HKL06
+|050/250
+|[[Surf's Up Mini Collection (2023)|Surf's Up]]<br />3/5
+|[[Surf Crate]]
+|Pink
+|"NORTH SHORE" on sides, Treasure Hunt flame logo on roof
+|[[ZAMAC]]
+|None
+|Brown
+|[[5SP]]
+|Malaysia
+|[[File:HKL06.jpg|75px]]
+|B
+|-
+|HKL01
+|068/250
+|[[HW Moto Mini Collection (2023)|HW Moto]]<br />2/5
+|[[BMW R nineT Racer]]
+|''Atomic Blue''
+|Detailed headlamp, Treasure Hunt flame logo on sides
+|Black<br />/<br />Metal
+|None
+|None
+|Chrome [[ORMC]]
+|Malaysia
+|[[File:BMWRnineTRacer.jpg|75px]]
+|C
+|-
+|HKK95
+|092/250
+|[[Sky Show Mini Collection (2023)|Sky Show]]<br/>3/5
+|[[Mad Propz]]
+|Metalflake gold
+|Dark blue accents, golden highlights, "HKK95", Treasure Hunt flame logo on wings
+|Black<br />/<br />Plastic
+|Chrome
+|Chrome
+|[[Micro5SP]]
+|Malaysia
+|[[File:PropZ.JPG|75px]]
+|D
+|-
+|HKL00
+|111/250
+|[[HW 55 Race Team Mini Collection (2023)|HW 55 Race Team]]<br />4/5
+|[[Mod Rod]]
+|Matte race team blue
+|Hot Wheels flame logo and "55th" on sides, Treasure Hunt flame logo on B-panel
+|White<br />/<br />Plastic
+|Orange tint
+|Dark chrome
+|[[AeroDisc]] & [[DD8]]
+|Malaysia
+|[[File:ModRod_2022_HWRaceTeam.jpg|75px]]
+|E
+|-
+|HKK97
+|129/250
+|[[Sweet Rides Mini Collection (2023)|Sweet Rides]]<br />5/5
+|[[Donut Drifter]]
+|Orange
+|White swirlies on top, ghost Treasure Hunt flame logo at end of swirl
+|Turquoise<br />/<br />Metal
+|Pink
+|Pink
+|White wheel, Chrome Pink [[5SP]] (front), Chrome Orange [[5SP]] (rear)
+|Malaysia
+|[[File:HKK97.jpg|75px]]
+|F
+|-
+|HKL03
+|146/250
+|[[HW Sports Mini Collection (2023)|HW Sports]]<br />5/5
+|[[Rise 'N Climb]]
+|Baby blue
+|"HWC Quick Mechanic", cartoon character, checkered flag graphic on sides, "Fastest bike repair!", "[[Dwayne Vance|DAV]]90", "Hot Wheels Cycle", "[[Andrés Andrieu|ANDRIEU RACING]]", "[[Leeway Chang|LWC RACING]]", "[[Chris Down|C-DOWN]]" on hood, Treasure Hunt flame logo on rear fender
+|Black<br />/<br />Plastic
+|Smoke tint
+|Black
+|[[DD8]]
+|Malaysia
+|[[File:HKL03.jpg|75px]]
+|G
+|-
+|HKL05
+|164/250
+|[[Factory Fresh Mini Collection (2023)|Factory Fresh]]<br />5/5
+|[[Ducati 1199 Panigale]]
+|''Arctic White''
+|Hot Wheels logo, Treasure Hunt flame logo on cowling
+|Black<br />/<br />Metal
+|None
+|None
+|[[MC3]]
+|Malaysia
+|[[File:164_-_Ducati_1199_Panigale_(TH).jpg|75px]]
+|H
+|-
+|HKL02
+|176/250
+|[[Mud Studs Mini Collection (2023)|Mud Studs]]<br />4/5
+|[['95 Jeep Cherokee]]
+|Off-white
+|Red and orange diagonals, Belltech, Nitto logos on sides, "1995", "MUD STUDS" on sides, Treasure Hunt flame logo on rear right quarterpanel
+|Brown<br />/<br />Plastic
+|Smoke tint
+|Black
+|"Muddy" [[BLOR]]
+|Malaysia
+|[[File:HKL02-LOOSE.jpg|75px]]
+|J
+|-
+|HKL07
+|194/250
+|[[Then and Now Mini Collection (2023)|Then and Now]]<br />2/10
+|[[Toyota Land Cruiser]]
+|Ivory
+|Yellow, red and black stripes down sides, detailed headlights, Treasure Hunt flame logo on tailgate
+|Black<br />/<br />Plastic
+|Smoke tint
+|Black
+|[[BAJA5]]
+|Malaysia
+|[[File:194_250.jpg|114x114px]]
+|K
+|-
+|HKK99
+|198/250
+|[[HW Drag Strip Mini Collection (2023)|HW Drag Strip]]<br />10/10
+|[[Madfast]]
+|Teal
+|Flames, yellow, red and white stripes, Treasure Hunt flame logo on nose
+|Chrome<br />/<br />Plastic
+|Smoke tint
+|Chrome
+|[[AeroDisc]]/[[SK5]]
+|Malaysia
+|[[File:MadfastDragster.jpg|75px]]
+|L
+|-
+|HKK94
+|210/250
+|[[HW Metro Mini Collection (2023)|HW Metro]]<br />8/10
+|[[Time Shifter]]
+|Gunmetal gray
+|"TREASURE HUNT DELIVERY" on rear, compass on door, Treasure Hunt flame logo within compass
+|Brown<br />/<br />Plastic
+|Yellow tint
+|Gray
+|[[DD8]]
+|Malaysia
+|[[File:HKK94-LOOSE.jpg|75px]]
+|M
+|-
+|HKK96
+|221/250
+|[[Tooned Mini Collection (2023)|Tooned]]<br />4/5
+|[[Tooned Volkswagen Golf Mk1]]
+|Sky blue
+|Detailed headlights and front grille, Volkswagen logos on sides, circle flame logo on rear quarterpanel & large logo on driver's side
+|White<br />/<br />Plastic
+|Blue tint
+|Gray
+|[[AeroDisc]]
+|Malaysia
+|[[File:2023-221 HKK96 Tooned Golf mk1 Blue TH open-00.jpg|75px]] 
+|N
+|-
+|HKL04
+|238/250
+|[[HW Rescue Mini Collection (2023)|HW Rescue]]<br />7/10
+|[[2020 Ram 1500 Rebel]]
+|Yellow
+|Detailed headlamps and taillights. Black, White, and Orange stripes on sides. "COAST PATROL", "SEARCH AND RESCUE", and TH logo on sides.
+|Black<br />/<br />Plastic
+|Tinted (Smoke)
+|Red
+|[[BLOR]]
+|Malaysia
+|[[File:CoastPatrolRam.jpg|75px]]
+|P
+|-
+|HKK93
+|241/250
+|[[Baja Blazers Mini Collection (2023)|Baja Blazers]]<br />9/10
+|[[Volkswagen "Baja Bug"]]
+|Red
+|Black, White, and Yellow accents, "889", "GOODYEAR", VW logo, TH logo, mud splatter on sides
+|Tan<br />/<br />Plastic
+|Clear
+|Yellow
+|Black & "Muddy" [[BLOR]]
+|Malaysia
+|[[File:2023-241 HKK93 TH Volkswagen Baja Bug Red open-1.jpg|75px]]
+|Q
+|}
+
+==2023 Super Treasure Hunts==
+
+In 2023, Mattel released a series of Super Treasure Hunts, hidden among the other series.
+
+They are distinguished by one or more of the following: Spectraflame paint, Real Riders, extensive detail and a [[File:STH.png|40px]] symbol.
+
+A new feature that was added in 2015 was a flame within a circle behind the vehicle on the [[Card|card]] like the Treasure Hunt logo, but gold colored.
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|+ 
+|-
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Toy #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Col. #'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Series'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Model Name'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Body Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Tampo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Base Color<br />/<br />Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Window Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Interior Color'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Wheel Type'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Country'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Photo'''
+! style="border-style: none none solid solid; background: #00cc00; color: #ffffff" |'''Case (Wave)'''
+|-
+|HKL16
+|003/250
+|[[Batman Mini Collection (2023)|Batman]]<br />1/5
+|[[Classic TV Series Batmobile (Tooned)|Classic TV Series Batmobile]]
+|[[Spectraflame]] maroon
+|Red & Yellow pinstriping, Batman logo on sides, detailing on hood, Hot Wheels logo on rear, TH logo on trunk
+|Black<br />/<br />Plastic
+|Orange tint
+|Gray
+|[[RR5SP]]
+|Malaysia
+|[[File:STH 2023A BATMOBILE.jpg|75px]]
+|A
+|-
+|HKL09
+|027/250
+|[[Retro Racers Mini Collection (2023)|Retro Racers]]<br />3/10
+|[[Mercedes-Benz 300 SL]]
+|[[Spectraflame]] red
+|"2" on sides and hood, TH logo on rear fender
+|Red<br />/<br />Plastic
+|Smoke tint
+|Black
+|[[DDRR]]
+|Malaysia
+|[[File:Mercedes-benzs300sl.jpg|75px]]
+|B
+|-
+|HKL12
+|063/250
+|[[HW Art Cars Mini Collection (2023)|HW Art Cars]]<br />5/10
+|[['68 COPO Camaro]]
+|[[Spectraflame]] yellow
+|Explosion pop art, "'''R''' COPO", "CAMA'''R'''O" on sides, "R" on roof, TH logo on front fender
+|Chrome<br />/<br />Plastic
+|Blue tint
+|Black
+|[[DDRR]]
+|Malaysia
+|[[File:'68COPOCamaro.webp.jpg|75px]]
+|C
+|-
+|HKL13
+|084/250
+|[[HW Green Speed Mini Collection (2023)|HW Green Speed]]<br />5/10
+|[[Lotus Evija]]
+|[[Spectraflame]] ''Atomic Red''
+|Detailed headlamps and taillamps, front and rear trim, third brakelight, TH logo on rear window
+|Black<br />/<br />Plastic
+|Smoke tint
+|Black
+|[[RR10SPM]]
+|Malaysia
+|[[File:78bccf5402cbd84fbcf3691f00711b5.webp.jpg|75px]]
+|D
+|-
+|HKL20
+|118/250
+|[[HW J-Imports Mini Collection (2023)|HW J-Imports]]<br />9/10
+|[['68 Mazda Cosmo Sport|1968 Mazda Cosmo Sport]] 
+|[[Spectraflame]] Orange
+|Detailed headlamps, White stripes, "Cosmo" on header panel, TH logo on rear fender
+|White<br />/<br />Plastic
+|Clear
+|White
+|[[RRMag]]
+|Malaysia
+|[[File:Mazda cosmo.jpg|75px]]
+|E
+|-
+|HKL21
+|134/250
+|[[HW Turbo Mini Collection (2023)|HW Turbo]]<br />3/5
+|[[Renault Sport R.S. 01]]
+|Spectraflame cherry
+|'01', 'RS01' on sides. 'RS01' also on bonnet. 'Renault Sport' on winglets & window banner. White & Black striping on sides, black bonnet and white roof. "TH" on bonnet
+|Black<br />/<br />Plastic
+|Tinted (smoke)
+|Black
+|White [[MCRR|RRMC]]
+|Malaysia
+|[[File:Renault sport rs.jpg|75px]]
+|F
+|-
+|HKL10
+|139/250
+|[[HW Dream Garage Mini Collection (2023)|HW Dream Garage]]<br />5/5
+|[['68 Corvette - Gas Monkey Garage]]
+|[[Spectraflame]] gold
+|Black Hot Wheels logo on sides, black flames on roof, "TH" on rear side panel
+|Plum<br />/<br />Plastic
+|Smoke tint
+|Chrome
+|Red rim, Black [[RR5SPM]]
+|Malaysia
+|[[File:Monkey garage.jpg|75px]]
+|G
+|-
+|HKL11
+|155/250
+|[[HW Roadsters Mini Collection (2023)|HW Roadsters]]<br />9/10
+|[[Glory Chaser]]
+|[[Spectraflame]] Gulf Racing Blue
+|Gulf Racing livery, "8", Firestone and Gulf logos on sides, TH logo on door
+|Black<br />/<br />Plastic
+|Frosted
+|Chrome
+|[[C4SPRR]]
+|Malaysia
+|[[File:Glory chaser.jpg|75px]]
+|H
+|-
+|HKL08
+|167/250
+|[[HW: The '80s Mini Collection (2023)|HW: The '80s]]<br />10/10
+|[['82 Toyota Supra]]
+|[[Spectraflame]] red
+|Black stripes on sides, TH logo on rear
+|Black<br />/<br />Plastic
+|Smoke tint
+|Black
+|[[RR10SP]]
+|Malaysia
+|[[File:'82 toyota supra.jpg|75px]]
+|J
+|-
+|HKL22
+|195/250
+|[[Muscle Mania Mini Collection (2023)|Muscle Mania]]<br />9/10
+|[['69 Shelby GT-500]]
+|[[Spectraflame]] purple
+|White accents, Hotchkis logo on door, TH logo on front quarterpanel
+|Black<br />/<br />Plastic
+|Smoke tint
+|Black
+|[[RR5SP]]
+|Malaysia
+|[[File:7b52a96a15ff809ca101aee1320d186.jpg|75px]]
+|K
+|-
+|HKL14
+|199/250
+|[[HW Gassers Mini Collection (2023)|HW Gassers]]<br />4/5
+|[['65 Mercury Comet Cyclone]]
+|[[Spectraflame]] black
+|Red accents, "El Segundo CYCLONE", "Comet 427", "[[Mike McClone|Mike]]'s Transmissions" on sides, TH logo on rear quarterpanel
+|Gray<br>/<br>Plastic
+|Clear
+|Chrome
+|[[RR5SP]]
+|Malaysia
+|[[File:2023 07 07 21 24 IMG 8258.jpg|75px]]
+|L
+|-
+|HKL18
+|214/250
+|[[HW Hot Trucks Mini Collection (2023)|HW Hot Trucks]]<br>7/10
+|[[Mighty K]]
+|[[Spectraflame]] red
+|"[[Ryu Asada|INTERNATIONAL RACING COURSE RYULA CIRCUIT]]" on sides, "リユウ♥ヘイゼル"<!-- Ryu♥Hazel --> on truck bed, TH logo on rear
+|Gray<br>/<br>Plastic
+|Smoke tint
+|Black
+|[[MiniC4SP]]
+|Malaysia
+|[[File:2023 07 07 21 22 IMG 8250.jpg|75px]]
+|M
+|-
+|HKL17
+|223/250
+|[[HW Exotics Mini Collection (2023)|HW Exotics]]<br />7/10
+|[[Porsche 935 (2022)|Porsche 935]]
+|[[Spectraflame]] navy blue
+|Gold trim, red and yellow striping on sides, Porsche 75, Porsche and TH logos on door
+|Black<br>/<br>Plastic
+|Smoke tint
+|Black
+|[[AeroDisc]]
+|Malaysia
+|[[File:2023 07 07 21 25 IMG 8265.jpg|75px]]
+|N
+|-
+|HKL15
+|235/250
+|[[HW Wagons Mini Collection (2023)|HW Wagons]]<br>4/5
+|[['71 Datsun Bluebird 510 Wagon|Datsun Bluebird Wagon (510)]]
+|[[Spectraflame]] watermelon
+|Lightning bolts, "510", "''Datsun''", "♥" on sides, TH logo on top and sides
+|Chrome<br>/<br>Plastic
+|Light blue tint
+|White
+|[[C4SPRR]]
+|Malaysia
+|[[File:73d9e391cee5f2365232c195406643f.jpg|75px]]
+|P
+|-
+|HKL19
+|245/250
+|[[HW Slammed Mini Collection (2023)|HW Slammed]]<br>4/5
+|[[Volvo 240 Drift Wagon]]
+|[[Spectraflame]] green
+|Black and white accents, "240" on rear quarterpanel, Yokohama and Hot Wheels logos on door, TH logo on front fender, "SUPER TH" license plate
+|Black<br>/<br>Plastic
+|Blue tint
+|Chrome
+|[[RRSteelie]] & [[RR10SPM]]
+|Malaysia
+|[[File:微信图片 20230730215614.jpg|75x75px]]
+|Q
+|}
+
+==Gallery==
+<gallery>
+2023 THUNT 9 Pack.JPG|Treasure Hunt in a 9-Pack
+2023-221 HKK96 Tooned Golf mk1 Blue TH ref-3.jpg|2023-221 HKK96 TH
+File:20240317090431.jpg|2023 STH Set
+File:20240317090445.jpg|2023 STH Set
+File:20240317090440.jpg|2023 STH Set
+File:20240317090450.jpg|2023 STH Set
+File:20240317090455.jpg|2023 STH Set
+</gallery>
+
+=='''Treasure Hunts by year'''==
+{{Template:TreasureHunts}}
+{{DEFAULTSORT:Treasure Hunts 2023}}
+[[Category:Treasure Hunts]]
+[[Category:Hot Wheels by Series]]
+[[Category:2023 Hot Wheels]]
+[[Category:Super Treasure Hunts]]

@@ -1,0 +1,1348 @@
+{
+ "2026": {
+  "TH": [
+   {
+    "toy_number": "JJM00",
+    "collector_number": "009/250",
+    "series": "Nightspeed 1/10",
+    "model": "'87 Buick Regal GNX",
+    "body_color": "Metalflake Purple",
+    "wheel_type": "White rim, black PR5",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/BuickRegal.jpg"
+   },
+   {
+    "toy_number": "JJM01",
+    "collector_number": "029/250",
+    "series": "Drop Tops 2/5",
+    "model": "'92 Dodge Viper RT/10",
+    "body_color": "White",
+    "wheel_type": "White 5SP",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/1992Viper.jpg"
+   },
+   {
+    "toy_number": "JJM02",
+    "collector_number": "058/250",
+    "series": "HW EV 5/10",
+    "model": "Electro Silhouette",
+    "body_color": "Black",
+    "wheel_type": "Chrome blue AeroDisc and RA6",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/ElectroSilhouetteTH.jpeg"
+   },
+   {
+    "toy_number": "JJM03",
+    "collector_number": "081/250",
+    "series": "X-Raycers 4/5",
+    "model": "Hot Wheengs",
+    "body_color": "Green",
+    "wheel_type": "Red tire, chrome green RA6",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HotSauce.jpg"
+   },
+   {
+    "toy_number": "JJM04",
+    "collector_number": "122/250",
+    "series": "HW Starting Grid 8/10",
+    "model": "Cone Shaker",
+    "body_color": "Neon green",
+    "wheel_type": "Lime tire AeroDisc",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HotConez.jpg"
+   },
+   {
+    "toy_number": "JJM05",
+    "collector_number": "124/250",
+    "series": "Exoticars 8/10",
+    "model": "2016 Ford GT Race",
+    "body_color": "Yellow",
+    "wheel_type": "E10SP",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2016FordGTLMGTE.jpg"
+   },
+   {
+    "toy_number": "JJM06",
+    "collector_number": "147/250",
+    "series": "HW Dream Garage 4/5",
+    "model": "2 Jet Z",
+    "body_color": "Metalflake Gold",
+    "wheel_type": "Chrome red lip, black AeroDisc",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/THJetZ.jpg"
+   },
+   {
+    "toy_number": "JJM07",
+    "collector_number": "162/250",
+    "series": "HW Heavyweights 5/5",
+    "model": "Total Disposal",
+    "body_color": "Gray",
+    "wheel_type": "Gray AeroDisc and DD8",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%27ToonedTrashTruck.jpg"
+   },
+   {
+    "toy_number": "JJM08",
+    "collector_number": "186/250",
+    "series": "HW Mods 4/5",
+    "model": "Amaru GTC",
+    "body_color": "Blue",
+    "wheel_type": "Bronze ID",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/ModsAmaru.jpg"
+   },
+   {
+    "toy_number": "JJM09",
+    "collector_number": "196/250",
+    "series": "Sweet Rides 4/5",
+    "model": "Sweet Driver",
+    "body_color": "White",
+    "wheel_type": "Pink tire, chrome red AeroDisc",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/CupcakeRacer.jpg"
+   },
+   {
+    "toy_number": "JJM10",
+    "collector_number": "217/250",
+    "series": "Hot Wheels Let's Race 4/5",
+    "model": "Mad Manga",
+    "body_color": "White",
+    "wheel_type": "Bronze 5SP",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/MadManganese.jpg"
+   },
+   {
+    "toy_number": "JJM11",
+    "collector_number": "229/250",
+    "series": "Rod Squad 9/10",
+    "model": "Ford Model A Custom '31",
+    "body_color": "Matte \"moody\" blue",
+    "wheel_type": "WWIM",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/OldBlue.jpg"
+   },
+   {
+    "toy_number": "JJM12",
+    "collector_number": "238/250",
+    "series": "Team Wheels 5/5",
+    "model": "Fast Fish",
+    "body_color": "Hot Wheels Blue",
+    "wheel_type": "Chrome red TRAP5",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HWRTFish.jpg"
+   },
+   {
+    "toy_number": "JJM13",
+    "collector_number": "244/250",
+    "series": "Screen Time 10/10",
+    "model": "Nissan Skyline HT 2000GT-X",
+    "body_color": "Black",
+    "wheel_type": "Black 10SP",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Image_Not_Available.jpg"
+   },
+   {
+    "toy_number": "JJM14",
+    "collector_number": "247/250",
+    "series": "Trophy Case 4/5",
+    "model": "Gazella GT",
+    "body_color": "Red",
+    "wheel_type": "Gray 10SP",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Image_Not_Available.jpg"
+   }
+  ],
+  "STH": [
+   {
+    "toy_number": "JJM15",
+    "collector_number": "013/250",
+    "series": "Truckin' Along 1/5",
+    "model": "Drift-Ender",
+    "body_color": "Spectraflame red",
+    "wheel_type": "Black RRA",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/STH_Drift-Ender.jpg"
+   },
+   {
+    "toy_number": "JJM16",
+    "collector_number": "043/250",
+    "series": "Factory Fresh 3/5",
+    "model": "Ford Mustang GTD",
+    "body_color": "Spectraflame Holographic Blue",
+    "wheel_type": "Gold RR10SP",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Ford_Mustang_GTD.jpg"
+   },
+   {
+    "toy_number": "JJM17",
+    "collector_number": "063/250",
+    "series": "Ferrari 3/5",
+    "model": "Ferrari F40 Competizione",
+    "body_color": "Spectraflame Grigio Nardo",
+    "wheel_type": "RRE",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/NardoF40Comp.jpg"
+   },
+   {
+    "toy_number": "JJM18",
+    "collector_number": "095/250",
+    "series": "Layin' Low 4/5",
+    "model": "'64 Impala",
+    "body_color": "Spectraflame cyan",
+    "wheel_type": "Whitewall D7RR",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/ImpalaSTH.jpg"
+   },
+   {
+    "toy_number": "JJM19",
+    "collector_number": "116/250",
+    "series": "HW Euro 5/10",
+    "model": "'87 Ford Sierra Cosworth",
+    "body_color": "Spectraflame hot pink",
+    "wheel_type": "Chrome lip, black D7RR",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2026ML-116B_%28Large%29.JPG"
+   },
+   {
+    "toy_number": "JJM20",
+    "collector_number": "159/250",
+    "series": "Drag Racers 8/10",
+    "model": "Honda Civic Custom",
+    "body_color": "Spectraflame teal",
+    "wheel_type": "TRR/MicroRRA",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2026H_tiaozi.jpg"
+   },
+   {
+    "toy_number": "JJM21",
+    "collector_number": "156/250",
+    "series": "Mattel 5/5",
+    "model": "Custom Otto",
+    "body_color": "Spectraflame Otto Blue",
+    "wheel_type": "DDNCRL",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/STH_OTTO_o4.jpg"
+   },
+   {
+    "toy_number": "JJM22",
+    "collector_number": "160/250",
+    "series": "Compact Kings 7/10",
+    "model": "Lotus Sport Elise",
+    "body_color": "Spectraflame orange",
+    "wheel_type": "Black RR5SPM",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/LotusEliseSTH.jpg"
+   },
+   {
+    "toy_number": "JJM23",
+    "collector_number": "176/250",
+    "series": "HW J-Imports 7/10",
+    "model": "Subaru Impreza WRX",
+    "body_color": "Spectraflame blue",
+    "wheel_type": "Gold RR10SPM",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/STHImpreza.jpg"
+   },
+   {
+    "toy_number": "JJM25",
+    "collector_number": "222/250",
+    "series": "Tooned 5/5",
+    "model": "'94 Toyota Supra",
+    "body_color": "Spectraflame black",
+    "wheel_type": "Bronze rim, black C4SPRR",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/INA.jpg"
+   },
+   {
+    "toy_number": "JJM26",
+    "collector_number": "225/250",
+    "series": "Wagons 10/10",
+    "model": "Nissan Maxima Drift Car",
+    "body_color": "Spectraflame black",
+    "wheel_type": "Bronze RR5SPM",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Image_Not_Available.jpg"
+   },
+   {
+    "toy_number": "JJM24",
+    "collector_number": "208/250",
+    "series": "Then and Now 9/10",
+    "model": "Porsche 911 Carrera RS 2.7",
+    "body_color": "Spectraflame root beer",
+    "wheel_type": "RRF52O",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/1973PorscheRSTH.jpg"
+   },
+   {
+    "toy_number": "JJM27",
+    "collector_number": "234/250",
+    "series": "HW Dirt 9/10",
+    "model": "'23 Ram 1500",
+    "body_color": "Spectraflame purple",
+    "wheel_type": "Chrome lip RR8DOT",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/RamTRXSTH.jpg"
+   },
+   {
+    "toy_number": "JJM28",
+    "collector_number": "245/250",
+    "series": "HW Torque 9/10",
+    "model": "'70 Plymouth AAR Cuda",
+    "body_color": "Spectraflame gold",
+    "wheel_type": "Chrome Olive HWRTRR10SP",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Cuda_TH_2026.jpg"
+   },
+   {
+    "toy_number": "JJM29",
+    "collector_number": "249/250",
+    "series": "Cool Classics 9/10",
+    "model": "'67 Pontiac Firebird 400",
+    "body_color": "Spectraflame sky blue",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Firebird_th_2026.jpg"
+   }
+  ]
+ },
+ "2025": {
+  "TH": [
+   {
+    "toy_number": "JBC20",
+    "collector_number": "017/250",
+    "series": "HW First Response 1/5",
+    "model": "Ford Performance Supervan 4",
+    "body_color": "Red",
+    "wheel_type": "PR5",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/FirstResponseSupervan.jpg"
+   },
+   {
+    "toy_number": "JBC21",
+    "collector_number": "032/250",
+    "series": "HW Designed By 2/5",
+    "model": "Fish'd & Chip'd",
+    "body_color": "Brown",
+    "wheel_type": "L4",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Fish%27dandChip%27d.jpg"
+   },
+   {
+    "toy_number": "JBC22",
+    "collector_number": "057/250",
+    "series": "HW Metro 3/5",
+    "model": "Mailed It!",
+    "body_color": "Metalflake plum pearl",
+    "wheel_type": "5SP",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/LubetskyMailedIt.jpg"
+   },
+   {
+    "toy_number": "JBC23",
+    "collector_number": "095/250",
+    "series": "HW Ride-Ons 4/5",
+    "model": "Pedal Driver",
+    "body_color": "Red",
+    "wheel_type": "RA6",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/TreasurePedal.jpg"
+   },
+   {
+    "toy_number": "JBC24",
+    "collector_number": "110/250",
+    "series": "X-Raycers 9/10",
+    "model": "Rig Storm",
+    "body_color": "Transparent Plum",
+    "wheel_type": "AeroDisc",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2025_Rig_Storm.jpg"
+   },
+   {
+    "toy_number": "JBC25",
+    "collector_number": "141/250",
+    "series": "HW J-Imports 5/5",
+    "model": "'85 Honda City Turbo II",
+    "body_color": "Teal",
+    "wheel_type": "5SP",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/1985HondaCity.jpg"
+   },
+   {
+    "toy_number": "JBC26",
+    "collector_number": "143/250",
+    "series": "HW Celebration Racers 5/10",
+    "model": "Birthday Burner",
+    "body_color": "Brown",
+    "wheel_type": "White rim 5SP",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/TreasureBurner.jpg"
+   },
+   {
+    "toy_number": "JBC28",
+    "collector_number": "180/250",
+    "series": "Fast Foodie 4/5",
+    "model": "Chill Mill",
+    "body_color": "Metalflake Plum Pearl",
+    "wheel_type": "White rim 5SP",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2025_Chill_Mill_%28HWLR%29.jpg"
+   },
+   {
+    "toy_number": "JBC27",
+    "collector_number": "168/250",
+    "series": "HW EV 10/10",
+    "model": "Nissan Leaf NISMO RC 02",
+    "body_color": "Lime green",
+    "wheel_type": "PR5",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/LeafNISMO.jpg"
+   },
+   {
+    "toy_number": "JBC29",
+    "collector_number": "202/250",
+    "series": "Track Aces 5/5",
+    "model": "Chevroletor",
+    "body_color": "Metalflake navy blue",
+    "wheel_type": "WW5SP",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2025_General_Motors_Chevroletor.jpg"
+   },
+   {
+    "toy_number": "JBC30",
+    "collector_number": "212/250",
+    "series": "Compact Kings 9/10",
+    "model": "Honda S800 Racing",
+    "body_color": "Orange",
+    "wheel_type": "L4",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/1968HondaS800.jpg"
+   },
+   {
+    "toy_number": "JBC31",
+    "collector_number": "229/250",
+    "series": "Experimotors 10/10",
+    "model": "Shark Bite",
+    "body_color": "Green",
+    "wheel_type": "M5SP/5SP",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2025_Shark_Bite.jpg"
+   },
+   {
+    "toy_number": "JBC32",
+    "collector_number": "235/250",
+    "series": "HW Moto 5/5",
+    "model": "1966 Triumph Tiger 100",
+    "body_color": "Green",
+    "wheel_type": "MCCR",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/TriumphRaceBike.jpg"
+   },
+   {
+    "toy_number": "JBC33",
+    "collector_number": "246/250",
+    "series": "Wild Widebody 5/5",
+    "model": "'84 Audi Sport quattro",
+    "body_color": "Metalflake silver",
+    "wheel_type": "AeroDisc",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/1984quattro.jpg"
+   },
+   {
+    "toy_number": "JBC34",
+    "collector_number": "249/250",
+    "series": "HW Track Champs 5/5",
+    "model": "Triumph TR6",
+    "body_color": "Gray",
+    "wheel_type": "DD8",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2025_Triumph_TR6.jpg"
+   }
+  ],
+  "STH": [
+   {
+    "toy_number": "JBC35",
+    "collector_number": "016/250",
+    "series": "Factory Fresh 2/5",
+    "model": "'87 Audi quattro",
+    "body_color": "Spectraflame seafoam green",
+    "wheel_type": "White RR10SPM",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2787_AUDI_AUQTTRO.jpg"
+   },
+   {
+    "toy_number": "JBC36",
+    "collector_number": "046/250",
+    "series": "Rod Squad 4/10",
+    "model": "Hirohata Merc",
+    "body_color": "Spectraflame purple",
+    "wheel_type": "WWMD",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HIROHATA_MERC.jpg"
+   },
+   {
+    "toy_number": "JBC37",
+    "collector_number": "061/250",
+    "series": "HW Art Cars 6/10",
+    "model": "Hi-Roller II",
+    "body_color": "Spectraflame black",
+    "wheel_type": "White RRA and Black RRA",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HiRollerII.jpg"
+   },
+   {
+    "toy_number": "JBC38",
+    "collector_number": "093/250",
+    "series": "HW Hot Trucks 6/10",
+    "model": "1975 Datsun Sunny Truck (B120)",
+    "body_color": "Spectraflame blue",
+    "wheel_type": "MiniC4SP",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/1975_Datsun_Sunny_Truck_%28B120%29.jpg"
+   },
+   {
+    "toy_number": "JBC39",
+    "collector_number": "107/250",
+    "series": "HW Dream Garage 3/5",
+    "model": "Aston Martin DB4GT High-Speed Edition",
+    "body_color": "Spectraflame yellow",
+    "wheel_type": "MD",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Aston_Martin_DB4GT_High-Speed_Edition.jpg"
+   },
+   {
+    "toy_number": "JBC40",
+    "collector_number": "130/250",
+    "series": "HW Dirt 6/10",
+    "model": "'20 Jeep Gladiator",
+    "body_color": "Spectraflame black",
+    "wheel_type": "ORRRBL10SP",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/20Jeep_Gladiator.jpg"
+   },
+   {
+    "toy_number": "JBC41",
+    "collector_number": "154/250",
+    "series": "Safari Mode 2/5",
+    "model": "Porsche 911 Rallye",
+    "body_color": "Spectraflame green",
+    "wheel_type": "RR5SPM",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/PORSCHE_911_RALLYE.jpg"
+   },
+   {
+    "toy_number": "JBC42",
+    "collector_number": "175/250",
+    "series": "Mustang 60th 4/5",
+    "model": "'71 Mustang Funny Car",
+    "body_color": "Spectraflame red",
+    "wheel_type": "GYRRDragS/RR5SP",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/71_Mustang_Funny_Car.jpg"
+   },
+   {
+    "toy_number": "JBC43",
+    "collector_number": "182/250",
+    "series": "HW Reverse Rake 4/5",
+    "model": "'62 Corvette Gasser",
+    "body_color": "Spectraflame black",
+    "wheel_type": "RRPrf/RRDragS",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%E2%80%9862_Corvette_Gasser.jpg"
+   },
+   {
+    "toy_number": "JBC44",
+    "collector_number": "209/250",
+    "series": "HW Exotics 5/5",
+    "model": "McLaren Speedtail",
+    "body_color": "Spectraflame Volcano Orange",
+    "wheel_type": "Front: Dark chrome RRA Rear: Dark chrome RR10SPM",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/McLaren_Speedtail.jpg"
+   },
+   {
+    "toy_number": "JBC45",
+    "collector_number": "221/250",
+    "series": "HW Race Day 9/10",
+    "model": "'94 Bugatti EB110 SS",
+    "body_color": "Spectraflame Viola",
+    "wheel_type": "RRA",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2794_Bugatti_EB110_SS.jpg"
+   },
+   {
+    "toy_number": "JBC46",
+    "collector_number": "231/250",
+    "series": "Then and Now 9/10",
+    "model": "'73 Honda Civic Custom",
+    "body_color": "Spectraflame red",
+    "wheel_type": "MiniC4SP",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%E2%80%9873_HONDA_CIVICE_CUSTOM.jpg"
+   },
+   {
+    "toy_number": "JBC47",
+    "collector_number": "240/250",
+    "series": "Muscle Mania 9/10",
+    "model": "'20 Dodge Charger Hellcat",
+    "body_color": "Spectraflame pink",
+    "wheel_type": "RR6SPM",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2720_Dodge_Charger_Hellcat.jpg"
+   },
+   {
+    "toy_number": "JBC48",
+    "collector_number": "245/250",
+    "series": "HW Wagons 5/5",
+    "model": "BMW M3 Wagon",
+    "body_color": "Spectraflame green",
+    "wheel_type": "RRA",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/BMW_M3_WAGON.jpg"
+   },
+   {
+    "toy_number": "JBC49",
+    "collector_number": "247/250",
+    "series": "Peak Pursuit 9/10",
+    "model": "Ford RS200",
+    "body_color": "Spectraflame Gulf Racing Blue",
+    "wheel_type": "RRA",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/FORD_RS200.jpg"
+   }
+  ]
+ },
+ "2024": {
+  "STH": [
+   {
+    "toy_number": "HTF30",
+    "collector_number": "023/250",
+    "series": "Factory Fresh 1/10",
+    "model": "Ford Escort RS2000",
+    "body_color": "Spectraflame Green",
+    "wheel_type": "RR8SP",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2024_STH_A_CASE_FOERD_ESCORT_RS2000.jpg"
+   },
+   {
+    "toy_number": "HTF31",
+    "collector_number": "032/250",
+    "series": "HW Dream Garage 2/5",
+    "model": "'18 Camaro SS",
+    "body_color": "Spectraflame Black",
+    "wheel_type": "RR5SPM",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2024_STH_B_CASE_18_Camaro_SS.jpg"
+   },
+   {
+    "toy_number": "HTF32",
+    "collector_number": "067/250",
+    "series": "HW Roadsters 4/5",
+    "model": "BMW 507",
+    "body_color": "Spectraflame Gelb",
+    "wheel_type": "RR10SP",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2024_STH_C_CASE_BMW_507.jpg"
+   },
+   {
+    "toy_number": "HTF33",
+    "collector_number": "082/250",
+    "series": "HW Modified 8/10",
+    "model": "'89 Mercedes-Benz 560 SEC AMG",
+    "body_color": "Spectraflame Red",
+    "wheel_type": "RREx",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2024_STH_D_CASE_benz_560.jpg"
+   },
+   {
+    "toy_number": "HTF34",
+    "collector_number": "117/250",
+    "series": "Compact Kings 5/5",
+    "model": "'60s Fiat 500D Modificado",
+    "body_color": "Spectraflame gold",
+    "wheel_type": "DDRR",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2024_STH_Fiat.jpg"
+   },
+   {
+    "toy_number": "HTF35",
+    "collector_number": "132/250",
+    "series": "HW Hot Trucks 7/10",
+    "model": "'71 El Camino",
+    "body_color": "Spectraflame purple",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2024_STH_E_CASE_EL_CAMINO.jpg"
+   },
+   {
+    "toy_number": "HTF36",
+    "collector_number": "144/250",
+    "series": "HW Turbo 4/5",
+    "model": "Audi 90 quattro",
+    "body_color": "Spectraflame dark blue",
+    "wheel_type": "RRAero",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/AUDI_90_QUATTRO.jpg"
+   },
+   {
+    "toy_number": "HTF37",
+    "collector_number": "153/250",
+    "series": "HW Reverse Rake 4/5",
+    "model": "Volvo P1800 Gasser",
+    "body_color": "Spectraflame blue",
+    "wheel_type": "RRDragD",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/VOLVO_P1800_GASSER01.jpg"
+   },
+   {
+    "toy_number": "HTF38",
+    "collector_number": "169/250",
+    "series": "HW J-Imports 8/10",
+    "model": "Mitsubishi Pajero Evolution",
+    "body_color": "Spectraflame copper",
+    "wheel_type": "RR6SP",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/PAJERO.jpg"
+   },
+   {
+    "toy_number": "HTF39",
+    "collector_number": "145/250",
+    "series": "HW Race Day 7/10",
+    "model": "Mazda 787B",
+    "body_color": "Spectraflame orange",
+    "wheel_type": "RRA & RRE",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Charge787BSTH.jpg"
+   },
+   {
+    "toy_number": "HTF40",
+    "collector_number": "206/250",
+    "series": "Muscle Mania 4/5",
+    "model": "'77 Pontiac Firebird T/A",
+    "body_color": "Spectraflame black",
+    "wheel_type": "RR10SP",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Pontiac_firebird.jpg"
+   },
+   {
+    "toy_number": "HTF41",
+    "collector_number": "211/250",
+    "series": "HW: The '90s 6/10",
+    "model": "'96 Nissan 180SX Type X",
+    "body_color": "Spectraflane Dark Dlue",
+    "wheel_type": "RR6SP",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/96_Nissan_180sx_type_R.jpg"
+   },
+   {
+    "toy_number": "HTF42",
+    "collector_number": "231/250",
+    "series": "Quarter Mile Heroes 3/5",
+    "model": "Celero GT",
+    "body_color": "Spectraflame purple",
+    "wheel_type": "RRA & RR10SPM",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Tiaozi-%E5%A1%9E%E7%BD%97GT%E8%B6%85%E5%AE%9D.jpg"
+   },
+   {
+    "toy_number": "HTF43",
+    "collector_number": "239/250",
+    "series": "HW Exotics 8/10",
+    "model": "Lamborghini Huracán LP 620-2 Super Trofeo",
+    "body_color": "Spectraflame red",
+    "wheel_type": "RRA & RR10SPM",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2025_Lamborghini_STH.jpg"
+   },
+   {
+    "toy_number": "HTF44",
+    "collector_number": "249/250",
+    "series": "Then and Now 9/10",
+    "model": "'83 Chevy Silverado",
+    "body_color": "Spectraflame blue",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2024_Then_and_Now_STH.jpg"
+   }
+  ]
+ },
+ "2023": {
+  "TH": [
+   {
+    "toy_number": "HKK98",
+    "collector_number": "010/250",
+    "series": "HW Haulers 1/5",
+    "model": "Raijin Express",
+    "body_color": "Red",
+    "wheel_type": "AeroDisc",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/RaijinHauler.jpg"
+   },
+   {
+    "toy_number": "HKL06",
+    "collector_number": "050/250",
+    "series": "Surf's Up 3/5",
+    "model": "Surf Crate",
+    "body_color": "Pink",
+    "wheel_type": "5SP",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HKL06.jpg"
+   },
+   {
+    "toy_number": "HKL01",
+    "collector_number": "068/250",
+    "series": "HW Moto 2/5",
+    "model": "BMW R nineT Racer",
+    "body_color": "Atomic Blue",
+    "wheel_type": "Chrome ORMC",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/BMWRnineTRacer.jpg"
+   },
+   {
+    "toy_number": "HKK95",
+    "collector_number": "092/250",
+    "series": "Sky Show 3/5",
+    "model": "Mad Propz",
+    "body_color": "Metalflake gold",
+    "wheel_type": "Micro5SP",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/PropZ.JPG"
+   },
+   {
+    "toy_number": "HKL00",
+    "collector_number": "111/250",
+    "series": "HW 55 Race Team 4/5",
+    "model": "Mod Rod",
+    "body_color": "Matte race team blue",
+    "wheel_type": "AeroDisc & DD8",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/ModRod_2022_HWRaceTeam.jpg"
+   },
+   {
+    "toy_number": "HKK97",
+    "collector_number": "129/250",
+    "series": "Sweet Rides 5/5",
+    "model": "Donut Drifter",
+    "body_color": "Orange",
+    "wheel_type": "White wheel, Chrome Pink 5SP (front), Chrome Orange 5SP (rear)",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HKK97.jpg"
+   },
+   {
+    "toy_number": "HKL03",
+    "collector_number": "146/250",
+    "series": "HW Sports 5/5",
+    "model": "Rise 'N Climb",
+    "body_color": "Baby blue",
+    "wheel_type": "DD8",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HKL03.jpg"
+   },
+   {
+    "toy_number": "HKL05",
+    "collector_number": "164/250",
+    "series": "Factory Fresh 5/5",
+    "model": "Ducati 1199 Panigale",
+    "body_color": "Arctic White",
+    "wheel_type": "MC3",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/164_-_Ducati_1199_Panigale_%28TH%29.jpg"
+   },
+   {
+    "toy_number": "HKL02",
+    "collector_number": "176/250",
+    "series": "Mud Studs 4/5",
+    "model": "'95 Jeep Cherokee",
+    "body_color": "Off-white",
+    "wheel_type": "\"Muddy\" BLOR",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HKL02-LOOSE.jpg"
+   },
+   {
+    "toy_number": "HKL07",
+    "collector_number": "194/250",
+    "series": "Then and Now 2/10",
+    "model": "Toyota Land Cruiser",
+    "body_color": "Ivory",
+    "wheel_type": "BAJA5",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/194_250.jpg"
+   },
+   {
+    "toy_number": "HKK99",
+    "collector_number": "198/250",
+    "series": "HW Drag Strip 10/10",
+    "model": "Madfast",
+    "body_color": "Teal",
+    "wheel_type": "AeroDisc/SK5",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/MadfastDragster.jpg"
+   },
+   {
+    "toy_number": "HKK94",
+    "collector_number": "210/250",
+    "series": "HW Metro 8/10",
+    "model": "Time Shifter",
+    "body_color": "Gunmetal gray",
+    "wheel_type": "DD8",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/HKK94-LOOSE.jpg"
+   },
+   {
+    "toy_number": "HKK96",
+    "collector_number": "221/250",
+    "series": "Tooned 4/5",
+    "model": "Tooned Volkswagen Golf Mk1",
+    "body_color": "Sky blue",
+    "wheel_type": "AeroDisc",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2023-221_HKK96_Tooned_Golf_mk1_Blue_TH_open-00.jpg"
+   },
+   {
+    "toy_number": "HKL04",
+    "collector_number": "238/250",
+    "series": "HW Rescue 7/10",
+    "model": "2020 Ram 1500 Rebel",
+    "body_color": "Yellow",
+    "wheel_type": "BLOR",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/CoastPatrolRam.jpg"
+   },
+   {
+    "toy_number": "HKK93",
+    "collector_number": "241/250",
+    "series": "Baja Blazers 9/10",
+    "model": "Volkswagen \"Baja Bug\"",
+    "body_color": "Red",
+    "wheel_type": "Black & \"Muddy\" BLOR",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2023-241_HKK93_TH_Volkswagen_Baja_Bug_Red_open-1.jpg"
+   }
+  ],
+  "STH": [
+   {
+    "toy_number": "HKL16",
+    "collector_number": "003/250",
+    "series": "Batman 1/5",
+    "model": "Classic TV Series Batmobile",
+    "body_color": "Spectraflame maroon",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/STH_2023A_BATMOBILE.jpg"
+   },
+   {
+    "toy_number": "HKL09",
+    "collector_number": "027/250",
+    "series": "Retro Racers 3/10",
+    "model": "Mercedes-Benz 300 SL",
+    "body_color": "Spectraflame red",
+    "wheel_type": "DDRR",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Mercedes-benzs300sl.jpg"
+   },
+   {
+    "toy_number": "HKL12",
+    "collector_number": "063/250",
+    "series": "HW Art Cars 5/10",
+    "model": "'68 COPO Camaro",
+    "body_color": "Spectraflame yellow",
+    "wheel_type": "DDRR",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2768COPOCamaro.webp.jpg"
+   },
+   {
+    "toy_number": "HKL13",
+    "collector_number": "084/250",
+    "series": "HW Green Speed 5/10",
+    "model": "Lotus Evija",
+    "body_color": "Spectraflame Atomic Red",
+    "wheel_type": "RR10SPM",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/78bccf5402cbd84fbcf3691f00711b5.webp.jpg"
+   },
+   {
+    "toy_number": "HKL20",
+    "collector_number": "118/250",
+    "series": "HW J-Imports 9/10",
+    "model": "1968 Mazda Cosmo Sport",
+    "body_color": "Spectraflame Orange",
+    "wheel_type": "RRMag",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Mazda_cosmo.jpg"
+   },
+   {
+    "toy_number": "HKL21",
+    "collector_number": "134/250",
+    "series": "HW Turbo 3/5",
+    "model": "Renault Sport R.S. 01",
+    "body_color": "Spectraflame cherry",
+    "wheel_type": "White RRMC",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Renault_sport_rs.jpg"
+   },
+   {
+    "toy_number": "HKL10",
+    "collector_number": "139/250",
+    "series": "HW Dream Garage 5/5",
+    "model": "'68 Corvette - Gas Monkey Garage",
+    "body_color": "Spectraflame gold",
+    "wheel_type": "Red rim, Black RR5SPM",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Monkey_garage.jpg"
+   },
+   {
+    "toy_number": "HKL11",
+    "collector_number": "155/250",
+    "series": "HW Roadsters 9/10",
+    "model": "Glory Chaser",
+    "body_color": "Spectraflame Gulf Racing Blue",
+    "wheel_type": "C4SPRR",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Glory_chaser.jpg"
+   },
+   {
+    "toy_number": "HKL08",
+    "collector_number": "167/250",
+    "series": "HW: The '80s 10/10",
+    "model": "'82 Toyota Supra",
+    "body_color": "Spectraflame red",
+    "wheel_type": "RR10SP",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2782_toyota_supra.jpg"
+   },
+   {
+    "toy_number": "HKL22",
+    "collector_number": "195/250",
+    "series": "Muscle Mania 9/10",
+    "model": "'69 Shelby GT-500",
+    "body_color": "Spectraflame purple",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/7b52a96a15ff809ca101aee1320d186.jpg"
+   },
+   {
+    "toy_number": "HKL14",
+    "collector_number": "199/250",
+    "series": "HW Gassers 4/5",
+    "model": "'65 Mercury Comet Cyclone",
+    "body_color": "Spectraflame black",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2023_07_07_21_24_IMG_8258.jpg"
+   },
+   {
+    "toy_number": "HKL18",
+    "collector_number": "214/250",
+    "series": "HW Hot Trucks 7/10",
+    "model": "Mighty K",
+    "body_color": "Spectraflame red",
+    "wheel_type": "MiniC4SP",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2023_07_07_21_22_IMG_8250.jpg"
+   },
+   {
+    "toy_number": "HKL17",
+    "collector_number": "223/250",
+    "series": "HW Exotics 7/10",
+    "model": "Porsche 935",
+    "body_color": "Spectraflame navy blue",
+    "wheel_type": "AeroDisc",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2023_07_07_21_25_IMG_8265.jpg"
+   },
+   {
+    "toy_number": "HKL15",
+    "collector_number": "235/250",
+    "series": "HW Wagons 4/5",
+    "model": "Datsun Bluebird Wagon (510)",
+    "body_color": "Spectraflame watermelon",
+    "wheel_type": "C4SPRR",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/73d9e391cee5f2365232c195406643f.jpg"
+   },
+   {
+    "toy_number": "HKL19",
+    "collector_number": "245/250",
+    "series": "HW Slammed 4/5",
+    "model": "Volvo 240 Drift Wagon",
+    "body_color": "Spectraflame green",
+    "wheel_type": "RRSteelie & RR10SPM",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230730215614.jpg"
+   }
+  ]
+ },
+ "2022": {
+  "STH": [
+   {
+    "toy_number": "HCY10",
+    "collector_number": "020/250",
+    "series": "Chevy Bel Air 1/5",
+    "model": "'55 Chevy",
+    "body_color": "Spectraflame blue",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "A",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2755_chevy.jpg"
+   },
+   {
+    "toy_number": "HCY20",
+    "collector_number": "034/250",
+    "series": "Retro Racers 2/10",
+    "model": "'73 BMW 3.0 CSL Race Car",
+    "body_color": "Spectraflame gold",
+    "wheel_type": "RR8SP",
+    "country": "Malaysia",
+    "case": "B",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2773_BMW_CSL_RACE_CAR.jpg"
+   },
+   {
+    "toy_number": "HCY16",
+    "collector_number": "055/250",
+    "series": "HW Metro 6/10",
+    "model": "Dodge Van",
+    "body_color": "Spectraflame lilac",
+    "wheel_type": "MiniC4SP",
+    "country": "Malaysia",
+    "case": "C",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/DODGE_VAN.jpg"
+   },
+   {
+    "toy_number": "HCY14",
+    "collector_number": "093/250",
+    "series": "HW Hot Trucks 5/10",
+    "model": "'63 Studebaker Champ",
+    "body_color": "Spectraflame black",
+    "wheel_type": "RR8SP",
+    "country": "Malaysia",
+    "case": "D",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%E2%80%9863_studebaker.jpg"
+   },
+   {
+    "toy_number": "HCY11",
+    "collector_number": "106/250",
+    "series": "Factory Fresh 3/10",
+    "model": "2020 Corvette",
+    "body_color": "Spectraflame blue",
+    "wheel_type": "RR5SPM",
+    "country": "Malaysia",
+    "case": "E",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2020_corvetteSTH.jpg"
+   },
+   {
+    "toy_number": "HCY12",
+    "collector_number": "125/250",
+    "series": "HW Hatchbacks 5/5",
+    "model": "'99 Honda Civic Type R (EK9)",
+    "body_color": "Spectraflame yellow",
+    "wheel_type": "RR6SPM",
+    "country": "Malaysia",
+    "case": "F",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Civic_EK9.jpg"
+   },
+   {
+    "toy_number": "HCY09",
+    "collector_number": "142/250",
+    "series": "HW Contoured 5/5",
+    "model": "Volkswagen Käfer Racer",
+    "body_color": "Spectraflame red",
+    "wheel_type": "C4SPRR",
+    "country": "Malaysia",
+    "case": "G",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Volkswagen_caferracer.jpg"
+   },
+   {
+    "toy_number": "HCY17",
+    "collector_number": "158/250",
+    "series": "HW Turbo 10/10",
+    "model": "2020 Jaguar F-Type",
+    "body_color": "Spectraflame black",
+    "wheel_type": "RR10SPM",
+    "country": "Malaysia",
+    "case": "H",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/2020_Jaguar_F-Type.jpg"
+   },
+   {
+    "toy_number": "HCY18",
+    "collector_number": "175/250",
+    "series": "Spoiler Alert 5/5",
+    "model": "Custom '18 Ford Mustang GT",
+    "body_color": "Spectraflame red",
+    "wheel_type": "RR6SPM",
+    "country": "Malaysia",
+    "case": "J",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/O1CN01nW5A7H2Jn1VKsvghQ_%21%21652649465.jpg"
+   },
+   {
+    "toy_number": "HCY15",
+    "collector_number": "187/250",
+    "series": "HW J-Imports 9/10",
+    "model": "Nissan Skyline HT 2000GT-X",
+    "body_color": "Spectraflame seafoam green",
+    "wheel_type": "RR8SP",
+    "country": "Malaysia",
+    "case": "K",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Nissan_skyline_HT_2000GT-X.jpg"
+   },
+   {
+    "toy_number": "HCY13",
+    "collector_number": "202/250",
+    "series": "HW Exotics 5/10",
+    "model": "'71 Lamborghini Miura SV",
+    "body_color": "Spectraflame orange",
+    "wheel_type": "RR10SP",
+    "country": "Malaysia",
+    "case": "L",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/E2fb2f06e2d5d4a068556e33c41535f.jpg"
+   },
+   {
+    "toy_number": "HCY19",
+    "collector_number": "221/250",
+    "series": "Muscle Mania 4/10",
+    "model": "'84 Mustang SVO",
+    "body_color": "Spectraflame purple",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "M",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/84MustangSVO.jpg"
+   },
+   {
+    "toy_number": "HCY22",
+    "collector_number": "228/250",
+    "series": "HW Wagons 5/5",
+    "model": "'94 Audi Avant RS2",
+    "body_color": "Spectraflame Brilliant Black",
+    "wheel_type": "RRA",
+    "country": "Malaysia",
+    "case": "N",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%2794_Audi_Avant_RS2.jpg"
+   },
+   {
+    "toy_number": "HCY21",
+    "collector_number": "237/250",
+    "series": "Rod Squad 5/5",
+    "model": "'32 Ford",
+    "body_color": "Spectraflame blue",
+    "wheel_type": "RRSteelie",
+    "country": "Malaysia",
+    "case": "P",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/Sth_32_ford_gulf.jpg"
+   },
+   {
+    "toy_number": "HCY23",
+    "collector_number": "248/250",
+    "series": "Then and Now 10/10",
+    "model": "'81 Camaro",
+    "body_color": "Spectraflame green",
+    "wheel_type": "RR5SP",
+    "country": "Malaysia",
+    "case": "Q",
+    "image_url": "https://hotwheels.fandom.com/wiki/Special:FilePath/%E2%80%9881_Camaro.jpg"
+   }
+  ]
+ }
+}

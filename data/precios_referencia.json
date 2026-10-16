@@ -1,0 +1,518 @@
+{
+ "meta": {
+  "generado": "2026-10-11",
+  "moneda": "USD",
+  "fuente_principal": "research/02_mercado_y_valores.md (cada fila lleva su URL y fecha)",
+  "advertencia": "Los rangos por CLASE son referenciales y NO sustituyen comparables de ventas reales del modelo exacto. Confianza: baja."
+ },
+ "rangos_por_clase": [
+  {
+   "clase": "Mainline",
+   "estado": "carded (en tarjeta)",
+   "min": 1.0,
+   "max": 5.0,
+   "fuente": "hobbyDB listings 2024-2025",
+   "fecha": "2025"
+  },
+  {
+   "clase": "Mainline",
+   "estado": "loose (suelto)",
+   "min": 0.5,
+   "max": 3.0,
+   "fuente": "hobbyDB / allhotwheels",
+   "fecha": "2025"
+  },
+  {
+   "clase": "Treasure Hunt",
+   "estado": "carded",
+   "min": 5.0,
+   "max": 20.0,
+   "fuente": "iCollectEverything",
+   "fecha": "2026"
+  },
+  {
+   "clase": "Treasure Hunt",
+   "estado": "loose",
+   "min": 2.0,
+   "max": 8.0,
+   "fuente": "iCollectEverything",
+   "fecha": "2026"
+  },
+  {
+   "clase": "Super Treasure Hunt",
+   "estado": "carded",
+   "min": 85.0,
+   "max": 250.0,
+   "fuente": "resellcalendar.com / autoevolution.com (STH 2024-2025)",
+   "fecha": "2025"
+  },
+  {
+   "clase": "Premium / Car Culture (unidad)",
+   "estado": "carded",
+   "min": 6.95,
+   "max": 12.5,
+   "fuente": "eBay listings",
+   "fecha": "2024-2025"
+  },
+  {
+   "clase": "Premium / Car Culture (set de 5)",
+   "estado": "carded",
+   "min": 29.95,
+   "max": 64.99,
+   "fuente": "eBay listings",
+   "fecha": "2023-2025"
+  },
+  {
+   "clase": "RLC (Red Line Club)",
+   "estado": "carded",
+   "min": 29.99,
+   "max": 84.99,
+   "fuente": "99diecast.com / wheelcollectors.com / coloradodiecast.com",
+   "fecha": "2024-2025"
+  },
+  {
+   "clase": "Convention Exclusive",
+   "estado": "carded",
+   "min": 42.99,
+   "max": 140.0,
+   "fuente": "hobbyDB Blog / wheelcollectors.com",
+   "fecha": "2022-2025"
+  },
+  {
+   "clase": "Redline vintage (1968-1977)",
+   "estado": "played-with",
+   "min": 50.0,
+   "max": 400.0,
+   "fuente": "yonkerstimes.com / howmuchisitworth.app",
+   "fecha": "2026"
+  },
+  {
+   "clase": "Redline vintage (1968-1977)",
+   "estado": "near mint",
+   "min": 300.0,
+   "max": 3500.0,
+   "fuente": "yonkerstimes.com / rarityfinder.com (PSA)",
+   "fecha": "2026"
+  },
+  {
+   "clase": "Grail / prototipo",
+   "estado": "cualquiera",
+   "min": 5000.0,
+   "max": 175000.0,
+   "fuente": "icollecteverything.com / underpricedai.com",
+   "fecha": "2024-2026"
+  }
+ ],
+ "modelos_con_precio_verificado": [
+  {
+   "modelo": "Pink Rear-Loading Beach Bomb",
+   "anio": 1969,
+   "linea": "Prototipo Redline",
+   "min": 100000,
+   "max": 175000,
+   "fuente": "https://www.icollecteverything.com/2026/04/04/most-valuable-hot-wheels-cars/",
+   "fecha": "2024-2026"
+  },
+  {
+   "modelo": "Pink Custom Volkswagen (sunroof)",
+   "anio": "1968-70",
+   "linea": "Redline",
+   "min": 5000,
+   "max": 25000,
+   "fuente": "https://underpricedai.com/blog/hot-wheels-value-guide",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Pink Olds 442",
+   "anio": 1969,
+   "linea": "Redline",
+   "min": 4000,
+   "max": 10000,
+   "fuente": "https://underpricedai.com/blog/hot-wheels-value-guide",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Pink Mighty Maverick",
+   "anio": 1970,
+   "linea": "Redline",
+   "min": 3000,
+   "max": 8000,
+   "fuente": "https://underpricedai.com/blog/hot-wheels-value-guide",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Beach Bomb (side-loader, pink)",
+   "anio": 1969,
+   "linea": "Redline",
+   "min": 5000,
+   "max": 10000,
+   "fuente": "https://howmuchisitworth.app/hot-wheels-redline",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Beach Bomb (side-loader, común)",
+   "anio": 1969,
+   "linea": "Redline",
+   "min": 200,
+   "max": 3500,
+   "fuente": "https://yonkerstimes.com/the-ultimate-redline-hot-wheels-price-guide-by-year-1968-to-1977/",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Custom Camaro (rose/pink)",
+   "anio": 1968,
+   "linea": "Redline",
+   "min": 400,
+   "max": 1500,
+   "fuente": "https://howmuchisitworth.app/hot-wheels-redline",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Custom Camaro (común, played-with)",
+   "anio": 1968,
+   "linea": "Redline",
+   "min": 150,
+   "max": 400,
+   "fuente": "https://yonkerstimes.com/...",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Silhouette",
+   "anio": 1968,
+   "linea": "Redline",
+   "min": 50,
+   "max": 800,
+   "fuente": "https://yonkerstimes.com/...",
+   "fecha": "2026"
+  },
+  {
+   "modelo": "Red Baron / Beatnik Bandit / Heavy Chevy / Olds 442",
+   "anio": "1968-69",
+   "linea": "Redline",
+   "min": 55.86,
+   "max": 3575.19,
+   "fuente": "https://www.rarityfinder.com/blog/hot-wheels-redline-checklist-1968-1977",
+   "fecha": "2026-05-15",
+   "nota": "$55.86 raw / $160 PSA 9 / $3,575.19 PSA 10"
+  },
+  {
+   "modelo": "'83 Chevy Silverado STH",
+   "anio": 2024,
+   "linea": "Super Treasure Hunt",
+   "min": 250,
+   "max": 250,
+   "fuente": "https://www.autoevolution.com/news/hot-wheels-super-treasure-hunt-prices-2025-vs-2024-253713.html",
+   "fecha": "2024"
+  },
+  {
+   "modelo": "Mazda 787B STH",
+   "anio": 2024,
+   "linea": "Super Treasure Hunt",
+   "min": 200,
+   "max": 200,
+   "fuente": "autoevolution.com",
+   "fecha": "2024"
+  },
+  {
+   "modelo": "'89 Mercedes-Benz 560 SEC AMG STH",
+   "anio": 2024,
+   "linea": "Super Treasure Hunt",
+   "min": 150,
+   "max": 150,
+   "fuente": "autoevolution.com",
+   "fecha": "2024"
+  },
+  {
+   "modelo": "Lamborghini Huracán Super Trofeo STH",
+   "anio": 2024,
+   "linea": "Super Treasure Hunt",
+   "min": 150,
+   "max": 150,
+   "fuente": "autoevolution.com",
+   "fecha": "2024"
+  },
+  {
+   "modelo": "Porsche 911 STH",
+   "anio": 2025,
+   "linea": "Super Treasure Hunt",
+   "min": 100,
+   "max": 150,
+   "fuente": "https://resellcalendar.com/news/feed/2025-hot-wheels-super-treasure-hunt-reseller/",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "BMW 507 STH / '71 El Camino STH",
+   "anio": 2025,
+   "linea": "Super Treasure Hunt",
+   "min": 85,
+   "max": 85,
+   "fuente": "resellcalendar.com",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "'87 Audi Quattro STH",
+   "anio": 2025,
+   "linea": "Super Treasure Hunt",
+   "min": 20,
+   "max": 252,
+   "fuente": "autoevolution.com",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "Mitsubishi Pajero Evolution STH",
+   "anio": 2024,
+   "linea": "Super Treasure Hunt",
+   "min": 19.5,
+   "max": 19.5,
+   "fuente": "autoevolution.com",
+   "fecha": "2024"
+  },
+  {
+   "modelo": "Set completo STH 2025 (15 autos)",
+   "anio": 2025,
+   "linea": "Super Treasure Hunt",
+   "min": 396,
+   "max": 2751,
+   "fuente": "autoevolution.com",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "Set completo STH 2024 (15 autos)",
+   "anio": 2024,
+   "linea": "Super Treasure Hunt",
+   "min": 446,
+   "max": 2240,
+   "fuente": "autoevolution.com",
+   "fecha": "2024"
+  },
+  {
+   "modelo": "'99 Honda Civic Type R (EK9) STH",
+   "anio": 2022,
+   "linea": "Super Treasure Hunt",
+   "min": 270,
+   "max": 270,
+   "fuente": "https://blog.hobbydb.com/2023/01/05/top-15-most-valuable-hot-wheels-models-from-2022/",
+   "fecha": "2022"
+  },
+  {
+   "modelo": "Porsche 935 - Toy Fair",
+   "anio": 2022,
+   "linea": "Exclusivo",
+   "min": 690,
+   "max": 690,
+   "fuente": "blog.hobbydb.com",
+   "fecha": "2022"
+  },
+  {
+   "modelo": "Twin Mill - Mobil 1 Sweepstakes",
+   "anio": 2022,
+   "linea": "Exclusivo",
+   "min": 620,
+   "max": 620,
+   "fuente": "blog.hobbydb.com",
+   "fecha": "2022"
+  },
+  {
+   "modelo": "Automobili Pininfarina Battista - Hot Wheels iD",
+   "anio": 2022,
+   "linea": "Exclusivo",
+   "min": 340,
+   "max": 340,
+   "fuente": "blog.hobbydb.com",
+   "fecha": "2022"
+  },
+  {
+   "modelo": "'69 Chevy Camaro - 36th Annual Convention",
+   "anio": 2022,
+   "linea": "Convention",
+   "min": 140,
+   "max": 140,
+   "fuente": "blog.hobbydb.com",
+   "fecha": "2022"
+  },
+  {
+   "modelo": "Porsche 959 RLC (Gulf)",
+   "anio": 2025,
+   "linea": "RLC",
+   "min": 84.99,
+   "max": 85,
+   "fuente": "https://www.ebay.com/shop/hot-wheels-rlc-porsche",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "Porsche 959 RLC (Blue)",
+   "anio": 2024,
+   "linea": "RLC",
+   "min": 37,
+   "max": 55,
+   "fuente": "eBay",
+   "fecha": "2024-2025"
+  },
+  {
+   "modelo": "Nissan Skyline GT-R (BNR34) RLC",
+   "anio": 2024,
+   "linea": "RLC",
+   "min": 59.99,
+   "max": 59.99,
+   "fuente": "https://99diecast.com/collections/red-line-club",
+   "fecha": "2024"
+  },
+  {
+   "modelo": "1982 Lamborghini Countach LP 500 S RLC",
+   "anio": 2025,
+   "linea": "RLC",
+   "min": 69.99,
+   "max": 84.99,
+   "fuente": "99diecast.com",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "Honda Motocompo",
+   "anio": 2025,
+   "linea": "Mainline",
+   "min": 2.99,
+   "max": 3.99,
+   "fuente": "https://www.hobbydb.com/marketplaces/t-hunted/collectibles/67322553",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "Honda Civic Custom (Red)",
+   "anio": 2024,
+   "linea": "Mainline",
+   "min": 2.0,
+   "max": 2.0,
+   "fuente": "https://www.hobbydb.com/home/hotwheels",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "'67 Pontiac Firebird 400 (Red 5SPGY)",
+   "anio": 2024,
+   "linea": "Mainline",
+   "min": 4.0,
+   "max": 4.0,
+   "fuente": "hobbydb.com",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "1985 Chevrolet K5 Blazer",
+   "anio": 2024,
+   "linea": "Mainline",
+   "min": 3.38,
+   "max": 3.38,
+   "fuente": "hobbydb.com (estimated)",
+   "fecha": "2025"
+  },
+  {
+   "modelo": "Custom 2020 Honda E",
+   "anio": 2024,
+   "linea": "Mainline",
+   "min": 3.88,
+   "max": 3.88,
+   "fuente": "hobbydb.com (estimated)",
+   "fecha": "2025"
+  }
+ ],
+ "tiempo_de_venta": [
+  {
+   "rango": "$0.50 - $3",
+   "tiempo": "semanas a meses individual; días en lotes",
+   "canal": "Lotes en eBay o Facebook Marketplace",
+   "fuente": "reddit.com/r/HotWheels"
+  },
+  {
+   "rango": "$3 - $15",
+   "tiempo": "1-4 semanas",
+   "canal": "eBay Buy It Now",
+   "fuente": "resellcalendar.com"
+  },
+  {
+   "rango": "$15 - $50",
+   "tiempo": "1-2 semanas",
+   "canal": "eBay subasta o BIN",
+   "fuente": "autoevolution.com"
+  },
+  {
+   "rango": "$50 - $200",
+   "tiempo": "1-4 semanas",
+   "canal": "eBay subasta",
+   "fuente": "blog.hobbydb.com"
+  },
+  {
+   "rango": "$200 - $1,000",
+   "tiempo": "1-6 meses",
+   "canal": "eBay subasta / casas de subastas",
+   "fuente": "underpricedai.com"
+  },
+  {
+   "rango": "$1,000+",
+   "tiempo": "meses a años",
+   "canal": "Casas de subastas especializadas",
+   "fuente": "icollecteverything.com"
+  }
+ ],
+ "comisiones": [
+  {
+   "canal": "eBay",
+   "vendedor": "13.25% + $0.40",
+   "neto_sobre_50": 42.98,
+   "fuente": "https://www.ebay.com/sellercenter/selling/seller-fees"
+  },
+  {
+   "canal": "Mercari",
+   "vendedor": "10%",
+   "neto_sobre_50": 45.0,
+   "fuente": "https://www.mercari.com/us/help_center/article/169/"
+  },
+  {
+   "canal": "Whatnot",
+   "vendedor": "8% + 2.9% + $0.30",
+   "neto_sobre_50": 44.6,
+   "fuente": "https://fluf.io/crosslisting/mercari-to-whatnot/"
+  },
+  {
+   "canal": "Facebook Marketplace",
+   "vendedor": "0%",
+   "neto_sobre_50": 50.0,
+   "fuente": "https://www.facebook.com/marketplace"
+  },
+  {
+   "canal": "Etsy",
+   "vendedor": "6.5% + fees de pago",
+   "neto_sobre_50": 45.0,
+   "fuente": "https://www.etsy.com"
+  },
+  {
+   "canal": "hobbyDB",
+   "vendedor": "0%",
+   "neto_sobre_50": 50.0,
+   "fuente": "https://www.hobbydb.com/home/hotwheels"
+  }
+ ],
+ "descuento_por_lote": [
+  {
+   "tipo": "Pieza por pieza",
+   "descuento": "0%",
+   "fuente": "reddit.com/r/HotWheels"
+  },
+  {
+   "tipo": "Lote pequeño (2-6)",
+   "descuento": "10-20%",
+   "fuente": "youtube.com"
+  },
+  {
+   "tipo": "Lote mediano (20-50)",
+   "descuento": "30-50%",
+   "fuente": "reddit.com/r/HotWheels"
+  },
+  {
+   "tipo": "Colección completa (100+)",
+   "descuento": "50-70%",
+   "fuente": "reddit.com/r/HotWheels"
+  },
+  {
+   "tipo": "Venta a revendedor",
+   "descuento": "50-70%",
+   "fuente": "reddit.com/r/HotWheels"
+  }
+ ]
+}
