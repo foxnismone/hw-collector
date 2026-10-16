@@ -167,6 +167,69 @@ DATOS_FANDOM = {
         'nacionalidad': 'Estadounidense',
         'proyectos': ['Ford GTX-1', 'Madfast', 'Howlin\' Heat', 'Wheelin\' Woody', 'El Superfasto', 'Derailed', 'Metal Mulisha', 'SkyKnife', 'Mad Splash', '\'68 Olds Cutlass Convertible', 'Ferrari 250 California', 'Island Hopper', 'Kermit the Frog', 'Killer Croc', 'Patrick', 'Plankton', 'SpongeBob', 'Squidward', 'Knight Draggin\'', '\'67 Ford Bronco', '\'67 Plymouth Belvedere GTX', '2014 Custom Mustang', 'Koenigsegg Agera R', 'Lotus Esprit S1', 'Captain America', 'Darth Maul', 'Darth Vader', 'Falcon', 'Hawkeye', 'Hulk', 'Iron Man', 'Luke Skywalker', 'Rhino', 'Spider-Man', 'Star-Lord', 'Thor', 'Venom', 'Wolverine', 'Yoda', 'FS1 Cleatus', 'Man of Steel', 'New Earth Authority Police', 'Scooby-Doo', 'Zombie', 'Thunder 4×4', 'Power Surge', 'Aquaman', 'Battle Droid', 'Batman Hot Rod', 'Black Widow', 'Boba Fett', 'Ezra Bridger', 'Gamora', 'Groot', 'Man of Steel', 'Princess Leia', 'Rocket Raccoon', 'The Penguin', 'Batman', 'Big Kahuna', 'Doom\'s Day', 'Dragon', 'Ice Cream Man', 'Minecart', 'Purrfect Speed'],
     },
+    'Alvin Chan': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/AlvinChan.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Alvin King-Hoi Chan is a Chinese-American former Hot Wheels designer who worked at Mattel from 2017 to 2018. He was originally an intern for the company before becoming a temporary employee; prior to working for Mattel, he worked as a designer for Fisker, Volkswagen, MINI and Piaggio. He left the company in 2018 and currently works for JIDU as an interior designer.',
+        'periodo': '2017-2018',
+        'nacionalidad': 'Chino-Americano',
+        'proyectos': ['Bot Wheels', 'Fast Master', 'Hi Beam', 'Kick Kart', 'Poison Ivy', 'Track Ripper', 'McLaren Senna', 'Nightwing', 'Shark Hammer 2.0', 'Simba', 'TIE Fighter Pilot', 'Wheelie Chair'],
+    },
+    'Amaury Diaz Serrano': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/AmauryDiazSerrano.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Amaury Diaz Serrano is a Puerto Rican-American industrial designer who was one of the six designers who participated in the Hot Wheels Designers Challenge; he represented General Motors\'s Chevrolet division, for he was Senior Industrial Designer, by designing the Chevroletor for said series, initially known as "Prototype 40". Diaz Serrano\'s dream was apparently to design a Hot Wheels car since he was a child. Diaz Serrano joined GM in 1999, working on numerous designs such as the exterior design of the Cadillac Sixteen; he left in 2015 and currently manages his own firm, Amaury Diaz Serrano Industrial Design LLC, as well as running Jigxocars, his other design firm.',
+        'periodo': '2008',
+        'nacionalidad': 'Puertorriqueño-Americano',
+        'proyectos': ['GM Chevroletor'],
+    },
+    'Antonio Gaido': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/AntonioGaido.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Antonio Gaido is a Mattel employee who has worked at Mattel since 2022. He currently acts as a Development Program Management Associate for Hot Wheels and related vehicle brands. Prior to working at Mattel, he worked at LEGO as a Brick Specialist.',
+        'periodo': '2022-presente',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['1979 Dodge Ram Van', 'Subaru Crosstrek', 'Subaru Legacy GT (BP)'],
+    },
+    'Blake Allen': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/BlakeAllen.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'David Blake Allen is a former Hot Wheels designer who designed cars for Mattel in 2004 as one of three external designers who designed cars for Hot Wheels. Prior to his leadership position, Blake attended Western Hills High School from 1987-1989. In 1999, he completed his Bachelor of Science in Industrial Design from the University of Cincinnati. He currently works as a Senior Lead Designer at General Motors, a position he has held since 2010. Blake Allen was a former classmate of Eric Tscherne.',
+        'periodo': '2004-2005',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Bassline'],
+    },
+    'Brian Hillner': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/BrianHillner.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Brian Hillner is a former Hot Wheels designer who worked at Mattel from 2007 to 2009. Initially working as an intern for the Hot Wheels department, Hillner moved to the Matchbox department where he designed cars until 2009. He currently works for Dassault Systèmes.',
+        'periodo': '2007-2009',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Torque Twister'],
+    },
+    'Chris Colangelo': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/ChrisColangelo.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Christopher R. Colangelo is a Hot Wheels designer who has been working with Mattel since 2013. He is the design lead on the Hot Wheels Mario Kart series vehicles, Star Wars playsets, the Star Wars Starships line, design lead on San Diego Comic-Con exclusives and has worked on other major licenses for Hot Wheels, such as DC. Prior to his career at Mattel, he worked at Wham-O Toys, Jakks Pacific and Crayola and also had an internship career at Mattel before his full-time career.',
+        'periodo': '2013-presente',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Boba Fett\'s Slave I', 'Millennium Falcon', 'Mon Calamari Cruiser', 'Rebel Snowspeeder', 'Star Destroyer', 'The Ghost', 'TIE Fighter', 'Vulture Droid', 'X-wing Fighter Red 3', 'X-wing Fighter Red 5', 'Y-Wing', 'AT-AT', 'ARC-170 Starfighter', 'First Order Command Shuttle', 'First Order Snowspeeder', 'First Order Star Destroyer', 'First Order TIE Fighter', 'Imperial Shuttle', 'Jedi Starfighter Delta-7', 'Jedi Starfighter Eta-2 Actis', 'Naboo N-1 Starfighter', 'Phantom', 'Rebel Snowspeeder', 'Republic Attack Gunship', 'Rey\'s Speeder', 'Sith Infiltrator', 'Tantive IV', 'The Khetanna', 'TIE Advanced Prototype', 'TIE Advanced X1 Prototype', 'TIE Fighter', 'X-Wing Fighter (wings closed)', 'X-Wing Fighter (wings opened)', 'Yoda\'s Jedi Starfighter', 'A-wing Fighter', 'AT-ST', 'Bossk', 'Concept Landspeeder'],
+    },
+    'Dave Deal': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/DaveDeal.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'David Allen Deal, nicknamed Big Deal, was an independent American illustrator who worked with Mattel in 2003, likely as a subcontractor. Born in 1938, Deal studied graphic design in Louisiana Tech University before becoming an illustrator for the Dallas Morning News; outside of that Deal was a notable illustrator, illustrating automobiles with "exaggerated" proportions, such as the Deal\'s Wheels model kit line for Revell. Deal also set a record in a specially-modified Volkswagen Beetle on a 1000-mile route from Tijuana to La Paz alongside then-Revell product manager Don Ernst. Deal passed away on 14 October 2008, aged 70, due to health problems; one of his last projects was concept art for the movie Cars.',
+        'periodo': '2003-2004',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Enzo Ferrari'],
+    },
+    'Dave Martis': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/DaveMartis.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'David A. Martis is a Hot Wheels designer, modelmaker, and prototyper who worked with Mattel from 1999 to late 2004 as a senior project designer and model maker. Known for his work on Mechanix, Robo Wheels, Gyro Jets, IR Rally, and 1/64 scale Disney/Pixar Cars prototypes, he preferred casting and hand painting "B-grade" resins using clay, SLA 3D prints, and existing parts from around the model shop as the process was "quicker and easier" than sketching concept art. It was stated by Eric Tscherne that his work features varying imperfections based off of the importance or purpose of each piece. He enjoyed casting and often made personal pieces that "blurred the line" between employee custom and prototype; many of his projects were used in presentations or eventual production releases. Many are marked with "X3008" on their bases; the "X" stood for "eXtension" to his office number "3008" to ensure their proper return after use. In years prior Martis designed bikes for GT Bicycles and automotive accessories for Powers Design International. After his tenure he worked at fellow toy company Playmates for a year, later founding his own company, Devium Design.',
+        'periodo': '1999-2004',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Honda Civic Si', 'Airstream Trailer', 'Steel Flame', 'Batmobile'],
+    },
+    'David Doern': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/DavidDoern.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'David Doern is a Hot Wheels designer who has been working with Mattel since 2024. He currently works as a designer for Hot Wheels Track and Playsets in the Entertainment and Mario Kart lines. Prior to working with Mattel he held stints at Hasbro where he worked on the Nerf brand.',
+        'periodo': '2024-presente',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Baja Truck', 'Batmobile', 'Blitzspeeder', 'El Segundo Coupe', 'Formul8r', 'Hi-Beam', 'Later Crater', 'Mach It Go', 'Mod Rod', 'Night Shifter', 'Ollie Rocket', 'Ravenger S/T', 'RocketFire', 'RRRoadster', 'Twin Mill III', 'Galaxy Bowser Jr.', 'Galaxy Luigi', 'Galaxy Mario', 'Galaxy Yoshi'],
+    },
 }
 
 # Tool numbers extraídos de las páginas de diseñadores (Fandom)
@@ -465,6 +528,54 @@ TOOL_NUMBERS = {
     # Dave Root (2016) - 4 modelos
     'DHP04': 'Dave Root', 'DHP03': 'Dave Root', 'DJM22': 'Dave Root',
     'DMH77': 'Dave Root',
+
+    # Alvin Chan (2018-2019) - 12 modelos
+    'FJW01': 'Alvin Chan', 'FJV92': 'Alvin Chan', 'FJV67': 'Alvin Chan',
+    'FJV83': 'Alvin Chan', 'FRF21': 'Alvin Chan', 'FJV42': 'Alvin Chan',
+    'FYB46': 'Alvin Chan', 'FYV43': 'Alvin Chan', 'FXB11': 'Alvin Chan',
+    'FYV98': 'Alvin Chan', 'FLJ75': 'Alvin Chan', 'FYB64': 'Alvin Chan',
+
+    # Amaury Diaz Serrano (2008) - 1 modelo
+    'M3306': 'Amaury Diaz Serrano',
+
+    # Antonio Gaido (2025-2026) - 3 modelos
+    'HVJ38': 'Antonio Gaido', 'JBK98': 'Antonio Gaido', 'JKF07': 'Antonio Gaido',
+
+    # Blake Allen (2005) - 1 modelo
+    'G8094': 'Blake Allen',
+
+    # Brian Hillner (2010) - 1 modelo
+    'R0921': 'Brian Hillner',
+
+    # Chris Colangelo (2015-2017) - 30+ modelos
+    'CKJ63': 'Chris Colangelo', 'CGW56': 'Chris Colangelo', 'CGW93': 'Chris Colangelo',
+    'CGW63': 'Chris Colangelo', 'CGW57': 'Chris Colangelo', 'CGW62': 'Chris Colangelo',
+    'CGW71': 'Chris Colangelo', 'CGW67': 'Chris Colangelo', 'CKR61': 'Chris Colangelo',
+    'CGW59': 'Chris Colangelo', 'CGW84': 'Chris Colangelo', 'DMP65': 'Chris Colangelo',
+    'CKJ68': 'Chris Colangelo', 'CKJ70': 'Chris Colangelo', 'CKJ72': 'Chris Colangelo',
+    'DJJ61': 'Chris Colangelo', 'DMP62': 'Chris Colangelo', 'CGW92': 'Chris Colangelo',
+    'CGW65': 'Chris Colangelo', 'CGW70': 'Chris Colangelo', 'CKJ65': 'Chris Colangelo',
+    'DRX05': 'Chris Colangelo', 'CGW58': 'Chris Colangelo', 'CKJ69': 'Chris Colangelo',
+    'CGW72': 'Chris Colangelo', 'CGW61': 'Chris Colangelo', 'DMP64': 'Chris Colangelo',
+    'CGW69': 'Chris Colangelo', 'CGW66': 'Chris Colangelo', 'CLJ71': 'Chris Colangelo',
+    'DJJ63': 'Chris Colangelo', 'DNP18': 'Chris Colangelo', 'DNP19': 'Chris Colangelo',
+    'DXD99': 'Chris Colangelo', 'DMJ05': 'Chris Colangelo',
+
+    # Dave Deal (2004) - 1 modelo
+    'B3556': 'Dave Deal',
+
+    # Dave Martis (2001-2004) - 4 modelos
+    '28758': 'Dave Martis', '29216': 'Dave Martis', '56354': 'Dave Martis',
+    'B3540': 'Dave Martis',
+
+    # David Doern (2026) - 20 modelos
+    'JJT86': 'David Doern', 'JJV10': 'David Doern', 'JJV03': 'David Doern',
+    'JJT85': 'David Doern', 'JJT94': 'David Doern', 'JJT92': 'David Doern',
+    'JJV00': 'David Doern', 'JJV63': 'David Doern', 'JJV01': 'David Doern',
+    'JJT93': 'David Doern', 'JJT81': 'David Doern', 'JJT90': 'David Doern',
+    'JJT80': 'David Doern', 'JJV04': 'David Doern', 'JJT87': 'David Doern',
+    'JMG35': 'David Doern', 'JMG33': 'David Doern', 'JMG32': 'David Doern',
+    'JMG34': 'David Doern',
 }
 
 def limpiar_nombre(nombre):
