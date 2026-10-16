@@ -230,6 +230,132 @@ DATOS_FANDOM = {
         'nacionalidad': 'Estadounidense',
         'proyectos': ['Baja Truck', 'Batmobile', 'Blitzspeeder', 'El Segundo Coupe', 'Formul8r', 'Hi-Beam', 'Later Crater', 'Mach It Go', 'Mod Rod', 'Night Shifter', 'Ollie Rocket', 'Ravenger S/T', 'RocketFire', 'RRRoadster', 'Twin Mill III', 'Galaxy Bowser Jr.', 'Galaxy Luigi', 'Galaxy Mario', 'Galaxy Yoshi'],
     },
+    'Craig Callum': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/CraigCallum.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Craig Callum is a British Hot Wheels designer who has worked at Mattel since November 2022. He currently serves as design manager for the Hot Wheels line and designs cars for the mainline. Prior to his work at Mattel, he worked at LEGO, designing vehicles for the LEGO Speed Champions line.',
+        'periodo': '2022-presente',
+        'nacionalidad': 'Británico',
+        'proyectos': [],
+    },
+    'Dmitriy Shakhmatov': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/DmitriyShakhmatov.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Dmitriy Shakhmatov, commonly known as Dima, is a Ukrainian former Hot Wheels designer who worked for Mattel from 2014 to 2023. His last position at Mattel was as design manager for Hot Wheels, serving in that position from 2017. He was last part of the Premium department; prior to that he was in charge of the $1 lineup.',
+        'periodo': '2014-2023',
+        'nacionalidad': 'Ucraniano',
+        'proyectos': ["'96 Nissan 180SX Type X", 'D-Muscle', 'TIE Advanced X1 Prototype', 'TIE Fighter', 'Land Rover Series III Pickup'],
+    },
+    'Eric Han': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/EricHan.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Eric Han Cho is a Korean-American Hot Wheels designer who has been working at Mattel since 2013. He is currently the lead designer for die-cast design, having in the past been a senior designer for Hot Wheels Track and Playsets. Much of his work focuses around the Track Builder and Hot Wheels Action lines. On the side he operates the clothing line Elite Menace.',
+        'periodo': '2013-presente',
+        'nacionalidad': 'Coreano-Americano',
+        'proyectos': [],
+    },
+    'Fraser Campbell': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/FraserCampbell.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Fraser Lee Campbell is a British Hot Wheels designer who worked at Mattel from 1998 to 2016 and again since 2021. Initially based in the UK, Fraser moved to the United States in 2000 to join the Hot Wheels design team; his first design was the Maelstrom. He would move to Hong Kong at some point later before moving back to the United States; much of his work during his time at Mattel involved designing for Monster Jam and various haulers. Campbell left Mattel in early 2016 to join Hackrod. He left Hackrod in mid-2020 and returned to Mattel in 2021 as Lead Project designer for Basics/Mainline.',
+        'periodo': '1998-2021',
+        'nacionalidad': 'Británico',
+        'proyectos': ['Maelstrom', 'Backdraft', 'Lotus Esprit', "Fish'd & Chip'd", 'Hyperliner', 'F-Racer', 'Lamborghini Countach', 'Sixy Beast', "The Gov'ner", 'Cockney Cab II', 'Pharodox', 'Rogue Hog', 'Chevy Silverado', 'Fast Fish', 'Prototype H-24', 'RocketFire', 'F1 Racer', 'Fast FeLion', 'La Fasta', 'Mid Mill', 'Saber', 'McLaren F1 GTR'],
+    },
+    'Garry Gopinath': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/GarryGopinath.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Gaurav Gopinath is an Indian-American designer who has worked with Mattel initially as an intern in 2021 and full-time since 2022. Born in India and growing up in Saudi Arabia, he initially interned under the Hot Wheels RC brand under Tyler Charest. He currently works mainly on the Matchbox line overseeing the Collector and Moving Parts lines as well as sometimes doing graphics for the vehicles in those lines.',
+        'periodo': '2021-presente',
+        'nacionalidad': 'Indio-Americano',
+        'proyectos': ['Lotus Esprit Turbo'],
+    },
+    'Gary Ragle': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/a/ad/GaryRagle.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Gary Ragle is an American automotive designer who was one of the six designers who participated in the Hot Wheels Designers Challenge; he represented Mitsubishi Motors, for he was Senior Designer for Mitsubishi Motors R&D of America, by designing the Mitsubishi Double Shotz for said series. Ragle joined Mitsubishi R&D initially as an intern in 2002 before transitioning to a full-time role and leaving in 2009, and is one of two Designers Challenge designers with ties to Hot Wheels before going onto professional design; he interned at Mattel in 2000. He currently runs his own design firm, Ragle Design, as well as designing for Hydra Design Labs, an automotive design consultancy.',
+        'periodo': '2008',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Mitsubishi Double Shotz'],
+    },
+    'Gary Saffer': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/GarySaffer.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Gary Michael Saffer was a Hot Wheels designer who worked for Mattel from 1975 to 2001. After his stint at Mattel, Saffer went into self-employment and worked together with Elonne, his wife, also a toy designer, to design items for patents and other concepts. He passed away in 2022.',
+        'periodo': '1975-2001',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Big Sur-Prize', 'E.Z. Duzzit', 'Jack Flash', 'Race Ace', 'Scorch Torch', "'32 Ford", 'Lakester', 'Tail Dragger', 'Phaeton', 'Dodge Power Wagon', 'Shoe Box', 'So Fine', 'Hooligan', 'Midnight Otto'],
+    },
+    'Greg Padginton': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/GregPadginton.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Gregory John Padginton is a former designer for Hot Wheels who worked at Mattel from 1992 to 2008. Prior to his career at Mattel, Padginton was an artist. He is currently self-employed and works as an independent contractor.',
+        'periodo': '1992-2008',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': [],
+    },
+    'Guillermo González': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/5/56/GuillermoGonzalez.png/revision/latest/scale-to-width-down/300',
+        'bio': 'Guillermo González is an American industrial designer who was one of the six designers who participated in the Hot Wheels Designers Challenge; he represented the Honda Motor Company, for he was Senior Styling Engineer, by designing the Honda Racer for said series. Gonzalez joined Honda in 1997 and remains there to this day. His current position is as a Senior Design Strategy and Research Specialist; prior to his work at Honda, he interned at Sony and Walt Disney Imagineering.',
+        'periodo': '2008',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Honda Racer'],
+    },
+    'JJ Hwang': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JJHwang.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Jung-Jun Hwang is a Korean-American Hot Wheels designer who has been working with Mattel since 2019. He currently works as a lead designer for Hot Wheels Track and Playsets; prior to his role at Mattel, he worked for Skyrocket Toys and competing brand Jakks Pacific and was an intern at Philips and Columbia Sportswear.',
+        'periodo': '2019-presente',
+        'nacionalidad': 'Coreano-Americano',
+        'proyectos': ['HW Ultimate T-Rex Transporter', 'SoCal Crusher', 'Superman', 'Soupreme Slammer'],
+    },
+    'Jack Chen': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JackChen.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Jack Chen is a former Hot Wheels designer who was part of the Hot Wheels design team from at least 2003 to 2004.',
+        'periodo': '2003-2004',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Corvette Stingray', '1963 Corvette', 'Batmobile'],
+    },
+    'James Iida': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JamesIida.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'James Iida is a former Hot Wheels designer who worked at Mattel. He is known for designing the 1972 Plymouth Barracuda (Blings).',
+        'periodo': '2004',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['1972 Plymouth Barracuda'],
+    },
+    'Jason Hill': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/a/ac/JasonHill.png/revision/latest/scale-to-width-down/300',
+        'bio': 'Jason C. Hill is an automotive designer who worked for Mattel around 2005, likely on a subcontractor basis. He is the founder of Eleven, an automotive design consultancy, which he has run since 2003. Prior to his work at Eleven, Hill worked for Hyundai, Porsche and ill-fated automotive company Aptera Motors as a designer; he was also the lead designer of the Porsche Carrera GT Concept showcased in 2000, working alongside noted automotive designer Harm Lagaay.',
+        'periodo': '2005',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Accelium', 'Carbide', 'Nitrium', 'Octainium', 'RD-01'],
+    },
+    'Jeff Allison': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JeffAllison.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Jeff Allison is a former Hot Wheels designer who worked with Mattel from 2013 to 2014. He was mainly responsible for the creation of many of the first wave of Star Wars Character Cars. Jeff currently runs his own firm, Allison Design, as well as Old Anvil Speed Shop.',
+        'periodo': '2013-2014',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['501st Clone Trooper', 'Han Solo', 'R2-D2', 'Cadillac Elmiraj', 'Custom Volkswagen Hauler', 'Double Demon', 'Sky Show Rig', 'Emperor Palpatine', 'Hawkman', 'Obi-Wan Kenobi', 'Greedo'],
+    },
+    'Jimmy Liu': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JimmyLiu.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Jimmy Liu is a Mattel employee who has worked at Mattel since 2015. He currently works as Hot Wheels and Matchbox\'s director of product design; prior to this he served as a marketing manager. Prior to his work at Mattel, he worked as a banker at Wells Fargo and various other financial service companies before assuming an internship role at Mattel, which he later transitioned to full-time. He also designs castings but not on a regular basis.',
+        'periodo': '2015-presente',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Nissan Silvia (S15)', 'Nissan 240SX (S14)', 'Nissan Silvia (S14) Drift', 'Open Trailer'],
+    },
+    'John Handy': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JohnHandy.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'John Norman Handy is a former employee at Mattel who was senior vice president of product design; he worked with Mattel from at least 1993 to at least 2005. He is known to have designed at least two castings during his time with Mattel and was part of the Hot Wheels design team until at least 2005. He currently is the owner of Treebones Resort in California.',
+        'periodo': '1993-2005',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['W-Oozie', "Block O' Wood"],
+    },
+    "John O'Laughlin": {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JohnOLaughlin.jpg/revision/latest/scale-to-width-down/300',
+        'bio': "John O'Laughlin is a transportation designer who interned at the Hot Wheels design team in 2018. During his time at Hot Wheels he designed a total of four models. After his stint at Hot Wheels, he moved to Honda Advance Design and then Tesla, both for additional internship opportunities.",
+        'periodo': '2018',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Electro Silhouette', 'Haul-O-Gram'],
+    },
+    'John Reale': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/JohnReale.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'John Packard Reale is a former Mattel employee who worked with Mattel from 1995 to 2006. He helped diversify and expand the Hot Wheels lineup by creating and innovating a play pattern segmentation roadmap, and is credited as being one of the brainchilds for Mattel\'s highly-successful Pixar Cars diecast lineup. Reale worked for competing brand Hasbro as Vice President of Design and Development from 2010 to 2020, and currently works as a Chief Product Officer at BEGiN, overseeing Little Passports.',
+        'periodo': '1995-2006',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Buzz Off'],
+    },
 }
 
 # Tool numbers extraídos de las páginas de diseñadores (Fandom)
@@ -576,6 +702,69 @@ TOOL_NUMBERS = {
     'JJT80': 'David Doern', 'JJV04': 'David Doern', 'JJT87': 'David Doern',
     'JMG35': 'David Doern', 'JMG33': 'David Doern', 'JMG32': 'David Doern',
     'JMG34': 'David Doern',
+
+    # Dmitriy Shakhmatov (2015-2019)
+    'CFH13': 'Dmitriy Shakhmatov', 'CFH10': 'Dmitriy Shakhmatov',
+    'DPV29': 'Dmitriy Shakhmatov', 'DPV27': 'Dmitriy Shakhmatov',
+    'FYB54': 'Dmitriy Shakhmatov',
+
+    # Fraser Campbell (2001-2010)
+    '28754': 'Fraser Campbell', '52909': 'Fraser Campbell', '52917': 'Fraser Campbell',
+    '56356': 'Fraser Campbell', 'B3562': 'Fraser Campbell', 'C2703': 'Fraser Campbell',
+    'B3531': 'Fraser Campbell', 'C2704': 'Fraser Campbell', 'C2757': 'Fraser Campbell',
+    'C2702': 'Fraser Campbell', 'G6731': 'Fraser Campbell', 'J3251': 'Fraser Campbell',
+    'K6140': 'Fraser Campbell', 'K6152': 'Fraser Campbell', 'L9929': 'Fraser Campbell',
+    'N4033': 'Fraser Campbell', 'N4037': 'Fraser Campbell', 'N4027': 'Fraser Campbell',
+    'N4015': 'Fraser Campbell', 'P2010': 'Fraser Campbell', 'R8479': 'Fraser Campbell',
+
+    # Garry Gopinath (2026)
+    'JHW84': 'Garry Gopinath',
+
+    # Gary Ragle (2008)
+    'M3311': 'Gary Ragle',
+
+    # Gary Saffer (1991-2002)
+    '9628': 'Gary Saffer', '1679': 'Gary Saffer', '9151': 'Gary Saffer',
+    '9156': 'Gary Saffer', '9177': 'Gary Saffer', '18587': 'Gary Saffer',
+    '18540': 'Gary Saffer', '18846': 'Gary Saffer', '21063': 'Gary Saffer',
+    '24393': 'Gary Saffer', '24395': 'Gary Saffer', '24400': 'Gary Saffer',
+    '28740': 'Gary Saffer', '52901': 'Gary Saffer',
+
+    # Guillermo González (2008)
+    'M3314': 'Guillermo González',
+
+    # JJ Hwang (2024-2026)
+    'HRY50': 'JJ Hwang', 'JCD70': 'JJ Hwang', 'JDP67': 'JJ Hwang',
+    'JHY48': 'JJ Hwang',
+
+    # Jack Chen (2003-2004)
+    '56355': 'Jack Chen', 'G3489': 'Jack Chen', 'C2745': 'Jack Chen',
+
+    # James Iida (2004)
+    'B3555': 'James Iida',
+
+    # Jason Hill (2005)
+    'G8117': 'Jason Hill', 'G8118': 'Jason Hill', 'G8122': 'Jason Hill',
+    'G8107': 'Jason Hill',
+
+    # Jeff Allison (2014-2016)
+    'CGW41': 'Jeff Allison', 'CLR65': 'Jeff Allison', 'CGW37': 'Jeff Allison',
+    'CFH11': 'Jeff Allison', 'CGJ45': 'Jeff Allison', 'CGC19': 'Jeff Allison',
+    'CGC25': 'Jeff Allison', 'CLR69': 'Jeff Allison', 'CFT34': 'Jeff Allison',
+    'CLR67': 'Jeff Allison', 'DJM03': 'Jeff Allison',
+
+    # Jimmy Liu (2018-2024)
+    'FLD19': 'Jimmy Liu', 'GBW84': 'Jimmy Liu', 'GML00': 'Jimmy Liu',
+    'HRV37': 'Jimmy Liu',
+
+    # John Handy (2004-2005)
+    'C2714': 'John Handy', 'G6723': 'John Handy',
+
+    # John O'Laughlin (2019)
+    'FYB52': "John O'Laughlin", 'FYB62': "John O'Laughlin",
+
+    # John Reale (2004)
+    'C2751': 'John Reale',
 }
 
 def limpiar_nombre(nombre):
