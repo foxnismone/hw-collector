@@ -97,6 +97,41 @@ DATOS_FANDOM = {
         'nacionalidad': 'Británico',
         'proyectos': ['Fangula', 'Astro Funk', '2013 Hot Wheels Chevy Camaro Special Edition', 'Volkswagen Caddy'],
     },
+    'Bob Lovejoy': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/BobLovejoy.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Robert B. Lovejoy was a Hot Wheels designer who designed Hot Wheels from 1971 to 1973. He was hired alongside Larry Wood and Paul Tam as one of their earliest designers; he was most known for his work on the RRRumblers. Outside of work, Lovejoy was an aircraft enthusiast, building his own aircraft and gliders, most notably the Quicksilver; after he left Mattel he turned to solely developing aircraft and hang gliders. By 1980, he had an ultralight aircraft design penned out; he tested the aircraft in late 1982, but due to a control failure the aircraft crashed and he was unfortunately killed in the process.',
+        'periodo': '1971-1973',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Rocket-Bye-Baby', 'What-4', '3-Squealer', 'High-Tailer', 'Mean Machine', 'Rip Snorter', "Choppin' Chariot", 'Bone Shaker'],
+    },
+    'Bob Rosas': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/BobRosas.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Robert Raymond Rosas is a former Hot Wheels designer and engineer who worked for Mattel from 1969 to 1989. He is known to have worked alongside Larry Wood in the design department, designing and innovating for various Hot Wheels series. He worked his way up to become the director of the Hot Wheels engineering group before leaving Mattel entirely in 1989. Many of the innovative series such as X-V Racers, Steering Rigs, Crack-Ups, Flip Outs and the like can all be attributed to Rosas\'s work. He is currently retired, although his relationship with Hot Wheels\'s Design Team remains healthy, frequently attending conventions.',
+        'periodo': '1969-1989',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Baja Bruiser', 'Hi Tail Hauler', 'X-V Racers', 'Steering Rigs', 'Crack-Ups', 'Flip Outs', 'Thundershift 500', 'Machine Paks', 'Mean Machines', 'Real Riders'],
+    },
+    'Bruce Baur': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/BruceBaur.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Bruce Alden Baur is a former Hot Wheels designer who was employed by Mattel from 1987 to 2002. He designed castings from at least 1993 to 1997, as well as doing work for the Collectibles line. His best known designs are Power Pipes, Rigor Motor, Silhouette II, Splittin\' Image II, Twin Mill II (1993), Shadow Jet II, Way 2 Fast, Twang Thang and Lexus SC400. He was noted to have been good friends with Phil Riehlman, and was noted as the creator of the 100% Hot Wheels line as well as the 4-Car sets. After leaving Mattel, he worked for Mechanix Wear and competing brand Spin Master and was last known to be an in-house design consultant for an Indonesian coachbuilder company, Morodadi Prima. He is currently retired.',
+        'periodo': '1987-2002',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': ['Power Pipes', 'Rigor Motor', 'Silhouette II', 'Splittin\' Image II', 'Twin Mill II', 'Shadow Jet II', 'Way 2 Fast', 'Twang Thang', 'Lexus SC400'],
+    },
+    'Bunker Bradley': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/BunkerBradley.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Bunker Hill Bradley is an American former independent Hot Wheels designer who worked under a contract for Mattel from 2003 to about 2005. He specializes in industrial design, designing products from vehicles for Ford and other companies, kitchen appliances and clothes under his own name. He currently operates Bunker Hill Bradley Design and is based in Australia.',
+        'periodo': '2003-2005',
+        'nacionalidad': 'Estadounidense',
+        'proyectos': [],
+    },
+    'Charlie Angulo': {
+        'foto': 'https://static.wikia.nocookie.net/hotwheels/images/0/0c/CharlieAngulo.jpg/revision/latest/scale-to-width-down/300',
+        'bio': 'Charles Angulo is a Peruvian-American designer who has been working at Mattel since 2018 as an Associate Designer. Prior to his work at Mattel, Angulo was a transportation designer for Divergent 3D. He is also known to have gone under the Internet handles of "unconventional__design" and "supercharlie__".',
+        'periodo': '2018-presente',
+        'nacionalidad': 'Peruano-Americano',
+        'proyectos': ['Wall-E', 'First Order Jet Trooper', 'Alpha Pursuit', 'Donatello', 'Leonardo', 'Michelangelo', 'Battle Cat', 'Skeletor', 'Zurg', 'Donut Drifter', 'El Segundo Coupe'],
+    },
 }
 
 # Tool numbers extraídos de las páginas de diseñadores (Fandom)
@@ -160,6 +195,11 @@ TOOL_NUMBERS = {
     # Felix Holst (2010-2015) - 4 modelos
     'R0923': 'Felix Holst', 'T9697': 'Felix Holst', 'X1622': 'Felix Holst',
     'CFV19': 'Felix Holst',
+
+    # Bob Lovejoy (1971-1973) - 8 modelos
+    '6186': 'Bob Lovejoy', '6001': 'Bob Lovejoy', '6048': 'Bob Lovejoy',
+    '6011': 'Bob Lovejoy', '6031': 'Bob Lovejoy', '6032': 'Bob Lovejoy',
+    '5948': 'Bob Lovejoy', '6645': 'Bob Lovejoy',
     
     # Jun Imai (2005-2018) - 100+ modelos
     'G6073': 'Jun Imai', 'G6716': 'Jun Imai', 'G6707': 'Jun Imai',
@@ -300,6 +340,13 @@ TOOL_NUMBERS = {
     'GRX57': 'Abe Lugo', 'GRX60': 'Abe Lugo', 'GRX49': 'Abe Lugo',
     'GRX55': 'Abe Lugo', 'GRX41': 'Abe Lugo', 'GRY93': 'Abe Lugo',
     'HCT23': 'Abe Lugo',
+
+    # Charlie Angulo (2019-2026) - 11 modelos
+    'GGX59': 'Charlie Angulo', 'FYT33': 'Charlie Angulo', 'GHB75': 'Charlie Angulo',
+    'GTJ53': 'Charlie Angulo', 'GJD87': 'Charlie Angulo', 'GTH68': 'Charlie Angulo',
+    'HGK43': 'Charlie Angulo', 'HHM05': 'Charlie Angulo', 'HPR85': 'Charlie Angulo',
+    'HPR74': 'Charlie Angulo', 'HPR77': 'Charlie Angulo', 'JKL12': 'Charlie Angulo',
+    'JKL13': 'Charlie Angulo', 'JKL09': 'Charlie Angulo',
 }
 
 def limpiar_nombre(nombre):
