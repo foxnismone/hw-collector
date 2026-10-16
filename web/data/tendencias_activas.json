@@ -1,0 +1,84 @@
+{
+ "meta": {
+  "fecha": "2026-10-12 11:10:09",
+  "fuentes": [
+   "google_trends",
+   "reddit_rss",
+   "demanda_interna"
+  ],
+  "total_modelos_analizados": 25,
+  "metodo": "indice compuesto 0-100 (Google 40% + Reddit 30% + Demanda 30%)"
+ },
+ "indice_tendencia": {
+  "ferrari sf90 stradale": 50.0,
+  "honda civic custom": 50.0,
+  "83 chevy silverado black widow": 40.1,
+  "ford mustang gtd": 31.2,
+  "ferrari f40 competizione": 30.8,
+  "94 toyota supra": 30.0,
+  "ferrari 365 gtb4 competizione": 27.4,
+  "porsche 911 carrera t arctic grey": 24.9,
+  "datsun 240z": 24.7,
+  "pass n go": 23.8,
+  "la liebre": 22.6,
+  "optimus prime red": 21.7,
+  "ferrari 12cilindri": 21.1,
+  "17 audi rs 6 avant yellow": 20.7,
+  "porsche 911 turbo cabriolet": 20.5,
+  "mclaren formula 1 team": 19.4,
+  "pagani zonda cinque": 19.2,
+  "67 camaro metalflake gold": 18.6,
+  "bugatti bolide": 18.4,
+  "16 lamborghini centenario roadster yellow": 18.1,
+  "70 dodge hemi challenger": 16.3,
+  "hw kitt concept": 16.0,
+  "honda s800 racing": 10.0,
+  "classic tv series batmobile": 10.0,
+  "bmw m3 wagon": 10.0
+ },
+ "momentum": {
+  "honda civic custom": 25,
+  "94 toyota supra": 15,
+  "honda s800 racing": 5,
+  "bmw m3 wagon": 5,
+  "classic tv series batmobile": 5
+ },
+ "alertas": [],
+ "google_trends_top": {},
+ "reddit_top": {
+  "honda civic custom": {
+   "menciones": 5,
+   "titulos": [
+    "GULF RACING PORSCHE 993 Custom",
+    "Custom cars",
+    "Top 2 rows are unspuns, the rest are customs / metal base swapped (as supers should)"
+   ]
+  },
+  "94 toyota supra": {
+   "menciones": 3,
+   "titulos": [
+    "Finished the Supra",
+    "New premium Supra casting?",
+    "Supra brick shop"
+   ]
+  },
+  "honda s800 racing": {
+   "menciones": 1,
+   "titulos": [
+    "New stunt jump tournament with several hot wheels. YT channel- Diecast racing and chihuahuas"
+   ]
+  },
+  "bmw m3 wagon": {
+   "menciones": 1,
+   "titulos": [
+    "Kaido House Datsun 510 Wagon"
+   ]
+  },
+  "classic tv series batmobile": {
+   "menciones": 1,
+   "titulos": [
+    "An Evening with Batman - Batman v Superman Batmobile and Justice League Batmobile"
+   ]
+  }
+ }
+}

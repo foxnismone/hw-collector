@@ -1,0 +1,56 @@
+{
+  "mainline": {
+    "nombre": "Mainline",
+    "descripcion": "Modelos estándar de Hot Wheels disponibles en tiendas minoristas. Son la línea principal con blister card individual. Incluye todos los años desde 1968.",
+    "color": "#3b82f6",
+    "icon": "🚗"
+  },
+  "treasure_hunt": {
+    "nombre": "Treasure Hunt",
+    "descripcion": "Modelos raros con acabado especial (Spectraflame o edición especial). Solo 1 de cada 72 cajas aproximadamente. Muy buscados por coleccionistas.",
+    "color": "#f59e0b",
+    "icon": "🏆"
+  },
+  "super_treasure_hunt": {
+    "nombre": "Super Treasure Hunt",
+    "descripcion": "Modelos extremadamente raros con acabado premium (ruedas rubber, pintura especial). Solo 1 de cada 144 cajas. Los más valiosos de la línea mainline.",
+    "color": "#ef4444",
+    "icon": "⭐"
+  },
+  "car_culture": {
+    "nombre": "Car Culture",
+    "descripcion": "Línea premium con detalles realistas, ruedas rubber y acabados de alta calidad. Incluye series como Muscle Mania, Euro Style, Japan Historics.",
+    "color": "#8b5cf6",
+    "icon": "🏁"
+  },
+  "team_transport": {
+    "nombre": "Team Transport",
+    "descripcion": "Camiones premium con remolque. Cada camión tiene un remolque específico que representa su equipo. Línea de alta calidad.",
+    "color": "#10b981",
+    "icon": "🚛"
+  },
+  "exclusivo": {
+    "nombre": "Exclusivo",
+    "descripcion": "Modelos exclusivos de tiendas específicas (Target, Walmart, Toys R Us, etc.). No disponibles en todas las regiones.",
+    "color": "#f97316",
+    "icon": "🏪"
+  },
+  "vintage": {
+    "nombre": "Vintage",
+    "descripcion": "Modelos antiguos de los años 60-80. Incluye las primeras ediciones (Redline) y clásicos muy buscados.",
+    "color": "#78716c",
+    "icon": "📜"
+  },
+  "modern": {
+    "nombre": "Modern",
+    "descripcion": "Modelos recientes de 2015 en adelante. Incluye las líneas actuales con blister card moderno.",
+    "color": "#06b6d4",
+    "icon": "🆕"
+  },
+  "rlc": {
+    "nombre": "Red Line Club",
+    "descripcion": "Modelos exclusivos para miembros del Red Line Club (RLC). Suscripción anual, modelos limitados con acabados premium.",
+    "color": "#dc2626",
+    "icon": "🔴"
+  }
+}

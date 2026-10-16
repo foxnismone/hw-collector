@@ -1,0 +1,66 @@
+{
+ "name": "HW Collector — catálogo, colección y valoración Hot Wheels",
+ "short_name": "HW Collector",
+ "description": "Catálogo real de Hot Wheels, tu colección con cantidades, seguimiento con alertas, códigos de caja, valoración en CLP/USD/EUR y asistente con voz.",
+ "lang": "es",
+ "dir": "ltr",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "orientation": "any",
+ "background_color": "#0c0e12",
+ "theme_color": "#ff4d00",
+ "categories": [
+  "shopping",
+  "utilities",
+  "lifestyle"
+ ],
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Catálogo",
+   "short_name": "Catálogo",
+   "url": "./galeria_catalogo.html",
+   "icons": [
+    {
+     "src": "icons/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Mi colección",
+   "short_name": "Colección",
+   "url": "./galeria_coleccion.html",
+   "icons": [
+    {
+     "src": "icons/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ]
+}

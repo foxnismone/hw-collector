@@ -1,0 +1,5 @@
+{
+  "url": "https://wgoqtqwxikqhrgulclqk.supabase.co",
+  "publishable_key": "sb_publishable_Jn2KEus4MeiBUOOZBX31eA_esHdE7Km",
+  "nota": "La URL y la publishable key son PÚBLICAS por diseño: van en el navegador y no dan acceso a datos de otros usuarios. La seguridad real está en las políticas RLS de la base de datos. NUNCA poner acá la clave service_role ni la contraseña de Postgres."
+}

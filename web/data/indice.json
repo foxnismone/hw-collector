@@ -1,0 +1,77 @@
+{
+ "version": "2.0",
+ "generado": "2026-10-11",
+ "formula": "Índice = 0,30·R + 0,25·D + 0,20·C + 0,15·A + 0,10·M",
+ "cambios_v2": [
+  "D (demanda) ya NO está vacía: usa los conteos reales de coleccionistas de HW Price Guide (ene/feb 2026); para el resto, proxi por re-ediciones del casting.",
+  "M (mercado) ya NO es una constante: usa el momentum real enero→febrero de la demanda + presencia en tienda chilena y en eBay.",
+  "A (antigüedad) usa una curva ajustada al rango 2016-2026 (0-60) en vez de una recta.",
+  "R (rareza) penaliza castings muy re-editados y premia modelos nuevos.",
+  "Se eliminó la renormalización: el índice usa la fórmula completa."
+ ],
+ "factores": {
+  "R": {
+   "peso": 0.3,
+   "que_mide": "Rareza: clase (STH/TH/Mainline), cantidad de re-ediciones del casting y si es modelo nuevo.",
+   "escala": "0-100",
+   "fuente": "clase del catálogo + conteo de apariciones 2016-2026"
+  },
+  "D": {
+   "peso": 0.25,
+   "que_mide": "Demanda real de coleccionistas.",
+   "escala": "0-100 (35 + 65·conteo/máximo)",
+   "fuente": "HW Price Guide, rankings de enero y febrero 2026; proxi por re-ediciones cuando no hay medición"
+  },
+  "C": {
+   "peso": 0.2,
+   "que_mide": "Condición del ejemplar.",
+   "escala": "100 = nuevo en tarjeta · 70 tarjeta dañada · 55 suelto impecable · 40 suelto bueno · 25 jugado",
+   "fuente": "escala de coleccionismo; el usuario la ajusta en su colección"
+  },
+  "A": {
+   "peso": 0.15,
+   "que_mide": "Antigüedad.",
+   "escala": "0-60 para 2016-2026 (5,5 puntos por año hacia atrás)",
+   "fuente": "año del registro"
+  },
+  "M": {
+   "peso": 0.1,
+   "que_mide": "Tendencia de mercado.",
+   "escala": "0-100",
+   "fuente": "momentum ene→feb 2026 de la demanda + presencia en tienda chilena (+12) y en eBay (+8)"
+  }
+ },
+ "estadisticas_catalogo": {
+  "n": 2177,
+  "min": 37.2,
+  "p10": 39.6,
+  "p25": 41.3,
+  "mediana": 43.7,
+  "p75": 46.1,
+  "p90": 47.8,
+  "max": 63.0,
+  "media": 44.0
+ },
+ "nota": "D y M se marcan como 'medida' o 'proxi' en la ficha: el usuario siempre ve de dónde sale cada número.",
+ "histograma": {
+  "desde": 30.0,
+  "hasta": 65.0,
+  "bins": [
+   0,
+   0,
+   28,
+   301,
+   470,
+   651,
+   460,
+   134,
+   23,
+   41,
+   37,
+   26,
+   4,
+   2
+  ]
+ },
+ "percentiles_disponibles": true
+}
