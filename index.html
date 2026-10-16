@@ -190,7 +190,7 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 </style></head><body>
 <header class="top"><div class="bar">
   <div class="brand"><h1>HW <span>Collector</span></h1><span class="sub">Catálogo · Colección · Mercados</span></div>
-  <nav class="tabs"><button data-tab="catalogo" aria-selected="true">Catálogo</button><button data-tab="coleccion" aria-selected="false">Mi colección</button><button data-tab="seguimiento" aria-selected="false">Seguimiento</button><button data-tab="tendencias" aria-selected="false">Tendencias</button><button data-tab="cajas" aria-selected="false">Cajas</button><button data-tab="escanear" aria-selected="false">Escanear</button><button data-tab="valorar" aria-selected="false">Valorar</button><button data-tab="mercados" aria-selected="false">Mercados</button><button data-tab="asistente" aria-selected="false">Asistente</button></nav>
+  <nav class="tabs"><button data-tab="catalogo" aria-selected="true">Catálogo</button><button data-tab="coleccion" aria-selected="false">Mi colección</button><button data-tab="seguimiento" aria-selected="false">Seguimiento</button><button data-tab="tendencias" aria-selected="false">Tendencias</button><button data-tab="cajas" aria-selected="false">Cajas</button><button data-tab="escanear" aria-selected="false">Escanear</button><button data-tab="valorar" aria-selected="false">Valorar</button><button data-tab="mercados" aria-selected="false">Mercados</button><button data-tab="disenadores" aria-selected="false">Diseñadores</button><button data-tab="asistente" aria-selected="false">Asistente</button></nav>
   <div class="cur"><span class="note">Moneda:</span><select id="cursel"></select>
     <span class="note">En colección: <b id="totcol">0</b></span>
     <span id="albadge">0</span>
@@ -206,7 +206,7 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 <section data-view="catalogo" style="display:block">
   <div class="filters" style="border:1px solid var(--line);margin-bottom:14px">
     <input type="search" id="q" placeholder="Buscar modelo, serie o toy # (ej: Skyline, El Camino, JBC20)">
-    <select id="fyear"></select><select id="fserie"></select><select id="fcat"></select>
+    <select id="fyear"></select><select id="fserie"></select><select id="fcat"></select><select id="fpais"></select>
     <select id="fsort"><option value="rel">Orden: año / nº</option><option value="ind">Índice ↓</option><option value="val">Valor ↓</option></select>
     <div class="chips">
       <button class="chip" data-clase="Mainline" aria-pressed="false">Mainline</button>
@@ -242,6 +242,16 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
     <table class="t"><thead><tr><th>Tipo de lote</th><th style="text-align:right">Descuento</th><th style="text-align:right">Neto estimado</th></tr></thead><tbody id="lotes"></tbody></table>
     <div class="warn">Descuentos y comisiones de research/02_mercado_y_valores.md §5-6 (eBay seller fees, Mercari, Whatnot, reddit r/HotWheels).</div></div>
 </section>
+<section data-view="disenadores" style="display:none">
+  <h2 style="margin:0 0 14px">Diseñadores de Hot Wheels</h2>
+  <p class="note" style="margin-bottom:16px">99 diseñadores con biografía completa, nacionalidad y proyectos. Tocá un diseñador para ver sus modelos.</p>
+  <div id="disaGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px"></div>
+</section>
+<footer style="border-top:1px solid var(--line);padding:20px;margin-top:20px;background:var(--elev)">
+  <h3 style="margin:0 0 10px">Diseñadores Destacados</h3>
+  <div id="footerDisa" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+  <p class="note" style="margin-top:10px">© 2026 HW Collector — Catálogo 4,214 modelos (1968-2027) · 99 diseñadores · Serie 92% · Número 72% · País 99%</p>
+</footer>
 <section data-view="mercados" style="display:none">
   <div class="note" style="margin-bottom:12px">Tipos de cambio cargados: <b>1 USD = $981.61 CLP</b> (mindicador.cl, dólar observado, 2026-10-09) ·
   <b>1 EUR = US$1.1344</b> · <b>1 GBP = US$1.3228</b> (exchangerate-api.com, 2026-09-30).
@@ -597,8 +607,12 @@ function cardHTML(c){
   const img=c.im?`<img class="thumb" loading="eager" src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">`:`<div class="thumb"></div>`;
   const editBtn=o&&o.q?`<button class="cardedit" onclick="event.stopPropagation();editCar('${c.i}')" title="Editar">✎</button>`:"";
   const delBtn=o&&o.q?`<button class="carddel" onclick="event.stopPropagation();if(confirm('Eliminar ${c.m}?'))delCar('${c.i}')" title="Eliminar">×</button>`:"";
-  return `<div class="cardwrap">${editBtn}${delBtn}<button class="card" data-id="${c.i}">${badge}${qty}${dbadge}${img}<div class="body">
-    <div class="nm">${c.m}</div><div class="mt">${c.y} · #${c.c} · ${String(c.t)}</div>
+  const bandera=c.pais?`<div style="position:absolute;bottom:4px;right:4px;font-size:14px;background:rgba(0,0,0,.5);border-radius:4px;padding:2px 4px">${c.pais.includes('Malaysia')?'🇲🇾':c.pais.includes('Thailand')?'🇹🇭':c.pais.includes('China')?'🇨🇳':c.pais.includes('Hong Kong')?'🇭🇰':c.pais.includes('USA')?'🇺🇸':'🏳️'}</div>`:'';
+  const thLogo=c.k==='TH'?'<div style="position:absolute;top:4px;left:4px;background:#f59e0b;color:#000;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">🔥TH</div>':'';
+  const sthLogo=c.k==='STH'?'<div style="position:absolute;top:4px;left:4px;background:#dc2626;color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">💎STH</div>':'';
+  const paisInfo=c.pais?`<span style="color:var(--muted-foreground);font-size:11px"> · ${c.pais}</span>`:'';
+  return `<div class="cardwrap">${editBtn}${delBtn}<button class="card" data-id="${c.i}">${badge}${qty}${dbadge}${thLogo}${sthLogo}${img}${bandera}<div class="body">
+    <div class="nm">${c.m}</div><div class="mt">${c.y} · #${c.c} · ${String(c.t)}${paisInfo}</div>
     <div class="idx"><i style="width:${c.x}%;background:${nivelColor(c.x)}"></i></div>
     <div class="idxrow"><span>Índice ${c.x}</span><span>${fmt(c.v)}–${fmt(c.V)}</span></div></div></button></div>`;
 }
@@ -1959,11 +1973,30 @@ function initPage(){
   if(selS) selS.innerHTML=`<option value="">Todas las series</option>`+ss.map(s=>`<option value="${s}">${s}</option>`).join("");
   const cats=[...new Set(CAT.flatMap(c=>(c.categorias_fandom||[]).map(x=>x.split(':')[0])))].sort(), selC=document.getElementById("fcat");
   if(selC) selC.innerHTML=`<option value="">Todas las categorías</option>`+cats.map(c=>`<option value="${c}">${c}</option>`).join("");
+  const paises=[...new Set(CAT.map(c=>c.pais).filter(Boolean))].sort(), selP=document.getElementById("fpais");
+  if(selP) selP.innerHTML=`<option value="">Todos los países</option>`+paises.map(p=>`<option value="${p}">${p}</option>`).join("");
   document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>tabTo(b.dataset.tab));
   const sq=document.getElementById("q"); if(sq) sq.oninput=()=>{state.q=sq.value;render(true);};
   if(selY) selY.onchange=()=>{state.year=selY.value;render(true);};
   if(selS) selS.onchange=()=>{state.serie=selS.value;render(true);};
   if(selC) selC.onchange=()=>{state.cat=selC.value;render(true);};
+  if(selP) selP.onchange=()=>{state.pais=selP.value;render(true);};
+  // Renderizar grilla de diseñadores
+  const disaGrid=document.getElementById('disaGrid');
+  if(disaGrid&&typeof DISA!=='undefined'){
+    const disaKeys=Object.keys(DISA).sort((a,b)=>a.localeCompare(b));
+    disaGrid.innerHTML=disaKeys.map(k=>{
+      const d=DISA[k];
+      const foto=d.foto?`<img src="${d.foto}" style="width:48px;height:48px;border-radius:50%;object-fit:cover;margin-right:10px;border:2px solid var(--brand-primary)">`:'';
+      return `<div style="display:flex;align-items:center;padding:10px;border:1px solid var(--border-color);border-radius:8px;cursor:pointer;background:var(--bg-surface)" onclick="alert('${k}: ${(d.proyectos||[]).length} modelos')">${foto}<div><b>${k}</b><br><small>${d.nacionalidad||''} · ${d.periodo||''}</small></div></div>`;
+    }).join('');
+  }
+  // Footer diseñadores destacados
+  const footerDisa=document.getElementById('footerDisa');
+  if(footerDisa&&typeof DISA!=='undefined'){
+    const destacados=Object.keys(DISA).filter(k=>DISA[k].proyectos&&DISA[k].proyectos.length>=10).sort((a,b)=>(DISA[b].proyectos||[]).length-(DISA[a].proyectos||[]).length).slice(0,20);
+    footerDisa.innerHTML=destacados.map(k=>`<span style="padding:4px 10px;border:1px solid var(--border-color);border-radius:12px;font-size:12px;background:var(--bg-elevated)">${k}</span>`).join('');
+  }
   const so=document.getElementById("fsort"); if(so) so.onchange=()=>{state.sort=so.value;render(true);};
   document.querySelectorAll(".chip[data-clase]").forEach(ch=>ch.onclick=()=>{
     state.clase=(state.clase===ch.dataset.clase)?"":ch.dataset.clase;
