@@ -1,0 +1,87 @@
+{
+  "titulo": "Guía de Identificación de Códigos Hot Wheels",
+  "secciones": [
+    {
+      "nombre": "Código de Asortación (Case Assortment)",
+      "descripcion": "Código que identifica la caja/case de 72 autos",
+      "formato": "3-4 letras + 4 números",
+      "ejemplos": [
+        "L2593",
+        "C4982",
+        "5785"
+      ],
+      "donde_aparece": "En el lateral de la caja, código de barras"
+    },
+    {
+      "nombre": "Código de Modelo/Tool Number",
+      "descripcion": "Código único del modelo (casting)",
+      "formato": "3 letras + 2 números",
+      "ejemplos": [
+        "FRN78",
+        "JKX06",
+        "JJJ02"
+      ],
+      "donde_aparece": "En la base del auto, junto al número de serie"
+    },
+    {
+      "nombre": "Número de Serie (Toy Number)",
+      "descripcion": "Número de producción del modelo",
+      "formato": "4-5 números",
+      "ejemplos": [
+        "6451",
+        "56388",
+        "2020"
+      ],
+      "donde_aparece": "En la base del auto, grabado o impreso"
+    },
+    {
+      "nombre": "Código de Country (País de Manufactura)",
+      "descripcion": "Código que indica dónde fue fabricado",
+      "formato": "Texto",
+      "ejemplos": [
+        "USA",
+        "Hong Kong",
+        "Malaysia",
+        "Thailand",
+        "China",
+        "Mexico"
+      ],
+      "donde_aparece": "En la base del auto, junto al tool number"
+    },
+    {
+      "nombre": "Código de Color",
+      "descripcion": "Algunas variantes tienen código de color",
+      "formato": "1-2 letras + 1-2 números",
+      "ejemplos": [
+        "C10",
+        "G37",
+        "A52"
+      ],
+      "donde_aparece": "En la base del auto, código de color"
+    },
+    {
+      "nombre": "Código de Ruedas (Wheel Type)",
+      "descripcion": "Tipo de ruedas del modelo",
+      "formato": "Abreviatura",
+      "ejemplos": [
+        "RL (Redline)",
+        "BW (Butterfly Wheels)",
+        "5SP (5 Spoke)",
+        "RR (Real Riders)",
+        "DD8 (Deep Dish)"
+      ],
+      "donde_aparece": "En la base del auto, indica el tipo de ruedas"
+    },
+    {
+      "nombre": "Código de Base (Base Type)",
+      "descripcion": "Tipo de base (chasis)",
+      "formato": "Texto",
+      "ejemplos": [
+        "Metal",
+        "Plastic",
+        "ZAMAC"
+      ],
+      "donde_aparece": "En la base del auto, material del chasis"
+    }
+  ]
+}

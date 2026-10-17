@@ -1234,25 +1234,30 @@ async function capturarOCR(){
       detenerScan();
       procesarCodigo(codigos[0]);
     } else {
-      logMsg('a','No se detectaron códigos válidos en la imagen.');
+      logMsg('a','No se detectaron códigos válidos en la imagen. Intentá con mejor iluminación o acercá el código al centro del recuadro.');
     }
   }catch(e){
-    logMsg('a','Error en OCR: '+e.message);
+    logMsg('a','Error en OCR: '+e.message+'. Verificá que Tesseract.js se cargó correctamente.');
   }
 }
 
 function extraerCodigos(texto){
   const codigos=[];
-  // Patrones de códigos Hot Wheels
+  // Patrones de códigos Hot Wheels (mejorados)
   const patrones=[
-    /\b[LlCcFfGg]\d{4}\b/,           // Asortación: L2593, C4982, 5785
+    /\b[LlCcFfGg]\d{4}\b/,           // Asortación: L2593, C4982, F5785
     /\b[A-Z]{3}\d{2}\b/,             // Modelo: FRN78, JKX06
     /\b[A-Z]\d{4}-?\d{3}[A-Z]\b/,    // Case: L2593-976K
     /\bAsst\.?\s*[A-Z]?\d{4}\b/i,    // "Asst. C4982"
+    /\b\d{3}[A-Z]\b/,                // Códigos cortos: 976K
+    /\b[A-Z]{2}\d{4}\b/,             // Códigos de 2 letras + 4 números
+    /\b\d{4}[A-Z]\b/,                // Códigos de 4 números + letra
   ];
   for(const p of patrones){
-    const m=texto.match(p);
-    if(m) codigos.push(m[0].toUpperCase());
+    const matches=texto.match(new RegExp(p.source,p.flags.includes('g')?p.flags:p.flags+'g'));
+    if(matches){
+      matches.forEach(m=>codigos.push(m.toUpperCase().replace(/\s+/g,'')));
+    }
   }
   return [...new Set(codigos)];
 }
@@ -1261,8 +1266,10 @@ function procesarCodigo(codigo){
   if(!codigo) return;
   codigo=codigo.trim().toUpperCase();
   const res=document.getElementById('scanresult');
-  // Buscar en el catálogo local
-  const encontrado=buscarPorCodigo(codigo);
+  // Normalizar código para búsqueda (quitar caracteres especiales)
+  const codigoNorm=codigo.replace(/[^A-Z0-9]/g,'');
+  // Buscar en el catálogo local (intento múltiple)
+  const encontrado=buscarPorCodigo(codigo)||buscarPorCodigo(codigoNorm);
   if(encontrado){
     res.innerHTML=`
       <div class="sec" style="border:1px solid var(--brand);padding:12px">
@@ -1293,8 +1300,13 @@ function procesarCodigo(codigo){
 }
 
 function buscarPorCodigo(codigo){
-  // Buscar por ID exacto o por código de asortación
-  return CAT.find(c=>c.i===codigo || c.i.includes(codigo) || codigo.includes(c.i));
+  if(!codigo) return null;
+  const codigoNorm=codigo.replace(/[^A-Z0-9]/g,'').toUpperCase();
+  // Buscar por ID exacto o por código de asortación (normalizado)
+  return CAT.find(c=>{
+    const ciNorm=c.i.replace(/[^A-Z0-9]/g,'').toUpperCase();
+    return c.i===codigo || ciNorm===codigoNorm || ciNorm.includes(codigoNorm) || codigoNorm.includes(ciNorm);
+  });
 }
 
 async function agregarEscaneado(id){
@@ -1309,10 +1321,23 @@ async function agregarEscaneado(id){
 
 async function buscarEnInternet(codigo){
   const res=document.getElementById('scanresult');
-  logMsg('i','🔍 Scraping de rescate para: '+codigo);
-  res.innerHTML='<div class="note">🔍 Buscando en internet...<br><br>Ejecutá el scraper de rescate en tu PC:</div>';
-  res.innerHTML+='<pre class="note" style="background:var(--elev);padding:8px;border-radius:4px;overflow-x:auto;font-size:12px">python build/scraper_rescate.py "'+codigo+'"</pre>';
-  res.innerHTML+='<div class="note" style="margin-top:8px">El scraper buscará en SmartWheelers, HW Wiki, HW Price Guide, Reddit, eBay y Mercado Libre.<br><br>Si el scraper encuentra el modelo, los datos se guardan en caché por 7 días.</div>';
+  logMsg('i','🔍 Búsqueda en internet para: '+codigo);
+  res.innerHTML=`
+    <div class="sec" style="border:1px solid var(--brand);padding:12px">
+      <h4 style="margin:0 0 8px">🔍 Buscar en internet</h4>
+      <div class="note" style="margin-bottom:8px">Para buscar el código <b>${codigo}</b> en internet, ejecutá el siguiente comando en tu terminal:</div>
+      <pre class="note" style="background:var(--elev);padding:12px;border-radius:6px;overflow-x:auto;font-size:13px;margin:0">python build/scraper_rescate.py "${codigo}"</pre>
+      <div class="note" style="margin-top:12px">El scraper buscará en:</div>
+      <ul class="note" style="margin:8px 0;padding-left:20px">
+        <li>SmartWheelers</li>
+        <li>HW Wiki</li>
+        <li>HW Price Guide</li>
+        <li>Reddit</li>
+        <li>eBay</li>
+        <li>Mercado Libre</li>
+      </ul>
+      <div class="note">Si el scraper encuentra el modelo, los datos se guardan en caché por 7 días.</div>
+    </div>`;
 }
 
 function agregarManual(codigo){

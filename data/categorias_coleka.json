@@ -1,0 +1,212 @@
+[
+  {
+    "id": "spider_man",
+    "nombre": "Spider-Man",
+    "año": "2022-2026",
+    "modelos": 10,
+    "tipo": "personajes"
+  },
+  {
+    "id": "pull_back",
+    "nombre": "Pull-Back Speeders",
+    "año": "2024-2025",
+    "modelos": 2,
+    "tipo": "linea"
+  },
+  {
+    "id": "clasicos",
+    "nombre": "Clásicos",
+    "año": "1976-2026",
+    "modelos": 4189,
+    "tipo": "linea"
+  },
+  {
+    "id": "rlc",
+    "nombre": "Collectors / RLC & NFT Garage",
+    "año": "2024-2025",
+    "modelos": 23,
+    "tipo": "club"
+  },
+  {
+    "id": "x_men",
+    "nombre": "X-Men",
+    "año": "2023",
+    "modelos": 5,
+    "tipo": "personajes"
+  },
+  {
+    "id": "cool_classics",
+    "nombre": "Cool Classics",
+    "año": "2014",
+    "modelos": 7,
+    "tipo": "linea"
+  },
+  {
+    "id": "daniel_arsham",
+    "nombre": "Daniel Arsham",
+    "año": "2023-2024",
+    "modelos": 8,
+    "tipo": "colaboracion"
+  },
+  {
+    "id": "acceleracers",
+    "nombre": "Acceleracers",
+    "año": "",
+    "modelos": 22,
+    "tipo": "serie"
+  },
+  {
+    "id": "action_pack",
+    "nombre": "Action Pack",
+    "año": "",
+    "modelos": 7,
+    "tipo": "serie"
+  },
+  {
+    "id": "split_speeders",
+    "nombre": "Split Speeders",
+    "año": "",
+    "modelos": 4,
+    "tipo": "serie"
+  },
+  {
+    "id": "racerverse",
+    "nombre": "Racerverse",
+    "año": "2023-2025",
+    "modelos": 39,
+    "tipo": "serie"
+  },
+  {
+    "id": "captain_marvel",
+    "nombre": "Captain Marvel",
+    "año": "2023",
+    "modelos": 2,
+    "tipo": "personajes"
+  },
+  {
+    "id": "black_panther",
+    "nombre": "Black Panther",
+    "año": "2022",
+    "modelos": 3,
+    "tipo": "personajes"
+  },
+  {
+    "id": "car_tridge",
+    "nombre": "Car-tridge",
+    "año": "",
+    "modelos": 5,
+    "tipo": "serie"
+  },
+  {
+    "id": "racing",
+    "nombre": "Racing",
+    "año": "2003",
+    "modelos": 29,
+    "tipo": "serie"
+  },
+  {
+    "id": "racing_metal",
+    "nombre": "Racing Metal Series",
+    "año": "1995",
+    "modelos": 4,
+    "tipo": "serie"
+  },
+  {
+    "id": "mainline_themed",
+    "nombre": "Mainline Themed Collections",
+    "año": "2018-2025",
+    "modelos": 217,
+    "tipo": "serie"
+  },
+  {
+    "id": "track_fleet",
+    "nombre": "Track Fleet",
+    "año": "2024-2025",
+    "modelos": 2,
+    "tipo": "serie"
+  },
+  {
+    "id": "garage",
+    "nombre": "Garage",
+    "año": "2011",
+    "modelos": 15,
+    "tipo": "serie"
+  },
+  {
+    "id": "fast_food",
+    "nombre": "Fast Food Series",
+    "año": "1996",
+    "modelos": 4,
+    "tipo": "serie"
+  },
+  {
+    "id": "detroit_muscle",
+    "nombre": "Detroit Muscle",
+    "año": "2019",
+    "modelos": 6,
+    "tipo": "serie"
+  },
+  {
+    "id": "despicable_me",
+    "nombre": "Despicable Me",
+    "año": "2017",
+    "modelos": 6,
+    "tipo": "personajes"
+  },
+  {
+    "id": "spring_19",
+    "nombre": "Spring '19",
+    "año": "2019",
+    "modelos": 6,
+    "tipo": "serie"
+  },
+  {
+    "id": "holiday_hot_rod",
+    "nombre": "Holiday Hot Rod",
+    "año": "2019",
+    "modelos": 6,
+    "tipo": "serie"
+  },
+  {
+    "id": "porsche",
+    "nombre": "Porsche",
+    "año": "2019-2020",
+    "modelos": 5,
+    "tipo": "serie"
+  },
+  {
+    "id": "hw_turbo",
+    "nombre": "HW Turbo",
+    "año": "2020",
+    "modelos": 6,
+    "tipo": "serie"
+  },
+  {
+    "id": "tooned",
+    "nombre": "Tooned",
+    "año": "2020",
+    "modelos": 10,
+    "tipo": "serie"
+  },
+  {
+    "id": "mario_kart",
+    "nombre": "Mario Kart",
+    "año": "2019-2025",
+    "modelos": 112,
+    "tipo": "colaboracion"
+  },
+  {
+    "id": "marvel",
+    "nombre": "Marvel",
+    "año": "2015-2021",
+    "modelos": 30,
+    "tipo": "personajes"
+  },
+  {
+    "id": "star_trek",
+    "nombre": "Star Trek 50",
+    "año": "2015-2016",
+    "modelos": 6,
+    "tipo": "colaboracion"
+  }
+]

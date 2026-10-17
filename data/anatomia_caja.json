@@ -1,0 +1,56 @@
+{
+  "titulo": "Anatomía de la Caja Hot Wheels",
+  "partes": [
+    {
+      "nombre": "Frontal",
+      "elementos": [
+        "Logo Hot Wheels",
+        "Imagen del auto",
+        "Nombre del modelo",
+        "Número de serie",
+        "Edad recomendada"
+      ]
+    },
+    {
+      "nombre": "Lateral izquierdo",
+      "elementos": [
+        "Código de asortación",
+        "Código de barras",
+        "Precio",
+        "País de origen"
+      ]
+    },
+    {
+      "nombre": "Lateral derecho",
+      "elementos": [
+        "Código de asortación",
+        "Lista de autos del case",
+        "Información de seguridad"
+      ]
+    },
+    {
+      "nombre": "Superior",
+      "elementos": [
+        "Logo Hot Wheels",
+        "Tipo (Mainline/TH/STH)",
+        "Año de producción"
+      ]
+    },
+    {
+      "nombre": "Inferior",
+      "elementos": [
+        "Código de asortación",
+        "Dirección del fabricante",
+        "Código de reciclaje"
+      ]
+    },
+    {
+      "nombre": "Interior (blister)",
+      "elementos": [
+        "El auto en sí",
+        "Tarjeta de colección (TH/STH)",
+        "Sticker sheet (algunos modelos)"
+      ]
+    }
+  ]
+}

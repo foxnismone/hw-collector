@@ -250,7 +250,25 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 <footer style="border-top:1px solid var(--line);padding:20px;margin-top:20px;background:var(--elev)">
   <h3 style="margin:0 0 10px">Diseñadores Destacados</h3>
   <div id="footerDisa" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+
+  <!-- Guía de Códigos y Anatomía de Caja -->
+  <div class="sec" style="margin-top:20px">
+    <h3>📖 Guía de Identificación de Códigos Hot Wheels</h3>
+    <div id="guiaCodigos" style="margin-top:12px"></div>
+  </div>
+  <div class="sec" style="margin-top:20px">
+    <h3>📦 Anatomía de la Caja Hot Wheels</h3>
+    <div id="anatomiaCaja" style="margin-top:12px"></div>
+  </div>
+  <div class="sec" style="margin-top:20px">
+    <h3>🏷️ Categorías Especiales (Coleka.com)</h3>
+    <div id="categoriasEspeciales" style="margin-top:12px"></div>
+  </div>
   <p class="note" style="margin-top:10px">© 2026 HW Collector — Catálogo 4,214 modelos (1968-2027) · 99 diseñadores · Serie 92% · Número 72% · País 99%</p>
+  <div id="versionInfo" style="margin-top:12px;padding:12px;background:var(--elev);border-radius:6px;border:1px solid var(--line)">
+    <div style="font-weight:600;font-size:14px">ℹ️ Información de Versión</div>
+    <div class="note" style="margin-top:4px" id="versionText">Cargando...</div>
+  </div>
 </footer>
 <section data-view="mercados" style="display:none">
   <div class="note" style="margin-bottom:12px">Tipos de cambio cargados: <b>1 USD = $981.61 CLP</b> (mindicador.cl, dólar observado, 2026-10-09) ·
@@ -590,6 +608,7 @@ function filtered(){
     if(state.clase&&c.k!==state.clase) return false;
     if(state.serie&&c.s!==state.serie) return false;
     if(state.cat&&!(c.categorias_fandom||[]).some(x=>x.startsWith(state.cat+':'))) return false;
+    if(state.pais&&c.pais!==state.pais) return false;
     if(state.trending&&!DEM[c.i]) return false;
     if(q&&!(c.m.toLowerCase().includes(q)||c.s.toLowerCase().includes(q)||String(c.t).toLowerCase().includes(q))) return false;
     return true;});
@@ -1228,18 +1247,32 @@ async function abrirScan(){
     await video.play();
     // ZXing: escanear código de barras en tiempo real
     if(typeof ZXing!=='undefined'){
-      scanZX=new ZXing.BrowserMultiFormatReader();
-      scanZX.decodeFromVideoDevice(undefined,video,(result,err)=>{
-        if(result){
-          const code=result.getText();
-          if(code && code.length>=3){
-            detenerScan();
-            procesarCodigo(code);
+      try{
+        scanZX=new ZXing.BrowserMultiFormatReader();
+        const onDecode=(result,err)=>{
+          if(result){
+            const code=result.getText();
+            if(code && code.length>=3){
+              detenerScan();
+              procesarCodigo(code);
+            }
           }
+        };
+        if(typeof scanZX.decodeFromVideoDevice==='function'){
+          scanZX.decodeFromVideoDevice(undefined,video,onDecode);
+        }else if(typeof scanZX.decodeFromVideoElement==='function'){
+          scanZX.decodeFromVideoElement(video,onDecode);
+        }else{
+          throw new Error('API de escaneo no disponible en esta versión de ZXing');
         }
-      });
+        logMsg('i','Escáner ZXing activo. Apuntá al código de barras o tocá "Capturar (OCR)".');
+      }catch(zxErr){
+        logMsg('w','ZXing no disponible ('+zxErr.message+'). Usá Capturar (OCR).');
+        scanZX=null;
+      }
+    }else{
+      logMsg('w','ZXing no cargado. Usá Capturar (OCR) con Tesseract.js.');
     }
-    logMsg('i','Escáner activo. Apuntá al código de barras o tocá "Capturar (OCR)".');
   }catch(e){
     logMsg('a','No se pudo acceder a la cámara: '+e.message);
     document.getElementById('scanmodal').style.display='none';
@@ -1286,25 +1319,30 @@ async function capturarOCR(){
       detenerScan();
       procesarCodigo(codigos[0]);
     } else {
-      logMsg('a','No se detectaron códigos válidos en la imagen.');
+      logMsg('a','No se detectaron códigos válidos en la imagen. Intentá con mejor iluminación o acercá el código al centro del recuadro.');
     }
   }catch(e){
-    logMsg('a','Error en OCR: '+e.message);
+    logMsg('a','Error en OCR: '+e.message+'. Verificá que Tesseract.js se cargó correctamente.');
   }
 }
 
 function extraerCodigos(texto){
   const codigos=[];
-  // Patrones de códigos Hot Wheels
+  // Patrones de códigos Hot Wheels (mejorados)
   const patrones=[
-    /\b[LlCcFfGg]\d{4}\b/,           // Asortación: L2593, C4982, 5785
+    /\b[LlCcFfGg]\d{4}\b/,           // Asortación: L2593, C4982, F5785
     /\b[A-Z]{3}\d{2}\b/,             // Modelo: FRN78, JKX06
     /\b[A-Z]\d{4}-?\d{3}[A-Z]\b/,    // Case: L2593-976K
     /\bAsst\.?\s*[A-Z]?\d{4}\b/i,    // "Asst. C4982"
+    /\b\d{3}[A-Z]\b/,                // Códigos cortos: 976K
+    /\b[A-Z]{2}\d{4}\b/,             // Códigos de 2 letras + 4 números
+    /\b\d{4}[A-Z]\b/,                // Códigos de 4 números + letra
   ];
   for(const p of patrones){
-    const m=texto.match(p);
-    if(m) codigos.push(m[0].toUpperCase());
+    const matches=texto.match(new RegExp(p.source,p.flags.includes('g')?p.flags:p.flags+'g'));
+    if(matches){
+      matches.forEach(m=>codigos.push(m.toUpperCase().replace(/\s+/g,'')));
+    }
   }
   return [...new Set(codigos)];
 }
@@ -1313,8 +1351,10 @@ function procesarCodigo(codigo){
   if(!codigo) return;
   codigo=codigo.trim().toUpperCase();
   const res=document.getElementById('scanresult');
-  // Buscar en el catálogo local
-  const encontrado=buscarPorCodigo(codigo);
+  // Normalizar código para búsqueda (quitar caracteres especiales)
+  const codigoNorm=codigo.replace(/[^A-Z0-9]/g,'');
+  // Buscar en el catálogo local (intento múltiple)
+  const encontrado=buscarPorCodigo(codigo)||buscarPorCodigo(codigoNorm);
   if(encontrado){
     res.innerHTML=`
       <div class="sec" style="border:1px solid var(--brand);padding:12px">
@@ -1333,8 +1373,8 @@ function procesarCodigo(codigo){
     res.innerHTML=`
       <div class="sec" style="border:1px solid #e74c3c;padding:12px">
         <h4 style="margin:0 0 8px">❌ Código no encontrado</h4>
-        <div class="note">El código <b>${codigo}</b> no existe en la catálogo local.</div>
-        <div class="note" style="margin:8px 0">¿Querés buscar en internet?</div>
+        <div class="note">El código <b>${codigo}</b> no existe en el catálogo local.</div>
+        <div class="note" style="margin:8px 0">¿Querés buscar en internet o agregar manualmente?</div>
         <div class="btnrow">
           <button class="btn" onclick="buscarEnInternet('${codigo}')">🔍 Buscar en internet</button>
           <button class="btn ghost" onclick="agregarManual('${codigo}')">Agregar manualmente</button>
@@ -1345,8 +1385,13 @@ function procesarCodigo(codigo){
 }
 
 function buscarPorCodigo(codigo){
-  // Buscar por ID exacto o por código de asortación
-  return CAT.find(c=>c.i===codigo || c.i.includes(codigo) || codigo.includes(c.i));
+  if(!codigo) return null;
+  const codigoNorm=codigo.replace(/[^A-Z0-9]/g,'').toUpperCase();
+  // Buscar por ID exacto o por código de asortación (normalizado)
+  return CAT.find(c=>{
+    const ciNorm=c.i.replace(/[^A-Z0-9]/g,'').toUpperCase();
+    return c.i===codigo || ciNorm===codigoNorm || ciNorm.includes(codigoNorm) || codigoNorm.includes(ciNorm);
+  });
 }
 
 async function agregarEscaneado(id){
@@ -1361,10 +1406,23 @@ async function agregarEscaneado(id){
 
 async function buscarEnInternet(codigo){
   const res=document.getElementById('scanresult');
-  logMsg('i','🔍 Scraping de rescate para: '+codigo);
-  res.innerHTML='<div class="note">🔍 Buscando en internet...<br><br>Ejecutá el scraper de rescate en tu PC:</div>';
-  res.innerHTML+='<pre class="note" style="background:var(--elev);padding:8px;border-radius:4px;overflow-x:auto;font-size:12px">python build/scraper_rescate.py "'+codigo+'"</pre>';
-  res.innerHTML+='<div class="note" style="margin-top:8px">El scraper buscará en SmartWheelers, HW Wiki, HW Price Guide, Reddit, eBay y Mercado Libre.<br><br>Si el scraper encuentra el modelo, los datos se guardan en caché por 7 días.</div>';
+  logMsg('i','🔍 Búsqueda en internet para: '+codigo);
+  res.innerHTML=`
+    <div class="sec" style="border:1px solid var(--brand);padding:12px">
+      <h4 style="margin:0 0 8px">🔍 Buscar en internet</h4>
+      <div class="note" style="margin-bottom:8px">Para buscar el código <b>${codigo}</b> en internet, ejecutá el siguiente comando en tu terminal:</div>
+      <pre class="note" style="background:var(--elev);padding:12px;border-radius:6px;overflow-x:auto;font-size:13px;margin:0">python build/scraper_rescate.py "${codigo}"</pre>
+      <div class="note" style="margin-top:12px">El scraper buscará en:</div>
+      <ul class="note" style="margin:8px 0;padding-left:20px">
+        <li>SmartWheelers</li>
+        <li>HW Wiki</li>
+        <li>HW Price Guide</li>
+        <li>Reddit</li>
+        <li>eBay</li>
+        <li>Mercado Libre</li>
+      </ul>
+      <div class="note">Si el scraper encuentra el modelo, los datos se guardan en caché por 7 días.</div>
+    </div>`;
 }
 
 function agregarManual(codigo){
@@ -1983,19 +2041,69 @@ function initPage(){
   if(selP) selP.onchange=()=>{state.pais=selP.value;render(true);};
   // Renderizar grilla de diseñadores
   const disaGrid=document.getElementById('disaGrid');
-  if(disaGrid&&typeof DISA!=='undefined'){
-    const disaKeys=Object.keys(DISA).sort((a,b)=>a.localeCompare(b));
-    disaGrid.innerHTML=disaKeys.map(k=>{
-      const d=DISA[k];
+  if(disaGrid&&typeof DISENADORES!=='undefined'){
+        const disaKeys=Object.keys(DISENADORES).sort((a,b)=>a.localeCompare(b));
+        disaGrid.innerHTML=disaKeys.map(k=>{
+          const d=DISENADORES[k];
       const foto=d.foto?`<img src="${d.foto}" style="width:48px;height:48px;border-radius:50%;object-fit:cover;margin-right:10px;border:2px solid var(--brand-primary)">`:'';
       return `<div style="display:flex;align-items:center;padding:10px;border:1px solid var(--border-color);border-radius:8px;cursor:pointer;background:var(--bg-surface)" onclick="alert('${k}: ${(d.proyectos||[]).length} modelos')">${foto}<div><b>${k}</b><br><small>${d.nacionalidad||''} · ${d.periodo||''}</small></div></div>`;
     }).join('');
   }
   // Footer diseñadores destacados
   const footerDisa=document.getElementById('footerDisa');
-  if(footerDisa&&typeof DISA!=='undefined'){
-    const destacados=Object.keys(DISA).filter(k=>DISA[k].proyectos&&DISA[k].proyectos.length>=10).sort((a,b)=>(DISA[b].proyectos||[]).length-(DISA[a].proyectos||[]).length).slice(0,20);
-    footerDisa.innerHTML=destacados.map(k=>`<span style="padding:4px 10px;border:1px solid var(--border-color);border-radius:12px;font-size:12px;background:var(--bg-elevated)">${k}</span>`).join('');
+  if(footerDisa&&typeof DISENADORES!=='undefined'){
+    const disaKeys=Object.keys(DISENADORES).filter(k=>DISENADORES[k].proyectos&&DISENADORES[k].proyectos.length>=10).sort((a,b)=>(DISENADORES[b].proyectos||[]).length-(DISENADORES[a].proyectos||[]).length).slice(0,20);
+    footerDisa.innerHTML=disaKeys.map(k=>`<div style="padding:8px;background:var(--elev);border-radius:6px;font-size:12px"><b>${k}</b> (${DISENADORES[k].proyectos.length} modelos)</div>`).join('');
+  }
+  // Guía de códigos
+  const guiaDiv=document.getElementById('guiaCodigos');
+  if(guiaDiv){
+    guiaDiv.innerHTML=`<div style="display:grid;gap:12px">${[
+      {n:'Código de Asortación',d:'Identifica la caja/case de 72 autos',f:'3-4 letras + 4 números',e:['L2593','C4982','5785'],l:'Lateral de la caja, código de barras'},
+      {n:'Código de Modelo/Tool Number',d:'Código único del modelo (casting)',f:'3 letras + 2 números',e:['FRN78','JKX06','JJJ02'],l:'Base del auto, junto al número de serie'},
+      {n:'Número de Serie (Toy Number)',d:'Número de producción del modelo',f:'4-5 números',e:['6451','56388','2020'],l:'Base del auto, grabado o impreso'},
+      {n:'País de Manufactura',d:'Dónde fue fabricado',f:'Texto',e:['USA','Hong Kong','Malaysia','Thailand','China','Mexico'],l:'Base del auto, junto al tool number'},
+      {n:'Tipo de Ruedas',d:'Tipo de ruedas del modelo',f:'Abreviatura',e:['RL (Redline)','BW (Butterfly)','5SP (5 Spoke)','RR (Real Riders)','DD8 (Deep Dish)'],l:'Base del auto, indica el tipo de ruedas'},
+      {n:'Tipo de Base',d:'Material del chasis',f:'Texto',e:['Metal','Plastic','ZAMAC'],l:'Base del auto, material del chasis'}
+    ].map(s=>`<div style="padding:12px;background:var(--elev);border-radius:6px;border:1px solid var(--line)"><div style="font-weight:600;font-size:14px">${s.n}</div><div class="note" style="margin-top:4px">${s.d}</div><div style="font-size:12px;margin-top:4px"><b>Formato:</b> ${s.f}</div><div style="font-size:12px"><b>Ejemplos:</b> ${s.e.join(', ')}</div><div style="font-size:12px"><b>Dónde aparece:</b> ${s.l}</div></div>`).join('')}</div>`;
+  }
+  // Anatomía de la caja
+  const anatomiaDiv=document.getElementById('anatomiaCaja');
+  if(anatomiaDiv){
+    anatomiaDiv.innerHTML=`<div style="display:grid;gap:12px">${[
+      {n:'Frontal',e:['Logo Hot Wheels','Imagen del auto','Nombre del modelo','Número de serie','Edad recomendada']},
+      {n:'Lateral izquierdo',e:['Código de asortación','Código de barras','Precio','País de origen']},
+      {n:'Lateral derecho',e:['Código de asortación','Lista de autos del case','Información de seguridad']},
+      {n:'Superior',e:['Logo Hot Wheels','Tipo (Mainline/TH/STH)','Año de producción']},
+      {n:'Inferior',e:['Código de asortación','Dirección del fabricante','Código de reciclaje']},
+      {n:'Interior (blister)',e:['El auto en sí','Tarjeta de colección (TH/STH)','Sticker sheet (algunos modelos)']}
+    ].map(p=>`<div style="padding:12px;background:var(--elev);border-radius:6px;border:1px solid var(--line)"><div style="font-weight:600;font-size:14px">${p.n}</div><ul style="margin:8px 0 0;padding-left:20px;font-size:13px">${p.e.map(x=>`<li>${x}</li>`).join('')}</ul></div>`).join('')}</div>`;
+  }
+  // Categorías especiales
+  const catEspDiv=document.getElementById('categoriasEspeciales');
+  if(catEspDiv){
+    catEspDiv.innerHTML=`<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">${[
+      {n:'Spider-Man',c:10,a:'2022-2026',t:'personajes'},
+      {n:'Clásicos',c:4189,a:'1976-2026',t:'linea'},
+      {n:'RLC & NFT Garage',c:23,a:'2024-2025',t:'club'},
+      {n:'Mario Kart',c:112,a:'2019-2025',t:'colaboracion'},
+      {n:'Marvel',c:30,a:'2015-2021',t:'personajes'},
+      {n:'X-Men',c:5,a:'2023',t:'personajes'},
+      {n:'Acceleracers',c:22,a:'',t:'serie'},
+      {n:'Racerverse',c:39,a:'2023-2025',t:'serie'},
+      {n:'Mainline Themed',c:217,a:'2018-2025',t:'serie'},
+      {n:'Daniel Arsham',c:8,a:'2023-2024',t:'colaboracion'},
+      {n:'Star Trek 50',c:6,a:'2015-2016',t:'colaboracion'},
+      {n:'Despicable Me',c:6,a:'2017',t:'personajes'}
+    ].map(c=>`<div style="padding:8px;background:var(--elev);border-radius:6px;font-size:12px"><b>${c.n}</b> (${c.c} modelos)<br><span class="note">${c.a} · ${c.t}</span></div>`).join('')}</div>`;
+  }
+  // Indicador de versión
+  const versionDiv=document.getElementById('versionText');
+  if(versionDiv){
+    const fechaCompilacion='2026-10-17';
+    const fechaPublicacion='2026-10-17';
+    const version='v2.0.0';
+    versionDiv.innerHTML=`<b>Versión:</b> ${version} · <b>Fecha de compilación:</b> ${fechaCompilacion} · <b>Fecha de publicación:</b> ${fechaPublicacion} · <b>Modelos:</b> 4,214 · <b>Diseñadores:</b> 3,527`;
   }
   const so=document.getElementById("fsort"); if(so) so.onchange=()=>{state.sort=so.value;render(true);};
   document.querySelectorAll(".chip[data-clase]").forEach(ch=>ch.onclick=()=>{
