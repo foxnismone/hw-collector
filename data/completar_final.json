@@ -1,0 +1,2896 @@
+{
+  "imagen": {
+    "2507": {
+      "nombre": "Dumin' A",
+      "anio": 1979,
+      "titulo_wiki": "Larry Wood",
+      "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/d/d0/LarryWood.png/revision/latest/scale-to-width-down/223?cb=20230728041459"
+    },
+    "ALT_1985_14": {
+      "nombre": "Screamin'",
+      "anio": 1985,
+      "titulo_wiki": "Screamin' Hauler",
+      "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/d/df/Screamin_Hauler_Prp.JPG/revision/latest/scale-to-width-down/300?cb=20090323015930"
+    },
+    "95650": {
+      "nombre": "Tipper",
+      "anio": 1998,
+      "titulo_wiki": "Tipping Lorry",
+      "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/7/74/Tipping_lorry.JPG/revision/latest/scale-to-width-down/300?cb=20210507032902"
+    },
+    "24396": {
+      "nombre": "Sho-Stopper",
+      "anio": 2000,
+      "titulo_wiki": "Seared Tuner",
+      "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/8/8c/SearedTunerSketch.jpg/revision/latest/scale-to-width-down/300?cb=20251220071348"
+    },
+    "56388": {
+      "nombre": "Da'Kar",
+      "anio": 2003,
+      "titulo_wiki": "Da'Kar",
+      "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/a/a0/DaKar_Sketch.jpg/revision/latest/scale-to-width-down/300?cb=20200204233455"
+    },
+    "C2702": {
+      "nombre": "The Gov'ner",
+      "anio": 2004,
+      "titulo_wiki": "The Gov'ner",
+      "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/9/9c/TheGovner.jpg/revision/latest/scale-to-width-down/300?cb=20080313025735"
+    },
+    "T9719": {
+      "nombre": "\"Hammerhead\"",
+      "anio": 2011,
+      "titulo_wiki": "Street Shaker",
+      "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/9/9e/Hammerheadartworkposter2.png/revision/latest/scale-to-width-down/300?cb=20260219221200"
+    }
+  },
+  "numero": {},
+  "disenador": {
+    "2026-JJH32": {
+      "nombre": "Bounce'n Bass",
+      "anio": 2026,
+      "titulo_wiki": "Bounce'n Bass",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJK69": {
+      "nombre": "Bounce'n Bass (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Bounce'n Bass",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJH34": {
+      "nombre": "Pagani Zonda Cinque",
+      "anio": 2026,
+      "titulo_wiki": "Pagani Zonda Cinque (Tooned)",
+      "diseñador": "Ronald Wong"
+    },
+    "2026-JJK75": {
+      "nombre": "Pagani Zonda Cinque (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Pagani Zonda Cinque (Tooned)",
+      "diseñador": "Ronald Wong"
+    },
+    "2026-JJM32": {
+      "nombre": "Pagani Zonda Cinque (3rd Color - Zamac)",
+      "anio": 2026,
+      "titulo_wiki": "Pagani Zonda Cinque (Tooned)",
+      "diseñador": "Ronald Wong"
+    },
+    "2026-JJJ04": {
+      "nombre": "Haulerback",
+      "anio": 2026,
+      "titulo_wiki": "Haulerback",
+      "diseñador": "Dwayne Vance"
+    },
+    "2026-JJL00": {
+      "nombre": "Haulerback (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Haulerback",
+      "diseñador": "Dwayne Vance"
+    },
+    "2026-JJJ09": {
+      "nombre": "24/Seven",
+      "anio": 2026,
+      "titulo_wiki": "24/Seven",
+      "diseñador": "Dave Weise"
+    },
+    "2026-JJL51": {
+      "nombre": "24/Seven (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "24/Seven",
+      "diseñador": "Dave Weise"
+    },
+    "2026-JJJ15": {
+      "nombre": "'59 Chevy Impala",
+      "anio": 2026,
+      "titulo_wiki": "'59 Chevy Impala",
+      "diseñador": "Larry Wood"
+    },
+    "2026-JJM35": {
+      "nombre": "'59 Chevy Impala (2nd Color - Zamac)",
+      "anio": 2026,
+      "titulo_wiki": "'59 Chevy Bel Air",
+      "diseñador": "Larry Wood"
+    },
+    "2026-JJK81": {
+      "nombre": "'59 Chevy Impala (3rd Color)",
+      "anio": 2026,
+      "titulo_wiki": "'59 Chevy Impala",
+      "diseñador": "Larry Wood"
+    },
+    "2026-JJM36": {
+      "nombre": "Vairstrike (2nd Color - Zamac)",
+      "anio": 2026,
+      "titulo_wiki": "Vairstrike",
+      "diseñador": "Dwayne Vance"
+    },
+    "2026-JJL78": {
+      "nombre": "Vairstrike (3rd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Vairstrike",
+      "diseñador": "Dwayne Vance"
+    },
+    "2026-JJH49": {
+      "nombre": "Cadillac Celestiq",
+      "anio": 2026,
+      "titulo_wiki": "Cadillac Celestiq",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJL84": {
+      "nombre": "Cadillac Celestiq (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Cadillac Celestiq",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJK10": {
+      "nombre": "Classic '55 Nomad",
+      "anio": 2026,
+      "titulo_wiki": "Classic Nomad",
+      "diseñador": "Ira Gilford"
+    },
+    "2026-JJM55": {
+      "nombre": "Classic '55 Nomad (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Classic Nomad",
+      "diseñador": "Ira Gilford"
+    },
+    "2026-JJH61": {
+      "nombre": "Click Shift",
+      "anio": 2026,
+      "titulo_wiki": "Click Shift",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJL90": {
+      "nombre": "Click Shift (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Click Shift",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJK25": {
+      "nombre": "Aston Martin Aramco Formula One Team",
+      "anio": 2026,
+      "titulo_wiki": "Aston Martin AMR25",
+      "diseñador": "Rob Matthes"
+    },
+    "2026-JJK06": {
+      "nombre": "'65 Mercury Comet Cyclone",
+      "anio": 2026,
+      "titulo_wiki": "'65 Mercury Comet Cyclone",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJM53": {
+      "nombre": "'65 Mercury Comet Cyclone (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "'65 Mercury Comet Cyclone",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJL46": {
+      "nombre": "'65 Mercury Comet Cyclone (3rd Color)",
+      "anio": 2026,
+      "titulo_wiki": "'65 Mercury Comet Cyclone",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJH57": {
+      "nombre": "Mad Drip",
+      "anio": 2026,
+      "titulo_wiki": "Mad Drip",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJL83": {
+      "nombre": "Mad Drip (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Mad Drip",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJK40": {
+      "nombre": "Mod Mill",
+      "anio": 2026,
+      "titulo_wiki": "Mod Mill",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJL94": {
+      "nombre": "Mod Mill (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Mod Mill",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJK41": {
+      "nombre": "Bully Goat",
+      "anio": 2026,
+      "titulo_wiki": "Bully Goat",
+      "diseñador": "Dwayne Vance"
+    },
+    "2026-JJL98": {
+      "nombre": "Bully Goat (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Bully Goat",
+      "diseñador": "Dwayne Vance"
+    },
+    "2026-JJK42": {
+      "nombre": "'18 Camaro SS",
+      "anio": 2026,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJH62": {
+      "nombre": "Mini JCW Electric",
+      "anio": 2026,
+      "titulo_wiki": "Mini JCW Electric",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJL99": {
+      "nombre": "Mini JCW Electric (2nd Color)",
+      "anio": 2026,
+      "titulo_wiki": "Mini JCW Electric",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJH65": {
+      "nombre": "Lil' Mad",
+      "anio": 2026,
+      "titulo_wiki": "Lil' Mad",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJH71": {
+      "nombre": "Salt Streaker",
+      "anio": 2026,
+      "titulo_wiki": "Salt Streaker",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJH70": {
+      "nombre": "Uncertain-T",
+      "anio": 2026,
+      "titulo_wiki": "Uncertain-T",
+      "diseñador": "Bryan Zhao"
+    },
+    "2026-JJK62": {
+      "nombre": "'96 Chevrolet Impala SS",
+      "anio": 2026,
+      "titulo_wiki": "'96 Chevrolet Impala SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2026-JJH76": {
+      "nombre": "Aston Martin DB5 Safari Edition",
+      "anio": 2026,
+      "titulo_wiki": "Aston Martin DB5 Safari Edition",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-HYW63": {
+      "nombre": "Purple Passion",
+      "anio": 2025,
+      "titulo_wiki": "Purple Passion",
+      "diseñador": "Larry Wood"
+    },
+    "2025-HYX55": {
+      "nombre": "Purple Passion (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Purple Passion",
+      "diseñador": "Larry Wood"
+    },
+    "2025-HYW64": {
+      "nombre": "Kowloon'd Hypervan",
+      "anio": 2025,
+      "titulo_wiki": "Kowloon'd Hypervan",
+      "diseñador": "Ronald Wong"
+    },
+    "2025-HYX75": {
+      "nombre": "Kowloon'd Hypervan (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Kowloon'd Hypervan",
+      "diseñador": "Ronald Wong"
+    },
+    "2025-HYW68": {
+      "nombre": "Custom '53 Chevy",
+      "anio": 2025,
+      "titulo_wiki": "Custom '53 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2025-HYY11": {
+      "nombre": "Custom '53 Chevy (2nd Color - Zamac)",
+      "anio": 2025,
+      "titulo_wiki": "Custom '53 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2025-HYX52": {
+      "nombre": "Power Wheels Dune Racer",
+      "anio": 2025,
+      "titulo_wiki": "Bogzilla",
+      "diseñador": "Ryu Asada"
+    },
+    "2025-HYW17": {
+      "nombre": "Haulerback",
+      "anio": 2025,
+      "titulo_wiki": "Haulerback",
+      "diseñador": "Dwayne Vance"
+    },
+    "2025-HYX68": {
+      "nombre": "Haulerback (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Haulerback",
+      "diseñador": "Dwayne Vance"
+    },
+    "2025-HYW95": {
+      "nombre": "1988 Jeep Wagoneer",
+      "anio": 2025,
+      "titulo_wiki": "1988 Jeep Wagoneer",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2025-HYY13": {
+      "nombre": "1988 Jeep Wagoneer (2nd Color - Zamac)",
+      "anio": 2025,
+      "titulo_wiki": "1988 Jeep Wagoneer",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2025-HYY15": {
+      "nombre": "'55 Chevy (2nd Color - Zamac)",
+      "anio": 2025,
+      "titulo_wiki": "'55 Chevy Bel Air Gasser",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2025-HYW97": {
+      "nombre": "Hirohata Merc",
+      "anio": 2025,
+      "titulo_wiki": "Hirohata Merc",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2025-JBC36": {
+      "nombre": "Hirohata Merc",
+      "anio": 2025,
+      "titulo_wiki": "Hirohata Merc",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2025-JBB10": {
+      "nombre": "Track Dwagon",
+      "anio": 2025,
+      "titulo_wiki": "Track Dwagon",
+      "diseñador": "Dwayne Vance"
+    },
+    "2025-HYY34": {
+      "nombre": "Track Dwagon (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Track Dwagon",
+      "diseñador": "Dwayne Vance"
+    },
+    "2025-JBB81": {
+      "nombre": "Track Dwagon (3rd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Track Dwagon",
+      "diseñador": "Dwayne Vance"
+    },
+    "2025-HYX18": {
+      "nombre": "'68 Lotus Type 49",
+      "anio": 2025,
+      "titulo_wiki": "'67 Lotus Type 49",
+      "diseñador": "Fraser Campbell"
+    },
+    "2025-HYY17": {
+      "nombre": "'68 Lotus Type 49 (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "'67 Lotus Type 49",
+      "diseñador": "Fraser Campbell"
+    },
+    "2025-HYW42": {
+      "nombre": "Hot Wheengs",
+      "anio": 2025,
+      "titulo_wiki": "Hot Wheengs",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-JBC02": {
+      "nombre": "Hot Wheengs (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Hot Wheengs",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-JBB21": {
+      "nombre": "VW T3 Custom",
+      "anio": 2025,
+      "titulo_wiki": "VW T3 Custom",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-HYY47": {
+      "nombre": "VW T3 Custom (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "VW T3 Custom",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-JBC05": {
+      "nombre": "VW T3 Custom (3rd Color)",
+      "anio": 2025,
+      "titulo_wiki": "VW T3 Custom",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-HYW45": {
+      "nombre": "Quick Chat",
+      "anio": 2025,
+      "titulo_wiki": "Quick Chat",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-JBC13": {
+      "nombre": "Quick Chat (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Quick Chat",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-HYW47": {
+      "nombre": "Mod Mill",
+      "anio": 2025,
+      "titulo_wiki": "Mod Mill",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-JBC15": {
+      "nombre": "Mod Mill (2nd Color)",
+      "anio": 2025,
+      "titulo_wiki": "Mod Mill",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-JBB38": {
+      "nombre": "Pagani Utopia",
+      "anio": 2025,
+      "titulo_wiki": "Pagani Utopia",
+      "diseñador": "Ronald Wong"
+    },
+    "2025-JBB41": {
+      "nombre": "'73 Pontiac Firebird",
+      "anio": 2025,
+      "titulo_wiki": "'73 Pontiac Firebird",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2025-HYW52": {
+      "nombre": "Feline Lucky",
+      "anio": 2025,
+      "titulo_wiki": "Feline Lucky",
+      "diseñador": "Bryan Zhao"
+    },
+    "2025-JBB44": {
+      "nombre": "Limited Grip",
+      "anio": 2025,
+      "titulo_wiki": "Limited Grip",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2025-HYW58": {
+      "nombre": "El Segundo Rallye",
+      "anio": 2025,
+      "titulo_wiki": "El Segundo Rallye",
+      "diseñador": "Ronald Wong"
+    },
+    "2024-HTB56": {
+      "nombre": "'15 Dodge Charger SRT",
+      "anio": 2024,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTF73": {
+      "nombre": "'15 Dodge Charger SRT (2nd Color)",
+      "anio": 2024,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTC87": {
+      "nombre": "'15 Dodge Charger SRT (3rd Color)",
+      "anio": 2024,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTB50": {
+      "nombre": "'18 Camaro SS",
+      "anio": 2024,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTF31": {
+      "nombre": "'18 Camaro SS",
+      "anio": 2024,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTB58": {
+      "nombre": "Humvee",
+      "anio": 2024,
+      "titulo_wiki": "Humvee",
+      "diseñador": "Larry Wood"
+    },
+    "2024-HTD00": {
+      "nombre": "Humvee (2nd Color)",
+      "anio": 2024,
+      "titulo_wiki": "Humvee",
+      "diseñador": "Larry Wood"
+    },
+    "2024-HTB89": {
+      "nombre": "'87 Dodge D100",
+      "anio": 2024,
+      "titulo_wiki": "'87 Dodge D100",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTF62": {
+      "nombre": "'87 Dodge D100 (2nd Color)",
+      "anio": 2024,
+      "titulo_wiki": "'87 Dodge D100",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTD17": {
+      "nombre": "'87 Dodge D100 (3rd Color)",
+      "anio": 2024,
+      "titulo_wiki": "'87 Dodge D100",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HTD20": {
+      "nombre": "Corvette C6 (2nd Color)",
+      "anio": 2024,
+      "titulo_wiki": "Corvette C6R",
+      "diseñador": "Jun Imai"
+    },
+    "2024-HRY84": {
+      "nombre": "Kowloon'd Hypervan",
+      "anio": 2024,
+      "titulo_wiki": "Kowloon'd Hypervan",
+      "diseñador": "Ronald Wong"
+    },
+    "2024-HRY74": {
+      "nombre": "Track Dwagon",
+      "anio": 2024,
+      "titulo_wiki": "Track Dwagon",
+      "diseñador": "Dwayne Vance"
+    },
+    "2024-HTF12": {
+      "nombre": "Track Dwagon (2nd Color)",
+      "anio": 2024,
+      "titulo_wiki": "Track Dwagon",
+      "diseñador": "Dwayne Vance"
+    },
+    "2024-HRY83": {
+      "nombre": "Pagani Utopia",
+      "anio": 2024,
+      "titulo_wiki": "Pagani Utopia",
+      "diseñador": "Ronald Wong"
+    },
+    "2024-HRY88": {
+      "nombre": "Sushi Tuner",
+      "anio": 2024,
+      "titulo_wiki": "Sushi Tuner",
+      "diseñador": "Alton Takeyasu"
+    },
+    "2024-HTB10": {
+      "nombre": "'91 GMC Syclone",
+      "anio": 2024,
+      "titulo_wiki": "'91 GMC Syclone",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2024-HRY57": {
+      "nombre": "VW T3 Custom",
+      "anio": 2024,
+      "titulo_wiki": "VW T3 Custom",
+      "diseñador": "Bryan Zhao"
+    },
+    "2024-HTB02": {
+      "nombre": "'59 Chevy Impala",
+      "anio": 2024,
+      "titulo_wiki": "'59 Chevy Impala",
+      "diseñador": "Larry Wood"
+    },
+    "2023-HKH38": {
+      "nombre": "Corvette Grand Sport Roadster",
+      "anio": 2023,
+      "titulo_wiki": "Corvette Grand Sport Roadster",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKL44": {
+      "nombre": "Corvette Grand Sport Roadster (2nd Color)",
+      "anio": 2023,
+      "titulo_wiki": "Corvette Grand Sport Roadster",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKK09": {
+      "nombre": "Corvette Grand Sport Roadster (3rd Color)",
+      "anio": 2023,
+      "titulo_wiki": "Corvette Grand Sport Roadster",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKH46": {
+      "nombre": "70s Van",
+      "anio": 2023,
+      "titulo_wiki": "Super Van",
+      "diseñador": "Larry Wood"
+    },
+    "2023-HKK16": {
+      "nombre": "70s Van (3rd Color)",
+      "anio": 2023,
+      "titulo_wiki": "Super Van",
+      "diseñador": "Larry Wood"
+    },
+    "2023-HKJ57": {
+      "nombre": "'84 Pontiac Firebird",
+      "anio": 2023,
+      "titulo_wiki": "'84 Pontiac Firebird",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKK92": {
+      "nombre": "'84 Pontiac Firebird (2nd Color)",
+      "anio": 2023,
+      "titulo_wiki": "'84 Pontiac Firebird",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKG73": {
+      "nombre": "'87 Dodge D100",
+      "anio": 2023,
+      "titulo_wiki": "'87 Dodge D100",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKG56": {
+      "nombre": "Limited Grip",
+      "anio": 2023,
+      "titulo_wiki": "Limited Grip",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKK60": {
+      "nombre": "Limited Grip (2nd Color)",
+      "anio": 2023,
+      "titulo_wiki": "Limited Grip",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKH35": {
+      "nombre": "'76 Chevy Chevette",
+      "anio": 2023,
+      "titulo_wiki": "'76 Chevy Chevette",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKL60": {
+      "nombre": "'76 Chevy Chevette (2nd Color)",
+      "anio": 2023,
+      "titulo_wiki": "'76 Chevy Chevette",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKH62": {
+      "nombre": "'65 Mercury Comet Cyclone",
+      "anio": 2023,
+      "titulo_wiki": "'65 Mercury Comet Cyclone",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKL14": {
+      "nombre": "'65 Mercury Comet Cyclone",
+      "anio": 2023,
+      "titulo_wiki": "'65 Mercury Comet Cyclone",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2023-HKH65": {
+      "nombre": "Pass'n Gasser",
+      "anio": 2023,
+      "titulo_wiki": "Pass'n Gasser",
+      "diseñador": "Larry Wood"
+    },
+    "2023-HKG96": {
+      "nombre": "Brutonator",
+      "anio": 2023,
+      "titulo_wiki": "Carbonator",
+      "diseñador": "Alton Takeyasu"
+    },
+    "2023-HKJ22": {
+      "nombre": "H2GO",
+      "anio": 2023,
+      "titulo_wiki": "H2GO",
+      "diseñador": "Larry Wood"
+    },
+    "2023-HKG78": {
+      "nombre": "Jeep Scrambler",
+      "anio": 2023,
+      "titulo_wiki": "Jeep Scrambler",
+      "diseñador": "Larry Wood"
+    },
+    "2023-HKH72": {
+      "nombre": "Datsun Bluebird Wagon (510)",
+      "anio": 2023,
+      "titulo_wiki": "'71 Datsun Bluebird 510 Wagon",
+      "diseñador": "Jun Imai"
+    },
+    "2023-HKL15": {
+      "nombre": "Datsun Bluebird Wagon (510)",
+      "anio": 2023,
+      "titulo_wiki": "'71 Datsun Bluebird 510 Wagon",
+      "diseñador": "Jun Imai"
+    },
+    "2023-HKJ23": {
+      "nombre": "Skyfire",
+      "anio": 2023,
+      "titulo_wiki": "Killer Copter",
+      "diseñador": "Larry Wood"
+    },
+    "2023-HKH73": {
+      "nombre": "Classic '55 Nomad",
+      "anio": 2023,
+      "titulo_wiki": "Classic Nomad",
+      "diseñador": "Ira Gilford"
+    },
+    "2022-HCW57": {
+      "nombre": "Fast Gassin",
+      "anio": 2022,
+      "titulo_wiki": "Fast Gassin",
+      "diseñador": "John Violette"
+    },
+    "2022-HCW94": {
+      "nombre": "Fast Gassin (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "Fast Gassin",
+      "diseñador": "John Violette"
+    },
+    "2022-HCW84": {
+      "nombre": "'55 Chevy (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "'55 Chevy Bel Air Gasser",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCV03": {
+      "nombre": "Humvee",
+      "anio": 2022,
+      "titulo_wiki": "Humvee",
+      "diseñador": "Larry Wood"
+    },
+    "2022-HCV02": {
+      "nombre": "Street Cleaver",
+      "anio": 2022,
+      "titulo_wiki": "Street Cleaver",
+      "diseñador": "Larry Wood"
+    },
+    "2022-HCW98": {
+      "nombre": "Street Cleaver (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "Street Cleaver",
+      "diseñador": "Larry Wood"
+    },
+    "2022-HCW44": {
+      "nombre": "MS-T Suzuka",
+      "anio": 2022,
+      "titulo_wiki": "MS-T Suzuka",
+      "diseñador": "Eric Tscherne"
+    },
+    "2022-HCX51": {
+      "nombre": "MS-T Suzuka (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "MS-T Suzuka",
+      "diseñador": "Eric Tscherne"
+    },
+    "2022-HCV92": {
+      "nombre": "'40 Ford Pickup",
+      "anio": 2022,
+      "titulo_wiki": "'40 Ford",
+      "diseñador": "Phil Riehlman"
+    },
+    "2022-HCX61": {
+      "nombre": "'40 Ford Pickup (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "'40 Ford",
+      "diseñador": "Phil Riehlman"
+    },
+    "2022-HCT74": {
+      "nombre": "'06 Pontiac GTO",
+      "anio": 2022,
+      "titulo_wiki": "'06 Pontiac GTO",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCY37": {
+      "nombre": "'06 Pontiac GTO (2nd Color - Zamac)",
+      "anio": 2022,
+      "titulo_wiki": "'06 Pontiac GTO",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCX70": {
+      "nombre": "'06 Pontiac GTO (3rd Color)",
+      "anio": 2022,
+      "titulo_wiki": "'06 Pontiac GTO",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCX99": {
+      "nombre": "'87 Dodge D100",
+      "anio": 2022,
+      "titulo_wiki": "'87 Dodge D100",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCW25": {
+      "nombre": "Ford Mustang GT Concept",
+      "anio": 2022,
+      "titulo_wiki": "Ford Mustang GT Concept",
+      "diseñador": "Dave Weise"
+    },
+    "2022-HCY38": {
+      "nombre": "'68 El Camino (2nd Color - Zamac)",
+      "anio": 2022,
+      "titulo_wiki": "'68 El Camino",
+      "diseñador": "Phil Riehlman"
+    },
+    "2022-HCV31": {
+      "nombre": "'18 Dodge Challenger SRT Demon",
+      "anio": 2022,
+      "titulo_wiki": "'18 Dodge Challenger SRT Demon",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCY69": {
+      "nombre": "'18 Dodge Challenger SRT Demon (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "'18 Dodge Challenger SRT Demon",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCX98": {
+      "nombre": "'58 Impala",
+      "anio": 2022,
+      "titulo_wiki": "'58 Impala",
+      "diseñador": "Larry Wood"
+    },
+    "2022-HCW35": {
+      "nombre": "HW Rapid Response",
+      "anio": 2022,
+      "titulo_wiki": "Rapid Response",
+      "diseñador": "Alec Tam"
+    },
+    "2022-HCX79": {
+      "nombre": "HW Rapid Response (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "Rapid Response",
+      "diseñador": "Alec Tam"
+    },
+    "2022-HCW24": {
+      "nombre": "'15 Dodge Charger SRT",
+      "anio": 2022,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCV82": {
+      "nombre": "'18 Camaro SS",
+      "anio": 2022,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCY67": {
+      "nombre": "'18 Camaro SS (2nd Color)",
+      "anio": 2022,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCW30": {
+      "nombre": "'15 Dodge Challenger SRT",
+      "anio": 2022,
+      "titulo_wiki": "'15 Dodge Challenger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2022-HCT25": {
+      "nombre": "Matt and Debbie Hay's 1988 Pro Street Thunderbird",
+      "anio": 2022,
+      "titulo_wiki": "1988 Ford T-Bird",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2021-GRX90": {
+      "nombre": "'64 Corvette Sting Ray",
+      "anio": 2021,
+      "titulo_wiki": "'64 Corvette Sting Ray",
+      "diseñador": "Larry Wood"
+    },
+    "2021-GTB88": {
+      "nombre": "'64 Corvette Sting Ray (2nd Color)",
+      "anio": 2021,
+      "titulo_wiki": "'64 Corvette Sting Ray",
+      "diseñador": "Larry Wood"
+    },
+    "2021-GRY60": {
+      "nombre": "T-Rextroyer",
+      "anio": 2021,
+      "titulo_wiki": "T-Rextroyer",
+      "diseñador": "Gary Swisher"
+    },
+    "2021-GTC39": {
+      "nombre": "T-Rextroyer (2nd Color)",
+      "anio": 2021,
+      "titulo_wiki": "T-Rextroyer",
+      "diseñador": "Gary Swisher"
+    },
+    "2021-GRY61": {
+      "nombre": "Aero Pod",
+      "anio": 2021,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2021-GTC71": {
+      "nombre": "Aero Pod (2nd Color)",
+      "anio": 2021,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2021-GRX92": {
+      "nombre": "Corvette Grand Sport Roadster",
+      "anio": 2021,
+      "titulo_wiki": "Corvette Grand Sport Roadster",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2021-GTC99": {
+      "nombre": "Corvette Grand Sport Roadster",
+      "anio": 2021,
+      "titulo_wiki": "Corvette Grand Sport Roadster",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2021-GTD15": {
+      "nombre": "Corvette Grand Sport Roadster (2nd Color - Zamac)",
+      "anio": 2021,
+      "titulo_wiki": "Corvette Grand Sport Roadster",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2021-GTB37": {
+      "nombre": "'70 Chevy Camaro RS",
+      "anio": 2021,
+      "titulo_wiki": "'70 Chevy Camaro RS",
+      "diseñador": "Larry Wood"
+    },
+    "2021-GTC69": {
+      "nombre": "'70 Chevy Camaro RS (2nd Color)",
+      "anio": 2021,
+      "titulo_wiki": "'70 Chevy Camaro RS",
+      "diseñador": "Larry Wood"
+    },
+    "2021-GTD48": {
+      "nombre": "'70 Chevy Camaro RS (3rd Color)",
+      "anio": 2021,
+      "titulo_wiki": "'70 Chevy Camaro RS",
+      "diseñador": "Larry Wood"
+    },
+    "2021-GTD30": {
+      "nombre": "Dodge Charger Stock Car (2nd Color - Zamac)",
+      "anio": 2021,
+      "titulo_wiki": "Dodge Charger Stock Car",
+      "diseñador": "Larry Wood"
+    },
+    "2021-GRY76": {
+      "nombre": "70s Van",
+      "anio": 2021,
+      "titulo_wiki": "Super Van",
+      "diseñador": "Larry Wood"
+    },
+    "2021-GTB09": {
+      "nombre": "HW Rapid Responder",
+      "anio": 2021,
+      "titulo_wiki": "Rapid Response",
+      "diseñador": "Alec Tam"
+    },
+    "2021-GTB12": {
+      "nombre": "'96 Chevrolet Impala SS",
+      "anio": 2021,
+      "titulo_wiki": "'96 Chevrolet Impala SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2021-GTB14": {
+      "nombre": "'15 Dodge Charger SRT",
+      "anio": 2021,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2021-GRX56": {
+      "nombre": "FusionBusta",
+      "anio": 2021,
+      "titulo_wiki": "FusionBusta",
+      "diseñador": "Dwayne Vance"
+    },
+    "2021-GTB41": {
+      "nombre": "'67 Oldsmobile 442",
+      "anio": 2021,
+      "titulo_wiki": "'67 Oldsmobile 442",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2021-GTB18": {
+      "nombre": "Bad Bagger",
+      "anio": 2021,
+      "titulo_wiki": "Bad Bagger",
+      "diseñador": "Larry Wood"
+    },
+    "2020-GHG72": {
+      "nombre": "Gotta Go (2nd Color)",
+      "anio": 2020,
+      "titulo_wiki": "Gotta Go",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GHD51": {
+      "nombre": "Aero Pod",
+      "anio": 2020,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2020-GHF92": {
+      "nombre": "Aero Pod (2nd Color)",
+      "anio": 2020,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2020-GHC79": {
+      "nombre": "Sword Warthog",
+      "anio": 2020,
+      "titulo_wiki": "UNSC Warthog",
+      "diseñador": "Mark Jones"
+    },
+    "2020-GHB48": {
+      "nombre": "Big-Air Bel-Air",
+      "anio": 2020,
+      "titulo_wiki": "Big-Air Bel-Air",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GHF08": {
+      "nombre": "Big-Air Bel-Air (2nd Color)",
+      "anio": 2020,
+      "titulo_wiki": "Big-Air Bel-Air",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GTD39": {
+      "nombre": "Big-Air Bel-Air (3rd Color)",
+      "anio": 2020,
+      "titulo_wiki": "Big-Air Bel-Air",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GHD26": {
+      "nombre": "'57 Chevy",
+      "anio": 2020,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2020-GHG27": {
+      "nombre": "'57 Chevy",
+      "anio": 2020,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2020-GHF57": {
+      "nombre": "Mad Propz (2nd Color)",
+      "anio": 2020,
+      "titulo_wiki": "Mad Propz",
+      "diseñador": "Steve Moran"
+    },
+    "2020-GHG01": {
+      "nombre": "'52 Chevy (2nd Color)",
+      "anio": 2020,
+      "titulo_wiki": "'52 Chevy Truck",
+      "diseñador": "Larry Wood"
+    },
+    "2020-GHC40": {
+      "nombre": "'69 Chevy Pickup",
+      "anio": 2020,
+      "titulo_wiki": "Custom '69 Chevy",
+      "diseñador": "Phil Riehlman"
+    },
+    "2020-GHG19": {
+      "nombre": "'69 Chevy Pickup",
+      "anio": 2020,
+      "titulo_wiki": "Custom '69 Chevy",
+      "diseñador": "Phil Riehlman"
+    },
+    "2020-GHD68": {
+      "nombre": "'49 Merc",
+      "anio": 2020,
+      "titulo_wiki": "'49 Merc",
+      "diseñador": "Larry Wood"
+    },
+    "2020-GHD08": {
+      "nombre": "'84 Pontiac Firebird",
+      "anio": 2020,
+      "titulo_wiki": "'84 Pontiac Firebird",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GHB74": {
+      "nombre": "'96 Chevrolet Impala SS",
+      "anio": 2020,
+      "titulo_wiki": "'96 Chevrolet Impala SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GHD04": {
+      "nombre": "'18 Dodge Challenger SRT Demon",
+      "anio": 2020,
+      "titulo_wiki": "'18 Dodge Challenger SRT Demon",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GHG24": {
+      "nombre": "'18 Dodge Challenger SRT Demon",
+      "anio": 2020,
+      "titulo_wiki": "'18 Dodge Challenger SRT Demon",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2020-GHD15": {
+      "nombre": "'64 Chevy Chevelle SS",
+      "anio": 2020,
+      "titulo_wiki": "'64 Chevy Chevelle SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2019-FYC41": {
+      "nombre": "'57 Chevy",
+      "anio": 2019,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2019-FYG62": {
+      "nombre": "'57 Chevy (2nd Color)",
+      "anio": 2019,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2019-FYF17": {
+      "nombre": "'57 Chevy (3rd Color)",
+      "anio": 2019,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2019-FYC99": {
+      "nombre": "'18 Camaro SS",
+      "anio": 2019,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2019-FYD98": {
+      "nombre": "'18 Camaro SS (2nd Color)",
+      "anio": 2019,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2019-FYC01": {
+      "nombre": "Fangster",
+      "anio": 2019,
+      "titulo_wiki": "Fangster",
+      "diseñador": "Larry Wood"
+    },
+    "2019-FYC14": {
+      "nombre": "Classic '55 Nomad",
+      "anio": 2019,
+      "titulo_wiki": "Classic Nomad",
+      "diseñador": "Ira Gilford"
+    },
+    "2019-FYD92": {
+      "nombre": "Classic '55 Nomad (2nd Color)",
+      "anio": 2019,
+      "titulo_wiki": "Classic Nomad",
+      "diseñador": "Ira Gilford"
+    },
+    "2019-FYC20": {
+      "nombre": "'56 Ford F-100",
+      "anio": 2019,
+      "titulo_wiki": "'56 Ford Truck",
+      "diseñador": "Phil Riehlman"
+    },
+    "2019-FYG37": {
+      "nombre": "'56 Ford F-100 (2nd Color - Zamac)",
+      "anio": 2019,
+      "titulo_wiki": "'56 Ford Truck",
+      "diseñador": "Phil Riehlman"
+    },
+    "2019-FYF23": {
+      "nombre": "Fast Gassin (2nd Color)",
+      "anio": 2019,
+      "titulo_wiki": "Fast Gassin",
+      "diseñador": "John Violette"
+    },
+    "2019-FYD73": {
+      "nombre": "'18 Dodge Challenger SRT Demon",
+      "anio": 2019,
+      "titulo_wiki": "'18 Dodge Challenger SRT Demon",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2019-FYG12": {
+      "nombre": "'18 Dodge Challenger SRT Demon",
+      "anio": 2019,
+      "titulo_wiki": "'18 Dodge Challenger SRT Demon",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2019-FYG02": {
+      "nombre": "Sharkruiser",
+      "anio": 2019,
+      "titulo_wiki": "Sharkruiser",
+      "diseñador": "Larry Wood"
+    },
+    "2019-FYG41": {
+      "nombre": "Corvette Grand Sport (2nd Color - Zamac)",
+      "anio": 2019,
+      "titulo_wiki": "Corvette Grand Sport Roadster",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2019-FYC32": {
+      "nombre": "Jaguar XJ220",
+      "anio": 2019,
+      "titulo_wiki": "Jaguar XJ220",
+      "diseñador": "Larry Wood"
+    },
+    "2019-FYC54": {
+      "nombre": "Morris Mini",
+      "anio": 2019,
+      "titulo_wiki": "Mini Cooper",
+      "diseñador": "Phil Riehlman"
+    },
+    "2019-FYG09": {
+      "nombre": "Morris Mini",
+      "anio": 2019,
+      "titulo_wiki": "Mini Cooper",
+      "diseñador": "Phil Riehlman"
+    },
+    "2018-FJX18": {
+      "nombre": "Aero Pod",
+      "anio": 2018,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2018-FJX76": {
+      "nombre": "'15 Dodge Challenger SRT",
+      "anio": 2018,
+      "titulo_wiki": "'15 Dodge Challenger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2018-FJV49": {
+      "nombre": "'18 Camaro SS",
+      "anio": 2018,
+      "titulo_wiki": "'18 Camaro SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2018-FJY31": {
+      "nombre": "Chevy Blazer 4x4",
+      "anio": 2018,
+      "titulo_wiki": "Blazer 4×4",
+      "diseñador": "Larry Wood"
+    },
+    "2018-FJW33": {
+      "nombre": "ONI Warthog",
+      "anio": 2018,
+      "titulo_wiki": "UNSC Warthog",
+      "diseñador": "Mark Jones"
+    },
+    "2018-FJX32": {
+      "nombre": "C6 Corvette",
+      "anio": 2018,
+      "titulo_wiki": "C6 Corvette",
+      "diseñador": "Larry Wood"
+    },
+    "2018-FJX40": {
+      "nombre": "Vampyra",
+      "anio": 2018,
+      "titulo_wiki": "Vampyra",
+      "diseñador": "Larry Wood"
+    },
+    "2018-FJX75": {
+      "nombre": "'15 Dodge Charger SRT",
+      "anio": 2018,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2018-FJW40": {
+      "nombre": "Ice Charger",
+      "anio": 2018,
+      "titulo_wiki": "Ice Charger",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2018-FJW21": {
+      "nombre": "'57 Chevy",
+      "anio": 2018,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2018-FJW67": {
+      "nombre": "Custom '53 Chevy",
+      "anio": 2018,
+      "titulo_wiki": "Custom '53 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2018-FJY61": {
+      "nombre": "Classic '55 Nomad (2nd Color)",
+      "anio": 2018,
+      "titulo_wiki": "Classic Nomad",
+      "diseñador": "Ira Gilford"
+    },
+    "2018-FJY63": {
+      "nombre": "Custom '53 Chevy (3rd Color)",
+      "anio": 2018,
+      "titulo_wiki": "Custom '53 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "2017-DTY79": {
+      "nombre": "'15 Dodge Charger SRT",
+      "anio": 2017,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2017-DTX76": {
+      "nombre": "Chevy Blazer 4x4",
+      "anio": 2017,
+      "titulo_wiki": "Blazer 4×4",
+      "diseñador": "Larry Wood"
+    },
+    "2017-DTX90": {
+      "nombre": "Zotic",
+      "anio": 2017,
+      "titulo_wiki": "Zotic",
+      "diseñador": "Alec Tam"
+    },
+    "2017-DTY90": {
+      "nombre": "'15 Dodge Challenger",
+      "anio": 2017,
+      "titulo_wiki": "'15 Dodge Challenger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2017-DTX41": {
+      "nombre": "Fast Cash",
+      "anio": 2017,
+      "titulo_wiki": "Fast Cash",
+      "diseñador": "Alton Takeyasu"
+    },
+    "2017-DTY00": {
+      "nombre": "Aero Pod",
+      "anio": 2017,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2017-DTX51": {
+      "nombre": "C6 Corvette",
+      "anio": 2017,
+      "titulo_wiki": "C6 Corvette",
+      "diseñador": "Larry Wood"
+    },
+    "2017-DTY03": {
+      "nombre": "H2GO",
+      "anio": 2017,
+      "titulo_wiki": "H2GO",
+      "diseñador": "Larry Wood"
+    },
+    "2017-DVB36": {
+      "nombre": "Dodge Charger Daytona (2nd Color)",
+      "anio": 2017,
+      "titulo_wiki": "'69 Dodge Charger Daytona",
+      "diseñador": "Jun Imai"
+    },
+    "2017-DVB61": {
+      "nombre": "'15 Dodge Charger SRT (2nd Color)",
+      "anio": 2017,
+      "titulo_wiki": "'15 Dodge Charger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "2017-DVC08": {
+      "nombre": "Z-Rod (2nd Color)",
+      "anio": 2017,
+      "titulo_wiki": "Z-Rod",
+      "diseñador": "Mark Jones"
+    },
+    "2017-DVC40": {
+      "nombre": "'68 El Camino (2nd Color)",
+      "anio": 2017,
+      "titulo_wiki": "'68 El Camino",
+      "diseñador": "Phil Riehlman"
+    },
+    "2016-DHP51": {
+      "nombre": "Aero Pod",
+      "anio": 2016,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2016-DHW51": {
+      "nombre": "Aero Pod (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Aero Pod",
+      "diseñador": "Glenn Yu"
+    },
+    "2016-DHT20": {
+      "nombre": "Fast Cash",
+      "anio": 2016,
+      "titulo_wiki": "Fast Cash",
+      "diseñador": "Alton Takeyasu"
+    },
+    "2016-DHP70": {
+      "nombre": "Rev Rod",
+      "anio": 2016,
+      "titulo_wiki": "Rev Rod",
+      "diseñador": "Alton Takeyasu"
+    },
+    "2016-DHW60": {
+      "nombre": "Rev Rod (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Rev Rod",
+      "diseñador": "Alton Takeyasu"
+    },
+    "2016-DHN96": {
+      "nombre": "Z-Rod",
+      "anio": 2016,
+      "titulo_wiki": "Z-Rod",
+      "diseñador": "Mark Jones"
+    },
+    "2016-DHW63": {
+      "nombre": "Z-Rod (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Z-Rod",
+      "diseñador": "Mark Jones"
+    },
+    "2016-DHR84": {
+      "nombre": "'65 Chevy Impala",
+      "anio": 2016,
+      "titulo_wiki": "'65 Chevy Impala",
+      "diseñador": "Phil Riehlman"
+    },
+    "2016-DHX64": {
+      "nombre": "'65 Chevy Impala (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "'65 Chevy Impala",
+      "diseñador": "Phil Riehlman"
+    },
+    "2016-DHX87": {
+      "nombre": "Morris Mini (2nd Color - Zamac)",
+      "anio": 2016,
+      "titulo_wiki": "Mini Cooper",
+      "diseñador": "Phil Riehlman"
+    },
+    "2016-DHX66": {
+      "nombre": "Morris Mini (3rd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Mini Cooper",
+      "diseñador": "Phil Riehlman"
+    },
+    "2016-DHR88": {
+      "nombre": "Muscle Tone",
+      "anio": 2016,
+      "titulo_wiki": "Muscle Tone",
+      "diseñador": "Eric Tscherne"
+    },
+    "2016-DHX01": {
+      "nombre": "Muscle Tone (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Muscle Tone",
+      "diseñador": "Eric Tscherne"
+    },
+    "2016-DHR89": {
+      "nombre": "Combat Medic",
+      "anio": 2016,
+      "titulo_wiki": "Combat Medic",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHX02": {
+      "nombre": "Combat Medic (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Combat Medic",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHR99": {
+      "nombre": "Vampyra",
+      "anio": 2016,
+      "titulo_wiki": "Vampyra",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHT03": {
+      "nombre": "Chevy Blazer 4x4",
+      "anio": 2016,
+      "titulo_wiki": "Blazer 4×4",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHX72": {
+      "nombre": "Chevy Blazer 4x4 (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Blazer 4×4",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHX86": {
+      "nombre": "Chevy Blazer 4x4 (3rd Color - Zamac)",
+      "anio": 2016,
+      "titulo_wiki": "Blazer 4×4",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHT06": {
+      "nombre": "HW Rapid Responder",
+      "anio": 2016,
+      "titulo_wiki": "Rapid Response",
+      "diseñador": "Alec Tam"
+    },
+    "2016-DHX08": {
+      "nombre": "HW Rapid Responder (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Rescue Ranger",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHT07": {
+      "nombre": "Rapid Response",
+      "anio": 2016,
+      "titulo_wiki": "Rapid Response",
+      "diseñador": "Alec Tam"
+    },
+    "2016-DHT08": {
+      "nombre": "Humvee",
+      "anio": 2016,
+      "titulo_wiki": "Humvee",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHX73": {
+      "nombre": "Humvee (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Humvee",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHT23": {
+      "nombre": "Quick N' Sik",
+      "anio": 2016,
+      "titulo_wiki": "Quick n' Sik",
+      "diseñador": "Brian Paik"
+    },
+    "2016-DHT35": {
+      "nombre": "Fangster",
+      "anio": 2016,
+      "titulo_wiki": "Fangster",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHX14": {
+      "nombre": "Fangster (2nd Color)",
+      "anio": 2016,
+      "titulo_wiki": "Fangster",
+      "diseñador": "Larry Wood"
+    },
+    "2016-DHT36": {
+      "nombre": "T-Rextroyer",
+      "anio": 2016,
+      "titulo_wiki": "T-Rextroyer",
+      "diseñador": "Gary Swisher"
+    },
+    "6424": {
+      "nombre": "Tri-Baby",
+      "anio": 1970,
+      "titulo_wiki": "Tri Baby",
+      "diseñador": "Larry Wood"
+    },
+    "5178": {
+      "nombre": "Bugeye",
+      "anio": 1971,
+      "titulo_wiki": "'03 Subaru Impreza WRX Wagon Bugeye",
+      "diseñador": "Dwayne Vance"
+    },
+    "6006": {
+      "nombre": "Special Delivery",
+      "anio": 1971,
+      "titulo_wiki": "Special Delivery",
+      "diseñador": "Larry Wood"
+    },
+    "6175": {
+      "nombre": "The Hood",
+      "anio": 1971,
+      "titulo_wiki": "The Hood",
+      "diseñador": "Larry Wood"
+    },
+    "6187": {
+      "nombre": "Bye-Focal",
+      "anio": 1971,
+      "titulo_wiki": "Bye-Focal",
+      "diseñador": "Larry Wood"
+    },
+    "6188": {
+      "nombre": "Strip Teaser",
+      "anio": 1971,
+      "titulo_wiki": "Strip Teaser",
+      "diseñador": "Larry Wood"
+    },
+    "6520": {
+      "nombre": "Spoil Sport",
+      "anio": 1971,
+      "titulo_wiki": "Spoiler Sport",
+      "diseñador": "Larry Wood"
+    },
+    "6526": {
+      "nombre": "Back Fire",
+      "anio": 1971,
+      "titulo_wiki": "Back Fire",
+      "diseñador": "George Soulakis"
+    },
+    "6527": {
+      "nombre": "Anteater",
+      "anio": 1971,
+      "titulo_wiki": "Anteater",
+      "diseñador": "Howard Rees"
+    },
+    "2015": {
+      "nombre": "Packin' Pacer",
+      "anio": 1978,
+      "titulo_wiki": "Packin' Pacer",
+      "diseñador": "Larry Wood"
+    },
+    "2018": {
+      "nombre": "Science Friction",
+      "anio": 1978,
+      "titulo_wiki": "Science Friction",
+      "diseñador": "Larry Wood"
+    },
+    "2019": {
+      "nombre": "Sheriff Patrol",
+      "anio": 1982,
+      "titulo_wiki": "Sheriff Patrol",
+      "diseñador": "Larry Wood"
+    },
+    "2021": {
+      "nombre": "Race Bait 308",
+      "anio": 1978,
+      "titulo_wiki": "Racebait 308",
+      "diseñador": "Larry Wood"
+    },
+    "2022": {
+      "nombre": "Baja Breaker",
+      "anio": 1978,
+      "titulo_wiki": "Baja Breaker",
+      "diseñador": "Larry Wood"
+    },
+    "2023": {
+      "nombre": "Army Funny Car",
+      "anio": 1978,
+      "titulo_wiki": "Army Funny Car",
+      "diseñador": "Larry Wood"
+    },
+    "2500": {
+      "nombre": "Upfront 924",
+      "anio": 1979,
+      "titulo_wiki": "Upfront 924",
+      "diseñador": "Larry Wood"
+    },
+    "2501": {
+      "nombre": "Royal Flash",
+      "anio": 1979,
+      "titulo_wiki": "Royal Flash",
+      "diseñador": "Larry Wood"
+    },
+    "2502": {
+      "nombre": "Greased Gremlin",
+      "anio": 1979,
+      "titulo_wiki": "Greased Gremlin",
+      "diseñador": "Larry Wood"
+    },
+    "2503": {
+      "nombre": "Spacer Racer",
+      "anio": 1979,
+      "titulo_wiki": "Spacer Racer",
+      "diseñador": "Larry Wood"
+    },
+    "2504": {
+      "nombre": "Hare Splitter",
+      "anio": 1979,
+      "titulo_wiki": "Hare Splitter",
+      "diseñador": "Larry Wood"
+    },
+    "2505": {
+      "nombre": "Auburn 852",
+      "anio": 1979,
+      "titulo_wiki": "Auburn 852",
+      "diseñador": "Larry Wood"
+    },
+    "2506": {
+      "nombre": "Flat Out 442",
+      "anio": 1979,
+      "titulo_wiki": "Flat Out 442",
+      "diseñador": "Larry Wood"
+    },
+    "2508": {
+      "nombre": "Vetty Funny",
+      "anio": 1979,
+      "titulo_wiki": "Vetty Funny",
+      "diseñador": "Larry Wood"
+    },
+    "2509": {
+      "nombre": "Bywayman",
+      "anio": 1979,
+      "titulo_wiki": "Bywayman",
+      "diseñador": "Larry Wood"
+    },
+    "2510": {
+      "nombre": "Inside Story",
+      "anio": 1979,
+      "titulo_wiki": "Inside Story",
+      "diseñador": "Larry Wood"
+    },
+    "2511": {
+      "nombre": "Bubble Gunner",
+      "anio": 1979,
+      "titulo_wiki": "Bubble Gunner",
+      "diseñador": "Larry Wood"
+    },
+    "1125": {
+      "nombre": "Turbo Mustang",
+      "anio": 1980,
+      "titulo_wiki": "Turbo Mustang",
+      "diseñador": "Larry Wood"
+    },
+    "1126": {
+      "nombre": "Stutz Blackhawk",
+      "anio": 1980,
+      "titulo_wiki": "Stutz Blackhawk",
+      "diseñador": "Larry Wood"
+    },
+    "1129": {
+      "nombre": "Super Scraper",
+      "anio": 1980,
+      "titulo_wiki": "Bywayman",
+      "diseñador": "Larry Wood"
+    },
+    "1132": {
+      "nombre": "3-Window '34",
+      "anio": 1980,
+      "titulo_wiki": "3-Window '34",
+      "diseñador": "Larry Wood"
+    },
+    "1133": {
+      "nombre": "Dodge D-50",
+      "anio": 1980,
+      "titulo_wiki": "Dodge D-50",
+      "diseñador": "Larry Wood"
+    },
+    "1134": {
+      "nombre": "Turbo Wedge",
+      "anio": 1980,
+      "titulo_wiki": "Turbo Wedge",
+      "diseñador": "Larry Wood"
+    },
+    "1135": {
+      "nombre": "'Vette Van",
+      "anio": 1980,
+      "titulo_wiki": "'Vette Van",
+      "diseñador": "Larry Wood"
+    },
+    "1136": {
+      "nombre": "Split Window '63",
+      "anio": 1980,
+      "titulo_wiki": "Split Window '63",
+      "diseñador": "Larry Wood"
+    },
+    "1168": {
+      "nombre": "CAT Forklift",
+      "anio": 1980,
+      "titulo_wiki": "CAT Forklift",
+      "diseñador": "Larry Wood"
+    },
+    "1172": {
+      "nombre": "CAT Bulldozer",
+      "anio": 1980,
+      "titulo_wiki": "CAT Bulldozer",
+      "diseñador": "Larry Wood"
+    },
+    "1173": {
+      "nombre": "CAT Wheel Loader",
+      "anio": 1980,
+      "titulo_wiki": "CAT Wheel Loader",
+      "diseñador": "Larry Wood"
+    },
+    "1689": {
+      "nombre": "Peterbilt Tank Truck",
+      "anio": 1981,
+      "titulo_wiki": "Tank Truck",
+      "diseñador": "Larry Wood"
+    },
+    "1690": {
+      "nombre": "Bronco 4-Wheeler",
+      "anio": 1981,
+      "titulo_wiki": "Bronco 4-Wheeler",
+      "diseñador": "Larry Wood"
+    },
+    "1691": {
+      "nombre": "Cannonade",
+      "anio": 1981,
+      "titulo_wiki": "Cannonade",
+      "diseñador": "Larry Wood"
+    },
+    "1692": {
+      "nombre": "Omni 024",
+      "anio": 1981,
+      "titulo_wiki": "Omni 024",
+      "diseñador": "Larry Wood"
+    },
+    "1693": {
+      "nombre": "Chevy Citation",
+      "anio": 1981,
+      "titulo_wiki": "Chevy Citation",
+      "diseñador": "Larry Wood"
+    },
+    "1695": {
+      "nombre": "Old Number 5",
+      "anio": 1981,
+      "titulo_wiki": "Old Number 5",
+      "diseñador": "Larry Wood"
+    },
+    "1696": {
+      "nombre": "'37 Bugatti",
+      "anio": 1981,
+      "titulo_wiki": "'37 Bugatti",
+      "diseñador": "Larry Wood"
+    },
+    "1697": {
+      "nombre": "Minitrek",
+      "anio": 1981,
+      "titulo_wiki": "Minitrek",
+      "diseñador": "Larry Wood"
+    },
+    "3364": {
+      "nombre": "Dixie Challenger",
+      "anio": 1981,
+      "titulo_wiki": "Dixie Challenger",
+      "diseñador": "Larry Wood"
+    },
+    "1698": {
+      "nombre": "Cadillac Seville",
+      "anio": 1982,
+      "titulo_wiki": "Cadillac Seville",
+      "diseñador": "Larry Wood"
+    },
+    "3251": {
+      "nombre": "Sunagon",
+      "anio": 1982,
+      "titulo_wiki": "Sunagon",
+      "diseñador": "Larry Wood"
+    },
+    "3252": {
+      "nombre": "'35 Classic Caddy",
+      "anio": 1982,
+      "titulo_wiki": "'35 Classic Caddy",
+      "diseñador": "Larry Wood"
+    },
+    "3254": {
+      "nombre": "Construction Crane",
+      "anio": 1982,
+      "titulo_wiki": "Construction Crane",
+      "diseñador": "Larry Wood"
+    },
+    "3255": {
+      "nombre": "Datsun 200SX",
+      "anio": 1982,
+      "titulo_wiki": "Datsun 200SX",
+      "diseñador": "Larry Wood"
+    },
+    "3257": {
+      "nombre": "Frontrunnin' Fairmont",
+      "anio": 1982,
+      "titulo_wiki": "Frontrunnin' Fairmont",
+      "diseñador": "Larry Wood"
+    },
+    "3259": {
+      "nombre": "Jeep CJ-7",
+      "anio": 1982,
+      "titulo_wiki": "Jeep CJ-7",
+      "diseñador": "Larry Wood"
+    },
+    "3260": {
+      "nombre": "Land Lord",
+      "anio": 1982,
+      "titulo_wiki": "Land Lord",
+      "diseñador": "Larry Wood"
+    },
+    "3261": {
+      "nombre": "Mercedes 380 SEL",
+      "anio": 1982,
+      "titulo_wiki": "Mercedes 380 SEL",
+      "diseñador": "Larry Wood"
+    },
+    "3281": {
+      "nombre": "Peugeot 505",
+      "anio": 1982,
+      "titulo_wiki": "Peugeot 405",
+      "diseñador": "Larry Wood"
+    },
+    "3911": {
+      "nombre": "Mercedes 540K",
+      "anio": 1982,
+      "titulo_wiki": "Mercedes 540K",
+      "diseñador": "Larry Wood"
+    },
+    "5180": {
+      "nombre": "P-928",
+      "anio": 1982,
+      "titulo_wiki": "P-928",
+      "diseñador": "Larry Wood"
+    },
+    "5182": {
+      "nombre": "Camaro Z-28",
+      "anio": 1982,
+      "titulo_wiki": "Camaro Z-28",
+      "diseñador": "Larry Wood"
+    },
+    "5268": {
+      "nombre": "Megadestroyer 1",
+      "anio": 1982,
+      "titulo_wiki": "Enforcer",
+      "diseñador": "Larry Wood"
+    },
+    "3209": {
+      "nombre": "Suzuki ATV",
+      "anio": 1987,
+      "titulo_wiki": "Suzuki QuadRacer",
+      "diseñador": "Larry Wood"
+    },
+    "3715": {
+      "nombre": "CAT Earth Mover",
+      "anio": 1987,
+      "titulo_wiki": "CAT Earth Mover",
+      "diseñador": "Larry Wood"
+    },
+    "3853": {
+      "nombre": "CAT Road Roller",
+      "anio": 1987,
+      "titulo_wiki": "CAT Road Roller",
+      "diseñador": "Larry Wood"
+    },
+    "4059": {
+      "nombre": "Tail Gunner 5T",
+      "anio": 1987,
+      "titulo_wiki": "Tail Gunner",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_3": {
+      "nombre": "Command Tank",
+      "anio": 1985,
+      "titulo_wiki": "Battle Tank",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_4": {
+      "nombre": "Fat Fendered '40",
+      "anio": 1985,
+      "titulo_wiki": "Fat Fendered '40",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_5": {
+      "nombre": "Good Ol' Pick-Um-Up",
+      "anio": 1985,
+      "titulo_wiki": "'56 Hi-Tail Hauler",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_6": {
+      "nombre": "Gulch Stepper",
+      "anio": 1985,
+      "titulo_wiki": "Gulch Stepper",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_7": {
+      "nombre": "Jet Sweep X5",
+      "anio": 1985,
+      "titulo_wiki": "Jet Sweep X5",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_9": {
+      "nombre": "Neet Streeter",
+      "anio": 1985,
+      "titulo_wiki": "Neet Streeter",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_10": {
+      "nombre": "Nightstreaker",
+      "anio": 1985,
+      "titulo_wiki": "P-928",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_12": {
+      "nombre": "Redliner",
+      "anio": 1985,
+      "titulo_wiki": "Redliner",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_15": {
+      "nombre": "Silver Bullet",
+      "anio": 1985,
+      "titulo_wiki": "Aeroflash",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_16": {
+      "nombre": "Snake Busters Car",
+      "anio": 1985,
+      "titulo_wiki": "Cannonade",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_17": {
+      "nombre": "Sol-Aire CX-4",
+      "anio": 1985,
+      "titulo_wiki": "Sol-Aire CX4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_20": {
+      "nombre": "Super Cannon",
+      "anio": 1985,
+      "titulo_wiki": "Enforcer",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_21": {
+      "nombre": "Super Van",
+      "anio": 1985,
+      "titulo_wiki": "Super Van",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_22": {
+      "nombre": "Tall Ryder",
+      "anio": 1985,
+      "titulo_wiki": "Tall Ryder",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_23": {
+      "nombre": "Thunderstreak",
+      "anio": 1985,
+      "titulo_wiki": "Thunderstreak",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_24": {
+      "nombre": "Turbo Streak",
+      "anio": 1985,
+      "titulo_wiki": "Turbo Streak",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1985_25": {
+      "nombre": "Wind Splitter",
+      "anio": 1985,
+      "titulo_wiki": "BMW M1",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_26": {
+      "nombre": "Baja Breaker",
+      "anio": 1987,
+      "titulo_wiki": "Baja Breaker",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_28": {
+      "nombre": "CAT Earth Mover",
+      "anio": 1987,
+      "titulo_wiki": "CAT Earth Mover",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_29": {
+      "nombre": "CAT Road Roller",
+      "anio": 1987,
+      "titulo_wiki": "CAT Road Roller",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_31": {
+      "nombre": "Gun Bucket",
+      "anio": 1987,
+      "titulo_wiki": "Gun Bucket",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_32": {
+      "nombre": "Monster Vette",
+      "anio": 1987,
+      "titulo_wiki": "Monster Vette",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_33": {
+      "nombre": "Path Beater",
+      "anio": 1987,
+      "titulo_wiki": "Beach Patrol",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_35": {
+      "nombre": "Pontiac Fiero 2M4",
+      "anio": 1987,
+      "titulo_wiki": "Pontiac Fiero 2M4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_37": {
+      "nombre": "Sharkruiser",
+      "anio": 1987,
+      "titulo_wiki": "Sharkruiser",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_38": {
+      "nombre": "Silver Bullet",
+      "anio": 1987,
+      "titulo_wiki": "Aeroflash",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_40": {
+      "nombre": "Suzuki Quadracer",
+      "anio": 1987,
+      "titulo_wiki": "Suzuki QuadRacer",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_41": {
+      "nombre": "Tail Gunner",
+      "anio": 1987,
+      "titulo_wiki": "Tail Gunner",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_42": {
+      "nombre": "Thunderburner",
+      "anio": 1987,
+      "titulo_wiki": "Thunderburner",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1987_43": {
+      "nombre": "Zombot",
+      "anio": 1987,
+      "titulo_wiki": "Zombot",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_44": {
+      "nombre": "'31 Doozie",
+      "anio": 1989,
+      "titulo_wiki": "'31 Doozie",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_46": {
+      "nombre": "'37 Bugatti",
+      "anio": 1989,
+      "titulo_wiki": "'37 Bugatti",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_48": {
+      "nombre": "'57 Chevy",
+      "anio": 1989,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_49": {
+      "nombre": "'65 Mustang Convertible",
+      "anio": 1989,
+      "titulo_wiki": "'65 Mustang Convertible",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_50": {
+      "nombre": "'80's Corvette",
+      "anio": 1989,
+      "titulo_wiki": "'80's Corvette",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_51": {
+      "nombre": "'80s Firebird",
+      "anio": 1989,
+      "titulo_wiki": "'80s Firebird",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_52": {
+      "nombre": "3-Window '34",
+      "anio": 1989,
+      "titulo_wiki": "3-Window '34",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_55": {
+      "nombre": "Baja Breaker",
+      "anio": 1989,
+      "titulo_wiki": "Baja Breaker",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_57": {
+      "nombre": "Big Bertha",
+      "anio": 1989,
+      "titulo_wiki": "Big Bertha",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_59": {
+      "nombre": "Blazer 4x4",
+      "anio": 1989,
+      "titulo_wiki": "Blazer 4×4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_60": {
+      "nombre": "Blown Camaro Z28",
+      "anio": 1989,
+      "titulo_wiki": "Blown Camaro",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_61": {
+      "nombre": "Bronco 4-Wheeler",
+      "anio": 1989,
+      "titulo_wiki": "Bronco 4-Wheeler",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_62": {
+      "nombre": "Bulldozer",
+      "anio": 1989,
+      "titulo_wiki": "CAT Bulldozer",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_63": {
+      "nombre": "Camaro Z-28",
+      "anio": 1989,
+      "titulo_wiki": "Camaro Z-28",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_64": {
+      "nombre": "CAT Road Roller",
+      "anio": 1989,
+      "titulo_wiki": "CAT Road Roller",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_65": {
+      "nombre": "Chevy Stocker",
+      "anio": 1989,
+      "titulo_wiki": "Chevy Stocker",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_66": {
+      "nombre": "Classic Caddy",
+      "anio": 1989,
+      "titulo_wiki": "'35 Classic Caddy",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_69": {
+      "nombre": "Fiero 2M4",
+      "anio": 1989,
+      "titulo_wiki": "Pontiac Fiero 2M4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_71": {
+      "nombre": "Flame Stopper",
+      "anio": 1989,
+      "titulo_wiki": "Flame Stopper II",
+      "diseñador": "Corgi Toys"
+    },
+    "ALT_1989_72": {
+      "nombre": "Good Humor Truck",
+      "anio": 1989,
+      "titulo_wiki": "Good Humor Truck",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_73": {
+      "nombre": "GT Racer",
+      "anio": 1989,
+      "titulo_wiki": "GT Racer",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_74": {
+      "nombre": "Gulch Stepper",
+      "anio": 1989,
+      "titulo_wiki": "Gulch Stepper",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_77": {
+      "nombre": "Jeep Scrambler",
+      "anio": 1989,
+      "titulo_wiki": "Jeep Scrambler",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_79": {
+      "nombre": "Mercedes 540K",
+      "anio": 1989,
+      "titulo_wiki": "Mercedes 540K",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_80": {
+      "nombre": "Monster Vette",
+      "anio": 1989,
+      "titulo_wiki": "Monster Vette",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_83": {
+      "nombre": "Old Number 5",
+      "anio": 1989,
+      "titulo_wiki": "Old Number 5",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_84": {
+      "nombre": "Oshkosh Snow Plow",
+      "anio": 1989,
+      "titulo_wiki": "Hot Rod Snowplow",
+      "diseñador": "Unknown"
+    },
+    "ALT_1989_85": {
+      "nombre": "Peterbilt Truck",
+      "anio": 1989,
+      "titulo_wiki": "Peterbilt Dump Truck",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_86": {
+      "nombre": "Pontiac Banshee",
+      "anio": 1989,
+      "titulo_wiki": "Pontiac Banshee",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_87": {
+      "nombre": "Power Plower",
+      "anio": 1989,
+      "titulo_wiki": "Bywayman",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_89": {
+      "nombre": "Rig Wrecker",
+      "anio": 1989,
+      "titulo_wiki": "Rig Wrecker",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_93": {
+      "nombre": "Sharkruiser",
+      "anio": 1989,
+      "titulo_wiki": "Sharkruiser",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_94": {
+      "nombre": "Sheriff Patrol",
+      "anio": 1989,
+      "titulo_wiki": "Sheriff Patrol",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_95": {
+      "nombre": "Sol-Aire CX4",
+      "anio": 1989,
+      "titulo_wiki": "Sol-Aire CX4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_96": {
+      "nombre": "Talbot Lago",
+      "anio": 1989,
+      "titulo_wiki": "Talbot Lago",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_97": {
+      "nombre": "Tall Ryder",
+      "anio": 1989,
+      "titulo_wiki": "Tall Ryder",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_99": {
+      "nombre": "VW Bug",
+      "anio": 1989,
+      "titulo_wiki": "VW Bug",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_100": {
+      "nombre": "Wheel Loader",
+      "anio": 1989,
+      "titulo_wiki": "CAT Wheel Loader",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_101": {
+      "nombre": "XT-3",
+      "anio": 1989,
+      "titulo_wiki": "XT-3",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1989_102": {
+      "nombre": "Zombot",
+      "anio": 1989,
+      "titulo_wiki": "Zombot",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_104": {
+      "nombre": "'37 Bugatti",
+      "anio": 1991,
+      "titulo_wiki": "'37 Bugatti",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_105": {
+      "nombre": "'59 Caddy",
+      "anio": 1991,
+      "titulo_wiki": "'59 Caddy",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_106": {
+      "nombre": "Auburn 852",
+      "anio": 1991,
+      "titulo_wiki": "Auburn 852",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_109": {
+      "nombre": "Fat Fendered '40",
+      "anio": 1991,
+      "titulo_wiki": "Fat Fendered '40",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_112": {
+      "nombre": "Fire Eater",
+      "anio": 1991,
+      "titulo_wiki": "Fire Eater",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_113": {
+      "nombre": "Ford Aerostar",
+      "anio": 1991,
+      "titulo_wiki": "Ford Aerostar",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_114": {
+      "nombre": "Ford Stake Bed Truck",
+      "anio": 1991,
+      "titulo_wiki": "Ford Stake Bed Truck",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_117": {
+      "nombre": "Pontiac Fiero 2M4",
+      "anio": 1991,
+      "titulo_wiki": "Pontiac Fiero 2M4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_122": {
+      "nombre": "Sharkruiser",
+      "anio": 1991,
+      "titulo_wiki": "Sharkruiser",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_123": {
+      "nombre": "Sheriff Patrol",
+      "anio": 1991,
+      "titulo_wiki": "Sheriff Patrol",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_124": {
+      "nombre": "Speed Shark",
+      "anio": 1991,
+      "titulo_wiki": "Speed Shark",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_127": {
+      "nombre": "Suzuki Quadracer",
+      "anio": 1991,
+      "titulo_wiki": "Suzuki QuadRacer",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_129": {
+      "nombre": "Toyota MR-2 Rally",
+      "anio": 1991,
+      "titulo_wiki": "Toyota MR2",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_130": {
+      "nombre": "Trailbuster",
+      "anio": 1991,
+      "titulo_wiki": "Trailbuster",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_131": {
+      "nombre": "Turbo Streak",
+      "anio": 1991,
+      "titulo_wiki": "Turbo Streak",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_132": {
+      "nombre": "Vampyra",
+      "anio": 1991,
+      "titulo_wiki": "Vampyra",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_133": {
+      "nombre": "VW Bug",
+      "anio": 1991,
+      "titulo_wiki": "VW Bug",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_135": {
+      "nombre": "Zender Fact 4",
+      "anio": 1991,
+      "titulo_wiki": "Zender Fact 4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1991_136": {
+      "nombre": "Zombot",
+      "anio": 1991,
+      "titulo_wiki": "Zombot",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_137": {
+      "nombre": "'31 Doozie",
+      "anio": 1995,
+      "titulo_wiki": "'31 Doozie",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_139": {
+      "nombre": "'35 Classic Caddy",
+      "anio": 1995,
+      "titulo_wiki": "'35 Classic Caddy",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_140": {
+      "nombre": "'37 Bugatti",
+      "anio": 1995,
+      "titulo_wiki": "'37 Bugatti",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_141": {
+      "nombre": "'56 Flashsider",
+      "anio": 1995,
+      "titulo_wiki": "'56 Flashsider",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_142": {
+      "nombre": "'57 Chevy",
+      "anio": 1995,
+      "titulo_wiki": "'57 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_144": {
+      "nombre": "'58 Corvette Coupe",
+      "anio": 1995,
+      "titulo_wiki": "'58 Corvette Coupe",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_145": {
+      "nombre": "'59 Caddy",
+      "anio": 1995,
+      "titulo_wiki": "'59 Caddy",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_146": {
+      "nombre": "'65 Mustang Convertible",
+      "anio": 1995,
+      "titulo_wiki": "'65 Mustang Convertible",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_148": {
+      "nombre": "'93 Camaro (Camaro Racer)",
+      "anio": 1995,
+      "titulo_wiki": "'93 Camaro",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_149": {
+      "nombre": "3-Window '34",
+      "anio": 1995,
+      "titulo_wiki": "3-Window '34",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_152": {
+      "nombre": "Blazer 4×4",
+      "anio": 1995,
+      "titulo_wiki": "Blazer 4×4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_153": {
+      "nombre": "Blimp",
+      "anio": 1995,
+      "titulo_wiki": "Blimp",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_154": {
+      "nombre": "Bywayman (Race Truck)",
+      "anio": 1995,
+      "titulo_wiki": "Bywayman",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_155": {
+      "nombre": "Classic Caddy",
+      "anio": 1995,
+      "titulo_wiki": "'35 Classic Caddy",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_164": {
+      "nombre": "Fire Eater",
+      "anio": 1995,
+      "titulo_wiki": "Fire Eater",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_165": {
+      "nombre": "Flashfire",
+      "anio": 1995,
+      "titulo_wiki": "Flashfire",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_166": {
+      "nombre": "Ford Aerostar",
+      "anio": 1995,
+      "titulo_wiki": "Ford Aerostar",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_167": {
+      "nombre": "Good Humor Truck",
+      "anio": 1995,
+      "titulo_wiki": "Good Humor Truck",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_168": {
+      "nombre": "Gulch Stepper",
+      "anio": 1995,
+      "titulo_wiki": "Gulch Stepper",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_172": {
+      "nombre": "Lamborghini Diablo",
+      "anio": 1995,
+      "titulo_wiki": "Lamborghini Diablo",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_176": {
+      "nombre": "Mercedes 540K",
+      "anio": 1995,
+      "titulo_wiki": "Mercedes 540K",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_177": {
+      "nombre": "Mercedes-Benz SL",
+      "anio": 1995,
+      "titulo_wiki": "Mercedes-Benz SL",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_179": {
+      "nombre": "Mini Truck",
+      "anio": 1995,
+      "titulo_wiki": "Mini Truck",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_182": {
+      "nombre": "Oshkosh Snow Plow",
+      "anio": 1995,
+      "titulo_wiki": "Hot Rod Snowplow",
+      "diseñador": "Unknown"
+    },
+    "ALT_1995_186": {
+      "nombre": "Purple Passion",
+      "anio": 1995,
+      "titulo_wiki": "Purple Passion",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_188": {
+      "nombre": "Ratmobile",
+      "anio": 1995,
+      "titulo_wiki": "Ratmobile",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_190": {
+      "nombre": "Rodzilla",
+      "anio": 1995,
+      "titulo_wiki": "Rodzilla",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_194": {
+      "nombre": "Sharkruiser",
+      "anio": 1995,
+      "titulo_wiki": "Sharkruiser",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_195": {
+      "nombre": "Side-Splitter",
+      "anio": 1995,
+      "titulo_wiki": "Firebird Funny Car (1982)",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_197": {
+      "nombre": "Speed Blaster",
+      "anio": 1995,
+      "titulo_wiki": "Speed Blaster",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_198": {
+      "nombre": "Speed-A-Saurus",
+      "anio": 1995,
+      "titulo_wiki": "Speed-A-Saurus",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_199": {
+      "nombre": "Split Window '63",
+      "anio": 1995,
+      "titulo_wiki": "Split Window '63",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_201": {
+      "nombre": "Street Roader",
+      "anio": 1995,
+      "titulo_wiki": "Street Roader",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_202": {
+      "nombre": "Stutz Blackhawk",
+      "anio": 1995,
+      "titulo_wiki": "Stutz Blackhawk",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_203": {
+      "nombre": "Super Cannon",
+      "anio": 1995,
+      "titulo_wiki": "Enforcer",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_204": {
+      "nombre": "Suzuki Quadracer",
+      "anio": 1995,
+      "titulo_wiki": "Suzuki QuadRacer",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_205": {
+      "nombre": "Talbot Lago",
+      "anio": 1995,
+      "titulo_wiki": "Talbot Lago",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_1995_206": {
+      "nombre": "Zender Fact 4",
+      "anio": 1995,
+      "titulo_wiki": "Zender Fact 4",
+      "diseñador": "Larry Wood"
+    },
+    "ALT_2025_246": {
+      "nombre": "1988 Jeep Wagoneer",
+      "anio": 2025,
+      "titulo_wiki": "1988 Jeep Wagoneer",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "ALT_2025_247": {
+      "nombre": "'91 GMC Syclone (Red)",
+      "anio": 2025,
+      "titulo_wiki": "'91 GMC Syclone",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "ALT_2020_259": {
+      "nombre": "'84 Pontiac Firebird",
+      "anio": 2020,
+      "titulo_wiki": "'84 Pontiac Firebird",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "ALT_2020_265": {
+      "nombre": "'96 Chevrolet Impala SS",
+      "anio": 2020,
+      "titulo_wiki": "'96 Chevrolet Impala SS",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "ALT_2017_274": {
+      "nombre": "Zotic (White)",
+      "anio": 2017,
+      "titulo_wiki": "Zotic",
+      "diseñador": "Alec Tam"
+    },
+    "ALT_2027_276": {
+      "nombre": "'15 Dodge Challenger SRT",
+      "anio": 2027,
+      "titulo_wiki": "'15 Dodge Challenger SRT",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "JJK82": {
+      "nombre": "Quick Chat",
+      "anio": 2026,
+      "titulo_wiki": "Quick Chat",
+      "diseñador": "Bryan Zhao"
+    },
+    "JJJ76": {
+      "nombre": "'33 Ford Lo Boy",
+      "anio": 2026,
+      "titulo_wiki": "'33 Ford Lo Boy",
+      "diseñador": "Larry Wood"
+    },
+    "HW-2009-R7557-Y": {
+      "nombre": "1:64 Faster Than Ever - Ford Mustang Fastback (Yellow)",
+      "anio": 2009,
+      "titulo_wiki": "'65 Mustang 2+2 Fastback",
+      "diseñador": "Alec Tam"
+    },
+    "7615": {
+      "nombre": "Mountain Mining Set",
+      "anio": 1974,
+      "titulo_wiki": "Road King Truck",
+      "diseñador": "Larry Wood"
+    },
+    "7608": {
+      "nombre": "Probe Funny Car",
+      "anio": 1990,
+      "titulo_wiki": "Probe Funny Car",
+      "diseñador": "Larry Wood"
+    },
+    "2173": {
+      "nombre": "Purple Passion",
+      "anio": 1990,
+      "titulo_wiki": "Purple Passion",
+      "diseñador": "Larry Wood"
+    },
+    "2099": {
+      "nombre": "Mini Truck",
+      "anio": 1990,
+      "titulo_wiki": "Mini Truck",
+      "diseñador": "Larry Wood"
+    },
+    "5636": {
+      "nombre": "Trailbuster",
+      "anio": 1991,
+      "titulo_wiki": "Trailbuster",
+      "diseñador": "Larry Wood"
+    },
+    "5640": {
+      "nombre": "Speed Shark",
+      "anio": 1991,
+      "titulo_wiki": "Speed Shark",
+      "diseñador": "Larry Wood"
+    },
+    "5669": {
+      "nombre": "Toyota MR2 Rally",
+      "anio": 1991,
+      "titulo_wiki": "Toyota MR2",
+      "diseñador": "Larry Wood"
+    },
+    "5672": {
+      "nombre": "Lamborghini Diablo",
+      "anio": 1991,
+      "titulo_wiki": "Lamborghini Diablo",
+      "diseñador": "Larry Wood"
+    },
+    "5674": {
+      "nombre": "Zender Fact 4",
+      "anio": 1991,
+      "titulo_wiki": "Zender Fact 4",
+      "diseñador": "Larry Wood"
+    },
+    "4695": {
+      "nombre": "Ford Aerostar",
+      "anio": 1991,
+      "titulo_wiki": "Ford Aerostar",
+      "diseñador": "Larry Wood"
+    },
+    "2097": {
+      "nombre": "'59 Caddy",
+      "anio": 1991,
+      "titulo_wiki": "'59 Caddy",
+      "diseñador": "Larry Wood"
+    },
+    "3204": {
+      "nombre": "Peugeot 405",
+      "anio": 1991,
+      "titulo_wiki": "Peugeot 405",
+      "diseñador": "Larry Wood"
+    },
+    "9770": {
+      "nombre": "Mercedes-Benz SL",
+      "anio": 1991,
+      "titulo_wiki": "Mercedes-Benz SL",
+      "diseñador": "Larry Wood"
+    },
+    "9446": {
+      "nombre": "Cap Blastin'",
+      "anio": 1991,
+      "titulo_wiki": "Jet Threat (Cap Blastin')",
+      "diseñador": "Larry Wood"
+    },
+    "9447": {
+      "nombre": "Cap Blastin'",
+      "anio": 1991,
+      "titulo_wiki": "Jet Threat (Cap Blastin')",
+      "diseñador": "Larry Wood"
+    },
+    "9448": {
+      "nombre": "Cap Blastin'",
+      "anio": 1991,
+      "titulo_wiki": "Jet Threat (Cap Blastin')",
+      "diseñador": "Larry Wood"
+    },
+    "1384": {
+      "nombre": "Goodyear Blimp",
+      "anio": 1992,
+      "titulo_wiki": "Blimp",
+      "diseñador": "Larry Wood"
+    },
+    "3156": {
+      "nombre": "Flashfire",
+      "anio": 1992,
+      "titulo_wiki": "Flashfire",
+      "diseñador": "Larry Wood"
+    },
+    "3164": {
+      "nombre": "Shock Factor",
+      "anio": 1992,
+      "titulo_wiki": "Shock Factor",
+      "diseñador": "Larry Wood"
+    },
+    "2073": {
+      "nombre": "Recycling Truck",
+      "anio": 1992,
+      "titulo_wiki": "Recycling Truck",
+      "diseñador": "Larry Wood"
+    },
+    "2076": {
+      "nombre": "Tank Truck",
+      "anio": 1992,
+      "titulo_wiki": "Tank Truck",
+      "diseñador": "Larry Wood"
+    },
+    "3035": {
+      "nombre": "Treadator",
+      "anio": 1993,
+      "titulo_wiki": "Treadator",
+      "diseñador": "Larry Wood"
+    },
+    "3050": {
+      "nombre": "Vector Employee Release",
+      "anio": 1993,
+      "titulo_wiki": "Vector \"Avtech\" WX-3",
+      "diseñador": "Larry Wood"
+    },
+    "11846": {
+      "nombre": "No Fear Race Car",
+      "anio": 1994,
+      "titulo_wiki": "Hot Wheels 500",
+      "diseñador": "Mark Jones"
+    },
+    "11847": {
+      "nombre": "Driven to the Max",
+      "anio": 1994,
+      "titulo_wiki": "Dragster",
+      "diseñador": "Larry Wood"
+    }
+  },
+  "stats": {
+    "sin_imagen_total": 7,
+    "sin_numero_total": 10,
+    "sin_disenador_total": 666,
+    "imagen_encontradas": 7,
+    "numero_encontrados": 0,
+    "disenador_asignados": 473,
+    "errores": 10
+  }
+}
