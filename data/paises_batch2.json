@@ -1,0 +1,123 @@
+{
+  "paises_completados": 6,
+  "numeros_coleccion_completados": 10,
+  "total_completados": 16,
+  "detalle": {
+    "sin_pais": [
+      {
+        "indice": 2638,
+        "nombre": "Mystery Lot of 6 - Hot Wheels Corvette",
+        "id": "SYM-HW-CORVETTE",
+        "pais_asignado": "USA",
+        "justificacion": "Paquete exclusivo Wal-Mart USA (Mystery Lot)"
+      },
+      {
+        "indice": 2639,
+        "nombre": "Mystery Lot of 6 - Hot Wheels Mustang",
+        "id": "SYM-HW-MUSTANG",
+        "pais_asignado": "USA",
+        "justificacion": "Paquete exclusivo Wal-Mart USA (Mystery Lot)"
+      },
+      {
+        "indice": 2640,
+        "nombre": "Mystery Lot of 6 - Hot Wheels Buick",
+        "id": "SYM-HW-BUICK",
+        "pais_asignado": "USA",
+        "justificacion": "Paquete exclusivo Wal-Mart USA (Mystery Lot)"
+      },
+      {
+        "indice": 2641,
+        "nombre": "Mystery Lot of 6 - Hot Wheels Cadillac",
+        "id": "SYM-HW-CADILLAC",
+        "pais_asignado": "USA",
+        "justificacion": "Paquete exclusivo Wal-Mart USA (Mystery Lot)"
+      },
+      {
+        "indice": 2642,
+        "nombre": "Mystery Lot of 6 - Hot Wheels Camaro",
+        "id": "SYM-HW-CAMARO",
+        "pais_asignado": "USA",
+        "justificacion": "Paquete exclusivo Wal-Mart USA (Mystery Lot)"
+      },
+      {
+        "indice": 2643,
+        "nombre": "Mystery Lot of 6 - Hot Wheels Chevy",
+        "id": "SYM-HW-CHEVY",
+        "pais_asignado": "USA",
+        "justificacion": "Paquete exclusivo Wal-Mart USA (Mystery Lot)"
+      }
+    ],
+    "sin_numero_coleccion": [
+      {
+        "indice": 4214,
+        "nombre": "Baja Truck",
+        "id": "NETFLIX-0000",
+        "numero_asignado": "X0139",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4215,
+        "nombre": "Rocket Fire",
+        "id": "NETFLIX-0001",
+        "numero_asignado": "L9937",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4216,
+        "nombre": "Bad to the Blade",
+        "id": "NETFLIX-0002",
+        "numero_asignado": "X0119",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4217,
+        "nombre": "Armored Truck",
+        "id": "NETFLIX-0003",
+        "numero_asignado": "16149",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4218,
+        "nombre": "Solid Muscle",
+        "id": "NETFLIX-0004",
+        "numero_asignado": "DTX17",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4219,
+        "nombre": "Ramblin' Wrecker",
+        "id": "NETFLIX-0005",
+        "numero_asignado": "7659",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4220,
+        "nombre": "Mega-Wrex",
+        "id": "NETFLIX-0006",
+        "numero_asignado": "CFT42",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4221,
+        "nombre": "HW Ultimate T-Rex Transporter",
+        "id": "NETFLIX-0007",
+        "numero_asignado": "HRY50",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4222,
+        "nombre": "Pizza Slam Cobra Attack",
+        "id": "NETFLIX-0008",
+        "numero_asignado": "HTN81",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      },
+      {
+        "indice": 4223,
+        "nombre": "Roku",
+        "id": "NETFLIX-0009",
+        "numero_asignado": "N/A",
+        "fuente": "Hot Wheels Wiki (Fandom)"
+      }
+    ]
+  }
+}
