@@ -1,0 +1,3593 @@
+{
+  "escalas_grandes": {
+    "1:18": {
+      "hot_wheels_collectibles": [
+        {
+          "toy_num": "21351",
+          "casting_name": "TVR Speed 12",
+          "color": "Magenta",
+          "notes": null
+        },
+        {
+          "toy_num": "21354",
+          "casting_name": "1965 Chevy Impala",
+          "color": "'65 Impala]]",
+          "notes": "Metalflake Purple"
+        },
+        {
+          "toy_num": "21355",
+          "casting_name": "'69 Corvette (1:18)",
+          "color": "1969 Corvette ZL1]]",
+          "notes": "Cream"
+        },
+        {
+          "toy_num": "21356",
+          "casting_name": "Custom '57 Chevy",
+          "color": "Metalflake Gold",
+          "notes": null
+        },
+        {
+          "toy_num": "21356",
+          "casting_name": "Custom '57 Chevy",
+          "color": "Purple",
+          "notes": "''Some came with wallet''"
+        },
+        {
+          "toy_num": "21356",
+          "casting_name": "Custom '57 Chevy",
+          "color": "Yellow",
+          "notes": null
+        },
+        {
+          "toy_num": "21358",
+          "casting_name": "'69 Dodge Charger (1:18)",
+          "color": "Dodge Charger]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "21358",
+          "casting_name": "'69 Dodge Charger (1:18)",
+          "color": "Dodge Charger]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "21359",
+          "casting_name": "Porsche 911 (1:18)",
+          "color": "Porsche 911]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "25618",
+          "casting_name": "2000 Corvette",
+          "color": "C5 Corvette]]",
+          "notes": "Custom Candy Red"
+        },
+        {
+          "toy_num": "26416",
+          "casting_name": "Customized VW Drag Bus (1:18)",
+          "color": "Customized VW Drag Bus]]",
+          "notes": "Blue & White"
+        },
+        {
+          "toy_num": "26417",
+          "casting_name": "1950 Merc Woodie",
+          "color": "Red",
+          "notes": null
+        },
+        {
+          "toy_num": "27010",
+          "casting_name": "Custom '57 Chevy",
+          "color": "Red",
+          "notes": "''Some came with wallet''"
+        },
+        {
+          "toy_num": "27011",
+          "casting_name": "'69 Corvette (1:18)",
+          "color": "1969 Corvette ZL1]]",
+          "notes": "White"
+        },
+        {
+          "toy_num": "27635",
+          "casting_name": "1965 Chevy Impala",
+          "color": "Metalflake White",
+          "notes": null
+        },
+        {
+          "toy_num": "27637",
+          "casting_name": "'69 Corvette (1:18)",
+          "color": "1969 Corvette]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "27806",
+          "casting_name": "1950 Merc Woodie",
+          "color": "Light Blue",
+          "notes": "''Also found in 100% packaging''"
+        },
+        {
+          "toy_num": "27809",
+          "casting_name": "DeTomaso Pantera",
+          "color": "Yellow",
+          "notes": null
+        },
+        {
+          "toy_num": "28683",
+          "casting_name": "'69 Corvette (1:18)",
+          "color": "1969 Corvette]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "28951",
+          "casting_name": "Custom '57 Chevy",
+          "color": "Black",
+          "notes": "''Target exclusive''"
+        },
+        {
+          "toy_num": "29062",
+          "casting_name": "Porsche 911 (1:18)",
+          "color": "Porsche 911]]",
+          "notes": "Blue"
+        }
+      ],
+      "100_percent_hot_wheels": [
+        {
+          "toy_num": "27807",
+          "casting_name": "Honda Civic Si (1:18)",
+          "color": "Custom Honda Civic Si]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "50425",
+          "casting_name": "Harley-Davidson Softtail",
+          "color": "Orange",
+          "notes": null
+        },
+        {
+          "toy_num": "29618",
+          "casting_name": "Harley-Davidson Softtail",
+          "color": "Orange",
+          "notes": null
+        },
+        {
+          "toy_num": "50429",
+          "casting_name": "TVR Speed 12",
+          "color": "Dark Green",
+          "notes": null
+        },
+        {
+          "toy_num": "50423",
+          "casting_name": "'69 Dodge Charger (1:18)",
+          "color": "Dodge Charger 1969]]",
+          "notes": "Brown"
+        },
+        {
+          "toy_num": "53442",
+          "casting_name": "'69 Dodge Charger (1:18)",
+          "color": "Dodge Charger 1969]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "50427",
+          "casting_name": "Porsche 911 (1:18)",
+          "color": "Porsche 911]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "50422",
+          "casting_name": "2000 Corvette",
+          "color": "C5 Corvette]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "50432",
+          "casting_name": "Custom Merc Woodie",
+          "color": "MERC Woodie 1950]]",
+          "notes": "Green"
+        },
+        {
+          "toy_num": "29227",
+          "casting_name": "Customized VW Drag Bus (1:18)",
+          "color": "Customized VW Drag Bus]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "53968",
+          "casting_name": "Customized VW Drag Bus (1:18)",
+          "color": "Customized VW Drag Bus]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "54573",
+          "casting_name": "Customized VW Drag Bus (1:18)",
+          "color": "Customized VW Drag Bus]]",
+          "notes": "Yellow w/ Red, Black flames Body tampo"
+        },
+        {
+          "toy_num": "50424",
+          "casting_name": "DeTomaso Pantera",
+          "color": "Blue",
+          "notes": null
+        },
+        {
+          "toy_num": "50431",
+          "casting_name": "Harley-Davidson Dyna Wide Glide",
+          "color": "Purple",
+          "notes": null
+        },
+        {
+          "toy_num": "26442",
+          "casting_name": "Harley-Davidson Dyna Wide Glide",
+          "color": "Silver",
+          "notes": null
+        },
+        {
+          "toy_num": "29225",
+          "casting_name": "Cadillac Northstar LMP",
+          "color": "Cadillac LMP]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "29226",
+          "casting_name": "'64 Pro Street Corvette",
+          "color": "Corvette]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "55260",
+          "casting_name": "'64 Pro Street Corvette",
+          "color": "Corvette]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "28922",
+          "casting_name": "Slightly Modified",
+          "color": "Grey",
+          "notes": null
+        },
+        {
+          "toy_num": "29228",
+          "casting_name": "Ford Focus (1:18)",
+          "color": "Ford Focus]]",
+          "notes": "Orange"
+        },
+        {
+          "toy_num": "29229",
+          "casting_name": "Custom Lincoln Zephyr",
+          "color": "Purple",
+          "notes": null
+        },
+        {
+          "toy_num": "29614",
+          "casting_name": "BMW Z8",
+          "color": "Silver",
+          "notes": null
+        },
+        {
+          "toy_num": "29615",
+          "casting_name": "Dodge Viper GTS-R (1:18)",
+          "color": "Dodge Viper GTS-R]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "29616",
+          "casting_name": "Chrysler Panel Cruiser",
+          "color": "Blue",
+          "notes": null
+        },
+        {
+          "toy_num": "29613",
+          "casting_name": "Cadillac Evoq",
+          "color": null,
+          "notes": "''Unreleased''"
+        },
+        {
+          "toy_num": "27774",
+          "casting_name": "Ferrari 360 Spider",
+          "color": "Red",
+          "notes": null
+        },
+        {
+          "toy_num": "29757",
+          "casting_name": "Ferrari 360 Spider",
+          "color": "Yellow",
+          "notes": null
+        },
+        {
+          "toy_num": "25733",
+          "casting_name": "Ferrari F355 Spider (1:18)",
+          "color": "Ferrari F355 Spider]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "23914",
+          "casting_name": "Ferrari 250 LM (1:18)",
+          "color": "Ferrari 250LM]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "29753",
+          "casting_name": "Ferrari 250 LM (1:18)",
+          "color": "Ferrari 250LM]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "29754",
+          "casting_name": "Ferrari 250 GTO (1:18)",
+          "color": "Ferrari 250 GTO]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "25727",
+          "casting_name": "Ferrari 250 GT California",
+          "color": "Dark Red",
+          "notes": null
+        },
+        {
+          "toy_num": "29755",
+          "casting_name": "Ferrari 250 Testarossa",
+          "color": "White",
+          "notes": "''Race Edition''"
+        },
+        {
+          "toy_num": "54601",
+          "casting_name": "Dino 246 GTS",
+          "color": "Red",
+          "notes": null
+        },
+        {
+          "toy_num": "23920",
+          "casting_name": "Dino 246 GTS",
+          "color": "Yellow",
+          "notes": null
+        },
+        {
+          "toy_num": "23911",
+          "casting_name": "Ferrari F40 (1:18)",
+          "color": "Ferrari F40]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "23933",
+          "casting_name": "Ferrari F50 (1:18)",
+          "color": "Ferrari F50]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "54599",
+          "casting_name": "Ferrari F50 (1:18)",
+          "color": "Ferrari F50]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "29758",
+          "casting_name": "Ferrari F512M Testarossa",
+          "color": "Ferrari F 512M]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "23917",
+          "casting_name": "Ferrari 456M (1:18)",
+          "color": "Ferrari 456 M]]",
+          "notes": "Light Gold"
+        },
+        {
+          "toy_num": "29230",
+          "casting_name": "Ferrari 333 SP (1:18)",
+          "color": "Ferrari 333 SP]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "29750",
+          "casting_name": "Ferrari 333 SP (1:18)",
+          "color": "Ferrari 333 SP]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "23008",
+          "casting_name": "Ferrari F355 (1:18)",
+          "color": "Ferrari F 355 Berlinetta]]<!-- \"F 355 GTB back of boxes\"-->",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "25733",
+          "casting_name": "Ferrari F355 Spider (1:18)",
+          "color": "Ferrari F 355 Spider]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "29752",
+          "casting_name": "Ferrari F355 Challenge (1:18)",
+          "color": "Ferrari F355 Challenge]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "25736",
+          "casting_name": "Ferrari 360 Modena (1:18)",
+          "color": "Ferrari 360 Modena]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "29619",
+          "casting_name": "Ferrari 360 Challenge (1:18)",
+          "color": "Ferrari 360 Modena]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "29751",
+          "casting_name": "Ferrari 360 Challenge (1:18)",
+          "color": "Ferrari 360 Challenge]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "54600",
+          "casting_name": "Ferrari 550 Maranello (1:18)",
+          "color": "Ferrari 550 Maranello]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "25734",
+          "casting_name": "Ferrari 550 Maranello (1:18)",
+          "color": "Ferrari 550 Maranello]]",
+          "notes": "Dark Red"
+        },
+        {
+          "toy_num": "29756",
+          "casting_name": "Ferrari 550 Barchetta",
+          "color": "Ferrari 550 Barchetta Pininfarina]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "29441",
+          "casting_name": "Ferrari 550 Barchetta",
+          "color": "Ferrari 550 Barchetta Pininfarina]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "53830",
+          "casting_name": "Hot Wheels Speedster",
+          "color": "Metalflake Orange",
+          "notes": null
+        },
+        {
+          "toy_num": "54571",
+          "casting_name": "Honda Civic Si (1:18)",
+          "color": "Custom Honda Civic Si]]",
+          "notes": "Green"
+        },
+        {
+          "toy_num": "54575",
+          "casting_name": "2000 Corvette",
+          "color": "C5 Corvette]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "54572",
+          "casting_name": "Cadillac Northstar LMP",
+          "color": "Cadillac LMP]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "54588",
+          "casting_name": "'64 Pro Street Corvette",
+          "color": "Corvette]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "54577",
+          "casting_name": "Slightly Modified",
+          "color": "Lime",
+          "notes": null
+        },
+        {
+          "toy_num": "54589",
+          "casting_name": "Custom Lincoln Zephyr",
+          "color": "Lincoln Zephyr]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "56215",
+          "casting_name": "Custom Lincoln Zephyr",
+          "color": "Metalflake Red",
+          "notes": "''[[2nd Annual Hot Wheels Collectors Nationals]] Exclusive''"
+        },
+        {
+          "toy_num": "54576",
+          "casting_name": "BMW Z8",
+          "color": "Black",
+          "notes": null
+        },
+        {
+          "toy_num": "54580",
+          "casting_name": "Dodge Viper GTS-R (1:18)",
+          "color": "Dodge Viper GTS-R]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "54578",
+          "casting_name": "Chrysler Panel Cruiser",
+          "color": "Yellow",
+          "notes": null
+        },
+        {
+          "toy_num": "53832",
+          "casting_name": "Beatnik Bandit (1:18)",
+          "color": "Beatnik Bandit]]",
+          "notes": "White"
+        },
+        {
+          "toy_num": "53833",
+          "casting_name": "Customized VW Drag Truck (1:18)",
+          "color": "VW Pickup]]",
+          "notes": "White Pearl / Red"
+        },
+        {
+          "toy_num": "53834",
+          "casting_name": "2001 Mini Cooper (1:18)",
+          "color": "Mini Cooper]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "53839",
+          "casting_name": "Chrysler PT Cruiser Convertible",
+          "color": "Blue",
+          "notes": null
+        },
+        {
+          "toy_num": "53831",
+          "casting_name": "'32 Ford (1:18)",
+          "color": "Ford 1932]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "85559",
+          "casting_name": "'32 Ford (1:18)",
+          "color": "'32 Ford]]",
+          "notes": "Metalflake Silver"
+        },
+        {
+          "toy_num": "50479",
+          "casting_name": "Customized VW Drag Bus (1:18)",
+          "color": "Customized VW Drag Bus]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "54574",
+          "casting_name": "'69 Corvette (1:18)",
+          "color": "Corvette 1969]]",
+          "notes": "Metalflake Blue"
+        },
+        {
+          "toy_num": "53837",
+          "casting_name": "Saleen S7 (1:18)",
+          "color": "Saleen S7]]",
+          "notes": "Orange"
+        },
+        {
+          "toy_num": "56238",
+          "casting_name": "Lamborghini Murciélago (1:18)",
+          "color": "Lamborghini Murciélago]]",
+          "notes": "Green"
+        },
+        {
+          "toy_num": "53838",
+          "casting_name": "Cadillac XLR (1:18)",
+          "color": "Cadillac XLR]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "53836",
+          "casting_name": "Dodge Viper Roadster",
+          "color": "Dodge Viper SRT-10]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "21351",
+          "casting_name": "TVR Speed 12",
+          "color": "Purple",
+          "notes": null
+        },
+        {
+          "toy_num": "50462",
+          "casting_name": "Harley-Davidson Dyna Wide Glide",
+          "color": "Black",
+          "notes": null
+        },
+        {
+          "toy_num": "50480",
+          "casting_name": "Custom '57 Chevy",
+          "color": "Black",
+          "notes": "''[[Pep Boys]] Exclusive''"
+        },
+        {
+          "toy_num": "57299",
+          "casting_name": "Deora II (1:18)",
+          "color": "Deora II]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "27774",
+          "casting_name": "Ferrari 360 Spider",
+          "color": "Red",
+          "notes": null
+        },
+        {
+          "toy_num": "54598",
+          "casting_name": "Ferrari 360 Spider",
+          "color": "Silver",
+          "notes": null
+        },
+        {
+          "toy_num": "29757",
+          "casting_name": "Ferrari 360 Spider",
+          "color": "Yellow",
+          "notes": null
+        },
+        {
+          "toy_num": "54937",
+          "casting_name": "Ferrari 575MM",
+          "color": "Ferrari 575 MM]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "54602",
+          "casting_name": "Ferrari 360 Modena (1:18)",
+          "color": "Ferrari 360 Modena]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "54597",
+          "casting_name": "Ferrari 550 Barchetta",
+          "color": "Ferrari 550 Barchetta Pininfarina]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "23914",
+          "casting_name": "Ferrari 250 LM (1:18)",
+          "color": "Ferrari 250LM]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "23933",
+          "casting_name": "Ferrari F50 (1:18)",
+          "color": "Ferrari F50]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "29758",
+          "casting_name": "Ferrari F512M Testarossa",
+          "color": "Ferrari F 512M]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "23917",
+          "casting_name": "Ferrari 456M (1:18)",
+          "color": "Ferrari 456 M]]",
+          "notes": "Light Gold"
+        },
+        {
+          "toy_num": "29230",
+          "casting_name": "Ferrari 333SP (1:18)",
+          "color": "Ferrari 333 SP]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "25736",
+          "casting_name": "Ferrari 360 Modena (1:18)",
+          "color": "Ferrari 360 Modena]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "25734",
+          "casting_name": "Ferrari 550 Maranello (1:18)",
+          "color": "Ferrari 550 Maranello]]",
+          "notes": "Dark Red"
+        },
+        {
+          "toy_num": "29756",
+          "casting_name": "Ferrari 550 Barchetta",
+          "color": "Ferrari 550 Barchetta Pininfarina]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "29441",
+          "casting_name": "Ferrari 550 Barchetta",
+          "color": "Ferrari 550 Barchetta Pininfarina]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "56293",
+          "casting_name": "Enzo Ferrari",
+          "color": "Red",
+          "notes": null
+        },
+        {
+          "toy_num": "56613",
+          "casting_name": "'69 Dodge Charger (1:18)",
+          "color": "Dodge Charger 1969]]",
+          "notes": "Green"
+        },
+        {
+          "toy_num": "56614",
+          "casting_name": "DeTomaso Pantera",
+          "color": "Red",
+          "notes": "Box shows Yellow"
+        },
+        {
+          "toy_num": "56640",
+          "casting_name": "DeTomaso Pantera",
+          "color": "Yellow",
+          "notes": "Box shows Red"
+        },
+        {
+          "toy_num": "56840",
+          "casting_name": "Ferrari Testarossa (1:18)",
+          "color": "Ferrari Testarossa]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "56841",
+          "casting_name": "Porsche 911 (1:18)",
+          "color": "Porsche 911]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "57365",
+          "casting_name": "Ferrari 355 GTS (1:18)",
+          "color": "Ferrari 355 GTS]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "57368",
+          "casting_name": "Custom Merc Woodie",
+          "color": "Merc Woodie]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "56758",
+          "casting_name": "Nissan Z (1:18)",
+          "color": "Nissan Z]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "56924",
+          "casting_name": "Ford Coupe 1932",
+          "color": "Black",
+          "notes": null
+        },
+        {
+          "toy_num": "57302",
+          "casting_name": "Saleen S7 (1:18)",
+          "color": "Saleen S7]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "57304",
+          "casting_name": "Lamborghini Murciélago (1:18)",
+          "color": "Lamborghini Murciélago]]",
+          "notes": "Dark blue"
+        },
+        {
+          "toy_num": "57314",
+          "casting_name": "Dodge Viper Roadster",
+          "color": "Dodge Viper SRT-10]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "57320",
+          "casting_name": "'32 Ford (1:18)",
+          "color": "Ford Roadster 1932]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "B4170",
+          "casting_name": "Nissan Z (1:18)",
+          "color": "Nissan Z]]",
+          "notes": "Blue"
+        },
+        {
+          "toy_num": "C0435",
+          "casting_name": "Dodge Viper GTS-R (1:18)",
+          "color": "Dodge Viper GTS-R]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "C7529",
+          "casting_name": "Nissan Z (1:18)",
+          "color": "Nissan Z]]",
+          "notes": "White"
+        },
+        {
+          "toy_num": "G4783",
+          "casting_name": "Enzo Ferrari",
+          "color": null,
+          "notes": null
+        },
+        {
+          "toy_num": "G4800",
+          "casting_name": "Nissan Z (1:18)",
+          "color": "Nissan Z]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "B6056",
+          "casting_name": "Porsche GT3 (1:18)",
+          "color": "Porsche GT3]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "B6070",
+          "casting_name": "'59 Chevy Panel Wagon Modified (1:18)",
+          "color": "'59 Chevy Panel Wagon Modified]]",
+          "notes": "Purple"
+        },
+        {
+          "toy_num": "C2590",
+          "casting_name": "Porsche GT3 (1:18)",
+          "color": "Porsche GT3]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "C7527",
+          "casting_name": "Maserati Quattroporte (1:18)",
+          "color": "Maserati Quattroporte]]",
+          "notes": "Silver"
+        }
+      ]
+    },
+    "1:24": {
+      "dropstars": [
+        {
+          "toy_num": "G8273",
+          "casting_name": "Cadillac XLR (1:24)",
+          "color": "Cadillac XLR]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "G7139",
+          "casting_name": "Chrysler 300C (1:24)",
+          "color": "Chrysler 300C]]",
+          "notes": "Pearl White"
+        },
+        {
+          "toy_num": "H3038",
+          "casting_name": "Chrysler 300C (1:24)",
+          "color": "Chrysler 300C]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "H3909",
+          "casting_name": "Chrysler 300C (1:24)",
+          "color": "Chrysler 300C]]",
+          "notes": "Silver & Blue"
+        },
+        {
+          "toy_num": "G7136",
+          "casting_name": "Ferrari 360 Spider (1:24)",
+          "color": "Ferrari 360 Spider]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "H3032",
+          "casting_name": "Ferrari 360 Spider (1:24)",
+          "color": "Ferrari 360 Spider]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "H3033",
+          "casting_name": "Ferrari 360 Spider (1:24)",
+          "color": "Ferrari 360 Spider]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "G7137",
+          "casting_name": "Mercedes-Benz SL55 (1:24",
+          "color": "Mercedes-Benz SL55]]",
+          "notes": "Electric Blue"
+        },
+        {
+          "toy_num": "H3034",
+          "casting_name": "Mercedes-Benz SL55 (1:24",
+          "color": "Mercedes-Benz SL55]]",
+          "notes": "Silver"
+        },
+        {
+          "toy_num": "G7135",
+          "casting_name": "Range Rover (1:24)",
+          "color": "Range Rover]]",
+          "notes": "Metallic Blue/Green"
+        },
+        {
+          "toy_num": "H3030",
+          "casting_name": "Range Rover (1:24)",
+          "color": "Range Rover]]",
+          "notes": "White"
+        },
+        {
+          "toy_num": "H3031",
+          "casting_name": "Range Rover (1:24)",
+          "color": "Range Rover]]",
+          "notes": "Orange"
+        }
+      ],
+      "monster_jam": []
+    },
+    "1:43": {
+      "hot_wheels_collectibles": [
+        {
+          "toy_num": "22166",
+          "casting_name": "Ferrari F40 (1:43)",
+          "color": "1987 F40]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "22169",
+          "casting_name": "Ferrari 456GT (1:43)",
+          "color": "456 GT]]",
+          "notes": "Gray"
+        },
+        {
+          "toy_num": "22174",
+          "casting_name": "Ferrari 348 TB (1:43)",
+          "color": "1989 348 TS]]<!-- TS has a removable roof, which this one clearly doesn't -->",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "22175",
+          "casting_name": "Ferrari 348 TS Spider (1:43)",
+          "color": "1993 348 Spider]]",
+          "notes": "Black"
+        },
+        {
+          "toy_num": "22176",
+          "casting_name": "Ferrari F512 M (1:43)",
+          "color": "1994 F512 M]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "22177",
+          "casting_name": "Ferrari F355 Berlinetta (1:43)",
+          "color": "1994 F355 Berlinetta]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "22178",
+          "casting_name": "Ferrari F355 Spider (1:43)",
+          "color": "1995 F355 Spider]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "22179",
+          "casting_name": "Ferrari F50 (1:43)",
+          "color": "1995 F50]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "22183",
+          "casting_name": "Ferrari 365 GTS/4 (1:43)",
+          "color": "1968 365 GTS Daytona Spider]]",
+          "notes": "Yellow"
+        },
+        {
+          "toy_num": "22184",
+          "casting_name": "Ferrari 365 GTB/4 (1:43)",
+          "color": "1968 365 GTB Daytona Coupe]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "24783",
+          "casting_name": "Hot Rod<br>1/5",
+          "color": "[['32 Ford (1:43)",
+          "notes": "'32 Ford]]"
+        },
+        {
+          "toy_num": "27060",
+          "casting_name": "Hot Rod<br>4/5",
+          "color": "[['32 Ford (1:43)",
+          "notes": "'32 Ford]]"
+        },
+        {
+          "toy_num": "25686",
+          "casting_name": "Cool Classics<br>3/3",
+          "color": "[[1955 Ford Carrier]]",
+          "notes": "Metalflake Blue"
+        },
+        {
+          "toy_num": "25685",
+          "casting_name": "Cool Classics<br>2/3",
+          "color": "[[1955 Ford Panel Van]]",
+          "notes": "Metalflake Champagne"
+        },
+        {
+          "toy_num": "25684",
+          "casting_name": "Cool Classics<br>1/3",
+          "color": "[[1955 Ford Pick-Up Truck]]",
+          "notes": "Magenta"
+        },
+        {
+          "toy_num": "25559",
+          "casting_name": "Muscle Car<br>1/5",
+          "color": "[[1966 Shelby GT 350",
+          "notes": "1966 Shelby GT350]]"
+        },
+        {
+          "toy_num": "27061",
+          "casting_name": "Muscle Car<br>4/5",
+          "color": "[[1966 Shelby GT 350",
+          "notes": "1966 Shelby GT-350]]"
+        },
+        {
+          "toy_num": "25467",
+          "casting_name": "Muscle Car<br>2/5",
+          "color": "[[1971 Plymouth GTX 1:43",
+          "notes": "1971 Plymouth GTX]]"
+        },
+        {
+          "toy_num": "27062",
+          "casting_name": "Muscle Car<br>5/5",
+          "color": "[[1971 Plymouth GTX 1:43",
+          "notes": "1971 Plymouth GTX]]"
+        },
+        {
+          "toy_num": "26398",
+          "casting_name": "Hot Rod<br>2/5",
+          "color": "[['53 Studebaker",
+          "notes": "Studebaker Funny Car]]"
+        },
+        {
+          "toy_num": "27063",
+          "casting_name": "Hot Rod<br>5/5",
+          "color": "[['53 Studebaker",
+          "notes": "Studebaker Funny Car]]"
+        },
+        {
+          "toy_num": "25711",
+          "casting_name": "Ferrari 456GT (1:43)",
+          "color": "456 GT]]",
+          "notes": "Red"
+        },
+        {
+          "toy_num": "25719",
+          "casting_name": "Ferrari 365 GTS/4 (1:43)",
+          "color": "365 GTS/4]]",
+          "notes": "Yellow"
+        }
+      ]
+    }
+  },
+  "multipacks": {
+    "tipos": [
+      "5-Packs",
+      "7-Packs",
+      "9-Packs",
+      "10-Packs"
+    ],
+    "descripcion": "Multipacks were first introduced in 1970 and have come in many forms. They have been issued yearly since 1975.",
+    "total_tipos": 4
+  },
+  "coleccionista_1_1121": {
+    "descripcion": "List of Hot Wheels released between 1989 and 1999 sorted by collector number. Does not include variations.",
+    "total_items": 315,
+    "items": [
+      {
+        "col_num": 1,
+        "model_name": "Old Number 5",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1695,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 2,
+        "model_name": "Sol-Aire CX-4",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1494,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 3,
+        "model_name": "CAT Wheel Loader",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1173,
+        "wheel_type": "yellow [[CT"
+      },
+      {
+        "col_num": 4,
+        "model_name": "XT-3",
+        "year": 1989,
+        "series": "Speed Fleet",
+        "toy_num": 1484,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 5,
+        "model_name": "Good Humor Truck",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5904,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 6,
+        "model_name": "Blazer 4x4",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 5910,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 7,
+        "model_name": "Troop Convoy",
+        "year": 1990,
+        "series": "Action Command",
+        "toy_num": 9379,
+        "wheel_type": "Black [[BW"
+      },
+      {
+        "col_num": 8,
+        "model_name": "Vampyra",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 2060,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 9,
+        "model_name": "Hiway Hauler",
+        "year": 1995,
+        "series": "",
+        "toy_num": 13771,
+        "wheel_type": "Gray Hubs [[RR"
+      },
+      {
+        "col_num": 10,
+        "model_name": "Baja Breaker",
+        "year": 1989,
+        "series": "Trail Busters",
+        "toy_num": 1517,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 11,
+        "model_name": "'31 Doozie",
+        "year": 1986,
+        "series": "1986 Hot Wheels",
+        "toy_num": 2533,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 12,
+        "model_name": "Roll Patrol Jeep CJ",
+        "year": 1985,
+        "series": "1985 Hot Wheels",
+        "toy_num": 9375,
+        "wheel_type": "OR"
+      },
+      {
+        "col_num": 13,
+        "model_name": "Delivery Van",
+        "year": 1995,
+        "series": "Bob's Toy Show",
+        "toy_num": 14975,
+        "wheel_type": "RR"
+      },
+      {
+        "col_num": 14,
+        "model_name": "'58 Corvette Coupe",
+        "year": 1996,
+        "series": "M&D Toys Limited Edition",
+        "toy_num": 14974,
+        "wheel_type": "PC"
+      },
+      {
+        "col_num": 15,
+        "model_name": "Peterbilt Tank Truck",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 2800,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 16,
+        "model_name": "CAT Earth Mover",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 3715,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 17,
+        "model_name": "Suzuki Quadracer",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 3209,
+        "wheel_type": "Yellow [[CT"
+      },
+      {
+        "col_num": 18,
+        "model_name": "Mercedes 540K",
+        "year": 1988,
+        "series": "1988 Hot Wheels",
+        "toy_num": 5142,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 19,
+        "model_name": "Shadow Jet",
+        "year": 1988,
+        "series": "1988 Hot Wheels",
+        "toy_num": 4699,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 20,
+        "model_name": "Rocketank",
+        "year": 1990,
+        "series": "Action Command",
+        "toy_num": 9380,
+        "wheel_type": "Hidden"
+      },
+      {
+        "col_num": 21,
+        "model_name": "Nissan Hardbody",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 4392,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 22,
+        "model_name": "Talbot Lago",
+        "year": 1988,
+        "series": "1988 Hot Wheels",
+        "toy_num": 4741,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 23,
+        "model_name": "'80s Firebird",
+        "year": 1988,
+        "series": "1988 Hot Wheels",
+        "toy_num": 3972,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 24,
+        "model_name": "Hiway Hauler (1980)",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 1174,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 26,
+        "model_name": "'65 Mustang Convertible",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1542,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 27,
+        "model_name": "Command Tank",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 9371,
+        "wheel_type": "Hidden"
+      },
+      {
+        "col_num": 28,
+        "model_name": "'37 Bugatti",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 2195,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 29,
+        "model_name": "Tail Gunner",
+        "year": 1987,
+        "series": "Action Command",
+        "toy_num": 4059,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 30,
+        "model_name": "'80s Corvette",
+        "year": 1989,
+        "series": "Speed Fleet",
+        "toy_num": 3928,
+        "wheel_type": "GHO"
+      },
+      {
+        "col_num": 31,
+        "model_name": "Classic Cobra",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 2535,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 32,
+        "model_name": "Sharkruiser",
+        "year": 1987,
+        "series": "Speed Demons",
+        "toy_num": 3286,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 33,
+        "model_name": "Camaro Z-28",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 9532,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 34,
+        "model_name": "CAT Bulldozer",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 1172,
+        "wheel_type": "Rubber Treads"
+      },
+      {
+        "col_num": 36,
+        "model_name": "Baja Bug",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 2542,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 37,
+        "model_name": "Hot Bird",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1451,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 38,
+        "model_name": "CAT Dump Truck",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 1171,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 39,
+        "model_name": "Monster Vette",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 2177,
+        "wheel_type": "CTS"
+      },
+      {
+        "col_num": 40,
+        "model_name": "Power Plower",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 5113,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 42,
+        "model_name": "Oshkosh Snow Plow",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 2198,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 43,
+        "model_name": "Tall Ryder",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 7530,
+        "wheel_type": "CTS"
+      },
+      {
+        "col_num": 44,
+        "model_name": "Classic Caddy",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 2529,
+        "wheel_type": "WW [[BW"
+      },
+      {
+        "col_num": 45,
+        "model_name": "Rescue Ranger",
+        "year": 1988,
+        "series": "Workhorses",
+        "toy_num": 2537,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 46,
+        "model_name": "Rig Wrecker",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 3916,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 47,
+        "model_name": "'57 Chevy",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 9638,
+        "wheel_type": "GHO"
+      },
+      {
+        "col_num": 48,
+        "model_name": "Purple Passion",
+        "year": 1996,
+        "series": "1996 M & D Limited Edition",
+        "toy_num": 14971,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 49,
+        "model_name": "Gulch Stepper",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 1516,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 50,
+        "model_name": "Rolls Royce Phantom II",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 3290,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 51,
+        "model_name": "'40's Woodie",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1131,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 52,
+        "model_name": "Delivery Truck",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 2808,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 54,
+        "model_name": "Nissan 300ZX",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 1454,
+        "wheel_type": "GHO"
+      },
+      {
+        "col_num": 55,
+        "model_name": "CAT Road Roller",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 3853,
+        "wheel_type": "CAT Roller"
+      },
+      {
+        "col_num": 56,
+        "model_name": "Bronco 4-Wheeler",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1520,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 57,
+        "model_name": "3-Window '34",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 3613,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 60,
+        "model_name": "Lamborghini Countach",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 3794,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 62,
+        "model_name": "Alien",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5026,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 63,
+        "model_name": "Radar Ranger",
+        "year": 1988,
+        "series": "1988 Hot Wheels",
+        "toy_num": 5022,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 65,
+        "model_name": "VW Bug",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 7671,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 66,
+        "model_name": "Custom Corvette Convertible",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 7670,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 68,
+        "model_name": "T-Bucket",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 7673,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 69,
+        "model_name": "Ferrari F-40",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 1468,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 70,
+        "model_name": "Chevy Stocker",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 1791,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 71,
+        "model_name": "Ambulance (1989 Workhorses)",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 1792,
+        "wheel_type": "3SP"
+      },
+      {
+        "col_num": 72,
+        "model_name": "School Bus",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 1795,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 73,
+        "model_name": "Street Roader",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1470,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 74,
+        "model_name": "GT Racer",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1789,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 75,
+        "model_name": "Pontiac Banshee",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1796,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 76,
+        "model_name": "Big Rig",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1790,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 77,
+        "model_name": "Bywayman",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 4362,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 78,
+        "model_name": "Peterbilt Cement Mixer",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1169,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 79,
+        "model_name": "Big Bertha",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 9372,
+        "wheel_type": "Hidden"
+      },
+      {
+        "col_num": 80,
+        "model_name": "Porsche 959",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1403,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 81,
+        "model_name": "Ratmobile",
+        "year": 1988,
+        "series": "Speed Demons",
+        "toy_num": 5028,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 82,
+        "model_name": "Fire Eater",
+        "year": 1982,
+        "series": "1982 Hot Wheels",
+        "toy_num": 9640,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 83,
+        "model_name": "Tank Gunner",
+        "year": 1985,
+        "series": "1985 Hot Wheels",
+        "toy_num": 9374,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 84,
+        "model_name": "Probe Funny Car",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 7609,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 86,
+        "model_name": "Propper Chopper",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 7608,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 87,
+        "model_name": "Purple Passion",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 2173,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 89,
+        "model_name": "Mini Truck",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 2099,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 91,
+        "model_name": "Snake Dragster",
+        "year": 1996,
+        "series": "M&D Toys Limited Edition",
+        "toy_num": 14972,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 92,
+        "model_name": "Mercedes 380 SEL",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 9986,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 94,
+        "model_name": "Auburn 852",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 2527,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 95,
+        "model_name": "'55 Chevy (1982)",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1467,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 98,
+        "model_name": "Nissan Custom \"Z\"",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 7609,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 99,
+        "model_name": "Ford Stake Bed Truck",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 1561,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 100,
+        "model_name": "Peterbilt Dump Truck",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 1560,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 103,
+        "model_name": "Range Rover",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 9738,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 104,
+        "model_name": "Turbo Streak",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 3914,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 105,
+        "model_name": "Peugeot 205 Rallye",
+        "year": 1989,
+        "series": "1989 Hot Wheels",
+        "toy_num": 1469,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 106,
+        "model_name": "VW Golf",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 9557,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 108,
+        "model_name": "Ramp Truck",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5343,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 110,
+        "model_name": "Trailbuster",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5636,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 111,
+        "model_name": "Street Beast",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5637,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 112,
+        "model_name": "Limozeen",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5638,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 113,
+        "model_name": "Speed Shark",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5640,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 114,
+        "model_name": "Fiero 2M4",
+        "year": 1987,
+        "series": "1987 Hot Wheels",
+        "toy_num": 7527,
+        "wheel_type": "GHO"
+      },
+      {
+        "col_num": 116,
+        "model_name": "Mazda MX-5 Miata",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 3917,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 117,
+        "model_name": "Ferrari 250",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5665,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 118,
+        "model_name": "Ferrari 348",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5666,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 122,
+        "model_name": "Toyota MR-2 Rally",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5669,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 123,
+        "model_name": "Lamborghini Diablo",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5672,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 125,
+        "model_name": "Zender Fact 4",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5674,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 126,
+        "model_name": "Chevy Lumina",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5675,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 127,
+        "model_name": "Power Plower",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 9580,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 128,
+        "model_name": "Baja Breaker",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 1517,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 129,
+        "model_name": "Suzuki Quadracer",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 3209,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 131,
+        "model_name": "Nissan Hardbody",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 4392,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 133,
+        "model_name": "Shadow Jet",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 4699,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 134,
+        "model_name": "Mercedes 540K",
+        "year": 1990,
+        "series": "1990 Hot Wheels",
+        "toy_num": 5142,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 135,
+        "model_name": "'32 Ford Delivery",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 9599,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 137,
+        "model_name": "Goodyear [[Blimp",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 1384,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 140,
+        "model_name": "Flashfire",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 3156,
+        "wheel_type": "SHO"
+      },
+      {
+        "col_num": 141,
+        "model_name": "Shock Factor",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 3164,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 142,
+        "model_name": "Highway Hauler",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 3782,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 143,
+        "model_name": "Recycling Truck",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 2073,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 144,
+        "model_name": "Oshkosh Cement Mixer",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 2074,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 145,
+        "model_name": "Tractor",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 2075,
+        "wheel_type": "Yellow [[CT"
+      },
+      {
+        "col_num": 146,
+        "model_name": "CAT Bulldozer",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 3765,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 147,
+        "model_name": "Tank Truck",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 2076,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 148,
+        "model_name": "Porsche 930",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 7607,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 149,
+        "model_name": "BMW 850i",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 5667,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 150,
+        "model_name": "BMW 323",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 9726,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 151,
+        "model_name": "Ford Aerostar",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 4695,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 152,
+        "model_name": "Fathom This",
+        "year": 2000,
+        "series": "Virtual Collection",
+        "toy_num": 27118,
+        "wheel_type": "N/A"
+      },
+      {
+        "col_num": 154,
+        "model_name": "'59 Caddy",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 2097,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 155,
+        "model_name": "Turboa",
+        "year": 1986,
+        "series": "Speed Demons",
+        "toy_num": 2061,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 156,
+        "model_name": "Rodzilla",
+        "year": 1988,
+        "series": "Speed Demons",
+        "toy_num": 4389,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 157,
+        "model_name": "'57 Chevy",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 9638,
+        "wheel_type": "SHO"
+      },
+      {
+        "col_num": 158,
+        "model_name": "Mercedes-Benz Unimog",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 5673,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 160,
+        "model_name": "Command Tank",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 418,
+        "wheel_type": "Hidden"
+      },
+      {
+        "col_num": 162,
+        "model_name": "'65 Mustang Convertible",
+        "year": 1991,
+        "series": "1991 Hot Wheels",
+        "toy_num": 420,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 163,
+        "model_name": "Talbot Lago",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 4741,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 164,
+        "model_name": "Mercedes 540K",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 422,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 165,
+        "model_name": "Suzuki Quadracer",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 3872,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 166,
+        "model_name": "Vampyra",
+        "year": 1992,
+        "series": "Speed Demons",
+        "toy_num": 444,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 167,
+        "model_name": "'80s Firebird",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 3918,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 168,
+        "model_name": "GT Racer",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 1789,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 169,
+        "model_name": "Sol-Aire CX-4",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5902,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 170,
+        "model_name": "Chevy Stocker",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 457,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 171,
+        "model_name": "VW Bug",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 453,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 172,
+        "model_name": "Mazda MX-5 Miata",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 2920,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 174,
+        "model_name": "Limozeen",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5638,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 175,
+        "model_name": "Ferrari 348",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 459,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 175,
+        "model_name": "Ferrari 348",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 459,
+        "wheel_type": "GHO"
+      },
+      {
+        "col_num": 176,
+        "model_name": "Lamborghini Diablo",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5672,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 177,
+        "model_name": "Zender Fact 4",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5674,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 177,
+        "model_name": "Zender Fact 4",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5674,
+        "wheel_type": "GHO"
+      },
+      {
+        "col_num": 178,
+        "model_name": "Hot Bird",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 462,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 179,
+        "model_name": "Porsche 959",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 463,
+        "wheel_type": "SHO"
+      },
+      {
+        "col_num": 181,
+        "model_name": "Fiero 2M4",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 7527,
+        "wheel_type": "SHO"
+      },
+      {
+        "col_num": 182,
+        "model_name": "Shadow Jet",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 4699,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 183,
+        "model_name": "VW Golf",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 9557,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 184,
+        "model_name": "Mercedes 380 SEL",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 3261,
+        "wheel_type": "SHO"
+      },
+      {
+        "col_num": 185,
+        "model_name": "Propper Chopper",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 942,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 186,
+        "model_name": "Ford Aerostar",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 4695,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 187,
+        "model_name": "Ramp Truck",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 700,
+        "wheel_type": "SB"
+      },
+      {
+        "col_num": 188,
+        "model_name": "Hummer",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 773,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 189,
+        "model_name": "Gleamer Patrol",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 1691,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 190,
+        "model_name": "'57 T-Bird",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 1760,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 191,
+        "model_name": "Aeroflash",
+        "year": 1992,
+        "series": "Gleam Team",
+        "toy_num": 1781,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 193,
+        "model_name": "Porsche 959",
+        "year": 1994,
+        "series": "Gleam Team",
+        "toy_num": 1794,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 193,
+        "model_name": "Porsche 959",
+        "year": 1994,
+        "series": "Gleam Team",
+        "toy_num": 1794,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 194,
+        "model_name": "Goodyear [[Blimp",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 2270,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 195,
+        "model_name": "Troop Convoy",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 2328,
+        "wheel_type": "Black [[BW"
+      },
+      {
+        "col_num": 196,
+        "model_name": "3-Window '34",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 2334,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 197,
+        "model_name": "Split Window '63",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 1963,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 199,
+        "model_name": "Double Demon",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 2850,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 201,
+        "model_name": "OshKosh Snow Plow",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 2902,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 202,
+        "model_name": "'93 Camaro",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 3021,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 203,
+        "model_name": "Jaguar XJ220",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 3026,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 204,
+        "model_name": "Oscar Mayer Wienermobile",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 3029,
+        "wheel_type": "Black [[BW"
+      },
+      {
+        "col_num": 205,
+        "model_name": "Treadator",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 3035,
+        "wheel_type": "tiny rollers"
+      },
+      {
+        "col_num": 206,
+        "model_name": "Pipe Jammer",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 3036,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 207,
+        "model_name": "Vector \"Avtech\" WX-3",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 3050,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 208,
+        "model_name": "Avus Quattro",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 5250,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 209,
+        "model_name": "Lexus SC400",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 5263,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 210,
+        "model_name": "Dodge Viper RT/10",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 5265,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 212,
+        "model_name": "Silhouette II",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 5267,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 213,
+        "model_name": "'57 Chevy",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 9638,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 215,
+        "model_name": "Auburn 852",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4341,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 216,
+        "model_name": "Fat Fendered '40",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4315,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 217,
+        "model_name": "'40's Woodie",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 4316,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 218,
+        "model_name": "Street Roader",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4318,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 219,
+        "model_name": "Gulch Stepper",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4320,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 220,
+        "model_name": "Bywayman",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4321,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 221,
+        "model_name": "Range Rover",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4322,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 222,
+        "model_name": "Blazer 4x4",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4324,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 223,
+        "model_name": "Baja Bug",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4325,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 224,
+        "model_name": "Zombot",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4346,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 225,
+        "model_name": "Limozeen",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 5638,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 226,
+        "model_name": "Ferrari 348",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 5666,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 227,
+        "model_name": "Lamborghini Diablo",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 4406,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 228,
+        "model_name": "Zender Fact 4",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 5874,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 229,
+        "model_name": "Mercedes 380 SEL",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4408,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 230,
+        "model_name": "XT-3",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 7531,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 231,
+        "model_name": "Mini Truck",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4546,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 234,
+        "model_name": "Nissan Custom \"Z\"",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 13584,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 235,
+        "model_name": "Turbo Streak",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 4639,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 236,
+        "model_name": "Ford Aerostar",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4640,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 237,
+        "model_name": "Ford Stake Bed Truck",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 4641,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 238,
+        "model_name": "Highway Hauler",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 4642,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 242,
+        "model_name": "'93 Camaro",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 11253,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 244,
+        "model_name": "No Fear Race Car",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 11846,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 245,
+        "model_name": "Driven to the Max",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 11847,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 246,
+        "model_name": "Shadow Jet II",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 11848,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 247,
+        "model_name": "Rigor Motor",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 11849,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 249,
+        "model_name": "Fuji [[Blimp",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 12341,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 250,
+        "model_name": "Talbot Lago",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12342,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 251,
+        "model_name": "Gulch Stepper",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12343,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 252,
+        "model_name": "Street Roader",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12344,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 253,
+        "model_name": "Mercedes 380 SEL",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 12346,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 254,
+        "model_name": "Sol-Aire CX-4",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 12347,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 255,
+        "model_name": "BMW 850i",
+        "year": 1994,
+        "series": "1994 Hot Wheels",
+        "toy_num": 5667,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 256,
+        "model_name": "'80s Firebird",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12349,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 257,
+        "model_name": "3-Window '34",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 1299,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 258,
+        "model_name": "Blazer 4x4",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12351,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 259,
+        "model_name": "Chevy Lumina",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 5675,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 262,
+        "model_name": "'93 Camaro",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 12355,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 264,
+        "model_name": "Lexus SC400",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12357,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 265,
+        "model_name": "Oldsmobile Aurora",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 12358,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 266,
+        "model_name": "'59 Caddy",
+        "year": 1993,
+        "series": "1993 Hot Wheels",
+        "toy_num": 12359,
+        "wheel_type": "WW"
+      },
+      {
+        "col_num": 267,
+        "model_name": "Olds 442 W-30",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12360,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 268,
+        "model_name": "GM Lean Machine",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12361,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 269,
+        "model_name": "Oshkosh Cement Mixer",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12362,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 270,
+        "model_name": "Chevy Stocker",
+        "year": 1992,
+        "series": "1992 Hot Wheels",
+        "toy_num": 452,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 441,
+        "model_name": "Chevy Stocker",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12924,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 442,
+        "model_name": "Ferrari F40",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12935,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 443,
+        "model_name": "Ferrari 348",
+        "year": 1995,
+        "series": "1995 Hot Wheels",
+        "toy_num": 12933,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 445,
+        "model_name": "Jaguar XJ220",
+        "year": 1995,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12865,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 446,
+        "model_name": "'32 Ford Delivery",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12927,
+        "wheel_type": "3SP"
+      },
+      {
+        "col_num": 447,
+        "model_name": "Split Window '63",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 13874,
+        "wheel_type": "3SP"
+      },
+      {
+        "col_num": 448,
+        "model_name": "'67 Camaro",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 13872,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 449,
+        "model_name": "Camaro Z-28",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12922,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 451,
+        "model_name": "3-Window '34",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12931,
+        "wheel_type": "3SP"
+      },
+      {
+        "col_num": 452,
+        "model_name": "Ferrari 250",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12936,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 453,
+        "model_name": "Avus Quattro",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 13868,
+        "wheel_type": "UH"
+      },
+      {
+        "col_num": 454,
+        "model_name": "Zender Fact 4",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 13274,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 455,
+        "model_name": "'65 Mustang Convertible",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 13871,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 457,
+        "model_name": "Pontiac Banshee",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15965,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 458,
+        "model_name": "Speed Shark",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15969,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 460,
+        "model_name": "Zombot",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15971,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 461,
+        "model_name": "Enforcer",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15968,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 462,
+        "model_name": "'80s Firebird",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 12349,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 463,
+        "model_name": "Fiero 2M4",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15962,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 464,
+        "model_name": "Blazer 4x4",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15972,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 467,
+        "model_name": "Peugeot 405",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15977,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 468,
+        "model_name": "GT Racer",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15964,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 469,
+        "model_name": "Hot Bird",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15978,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 470,
+        "model_name": "Turbo Streak",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15979,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 471,
+        "model_name": "Velocitor",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16039,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 472,
+        "model_name": "Buick Stocker",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16042,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 473,
+        "model_name": "BMW M1",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15963,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 474,
+        "model_name": "VW Golf",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16041,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 477,
+        "model_name": "Double Demon",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16046,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 481,
+        "model_name": "Tall Ryder",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16050,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 482,
+        "model_name": "Earth Mover",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16053,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 485,
+        "model_name": "Eevil Weevil",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16056,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 486,
+        "model_name": "Command Tank",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16057,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 487,
+        "model_name": "Troop Convoy",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16296,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 488,
+        "model_name": "Sting Rod",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16297,
+        "wheel_type": "CTS"
+      },
+      {
+        "col_num": 489,
+        "model_name": "Big Bertha",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16309,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 492,
+        "model_name": "Swingfire",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16299,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 493,
+        "model_name": "Porsche Targa",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16300,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 494,
+        "model_name": "Mercedes 500SL",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16301,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 495,
+        "model_name": "Ford Sierra",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16302,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 496,
+        "model_name": "Ferrari 308GT",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16303,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 497,
+        "model_name": "Ferrari Testarossa (Corgi)",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16304,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 498,
+        "model_name": "BMW 850i",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16305,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 499,
+        "model_name": "Corvette Coupe",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16306,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 502,
+        "model_name": "Chevy Nomad",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15770,
+        "wheel_type": "Gold [[7SP"
+      },
+      {
+        "col_num": 503,
+        "model_name": "'80s Corvette",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15781,
+        "wheel_type": "SB"
+      },
+      {
+        "col_num": 504,
+        "model_name": "Camaro Z-28",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15775,
+        "wheel_type": "3SP"
+      },
+      {
+        "col_num": 505,
+        "model_name": "'93 Camaro",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 15776,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 506,
+        "model_name": "Nissan 300ZX",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16363,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 507,
+        "model_name": "Peugeot 205 Rallye",
+        "year": 1996,
+        "series": "1996 Hot Wheels",
+        "toy_num": 16364,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 524,
+        "model_name": "GMC Motorhome",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 16807,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 526,
+        "model_name": "Neet Streeter",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 16809,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 527,
+        "model_name": "Second Wind",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 16810,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 528,
+        "model_name": "Beach Blaster",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 16811,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 577,
+        "model_name": "Police Cruiser (1996)",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 15785,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 590,
+        "model_name": "Porsche 911",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 15789,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 591,
+        "model_name": "Porsche 959",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 4631,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 592,
+        "model_name": "Porsche 930",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 15792,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 593,
+        "model_name": "Skullrider",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18362,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 594,
+        "model_name": "GM Ultralite",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 11083,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 595,
+        "model_name": "Corvette Stingray III",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18364,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 595,
+        "model_name": "Corvette Stingray III",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18364,
+        "wheel_type": "3SP"
+      },
+      {
+        "col_num": 596,
+        "model_name": "Pontiac Salsa",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18365,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 597,
+        "model_name": "Buick Wildcat",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18366,
+        "wheel_type": "7SP"
+      },
+      {
+        "col_num": 598,
+        "model_name": "Turboa",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18550,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 599,
+        "model_name": "Camaro Wind",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18551,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 600,
+        "model_name": "Nissan Custom \"Z\"",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18552,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 601,
+        "model_name": "Commando",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18553,
+        "wheel_type": "CT"
+      },
+      {
+        "col_num": 602,
+        "model_name": "Sharkruiser",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18554,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 603,
+        "model_name": "BMW 325i",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95509,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 604,
+        "model_name": "Ferrari 308 GTS",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95604,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 605,
+        "model_name": "Mercedes 2.6 190E",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95533,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 606,
+        "model_name": "Mercedes 300TD",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95535,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 607,
+        "model_name": "Fat Fendered '40",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 17930,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 608,
+        "model_name": "Porsche 911 Targa",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95537,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 609,
+        "model_name": "Jaguar XJ40",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95534,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 610,
+        "model_name": "Land Rover MkII",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95528,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 611,
+        "model_name": "Fire-Eater II",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95505,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 612,
+        "model_name": "'57 T-Bird (1996)",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95538,
+        "wheel_type": "BW"
+      },
+      {
+        "col_num": 613,
+        "model_name": "London Bus",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95512,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 615,
+        "model_name": "Ford (Sierra) XR4Ti",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95518,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 617,
+        "model_name": "Flame Stopper II",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95506,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 618,
+        "model_name": "Chevy Stocker",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 18555,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 619,
+        "model_name": "London Taxi",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95510,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 620,
+        "model_name": "Ford Transit Wrecker",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95514,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 622,
+        "model_name": "City Police",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95530,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 623,
+        "model_name": "Mustang Cobra (Corgi)",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95540,
+        "wheel_type": "LW"
+      },
+      {
+        "col_num": 624,
+        "model_name": "Assault Crawler",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 3338,
+        "wheel_type": ""
+      },
+      {
+        "col_num": 625,
+        "model_name": "Classic Packard",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 3920,
+        "wheel_type": "5SP"
+      },
+      {
+        "col_num": 641,
+        "model_name": "CAT Wheel Loader",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 19692,
+        "wheel_type": "CTS"
+      },
+      {
+        "col_num": 643,
+        "model_name": "Dirt Rover (Digger)",
+        "year": 1997,
+        "series": "1997 Hot Wheels",
+        "toy_num": 95544,
+        "wheel_type": "5SP"
+      }
+    ]
+  }
+}
