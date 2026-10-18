@@ -286,18 +286,38 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
   <div class="grid" id="gridcol"></div>
 </section>
 <section data-view="valorar" style="display:none">
+  <h2 style="margin:0 0 8px">💰 Valorar y vender tu colección</h2>
+  <div style="background:linear-gradient(135deg,rgba(255,77,0,.12),rgba(255,140,0,.06));border:1px solid rgba(255,77,0,.3);border-radius:12px;padding:16px;margin-bottom:18px">
+    <div style="font-weight:700;font-size:15px;color:#ff6b35;margin-bottom:8px">¿Qué hace esta sección?</div>
+    <div style="font-size:13px;line-height:1.7;color:rgba(255,255,255,.85)">
+      Esta herramienta te ayuda a <b>entender el valor de tu colección</b> y a <b>planificar cómo venderla</b>.
+      Los valores son <b>estimaciones de referencia</b> basadas en rangos de mercado (eBay, Mercari, Whatnot),
+      no cotizaciones en vivo. Cada cifra tiene su fuente y fecha. Usá los números como guía, no como precio final.
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:12px">
+      <div style="font-size:12px;color:rgba(255,255,255,.7)"><b style="color:#ffd700">1. Distribución</b><br>Cómo se reparten tus autos por año y por clase (Mainline/TH/STH).</div>
+      <div style="font-size:12px;color:rgba(255,255,255,.7)"><b style="color:#ffd700">2. Plan de venta</b><br>Por qué canal y en cuánto tiempo conviene vender cada tramo de precio.</div>
+      <div style="font-size:12px;color:rgba(255,255,255,.7)"><b style="color:#ffd700">3. Venta en lote</b><br>Cuánto perdés al vender todo junto vs. pieza por pieza.</div>
+    </div>
+  </div>
   <div class="sec" style="border:1px solid var(--line);padding:0 14px 8px;margin-bottom:14px">
-    <h3 style="padding-top:14px">Distribución por año (unidades)</h3><div class="dist" id="distyear"></div></div>
+    <h3 style="padding-top:14px">📊 Distribución por año (unidades)</h3>
+    <div class="note" style="margin-bottom:8px">Cuántos autos de tu colección son de cada año. Útil para ver si tenés una colección concentrada en una época o repartida.</div>
+    <div class="dist" id="distyear"></div></div>
   <div class="sec" style="border:1px solid var(--line);padding:0 14px 8px;margin-bottom:14px">
-    <h3 style="padding-top:14px">Distribución por clase</h3><div class="dist" id="distclass"></div></div>
+    <h3 style="padding-top:14px">🏷️ Distribución por clase</h3>
+    <div class="note" style="margin-bottom:8px">Reparto entre Mainline (comunes), Treasure Hunt (TH) y Super Treasure Hunt (STH). Los STH son los más valiosos.</div>
+    <div class="dist" id="distclass"></div></div>
   <div class="sec" style="border:1px solid var(--line);padding:0 14px 8px;margin-bottom:14px">
-    <h3 style="padding-top:14px">Plan de venta por tramo de precio</h3>
+    <h3 style="padding-top:14px">📋 Plan de venta por tramo de precio</h3>
+    <div class="note" style="margin-bottom:8px">Para cada rango de precio, el mejor canal de venta, el tiempo típico que tarda en venderse, y la comisión que cobra la plataforma. Menos comisión = más plata para vos.</div>
     <table class="t"><thead><tr><th>Tramo</th><th>Tiempo típico</th><th>Canal</th><th style="text-align:right">Comisión</th></tr></thead><tbody id="plan"></tbody></table>
     <div class="note" id="valnote" style="padding:10px 0"></div></div>
   <div class="sec" style="border:1px solid var(--line);padding:0 14px 8px">
-    <h3 style="padding-top:14px">Si vendo en lote (descuento por volumen)</h3>
+    <h3 style="padding-top:14px">📦 Si vendo en lote (descuento por volumen)</h3>
+    <div class="note" style="margin-bottom:8px">Vender todo junto es más rápido pero ganás menos. Acá ves cuánto recibirías según el tamaño del lote. El descuento es lo que el comprador espera ahorrar por comprar en cantidad.</div>
     <table class="t"><thead><tr><th>Tipo de lote</th><th style="text-align:right">Descuento</th><th style="text-align:right">Neto estimado</th></tr></thead><tbody id="lotes"></tbody></table>
-    <div class="warn">Descuentos y comisiones de research/02_mercado_y_valores.md §5-6 (eBay seller fees, Mercari, Whatnot, reddit r/HotWheels).</div></div>
+    <div class="warn">Comisiones de referencia: eBay seller fees, Mercari, Whatnot, reddit r/HotWheels. Los valores son estimaciones, no ofertas reales.</div></div>
 </section>
 <section data-view="disenadores" style="display:none">
   <h2 style="margin:0 0 14px">Diseñadores de Hot Wheels</h2>
