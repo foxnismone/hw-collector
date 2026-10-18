@@ -1,0 +1,388 @@
+This article is a '''list of [[Hot Wheels]]''' released in '''1981'''. According to the 1981 Hot Wheels Catalog, 75 cars came out in the 1981 line.
+
+==New Castings==
+{| style="font-size: 85%; text-align: left;" class="wikitable sortable" width="100%"
+|-
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Car Name'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Series'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Color'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Tampo'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Base Color / Type'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Window Color'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Interior Color'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Wheel Type'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Toy #'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Notes'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Photo'''
+|-
+|[['37 Bugatti]]
+|
+|Black
+|Red on sides
+|Unpainted / Metal
+|Clear
+|Chrome
+|[[BW]]
+|1696
+|Red Tampos on sides only, Chrome headlights and grille
+|[[Image:37 Bugatti Blkbw.JPG|75px]]
+|-
+|[[Airport Rescue]]
+|[[Workhorses]]
+|Yellow
+|Red and Black "AIRPORT RESCUE FIRE DEPT."
+|Unpainted / Metal
+|Blue tint
+|Black
+|[[BW]]
+|1699
+|
+|[[Image:Airport Rescue-1982 Malaysia.jpg|75px]]
+|-
+|[[Bronco 4-Wheeler]]
+|
+|Black
+|Yellow, Red and Orange stripes "FORD BRONCO" on hood
+|Unpainted / Metal
+|Blue tint
+|Chrome
+|[[BW]]
+|1690
+|
+|[[Image:Bronco_4-Wheeler_BlkBluTntLft.JPG|75px]]
+|-
+|[[Cannonade]]
+|
+|Yellow
+|Purple, Red, Orange "3"
+|Black / Plastic
+|Clear
+|Chrome
+|[[BW]]
+|1691
+|
+|[[File:Cannonade_Red_YelBW.JPG|75px]]
+|-
+|[[Chevy Citation]]
+|
+|White
+|Red stripe
+|Unpainted / Metal
+|Clear
+|Red
+|[[BW]]
+|1693
+|
+|[[Image:Chevy_Citation_WhtBW1.JPG|75px]]
+|-
+|[[Dixie Challenger]]
+|
+|Orange
+|Red, White and Blue stripes on roof and hood
+|Chrome / Plastic
+|Blue tint
+|Chrome
+|[[BW]]
+|3364
+|
+|[[Image:Dixie_Challenger_Flag.JPG|75px]]
+|-
+|[[Minitrek]]
+|
+|Tan
+|Orange and Yellow stripes
+|Brown / Metal
+|Grey tint
+|Red
+|[[BW]]
+|1697
+|Base color showed at bottom of sides and bumpers
+|[[Image:Minitrek - 3195df.jpg|75px]]
+|-
+|[[Mirada Stocker]]
+|
+|Red
+|Black, Yellow and White, racing decals, "10"
+|Unpainted / Metal
+|Clear
+|Tan
+|[[BW]]
+|1700
+|
+|[[Image:Mirada Stocker - 6363cf.jpg|75px]]
+|-
+|[[Old Number 5]]
+|
+|Red
+|Yellow and Black pinstripes on hood
+|Red / Metal
+|No Windows
+|Tan
+|[[BW]]
+|1695
+|louvers on hood
+|[[Image:Old Number 5 - 3193ef.jpg|75px]]
+|-
+|[[Omni 024]]
+|
+|Grey
+|Orange, Black, stripes, "024 Omni"
+|Black / Metal
+|Blue tint
+|Red
+|[[BW]]
+|1692
+|
+|[[File:Omni_024.JPG|75px]]
+|-
+|[[Peterbilt Tank Truck]]
+|[[Workhorses]]
+|Orange
+|"California Construction Company" on tank
+|Unpainted / Metal
+|Smoke
+|Black
+|[[BW]]
+|1689
+|Unpainted Metal tank
+|[[Image:Peterbilt Tank Truck FE - 7609cf.jpg|75px]]
+|-
+|[[Turismo]]
+|
+|Red
+|Yellow, White and Black stripes "10" on sides
+|unpainted metal
+|Blue tint
+|'''Tan''' Interior & Rear Deck
+|[[BW]]
+|1694
+|
+|[[Image:Turismo_Tan.JPG|75px]]
+|}
+
+==Repaints==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Car Name'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Color'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Tampo'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Base Color / Type'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Window Color'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Interior Color'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Wheel Type'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Toy #'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Notes'''
+!style="border-style: none none solid solid; background: #e3e3e3"|'''Photo'''
+|-
+|[[Auburn 852]]
+|Yellow
+|No tampos
+|Unpainted / Metal
+|Clear
+|Dark Brown
+|[[BW]]
+|2505
+|Malaysia
+|[[File:Auburn_852_YelBW.JPG|75px]]
+|-
+|[['31 Doozie]]
+|Orange w/Green plastic fenders
+|No tampos
+|[[ZAMAC]]
+|Tinted (Blue)
+|Green
+|[[BW]]
+|9649
+|Hong Kong
+|[[Image:31_Doozie_OrgGrn.JPG|75px]]
+|-
+|[['31 Doozie]]
+|Green w/Green plastic fenders
+|Yellow sides
+|[[ZAMAC]]
+|Tinted (Blue)
+|Green
+|[[BW]]
+|9649
+| Hong Kong
+|[[Image:31_Doozie_Grn.JPG|75px]]
+|-
+|[[Turbo Mustang]]
+|Orange
+|Yellow, Black and Red  "COBRA"
+|Orange
+/
+Metal
+|Grey tint
+| Red
+| [[BW]]
+|1125
+|Hong Kong
+|[[File:Turbo_Mustang_Org.JPG|75px]]
+|-
+|[[Super Van]]
+|Enamel White
+|Red & Orange flames
+|[[ZAMAC]]
+|Smoke tint
+|Black
+|[[BW]]
+|7649
+|Hong Kong
+|[[File:Image Not Available.jpg|75px]]
+|-
+|[[Rock Buster]]
+|Green
+|Red, White, Blue Lightning bolt & "10" w/ sponsor decals
+|[[ZAMAC]]
+|
+|Black
+|[[BW]]
+|9088
+|Hong Kong
+|[[File:Image Not Available.jpg|75px]]
+|-
+|[[Street Rodder]]
+|White
+|Red & Orange flames
+|Unpainted
+/
+Metal
+|No window, Gray frame
+|Gray
+|[[BW]]
+|9242
+|Hong Kong
+|[[File:48769778117_27a9bf89ed_o.jpg|75px]]
+|-
+|[[Corvette Stingray (1976)|Corvette Stingray]]
+|Orange
+|Black, Yellow, & Purple graphics on top
+|Unpainted
+/
+Metal
+|Tinted (Blue)
+|Blue Tint
+|[[GHO]]
+|9241
+|Hong Kong
+|[[Image:Corvette_Stingray_OrgGW.JPG|75px]]
+|-
+|[['57 T-Bird]]
+|Yellow
+|Red, Blue & Black "Thunderbird"
+|[[ZAMAC]]
+|Blue tint
+|Blue tint
+|[[BW]]
+|2013
+|Maylasia
+|[[Image:57_T-Bird_YelNoHole.JPG|75px]]
+|-
+|[[A-OK]]
+|Metalflake Red
+|Dark Red fenders, "Early Times Delivery" logo
+|[[ZAMAC]]
+|Smoke tint
+|Dark Red
+|[[BW]]
+|2016
+|Hong Kong
+|[[Image:A-OK 3090ef.jpg|75px]]
+|}
+
+==[[Scene Machines]] ==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Car Name'''
+! style="border-style: none none solid solid; background: #e3e3e3" | '''Color'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Tampo'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Base Color / Type'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Window Color'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Interior Color'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Wheel Type'''
+! style="border-style: none none solid solid; background: #e3e3e3" | '''Toy #'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Notes'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Photo'''
+|-
+|[[Baja Breaker|Circus Cats]]
+|White
+|Black and Orange tiger, Black and Yellow "RINGLING BROS AND BARNUM & BAILEY CIRCUS"
+|Unpainted / Metal
+|Clear
+|Black 
+|[[BW]]
+| 3303
+|picture of two tigers can be seen
+|[[Image:Baja_Breaker_WhtCrcs.JPG|75px]]
+|-
+|[[Racing Team]]
+|Yellow
+|Black, Red and White "Racing Team" #1 Hot Wheels logo tampos
+|Black / Plastic
+|Clear
+|Brown
+|[[BW]]
+|
+|
+|[[File:Deliveryvanscenemachines.JPG|75px]]
+|-
+|[[Rescue Squad]] 
+|Red w/Red Plastic Top 
+|no tampo
+|Chrome Plastic
+|Clear
+|Chrome
+|[[BW]]
+|2855
+|
+|[[Image:RescueSquad.JPG|75px]]
+|}
+
+==Heroes ==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Original Casting'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Year'''
+! style="border-style: none none solid solid; background: #e3e3e3" | '''Color'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Tampo'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Base Color / Type'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Window Color'''
+! style="border-style: none none solid solid; background: #e3e3e3" | '''Interior Color'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Toy #'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Series Rename'''
+! style="border-style: none none solid solid; background: #e3e3e3" |'''Photo'''
+|-
+|[['Vette Van|Iron Man]]
+|1981
+|White
+|Black, Red and Yellow, "Iron Man" on sides 
+|Unpainted / Metal
+|Grey tint 
+|Tan
+|3301
+|[[Iron Man]]
+|[[Image:Iron_Man_Tan.JPG|75px]]
+|-
+|[[Inside Story|Spider Man]]
+|1981
+|Chrome
+|Black and Red "Silver Surfer"
+| Blue / Plastic
+| Blue tint 
+|Red
+|3300
+|[[Silver Surfer]]
+|[[Image:Silver-surfer-inside-story.jpg|75px]]
+|}
+
+==Gallery==
+<gallery>
+1981 Catalog Prototypes.jpg|A Page off a 1981 Catalog featuring many [[Prototype Posters|Prototypes]]
+1982 Catalog of 1981.jpg|1982 Catalog showing the 1981 including the same 1981 [[Prototype Posters|Prototypes]] (you would've thought they would've change the cars by now)
+</gallery>
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1981]]
+[[Category:1981 Hot Wheels|1981]]

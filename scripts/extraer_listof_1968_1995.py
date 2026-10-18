@@ -43,18 +43,17 @@ def obtener_wikitext(titulo):
         return None
     return data.get('parse', {}).get('wikitext', '')
 
-def limpiar_nombre(texto):
-    """Limpia un nombre de modelo del wikitext"""
+def limpiar_texto(texto):
+    """Limpia markup de wikitext"""
     if not texto:
         return ''
     # Extraer texto de links wiki: [[Link|Nombre]] o [[Nombre]]
-    matches = re.findall(r'\[\[([^\]|]+)(?:\|([^\]]+))?\]\]', texto)
-    if matches:
-        # Usar el nombre mostrado (segundo grupo) si existe, si no el link
-        partes = []
-        for link, nombre in matches:
-            partes.append(nombre if nombre else link)
-        return ' '.join(partes)
+    # Procesar iterativamente
+    prev = None
+    while prev != texto:
+        prev = texto
+        texto = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', r'\2', texto)
+        texto = re.sub(r'\[\[([^\]]+)\]\]', r'\1', texto)
     # Limpiar markup
     texto = re.sub(r"''+", '', texto)
     texto = re.sub(r'<[^>]+>', '', texto)
@@ -62,10 +61,11 @@ def limpiar_nombre(texto):
     return texto
 
 def limpiar_nombre_modelo(texto):
-    """Limpia el nombre del modelo, manejando casos como 'org [[P-911]] changed to'"""
-    texto = limpiar_nombre(texto)
+    """Limpia el nombre del modelo"""
+    texto = limpiar_texto(texto)
     # Limpiar sufijos comunes
-    texto = re.sub(r'\s*(org|changed to|was|also known as)\s*$', '', texto, flags=re.IGNORECASE)
+    texto = re.sub(r'\s*(org|changed to|was|also known as|aka)\s*$', '', texto, flags=re.IGNORECASE)
+    texto = re.sub(r'\s*/\s*$', '', texto)
     return texto.strip()
 
 def extraer_url_imagen(texto):

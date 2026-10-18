@@ -1,0 +1,347 @@
+==New Castings==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+!style="border-style: none none solid solid"|'''Col #'''
+!style="border-style: none none solid solid"|'''Car name'''
+!style="border-style: none none solid solid"|'''Series'''
+!style="border-style: none none solid solid"|'''Color'''
+!style="border-style: none none solid solid"|'''Tampo'''
+!style="border-style: none none solid solid"|'''Base Color<br/>/<br/>Type'''
+!style="border-style: none none solid solid"|'''Window Color'''
+!style="border-style: none none solid solid"|'''Interior Color'''
+!style="border-style: none none solid solid"|'''Wheel Type'''
+!style="border-style: none none solid solid"|'''Toy #'''
+!style="border-style: none none solid solid"|'''Notes'''
+!style="border-style: none none solid solid"|'''Photo'''
+|-
+|126
+|[[Chevy Lumina]]
+|
+|Red
+|Yellow, Pink and Blue stripes
+|Black<br />/<br />Plastic
+|Clear
+|Tan
+|[[BW]]
+|5675
+|
+|[[Image:Chevy Lumina Red.JPG|75px]]
+|-
+|136
+|[['56 Flashsider]]
+|
+|Teal
+|Blue and Yellow graphics
+|Chrome<br />/<br />Plastic
+|Tinted (Black)
+|Unseen
+|[[UH]]
+|2029
+|
+|[[Image:'56 Flashsider - 6407df.jpg|75px]]
+|-
+|146
+|[[CAT Bulldozer|Bulldozer]]
+|
+|Yellow
+|N/A
+|Yellow<br />/<br />Plastic
+|N/A
+|Yellow
+|[[MW]]
+|3765
+|Plastic blade is part of base
+|[[Image:Bulldozer.JPG|75px]]
+|-
+|140
+|[[Flashfire]]
+|
+|Black
+|Green, Pink, Yellow "TURBO"
+|Black<br />/<br />Plastic
+|Tinted (Yellow)
+|Red
+|[[GHO]]
+|3156
+|
+|[[Image:Flashfire_BlkSho.JPG|75px]]
+|-
+|194
+|[[Blimp|Goodyear Blimp]]
+|
+|Gray
+|Black, "GOOD YEAR"
+|Silver
+|N/A
+|Unseen
+|N/A
+|1384
+|
+|[[Image:Blimp_GY.JPG|75px]]
+|-
+|142
+|[[Hiway Hauler (1992)|Hiway Hauler]]
+|
+|Red
+|Red, Blue, Yellow, "WACKY WAREHOUSE" "Kool-Aid"
+|Chrome<br />/<br />Plastic
+|Tinted (Black)
+|Unseen
+|[[BW]]
+|3782
+|
+|[[Image:Hiway_Hauler_KlAid.JPG|75px]]
+|-
+|188
+|[[Humvee|Hummer]]
+|
+|Light Brown
+|Orange, Brown, Black camouflage
+|Black<br />/<br />Plastic
+|Tinted (Black)
+|Unseen
+|[[CT]]
+|0773
+|
+|[[Image:Hummer_ltBrnMet.JPG|75px]]
+|-
+|144
+|[[Oshkosh Cement Mixer]]
+|[[List of 1992 Hot Wheels|1992 Hot Wheels]]
+|White with Blue fenders and Red mixer
+|No tampos
+|Blue<br />/<br />Plastic
+|N/A
+|Blue
+|[[BW]]
+|2074
+|
+|[[Image:Oshkosh_Cement_Mixer_Wht.JPG|75px]]
+|-
+|143
+|[[Recycling Truck]]
+|
+|Orange
+|Pink, Blue, Yellow, "Recycler"
+|Black<br />/<br />Plastic
+|Tinted (Black)
+|Unseen
+|[[BW]]
+|2073
+|
+|[[Image:Recycling_Truck_Orgbw.JPG|75px]]
+|-
+|141
+|[[Shock Factor]]
+|
+|Black & Pink
+|Blue, Red, Yellow "7"
+|[[ZAMAC]]
+|N/A
+|Pink
+|[[CT]]
+|3164
+|
+|[[Image:Shock_Factor_BlkPk.JPG|75px]]
+|-
+|145
+|[[Tractor]]
+|
+|Yellow w/Yellow Plastic Top
+|No tampos
+|Yellow<br />/<br />Plastic
+|N/A
+|Yellow
+|Yellow Tractor Wheel & Yellow [[CT]]
+|2075
+|
+|[[Image:Tractor_YelYel.JPG|75px]]
+|-
+|147
+|[[Tank Truck]]
+|
+|Red with Chrome plastic tank
+|Orange & Blue "Unocal" "76" on tank
+|Red<br />/<br />Plastic
+|Tinted (Chrome)
+|Unseen
+|[[BW]]
+|2076
+|
+|[[Image:Tank_Truck_RedBW.JPG|75px]]
+|}
+
+==Reissues==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+!style="border-style: none none solid solid"|'''Col #'''
+!style="border-style: none none solid solid"|'''Car name'''
+!style="border-style: none none solid solid"|'''Series'''
+!style="border-style: none none solid solid"|'''Color'''
+!style="border-style: none none solid solid"|'''Tampo'''
+!style="border-style: none none solid solid"|'''Base Color<br/>/<br/>Type'''
+!style="border-style: none none solid solid"|'''Window Color'''
+!style="border-style: none none solid solid"|'''Interior Color'''
+!style="border-style: none none solid solid"|'''Wheel Type'''
+!style="border-style: none none solid solid"|'''Toy #'''
+!style="border-style: none none solid solid"|'''Notes'''
+!style="border-style: none none solid solid"|'''Photo'''
+|-
+|55
+|[[CAT Road Roller|Road Roller]]
+|
+|Yellow
+|N/A
+|Black<br />/<br />Plastic
+|Tinted (Black)
+|N/A
+|[[CR1]]
+|3853
+|Malaysia
+|[[Image:Hot Wheels Road Roller 1992 - 07181df.jpg|75px]]
+|-
+|72
+|[[School Bus]]
+|[[Workhorses]]
+|Yellow
+|Black SCHOOL BUS
+|Black<br />/<br />Plastic
+|Clear
+|Black
+|[[BW ]]
+|1795
+|Malaysia
+|[[File:School_Bus_-_3030cf2.jpg|75px]]
+|-
+|82
+|[[Fire-Eater]]
+|[[Workhorses]]
+|Red
+|Balck and Yellow Instrument Panel and Hoses.<br />'51', Yellow sheild with stars on sides
+|Chrome<br />/<br />Plastic
+|Tinted (Black)
+|Unseen
+|[[BW]]
+|9640
+|
+|[[File:FIRE-EATER 9640 4.jpg|75px]]
+|-
+|153
+|[[Thunderstreak]]
+|
+|Yellow
+|Black "PENNZOIL", Red "4"
+|Unpainted<br />/<br />Metal
+|N/A
+|Yellow
+|[[BW]]
+|3999
+|Malaysia
+|[[Image:Thunderstreak_Penzl.JPG|75px]]
+|-
+|166
+|[[Vampyra]]
+|
+|Black
+|Yellow, Green and Purple on wings
+|[[ZAMAC]]
+|N/A
+|Gold Chrome
+|[[BW]]
+|0444
+|Malaysia
+|[[Image:Vampyra_BlkBW.JPG|75px]]
+|-
+|169
+|[[Sol-Aire CX-4]]
+|
+|Blue
+|Orange,Magenta,Pink ‘2’
+|Black<br />/<br />Plastic
+|Tinted (Smoke)
+|Black
+|[[UH]]
+|5902
+|Malaysia
+|[[Image:Sol-Aire CX4 - 92 HW.jpg|75px]]
+|-
+|159
+|[[Big Bertha]]
+|
+|Light Grey
+|Brown, Black & White Camouflage
+|Light Grey<br />/<br />Plastic
+|
+|
+|Black [[MGW]]
+|13192
+|
+|[[File:Big_Bertha_gryL.JPG|75px]]
+|}
+
+==Gleam Team==
+{| class="wikitable sortable" width="100%" style="font-size: 85%; text-align: left;"
+! style="border-style: none none solid solid" |'''Col #'''
+! style="border-style: none none solid solid" |'''Car Name'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Base Color<br/>/<br/>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+| 189
+|[[Gleamer Patrol]]
+|Chrome
+|[[ZAMAC]]
+|Tinted (Black)
+|Tan
+|[[BW]]
+|
+|[[Image:Sheriff Patrol glmrLt.JPG|75px]]
+|-
+|190
+|[['57 T-Bird]]
+|Gold Chrome
+|[[ZAMAC]]
+|Tinted (Black)
+|N/A
+|[[BW]]
+|
+|[[File:57_T-Bird_GldGT.JPG|75px]]
+|-
+|191
+|[[Aeroflash]]
+|Chrome Pink
+|[[ZAMAC]]
+|Black
+|N/A
+|[[UH]]
+|1781
+|[[Image:Aeroflash_PnkUH.JPG|75px]]
+|-
+|192
+|[[Corvette Stingray (1976)|Corvette Stingray]]
+|Gold
+|[[ZAMAC]]
+|Tinted (Black)
+|Black
+|[[BW]]
+|1793
+|[[Image:Corvette_Stingray_GrnGlmTm.JPG|75px]]
+|-
+|193
+|[[Porsche 959]]
+|Pink Chrome
+|[[ZAMAC]]
+|Tinted (Black)
+|Black
+|[[UH]]
+|1794
+|[[Image:Porsche_959_GTPnk.JPG|75px]]
+|}
+
+== Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1992]]
+[[Category:1992 Hot Wheels|1992]]

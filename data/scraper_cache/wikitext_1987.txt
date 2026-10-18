@@ -1,0 +1,318 @@
+[[File:35 Years of Speed Randy Leffingwell 1987.JPG|200px|left]]
+This article is a '''list of [[Hot Wheels]]''' released in '''1987.''' All Vehicles were made in Malaysia.
+
+
+
+==New Castings==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid" |'''Car Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[Assault Crawler]]
+|[[Action Command]]
+|Olive Green
+|Green, Tan, Brown camouflage
+|Olive<br>/<br>Plastic
+|N/A
+|Olive Green 
+|[[MW]]
+|3338
+|
+|[[Image:Assault Crawler - 0039df.jpg|75px]]
+|-
+|[[CAT Earth Mover]]
+|[[Workhorses]]
+|Yellow
+|No tampos
+|Yellow<br>/<br>Painted
+|N/A
+|Black
+|[[CT]] Yellow
+|3715
+|Black plastic grill and exhaust stack
+|[[Image:CAT Earth Mover - 3189df.jpg|75px]]
+|-
+|[[CAT Road Roller]]
+|[[Workhorses]]
+|Yellow
+|Black & White "CB-614"
+|Black<br>/<br>Plastic
+|N/A
+|Black
+|[[CR1]]
+|3853
+|5 bars on safety rail
+|[[File:Road_roller_rare_5-bar_version.JPG|75px]]
+|-
+|[[Ferrari Testarossa (1987)|Ferrari Testarossa]]
+|
+|Black
+|No tampos
+|Black<br>/<br>Metal
+|Clear 
+|Red & Black
+|[[UH]]
+| 1897
+|
+|[[Image:Ferrari_Testarossa_BlkUH.JPG|75px]]
+|-
+|[[Ferrari Testarossa (1987)|Ferrari Testarossa]]
+|
+|White
+|No tampos
+|White<br>/<br>Metal
+|Clear 
+|White & Red
+|[[UH]]
+|1897
+|
+|[[Image:Ferrari_Testarossa_WhtUH.JPG|75px]]
+|-
+|[[Ferrari Testarossa (1987)|Ferrari Testarossa]]
+|[[Turbo Trax Turbo Glo Set]]
+|Red
+|White glow-in-the-dark arrow
+|Red<br>/<br>Metal
+|Clear
+|Red
+|[[UH]]
+|1897
+|Only available in set
+|[[Image:Ferrari_Testarrosa_RedArw.JPG|75px]]
+|-
+|[[Monster Vette]]
+|[[Trailbusters]]
+|Yellow
+| Purple & Red flames on sides and hood
+|Unpainted<br>/<br>Metal
+|Black Tint
+|Black Tint
+|[[CTS]]
+| 3716
+|
+|[[Image:Monster_Vette_yelCTS.JPG|75px]]
+|-
+|[[Phantomachine]]
+|[[Speed Demons]]
+|Chrome w/Blue Chrome engine
+|Red, Orange, Black Face & Chest plate
+|Unpainted<br>/<br>Metal
+|N/A
+|N/A
+|[[UH]]
+|3851
+|
+|[[Image:Phantomachine.JPG|75px]]
+|-
+|[[Sharkruiser]]
+|[[Speed Demons]]
+|Light Purple
+|No tampos
+|Light Purple<br>/<br>Metal
+|N/A
+|Chrome
+|[[UH]]
+| 3286
+|Chrome engine & teeth
+|[[Image:Sharkruiser_PrpUH.JPG|75px]]
+|-
+|[[Suzuki Quadracer]]
+|[[Trailbusters]]
+|Yellow with Blue seat
+|No tampos
+|Unpainted<br>/<br>Metal
+|N/A
+|N/A
+|[[CT]] Yellow
+|3209
+|
+|[[Image:Suzuki_QuadracerCTY.JPG|75px]]
+|-
+|[[Tail Gunner]]
+|[[Action Command]]
+|Olive
+| Green, Brown, Tan, camouflage
+|Olive<br>/<br>Metal
+|Black Tint
+|N/A
+|[[CT]] Black
+|4059
+|Rear Gun Turret can spin 360<sup>o</sup>
+|[[Image:Tail_Gunner_GrnCT.JPG|75px]]
+|-
+|[[Zombot]]
+|[[Speed Demons]]
+|Gold Chrome w/Pink Chrome gun
+|No tampos
+|Unpainted<br>/<br>Metal
+|NA
+|NA 
+|[[UH]]
+| 3852
+|
+|[[Image:Zombot_GldUH.JPG|75px]]
+|}
+
+==Reissues==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+! style="border-style: none none solid solid" |'''Car Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[Road Torch]]
+|
+|Red 
+|'8' & Yellow, White & Black stripes on sides
+|Black<br>/<br>Plastic 
+|Tinted (Black)
+|Yellow
+|[[UH]]
+|1500
+|Originally named [[AMX/2]]
+|[[Image:Road_Torch.JPG|75px]]
+|-
+|[[Thunderburner]]
+|
+|Black
+|
+|Unpainted<br>/<br>Metal
+|Tinted (Black)
+|Black
+|[[GHO]]
+|1456
+|Originally named [[Thunderbird Stocker]]
+|[[Image:ThunderBurner_BlkGW.JPG|75px]]
+|-
+|[[Baja Bug]]
+|
+|White 
+|Red and Orange Flames - Blazin' Bug
+|Unpainted<br>/<br>Metal
+|N/A
+| Red
+|[[BW]]
+|5907 
+|
+|[[Image:BajaBug87TrailbustersBW.jpg|75px]]
+|-
+|[[Pontiac Fiero 2M4]]
+|
+|Red
+|Red, White and Blue stars and stripes
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[GHO]]
+|7527
+|
+|[[Image:Fiero_GHO.JPG|75px]]
+|-
+|[[Pontiac Fiero 2M4]]
+|
+|Red
+|Red, White and Blue stars and stripes
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[UH]]
+|7527
+|
+|[[Image:Fiero_RedUH.JPG|75px]]
+|-
+|[[Mantis|Speed Seeker]]
+|
+|White
+|Red, Green & Black snake
+|Unpainted<br>/<br>Metal
+|Yellow tint
+|Yellow
+|[[UH]]
+|1512
+|
+|[[Image:Speed_Speeker_Wht.JPG|75px]]
+|-
+|[[Aw Shoot|Shell Shocker]]
+|[[Action Command]]
+| Olive
+|Tan star & "53571" on front
+|Olive<br>/<br>Plastic
+|None
+|None
+|[[MW]]
+|2518
+|
+|[[File:Shell_Shocker_OlvR.JPG|75px]]
+|-
+|[[Gun Bucket]]
+|[[Action Command]]
+|Tan
+|White star on hood and camouflage pattern
+|Tan<br>/<br>Plastic
+|N/A
+|Tan
+|Black [[BW]]
+|9374
+|
+|[[Image:Tan Tank Gunner - B6418df.jpg|75px]]
+|-
+|[[Aeroflash|Silver Bullet]]
+|[[Speed Fleet]]
+|Metallic Silver 
+| Yellow, Red, Purple "ULTRA HOTS"
+|Unpainted<br>/<br>Metal
+|Black
+|unseen
+|[[UH]]
+|9535
+|
+|[[File:Image Not Available.jpg|75px]]
+|-
+|[[Baja Breaker]]
+|[[Trailbusters]]
+|Black
+|Red stripe on sides
+|[[ZAMAC]]
+|Blue tint
+|Black
+|[[BW]]
+|4360
+|
+|[[File:1984_Baja_breaker_Black_BW.jpg|75px]]
+|}
+
+==[[Real Riders]]==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid" |'''Car Name'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[Path Beater]]
+|2534
+|
+|
+|}
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1987]]
+[[Category:1987 Hot Wheels|1987]]

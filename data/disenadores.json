@@ -15433,5 +15433,865 @@
     ],
     "bio_es": "",
     "bio_en": ""
+  },
+  "Ed Watts": {
+    "nombre": "Ed Watts",
+    "foto": null,
+    "biografia_limpia": "Ed Watts was a Hot Wheels employee who worked for Mattel from the 1980s to the early 2000s; he is known to have worked on Masters of the Universe figures as well as the Top Speed line of Hot Wheels cars. He retired in 2002 due to a stage 4 brain tumor diagnosis, with the Ed Watts Race Team Red Line Club set created to honor him; all the proceeds from the set would go to Watts's family. He unfortunately lost his battle with cancer some time later.",
+    "bio_es": null,
+    "bio_en": "Ed Watts was a Hot Wheels employee who worked for Mattel from the 1980s to the early 2000s; he is known to have worked on Masters of the Universe figures as well as the Top Speed line of Hot Wheels cars. He retired in 2002 due to a stage 4 brain tumor diagnosis, with the Ed Watts Race Team Red Line Club set created to honor him; all the proceeds from the set would go to Watts's family. He unfortunately lost his battle with cancer some time later.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [],
+    "nacionalidad": "Estadounidense",
+    "periodo": "1980s–2002"
+  },
+  "Ron Way": {
+    "nombre": "Ron Way",
+    "foto": "https://static.wikia.nocookie.net/hotwheels/images/1/1f/RonWay.jpg/revision/latest?cb=20210923060703",
+    "biografia_limpia": "Ron Way is a former Mattel employee who worked at Mattel from 2004 to 2016, working in various positions relating to the Hot Wheels line; he last held the position of Senior Designer. After leaving Mattel, he worked for MGA and KidKraft for a time; he currently works for Alliance Consumer Group as a creative director.",
+    "bio_es": null,
+    "bio_en": "Ron Way is a former Mattel employee who worked at Mattel from 2004 to 2016, working in various positions relating to the Hot Wheels line; he last held the position of Senior Designer. After leaving Mattel, he worked for MGA and KidKraft for a time; he currently works for Alliance Consumer Group as a creative director.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2015,
+        "casting": "'15 Ford F-150",
+        "serie": "HW Off-Road: HW Hot Trucks",
+        "numero": "CFH24"
+      }
+    ],
+    "nacionalidad": "Estadounidense",
+    "periodo": "2004–2016"
+  },
+  "Ronald Wong": {
+    "nombre": "Ronald Wong",
+    "foto": null,
+    "biografia_limpia": "Ronald Wong is a Hong Kong Hot Wheels designer who has worked with Mattel since 2014, initially as an intern before joining Mattel full-time as a Product Designer; he currently manages the Hot Wheels Premium line. He is noted to prioritize track performance for his designs; many of his designs are noted to be of high-end exotic cars. In addition to cars, he has designed a number of larger-scale vehicles and track sets. In addition to his design work at Mattel, Wong is also a photographer, photographing Hong Kong's car culture; he is also a collector of Hot Wheels and other larger scale diecast models, having maintained a collection since his childhood. He can be found under the internet handle ronalderw.",
+    "bio_es": null,
+    "bio_en": "Ronald Wong is a Hong Kong Hot Wheels designer who has worked with Mattel since 2014, initially as an intern before joining Mattel full-time as a Product Designer; he currently manages the Hot Wheels Premium line. He is noted to prioritize track performance for his designs; many of his designs are noted to be of high-end exotic cars. In addition to cars, he has designed a number of larger-scale vehicles and track sets. In addition to his design work at Mattel, Wong is also a photographer, photographing Hong Kong's car culture; he is also a collector of Hot Wheels and other larger scale diecast models, having maintained a collection since his childhood. He can be found under the internet handle ronalderw.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2017,
+        "casting": "Web-Car",
+        "serie": "Spider-Man Web-Car Launcher",
+        "numero": "FDM61"
+      },
+      {
+        "anio": 2017,
+        "casting": "Kylo Ren",
+        "serie": "Star Wars All-Terrain Character Cars",
+        "numero": "FJD68"
+      },
+      {
+        "anio": 2022,
+        "casting": "Battitude",
+        "serie": "Hot Wheels Monster Trucks: Beast Bashers",
+        "numero": "HCP38"
+      },
+      {
+        "anio": 2022,
+        "casting": "Cage Rattler",
+        "serie": "Hot Wheels Monster Trucks: Beast Bashers",
+        "numero": "HCP40"
+      },
+      {
+        "anio": 2024,
+        "casting": "'24 Honda Civic Type-R",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "HRT61"
+      },
+      {
+        "anio": 2024,
+        "casting": "Mazda 323 GTR",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "HRT59"
+      },
+      {
+        "anio": 2024,
+        "casting": "Meyers Manx",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "HRT57"
+      },
+      {
+        "anio": 2025,
+        "casting": "2008 Mercedes-Benz CLK 63 AMG Black Series",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JBL07"
+      },
+      {
+        "anio": 2025,
+        "casting": "Maserati MC20",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JBL11"
+      },
+      {
+        "anio": 2025,
+        "casting": "'95 Lamborghini Diablo SV",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JBL13"
+      },
+      {
+        "anio": 2025,
+        "casting": "Nissan Laurel C33",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JBL10"
+      },
+      {
+        "anio": 2025,
+        "casting": "Lamborghini Temerario",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JBL09"
+      },
+      {
+        "anio": 2025,
+        "casting": "Ferrari 499P Modificata",
+        "serie": "Hot Wheels × Ferrari Heritage Set",
+        "numero": "JCP65"
+      },
+      {
+        "anio": 2026,
+        "casting": "Toyota GR Yaris",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JHW19"
+      },
+      {
+        "anio": 2026,
+        "casting": "2015 Toyota Alphard",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JHW20"
+      },
+      {
+        "anio": 2026,
+        "casting": "Koenigsegg CC850",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JHW21"
+      },
+      {
+        "anio": 2026,
+        "casting": "Enzo Ferrari",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JHW22"
+      },
+      {
+        "anio": 2026,
+        "casting": "Lamborghini Revuelto",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JHW24"
+      },
+      {
+        "anio": 2027,
+        "casting": "2003 Ford Focus RS",
+        "serie": "Hot Wheels Boulevard",
+        "numero": "JRR08"
+      }
+    ],
+    "nacionalidad": "Hong Kong",
+    "periodo": "2014–presente"
+  },
+  "Joe Woo": {
+    "nombre": "Joe Woo",
+    "foto": null,
+    "biografia_limpia": "Joe Woo is a former Hot Wheels designer who worked at Mattel in 2007.",
+    "bio_es": null,
+    "bio_en": "Joe Woo is a former Hot Wheels designer who worked at Mattel in 2007.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2007,
+        "casting": "Batmobile",
+        "serie": "Mystery Car",
+        "numero": "K6150"
+      }
+    ],
+    "nacionalidad": "Estadounidense",
+    "periodo": "2007"
+  },
+  "Larry Wood": {
+    "nombre": "Larry Wood",
+    "foto": null,
+    "biografia_limpia": "Larry Wood is a veteran Hot Wheels designer known for his extensive work on mainline and premium vehicles. He has been involved in the design of numerous castings since the 1980s, including trucks, buses, and performance cars.",
+    "bio_es": null,
+    "bio_en": "Larry Wood is a veteran Hot Wheels designer known for his extensive work on mainline and premium vehicles. He has been involved in the design of numerous castings since the 1980s, including trucks, buses, and performance cars.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 1980,
+        "casting": "Greyhound MC-8",
+        "serie": "Mainline",
+        "numero": "1127"
+      },
+      {
+        "anio": 1980,
+        "casting": "Stutz Blackhawk",
+        "serie": "Mainline",
+        "numero": "1126"
+      },
+      {
+        "anio": 1980,
+        "casting": "Super Scraper",
+        "serie": "Mainline",
+        "numero": "1129"
+      },
+      {
+        "anio": 1980,
+        "casting": "Tricar X8",
+        "serie": "Mainline",
+        "numero": "1130"
+      },
+      {
+        "anio": 1986,
+        "casting": "Turboa",
+        "serie": "Speed Demons",
+        "numero": "2061"
+      },
+      {
+        "anio": 1990,
+        "casting": "BMW 323",
+        "serie": "Mainline",
+        "numero": "9726"
+      },
+      {
+        "anio": 1990,
+        "casting": "Mini Truck",
+        "serie": "Mainline",
+        "numero": "2100"
+      },
+      {
+        "anio": 1990,
+        "casting": "Nissan Custom Z",
+        "serie": "Mainline",
+        "numero": "7609"
+      },
+      {
+        "anio": 1990,
+        "casting": "Probe Funny Car",
+        "serie": "Mainline",
+        "numero": "7610"
+      },
+      {
+        "anio": 1991,
+        "casting": "Scorch Torch",
+        "serie": "Super California Custom",
+        "numero": "9177"
+      }
+    ],
+    "nacionalidad": "Estadounidense",
+    "periodo": "1980–presente"
+  },
+  "Ethan Wood": {
+    "nombre": "Ethan Wood",
+    "foto": null,
+    "biografia_limpia": "Ethan Wood is an American industrial designer currently serving as the Senior Director of Product Design at Mattel. While not technically a member of Hot Wheels's design team, he is responsible for the design of a number of Hot Wheels-branded products found in the Mattel Creations Collaboratory.",
+    "bio_es": null,
+    "bio_en": "Ethan Wood is an American industrial designer currently serving as the Senior Director of Product Design at Mattel. While not technically a member of Hot Wheels's design team, he is responsible for the design of a number of Hot Wheels-branded products found in the Mattel Creations Collaboratory.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2023,
+        "casting": "Eroded Deora II",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ34"
+      },
+      {
+        "anio": 2023,
+        "casting": "Eroded Porsche 930",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ27"
+      },
+      {
+        "anio": 2023,
+        "casting": "Eroded Rodger Dodger",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ28"
+      },
+      {
+        "anio": 2024,
+        "casting": "Eroded Safari",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ31"
+      },
+      {
+        "anio": 2024,
+        "casting": "Eroded Twin Mill",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ32"
+      }
+    ],
+    "nacionalidad": "Estadounidense",
+    "periodo": "2023–presente"
+  },
+  "Ted Wu": {
+    "nombre": "Ted Wu",
+    "foto": null,
+    "biografia_limpia": "Theodore Wu III is a Chinese-American Mattel employee who has been working at Mattel since 2003. Initially employed as an associate producer, he quickly worked up the ranks to eventually become a senior marketing manager; he eventually became the vice-president of design for Hot Wheels in 2015, taking over from Felix Holst. He is currently the senior vice-president and global head of design, vehicles and building sets, a position he has held since 2024.",
+    "bio_es": null,
+    "bio_en": "Theodore Wu III is a Chinese-American Mattel employee who has been working at Mattel since 2003. Initially employed as an associate producer, he quickly worked up the ranks to eventually become a senior marketing manager; he eventually became the vice-president of design for Hot Wheels in 2015, taking over from Felix Holst. He is currently the senior vice-president and global head of design, vehicles and building sets, a position he has held since 2024.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2026,
+        "casting": "Porsche 911 Carrera T",
+        "serie": "Factory Fresh Mini Collection (2026)",
+        "numero": "JJH33"
+      }
+    ],
+    "nacionalidad": "Chino-estadounidense",
+    "periodo": "2003–presente"
+  },
+  "Glenn Yu": {
+    "nombre": "Glenn Yu",
+    "foto": "https://static.wikia.nocookie.net/hotwheels/images/1/1f/GlennYu.jpg/revision/latest?cb=20210923111654",
+    "biografia_limpia": "Glenn Nai-Tong Yu is a Chinese-American former Hot Wheels designer who worked at Mattel from at least 2004 to 2015, with many of his designs at Mattel being large Matchbox vehicles and Hot Wheels playsets. He is also credited in the AcceleRacers line. Prior to his work at Mattel, he worked at Hasbro, and is currently a senior director of product development at Jazwares, having moved there from his past position at Alpha Toys US.",
+    "bio_es": null,
+    "bio_en": "Glenn Nai-Tong Yu is a Chinese-American former Hot Wheels designer who worked at Mattel from at least 2004 to 2015, with many of his designs at Mattel being large Matchbox vehicles and Hot Wheels playsets. He is also credited in the AcceleRacers line. Prior to his work at Mattel, he worked at Hasbro, and is currently a senior director of product development at Jazwares, having moved there from his past position at Alpha Toys US.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2004,
+        "casting": "B-Machine",
+        "serie": "2004 First Editions",
+        "numero": "C2758"
+      },
+      {
+        "anio": 2015,
+        "casting": "Aero Pod",
+        "serie": "HW Off-Road: Jungle Rally",
+        "numero": "CFG92"
+      }
+    ],
+    "nacionalidad": "Chino-estadounidense",
+    "periodo": "2004–2015"
+  },
+  "Bryan Zhao": {
+    "nombre": "Bryan Zhao",
+    "foto": "https://static.wikia.nocookie.net/hotwheels/images/5/50/BryanZhao.jpg/revision/latest/scale-to-width-down/268?cb=20251004232700",
+    "biografia_limpia": "Bryan Bochen Zhao (Chinese: 赵博晨; pinyin: Zhào Bóchén) is a Chinese Hot Wheels designer who has worked at Mattel since 2024; he initially worked at Mattel as a vehicle design intern in 2023. Prior to this he held internship opportunities at BYD while at ArtCenter College of Design.",
+    "bio_es": null,
+    "bio_en": "Bryan Bochen Zhao (Chinese: 赵博晨; pinyin: Zhào Bóchén) is a Chinese Hot Wheels designer who has worked at Mattel since 2024; he initially worked at Mattel as a vehicle design intern in 2023. Prior to this he held internship opportunities at BYD while at ArtCenter College of Design.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2024,
+        "casting": "Rink Racer",
+        "serie": "HW Ride-Ons",
+        "numero": "HRY79"
+      },
+      {
+        "anio": 2024,
+        "casting": "Nissan Skyline 2000GT-R LBWK",
+        "serie": "Tooned",
+        "numero": "HRY85"
+      },
+      {
+        "anio": 2024,
+        "casting": "VW T3 Custom",
+        "serie": "HW Vans",
+        "numero": "HRY57"
+      },
+      {
+        "anio": 2025,
+        "casting": "BMW 635 CSi",
+        "serie": "Wild Widebody",
+        "numero": "HYW38"
+      },
+      {
+        "anio": 2025,
+        "casting": "Cone Shaker",
+        "serie": "HW Metro",
+        "numero": "HYW35"
+      },
+      {
+        "anio": 2025,
+        "casting": "Feline Lucky",
+        "serie": "HW Celebration Racers",
+        "numero": "HYW52"
+      },
+      {
+        "anio": 2025,
+        "casting": "Hako Type D",
+        "serie": "HW J-Imports",
+        "numero": "HYW25"
+      },
+      {
+        "anio": 2025,
+        "casting": "Hot Wheengs",
+        "serie": "Fast Foodie",
+        "numero": "HYW42"
+      },
+      {
+        "anio": 2025,
+        "casting": "Hoto Roto",
+        "serie": "Rod Squad",
+        "numero": "HYW33"
+      },
+      {
+        "anio": 2025,
+        "casting": "McMurtry Spéirling",
+        "serie": "Peak Pursuit",
+        "numero": "HYW55"
+      },
+      {
+        "anio": 2025,
+        "casting": "Mod Mill",
+        "serie": "Muscle Mania",
+        "numero": "HYW47"
+      },
+      {
+        "anio": 2025,
+        "casting": "Quick Chat",
+        "serie": "Experimotors",
+        "numero": "HYW45"
+      },
+      {
+        "anio": 2026,
+        "casting": "Aston Martin DB5 Safari Edition",
+        "serie": "HW Dirt",
+        "numero": "JJH76"
+      },
+      {
+        "anio": 2026,
+        "casting": "BMW M4 GT3",
+        "serie": "HW Starting Grid",
+        "numero": "JNG69"
+      },
+      {
+        "anio": 2026,
+        "casting": "Bounce'n Bass",
+        "serie": "Layin' Low",
+        "numero": "JJH32"
+      },
+      {
+        "anio": 2026,
+        "casting": "Cadillac Celestiq",
+        "serie": "HW EV",
+        "numero": "JJH49"
+      },
+      {
+        "anio": 2026,
+        "casting": "Deora Too'nd",
+        "serie": "Tooned",
+        "numero": "JJH50"
+      },
+      {
+        "anio": 2026,
+        "casting": "Drift Box",
+        "serie": "HW Euro",
+        "numero": "JJH40"
+      },
+      {
+        "anio": 2026,
+        "casting": "Eggshelleracer",
+        "serie": "Drag Racers",
+        "numero": "JJH47"
+      },
+      {
+        "anio": 2026,
+        "casting": "Ford F-150 Lightning SuperTruck",
+        "serie": "Truckin' Along",
+        "numero": "JJH52"
+      },
+      {
+        "anio": 2026,
+        "casting": "High-Tail Chaser",
+        "serie": "HW Mods",
+        "numero": "JJH35"
+      },
+      {
+        "anio": 2026,
+        "casting": "Mad Drip",
+        "serie": "Sweet Rides",
+        "numero": "JJH57"
+      },
+      {
+        "anio": 2026,
+        "casting": "Mini JCW Electric",
+        "serie": "Then and Now",
+        "numero": "JJH62"
+      },
+      {
+        "anio": 2026,
+        "casting": "Ridge Crest GT",
+        "serie": "HW Torque",
+        "numero": "JJH77"
+      },
+      {
+        "anio": 2026,
+        "casting": "Salt Streaker",
+        "serie": "Team Wheels",
+        "numero": "JJH71"
+      },
+      {
+        "anio": 2026,
+        "casting": "Tooned Purple Passion",
+        "serie": "HW Dream Garage",
+        "numero": "JJH54"
+      },
+      {
+        "anio": 2026,
+        "casting": "Toyota Prius Custom",
+        "serie": "HW J-Imports",
+        "numero": "JJH37"
+      },
+      {
+        "anio": 2026,
+        "casting": "Uncertain-T",
+        "serie": "Rod Squad",
+        "numero": "JJH70"
+      },
+      {
+        "anio": 2026,
+        "casting": "Terra-Torque",
+        "serie": "Car Culture: Team Transport",
+        "numero": "JHX93"
+      },
+      {
+        "anio": 2026,
+        "casting": "Bloc Aid",
+        "serie": "Track Fleet",
+        "numero": "JKP32"
+      },
+      {
+        "anio": 2026,
+        "casting": "Semi Twin Mill",
+        "serie": "Track Fleet",
+        "numero": "JKP30"
+      },
+      {
+        "anio": 2027,
+        "casting": "'25 Ford Shelby F-150 Super Snake",
+        "serie": "Unknown",
+        "numero": "JNX52"
+      },
+      {
+        "anio": 2027,
+        "casting": "Braille Racer - Deora II",
+        "serie": "Rod Squad",
+        "numero": "JNX40"
+      },
+      {
+        "anio": 2027,
+        "casting": "Ferrari 296 GTS",
+        "serie": "Ferrari",
+        "numero": "JNX46"
+      },
+      {
+        "anio": 2027,
+        "casting": "Tooned Bone Shaker",
+        "serie": "Rod Squad",
+        "numero": "JNX34"
+      },
+      {
+        "anio": 2027,
+        "casting": "Volkswagen Golf MK8",
+        "serie": "Unknown",
+        "numero": "JNR96"
+      },
+      {
+        "anio": 2027,
+        "casting": "Toyota 4Runner TRD Pro",
+        "serie": "Car Culture 2-Packs",
+        "numero": "JRN83"
+      },
+      {
+        "anio": 2027,
+        "casting": "2024 GMC Sierra 3500 HD",
+        "serie": "Car Culture: Team Transport",
+        "numero": "JRP63"
+      }
+    ],
+    "nacionalidad": "Chino",
+    "periodo": "2024–presente"
+  },
+  "Leo Zugner": {
+    "nombre": "Leo Zugner",
+    "foto": null,
+    "biografia_limpia": "Leo Zugner is an industrial designer who worked at Mattel from 2012 to 2019. He was involved with the Hot Wheels Advanced Play department, designing new products for Hot Wheels's future of play. He is known for the design of some Sky Busters models and the Hot Wheels id line, particularly the loop section in the Smart Track Kit as well as the Race Portal. Prior to joining Mattel, he was a designer for competing brand Jakks Pacific as well as Future Elements and Lanard Toys. He currently works at Salient Technologies.",
+    "bio_es": null,
+    "bio_en": "Leo Zugner is an industrial designer who worked at Mattel from 2012 to 2019. He was involved with the Hot Wheels Advanced Play department, designing new products for Hot Wheels's future of play. He is known for the design of some Sky Busters models and the Hot Wheels id line, particularly the loop section in the Smart Track Kit as well as the Race Portal. Prior to joining Mattel, he was a designer for competing brand Jakks Pacific as well as Future Elements and Lanard Toys. He currently works at Salient Technologies.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2016,
+        "casting": "Speed Seaplane",
+        "serie": "Sky Busters",
+        "numero": "DKG83"
+      },
+      {
+        "anio": 2017,
+        "casting": "Rocket FYR-1",
+        "serie": "Sky Busters",
+        "numero": "DVR16"
+      },
+      {
+        "anio": 2017,
+        "casting": "Strike Hawk",
+        "serie": "Sky Busters",
+        "numero": "DVR80"
+      }
+    ],
+    "nacionalidad": "Estadounidense",
+    "periodo": "2012–2019"
+  },
+  "Guest Designers": {
+    "nombre": "Guest Designers",
+    "foto": null,
+    "biografia_limpia": "Hot Wheels has approached a number of celebrities or other notable individuals to design Hot Wheels cars. This article lists these individuals in an alphabetical order.",
+    "bio_es": null,
+    "bio_en": "Hot Wheels has approached a number of celebrities or other notable individuals to design Hot Wheels cars. This article lists these individuals in an alphabetical order.",
+    "bio_pt": null,
+    "bio_fr": null,
+    "proyectos": [
+      {
+        "anio": 2024,
+        "casting": "Rally Resilience Nissan Skyline (R33)",
+        "serie": "Mattel Creations Collaboratory",
+        "numero": "HYH22",
+        "colaborador": "Arushi Garg"
+      },
+      {
+        "anio": 2025,
+        "casting": "Mazda MX-5 Miata",
+        "serie": "HW Dream Garage",
+        "numero": "HYW18",
+        "colaborador": "Chris Watson"
+      },
+      {
+        "anio": 2024,
+        "casting": "Mazda Autozam",
+        "serie": "HW Dream Garage",
+        "numero": "HRY51",
+        "colaborador": "Craig Meaux"
+      },
+      {
+        "anio": 2011,
+        "casting": "Hammerhead",
+        "serie": "2011 New Models",
+        "numero": "T9719",
+        "colaborador": "Dale Earnhardt Jr."
+      },
+      {
+        "anio": 2011,
+        "casting": "Danicar",
+        "serie": "2011 New Models",
+        "numero": "T9671",
+        "colaborador": "Danica Patrick"
+      },
+      {
+        "anio": 2023,
+        "casting": "Eroded Deora II",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ34",
+        "colaborador": "Daniel Arsham"
+      },
+      {
+        "anio": 2023,
+        "casting": "Eroded Porsche 930",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ27",
+        "colaborador": "Daniel Arsham"
+      },
+      {
+        "anio": 2023,
+        "casting": "Eroded Rodger Dodger",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ28",
+        "colaborador": "Daniel Arsham"
+      },
+      {
+        "anio": 2024,
+        "casting": "Eroded Ford Mustang",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ33",
+        "colaborador": "Daniel Arsham"
+      },
+      {
+        "anio": 2024,
+        "casting": "Eroded Safari",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ31",
+        "colaborador": "Daniel Arsham"
+      },
+      {
+        "anio": 2024,
+        "casting": "Eroded Twin Mill",
+        "serie": "Hot Wheels x Daniel Arsham",
+        "numero": "HPJ32",
+        "colaborador": "Daniel Arsham"
+      },
+      {
+        "anio": 1972,
+        "casting": "Hot Rodney",
+        "serie": "Farbs",
+        "numero": "5854",
+        "colaborador": "Del Everitt / Eddy Goldfarb"
+      },
+      {
+        "anio": 1972,
+        "casting": "Hy Gear",
+        "serie": "Farbs",
+        "numero": "5850",
+        "colaborador": "Del Everitt / Eddy Goldfarb"
+      },
+      {
+        "anio": 1972,
+        "casting": "Myles Ahead",
+        "serie": "Farbs",
+        "numero": "5851",
+        "colaborador": "Del Everitt / Eddy Goldfarb"
+      },
+      {
+        "anio": 1972,
+        "casting": "Red CatchUp",
+        "serie": "Farbs",
+        "numero": "5853",
+        "colaborador": "Del Everitt / Eddy Goldfarb"
+      },
+      {
+        "anio": 2012,
+        "casting": "Eagle Massa",
+        "serie": "2012 New Models",
+        "numero": "V5334",
+        "colaborador": "Felipe Massa"
+      },
+      {
+        "anio": 2026,
+        "casting": "La Liebre",
+        "serie": "HW Dream Garage",
+        "numero": "JJH36",
+        "colaborador": "Giuseppe Casagrande / Maurizio Moschini"
+      },
+      {
+        "anio": 2021,
+        "casting": "The Nash",
+        "serie": "HW Dream Garage",
+        "numero": "GRX19",
+        "colaborador": "Greg Salzillo / Dave Ford"
+      },
+      {
+        "anio": 2012,
+        "casting": "Imparable",
+        "serie": "2012 New Models",
+        "numero": "V5291",
+        "colaborador": "Jorge Lorenzo"
+      },
+      {
+        "anio": 2023,
+        "casting": "Volvo P1800 Gasser",
+        "serie": "HW Dream Garage",
+        "numero": "HKG27",
+        "colaborador": "Lee Johnstone"
+      },
+      {
+        "anio": 2020,
+        "casting": "2 Jet Z",
+        "serie": "HW Dream Garage",
+        "numero": "GHB45",
+        "colaborador": "Luis Rodriguez"
+      },
+      {
+        "anio": 2014,
+        "casting": "MR11",
+        "serie": "HW City: HW Goal",
+        "numero": "BDD12",
+        "colaborador": "Marco Reus"
+      },
+      {
+        "anio": 2024,
+        "casting": "Aston Martin DB4GT High-Speed Edition",
+        "serie": "Muscle Mania",
+        "numero": "HRY86",
+        "colaborador": "Miles Nurnberger"
+      },
+      {
+        "anio": 2024,
+        "casting": "Not Wheels",
+        "serie": "Hot Wheels x MSCHF",
+        "numero": "HWV25",
+        "colaborador": "MSCHF"
+      },
+      {
+        "anio": 2025,
+        "casting": "Mercedes-Benz Project G-Class Past II Future",
+        "serie": "Hot Wheels x Mercedes-Benz",
+        "numero": "JGK31",
+        "colaborador": "Nigo"
+      },
+      {
+        "anio": 2015,
+        "casting": "Ollie Rocket",
+        "serie": "HW City: HW Space Team",
+        "numero": "DHN92",
+        "colaborador": "Ollie Eaton"
+      },
+      {
+        "anio": 2027,
+        "casting": "Polski Fiat 126p",
+        "serie": "HW Euro",
+        "numero": "JNX37",
+        "colaborador": "Paweł Czarnecki"
+      },
+      {
+        "anio": 2022,
+        "casting": "1970 Pontiac Firebird",
+        "serie": "HW Dream Garage",
+        "numero": "HCT05",
+        "colaborador": "Riley Stair"
+      },
+      {
+        "anio": 2017,
+        "casting": "Speedy Pérez",
+        "serie": "Legends of Speed",
+        "numero": "DTW98",
+        "colaborador": "Sergio Pérez"
+      },
+      {
+        "anio": 2012,
+        "casting": "Spin King",
+        "serie": "2012 New Models",
+        "numero": "V5303",
+        "colaborador": "Shane Warne"
+      },
+      {
+        "anio": 2025,
+        "casting": "Polestar TRX",
+        "serie": "Peak Pursuit",
+        "numero": "HYW29",
+        "colaborador": "Shashank Shekhar"
+      },
+      {
+        "anio": 2007,
+        "casting": "Alien Crosser 1",
+        "serie": "McDonald's",
+        "numero": null,
+        "colaborador": "Stephan Meyer-Metelmann"
+      },
+      {
+        "anio": 2007,
+        "casting": "Alien Crosser 2",
+        "serie": "McDonald's",
+        "numero": null,
+        "colaborador": "Stephan Meyer-Metelmann"
+      },
+      {
+        "anio": 2022,
+        "casting": "Fingerboard",
+        "serie": "Hot Wheels Skate",
+        "numero": "HGT47",
+        "colaborador": "Tony Hawk"
+      }
+    ],
+    "nacionalidad": "Varios",
+    "periodo": "1972–presente"
   }
 }

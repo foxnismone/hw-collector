@@ -1,0 +1,123 @@
+[[File:1969_Catalog.jpg|right|150px]]
+This article is a '''list of [[Hot Wheels]]''' released in '''1969. ''' 1969 was the year Mattel introduced the very first in what is known as series, the '''Exclusive Grand Prix''' is specially marked on the blistercards. They are all race cars. Although the [[Ford J-Car]] was released in 1968, it can be found in '''Exclusive Grand Prix''' blisterpack.
+
+==1969 Hot Wheels==
+{|class="sortable wikitable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid; |Toy #
+! style="border-style: none none solid solid; |Model Name
+! style="border-style: none none solid solid; |Photo
+|-
+|6250
+|[[Classic '32 Ford Vicky]]
+|[[File:Fordvicky.jpg|center|75px]]
+|-
+|6251
+|[[Classic '31 Ford Woody]]
+|[[File:Fordwoody.jpg|center|75px]]
+|-
+|6252
+|[[Classic '57 T-Bird]]
+|[[File:Classictbird.jpg|center|75px]]
+|-
+|6253
+|[[Classic '36 Ford Coupe]]
+|[[File:Fordcoupe.jpg|center|75px]]
+|-
+|6258
+|[[Twin Mill]]
+|[[File:Twinmill.jpg|center|75px]]
+|-
+|6259
+|[[Turbofire]]
+|[[File:Turbofire.jpg|center|75px]]
+|-
+|6260
+|[[Torero]]
+|[[File:Torero.jpg|center|75px]]
+|-
+|6261
+|[[Splittin' Image]]
+|[[File:Splittinimage.jpg|center|75px]]
+|-
+|6266
+|[[Custom Continental Mark III]]
+|[[File:Customcontinentalmark.jpg|center|75px]]
+|-
+|6267
+|[[Custom AMX]]
+|[[File:Customamx.jpg|center|75px]]
+|-
+|6268
+|[[Custom Charger]]
+|[[File:Customcharger.jpg|center|75px]]
+|-
+|6269
+|[[Custom Police Cruiser]]
+|[[File:Custompolice.jpg|center|75px]]
+|-
+|6274
+|[[Volkswagen Beach Bomb]]
+|[[File:Blue_beach_bomb.jpg|center|75px]]
+|-
+|6275
+|[[Mercedes-Benz 280SL]]
+|[[File:Mercedesbenz280sl.jpg|center|75px]]
+|-
+|6276
+|[[Rolls-Royce Silver Shadow]]
+|[[File:Rollsroycesilvershadow.jpg|center|75px]]
+|-
+|6277
+|[[Maserati Mistral]]
+|[[File:Maseratimistral.jpg|center|75px]]
+|}
+==Exclusive Grand Prix==
+{|class="sortable wikitable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid; |Toy #
+! style="border-style: none none solid solid; |Model Name
+! style="border-style: none none solid solid; |Photo
+|-
+|6254
+|[[Lola GT70]]
+|[[File:Lolagt.jpg|center|75px]]
+|-
+|6255
+|[[McLaren M6A]]
+|[[File:Mclarenmga.jpg|center|75px]]
+|-
+|6256
+|[[Chaparral 2G]]
+|[[File:Chapparal.jpg|center|75px]]
+|-
+|6257
+|[[Ford Mark IV]]
+|[[File:Fordmarkiv.jpg|center|75px]]
+|-
+|6262
+|[[Lotus Turbine]]
+|[[File:Lotusturbine.jpg|center|75px]]
+|-
+|6263
+|[[Indy Eagle]]
+|[[File:Indyeagle.jpg|center|75px]]
+|-
+|6264
+|[[Brabham Repco F1]]
+|[[File:Brabham_Repco_F!_Purp.jpg|center|75px]]
+|-
+|6265
+|[[Shelby Turbine]]
+|[[File:Shelbyturbine.jpg|center|75px]]
+|}
+
+==Gallery==
+<gallery>
+Mattel Fan Club 1970 EUROPEANs.jpg|1970 Mattel Fan Club magazine<br>Custom Volkswagen is 1968
+</gallery>
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1969]]
+[[Category:1969 Hot Wheels|1969]]
