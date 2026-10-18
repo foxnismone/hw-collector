@@ -56,6 +56,9 @@ main{padding:16px 18px 60px}
 .stat .v{font-family:var(--f-mono);font-size:23px;margin-top:3px;font-variant-numeric:tabular-nums}
 .stat .n{font-size:11px;color:var(--muted);margin-top:2px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:12px}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.thumb.imgerr{background:var(--elev);display:flex;align-items:center;justify-content:center}
+.thumb.imgerr::after{content:"🚫";font-size:20px;opacity:.3}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:3px;overflow:hidden;cursor:pointer;position:relative;
  display:flex;flex-direction:column;text-align:left;padding:0;color:inherit;font:inherit}
 .card:hover{border-color:var(--accent)}
@@ -133,7 +136,7 @@ main{padding:16px 18px 60px}
   transform:translateX(100%);transition:transform .18s ease;z-index:60;overflow-y:auto;overscroll-behavior:contain;box-shadow:-20px 0 40px rgba(0,0,0,.5)}
 .drawer .dwrap{min-height:100%;display:flex;flex-direction:column}
 .drawer[data-open="1"]{transform:none}
-.drawer .dh{display:flex;gap:14px;padding:16px;border-bottom:1px solid var(--line);align-items:flex-start;position:sticky;top:0;background:var(--surface)}
+.drawer .dh{display:flex;gap:14px;padding:16px;border-bottom:1px solid var(--line);align-items:flex-start;background:var(--surface)}
 .drawer .dh img{width:120px;height:120px;object-fit:contain;background:var(--elev);border:1px solid var(--line)}
 .drawer h2{font-family:var(--f-display);font-size:17px;margin:0 0 6px;line-height:1.2}
 .kv{display:grid;grid-template-columns:130px 1fr;gap:6px 12px;padding:14px 16px;font-size:12.5px;border-bottom:1px solid var(--line)}
@@ -746,7 +749,7 @@ function cardHTML(c){
   const dm=DEM[c.i];
   const pie=(dm?"TOP "+dm.rank:"")+(c.imr?(dm?" · ":"")+"imagen ref":"");
   const dbadge=pie?`<span class="dem">${pie}</span>`:"";
-  const img=c.im?`<img class="thumb" loading="lazy" decoding="async" src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">`:`<div class="thumb"></div>`;
+  const img=c.im?`<img class="thumb" loading="lazy" decoding="async" src="${IMG(c.im)}" alt="" onerror="this.classList.add('imgerr');this.removeAttribute('src');" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`<div class="thumb imgerr"></div>`;
   const editBtn=o&&o.q?`<button class="cardedit" onclick="event.stopPropagation();editCar('${c.i}')" title="Editar">✎</button>`:"";
   const delBtn=o&&o.q?`<button class="carddel" onclick="event.stopPropagation();if(confirm('Eliminar ${c.m}?'))delCar('${c.i}')" title="Eliminar">×</button>`:"";
   const bandera=c.pais?`<div style="position:absolute;bottom:4px;right:4px;font-size:14px;background:rgba(0,0,0,.5);border-radius:4px;padding:2px 4px">${c.pais.includes('Malaysia')?'🇲🇾':c.pais.includes('Thailand')?'🇹🇭':c.pais.includes('China')?'🇨🇳':c.pais.includes('Hong Kong')?'🇭🇰':c.pais.includes('USA')?'🇺🇸':'🏳️'}</div>`:'';
