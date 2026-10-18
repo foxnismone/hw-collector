@@ -2328,58 +2328,60 @@ function initPage(){
     const msg=document.getElementById('formMsg'); if(msg) msg.innerHTML='';
   };
 
-  // Modal del diseñador
+  // Modal del diseñador - Diseño unificado y profesional
   window.mostrarDiseñador=function(nombre){
     if(typeof DISENADORES==='undefined'||!DISENADORES[nombre])return;
     const d=DISENADORES[nombre];
-    const foto=d.foto?`<img src="${d.foto}" style="width:160px;height:160px;object-fit:cover;border-radius:8px;border:2px solid var(--brand-primary)">`:'<div style="width:160px;height:160px;border-radius:8px;background:var(--elev);display:flex;align-items:center;justify-content:center;font-size:48px">👤</div>';
+    const fotoHtml=d.foto
+      ?`<img src="${d.foto}" alt="${esc(nombre)}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;background:linear-gradient(135deg,#1a1a2e,#2a2a3e);display:flex;align-items:center;justify-content:center;font-size:40px;color:#ff6b35\\'>👤</div>'">`
+      :`<div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a2e,#2a2a3e);display:flex;align-items:center;justify-content:center;font-size:40px;color:#ff6b35">👤</div>`;
     const bio=d.biografia_limpia||d.biografia||'Biografía no disponible';
     const vehiculos=(d.proyectos||[]);
-    const primeros15=vehiculos.slice(0,15).map(v=>`<span style="display:inline-block;padding:4px 10px;margin:3px;background:var(--elev);border:1px solid var(--line);border-radius:4px;font-size:11px">${esc(v)}</span>`).join('');
-    const verMas=vehiculos.length>15?`<span style="display:inline-block;padding:4px 10px;margin:3px;font-size:11px;color:var(--muted)">+${vehiculos.length-15} más</span>`:'';
-    let html=`<div style="position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:200;display:flex;align-items:center;justify-content:center;padding:16px;overflow-y:auto" onclick="if(event.target===this)this.remove()">
-      <div style="background:var(--surface);border:1px solid var(--line);border-radius:12px;max-width:700px;width:100%;max-height:90vh;overflow-y:auto;padding:24px">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px">
+    const vehiculosHtml=vehiculos.length>0
+      ?vehiculos.slice(0,12).map(v=>`<span style="display:inline-block;padding:4px 10px;margin:2px;background:rgba(255,77,0,.12);border:1px solid rgba(255,77,0,.25);border-radius:4px;font-size:11px;color:#ff8c5a">${esc(v)}</span>`).join('')
+      :'<span style="font-size:12px;color:rgba(255,255,255,.4)">Sin vehículos registrados</span>';
+    const verMas=vehiculos.length>12?`<span style="display:inline-block;padding:4px 10px;margin:2px;font-size:11px;color:rgba(255,255,255,.5)">+${vehiculos.length-12} más</span>`:'';
+    let html=`<div style="position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:200;display:flex;align-items:center;justify-content:center;padding:16px;overflow-y:auto" onclick="if(event.target===this)this.remove()">
+      <div style="background:linear-gradient(145deg,#1a1a2e 0%,#0f0f1a 100%);border:1px solid rgba(255,77,0,.25);border-radius:16px;max-width:640px;width:100%;max-height:92vh;overflow-y:auto;padding:24px;box-shadow:0 25px 50px rgba(0,0,0,.6);color:#fff;font-family:system-ui,-apple-system,sans-serif">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px">
           <div style="display:flex;gap:16px;align-items:flex-start">
-            ${foto}
+            <div style="width:80px;height:80px;border-radius:10px;overflow:hidden;border:2px solid rgba(255,77,0,.5);flex-shrink:0;box-shadow:0 4px 15px rgba(0,0,0,.4)">${fotoHtml}</div>
             <div>
-              <h2 style="margin:0 0 4px;font-size:22px">${esc(nombre)}</h2>
-              <div style="color:var(--muted);font-size:13px">${esc(d.nacionalidad||'')} · ${esc(d.periodo||'')}</div>
+              <h2 style="margin:0 0 4px;font-size:20px;font-weight:700;color:#ff6b35">${esc(nombre)}</h2>
+              <div style="color:rgba(255,255,255,.6);font-size:12px">${esc(d.nacionalidad||'Nacionalidad desconocida')}${d.periodo?' · '+esc(d.periodo):''}</div>
             </div>
           </div>
-          <button onclick="this.closest('div[style*=\\'z-index:200\\']').remove()" style="background:var(--elev);border:1px solid var(--line);color:var(--ink);width:36px;height:36px;border-radius:4px;cursor:pointer;font-size:18px">×</button>
+          <button onclick="this.closest('div[style*=\\'z-index:200\\']').remove()" style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;width:32px;height:32px;border-radius:6px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center">×</button>
         </div>
-        <div style="border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:12px">
-          <div style="font-weight:600;font-size:13px;margin-bottom:6px;color:var(--muted)">BIOGRAFÍA</div>
-          <div style="font-size:13.5px;line-height:1.6;color:var(--ink)">${esc(bio)}</div>
+        <div style="border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:16px;margin-bottom:16px">
+          <div style="font-weight:600;font-size:12px;margin-bottom:8px;color:rgba(255,255,255,.5);letter-spacing:.5px;text-transform:uppercase">Biografía</div>
+          <div style="font-size:13px;line-height:1.7;color:rgba(255,255,255,.85)">${esc(bio)}</div>
         </div>
-        <div style="margin-bottom:12px">
-          <div style="font-weight:600;font-size:13px;margin-bottom:6px;color:var(--muted)">VEHÍCULOS DISEÑADOS (${vehiculos.length})</div>
-          <div>${primeros15}${verMas}</div>
+        <div style="margin-bottom:16px">
+          <div style="font-weight:600;font-size:12px;margin-bottom:8px;color:rgba(255,255,255,.5);letter-spacing:.5px;text-transform:uppercase">Vehículos Diseñados (${vehiculos.length})</div>
+          <div>${vehiculosHtml}${verMas}</div>
         </div>
-        <div style="margin-bottom:12px">
-          <div style="font-weight:600;font-size:13px;margin-bottom:6px;color:var(--muted)">CURRICULUM</div>
-          <div style="font-size:13px;line-height:1.6;color:var(--ink)">
-            <b>Período activo:</b> ${esc(d.periodo||'—')}<br>
-            <b>Nacionalidad:</b> ${esc(d.nacionalidad||'—')}<br>
-            <b>Total de vehículos diseñados:</b> ${vehiculos.length} modelos<br>
-            <b>Participación:</b> Diseñador de Mattel Hot Wheels
+        <div style="margin-bottom:16px">
+          <div style="font-weight:600;font-size:12px;margin-bottom:8px;color:rgba(255,255,255,.5);letter-spacing:.5px;text-transform:uppercase">Curriculum</div>
+          <div style="font-size:12px;line-height:1.8;color:rgba(255,255,255,.7)">
+            <div><b style="color:#ff6b35">Período activo:</b> ${esc(d.periodo||'—')}</div>
+            <div><b style="color:#ff6b35">Nacionalidad:</b> ${esc(d.nacionalidad||'—')}</div>
+            <div><b style="color:#ff6b35">Total de vehículos:</b> ${vehiculos.length} modelos</div>
           </div>
         </div>
-        <div style="margin-bottom:12px">
-          <div style="font-weight:600;font-size:13px;margin-bottom:6px;color:var(--muted)">ENTREVISTAS Y PUBLICACIONES</div>
-          <div style="font-size:13px;line-height:1.6;color:var(--ink)">
-            ${nombre==='Larry Wood'?'Larry Wood, conocido como "Mr. Hot Wheels", fue inducido al Salón de la Fama del Diecast en 2009 y al Automotive Hall of Fame en 2023. Ha participado en numerosas convenciones y entrevistas sobre el diseño de Hot Wheels.':''}
-            ${nombre==='Ira Gilford'?'Ira Gilford es reconocido como el diseñador del Twin Mill, el primer diseño original de Hot Wheels. Trabajó en Mattel de 1967 a 1970 y es considerado uno de los pioneros de la marca.':''}
-            ${nombre==='Harry Bradley'?'Harry Bradley es considerado el padre de los diseños de Hot Wheels. Fue el primer diseñador de Mattel y creó los primeros 16 modelos de 1968.':''}
-            ${nombre==='Phil Riehlman'?'Phil Riehlman es el diseñador principal de Hot Wheels Premium y 1:43. Ha estado diseñando desde 1993 y es responsable de modelos icónicos como el Twin Mill II y Silhouette II.':''}
-            ${nombre==='Bruce Baur'?'Bruce Baur es conocido por su serie "Baur\'s Beasts" y su colección 100% Hot Wheels. Ha sido una figura influyente en la comunidad de coleccionistas.':''}
-            ${nombre!=='Larry Wood'&&nombre!=='Ira Gilford'&&nombre!=='Harry Bradley'&&nombre!=='Phil Riehlman'&&nombre!=='Bruce Baur'?'Las entrevistas y publicaciones específicas de '+esc(nombre)+' están siendo investigadas por la comunidad. Si tenés información, ¡compartila!':''}
+        <div style="margin-bottom:16px">
+          <div style="font-weight:600;font-size:12px;margin-bottom:8px;color:rgba(255,255,255,.5);letter-spacing:.5px;text-transform:uppercase">Entrevistas y Publicaciones</div>
+          <div style="font-size:12px;line-height:1.7;color:rgba(255,255,255,.7)">
+            ${nombre==='Larry Wood'?'Larry Wood, "Mr. Hot Wheels", Salón de la Fama del Diecast 2009 y Automotive Hall of Fame 2023.':''}
+            ${nombre==='Ira Gilford'?'Ira Gilford, diseñador del Twin Mill. Mattel 1967-1970, pionero de la marca.':''}
+            ${nombre==='Harry Bradley'?'Harry Bradley, padre de los diseños de Hot Wheels. Primer diseñador de Mattel, creó los primeros 16 modelos de 1968.':''}
+            ${nombre==='Phil Riehlman'?'Phil Riehlman, diseñador principal de Hot Wheels Premium y 1:43 desde 1993.':''}
+            ${nombre==='Bruce Baur'?'Bruce Baur, conocido por "Baur\'s Beasts" y su colección 100% Hot Wheels.':''}
+            ${nombre!=='Larry Wood'&&nombre!=='Ira Gilford'&&nombre!=='Harry Bradley'&&nombre!=='Phil Riehlman'&&nombre!=='Bruce Baur'?'Información en investigación por la comunidad. Si tenés datos, ¡compartilos!':''}
           </div>
         </div>
-        <div style="border-top:1px solid var(--line);padding-top:12px;margin-top:12px">
-          <div style="font-weight:600;font-size:13px;margin-bottom:6px;color:var(--muted)">FUENTE</div>
-          <div style="font-size:12px;color:var(--muted)">Datos curados de la comunidad Hot Wheels</div>
+        <div style="border-top:1px solid rgba(255,255,255,.1);padding-top:12px;margin-top:12px">
+          <div style="font-size:11px;color:rgba(255,255,255,.4)">Datos curados de la comunidad Hot Wheels · HW Collector</div>
         </div>
       </div>
     </div>`;

@@ -43,7 +43,56 @@
       "imagen_url": "https://static.wikia.nocookie.net/hotwheels/images/9/9e/Hammerheadartworkposter2.png/revision/latest/scale-to-width-down/300?cb=20260219221200"
     }
   },
-  "numero": {},
+  "numero": {
+    "NETFLIX-0000": {
+      "nombre": "Baja Truck",
+      "anio": 2024,
+      "titulo_wiki": "Baja Truck",
+      "numero_coleccion": "X0139"
+    },
+    "NETFLIX-0002": {
+      "nombre": "Bad to the Blade",
+      "anio": 2024,
+      "titulo_wiki": "Bad to the Blade",
+      "numero_coleccion": "X0119"
+    },
+    "NETFLIX-0003": {
+      "nombre": "Armored Truck",
+      "anio": 2024,
+      "titulo_wiki": "Armored Truck",
+      "numero_coleccion": "16149"
+    },
+    "NETFLIX-0004": {
+      "nombre": "Solid Muscle",
+      "anio": 2025,
+      "titulo_wiki": "Solid Muscle",
+      "numero_coleccion": "DTX17"
+    },
+    "NETFLIX-0005": {
+      "nombre": "Ramblin' Wrecker",
+      "anio": 2024,
+      "titulo_wiki": "Ramblin' Wrecker (Monster Truck)",
+      "numero_coleccion": "JCD68"
+    },
+    "NETFLIX-0006": {
+      "nombre": "Mega-Wrex",
+      "anio": 2025,
+      "titulo_wiki": "Mega-Wrex (Monster Trucks)",
+      "numero_coleccion": "FYJ55"
+    },
+    "NETFLIX-0007": {
+      "nombre": "HW Ultimate T-Rex Transporter",
+      "anio": 2025,
+      "titulo_wiki": "HW Ultimate T-Rex Transporter",
+      "numero_coleccion": "HRY50"
+    },
+    "NETFLIX-0008": {
+      "nombre": "Pizza Slam Cobra Attack",
+      "anio": 2025,
+      "titulo_wiki": "Pizza Slam Cobra Attack",
+      "numero_coleccion": "HTN81"
+    }
+  },
   "disenador": {
     "2026-JJH32": {
       "nombre": "Bounce'n Bass",
@@ -2205,12 +2254,6 @@
       "titulo_wiki": "Pontiac Fiero 2M4",
       "diseñador": "Larry Wood"
     },
-    "ALT_1989_71": {
-      "nombre": "Flame Stopper",
-      "anio": 1989,
-      "titulo_wiki": "Flame Stopper II",
-      "diseñador": "Corgi Toys"
-    },
     "ALT_1989_72": {
       "nombre": "Good Humor Truck",
       "anio": 1989,
@@ -2252,12 +2295,6 @@
       "anio": 1989,
       "titulo_wiki": "Old Number 5",
       "diseñador": "Larry Wood"
-    },
-    "ALT_1989_84": {
-      "nombre": "Oshkosh Snow Plow",
-      "anio": 1989,
-      "titulo_wiki": "Hot Rod Snowplow",
-      "diseñador": "Unknown"
     },
     "ALT_1989_85": {
       "nombre": "Peterbilt Truck",
@@ -2589,12 +2626,6 @@
       "titulo_wiki": "Mini Truck",
       "diseñador": "Larry Wood"
     },
-    "ALT_1995_182": {
-      "nombre": "Oshkosh Snow Plow",
-      "anio": 1995,
-      "titulo_wiki": "Hot Rod Snowplow",
-      "diseñador": "Unknown"
-    },
     "ALT_1995_186": {
       "nombre": "Purple Passion",
       "anio": 1995,
@@ -2913,18 +2944,6 @@
       "titulo_wiki": "Volkswagen Drag Bus",
       "diseñador": "Phil Riehlman"
     },
-    "16301": {
-      "nombre": "Mercedes 500SL",
-      "anio": 1996,
-      "titulo_wiki": "Mercedes-Benz 500 SL",
-      "diseñador": "Corgi Toys"
-    },
-    "16306": {
-      "nombre": "Corvette Coupe",
-      "anio": 1996,
-      "titulo_wiki": "Corvette Coupe",
-      "diseñador": "Corgi Toys"
-    },
     "16670": {
       "nombre": "'59 Chevy Impala",
       "anio": 1997,
@@ -2942,18 +2961,6 @@
       "anio": 1998,
       "titulo_wiki": "'70 Plymouth Roadrunner (1998)",
       "diseñador": "Phil Riehlman"
-    },
-    "95650": {
-      "nombre": "Tipper",
-      "anio": 1998,
-      "titulo_wiki": "Tipping Lorry",
-      "diseñador": "Corgi Toys"
-    },
-    "21676": {
-      "nombre": "NBA Pro Show",
-      "anio": 1999,
-      "titulo_wiki": "NBA Pro Show Bus",
-      "diseñador": "Unknown"
     },
     "24375": {
       "nombre": "MX48 Turbo",
@@ -3099,12 +3106,6 @@
       "titulo_wiki": "'59 Chevy Bel Air",
       "diseñador": "Larry Wood"
     },
-    "85532": {
-      "nombre": "Saturn Dealership Promo",
-      "anio": 2003,
-      "titulo_wiki": "Saturn Ion Quad Coupe",
-      "diseñador": "Unknown"
-    },
     "B3530": {
       "nombre": "Chevy Impala 1964",
       "anio": 2004,
@@ -3164,12 +3165,6 @@
       "anio": 2004,
       "titulo_wiki": "B-Machine",
       "diseñador": "Glenn Yu"
-    },
-    "C2711": {
-      "nombre": "Customized VW Drag Truck",
-      "anio": 2004,
-      "titulo_wiki": "Customized VW Drag Truck (1:18)",
-      "diseñador": "Unknown"
     },
     "C2653": {
       "nombre": "Auto Affinity: Special Delivery",
@@ -3380,6 +3375,84 @@
       "anio": 2025,
       "titulo_wiki": "HW Ultimate T-Rex Transporter",
       "diseñador": "JJ Hwang"
+    },
+    "6457": {
+      "nombre": "Whip Creamer",
+      "anio": 1970,
+      "titulo_wiki": "Whip Creamer",
+      "diseñador": "Paul Tam"
+    },
+    "6006": {
+      "nombre": "Special Delivery",
+      "anio": 1971,
+      "titulo_wiki": "Special Delivery",
+      "diseñador": "Larry Wood"
+    },
+    "6175": {
+      "nombre": "The Hood",
+      "anio": 1971,
+      "titulo_wiki": "The Hood",
+      "diseñador": "Larry Wood"
+    },
+    "6187": {
+      "nombre": "Bye-Focal",
+      "anio": 1971,
+      "titulo_wiki": "Bye-Focal",
+      "diseñador": "Larry Wood"
+    },
+    "6188": {
+      "nombre": "Strip Teaser",
+      "anio": 1971,
+      "titulo_wiki": "Strip Teaser",
+      "diseñador": "Larry Wood"
+    },
+    "6520": {
+      "nombre": "Spoil Sport",
+      "anio": 1971,
+      "titulo_wiki": "Spoil Sport",
+      "diseñador": "George Soulakis"
+    },
+    "6526": {
+      "nombre": "Back Fire",
+      "anio": 1971,
+      "titulo_wiki": "Back Fire",
+      "diseñador": "George Soulakis"
+    },
+    "6527": {
+      "nombre": "Anteater",
+      "anio": 1971,
+      "titulo_wiki": "Anteater",
+      "diseñador": "Howard Rees"
+    },
+    "3715": {
+      "nombre": "CAT Earth Mover",
+      "anio": 1987,
+      "titulo_wiki": "CAT Earth Mover",
+      "diseñador": "Larry Wood"
+    },
+    "3853": {
+      "nombre": "CAT Road Roller",
+      "anio": 1987,
+      "titulo_wiki": "CAT Road Roller",
+      "diseñador": "Larry Wood"
+    },
+    "16665": {
+      "nombre": "Excavator",
+      "anio": 1997,
+      "titulo_wiki": "Excavator",
+      "diseñador": "Dave Weise"
+    },
+    "16668": {
+      "nombre": "'97 Corvette",
+      "anio": 1997,
+      "titulo_wiki": "'97 Corvette",
+      "diseñador": "Dave Weise"
+    },
+    "24381": {
+      "nombre": "'67 Dodge Charger",
+      "anio": 2000,
+      "titulo_wiki": "'67 Dodge Charger",
+      "diseñador": "Dave Weise"
     }
   },
   "stats": {
@@ -3387,8 +3460,8 @@
     "sin_numero_total": 10,
     "sin_disenador_total": 666,
     "imagen_encontradas": 7,
-    "numero_encontrados": 0,
-    "disenador_asignados": 556,
-    "errores": 10
+    "numero_encontrados": 8,
+    "disenador_asignados": 560,
+    "errores": 106
   }
 }
