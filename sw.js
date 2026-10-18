@@ -1,6 +1,6 @@
 /* HW Collector — service worker (offline-first) */
 <<<<<<< HEAD
-const CACHE = 'hwcollector-v8';
+const CACHE = 'hwcollector-v9';
 =======
 const CACHE = 'hwcollector-v3';
 >>>>>>> origin/main

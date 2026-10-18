@@ -186,6 +186,33 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
  .kv{grid-template-columns:104px 1fr}
  main{padding:12px}
  .mktgrid{grid-template-columns:1fr}
+ /* Mejoras móvil */
+ .tabs{display:flex;overflow-x:auto;gap:6px;padding:8px 0;-webkit-overflow-scrolling:touch}
+ .tabs button{white-space:nowrap;min-height:44px;padding:8px 12px}
+ .filters select,.filters input{width:100%;margin-bottom:8px}
+ .filters .chips{flex-wrap:wrap}
+ .chip{min-height:36px;padding:6px 12px}
+ .card{min-height:180px}
+ .card .nm{font-size:13px}
+ .card .mt{font-size:11px}
+ .drawer{position:fixed;bottom:0;left:0;right:0;top:auto;width:100%;max-height:85vh;border-radius:16px 16px 0 0;transform:translateY(100%);transition:transform .3s;z-index:1000;padding:16px;overflow-y:auto}
+ .drawer.open{transform:translateY(0)}
+ .btn{min-height:44px;padding:10px 16px}
+ .sec{padding:12px;margin:8px 0}
+ .stat{padding:12px}
+ .stat .v{font-size:20px}
+ header .bar{flex-direction:column;gap:8px;padding:8px}
+ header .cur{flex-wrap:wrap;gap:8px}
+ .brand h1{font-size:20px}
+ .brand .sub{font-size:11px}
+}
+@media(max-width:380px){
+ .grid{grid-template-columns:repeat(2,1fr);gap:6px}
+ .card{min-height:160px}
+}
+@media(min-width:641px) and (max-width:1024px){
+ .grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+ .mktgrid{grid-template-columns:1fr 1fr}
 }
 </style></head><body>
 <header class="top"><div class="bar">
@@ -205,7 +232,8 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 <main>
 <section data-view="catalogo" style="display:block">
   <div class="filters" style="border:1px solid var(--line);margin-bottom:14px">
-    <input type="search" id="q" placeholder="Buscar modelo, serie o toy # (ej: Skyline, El Camino, JBC20)">
+    <input type="search" id="q" placeholder="Buscar modelo, serie o toy # (ej: Skyline, El Camino, JBC20)" style="font-size:16px;padding:12px">
+    <div class="note" style="margin-top:4px;font-size:12px">💡 Buscar por: nombre del modelo, serie, tool # (ej: JBC20), o número de colección</div>
     <select id="fyear"></select><select id="fserie"></select><select id="fcat"></select><select id="fpais"></select>
     <select id="fsort"><option value="rel">Orden: año / nº</option><option value="ind">Índice ↓</option><option value="val">Valor ↓</option></select>
     <div class="chips">
@@ -261,8 +289,97 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
     <div id="anatomiaCaja" style="margin-top:12px"></div>
   </div>
   <div class="sec" style="margin-top:20px">
-    <h3>🏷️ Categorías Especiales (Coleka.com)</h3>
+    <h3>🏷️ Categorías Especiales</h3>
     <div id="categoriasEspeciales" style="margin-top:12px"></div>
+  </div>
+  <div class="sec" style="margin-top:20px">
+    <h3>➕ Agregar / Editar Modelo</h3>
+    <div id="formularioModelo" style="margin-top:12px">
+      <div class="note" style="margin-bottom:8px">Usá este formulario para agregar nuevos modelos o editar existentes. Respetá el formato de ficha homologada.</div>
+      <div style="display:grid;gap:12px">
+        <div>
+          <label class="note">Nombre del modelo *</label>
+          <input type="text" id="fNombre" placeholder="ej: Mazda MX-5 Miata" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div>
+            <label class="note">Año *</label>
+            <input type="number" id="fAnio" placeholder="2026" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+          </div>
+          <div>
+            <label class="note">Tool # *</label>
+            <input type="text" id="fTool" placeholder="JJJ02" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div>
+            <label class="note">Número de colección</label>
+            <input type="text" id="fCol" placeholder="001" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+          </div>
+          <div>
+            <label class="note">Serie *</label>
+            <input type="text" id="fSerie" placeholder="HW Dream Garage" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div>
+            <label class="note">Clase</label>
+            <select id="fClase" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+              <option value="Mainline">Mainline</option>
+              <option value="TH">Treasure Hunt</option>
+              <option value="STH">Super Treasure Hunt</option>
+              <option value="Car Culture">Car Culture</option>
+              <option value="Team Transport">Team Transport</option>
+              <option value="Exclusivo">Exclusivo</option>
+              <option value="Vintage">Vintage</option>
+            </select>
+          </div>
+          <div>
+            <label class="note">País</label>
+            <select id="fPais" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+              <option value="">Seleccionar...</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="Thailand">Thailand</option>
+              <option value="China">China</option>
+              <option value="Hong Kong">Hong Kong</option>
+              <option value="USA">USA</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Malaysia/Thailand">Malaysia/Thailand</option>
+              <option value="Malaysia/China">Malaysia/China</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="note">URL de imagen</label>
+          <input type="url" id="fImagen" placeholder="https://ejemplo.com/imagen.jpg" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+        </div>
+        <div>
+          <label class="note">URL de imagen local (opcional)</label>
+          <input type="text" id="fImagenLocal" placeholder="web/img/hash.webp" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+        </div>
+        <div>
+          <label class="note">Descripción</label>
+          <textarea id="fDescripcion" placeholder="Descripción del modelo..." rows="3" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px;resize:vertical"></textarea>
+        </div>
+        <div>
+          <label class="note">Historia</label>
+          <textarea id="fHistoria" placeholder="Historia del modelo..." rows="3" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px;resize:vertical"></textarea>
+        </div>
+        <div>
+          <label class="note">Curiosidades</label>
+          <textarea id="fCuriosidades" placeholder="Curiosidades del modelo..." rows="2" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px;resize:vertical"></textarea>
+        </div>
+        <div>
+          <label class="note">Dato clave</label>
+          <input type="text" id="fDatoClave" placeholder="Dato clave del modelo" style="width:100%;padding:10px;margin-top:4px;background:var(--elev);border:1px solid var(--line);border-radius:6px;color:var(--text-primary);font-size:16px">
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn" onclick="guardarModelo()" style="flex:1;min-width:120px">💾 Guardar modelo</button>
+          <button class="btn ghost" onclick="limpiarFormulario()" style="flex:1;min-width:120px">🧹 Limpiar</button>
+        </div>
+        <div id="formMsg" class="note" style="margin-top:8px"></div>
+      </div>
+    </div>
   </div>
   <p class="note" style="margin-top:10px">© 2026 HW Collector — Catálogo 4,214 modelos (1968-2027) · 99 diseñadores · Serie 92% · Número 72% · País 99%</p>
   <div id="versionInfo" style="margin-top:12px;padding:12px;background:var(--elev);border-radius:6px;border:1px solid var(--line)">
@@ -2127,6 +2244,35 @@ function initPage(){
   try{ if(iaKey()){ const s=document.getElementById("iainfo"); if(s) s.innerHTML="IA activada con <b>Groq</b> (1.000 consultas/día gratis). La key queda solo en este navegador."; } }catch(e){}
   try{ SBClient.init(); SBClient.refrescarBadgeCuenta(); }catch(e){}
   cicloPuente(); setInterval(cicloPuente,60000);
+
+  // Funciones de formulario de modelos
+  window.guardarModelo=function(){
+    const nombre=document.getElementById('fNombre')?.value?.trim();
+    const anio=parseInt(document.getElementById('fAnio')?.value);
+    const tool=document.getElementById('fTool')?.value?.trim();
+    const serie=document.getElementById('fSerie')?.value?.trim();
+    const msg=document.getElementById('formMsg');
+    if(!nombre||!anio||!tool||!serie){ if(msg) msg.innerHTML='<span style="color:#e74c3c">⚠️ Completá todos los campos obligatorios (*)</span>'; return; }
+    const col=document.getElementById('fCol')?.value?.trim()||'';
+    const clase=document.getElementById('fClase')?.value||'Mainline';
+    const pais=document.getElementById('fPais')?.value||'';
+    const imagen=document.getElementById('fImagen')?.value?.trim()||'';
+    const imagenLocal=document.getElementById('fImagenLocal')?.value?.trim()||'';
+    const descripcion=document.getElementById('fDescripcion')?.value?.trim()||'';
+    const historia=document.getElementById('fHistoria')?.value?.trim()||'';
+    const curiosidades=document.getElementById('fCuriosidades')?.value?.trim()||'';
+    const datoClave=document.getElementById('fDatoClave')?.value?.trim()||'';
+    const id=anio+'-'+tool.toUpperCase();
+    const nuevo={i:id,m:nombre,y:anio,t:tool.toUpperCase(),c:col,s:serie,k:clase,pais,im:imagenLocal||imagen,ficha:{descripcion,historia,curiosidades,dato_clave:datoClave,conmemorativo:false},valores_mercado:{usd:1,clp:950,eur:0.92,fecha:new Date().toISOString(),fuente:'Cálculo manual'},indice_coleccionabilidad:50,categorias_fandom:[]};
+    const idx=CAT.findIndex(c=>c.i===id);
+    if(idx>=0){ CAT[idx]=nuevo; if(msg) msg.innerHTML='<span style="color:#2ecc71">✅ Modelo actualizado</span>'; }
+    else{ CAT.push(nuevo); if(msg) msg.innerHTML='<span style="color:#2ecc71">✅ Modelo agregado</span>'; }
+    render(true);
+  };
+  window.limpiarFormulario=function(){
+    ['fNombre','fAnio','fTool','fCol','fSerie','fImagen','fImagenLocal','fDescripcion','fHistoria','fCuriosidades','fDatoClave'].forEach(id=>{ const e=document.getElementById(id); if(e) e.value=''; });
+    const msg=document.getElementById('formMsg'); if(msg) msg.innerHTML='';
+  };
   window.addEventListener("online",cicloPuente);
   document.addEventListener("visibilitychange",()=>{ if(!document.hidden) cicloPuente(); });
   const t=document.getElementById("totcol"); if(t) t.textContent=colCount();

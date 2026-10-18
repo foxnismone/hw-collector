@@ -40,27 +40,16 @@
   }
  ],
  "shortcuts": [
-  {
-   "name": "Catálogo",
-   "short_name": "Catálogo",
-   "url": "./galeria_catalogo.html",
-   "icons": [
-    {
-     "src": "icons/icon-192.png",
-     "sizes": "192x192"
-    }
-   ]
-  },
-  {
-   "name": "Mi colección",
-   "short_name": "Colección",
-   "url": "./galeria_coleccion.html",
-   "icons": [
-    {
-     "src": "icons/icon-192.png",
-     "sizes": "192x192"
-    }
-   ]
-  }
+   {
+     "name": "Catálogo",
+     "short_name": "Catálogo",
+     "url": "./index.html",
+     "icons": [
+       {
+        "src": "icons/icon-192.png",
+        "sizes": "192x192"
+       }
+     ]
+   }
  ]
 }
