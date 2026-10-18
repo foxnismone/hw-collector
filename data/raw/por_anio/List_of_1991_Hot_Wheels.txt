@@ -1,0 +1,836 @@
+This article is a '''list of [[Hot Wheels]]''' released in '''1991.'''
+
+==New Castings==
+{| style="font-size: 85%; text-align: left;" class="wikitable sortable" width="100%"
+|-
+!style="border-style: none none solid solid;"|'''Col #'''
+!style="border-style: none none solid solid;"|'''Car name'''
+!style="border-style: none none solid solid;"|'''Series'''
+!style="border-style: none none solid solid;"|'''Color'''
+!style="border-style: none none solid solid;"|'''Tampo'''
+!style="border-style: none none solid solid;"|'''Base Color<br>/<br>Type'''
+!style="border-style: none none solid solid;"|'''Window Color'''
+!style="border-style: none none solid solid;"|'''Interior Color'''
+!style="border-style: none none solid solid;"|'''Wheel Type'''
+!style="border-style: none none solid solid;"|'''Toy #'''
+!style="border-style: none none solid solid;"|'''Notes'''
+!style="border-style: none none solid solid;"|'''Photo'''
+|-
+|
+|[[Buick Stocker]]
+|Roses Department Store Promo
+|Blue
+|Red "6" on sides, White "Roses", "BUICK" on hood
+|Black<br>/<br>Plastic
+|Clear
+|Gray<br>/<br>Plastic
+|[[BW]]
+|9258
+|
+|[[Image:Buick_Stocker_Roses6.JPG|75px]]
+|-
+|
+|[[Holden Commodore]]
+|[[International]]
+|White
+|Black, Pink, Yellow "SV"
+|White<br>/<br>Plastic
+|Black Tint
+|Red
+|[[BW]]
+|9713
+|
+|[[Image:Holden_Commodore.jpg|75px]]
+|-
+|
+|[[Mercedes-Benz SL]]
+|[[International]]
+|Chrome with Black beltline
+|N/A
+|Black<br>/<br>Plastic
+|Clear
+|Blue
+|Chrome [[HO]]
+|9770
+|
+|[[Image:Mercedes-Benz_SL_CrmSho.JPG|75px]]
+|-
+|
+|[[Peugeot 405]]
+|
+|Black
+|N/A
+|Black<br>/<br>Plastic
+|Clear
+|Red
+|[[BW]]
+|5670
+|
+|[[Image:Peugeot_405_Blk.JPG|75px]]
+|-
+|
+|[[Peugeot 405]]
+|[[International]]
+|Blue
+|White, Black, Red "Rally" "21"
+|Black<br>/<br>Plastic
+|Clear
+|Lime Green
+|[[BW]]
+|3204
+|
+|[[Image:Peugeot_405_Blu.JPG|75px]]
+|-
+|
+|[[Porsche 930]]
+|
+|Met. Dark Red
+|Yellow, Black, "TURBO", White "PORSCHE 930"
+|Unpainted<br>/<br>Metal
+|Black Tint
+|Black
+|[[BW]]
+|7607
+|
+|[[Image:Porsche_930_MtRed.JPG|75px]]
+|-
+|
+|[[Renault 5 Turbo (1991)|Renault 5 Turbo]]
+|
+|Blue
+|Red, White "Turbo", Yellow "GT"
+|Blue<br>/<br>Plastic
+|Clear
+|Tan
+|[[BW]]
+|9749
+|
+|[[Image:Renault_5_Turbo_Blu.JPG|75px]]
+|-
+|
+|[[Renault 5 Turbo (1991)|Renault 5 Turbo]]
+|[[International]]
+|White
+|Blue, Yellow, Black "17"
+|Purple<br>/<br>Plastic
+|Clear
+|Grey
+|[[BW]]
+|9749
+|
+|[[Image:Renault_5_Turbo_Wht.JPG|75px]]
+|-
+|
+|[[Speed Shark]]
+|[[Heroes on Hot Wheels]]
+|White
+|N/A
+|Blue<br>/<br>Plastic
+|Chrome
+|Red
+|[[BW]]
+|
+|
+|[[Image:Speed_Shark_Wht.JPG|75px]]
+|-
+|106
+|[[VW Golf]]
+|
+|Red
+|Black & White stripes, Yellow "GTi"
+|Black<br>/<br>Plastic
+|Clear
+|Tan
+|[[BW]]
+|9714
+|
+|[[File:VW_Golf_Red.JPG|75px]]
+|-
+|108
+|[[Ramp Truck]]
+|
+|White
+|Blue, Yellow and Red "International Dream Cars Racing Team" tampos
+|Unpainted<br>/<br>Metal
+|Clear
+|N/A
+|[[BW]]
+|5343
+|
+|[[Image:Ramp_Truck_Wht.JPG|75px]]
+|-
+|110
+|[[Trailbuster]]
+|
+|Turquoise
+|Blue, Yellow, Pink splotches
+|Unpainted<br>/<br>Metal
+|Clear
+|Pink
+|[[CT]]
+|5636
+|
+|[[Image:Trailbuster_Turq.JPG|75px]]
+|-
+|111
+|[[Street Beast]]
+|
+|White & Turquoise
+|Blue & Pink Spikes on hood
+|Unpainted<br>/<br>Metal
+|Clear
+|Turquoise
+|[[WW]]
+|5637
+|
+|[[Image:Street_Beast_WhtTrq.JPG|75px]]
+|-
+|112
+|[[Limozeen]]
+|
+|White
+|Orange and Pink "Classic Limo"
+|Chrome<br>/<br>Plastic
+|Smoked
+|White
+|[[WW]]
+|5638
+|
+|[[Image:Limozeen_Wht.JPG|75px]]
+|-
+|113
+|[[Speed Shark]]
+|
+|Purple
+|Yellow, White, Purple slashes
+|Chrome<br>/<br>Plastic
+|Chrome
+|Pink
+|[[BW]]
+|5640
+|
+|[[Image:Speed_Shark_LtPrp.JPG|75px]]
+|-
+|116
+|[[Mazda MX-5 Miata (1991)|Mazda MX-5 Miata]]
+|
+|Red
+|Yellow "Miata" on hood
+|Red<br>/<br>Metal
+|Clear
+|Tan
+|[[BW]]
+|2920
+|
+|[[Image:Mazda_Miata_Red.JPG|75px]]
+|-
+|117
+|[[Ferrari 250]]
+|
+|Yellow
+|Red "Ferrari", Black "7"
+|Chrome<br>/<br>Plastic
+|Clear
+|Black
+|[[BW]]
+|5665
+|
+|[[Image:Ferrari_250_YelBWcrm.JPG|75px]]
+|-
+|118
+|[[Ferrari 348]]
+|
+|Yellow
+|Blue, White, Red "Ferrari 348" on hood
+|Black<br>/<br>Plastic
+|Clear
+|Black & Yellow
+|[[UH]]
+|5666
+|
+|[[Image:Ferrari_348_Yel.JPG|75px]]
+|-
+|122
+|[[Toyota MR-2 Rally]]
+|
+|White
+|Red, Orange, Yellow "MR-2" "TOYOTA"
+|Black<br>/<br>Plastic
+|Clear
+|Red
+|[[UH]]
+|5669
+|
+|[[Image:Toyota_Rally_WhUH.JPG|75px]]
+|-
+|123
+|[[Lamborghini Diablo]]
+|
+|Red
+|Yellow "Diablo" on sides
+|Red<br>/<br>Metal
+|Gray Tint
+|Tan
+|[[UH]]
+|5672
+|
+|[[Image:Lamborghini_Diablo_RedUH.JPG|75px]]
+|-
+|125
+|[[Zender Fact 4]]
+|
+|Silver
+|White "ZENDER", Yellow "Fact 4"
+|Black<br>/<br>Plastic
+|Clear
+|Black
+|[[UH]]
+|5674
+|
+|[[Image:Zender_Fact_4_SlvUH.JPG|75px]]
+|-
+|148
+|[[Porsche 930]]
+|
+|Red
+|Yellow, Black, "TURBO", White "PORSCHE 930"
+|Unpainted<br>/<br>Metal
+|Black Tint
+|Black
+|[[BW]]
+|7607
+|
+|[[Image:Porsche_930_Red.JPG|75px]]
+|-
+|148
+|[[Porsche 930]]
+|
+|Light Purple
+|Yellow, Black, "TURBO", White "PORSCHE 930"
+|Unpainted<br>/<br>Metal
+|Black Tint
+|Black
+|[[BW]]
+|7607
+|
+|[[Image:Porsche_930_Prpl.JPG|75px]]
+|-
+|149
+|[[BMW 850i]]
+|
+|Blue
+|Pink, Blue, Yellow, White, markings
+|Blue<br>/<br>Plastic
+|Clear
+|Tan
+|[[UH]]
+|5667
+|
+|[[Image:BMW_850_BluUH.JPG|75px]]
+|-
+|151
+|[[Ford Aerostar]]
+|
+|Metalflake Purple
+|Yellow spots
+|Unpainted<br>/<br>Metal
+|Chrome
+|Unseen
+|[[BW]]
+|4695
+|
+|[[Image:Ford_Aerostar_Purple.jpg|75px]]
+|-
+|154
+|[['59 Caddy]]
+|
+|White
+|N/A
+|Chrome<br>/<br>Plastic
+|Clear
+|Red
+|[[WW]]
+|2097
+|
+|[[File:59_Caddy_Wht.JPG|75px]]
+|-
+|158
+|[[Mercedes-Benz Unimog]]
+|
+|White and Red
+|Red "Castrol", Black "RESEARCH TEAM" and Green
+|Unpainted<br>/<br>Metal
+|Clear
+|Red
+|[[CT]]
+|5673
+|
+|[[Image:Mercedes_Benz_Unimog_Wht.JPG|75px]]
+|}
+==Reissues==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+!style="border-style: none none solid solid;"|'''Col #'''
+!style="border-style: none none solid solid;"|'''Car name'''
+!style="border-style: none none solid solid;"|'''Series'''
+!style="border-style: none none solid solid;"|'''Color'''
+!style="border-style: none none solid solid;"|'''Tampo'''
+!style="border-style: none none solid solid;"|'''Base Color<br>/<br>Type'''
+!style="border-style: none none solid solid;"|'''Window Color'''
+!style="border-style: none none solid solid;"|'''Interior Color'''
+!style="border-style: none none solid solid;"|'''Wheel Type'''
+!style="border-style: none none solid solid;"|'''Toy #'''
+!style="border-style: none none solid solid;"|'''Notes'''
+!style="border-style: none none solid solid;"|'''Photo'''
+|-
+|59
+|[[Sheriff Patrol]]
+|
+|Black & White
+|Yellow/Blue Tampo, Police, 123 and Star On Sides, Star on Hood, Police & 123 on roof
+|Unpainted<br>/<br>Metal
+|Blue Tint
+|Tan
+|[[BW]]
+|1549
+|
+|[[File:Sheriff Patrol BlkWht7SP.JPG|75px]]
+|-
+|80
+|[[Porsche 959]]
+|
+|Red
+|'''Turquoise''', Yellow "59" Grey "PORSCHE 959"
+|Unpainted<br>/<br>Metal
+|Clear
+|Grey
+|[[UH]]
+|4631
+|
+|[[Image:Porsche_959_Red59Tq.JPG|75px]]
+|-
+|102
+|[[Path Beater|Surf Patrol]]
+|
+|Yellow
+|Red, White, Black "Radio Dispatched" "Rescue" "Emergency Support Vehicle"
+|Unpainted<br>/<br>Metal
+|Clear
+|Red
+|[[CT]]
+|5348
+|
+|[[Image:91_Surf_Patrol_102.jpg|75px]]
+|-
+|129
+|[[Suzuki Quadracer]]
+|
+|White
+|N/A
+|Unpainted<br>/<br>Metal
+|N/A
+|N/A
+|[[YCT]]
+|3209
+|
+|[[File:1991_white_with_Yellow_CT_blue_seat.jpg|left|75px]]
+|-
+|129
+|[[Suzuki Quadracer]]
+|
+|White
+|N/A
+|Unpainted<br>/<br>Metal
+|N/A
+|N/A
+|[[CT]]
+|3209
+|
+|[[File:1991_white_CT_Quad.jpg|left|75px]]
+|-
+|072
+|[[School Bus]]
+|
+|Yellow
+|Black "School Bus," '''Thick''' Black stripe on sides
+| Black<br>/<br>Plastic
+|Clear
+|Black
+|[[BW]]
+|1795
+|
+|[[Image:Hot Wheels School Bus 1991 - 3030lf.jpg|75px]]
+|-
+|99
+|[[Ford Stake Bed Truck]]
+|
+|Met. Blue
+|Yellow, White, Red "RAPID DELIVERY"
+|Chrome<br>/<br>Plastic
+|Clear
+|Chrome
+|[[BW]]
+|1561
+|
+|[[File:Ford_Stake_tBlubw.JPG|75px]]
+|-
+|98
+|[[Nissan Custom "Z"]]
+|
+|Metallic Dark Red
+| Yellow stripe, "300ZX" on top and hood
+|Unpainted<br>/<br>Metal
+|Clear
+|Tan 
+|[[UH]]
+|7609
+|
+|[[Image:Nissan_Custom_Z_RedUH.JPG|75px]]
+|-
+|114
+|[[Pontiac Fiero 2M4]]
+|
+|Black
+|Red, Blue and Yellow on sides, Red, White and Blue "Fiero" on hood
+|Unpainted<br>/<br>Metal
+|Clear
+|Red
+|[[UH]]
+|7527
+|
+|[[Image:Fiero_BlkUH.JPG|75px]]
+|-
+|104
+|[[Turbo Streak]]
+|
+|Bright Red
+|'''Pink '''emblem on side, '''Pink '''emblem on wing; White "1" "Tuneup Master"
+|Unpainted<br>/<br>Metal
+|
+|
+|[[BW]]
+|9520
+|''Painted Wings''
+|[[File:Turbo_Streak-20934.jpg|75px]]
+|-
+|33
+|[[Camaro Z28]]
+|
+|Red
+|Black, Blue and yellow stip on side.
+|[[ZAMAC]]
+|Black
+|None
+|[[GHO]]
+|9532
+|
+|[[File:Camaroz28.uh.jpg|75px]]
+|-
+|65
+|[[VW Bug]]
+|
+|Enamel Cherry Red
+|White & Yellow flames with Dark Blue edges
+|Unpainted<br>/<br>Metal
+|Clear
+|White
+|[[BW]]
+|
+|
+|[[File:Hot Wheels VW Bug 1991 Mainline Enamel Cherry Red.png|75px]]
+|-
+|88
+|[[T-Bird Stocker (1990)|T-Bird Stocker]]
+|
+|White, Red and Black
+|Red, Black, White and Yellow "Havoline" "28" racing tampos
+|Black<br>/<br>Plastic
+|Clear
+|Black
+|[[UH]]
+|
+|
+|[[Image:T-Brd_Stocker_WhtBlk.JPG|75px]]
+|-
+|82
+|[[Fire Eater]]
+|
+|Red
+|
+|
+|
+|
+|[[BW]]
+|
+|
+|[[File:Image Not Available.jpg|75px]]
+|-
+|135
+|[['32 Ford Delivery]]
+|
+|White & Turquoise
+|Turquoise, Pink, Blue scallops
+|Unpainted<br>/<br>Metal
+|Clear
+|Turquoise
+|[[BW]]
+|
+|''Plastic fenders''
+|[[File:32_Ford_Delivery_TrqwhtBW.JPG|75px]]
+|-
+|028
+|[['37 Bugatti]]
+|
+|Blue & Gray
+|None
+|Unpainted<br>/<br>Metal
+|Clear
+|Chrome
+|[[WW]]
+|
+|
+|[[File:37_Bugatti_Bluww.JPG|75px]]
+|-
+|215
+|[[Auburn 852]]
+|
+|Red
+|None
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[WW]]
+|
+|''Black plastic fenders''
+|[[File:Auburn 852 - 5376ef.jpg|75px]]
+|-
+|216
+|[[Fat Fendered '40]]
+|
+|Purple
+|
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[BW]]
+|
+|
+|
+|-
+|32
+|[[Sharkruiser]]
+|
+|Gray
+|No tampos
+|Gray<br>/<br>Metal
+|Chrome
+|
+|[[UH]]
+|3286
+|
+|[[Image:Sharkruiser_PrpUH.JPG|75px]]
+|-
+|53
+|[[Zombot]]
+|
+|Gold Chrome
+|Pink
+|Unpainted<br>/<br>Metal
+|
+|
+|Chrome [[GHO]]
+|3852
+|
+|[[Image:Zombot_GldHO.JPG|75px]]
+|-
+|08
+|[[Vampyra]]
+|
+|Purple
+|White, Orange & Red on wings
+|[[ZAMAC]]
+|Chrome
+|Purple
+|[[BW]]
+|2060
+|
+|[[File:Vampyra_-_Basic_Wheels.jpg|75px]]
+|-
+|81
+|[[Ratmobile]]
+|
+|White
+|Red & Black Eyes, Silver Teeth, Black Nose
+|[[ZAMAC]]
+|N/A
+|White
+|[[UH]]
+|5028
+|
+|[[Image:Image Not Available.jpg|75px]]
+|-
+|115
+|[[Trailbuster]]
+|
+|Olive
+|Brown, Tan & Olive Camouflage on hood
+|Olive<br>/<br>Metal
+|Clear
+|Black
+|Black [[CT]]
+|9560
+|''Released as [[Roll Patrol]]''
+|[[File:Trailbuster_OlvCT.JPG|75px]]
+|-
+|
+|[['57 T-Bird]]
+|
+|Turquoise
+|Yellow, White, & Purple stripes on sides.
+|Light Gray
+/
+Plastic
+|Tinted (Blue)
+|Blue tint
+|[[BW]]
+|1610
+|International card only
+|[[File:HW_57_T-BIRD_1610_1_C.jpg|75px]]
+|}
+
+
+==California Customs==
+{| class="wikitable sortable" width="100%" style="font-size: 85%; text-align: left;"
+! style="border-style: none none solid solid;" |'''Car Name'''
+! style="border-style: none none solid solid;" |'''Color'''
+! style="border-style: none none solid solid;" |'''Tampo'''
+! style="border-style: none none solid solid;" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid;" |'''Window Color'''
+! style="border-style: none none solid solid;" |'''Interior Color'''
+! style="border-style: none none solid solid;" |'''Wheel Type'''
+! style="border-style: none none solid solid;" |'''Toy #'''
+! style="border-style: none none solid solid;" |'''Photo'''
+|-
+|[['55 Nomad]]
+|Bright Pink 
+|Yellow, Green, Blue, White Graphics
+|Unpainted<br>/<br>Metal
+|Clear
+|Yellow
+|[[TW]] Pink
+|10153
+|[[File:55nomad.orangecc.jpg|75px]]
+|-
+|[['57 Chevy]]
+|Bright Orange
+|Pink, Blue, Silver "'57"
+|Chrome<br>/<br>Plastic
+|Blue Tint
+|Blue
+|[[TW]]
+|1297
+|[[Image:57_Chevy_CalCustTW.JPG|75px]]
+|-
+|[['59 Caddy]]
+|Pink
+|Yellow, Purple, Blue, White Graphics
+
+|Chrome<br>/<br>Plastic
+|Clear
+|White
+|[[WW]]
+|2097
+|[[File:59_CADDY_pink_CC.JPG|75px]]
+|-
+|[['67 Camaro]]
+|Met. Blue
+|Light Green, White and Pink splashes
+|Unpainted<br>/<br>Metal
+|Clear 
+|Red
+|[[TW]]
+|
+|[[Image:'67_Camaro_CalCust.jpg|75px]]
+|-
+|[[Custom Corvette Convertible|Custom Corvette]]
+|Bright Orange
+|Yellow, White, Pink "CORVETTE" on hood
+| Black<br>/<br>Plastic
+| Clear
+|Pink
+|[[TW]]
+|1301
+|[[Image:Custom_Corvette_CCtw.JPG|75px]]
+|-
+|[[Ferrari Testarossa (1987)|Ferrari Testarossa]]
+|Bright Pink
+|Blue &amp; Yellow "Ferrari" "3"
+|Unpainted<br>/<br>Metal
+|Clear
+| Yellow &amp; Blue
+|[[RR]] Yellow
+|1897
+|[[Image:Ferrari_Testarossa_BrtRed.JPG|75px]]
+|-
+|[[Ferrari Testarossa (1987)|Ferrari Testarossa]]
+|Bright Pink
+|Blue &amp; Yellow "Ferrari" "3"
+|Unpainted<br>/<br>Metal
+|Clear
+|Yellow &amp; Blue
+|[[TW]]
+|1897
+|[[Image:Ferrari_Testarossa_BrtRedTW.JPG|75px]]
+|-
+|[[Porsche 911]]
+|Pink Chrome
+| Yellow, Red, Blue confetti
+|Unpainted<br>/<br>Metal
+|Black Tint
+|Black
+|[[TW]] Yellow
+|2108
+|[[Image:P-911_CalCstm.JPG|75px]]
+|-
+|[[Street Roader]]
+|Bright Orange
+| White, Blue &amp; Red stripes and confetti
+|Unpainted<br>/<br>Metal
+|Clear 
+|Pink
+|[[CT]]
+|1470
+|[[Image:Street_Roader_OrgClCst.jpg|69px]]
+|-
+|[[Street Roader]]
+|Bright Orange &amp; Pink
+|White, Blue &amp; Red stripes and confetti
+|Unpainted<br>/<br>Metal
+| Clear
+|Pink
+|[[CT]]
+|1470
+|[[Image:Street_Roader_OrgPkClCst.jpg|75px]]
+|-
+|[[Stutz Blackhawk]]
+|Fluorescent Red
+|Yellow, Pink
+|Unpainted<br>/<br>Metal
+|Clear
+| Yellow
+|[[TW]] Yellow
+|2106
+|[[Image:Stutz_Blackhawk_CalC.JPG|75px]]
+|}
+
+==Gallery==
+<gallery>
+1991 Catalog Mainline.jpg|As seen in a 1991 Mattel Catalog with Prototypes (Some 1990 Mainlines in the image and 1992 Chevy Lumina Prototype)
+1991 Catalog Mainline (2).jpg
+1991 Catalog Mainline (3).jpg|In the 1991 Mattel Catalog, they use a [[Bywayman]] from 1989 along with the 1990/1991 line
+1991 Catalog Mainline (4).jpg
+</gallery>
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1991]]
+[[Category:1991 Hot Wheels|1991]]

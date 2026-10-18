@@ -1,0 +1,813 @@
+==[[1998 First Editions]]==
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List0000White|18143|637|[[Escort Rally]]|1998 First Editions|01/40|}}
+|[[Image:Escort_Rally_Wht.JPG|75px]]{{List0000White|18293|640|[[Slideout]]|1998 First Editions|02/40|}}
+|[[Image:SlideOut_Prp.JPG|75px]]{{List0000White|18174|634|[[Dodge Sidewinder]]|1998 First Editions|03/40|}}
+|[[Image:Sidewinder_-_98FE.jpg|75px]]{{List0000White|18173|633|[[Dodge Caravan]]|1998 First Editions|04/40|}}
+|[[Image:Dodge_Caravan_DkRed5Sp.JPG|75px]]{{List0000White|18221|639|[[Jaguar XK8]]|1998 First Editions|05/40|}}
+|[[Image:Jaguar_XK8_Grn.JPG|75px]]{{List0000White|18144|638|[[Jaguar D-Type]]|1998 First Editions|06/40|}}
+|[[Image:Jaguar_D-Type_Blu5sp.JPG|75px]]{{List0000White|18587|636|[['32 Ford]]|1998 First Editions|07/40|}}
+|[[Image:32BwFLF98.jpg|75px]]{{List0000White|18207|635|[['65 Chevy Impala|'65 Impala Lowrider]]|1998 First Editions|08/40|}}
+|[[Image:'65_Chevy_Impala_Prpl.JPG|75px]]{{List0000White|18543|644|[['63 T-Bird]]|1998 First Editions|09/40|}}
+|[[Image:63_T-Bird_Teal.JPG|75px]]{{List0000White|18675|645|[[Dairy Delivery]]|1998 First Editions|10/40|}}
+|[[Image:First Edition Dairy Delivery - 7008df.jpg|75px]]{{List0000White|18530|646|[[Mercedes SLK]]|1998 First Editions|11/40|}}
+|[[Image:Mercedes_SLK_YelDT.JPG|75px]]{{List0000White|18540|647|[[Lakester]]|1998 First Editions|12/40|}}
+|[[Image:Lakester_RedLft.JPG|75px]]{{List0000White|18678|648|[[Hot Seat]]|1998 First Editions|13/40|}}
+|[[File:Hot_Seat_-_98_First_Editions_600pxDM.jpg|75px]]{{List0000White|18850|668|[[Ford GT-90]]|1998 First Editions|14/40|}}
+|[[Image:Ford_GT-90_Wht.JPG|75px]]{{List0000White|18532|652|[[Pikes Peak Celica]]|1998 First Editions|15/40|}}
+|[[Image:1998-652a-xdroop.jpg |75px]]{{List0000White|18544|653|[[IROC Firebird]]|1998 First Editions|16/40|}}
+|[[Image:IROC_Firebird_Gld.JPG|75px]]{{List0000White|18535|661|[['70 Plymouth Roadrunner (1998)|'70 Plymouth Roadrunner]]|1998 First Editions|17/40|}}
+|[[Image:Roadrunner98FE.jpg|75px]]{{List0000White|18542|665|[[Mustang Cobra]]|1998 First Editions|18/40|}}
+|[[Image:Mustang_Cobra_Blk.JPG|75px]]{{List0000White|18545|657|[[Panoz GTR-1]]|1998 First Editions|19/40|}}
+|[[Image:Panoz_GTR-1_Wht1.JPG|75px]]{{List0000White|18674|654|[['40 Ford]]|1998 First Editions|20/40|}}
+|[[File:40fordpowderblue.jpg|75px]]{{List0000White|18679|651|[[Go Kart]]|1998 First Editions|21/40|}}
+|[[Image:Go_Kart_-_98FE.jpg|75px]]{{List0000White|18840|655|[[Super Comp Dragster]]|1998 First Editions|22/40|}}
+|[[Image:Super_Comp_Dragster_Blk.JPG|75px]]{{List0000White|18842|650|[[Solar Eagle III]]|1998 First Editions|23/40|}}
+|[[Image:Solar Eagle.jpg|75px]]{{List0000White|18846|659|[[Tail Dragger]]|1998 First Editions|24/40|}}
+|[[Image:Tail_Dragger_Prp.JPG|75px]]{{List0000White|18841|658|[[Tow Jam]]|1998 First Editions|25/40|}}
+|[[Image:18841-towjam-xdroop.JPG|75px]]{{List0000White|18848|663|[[Customized C3500]]|1998 First Editions|26/40|}}
+|[[File:Customized_c500_thin_tampo.jpg|75px]]{{List0000White|18541|664|[[Super Modified]]|1998 First Editions|27/40|}}
+|[[Image:Super_Modified_Blk.JPG|75px]]{{List0000White|18531|669|[[Chaparral 2]]|1998 First Editions|28/40|}}
+|[[Image:Chaparral_2_Wht.JPG|75px]]{{List0000White|18539|670|[[Mustang Mach I]]|1998 First Editions|29/40|}}
+|[[Image:Mustang_Mach_I_-_98_FE_Yellow.JPG|75px]]{{List0000White|19641|674|[[Sweet 16 II]]|1998 First Editions|30/40|}}
+|[[Image:Sweet_16_II_DkPrp.JPG|75px]]{{List0000White|18536|677|[[Callaway C7]]|1998 First Editions|31/40|}}
+|[[Image:Callaway_C7_Slv.JPG|75px]]{{List0000White|18844|671|[[Chrysler Thunderbolt]]|1998 First Editions|32/40|}}
+|[[Image:Chrysler_Thunderbolt_Slv.JPG|75px]]{{List0000White|18847|662|[[Bad Mudder]]|1998 First Editions|33/40|}}
+|[[Image:Bad_Mudder.JPG|75px]]{{List0000White|18843|667|[[At-A-Tude]]|1998 First Editions|34/40|}}
+|[[Image:At-A-Tude Blu.JPG|75px]]{{List0000White|18845|672|[[Dodge Concept Car]]|1998 First Editions|35/40|}}
+|[[Image:Dodge_Concept_Car_-_98FE.jpg|75px]]{{List0000White|18856|673|[[Whatta Drag]]|1998 First Editions|36/40|}}
+|[[Image:Whatta Drag Red.JPG|75px]]{{List0000White|18537|678|[[Express Lane]]|1998 First Editions|37/40|}}
+|[[Image:Express_Lane_red.JPG|75px]]{{List0000White|18222|681|[[Cat-A-Pult]]|1998 First Editions|38/40|}}
+|[[Image:Cat-A-Pult_Red5sp.JPG|75px]]{{List0000White|18849|682|[[Fathom This]]|1998 First Editions|39/40|}}
+|[[Image:Fathom_This_WhtBlk.JPG|75px]]{{List0000White|19643|684|[[Double Vision (1998)|Double Vision]]|1998 First Editions|40/40|}}
+|
+[[Image:Double_Vision_Red.JPG|75px]]
+|}
+
+==[[1998 Treasure Hunts Series|1998 Treasure Hunts]]==
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List00Green|18815|749|[[Twang Thang]]|1998 Treasure Hunts|01/12|}}
+|[[File:Twang_Thang_-_98TH.jpg|75px]]{{List00Green|18816|750|[[Scorchin' Scooter]]|1998 Treasure Hunts|02/12|}}
+|[[File:Scorchin_Scooter_-_98TH.jpg|75px]]{{List00Green|18817|751|[[Kenworth T-600A]]|1998 Treasure Hunts|03/12|}}
+|[[File:Kenworth_T600A_-_98TH.jpg|75px]]{{List00Green|18818|752|[[3-Window '34]]|1998 Treasure Hunts|04/12|}}
+|[[File:3-Window_'34_-_98TH.jpg|75px]]{{List00Green|18819|753|[[Turbo Flame]]|1998 Treasure Hunts|05/12|}}
+|[[File:Turbo_Flame_-_98TH.jpg|75px]]{{List00Green|18820|754|[[Saltflat Racer]]|1998 Treasure Hunts|06/12|}}
+|[[File:Saltflat_Racer_-_98TH.jpg|75px]]{{List00Green|18821|755|[[Street Beast]]|1998 Treasure Hunts|07/12|}}
+|[[File:Street_Beast_-_98TH.jpg|75px]]{{List00Green|18822|756|[[Road Rocket]]|1998 Treasure Hunts|08/12|}}
+|[[File:Road_Rocket_-_98TH.jpg|75px]]{{List00Green|18823|757|[[Sol-Aire CX-4‎]]|1998 Treasure Hunts|09/12|}}
+|[[File:Sol-Aire_CX4_-_98TH.jpg|75px]]{{List00Green|18824|758|[['57 Chevy]]|1998 Treasure Hunts|10/12|}}
+|[[File:'57_Chevy_-_98TH.jpg|75px]]{{List00Green|18825|759|[[Corvette Stingray III]]|1998 Treasure Hunts|11/12|}}
+|[[File:Stingray_III_-_98TH.jpg|75px]]{{List00Green|18826|760|[[Way 2 Fast]]|1998 Treasure Hunts|12/12|}}
+|[[File:Way_2_Fast_-_98TH.jpg|75px]]
+|}
+
+==[[:Category:Mainline Segment|Segment Series]]==
+===[[Tattoo Machines Series (1998)|Tattoo Machines Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+|bgcolor="#c0c0c0"|'''Photo 2'''
+{{List0Yellow|18767|685|[['57 T-Bird]]|1998 Tattoo Machines Series|1/4|}}
+|[[Image:57_T-Bird_BluTat.JPG|75px]]{{List0Yellow|18768|686|[['93 Camaro]]|1998 Tattoo Machines Series|2/4|}}
+|[[Image:93_Camaro_GrnTat3sp.JPG|75px]]
+|[[Image:93_Camaro_GrnTatSB.JPG|75px]]{{List0Yellow|18769|687|[[Stutz Blackhawk]]|1998 Tattoo Machines Series|3/4|}}
+|[[Image:Stutz_BlackhawkTT.JPG|75px]]{{List0Yellow|18770|688|[[Corvette Stingray]]|1998 Tattoo Machines Series|4/4|}}
+|[[Image:Corvette_Stingray_OrgStrBst.JPG|75px]]
+|}
+
+===[[Techno Bits Series (1998)|Techno Bits Series]]===
+{|class="wikitable" border="1" cellspacing="1" width="60%" style="border:1px solid #C0C0C0;"
+|bgcolor="#c0c0c0"|'''Toy #'''
+|bgcolor="#c0c0c0"|'''Col. #'''
+|bgcolor="#c0c0c0"|'''Model Name'''
+|bgcolor="#c0c0c0"|'''Series'''
+|bgcolor="#c0c0c0"|'''Series #'''
+|bgcolor="#c0c0c0"|'''Photo'''
+|bgcolor="#c0c0c0"|'''Photo 2'''
+{{List000LtPurple|18771|689|[[Shadow Jet II]]|1998 Techno Bits Series|1/4|}}
+|[[Image:Shadow_Jet_II_Blk.JPG|75px]]
+|
+{{List000LtPurple|18772|690|[[Power Pistons]]|1998 Techno Bits Series|2/4|}}
+|[[Image:Power_Pistons_Prp3sp.JPG|75px]]
+|[[Image:Power_Pistons_PrpLW.JPG|75px]]{{List000LtPurple|18773|691|[[Shadow Jet]]|1998 Techno Bits Series|3/4|}}
+|[[Image:Shadow_Jet_Prp.JPG|75px]]
+|[[Image:Shadow_Jet_Blk.JPG|75px]]{{List000LtPurple|18774|692|[[Radar Ranger]]|1998 Techno Bits Series|4/4|}}
+|[[Image:Radar_Ranger_GrnR.JPG|75px]]
+|[[Image:Radar_Ranger_GrnL.JPG|75px]]
+|}
+
+===[[Tropicool Series (1998)|Tropicool Series]]===
+{|class="wikitable" border="1" cellspacing="1" width="60%" style="border:1px solid #C0C0C0;"
+|bgcolor="#c0c0c0"|'''Toy #'''
+|bgcolor="#c0c0c0"|'''Col. #'''
+|bgcolor="#c0c0c0"|'''Model Name'''
+|bgcolor="#c0c0c0"|'''Series'''
+|bgcolor="#c0c0c0"|'''Series #'''
+|bgcolor="#c0c0c0"|'''Photo'''
+|bgcolor="#c0c0c0"|'''Photo 2'''
+{{List000LtBlueWhite|18775|693|[[Ice Cream Truck]]|1998 Tropicool Series|1/4|}}
+|[[File:Good_Humor_Truck_Trpcol2.JPG|75px]]
+|[[File:Good_Humor_Truck_Trpcolpair.JPG|75px]]{{List000LtBlueWhite|18776|694|[[Baja Bug]]|1998 Tropicool Series|2/4|}}
+|[[File:Baja_Bug_TropicoolBgR.JPG|75px]]{{List000LtBlueWhite|18777|695|[[Classic Caddy]]|1998 Tropicool Series|3/4|}}
+|[[Image:35_Caddy_AGENTAIR_4.jpg|80px]]
+|[[File:35_Classic_Caddy_redtrop.JPG|75px]]{{List000LtBlueWhite|18778|696|[[Custom Corvette Convertible]]|1998 Tropicool Series|4/4|}}
+|[[Image:Custom_Corvette_LmGrn3SP.JPG|75px]]
+|[[Image:Custom_Corvette_GrnLW.JPG|75px]]
+|}
+
+===[[Low 'N Cool Series (1998)|Low 'N Cool Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List00PurYell|18779|697|[[Mini Truck]]|1998 Low 'N Cool Series|1/4|}}
+|[[Image:Minitruck_YelGld.JPG|75px]]{{List00PurYell|18780|698|[['59 Impala]]|1998 Low 'N Cool Series|2/4|}}
+|[[Image:'59_Chevy_Impala_Grn.JPG|75px]]{{List00PurYell|18781|699|[['59 Caddy]]|1998 Low 'N Cool Series|3/4|}}
+|[[Image:59_Caddy_MtRedLnC.JPG|75px]]{{List00PurYell|18782|716|[[Limozeen]]|1998 Low 'N Cool Series|4/4|}}
+|[[Image:Limozeen_Blk.JPG|75px]]
+|}
+
+===[[Biohazard Series (1998)|Biohazard Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+| bgcolor="#C0C0C0"| '''Photo 2'''
+{{List0Yellow|18783|717|[[Hydroplane]]|1998 Biohazard Series|1/4|}}
+|[[Image:Hydroplane_Grn.JPG|75px]]
+|
+{{List0Yellow|18784|718|[[Flame Stopper]]|1998 Biohazard Series|2/4|}}
+|[[Image:Flame_Stopper_BioHaz.JPG|75px]]
+|[[Image:Flame_Stopper_BioHazNO.JPG|75px]]{{List0Yellow|18785|719|[[Recycling Truck]]|1998 Biohazard Series|3/4|}}
+|[[Image:Recycling_Truck_Yel.JPG|75px]]
+|[[Image:Recycling_Truck_YelTmp.JPG|75px]]{{List0Yellow|18786|720|[[Rescue Ranger]]|1998 Biohazard Series|4/4|}}
+|[[Image:Rescue_Ranger_Blk5sp.JPG|75px]]
+|[[Image:Rescue_Ranger_Blk5DT.JPG|75px]]
+|}
+
+===[[Dash 4 Cash Series (1998)|Dash 4 Cash Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"|
+'''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List0GreenYell|18787|721|[[Jaguar XJ220]]|1998 Dash 4 Cash Series|1/4|}}
+|[[Image:Jaguar_XJ220_-_Dash_4_Cash.JPG|75px]]{{List0GreenYell|18788|722|[[Ferrari F40 (1989)|Ferrari F40]]|1998 Dash 4 Cash Series|2/4|}}
+|[[Image:Ferrari_F40_Gld.JPG|75px]]{{List0GreenYell|18789|723|[[Avus Quattro|Audi Avus]]|1998 Dash 4 Cash Series|3/4|}}
+|[[Image:Avus_Quattro_Blk.JPG|75px]]{{List0GreenYell|18790|724|[[Dodge Viper RT/10]]|1998 Dash 4 Cash Series|4/4|}}
+|[[Image:Viper_RT10_-_98_Dash_4_Cash.JPG|75px]]
+|}
+
+===1998 [[Race Team Series IV (1998)|Race Team Series IV]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List0OrgBlue|18791|725|[['67 Camaro]]|1998 Race Team Series IV|1/4|}}
+|[[Image:'67_Camaro_-_Race_Team_Series_4.jpg|75px]]{{List0OrgBlue|18792|726|[[Mercedes C-Class]]|1998 Race Team Series IV|2/4|}}
+|[[Image:Mercedes_C-Class_-_Race_Team_IV.jpg|75px]]{{List0OrgBlue|18793|727|[[Classic Cobra|Shelby Cobra 427 S/C]]|1998 Race Team Series IV|3/4|}}
+|[[Image:Cobra_-_98_Race_Team_4.jpg|75px]]{{List0OrgBlue|18794|728|[['63 Corvette|'63 Split Window Corvette]]|1998 Race Team Series IV|4/4|}}
+|[[Image:'63_Corvette_-_Race_Team_Series_4.jpg|75px]]
+|}
+
+===[[Artistic License Series (1998)|Artistic License Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List00Gray|18795|729|[[Alien]]|1998 Artistic License Series|1/4|}}
+|[[Image:Alien_ArtLic.JPG|75px]]{{List00Gray|18796|730|[['57 Chevy]]|1998 Artistic License Series|2/4|}}
+|[[Image:57_Chevy_Gry.JPG|75px]]{{List00Gray|18797|731|[[VW Bug]]|1998 Artistic License Series|3/4|}}
+|[[Image:VW_Bug_AGENTAIR_9.jpg|75px]]{{List00Gray|18798|732|[['70 Plymouth Barracuda]]|1998 Artistic License Series|4/4|}}
+|[[Image:'70_Cuda_-_98_Artistic_License_Series.jpg|75px]]
+|}
+
+===[[Mixed Signals Series (1998)|Mixed Signals Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List0BlkYell|18799|733|[[Street Roader]]|1998 Mixed Signals Series|1/4|}}
+|[[Image:Street_Roader_WhtMS.JPG|75px]]{{List0BlkYell|18800|734|[['80's Corvette]]|1998 Mixed Signals Series|2/4|}}
+|[[File:80sVette_GrnL.JPG|75px]]{{List0BlkYell|18801|735|[[Nissan Truck]]|1998 Mixed Signals Series|3/4|}}
+|[[Image:Nissan_Hardbody_Org.JPG|75px]]{{List0BlkYell|18802|736|[[School Bus]]|1998 Mixed Signals Series|4/4|}}
+|[[Image:School Bus YelMS.JPG|75px]]
+|}
+
+===[[Flyin' Aces Series (1998)|Flyin' Aces Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Serie'''
+'''s'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List000Brown|18803|737|[[1970 Dodge Charger Daytona]]|1998 Flying Aces Series|1/4|}}
+|[[Image:1970_Daytona_Grn5sp.JPG|75px]]{{List000Brown|18804|738|[[Dogfighter]]|1998 Flying Aces Series|2/4|}}
+|[[Image:Dofighter_Blk5sp.JPG|75px]]{{List000Brown|18805|739|[[Sol-Aire CX-4]]|1998 Flying Aces Series|3/4|}}
+|[[Image:Sol-Aire_CX4_-_Flyin_Aces.jpg|75px]]{{List000Brown|18806|740|[[XT-3]]|1998 Flying Aces Series|4/4|}}
+|[[Image:XT-3_GryOrg.JPG|75px]]
+|}
+
+===[[Sugar Rush Series (1998)|Sugar Rush Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List0Purple|18807|741|[[Mazda MX-5 Miata (1991)|Mazda MX-5 Miata]]|1998 Sugar Rush Series|1/4|}}
+|[[Image:Mazda_Miata_Org5sp.JPG|75px]]{{List0Purple|18808|742|[[Probe Funny Car]]|1998 Sugar Rush Series|2/4|}}
+|[[Image:Probe_Funny_Car_Hrshys.JPG|75px]]{{List0Purple|18809|743|[[Camaro Convertible]]|1998 Sugar Rush Series|3/4|}}
+|[[File:Camaro Convertible BluL.JPG|75px]]{{List0Purple|18810|744|[[1996 Mustang GT]]|1998 Sugar Rush Series|4/4|}}
+|[[Image:1996_Mustang_Yel.JPG|75px]]
+|}
+
+===[[Tech Tones Series (1998)|Tech Tones Series]]===
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List000BlkGrn|18811|745|[[Buick Wildcat]]|1998 Tech Tone Series|1/4|}}
+|[[Image:Buick_Wildcat_TechTns.JPG|75px]]{{List000BlkGrn|18812|746|[[Silhouette II]]|1998 Tech Tone Series|2/4|}}
+|[[Image:Silouette_II_techTones.JPG|75px]]{{List000BlkGrn|18813|747|[[Mantis|Speed Machine]]|1998 Tech Tone Series|3/4|}}
+|[[Image:Speed_Machine_Blk.JPG|75px]]{{List000BlkGrn|18814|748|[[Avus Quattro]]|1998 Tech Tone Series|4/4|}}
+|[[Image:Avus_Quattro_BlkRd.JPG|75px]]
+|}
+
+==1998 Hot Wheels==
+{| class="wikitable" style="border:1px solid #C0C0C0;" width="60%" cellspacing="1" border="1"
+|bgcolor="#c0c0c0"|'''Toy #'''
+|bgcolor="#c0c0c0"|'''Col. #'''
+|bgcolor="#c0c0c0"|'''Model Name'''
+|bgcolor="#c0c0c0"|'''Series'''
+|bgcolor="#c0c0c0"|'''Photo'''
+|-
+|95544
+|643
+|[[Digger]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Digger1997Mainline.jpg|75px]]
+|-
+|19145
+|700
+|[[Shock Factor]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Shock_Factor_YelBlu.JPG|75px]]
+|-
+|19146
+|702
+|[[Chevy Lumina ]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Chevy_Lumina_Grn5sp.JPG|75px]]
+|-
+|95650
+|712
+|[[Tipper]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:712_Tipper.jpg|75px]]
+|-
+|17965
+|714
+|[[Talbot Lago]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:TalbotLago714.jpg|75px]]
+|-
+|18604
+|715
+|[[1996 Mustang GT]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:1996_Mustang_Wht.JPG|75px]]
+|-
+|5027
+|761
+|[[Flame_Stopper|Flame Stopper]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Flame_Stopper_RedSB.JPG|75px]]
+|-
+|19934
+|765
+|[[Oshkosh Snow Plow|Oshkosh P-Series]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Oshkosh_Snowplow_WhtBlu.JPG|75px]]
+|-
+|19936
+|767
+|[[Mercedes 380 SEL]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Mercedes 380 SEL WhtGld.JPG|75px]]
+|-
+|19937
+|768
+|[[Lamborghini Countach (1997)|Lamborghini Countach]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Lamborghini_Countach_Blk.JPG|75px]]
+|-
+|19939
+|770
+|[[Lexus SC400]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Lexus_SC-400_MtBlu.JPG|75px]]
+|-
+|19940
+|771
+|[['56 Flashsider]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:56_Flashsider_Yel3hoL.JPG|75px]]
+|-
+|19942
+|773
+|[[Hot Wheels 500]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:No Fear Race Car yel.JPG|75px]]
+|-
+|19943
+|774
+|[[Ramp Truck]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Ramp_Truck_DkGrn.JPG|75px]]
+|-
+|19947
+|778
+|[[Speed Blaster]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Speed Blaster blurd3sp.JPG|75px]]
+|-
+|19948
+|779
+|[[Big Chill]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Big Chill BluB.JPG|75px]]
+|-
+|19949
+|780
+|[['58 Corvette]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:58 Vette AGENTAIR 1.jpg|75px]]
+|-
+|19949
+|780
+|[['58 Corvette]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:58 Vette AGENTAIR 2.jpg|75px]]
+|-
+|19950
+|781
+|[[Lamborghini Diablo]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Lamborghini Diablo DkRed5ho.JPG|75px]]
+|-
+|19951
+|782
+|[[Radar Ranger]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Radar_Ranger_GldR.JPG|75px]]
+|-
+|19952
+|783
+|[[Twin Mill II]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Twin Mill II Slv.JPG|75px]]
+|-
+|19953
+|784
+|[[Ferrari F512M]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Ferrari Testarrosa Silv5ho.JPG|75px]]
+|-
+|19956
+|787
+|[['57 Chevy]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:57 Chevy Prpl.JPG|75px]]
+|-
+|19957
+|788
+|[[Mercedes 540K]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Mercedes 540K prplw.JPG|75px]]
+|-
+|19960
+|791
+|[[Treadator]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Treadator Blu.JPG|75px]]
+|-
+|19961
+|792
+|[['93 Camaro|Camaro Race Car]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:93 Camaro wht4L.JPG|75px]]
+|-
+|19962
+|793
+|[[Auburn 852]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Auburn 852 Blk.JPG|75px]]
+|-
+|19964
+|795
+|[[Tractor]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Tractor SilvBlk.JPG|75px]]
+|-
+|19965
+|796
+|[[Camaro Convertible]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Camaro Convertible WhtOrgL.JPG|75px]]
+|-
+|19966
+|797
+|[[Dodge Ram 1500]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Dodge_Ram_1500_Red5SPL.JPG|75px]]
+|-
+|19967
+|798
+|[[Propper Chopper]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Propper Chopper Blu.JPG|75px]]
+|-
+|19971
+|802
+|[[Flashfire]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Flashfire Gld.JPG|75px]]
+|-
+|19972
+|803
+|[['40's Woodie]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:1998 '40's Woodie - 5986cf.jpg|75px]]
+|-
+|19977
+|808
+|[[Driven to the Max]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Dragster_Wht.JPG|75px]]
+|-
+|19981
+|812
+|[[GM Lean Machine ]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:GM Lean Machine GrnGld.JPG|75px]]
+|-
+|19982
+|813
+|[[Ferrari F355]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Ferrari F355 Blk5sp.JPG|75px]]
+|-
+|19983
+|814
+|[[Speed-A-Saurus]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Speed A-Saurus Turq.JPG|75px]]
+|-
+|19984
+|815
+|[[Mercedes-Benz SL]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Mercedes Benz SL Grn.JPG|75px]]
+|-
+|19985
+|816
+|[[Ferrari 308]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:816_Ferrari_308_(Brown).jpg|75px]][[File:816_Ferrari_308_(Red).jpg|75px]]
+|-
+|19986
+|817
+|[[Porsche 928]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:P928 Wht.JPG|75px]]
+|-
+|19987
+|818
+|[[Porsche Carrera]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Porsche_Carrera_Red.JPG|75px]]
+|-
+|20034
+|820
+|[[Zender Fact 4]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Zender_Fact_4_Grn.JPG|75px]]
+|-
+|22035
+|821
+|[[1996 Mustang GT|'96 Mustang Convertible]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:1996_Mustang_Wht.JPG|75px]]
+|-
+|15777
+|822
+|[['80s Camaro|Camaro Z-28]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:80s_Camaro_Aqua3SP.JPG|75px]]
+|-
+|13578
+|823
+|[[Sol-Aire CX-4]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Sol-Aire CX4 - 98 Open Vamp.jpg|75px]]
+|-
+|15788
+|827
+|[[Radio Flyer Wagon]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Radio_Flyer_Wagon_Red5SP.JPG|75px]]
+|-
+|17551
+|829
+|[[Porsche Carrera]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Porsche_Carrera_SilvSB.JPG|75px]]
+|-
+|19712
+|834
+|[[Ferrari Testarossa (1987)|Ferrari Testarossa]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Ferrari_Testarrosa_BlkBW.JPG|75px]]
+|-
+|19713
+|835
+|[[Baja Bug]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Baja Bug Redindia.JPG|75px]]
+|-
+|20398
+|837
+|[[Radio Flyer Wagon]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Radio Flyer Blu5SP.JPG|75px]]
+|-
+|19463
+|850
+|[[Rail Rodder]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Rail_Rodder_Gry.JPG|75px]]
+|-
+|19500
+|851
+|[[Treadator]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Treadator Prp.JPG|75px]]
+|-
+|19515
+|852
+|[[Rigor Motor]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Rigor Motor PrplBg.JPG|75px]]
+|-
+|19518
+|853
+|[[Camaro Z-28 ]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Camaro Z28 BrtGrn.JPG|75px]]
+|-
+|19519
+|854
+|[[Porsche 959]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Porsche 959 WhtSB.JPG|75px]]
+|-
+|19523
+|855
+|[[Ferrari F50 Spider]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Ferrari F50 Spider PrpSB.JPG|75px]]
+|-
+|19524
+|856
+|[[Porsche 930]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Porsche_930_mtRed3SP.JPG|75px]]
+|-
+|19526
+|857
+|[[T-Bird Stocker (1990)|T-Bird Stocker]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:T-Bird_Stocker_Org.JPG|75px]]
+|-
+|19529
+|858
+|[[Humvee|Hummer]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Hummer Jungle 858.jpg|75px]]
+|-
+|19530
+|859
+|[[Bronco 4-Wheeler|Bronco]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Bronco-4-Wheeler_RedWht.JPG|75px]]
+|-
+|19537
+|860
+|[[Road Rocket]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Road_Rocket_WhtBlk.JPG|75px]]
+|-
+|19538
+|861
+|[[Twin Mill II]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Twin_Mill_II_Gldl.JPG|75px]]
+|-
+|19539
+|862
+|[[Pontiac Salsa]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Pontiac_Salsa_Mtred5HO.JPG|75px]]
+|-
+|19547
+|863
+|[[Oshkosh Cement Mixer]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Oshkosh_Cement_Mixer_Lime.JPG|75px]]
+|-
+|19550
+|864
+|[[Tank Truck]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Black Tank Truck - 6405df.jpg|75px]]
+|-
+|19557
+|865
+|[[Ford F-150 ]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Ford_F-150_Wht.JPG|75px]]
+|-
+|19559
+|866
+|[[Ferrari 250]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Ferrari_250_GldLW.JPG|75px]]
+|-
+|19566
+|867
+|[['97 Corvette]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:97 Corvette Blu.JPG|75px]]
+|-
+|19567
+|868
+|[[Range Rover]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Range Rover Grn.JPG|75px]]
+|-
+|19571
+|869
+|[[Power Pipes]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Power Pipes Blk.JPG|75px]]
+|-
+|19573
+|870
+|[[Chevy Stocker]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Chevy_Stocker_PrpSBgld.JPG|75px]]
+|-
+|19584
+|871
+|[[Olds 442 W-30]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Olds_442_W-30_Wht.JPG|75px]]
+|-
+|19576
+|872
+|[[Rig Wrecker ]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Rig Wrecker Wht5ho.JPG|75px]]
+|-
+|19542
+|873
+|[[Hydroplane]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Hydroplane WhtBlk.JPG|75px]]
+|-
+|19580
+|874
+|[[Letter Getter|Pit Crew Truck]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[File:Delivery_GreyL.JPG|75px]]
+|-
+|18838
+|875
+|[[Police Cruiser (1996) ]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Police_Cruiser_Blu.JPG|75px]]
+|-
+|19579
+|876
+|[[Bywayman]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Bywayman_Red.JPG|75px]]
+|-
+|19520
+|877
+|[[Chevy 1500]]
+|bgcolor="blue"|<font color="white">1998 Hot Wheels</font>
+|[[Image:Chevy_1500_Gry.JPG|75px]]
+|-
+|19527
+|881
+|[[Camaro Convertible|'95 Camaro]]
+| bgcolor="blue" |<font color="white">1998 Hot Wheels</font>
+|[[File:Camaro Convetible Blk3sp.JPG|75px]]
+|-
+|19533
+|884
+|[[Gulch Stepper]]
+| bgcolor="blue" |<font color="white">1998 Hot Wheels</font>
+|[[Image:Gulch_Stepper_YelSB.JPG|75px]]
+|-
+|19560
+|889
+|[[Mercedes 380 SEL ]]
+| bgcolor="blue" |<font color="white">1998 Hot Wheels</font>
+|[[Image:Mercedes_380_BlkGld.JPG|75px]]
+|-
+|19561
+|890
+|[[BMW M Roadster]]
+| bgcolor="blue" |<font color="white">1998 Hot Wheels</font>
+|[[Image:BMW_M_Roadster_-_98_Showroom_Specials_5-pk.jpg|75px]]
+|-
+|19568
+|894
+|[[Toyota MR-2 Rally ]]
+| bgcolor="blue" |<font color="white">1998 Hot Wheels</font>
+|[[Image:Toyota_Rally_WhtLW.JPG|75px]]
+|-
+|19582
+|899
+|[['56 Flashsider]]
+| bgcolor="blue" |<font color="white">1998 Hot Wheels</font>
+|[[Image:56_Flashsider_Silv5sp.JPG|75px]]
+|-
+|22068
+|908
+|[[Ford F-150|Ford F-Series CNG Pickup]]
+| bgcolor="blue" |<font color="white">1998 Hot Wheels</font>
+|[[Image:Ford F-150 Prp.JPG|75px]]
+|}
+
+==1998 [[Bonus Cars]]==
+{| class="wikitable" background="#C0C0C0" style="border:1px solid #C0C0C0;" border="1" cellspacing="1" width="60%"
+| bgcolor="#C0C0C0"| '''Toy #'''
+| bgcolor="#C0C0C0"| '''Col. #'''
+| bgcolor="#C0C0C0"| '''Model Name'''
+| bgcolor="#C0C0C0"| '''Series'''
+| bgcolor="#C0C0C0"| '''Series #'''
+| bgcolor="#C0C0C0"| '''Photo'''
+{{List0Yellow|16662|001|[[Firebird Funny Car]]|1998 Bonus Cars|1/4|}}
+|[[File:Firebird_Funny_Bonus.jpg|75px]]{{List0Yellow|5901|002|[['80s Camaro]]|1998 Bonus Cars|2/4|}}
+|[[Image:80s_Camaro_Bonus.JPG|75px]]{{List0Yellow||003|[[Custom Corvette Convertible]]|1998 Bonus Cars|3/4|}}
+|[[Image:Custom_Corvette_Bns.JPG|75px]]{{List0Yellow||004|[[Speed Machine]]|1998 Bonus Cars|4/4|}}
+|[[Image:Speed Machine Bns.JPG|75px]]
+|}
+
+==Hot Wheels by Year==
+{{Lists}}[[Category:Lists of Hot Wheels by year|1998]]
+[[Category:1998 Hot Wheels|1998]]

@@ -1,0 +1,968 @@
+This article is a '''list of [[Hot Wheels]]''' released in '''1983.'''
+
+==New Castings==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid" |'''Casting Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Country'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[Fat Fendered '40|'40's Ford 2-Door]]
+|
+|Black
+|White, Yellow and Red flame
+|Unpainted<br>/<br>Metal
+|Clear
+|Tan
+|[[BW]]
+|3919
+|Hong Kong
+|
+|[[Image:'40's Ford 2-Door - 3306ef.jpg|75px]]
+|-
+|[['80's Corvette]]
+|
+|Gray
+|Black top
+|Grey<br>/<br>Metal
+|Clear
+|Tan & Red
+|[[GHO]]
+|3928
+|Hong Kong
+|Opening hood
+|[[File:80sVette_Gry.JPG|75px]]
+|-
+|[['80s Firebird]]
+|[[The_Hot_Ones|Hot Ones]]
+|Red
+|Yellow firebird on hood
+|Black<br>/<br>Plastic 
+|Clear
+|Tan
+|[[GHO]]
+|3918
+|Hong Kong 
+|Also with Malaysia Base
+|[[Image:80s_Firebird_Red.JPG|75px]]
+|-
+|[['82 Supra]]
+|
+|Black
+|Yellow, Blue, Red, tail light, and license plate details
+|Black<br>/<br>Metal
+|Clear
+|Tan
+|[[GHO]]
+|3925
+|Hong Kong
+|Also with Malaysia Base
+|[[File:82_Supra_Blk.JPG|75px]]
+|-
+|[[Beach Patrol]]
+|
+|White
+|Yellow, Blue, Red, "SANDEE BEACH PATROL"
+|Unpainted<br>/<br>Metal
+| Clear
+|Blue
+|[[BW]]
+| 4368
+|Hong Kong
+|Also with Malaysia Base
+|[[File:Path_Beater_WhtBWL.JPG|75px]]
+|-
+|[[Classic Cobra]]
+|
+|Blue
+|White stripes
+|Unpainted<br>/<br>Metal
+|Clear
+|Black 
+|[[BW]]
+|3923
+|Hong Kong 
+|
+|[[Image:Classic_Cobra_BluBW.JPG|75px]]
+|-
+|[[Classic Packard]]
+|
+|Black
+|No tampos
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[WW]]
+|3920
+|Hong Kong
+|
+|[[Image:Classicpackard.jpg|75px]]
+|-
+|[[Ford Escort]]
+|
+|Black
+|Orange stripe "XR3"
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[BW]]
+|3288
+|Malaysia
+|
+|[[File:Ford_Escort_Blk.JPG|75px]]
+|-
+|[[Formula Fever]]
+|
+|Yellow metal & Red plastic
+|Black, Yellow, White "12"
+|Unpainted<br>/<br>Metal
+|N/A
+|red
+|[[BW]] Basic Wheels
+|3915
+|Hong Kong
+|
+|[[Image:Formula_Fever_bw2.JPG|79px]]
+|-
+|[[Long Shot]]
+|
+|White
+| Yellow, Black, Red flames & stripes
+|Chrome<br>/<br>Plastic
+|Clear
+| Dark red
+|[[BW]]
+|3768
+|Hong Kong
+|
+|[[Image:Long_Shot_Wht.JPG|75px]]
+|-
+|[[NASCAR Stocker]]
+|
+|White
+|Green, Red, Yellow "Mountain Dew" "11"
+|Unpainted<br>/<br>Metal 
+|Black tint
+|Black
+|Hot Ones Gold [[HO]]
+|2522
+|Malaysia
+|''Based on Darrell Waltrip's stockcar''
+|[[Image:NASCAR_Stocker.JPG|75px]]
+|-
+|[[Pontiac J-2000]]
+|
+|Yellow
+|Red & Black stripe "PONTIAC J-2000" on sides
+|Unpainted<br>/<br>Metal
+|Black tint
+|Orange
+|[[BW]]
+|3917
+|Malaysia
+|Small sun roof 
+|[[Image:Pontiac_J-2000_YelBg.JPG|75px]]
+|-
+|[[Rig Wrecker]]
+|
+|White w/Red Boom
+| Blue & Red "Steve's" "Towing"
+|Unpainted<br>/<br>Metal
+|Clear
+|Chrome
+|[[BW]]
+|3917
+|Malaysia
+|
+|[[Image:Rig_Wrecker_WhtBWMet.JPG|75px]]
+|-
+|[[Thunder Roller]]
+|[[Workhorses]]
+|Yellow
+|Brown, Red, Black, "2" and Eagle on sides
+|Chrome<br>/<br>Plastic
+|Smoke
+|Tan
+|[[BW]]
+|3924
+|Hong Kong
+|
+|[[Image:Thunder Roller - 3190ef.jpg|75px]]
+|-
+|[[Turbo Streak]]
+|
+|Yellow
+|Orange Red Black "elf" "Michelin" "7" 
+|Unpainted<br>/<br>Metal
+|
+|Unpainted<br>/<br>Metal
+|[[BW]]
+|3914
+|Hong Kong
+|
+|[[Image:Turbo_Streak_Yel7Elf.JPG|75px]]
+|-
+|}
+
+==[[Real Riders]]==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid" |'''Casting Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Country'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[Fat Fendered '40|'40's Ford 2-Door]]
+|[[Real Riders Series]]
+|Black
+|White, Yellow and Red flame tampos 
+|Unpainted<br>/<br>Metal
+|Clear
+|Tan
+|[[RR]] Gray
+| 3919
+|Malaysia
+|
+|[[Image:RR '40's Ford 2-Door - 3310df.jpg|75px]]
+|-
+|[[Fat Fendered '40|'40's Ford 2-Door]]
+|[[Real Riders Series]]
+|Black
+|White, Yellow, Red flames
+|Unpainted<br>/<br>Metal 
+|Clear 
+|Tan
+|[[RR]] White
+|3919
+|Malaysia
+|
+|[[Image:'40's_Ford_2-Door_BlkkRRW.JPG|75px]]
+|-
+|[[BMW M1]]
+|[[Real Riders Series]]
+|Red
+|White, Black and Yellow stripes on top 
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[RR]] Grey
+|3289
+|Malaysia
+|New casting
+|[[Image:BMW_M1_RedRR.JPG|75px]]
+|-
+|[[Cadillac Seville]]
+|[[Real Riders Series]]
+|Metalflake Gold
+|No tampos
+|Unpainted<br>/<br>Metal
+|Blue 
+|Red
+|[[RR]] Grey
+|4356
+|Hong Kong
+|
+|[[File:Cadillac_Seville_gldrr.JPG|75px]]
+|-
+|[[Classic Cobra]]
+|[[Real Riders Series]]
+|Blue
+|White stripes
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[RR]] White
+|3923
+|Hong Kong 
+|
+|[[File:Classic_Cobra_BluRR.JPG|75px]]
+|-
+|[[Classic Cobra]]
+|[[Real Riders Series]]
+|Blue
+|White stripes
+| Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[RR]] Gray
+|3923
+|Hong Kong
+|
+|[[Image:Classiccobra.jpg|75px]]
+|-
+|[[Formula Fever]]
+|[[Real Riders Series]]
+|Yellow metal & Red plastic
+|Black, Yellow, White "12"
+|Unpainted<br>/<br>Metal
+|N/A
+|red
+|[[RR]] Real Riders, gray hubs
+|3915
+|Hong Kong
+|
+|[[Image:Formula_Fever_GYG2.JPG|75px]]
+|-
+|[[Formula Fever]]
+|[[Real Riders Series]]
+|Yellow metal & Red plastic
+|Black, Yellow, White "12"
+|Unpainted<br>/<br>Metal 
+|N/A
+|red
+|[[RR]] White
+|3915
+|Hong Kong
+|
+|[[Image:Formula_Fever_RRW2.JPG|75px]]
+|-
+|[[Jeep Scrambler]]
+|[[Real Riders Series]]
+|Grey
+|Yellow and Orange stripes on sides
+|Unpainted<br>/<br>Metal
+| Clear
+|Tan
+|[[RR]] Grey
+|4370
+|Hong Kong
+|
+|[[File:Jeep_Scrambler_Gry.JPG|75px]]
+|-
+|[[Jeep Scrambler]]
+|[[Real Riders Series]]
+|Met. Silver
+|Yellow and Orange stripes on sides
+|Unpainted<br>/<br>Metal
+|Clear
+|Tan
+|[[RR]] Grey
+|4370
+|Hong Kong
+|
+|[[Image:Jeep_Scrambler_Silv.JPG|75px]]
+|-
+|[[Turbo Streak]]
+|[[Real Riders Series]]
+|Yellow
+|Orange Red Black "7"
+|Unpainted<br>/<br>Metal
+|
+|Unpainted<br>/<br>Metal
+|[[RR]] Grey
+|
+|Malaysia
+|
+|[[Image:Turbo_Streak_Yel7RRG.JPG|75px]]
+|-
+|[[Turbo Streak]]
+|[[Real Riders Series]]
+|Yellow
+|Orange Red Black "7"
+|Unpainted<br>/<br>Metal
+|
+|Unpainted<br>/<br>Metal
+|[[RR]] White
+|
+|Malaysia
+|
+|[[Image:Turbo_Streak_7RRW.JPG|75px]]
+|-
+|[[Jeep CJ-7]]
+|[[Real Riders Series]]
+|Metalflake Brown
+|Black, Red and Orange eagle on hood
+|Unpainted<br>/<br>Metal 
+|Clear
+|Tan
+|[[RR]] Grey
+|3259
+|Malaysia
+|
+|[[File:Jeep_CJ7_BrnRRG.JPG|75px]]
+|-
+|[[El Rey Special|Malibu Grand Prix]]
+|[[Real Riders Series]]
+|Black 
+|Red, Yellow, Blue, "Malibu GRAND PRIX", "GOOD YEAR", "1"
+|Unpainted<br>/<br>Metal
+|N/A
+|Unpainted<br>/<br>Metal
+|[[TRR]]
+|9037
+|Malaysia
+|
+|[[Image:Formula P.A.C.K. redbluRR.JPG|75px]]
+|-
+|[[Street Rodder]]
+|[[Real Riders Series]]
+|White
+|Red & Orange flames
+|Unpainted <br>/<br>Metal
+|No window, Gray frame
+|Gray
+|Gray Hub [[RR]]
+|9242
+|Malaysia
+|
+|[[Image:Street Rodder wht gyg.jpg|75px]]
+|-
+|[['57 T-Bird (1978)|'57 T-Bird]]
+|[[Real Riders Series|Real Riders]]
+|Metalflake Red
+|No tampo
+|[[ZAMAC]]
+|Amber tint
+|Amber tint
+|Goodyear Grey Hub [[RR]]
+|4357
+|Malaysia
+|''no porthole''
+|[[File:735EBA20-0B12-470C-B6AF-7FB51A1537CB.jpeg|75px]]
+|-
+|[[A-OK]]
+|[[Real Riders Series|Real Riders]]
+|Metalflake Red
+|Maroon fenders, "Early Times Delivery" logo
+|[[ZAMAC]]
+|Smoke tint
+|Maroon
+|Gray Hub [[RR]]
+|4358
+|Malaysia
+|
+|[[Image:A_ok_rr.JPG|75px]]
+|}
+
+==Reissues==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid" |'''Casting Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Country'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[['35 Classic Caddy]]
+|1/7
+| Burgundy w/Burgundy fenders
+|No tampos
+|Unpainted<br>/<br>Metal
+|Clear 
+|Burgundy
+|Whitewall [[BW]]
+|3252
+|Malaysia
+|
+|[[Image:Burgundy '35 Classic Caddy - 5372df.jpg|75px]]
+|-
+|[[Custom Camaro|'67 Camaro]]
+|2/7
+|Red
+|White, Yellow and flame. "'67 CAMARO" 
+|Unpainted<br>/<br>Metal
+| Clear
+|Black
+|[[BW]]
+|3913
+|Malaysia
+|
+|[[File:Flamed camaro 2.jpg|75px]]
+|-
+|[[Auburn 852]]
+|3/7
+|Metalflake Gold
+|No tampos
+| Unpainted<br>/<br>Metal
+| Clear
+|Brown 
+|[[BW]]
+|2505 
+|Malaysia
+|Brown plastic fenders
+|[[File:Auburn_852_GldBW.JPG|75px]]
+|-
+|[[Cadillac Seville]]
+|4/7
+|Metallic Gold
+|No tampos
+|Unpainted<br>/<br>Metal
+|Blue
+|Red
+|[[BW]]
+|1698 
+|Hong Kong
+|
+|[[Image:Gold Cadillac Seville - 5633cf.jpg|75px]]
+|-
+|[[Royal Flash]]
+|5/7
+|Metallic Orange
+|Yellow, Black, Purple "33"
+|Unpainted<br>/<br>Metal
+| Blue tint
+|Black
+|[[BW]]
+|2501
+|Malaysia
+|
+|[[Image:Roya_Flash_MtOrg.JPG|75px]]
+|-
+|[[Turismo]]
+|6/7 
+|Yellow
+|Orange, Purple, Black stripes on sides
+|Unpainted<br>/<br>Metal
+|Black tint
+|Purple Interior & Rear Deck
+|[[BW]]
+|1694
+|Malaysia 
+|
+|[[Image:Turismo_Yel.JPG|75px]]
+|-
+|[[Tricar X8]]
+|7/7
+|Red
+|White, Yellow & Black flames on top
+|Red<br>/<br>Metal
+|Clear
+|White
+|[[BW]]<br>/<br>[[MC1]]
+|1130
+|Malaysia
+|
+|[[File:Tricar X8 package front.png|75px]]
+|-
+|[[Mustang Stocker]]
+| Speed Machines
+| Black
+| 2 Yellow stripes
+|Grey <br>/<br>Plastic
+|Blue
+|Tan
+|BW
+|
+| Malaysia
+|The first Ford Mustang with a plastic base
+|
+|-
+|[[Frontrunnin' Fairmont]]
+|
+|Red
+|Yellow, Orange & White "27" and "Fireball Jr." tampos 
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[GHO]]
+|3257
+
+|Hong Kong
+|''Listed as "Hot Ones" on blister, via sticker''
+|[[Image:Front_Runnin'_Faimont_.JPG|75px]]
+|-
+|[[Jeep CJ-7]]
+|
+|Metalflake Brown
+|Black, Red and Orange eagle on hood
+|Unpainted<br>/<br>Metal
+|Clear
+|Tan
+|[[BW]]
+|3259
+|Malaysia
+|Also [[McDonald's]] Happy Meal toy
+|[[File:Jeep_CJ7_BrnBW.JPG|75px]]
+|-
+|[[Airport Rescue]]
+|
+|Yellow
+|Red stripes & 'Airport Rescue Fire Dept.' on sides
+|Unpainted<br>/<br>Metal
+|Tinted (Blue)
+|Black
+|[[BW]]
+|1699
+|Malaysia
+|
+|[[Image:Airport Rescue-1982 Malaysia.jpg|75px]]
+|-
+|[[Airport Rescue]]
+|
+|Red 
+|Yellow stripes & 'Airport Rescue Fire Dept.' on sides
+|Unpainted<br>/<br>Metal
+|Tinted (Blue)
+|Black
+|[[BW]]
+|4897
+|France
+|
+|[[File:HW AIRPORT RESCUE FRANCE RED-0.jpg|75px]]
+|-
+|[[Cannonade]]
+|
+|Red
+|White, Yellow & Orange stripes "3"
+|Black <br>/<br>Plastic
+|Clear
+|Chrome
+|[[HO|GHO]]
+|1691
+|Malaysia
+|
+|[[File:Cannonade_Red.JPG|75px]]
+|-
+|[[Chevy Citation]]
+|
+|Metallic Brown
+|Red, Black, White "CITATION X-11"
+|Unpainted <br>/<br>Metal
+|Clear
+| Red
+|[[GHO]]
+|3362
+|Malaysia
+|
+|[[Image:Chevy_Citation_Brn.JPG|75px]]
+|-
+|[[Omni 024]]
+|
+|Metalflake Gold
+| Purple and red tampos 
+|
+|
+|
+|[[BW]]
+|
+|
+|
+|[[File:Omni_024_Gold.JPG|75px]]
+|-
+|[[Red Baron]]
+|
+|Red
+|None
+|Unpainted <br>/<br>Metal
+|
+|Black
+|[[BW]]
+|6964
+|Hong Kong 
+|
+|[[File:Red_Baron_RedBWR.JPG|75px]]
+|-
+|[[AMX/2|Warpath]]
+|
+|White
+|Red and Blue stars and stripes on top
+|Chrome<br>/<br>Plastic
+|Blue tint
+|Black
+|[[BW]]
+|7654
+| Mexico
+|
+|[[File:Warpath Aurimat mx.jpg|75px]]
+|-
+|[[Classic Nomad|Alive '55]]
+|
+|Green
+|Blue, Yellow and Light Green "Chevrolet" tampos
+|[[ZAMAC]]
+|Tinted (Blue)
+| Black 
+|[[BW]]
+|None
+|France
+|''International Only''
+|[[File:Flying Colors International Alive '55 Green with Light Green & Dark Blue Tampo BW France No Toy loose.JPG|75px]]
+|-
+|[[Torino Stocker|Fireball Torino]]
+|
+|White
+|White, Red & Yellow flame
+|Chrome<br>/<br>Plastic
+|Tinted (Blue)
+|Black
+|[[BW]]
+|7190
+|Mexico
+|
+|[[Image:Torino Stocker Aurimat blanco.jpg|75px]]
+|-
+|[[Ramblin' Wrecker]]
+|
+|Yellow
+|Orange, white, & blue "24 Hour Towing"
+|Chrome<br>/<br>Plastic
+|Tinted (Smoke)
+|Black
+|[[BW]]
+|7659
+|Malaysia
+|''Also appears in the [[Crack-Ups]] Smash & Tow Gift Pack, but is not a Crack-Up itself''
+|[[Image:Ramblin' Wrecker 1983 - 7752cf.jpg|75px]]
+|-
+|[[Neet Streeter]]
+|
+|Metallic Dark Red
+|Red, White & Blue striping on top  "Ford" & "Oldie but a Goodie"
+|Unpainted <br>/<br>Metal
+|Open
+|Black
+|[[BW]]
+|9244
+|Hong Kong
+|
+|[[Image:Neet_Streeter_MtRed.JPG|75px]]
+|-
+|[[Corvette Stingray (1976)]]
+|
+|Metalflake Red
+|White, Orange, Yellow Stripes w/ "Corvette" on sides
+|Unpainted <br>/<br>Metal
+|Tinted (Blue)
+|Blue Tint
+|[[GHO]]
+|9241
+|Hong Kong
+|''Also [[McDonald's]] Happy Meal toy''
+|[[File:Stingray_redgho.JPG|75px]]
+|-
+|[['57 Chevy]]
+|
+|Metalflake Red
+|White & Yellow "57 Chevy"
+|Chrome<br>/<br>Plastic
+|Tinted (Blue)
+|Blue tint
+|[[GHO]]
+|9638
+|Hong Kong
+|
+|[[Image:57_Chevy_RedGW.JPG|75px]]
+|-
+|[[Science Friction]]
+|
+|Metalflake Dark Red
+|Light Blue, Blue and Orange
+|[[ZAMAC]]
+|N/A
+|Chrome
+|[[GHO]]
+|2018
+|Malaysia
+|
+|[[File:Science_Friction_19831.gif|75px]]
+|-
+|[[Jaguar XJS (1978)|Jaguar XJS]]
+|
+|Metalflake Brown
+|"XJS" and Yellow Jaguar cat
+|[[ZAMAC]]
+|Blue tint
+|Black
+|[[BW]]
+|2012
+|Malaysia
+|
+|[[File:Hot Wheels - Jaguar XJS - Brown - Malaysia.JPG|75px]]
+|-
+|[[Baja Breaker]]
+|
+|Metalflake Orange
+|Yellow, Blue, White "BAJA BREAKER"
+|[[ZAMAC]]
+|Blue tint
+|Black
+|[[BW]]
+|2022
+|Malaysia
+|''[[McDonald's]] Happy Meal also''
+|[[Image:Baja_Breaker_OrgBW.JPG|75px]]
+|}
+
+==Extras Series==
+The Extras Series of cars came in special packaging with a removeable part of the casting packaged with the car separately.
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+! style="border-style: none none solid solid" |'''Casting Name'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Country'''
+! style="border-style: none none solid solid" |'''Removeable parts/notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[['31 Doozie]]
+
+| Red w/Brown plastic fenders
+|No tampos
+|Unpainted<br>/<br>Metal
+|Blue tint
+|Dark Brown 
+|Whitewall [[BW]]
+|
+| Malaysia
+|Tan convertible top
+|[[Image:'31 Doozie - 5374df.jpg|75px]]
+|-
+|[['31 Doozie]]
+|Red w/Red plastic fenders
+|No tampos
+|Unpainted<br>/<br>Metal
+| Blue tint
+|Red
+| Whitewall [[BW]]
+|
+|Malaysia 
+|Tan convertible top
+|[[Image:31_Doozie_RedRd.JPG|75px]]
+|-
+|[['56 Hi-Tail Hauler]]
+| Met. Blue
+|Yellow and Red flames on hood
+|Chrome<br>/<br>Plastic
+|Clear 
+|Yellow
+|[[BW]]
+|4341
+|Malaysia
+|White topper
+|[[Image:56hitail extras.JPG|75px]]
+|-
+|[[Ford Stake Bed Truck]]
+|Blue
+|Yellow, White, "Sunset Trucking"
+|Unpainted<br>/<br>Metal
+|Clear
+|Chrome
+|[[BW]]
+|4018
+|Malaysia
+|Same casting as [[Ford Dump Truck]] Tan bed raises in back; Stake Bed 
+|[[File:Ford_Stake_bluTan.JPG|75px]]
+|-
+|[[Oshkosh Snow Plow]]
+| Orange with Metal top
+|no tampo
+|Unpainted<br>/<br>Metal
+|No Windows 
+|Orange
+|[[CT]]
+|5905
+|Hong Kong
+|Plow
+|[[File:Oshkosh_Snowplow_OrgOrgCT.JPG|75px]]
+|-
+|[[Peterbilt Dump Truck]]
+| Yellow
+|no tampo
+|Unpainted<br>/<br>Metal
+|Clear
+|Black
+|[[BW]]
+|4017
+| Malaysia
+|Grey Dump Bed; raises in back
+|[[File:Peterbilt_Dump_Yel.JPG|75px]]
+|-
+|[[Sunagon]]
+|Metalflake Blue and Light Blue
+|No tampos
+|Unpainted<br>/<br>Metal 
+|Clear
+|Tan
+|[[BW]]
+|3251 
+|Malaysia
+|Blue Top
+|[[Image:Sunagon_Blue.JPG|75px]]
+|-
+|[[Upfront 924]]
+|Metalflake Gold
+|Red, Yellow &amp; Black stripes "turbo 924" on sides
+|Unpainted<br>/<br>Metal
+|Smoke
+|Red
+|[[BW]]
+|
+|Malaysia
+|Red ski rack on back window
+|[[File:Upfront_944_Goldextras.jpg|75px]]
+|}
+
+==[[HiRakers]]==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid" |'''Casting Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |
+'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br>/<br>Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Country'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[3-Window '34]]
+|[[Hi-Rakers|HiRakers]]
+|Metalflake Red w/ Brown fenders 
+|Yellow flame on trunk, Yellow lines with 'Hot Rod' and Black rectangle on roof
+|Unpainted<br>/<br>Metal 
+|Clear
+|Chrome & Black
+|[[BW]]
+| 1132
+|Hong Kong
+|
+|[[File:3-Window '34 package front.png|75px]]
+|}
+
+==See Also==
+*[[Speed Machines (1983)]]
+
+==Gallery==
+<gallery>
+31_Doozie_ExtraPk.JPG|'31 Doozie in Extras package
+Dsc_0216.jpg|Stickers (hwvette.com)
+</gallery>
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:1983]]
+[[Category:1983 Hot Wheels| ]]
+[[Category:Lists of Hot Wheels by year|1983]]

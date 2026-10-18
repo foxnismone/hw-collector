@@ -1,0 +1,898 @@
+==2027 Hot Wheels #1-250==
+For 2027, the Hot Wheels mainline is numbered 1 through 250 with color variations not receiving a new number. Treasure Hunts and store exclusives are numbered. For the listing by series see [[List of 2027 Hot Wheels (by Series)]].
+
+{| class="sortable wikitable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid; |Toy #
+! style="border-style: none none solid solid; |Col.#
+! style="border-style: none none solid solid; |Model Name
+! style="border-style: none none solid solid; |Series
+! style="border-style: none none solid solid; |Series #
+! style="border-style: none none solid solid; |Photo
+|-
+|JNX81
+|001
+|[[1989 Batmobile|Batmobile]]
+|bgcolor="black" |[[Batman Mini Collection (2027)|<font color="white">Batman</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY02
+|002
+|[['84 Audi Sport quattro]]
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD60
+|002
+|[['84 Audi Sport quattro]] (2nd Color)
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]<br>{{KR|white}}
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX82
+|003
+|[[McLaren F1]]
+|bgcolor="#89CFF0" |[[HW Fan Driven Mini Collection (2027)|<font color="white">HW Fan Driven</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX83
+|004
+|[[Porsche 911 GT3 RS (2016)|Porsche 911 GT3 RS]]
+|bgcolor="#89CFF0" |[[HW Fan Driven Mini Collection (2027)|<font color="white">HW Fan Driven</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD61
+|004
+|[[Porsche 911 GT3 RS (2016)|Porsche 911 GT3 RS]] (2nd Color)
+|bgcolor="#89CFF0" |[[HW Fan Driven Mini Collection (2027)|<font color="white">HW Fan Driven</font>]]<br>{{KR|white}}
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX84
+|005
+|[[Forward Force]]
+|bgcolor="#1A1A1A" |[[X-Raycers Mini Collection (2027)|<font color="white">X-Raycers</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX85
+|006
+|[[Hi-Roller]]
+|bgcolor="#1A1A1A" |[[X-Raycers Mini Collection (2027)|<font color="white">X-Raycers</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX86
+|007
+|[[Drift-Ender]]
+|bgcolor="#90EE90" |[[Circuit Breakers Mini Collection (2027)|<font color="white">Circuit Breakers</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD67
+|007
+|[[Drift-Ender]] (2nd Color)
+|bgcolor="#E80018" |[[Red Edition Mini Collection (2027)|<font color="white">Red Edition</font>]]<br>{{TG}}
+|?/12
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX87
+|008
+|[[Kowloon'd Hypervan]]
+|bgcolor="#FFF979" |[[HW Heavyweights Mini Collection (2027)|<font color="black">HW Heavyweights</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX88
+|009
+|[[Corvette Grand Sport Roadster]]
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD41
+|009
+|[[Corvette Grand Sport Roadster]] (2nd Color - Zamac)
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]<br>{{WM|2027}}
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|009
+|[[Corvette Grand Sport Roadster]] (3rd Color)
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX32
+|010
+|[[1965 Honda RA272]]
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]<br>{{NM|2027}}
+|2/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY06
+|011
+|[['67 Lotus Type 49|'68 Lotus Type 49]]
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]
+|3/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX90
+|012
+|[[Night Shifter]]
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX91
+|013
+|[['22 Ford Maverick Custom]]
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]
+|2/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD68
+|013
+|[['22 Ford Maverick Custom]] (2nd Color)
+|bgcolor="#E80018" |[[Red Edition Mini Collection (2027)|<font color="white">Red Edition</font>]]<br>{{TG}}
+|?/12
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX31
+|014
+|[[Ultra Turbofire]]
+|bgcolor="#DC2430"|[[Hot Wheels Let's Race Mini Collection (2027)|<font color="white">Hot Wheels Let's Race</font>]]<br>{{NM|2027|white}}
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX92
+|015
+|[[Sandivore]]
+|bgcolor="#DC2430"|[[Hot Wheels Let's Race Mini Collection (2027)|<font color="white">Hot Wheels Let's Race</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX34
+|016
+|[[Tooned Bone Shaker]]
+|bgcolor="#696969" |[[Rod Squad Mini Collection (2027)|<font color="white">Rod Squad</font>]]<br>{{NM|2027|white}}
+|1/10
+|[[File:'ToonedBoneShaker.jpg|center|75px]]
+|-
+|
+|016
+|[[Tooned Bone Shaker]] (2nd Color)
+|bgcolor="#696969" |[[Rod Squad Mini Collection (2027)|<font color="white">Rod Squad</font>]]<br>{{NM|2027|white}}
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX93
+|017
+|[[Lil' Mad]]
+|bgcolor="#696969" |[[Rod Squad Mini Collection (2027)|<font color="white">Rod Squad</font>]]
+|2/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD62
+|017
+|[[Lil' Mad]] (2nd Color)
+|bgcolor="#696969" |[[Rod Squad Mini Collection (2027)|<font color="white">Rod Squad</font>]]<br>{{KR|white}}
+|2/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD10
+|018
+|[[El Segundo Coupe]]
+|bgcolor="#BE0032" |[[HW Hall of Famers Mini Collection (2027)|<font color="white">HW Hall of Famers</font>]]<br>{{TH|2027}}
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX94
+|019
+|[[Celero GT]]
+|bgcolor="#BE0032" |[[HW Hall of Famers Mini Collection (2027)|<font color="white">HW Hall of Famers</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD40
+|019
+|[[Celero GT]] (2nd Color - Zamac)
+|bgcolor="#BE0032" |[[HW Hall of Famers Mini Collection (2027)|<font color="white">HW Hall of Famers</font>]]<br>{{WM|2027|white}}
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX95
+|020
+|[[Carbonator]]
+|bgcolor="#7851A9" |[[Mid-Engines Mini Collection (2027)|<font color="white">Mid-Engines</font>]]<br>[[Happy New Year|<font color="white">'''Happy New Year 2027'''</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX96
+|021
+|[[Ford GT-40|Ford GT40]]
+|bgcolor="#7851A9" |[[Mid-Engines Mini Collection (2027)|<font color="white">Mid-Engines</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX97
+|022
+|[[Raijin Express]]
+|bgcolor="#002E63" |[[HW Sketch Mode Mini Collection (2027)|<font color="white">HW Sketch Mode</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD59
+|022
+|[[Raijin Express]] (2nd Color)
+|bgcolor="#002E63" |[[HW Sketch Mode Mini Collection (2027)|<font color="white">HW Sketch Mode</font>]]<br>{{KR|white}}
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX98
+|023
+|[[Limited Grip]]
+|bgcolor="#002E63" |[[HW Sketch Mode Mini Collection (2027)|<font color="white">HW Sketch Mode</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX99
+|024
+|[['15 Dodge Challenger SRT]]
+|bgcolor="#006400" |[[Speed Blur Mini Collection (2027)|<font color="white">Speed Blur</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD43
+|024
+|[['15 Dodge Challenger SRT]] (2nd Color - Zamac)
+|bgcolor="#006400" |[[Speed Blur Mini Collection (2027)|<font color="white">Speed Blur</font>]]<br>{{WM|2027|white}}
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY00
+|025
+|[[Cupra e-Racer]]
+|bgcolor="#006400" |[[Speed Blur Mini Collection (2027)|<font color="white">Speed Blur</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD69
+|025
+|[[Cupra e-Racer]] (2nd Color)
+|bgcolor="#E80018" |[[Red Edition Mini Collection (2027)|<font color="white">Red Edition</font>]]<br>{{TG}}
+|?/12
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY01
+|026
+|[[Chrysler Pacifica]]
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]
+|2/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY03
+|027
+|[[Ridge Crest GT]]
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]
+|3/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY04
+|028
+|[[HW Test Ride]]
+|bgcolor="#1A1A1A" |[[X-Raycers Mini Collection (2027)|<font color="white">X-Raycers</font>]]
+|3/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY07
+|029
+|[['69 Ford Mustang Boss 302]]
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]
+|4/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|029
+|[['69 Ford Mustang Boss 302]] (2nd Color)
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]
+|4/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY08
+|031
+|[[Mazda RX-7]]
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]
+|3/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD42
+|031
+|[[Mazda RX-7]] (2nd Color - Zamac)
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]<br>{{WM|2027}}
+|3/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY09
+|032
+|[['09 Cadillac CTS-V|Cadillac CTS-V]]
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]
+|4/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD58
+|032
+|[['09 Cadillac CTS-V|Cadillac CTS-V]] (2nd Color)
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]<br>{{DT}}
+|4/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX35
+|033
+|[['77 Ferrari 308 GTS|Ferrari 308 GTS]]
+|bgcolor="#D40000" |[[Ferrari Mini Collection (2027)|<font color="black">Ferrari</font>]]<br>{{NM|2027}}
+|1/5
+|[[File:Ferrari308GTS.jpg|center|75px]]
+|-
+|JNY10
+|034
+|[[Ferrari F2004]]
+|bgcolor="#D40000" |[[Ferrari Mini Collection (2027)|<font color="black">Ferrari</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY11
+|035
+|[[Croc Rod]]
+|bgcolor="#DC2430"|[[Hot Wheels Let's Race Mini Collection (2027)|<font color="white">Hot Wheels Let's Race</font>]]
+|3/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY12
+|036
+|[[2020 Koenigsegg Jesko]]
+|bgcolor="#28AADE" |[[Factory Fresh Mini Collection (2027)|<font color="black">Factory Fresh</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY13
+|037
+|[[VW ID. Buzz Bomb]]
+|bgcolor="#28AADE" |[[Factory Fresh Mini Collection (2027)|<font color="black">Factory Fresh</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY14
+|038
+|[['64 Lincoln Continental (2007)|'64 Lincoln Continental]]
+|bgcolor="#FFF979" |[[Best in Class Mini Collection (2027)|<font color="black">Best in Class</font>]]
+|1/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD26
+|038
+|[['64 Lincoln Continental (2007)|'64 Lincoln Continental]]
+|bgcolor="#FFF979" |[[Best in Class Mini Collection (2027)|<font color="black">Best in Class</font>]]<br>{{STH|2027}}
+|1/5
+|[[File:Lincoln TH 2027.jpg|center|75px]]
+|-
+|JNY15
+|039
+|[[Screamliner]]
+|bgcolor="#FFF979" |[[Best in Class Mini Collection (2027)|<font color="black">Best in Class</font>]]
+|2/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX37
+|040
+|[[Polski Fiat 126p]]
+|bgcolor="#F9C62C" |[[HW Euro Mini Collection (2027)|<font color="black">HW Euro</font>]]<br>{{NM|2027}}
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY16
+|041
+|[[2019 Audi TT Safari]]
+|bgcolor="#F9C62C" |[[HW Euro Mini Collection (2027)|<font color="black">HW Euro</font>]]
+|2/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY05
+|042
+|[[Pagani Zonda Cinque (Tooned)|Pagani Zonda Cinque]]
+|bgcolor="#F9C62C" |[[HW Euro Mini Collection (2027)|<font color="black">HW Euro</font>]]
+|3/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD72
+|042
+|[[Pagani Zonda Cinque (Tooned)|Pagani Zonda Cinque]] (2nd Color)
+|bgcolor="#E80018" |[[Red Edition Mini Collection (2027)|<font color="white">Red Edition</font>]]<br>{{TG}}
+|?/12
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY17
+|043
+|[['61 Impala]]
+|bgcolor="#696969" |[[Rod Squad Mini Collection (2027)|<font color="white">Rod Squad</font>]]
+|3/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD71
+|043
+|[['61 Impala]] (2nd Color)
+|bgcolor="#E80018" |[[Red Edition Mini Collection (2027)|<font color="white">Red Edition</font>]]<br>{{TG}}
+|?/12
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY18
+|044
+|[[Pass'n Gasser]]
+|bgcolor="#696969" |[[Rod Squad Mini Collection (2027)|<font color="white">Rod Squad</font>]]
+|4/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY19
+|045
+|[[Rodger Dodger]]
+|bgcolor="#EB1D25" |[[Then and Now Mini Collection (2027)|<font color="black">Then and Now</font>]]
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY20
+|046
+|[['99 Honda Civic Type R (EK9)]]
+|bgcolor="#EB1D25" |[[Then and Now Mini Collection (2027)|<font color="black">Then and Now</font>]]
+|2/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY21
+|047
+|[['87 Buick Regal GNX]]
+|bgcolor="#EB1D25" |[[Then and Now Mini Collection (2027)|<font color="black">Then and Now</font>]]
+|3/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD11
+|049
+|[[High-Tail Chaser]]
+|bgcolor="#7851A9" |[[Mid-Engines Mini Collection (2027)|<font color="white">Mid-Engines</font>]]<br>{{TH|2027}}
+|3/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY22
+|050
+|[[BMW M3 GT2]]
+|bgcolor="#006400" |[[Speed Blur Mini Collection (2027)|<font color="white">Speed Blur</font>]]
+|3/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY32
+|063
+|[[BMW M4 GT3]]
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]
+|5/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD27
+|063
+|[[BMW M4 GT3]]
+|bgcolor="#E60026" |[[Nightspeed Mini Collection (2027)|<font color="black">Nightspeed</font>]]<br>{{STH|2027}}
+|5/10
+|[[File:JPD27 $TH BEAMER c.jpg|center|75px]]
+|-
+|JNX38
+|067
+|[[VW Golf Mk1 GTI]]
+|bgcolor="#F9C62C" |[[HW Euro Mini Collection (2027)|<font color="black">HW Euro</font>]]<br>{{NM|2027}}
+|4/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD57
+|067
+|[[VW Golf Mk1 GTI]] (2nd Color)
+|bgcolor="#F9C62C" |[[HW Euro Mini Collection (2027)|<font color="black">HW Euro</font>]]<br>{{NM|2027}}<br>{{DT}}
+|4/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX42
+|075
+|[[Draguar]]
+|bgcolor="#000080" |[[Drag Racers Mini Collection (2027)|<font color="white">Drag Racers</font>]]<br>{{NM|2027|white}}
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX40
+|088
+|[[Braille Racer - Deora II|Deora II]]
+|bgcolor="#696969" |[[Rod Squad Mini Collection (2027)|<font color="white">Rod Squad</font>]]<br>{{NM|2027|white}}
+|5/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX75
+|105
+|[[Drifty Seven]]
+|bgcolor="#7C0902" |[[HW Future Past Mini Collection (2027)|<font color="white">HW Future Past</font>]]<br>{{NM|2027|white}}
+|1/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX54
+|108
+|[['24 Toyota GR86 Pandem]]
+|bgcolor="#54CBF5" |[[HW J-Imports Mini Collection (2027)|<font color="black">HW J-Imports</font>]]<br>{{NM|2027}}
+|5/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX46
+|113
+|[[Ferrari 296 GTS]]
+|bgcolor="#D40000" |[[Ferrari Mini Collection (2027)|<font color="black">Ferrari</font>]]<br>{{NM|2027}}
+|3/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY76
+|118
+|[['88 Mitsubishi Starion]]
+|bgcolor="#28AADE" |[[Factory Fresh Mini Collection (2027)|<font color="black">Factory Fresh</font>]]
+|3/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD29
+|118
+|[['88 Mitsubishi Starion]]
+|bgcolor="#28AADE" |[[Factory Fresh Mini Collection (2027)|<font color="black">Factory Fresh</font>]]<br>{{STH|2027}}
+|3/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|}
+<!-- graphics leads 
+Leeway Chang: Batman, Hot Wheels Let's Race, Throwback Cruisers, Ferrari, Factory Fresh
+Mike McClone: HW Dirt, Nightspeed, HW Hall of Famers, Mid-Engines, Speed Blur
+Andrés Andrieu: Circuit Breakers, Rod Squad, X-Raycers, Then and Now, HW Drag Racers, HW J-Imports
+Anton Henggono: HW Heavyweights, Sketch Mode, Best in Class, HW Euro
+-->
+
+==Confirmed Mainline Castings==
+{{UnreleasedNotice}}
+These are numbered releases that are confirmed but information is unclear. <!-- all 2027 New Models will likely reappear in 2027 in some form -->
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid; background:" |Toy #
+! style="border-style: none none solid solid; background:" |Col.#
+! style="border-style: none none solid solid; background:" |Model Name
+! style="border-style: none none solid solid; background:" |Series
+! style="border-style: none none solid solid; background:" |Series #
+! style="border-style: none none solid solid; background:" |Photo
+|-
+|JJH38
+|
+|[[Radford Type 62-2 Roadster]]
+|bgcolor="#7851A9" |[[Mid-Engines Mini Collection (2027)|<font color="white">Mid-Engines</font>]]<br>{{NM|2027|white}}
+|?/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX36
+|
+|[[Tyco Turbo Hopper]]
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]<br>{{NM|2027|white}}
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX39
+|
+|[[Nissan Skyline GT-R (BNR34) (police)|Nissan Skyline GT-R (BNR34)]]
+|bgcolor="#54CBF5" |[[HW J-Imports Mini Collection (2027)|<font color="black">HW J-Imports</font>]]<br>{{NM|2027}}
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD70
+|
+|[[Nissan Skyline GT-R (BNR34) (police)|Nissan Skyline GT-R (BNR34)]] (2nd Color)
+|bgcolor="#E80018" |[[Red Edition Mini Collection (2027)|<font color="white">Red Edition</font>]]<br>{{NM|2027|white}}<br>{{TG}}
+|?/12
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX44
+|
+|[[Starting Bloc]]
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]<br>{{NM|2027}}
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX49
+|
+|[[2026 Morgan Super Sport]]
+|bgcolor="#28AADE" |[[Factory Fresh Mini Collection (2027)|<font color="black">Factory Fresh</font>]]<br>{{NM|2027}}
+|?/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX60
+|
+|[[1989 Ford Mustang LX]]
+|bgcolor="#000080" |[[Drag Racers Mini Collection (2027)|<font color="white">Drag Racers</font>]]<br>{{NM|2027|white}}
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX43
+|
+|[[Formula 1 (2027)|Cadillac Formula 1 Team]]
+|TBD<br>{{NM|2027}}
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX52
+|
+|[['25 Ford Shelby F-150 Super Snake]]
+|TBD<br>{{NM|2027}}
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX55
+|
+|[[Rondres W-33]]
+|TBD<br>{{NM|2027}}
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY39
+|
+|[[1971 Nissan Skyline H/T 2000 GT-R]]
+|bgcolor="#EB1D25" |[[Then and Now Mini Collection (2027)|<font color="black">Then and Now</font>]]<br>{{NIM}}
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY29
+|
+|[[Aston Martin DB5 Safari Edition]]
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]
+|?/10
+|[[File: Image Not Available.jpg|center|75px]]
+|-
+|JPD25
+|
+|[[Aston Martin DB5 Safari Edition]]
+|bgcolor="#FFD300" |[[Throwback Cruisers Mini Collection (2027)|<font color="black">Throwback Cruisers</font>]]<br>{{STH|2027}}
+|?/10
+|[[File: Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[['87 Dodge D100]]
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD28
+|
+|[['87 Dodge D100]]
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]<br>{{STH|2027}}
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Ferrari 12Cilindri]]
+|bgcolor="#D40000" |[[Ferrari Mini Collection (2027)|<font color="black">Ferrari</font>]]
+|?/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD34
+|
+|[[Ferrari 12Cilindri]]
+|bgcolor="#D40000" |[[Ferrari Mini Collection (2027)|<font color="black">Ferrari</font>]]<br>{{STH|2027}}
+|?/5
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[['67 Shelby GT500 (2010)|'67 Shelby GT500]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[['67 Shelby GT500 (2010)|'67 Shelby GT500]]
+|TBD<br>{{STH|2027}}
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Nissan Patrol Custom]]
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JPD56
+|
+|[[Nissan Patrol Custom]] (2nd Color)
+|bgcolor="#BA6E11" |[[HW Dirt Mini Collection (2027)|<font color="white">HW Dirt</font>]]<br>{{DT|white}}
+|?/10
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[['67 Camaro]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Gazella R]]
+|TBD<br>{{TH|2027}}
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY44
+|
+|[['69 Dodge Coronet Superbee]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[['70 Buick GSX]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY31
+|
+|[[1972 Datsun Sunny Coupe]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[['73 BMW 3.0 CSL Race Car]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY52
+|
+|[['17 Acura NSX]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY56
+|
+|[['17 Ford F-150 Raptor]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[2018 Bentley Continental GT3]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[2018 Honda Civic Type R]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY38
+|
+|[[2020 Ford Mustang Shelby GT500]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY55
+|
+|[[2020 Ram 1500 Rebel]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY70
+|
+|[[Custom 2020 Honda e]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY72
+|
+|[[Deora Too'nd]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY51
+|
+|[[Fiat Beast of Turin]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Mad Drip]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNX89
+|
+|[[Maserati Tipo 61]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Mickey Mouse Car]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Nissan Skyline RS (KDR30)]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Pass 'n Go]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Porsche 908-3]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY97
+|
+|[[SRT Viper GTS-R]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY68
+|
+|[[Subaru WRX STI]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|
+|
+|[[Tooned Purple Passion]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|JNY23
+|
+|[[TV Series Batmobile]]
+|TBD
+|
+|[[File:Image Not Available.jpg|center|75px]]
+|-
+|}
+
+{{Lists}}
+[[Category:2027 Hot Wheels]]
+[[Category:Lists of Hot Wheels by year]]

@@ -1,0 +1,17 @@
+This article is a '''list of [[Hot Wheels]]''' released in '''1972.'''
+
+==New Castings==
+<gallery navigation="true">
+Image:Ferrari512S.jpg|[[Ferrari 512S]]|link=Ferrari 512S
+Image:Funnymoney.jpg|[[Funny Money]]|link=Funny Money
+Image:Mercedesbenzc111.jpg|[[Mercedes-Benz C-111]]|link=Mercedes-Benz C-111
+Image:Openfire.jpg|[[Open Fire]]|link=Open Fire
+Image:Rearenginemongoose.jpg|[[Rear Engine Mongoose]]|link=Rear Engine Mongoose
+Image:Rearenginesnake.jpg|[[Rear Engine Snake]]|link=Rear Engine Snake
+Image:Sidekick.jpg|[[Side Kick]]|link=Side Kick
+</gallery>
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1972]]
+[[Category:1972 Hot Wheels|1972]]

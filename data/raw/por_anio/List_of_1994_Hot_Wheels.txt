@@ -1,0 +1,222 @@
+This article is a '''list of [[Hot Wheels]]''' released in '''1994.'''
+
+==New Models==
+{| style="font-size: 85%; text-align: left;" class="wikitable sortable" width="100%"
+|-
+!style="border-style: none none solid solid"|'''Col #'''
+!style="border-style: none none solid solid"|'''Car name'''
+!style="border-style: none none solid solid"|'''Series'''
+!style="border-style: none none solid solid"|'''Color'''
+!style="border-style: none none solid solid"|'''Tampo'''
+!style="border-style: none none solid solid"|'''Base Color<br/>/<br/>Type'''
+!style="border-style: none none solid solid"|'''Window Color'''
+!style="border-style: none none solid solid"|'''Interior Color'''
+!style="border-style: none none solid solid"|'''Wheel Type'''
+!style="border-style: none none solid solid"|'''Toy #'''
+!style="border-style: none none solid solid"|'''Notes'''
+!style="border-style: none none solid solid"|'''Photo'''
+|-
+|244
+|[[No Fear Race Car]]
+|
+|Black
+|White, Red "NO FEAR" "1" "RACER"
+|Black<br/>/<br/>Metal
+|N/A
+|Black
+|[[BW]]
+|11846
+|
+|[[Image:No_Fear_Race_Car_BlkBW.JPG|75px]]
+|-
+|245
+|[[Dragster|Driven To The Max]]
+|
+|Bright Orange & Grey wing
+|Red & Blue "DRIVEN TO THE MAX"
+|Unpainted<br/>/<br/>Metal
+|N/A
+|Grey
+|[[BW]]
+|11847
+|
+|[[Image:Dragster_Org.JPG|75px]]
+|-
+|246
+|[[Shadow Jet II]]
+|
+|Chrome
+|N/A
+|Black<br/>/<br/>Metal
+|Clear
+|Chrome
+|[[UH]]
+|11848
+|
+|[[Image:Shadow_Jet_II_Crm.JPG|75px]]
+|-
+|247
+|[[Rigor Motor]]
+|
+|Burgundy
+|Tiny White Hot Wheels Logo
+|Unpainted<br/>/<br/>Metal
+|Clear
+|Chrome
+|[[BW]]
+|11849
+|
+|[[Image:Rigor_Motor_MtRed.JPG|75px]]
+|-
+|248
+|[[Splittin' Image II]]
+|
+|Metallic Dark Purple
+|Tiny Red & White Hot Wheels Logo
+|Dark Blue<br/>/<br/>Plastic
+|Chrome
+|Unseen
+|[[UH|PUH]]
+|11850
+|
+|[[Image:Splittin'_Image_II_PrplUHpnkRt.JPG|75px]]
+|}
+
+==Reissues==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+!style="border-style: none none solid solid"|'''Col #'''
+!style="border-style: none none solid solid"|'''Car name'''
+!style="border-style: none none solid solid"|'''Series'''
+!style="border-style: none none solid solid"|'''Color'''
+!style="border-style: none none solid solid"|'''Tampo'''
+!style="border-style: none none solid solid"|'''Base Color<br/>/<br/>Type'''
+!style="border-style: none none solid solid"|'''Window Color'''
+!style="border-style: none none solid solid"|'''Interior Color'''
+!style="border-style: none none solid solid"|'''Wheel Type'''
+!style="border-style: none none solid solid"|'''Toy #'''
+!style="border-style: none none solid solid"|'''Notes'''
+!style="border-style: none none solid solid"|'''Photo'''
+|-
+|207
+|[[Vector "Avtech" WX-3]]
+|
+|Metalflake Lavender
+|Black stripe & Vector logo on sides
+|Black<br/>/<br/>Plastic
+|Tinted (Black)
+|Tan
+|[[UH]]
+|3050
+|
+|[[File:Vector Avtech PrpUH.JPG|75px]]
+|-
+|242
+|[['93 Camaro]]
+|
+|Dark Blue Enamel
+|White, Red, Yellow Hot Wheels Logo, "JACK BALDWIN" & Red Chevy logo on roof, Black "1"
+|Grey<br/>/<br/>Plastic
+|Clear
+|White
+|[[BW]]
+|11243
+|
+|[[file:93 Camaro EnamelBlue.JPG|75px]]
+|-
+|254
+|[[Sol-Aire CX-4]]
+|
+|Metallic Blue
+|Hot Wheels Race Team Deco. "1", Chevy Logo
+|White<br/>/<br/>Plastic
+|Clear
+|White
+|[[UH]]
+|
+|
+|[[File:Sol Aire BluUH.JPG|75px]]
+|-
+|255
+|[[BMW 850i]]
+|
+|Metalflake Dark Blue
+|Tiny Red Hot Wheels logo on back window
+|Black<br/>/<br/>Plastic
+|Tinted (Black)
+|Red
+|[[UH]]
+|5667
+|
+|[[Image:BMW_850_MtBluUH1.JPG|75px]]
+|-
+|255
+|[[BMW 850i]]
+|
+|Metalflake Dark Blue
+|Tiny Red Hot Wheels logo on back window
+|Black<br/>/<br/>Plastic
+|Tinted (Black)
+|Red
+|[[GUH]]
+|5667
+|
+|[[Image:BMW_850_MtBluUHG.JPG|75px]]
+|-
+|232
+|[[Lamborghini Countach]]
+|
+|Red
+|White, Black "Countach"
+|Red<br/>/<br/>Metal
+|Tinted (Black)
+|Black
+|[[GUH]]
+|4384
+|
+|[[File:Cod64.jpg|75px]]
+|-
+|234
+|[[Nissan Custom "Z"]]
+|
+|Metalflake Purple
+|Yellow stripes on hood & roof, '300ZX' on hood
+|Unpainted<br/>/<br/>Metal
+|Clear
+|Black
+|[[UH]]
+|13584
+|''Came with 5 wheel variations''
+|[[File:Nissan Custom Z PrpUH.JPG|75px]]
+|-
+|INTL
+|[[CAT Road Roller|Road Roller]]
+|1994 INTL
+|Yellow
+|N/A
+|Black<br/>/<br/>Plastic
+|Black
+|Black
+|[[Roller]]
+|3853
+|
+|[[File:Image_Not_Available.jpg|75px]]
+|-
+|159
+|[[Big Bertha|Tough Customer]]
+|
+|Light Grey
+|Brown, Black & White Camouflage
+|Light Grey<br>/<br>Plastic
+|Black [[MGW]]
+|13192
+|Black [[MGW]]
+|13192
+|
+|[[File:Big_Bertha_gryL.JPG|75px]]
+|}
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1994]]
+[[Category:1994 Hot Wheels|1994]]

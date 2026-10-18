@@ -1,0 +1,363 @@
+This article is a '''list of [[Hot Wheels]]''' released in '''1988.'''
+
+* All Vehicles were made in Malaysia
+
+==New Castings==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid |'''Car Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br />/<br />Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[Alien]]
+|
+|Blue & Silver
+|No tampos
+|Unpainted<br />/<br />Metal
+|Black Tint
+|Silver painted metal 
+|[[UH]]
+|5026
+|''Short run color''
+|[[Image:Alien_BluUH.JPG|75px]]
+|-
+|[[Alien]]
+|
+|Red & Silver
+|No tampos
+|Unpainted<br />/<br />Metal
+|Black Tint
+|Silver painted metal
+|[[UH]]
+|5026
+|
+|[[Image:Alien_redUH.JPG|75px]]
+|-
+|[[Flame Stopper]]
+|[[Workhorses]]
+|Red w/ Yellow water cannon
+|Yellow, White "Fire Dept" "Unit 31"
+|Black<br />/<br />Plastic
+|Black
+|Unseen
+|[[CT]]
+| 5027
+|
+|[[Image:Flame_Stopper_RedCT.JPG|75px]]
+|-
+|[[Lamborghini Countach]]
+|[[Speed Fleet]]
+|White
+|No tampos
+|White<br />/<br />Metal
+|Black
+| Unseen
+|[[UH]]
+|4384 
+|
+|[[Image:Cod60.jpg|75px]]
+|-
+|[[Rodzilla]]
+|[[Speed Demons]]
+|Purple
+|White teeth & yellow eyes
+|Purple
+|N/A
+|N/A
+|[[UH]]
+|4389
+|
+|[[File:Rodzilla PrpUH.JPG|75px]]
+|-
+|[[Nissan Hardbody]]
+|
+|White & Red
+|Blue, Red "NISSAN", "4x4"
+|Unpainted<br />/<br />Metal
+|Clear
+|Black
+|[[CT]]
+|4392
+|
+|[[Image:Nissan_Harbody_WhtRd.JPG|75px]]
+|-
+|[[Porsche 959]]
+|[[List of 1988 Hot Wheels|1988 Hot Wheels]]
+|Metallic Dark Red 
+|Orange & Yellow, "PORSCHE"
+|Unpainted<br />/<br />Metal
+|Clear
+|Tan
+|[[UH]]
+|4631
+|
+|[[Image:Porsche_959_DkMtRed.JPG|75px]]
+|-
+|[[Radar Ranger]]
+|[[Action Command]]
+|Metallic Silver
+|Black, Blue & Red markings
+|Unpainted<br />/<br />Metal
+|Clear
+|Black
+|[[CT]]
+|5022
+|
+|[[Image:Radar_Ranger_SilvCT.JPG|75px]]
+|-
+|[[Ratmobile]]
+|[[Speed Demons]]
+|White
+|Red & Black Eyes, Silver Teeth, Black Nose
+| Unpainted<br />/<br />Metal
+|N/A
+|White 
+|[[UH]]
+|5028
+|
+|[[Image:Ratmobile_WhtUH.JPG|75px]]
+|-
+|[[Shadow Jet]]
+|
+|Yellow
+|Red "Inter Cooled" and '''Purple''' "F-3" on top
+|Unpainted<br />/<br />Metal
+|Black Tint
+|Yellow
+|[[BW]]
+|4699
+|
+|[[Image:Shadow_Jet_YelPrp.JPG|75px]]
+|-
+|[[Sting Rod]]
+|[[Action Command]]
+|Olive
+|Green, Brown & Tan Camouflage
+| Olive<br />/<br />Plastic
+|N/A
+|Black
+|[[CT]] Black 
+|5025
+|
+|[[Image:Sting_Rod_OlivR.JPG|75px]]
+|-
+|[[Talbot Lago]]
+|[[Classics]]
+|Burgundy
+|No tampos
+|Unpainted<br />/<br />Metal
+|Grey Tint
+|Chrome
+|[[WW]]
+|4741
+|''Short run color''
+|[[Image:Talbot_Lago_Brg.JPG|75px]]
+|-
+|[[Talbot Lago]]
+|[[Classics]]
+|White
+|No tampos
+|Unpainted<br />/<br />Metal
+|Grey Tint
+|Chrome
+|[[WW]]
+|4741
+|
+|[[Image:White Talbot Lago 5358ef.jpg|75px]]
+|}
+
+==Reissues==
+{| class="wikitable sortable" style="font-size: 85%; text-align: left;" width="100%"
+|-
+! style="border-style: none none solid solid" |'''Car Name'''
+! style="border-style: none none solid solid" |'''Series'''
+! style="border-style: none none solid solid" |'''Color'''
+! style="border-style: none none solid solid" |'''Tampo'''
+! style="border-style: none none solid solid" |'''Base Color<br />/<br />Type'''
+! style="border-style: none none solid solid" |'''Window Color'''
+! style="border-style: none none solid solid" |'''Interior Color'''
+! style="border-style: none none solid solid" |'''Wheel Type'''
+! style="border-style: none none solid solid" |'''Toy #'''
+! style="border-style: none none solid solid" |'''Notes'''
+! style="border-style: none none solid solid" |'''Photo'''
+|-
+|[[Fire Chief]]
+|
+|Red
+|Yellow & Black 'Fire Chief' & White & Black '5' on sides
+|Unpainted<br />/<br />Metal 
+|Blue Tint
+| Black
+|[[BW]]
+|4005
+|''Only release''
+|[[File:Fire Chief package front.png|75px]]
+|-
+|[[Ferrari Testarossa (1987)|Ferrari Testarossa]]
+|
+|Red
+|Ferrari Logo and Text on hood 
+| Red<br />/<br />Metal 
+|Clear
+|Black
+|[[UH]]
+|1897
+|
+|[[Image:Ferrari Testarrosa Red2.JPG|75px]]
+|-
+|[[Fire Eater]]
+|
+|Yellow
+|"3" with red star on sides
+|Chrome<br />/<br />Plastic
+|Blue Tint
+| Clear Blue
+|[[BW]]
+|4001
+|
+|[[File:Fire Eater YelBW.JPG|75px]]
+|-
+|[[P-911|911 Turbo]]
+|
+|Black
+|None
+|Unpainted<br />/<br />Metal 
+|Black Tint
+| Black
+|Gold [[BW]]
+|7648
+|
+|[[File:P-911 Blk.JPG|75px]]
+|-
+|[[P-911|911 Turbo]]
+|
+|White
+|Yellow, Red, and Black "95"
+| Unpainted<br />/<br />Metal 
+|Black Tint
+| Black
+|Gold [[BW]]
+|3969
+|
+|[[File:P-911 Wht 95BWG.JPG|75px]]
+|-
+|[[Sol-Aire CX-4]]
+|
+|Red
+|Purple, Yellow & Orange "ULTRAHOTS"
+|Unpainted<br />/<br />Metal 
+|Black
+|Unseen
+|UH
+|9342
+|
+|[[File:Sol Aire redmag.JPG|75px]]
+|-
+|[[Jeep CJ-7]]
+|
+|White
+|Black, Red and Orange eagle on hood 
+| Unpainted<br />/<br />Metal 
+|Clear
+|Black
+|[[BW]]
+|3259
+|
+|[[File:Jeep_CJ7_WhtBlkBW.JPG|75px]]
+|-
+|[[Jeep CJ-7]]
+|
+|Yellow
+|Purple and Orange ribbon w/"Jeep" on hood 
+| Unpainted<br />/<br />Metal 
+|Clear
+|Black
+|[[BW]]
+|3954
+|
+|[[File:Jeep_CJ7_Yelrib.JPG|75px]]
+|-
+|[[Big Bertha]]
+|
+|Light Tan
+|Green, Burgundy & White Camouflage
+|Light Tan<br>/<br>Plastic
+|
+|
+|Black [[MGW]]
+|9372
+|
+|[[File:6_bb_Tan_1990.jpg|75px]]
+|-
+|[[Rescue Ranger]]
+|
+|Red
+|Yellow & Black, "Hot Wheels Rescue" 
+|Chrome<br>/<br>Plastic
+|Smoke
+|Black
+|[[BW]]
+|5145
+|
+|[[Image:Emergency Squad Temp.JPG|75px]]
+|-
+|[[Corvette Stingray (1976)|Corvette Stingray]]
+|
+|White
+|Black, Blue, & Red stripes "35" "CORVETTE" Checkered flags on hood 
+| Unpainted<br>/<br>Metal
+|Tinted (Blue)
+|Blue Tint
+|[[GHO]]
+|9525
+|
+|[[Image:Corvette_StingrayWhtgho.JPG|75px]]
+|-
+|[[Corvette Stingray (1976)|Corvette Stingray]]
+|
+|Metalflake Silver
+|Yellow, Purple & Orange stripes "CORVETTE" twice on hood 
+| Unpainted<br>/<br>Metal
+|Tinted (Black) 
+|Black Tint
+|[[BW]]
+|1448
+|
+|[[Image:Corvette_Stingray_SilvBW.JPG|75px]]
+|-
+|[[Formula Fever|Thunderstreak]]
+|
+|Maroon and Purple
+|Orange, Red, White "8"
+|Unpainted<br>/<br>Metal
+|N/A
+|Purple
+|[[BW]]
+|2540
+|
+|[[Image:Thunderstreak_MrnBW.JPG|75px]]
+|-
+|[['57 T-Bird]] 
+|
+|White
+|Blue & Red stripes
+|[[ZAMAC]]
+|Blue tint
+|Blue tint
+|[[BW]]
+|3993
+|
+|[[File:57_T-Bird_Wht.JPG|75px]]
+|}
+
+==Hot Wheels by Year==
+{{Lists}}
+[[Category:Lists of Hot Wheels by year|1988]]
