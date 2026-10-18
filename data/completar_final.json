@@ -2882,6 +2882,504 @@
       "anio": 1994,
       "titulo_wiki": "Dragster",
       "diseñador": "Larry Wood"
+    },
+    "11849": {
+      "nombre": "Rigor-Motor",
+      "anio": 1994,
+      "titulo_wiki": "Rigor Motor",
+      "diseñador": "Bruce Baur"
+    },
+    "13341": {
+      "nombre": "Speed-A-Saurus",
+      "anio": 1995,
+      "titulo_wiki": "Speed-A-Saurus",
+      "diseñador": "Larry Wood"
+    },
+    "14913": {
+      "nombre": "Street Cleaver",
+      "anio": 1996,
+      "titulo_wiki": "Street Cleaver",
+      "diseñador": "Larry Wood"
+    },
+    "14910": {
+      "nombre": "Rail Rodder",
+      "anio": 1996,
+      "titulo_wiki": "Rail Rodder",
+      "diseñador": "Larry Wood"
+    },
+    "14912": {
+      "nombre": "VW Bus",
+      "anio": 1996,
+      "titulo_wiki": "Volkswagen Drag Bus",
+      "diseñador": "Phil Riehlman"
+    },
+    "16301": {
+      "nombre": "Mercedes 500SL",
+      "anio": 1996,
+      "titulo_wiki": "Mercedes-Benz 500 SL",
+      "diseñador": "Corgi Toys"
+    },
+    "16306": {
+      "nombre": "Corvette Coupe",
+      "anio": 1996,
+      "titulo_wiki": "Corvette Coupe",
+      "diseñador": "Corgi Toys"
+    },
+    "16670": {
+      "nombre": "'59 Chevy Impala",
+      "anio": 1997,
+      "titulo_wiki": "'59 Chevy Impala",
+      "diseñador": "Larry Wood"
+    },
+    "18555": {
+      "nombre": "Chevy Stocker",
+      "anio": 1997,
+      "titulo_wiki": "Chevy Stocker",
+      "diseñador": "Larry Wood"
+    },
+    "18535": {
+      "nombre": "'70 Roadrunner",
+      "anio": 1998,
+      "titulo_wiki": "'70 Plymouth Roadrunner (1998)",
+      "diseñador": "Phil Riehlman"
+    },
+    "95650": {
+      "nombre": "Tipper",
+      "anio": 1998,
+      "titulo_wiki": "Tipping Lorry",
+      "diseñador": "Corgi Toys"
+    },
+    "21676": {
+      "nombre": "NBA Pro Show",
+      "anio": 1999,
+      "titulo_wiki": "NBA Pro Show Bus",
+      "diseñador": "Unknown"
+    },
+    "24375": {
+      "nombre": "MX48 Turbo",
+      "anio": 2000,
+      "titulo_wiki": "MX48 Turbo",
+      "diseñador": "Eric Tscherne"
+    },
+    "24390": {
+      "nombre": "Muscle Tone",
+      "anio": 2000,
+      "titulo_wiki": "Muscle Tone",
+      "diseñador": "Eric Tscherne"
+    },
+    "24396": {
+      "nombre": "Sho-Stopper",
+      "anio": 2000,
+      "titulo_wiki": "Seared Tuner",
+      "diseñador": "Eric Tscherne"
+    },
+    "24391": {
+      "nombre": "Austin Healey",
+      "anio": 2000,
+      "titulo_wiki": "Austin-Healey",
+      "diseñador": "Phil Riehlman"
+    },
+    "27246": {
+      "nombre": "Full Grid Exclusive",
+      "anio": 2000,
+      "titulo_wiki": "Way 2 Fast",
+      "diseñador": "Bruce Baur"
+    },
+    "28738": {
+      "nombre": "Super Tuned",
+      "anio": 2001,
+      "titulo_wiki": "Super Tuned",
+      "diseñador": "Eric Tscherne"
+    },
+    "28745": {
+      "nombre": "MS-T Suzuka",
+      "anio": 2001,
+      "titulo_wiki": "MS-T Suzuka",
+      "diseñador": "Eric Tscherne"
+    },
+    "28747": {
+      "nombre": "Evil Twin",
+      "anio": 2001,
+      "titulo_wiki": "Evil Twin",
+      "diseñador": "Larry Wood"
+    },
+    "28764": {
+      "nombre": "Monoposto",
+      "anio": 2001,
+      "titulo_wiki": "Monoposto",
+      "diseñador": "Alec Tam"
+    },
+    "52715": {
+      "nombre": "Mega-Duty",
+      "anio": 2001,
+      "titulo_wiki": "Mega-Duty",
+      "diseñador": "Alec Tam"
+    },
+    "28765": {
+      "nombre": "Riley & Scott Mk III",
+      "anio": 2001,
+      "titulo_wiki": "Riley & Scott Mk III (McDonald's)",
+      "diseñador": "McDonald's"
+    },
+    "52904": {
+      "nombre": "Tantrum",
+      "anio": 2002,
+      "titulo_wiki": "Tantrum",
+      "diseñador": "Eric Tscherne"
+    },
+    "52928": {
+      "nombre": "Super Smooth",
+      "anio": 2002,
+      "titulo_wiki": "Super Smooth",
+      "diseñador": "Alec Tam"
+    },
+    "52935": {
+      "nombre": "'68 Cougar",
+      "anio": 2002,
+      "titulo_wiki": "'68 Mercury Cougar (2002)",
+      "diseñador": "Phil Riehlman"
+    },
+    "52914": {
+      "nombre": "'64 Riviera",
+      "anio": 2002,
+      "titulo_wiki": "'64 Buick Riviera",
+      "diseñador": "Eric Tscherne"
+    },
+    "52941": {
+      "nombre": "Moto-Crossed",
+      "anio": 2002,
+      "titulo_wiki": "Moto-Crossed",
+      "diseñador": "Eric Tscherne"
+    },
+    "52936": {
+      "nombre": "40 Somethin'",
+      "anio": 2002,
+      "titulo_wiki": "40 Somethin'",
+      "diseñador": "Eric Tscherne"
+    },
+    "52939": {
+      "nombre": "Ballistik",
+      "anio": 2002,
+      "titulo_wiki": "Ballistik",
+      "diseñador": "Alec Tam"
+    },
+    "56357": {
+      "nombre": "Switchback",
+      "anio": 2003,
+      "titulo_wiki": "Switchback",
+      "diseñador": "Eric Tscherne"
+    },
+    "56361": {
+      "nombre": "Zotic",
+      "anio": 2003,
+      "titulo_wiki": "Zotic",
+      "diseñador": "Alec Tam"
+    },
+    "56366": {
+      "nombre": "Whip Creamer II",
+      "anio": 2003,
+      "titulo_wiki": "Whip Creamer II",
+      "diseñador": "Alec Tam"
+    },
+    "56374": {
+      "nombre": "HKS Altezza",
+      "anio": 2003,
+      "titulo_wiki": "HKS Altezza ('Tooned)",
+      "diseñador": "Dwayne Vance"
+    },
+    "56393": {
+      "nombre": "1941 Ford Pickup",
+      "anio": 2003,
+      "titulo_wiki": "1941 Ford Pickup ('Tooned)",
+      "diseñador": "Dave Weise"
+    },
+    "57170": {
+      "nombre": "Chevy Bel Air 1959",
+      "anio": 2003,
+      "titulo_wiki": "'59 Chevy Bel Air",
+      "diseñador": "Larry Wood"
+    },
+    "85532": {
+      "nombre": "Saturn Dealership Promo",
+      "anio": 2003,
+      "titulo_wiki": "Saturn Ion Quad Coupe",
+      "diseñador": "Unknown"
+    },
+    "B3530": {
+      "nombre": "Chevy Impala 1964",
+      "anio": 2004,
+      "titulo_wiki": "'64 Impala",
+      "diseñador": "Dave Weise"
+    },
+    "B3565": {
+      "nombre": "Hardnoze 2 Cool",
+      "anio": 2004,
+      "titulo_wiki": "2 Cool",
+      "diseñador": "Larry Wood"
+    },
+    "B3553": {
+      "nombre": "Hardnoze Merc 1949",
+      "anio": 2004,
+      "titulo_wiki": "'49 Merc (100%)",
+      "diseñador": "Larry Wood"
+    },
+    "B3538": {
+      "nombre": "Chevy Fleetline 1947",
+      "anio": 2004,
+      "titulo_wiki": "'47 Chevy Fleetline",
+      "diseñador": "Phil Riehlman"
+    },
+    "C2709": {
+      "nombre": "Ford Mustang GT Concept",
+      "anio": 2004,
+      "titulo_wiki": "Ford Mustang GT Concept",
+      "diseñador": "Dave Weise"
+    },
+    "C2744": {
+      "nombre": "Crooze Bedtime",
+      "anio": 2004,
+      "titulo_wiki": "Bedtime",
+      "diseñador": "Larry Wood"
+    },
+    "C2741": {
+      "nombre": "C6 Corvette",
+      "anio": 2004,
+      "titulo_wiki": "C6 Corvette",
+      "diseñador": "Larry Wood"
+    },
+    "C2755": {
+      "nombre": "Crooze Ozznberg",
+      "anio": 2004,
+      "titulo_wiki": "Ozznberg",
+      "diseñador": "Larry Wood"
+    },
+    "C2743": {
+      "nombre": "Torque Screw",
+      "anio": 2004,
+      "titulo_wiki": "Torque Screw",
+      "diseñador": "Eric Tscherne"
+    },
+    "C2758": {
+      "nombre": "Fatbax B-Machine",
+      "anio": 2004,
+      "titulo_wiki": "B-Machine",
+      "diseñador": "Glenn Yu"
+    },
+    "C2711": {
+      "nombre": "Customized VW Drag Truck",
+      "anio": 2004,
+      "titulo_wiki": "Customized VW Drag Truck (1:18)",
+      "diseñador": "Unknown"
+    },
+    "C2653": {
+      "nombre": "Auto Affinity: Special Delivery",
+      "anio": 2004,
+      "titulo_wiki": "'34 Ford Delivery",
+      "diseñador": "Larry Wood"
+    },
+    "G6728": {
+      "nombre": "Bully Goat",
+      "anio": 2005,
+      "titulo_wiki": "Bully Goat",
+      "diseñador": "Dwayne Vance"
+    },
+    "G6735": {
+      "nombre": "Maserati MC12",
+      "anio": 2005,
+      "titulo_wiki": "Maserati MC12 (2005)",
+      "diseñador": "Alec Tam"
+    },
+    "G7927": {
+      "nombre": "Phastasm",
+      "anio": 2005,
+      "titulo_wiki": "Phastasm",
+      "diseñador": "Dwayne Vance"
+    },
+    "G6729": {
+      "nombre": "Burl-Esque",
+      "anio": 2005,
+      "titulo_wiki": "Burl-Esque",
+      "diseñador": "Larry Wood"
+    },
+    "J3276": {
+      "nombre": "Mega Thrust",
+      "anio": 2006,
+      "titulo_wiki": "Night Burner",
+      "diseñador": "Phil Riehlman"
+    },
+    "J3430": {
+      "nombre": "'63 Chevy Impala",
+      "anio": 2006,
+      "titulo_wiki": "'63 Chevy Impala",
+      "diseñador": "Larry Wood"
+    },
+    "J3485": {
+      "nombre": "Old Number 5.5",
+      "anio": 2006,
+      "titulo_wiki": "Old Number 5.5",
+      "diseñador": "Larry Wood"
+    },
+    "K6138": {
+      "nombre": "Shelby Cobra Daytona Coupe",
+      "anio": 2007,
+      "titulo_wiki": "Shelby Cobra Daytona Coupe",
+      "diseñador": "Larry Wood"
+    },
+    "K6144": {
+      "nombre": "Straight Pipes",
+      "anio": 2007,
+      "titulo_wiki": "Straight Pipes",
+      "diseñador": "Larry Wood"
+    },
+    "L5364": {
+      "nombre": "1964 Ford Galaxie 500XL",
+      "anio": 2007,
+      "titulo_wiki": "Custom '64 Galaxie 500",
+      "diseñador": "Phil Riehlman"
+    },
+    "K6166": {
+      "nombre": "Custom '53 Chevy",
+      "anio": 2007,
+      "titulo_wiki": "Custom '53 Chevy",
+      "diseñador": "Larry Wood"
+    },
+    "L9920": {
+      "nombre": "'69 Dodge Coronet Super Bee",
+      "anio": 2008,
+      "titulo_wiki": "'69 Dodge Coronet Superbee",
+      "diseñador": "Phil Riehlman"
+    },
+    "L9940": {
+      "nombre": "Pass'n Gasser",
+      "anio": 2008,
+      "titulo_wiki": "Pass'n Gasser",
+      "diseñador": "Larry Wood"
+    },
+    "L9942": {
+      "nombre": "Ford Mustang Fastback",
+      "anio": 2008,
+      "titulo_wiki": "'65 Mustang 2+2 Fastback",
+      "diseñador": "Alec Tam"
+    },
+    "L9950": {
+      "nombre": "H2GO",
+      "anio": 2008,
+      "titulo_wiki": "H2GO",
+      "diseñador": "Larry Wood"
+    },
+    "N4018": {
+      "nombre": "Custom '53 Cadillac",
+      "anio": 2009,
+      "titulo_wiki": "Custom '53 Cadillac",
+      "diseñador": "Larry Wood"
+    },
+    "N4025": {
+      "nombre": "Tri & Stop Me",
+      "anio": 2009,
+      "titulo_wiki": "Tri & Stop Me",
+      "diseñador": "John Violette"
+    },
+    "N4034": {
+      "nombre": "'66 Ford Fairlane GT",
+      "anio": 2009,
+      "titulo_wiki": "'66 Ford 427 Fairlane",
+      "diseñador": "Phil Riehlman"
+    },
+    "R0935": {
+      "nombre": "Rapid Response",
+      "anio": 2010,
+      "titulo_wiki": "Rapid Response",
+      "diseñador": "Alec Tam"
+    },
+    "R0939": {
+      "nombre": "'08 Viper SRT10 ACR",
+      "anio": 2010,
+      "titulo_wiki": "Dodge Viper SRT10 ACR",
+      "diseñador": "Phil Riehlman"
+    },
+    "R0948": {
+      "nombre": "Scirocco GT 24",
+      "anio": 2010,
+      "titulo_wiki": "Scirocco GT 24",
+      "diseñador": "John Violette"
+    },
+    "R0927": {
+      "nombre": "Gallardo LP 560-4",
+      "anio": 2010,
+      "titulo_wiki": "Lamborghini Gallardo LP 560-4",
+      "diseñador": "John Violette"
+    },
+    "T9677": {
+      "nombre": "Fast Cash",
+      "anio": 2011,
+      "titulo_wiki": "Fast Cash",
+      "diseñador": "Alton Takeyasu"
+    },
+    "W9068": {
+      "nombre": "A-Team Van",
+      "anio": 2011,
+      "titulo_wiki": "Custom GMC Panel Van",
+      "diseñador": "Manson Cheung"
+    },
+    "V5297": {
+      "nombre": "'12 Camaro ZL1",
+      "anio": 2012,
+      "titulo_wiki": "'12 Camaro ZL1 Concept",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "V5304": {
+      "nombre": "'73 Pontiac Firebird",
+      "anio": 2012,
+      "titulo_wiki": "'73 Pontiac Firebird",
+      "diseñador": "Brendon Vetuskey"
+    },
+    "V5322": {
+      "nombre": "'78 Dodge Li'l Red Express Pickup",
+      "anio": 2012,
+      "titulo_wiki": "1978 Dodge Li'l Red Express Truck",
+      "diseñador": "Paul DeLorean"
+    },
+    "X1642": {
+      "nombre": "Quick N' Sik",
+      "anio": 2013,
+      "titulo_wiki": "Quick n' Sik",
+      "diseñador": "Brian Paik"
+    },
+    "X1649": {
+      "nombre": "Loop Coupe",
+      "anio": 2013,
+      "titulo_wiki": "Loop Coupe",
+      "diseñador": "Alton Takeyasu"
+    },
+    "NETFLIX-0000": {
+      "nombre": "Baja Truck",
+      "anio": 2024,
+      "titulo_wiki": "Baja Truck",
+      "diseñador": "Ryu Asada"
+    },
+    "NETFLIX-0001": {
+      "nombre": "Rocket Fire",
+      "anio": 2024,
+      "titulo_wiki": "RocketFire",
+      "diseñador": "Fraser Campbell"
+    },
+    "NETFLIX-0004": {
+      "nombre": "Solid Muscle",
+      "anio": 2025,
+      "titulo_wiki": "Solid Muscle",
+      "diseñador": "Tyler Charest"
+    },
+    "NETFLIX-0005": {
+      "nombre": "Ramblin' Wrecker",
+      "anio": 2024,
+      "titulo_wiki": "Ramblin' Wrecker",
+      "diseñador": "Larry Wood"
+    },
+    "NETFLIX-0007": {
+      "nombre": "HW Ultimate T-Rex Transporter",
+      "anio": 2025,
+      "titulo_wiki": "HW Ultimate T-Rex Transporter",
+      "diseñador": "JJ Hwang"
     }
   },
   "stats": {
@@ -2890,7 +3388,7 @@
     "sin_disenador_total": 666,
     "imagen_encontradas": 7,
     "numero_encontrados": 0,
-    "disenador_asignados": 473,
+    "disenador_asignados": 556,
     "errores": 10
   }
 }
