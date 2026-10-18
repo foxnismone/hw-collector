@@ -1,0 +1,967 @@
+{
+  "RL": {
+    "nombre": "Redline/Red Stripe (Type 1)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/Redline.png/revision/latest",
+    "anios": "1968 - 1977"
+  },
+  "RLBW": {
+    "nombre": "Redline Black Wall/Redline (Type 2)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e8/Redline2_-_6164bf.jpg/revision/latest",
+    "anios": "1973 - 1977"
+  },
+  "RL4": {
+    "nombre": "Neo Classic Redline (Type 4)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/Redline.png/revision/latest",
+    "anios": "2002 - present"
+  },
+  "BW": {
+    "nombre": "Basic Wheel/Black Wall",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/ea/BW%27s_-_6144bf.jpg/revision/latest",
+    "anios": "1977 - present"
+  },
+  "WW": {
+    "nombre": "White Wall",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/1/13/WW%27s_-_6147bf.jpg/revision/latest",
+    "anios": "1983 - present"
+  },
+  "GHO": {
+    "nombre": "Gold Hot Ones",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/7/7d/GHO%27s_-_6146bf.jpg/revision/latest",
+    "anios": "1980 - present"
+  },
+  "SHO": {
+    "nombre": "Silver Hot Ones",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/cb/2415bf.jpg/revision/latest",
+    "anios": "1980 - present"
+  },
+  "UH": {
+    "nombre": "Ultra Hot",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/52/UH%27s_-_6143bf.jpg/revision/latest",
+    "anios": "1984 - 1995"
+  },
+  "3SP": {
+    "nombre": "3 Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/42/3SP%27s_-_6149bf.jpg/revision/latest",
+    "anios": "1995 - 2008"
+  },
+  "5SP": {
+    "nombre": "5 Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/9e/5SP%27s_-_6150bf.jpg/revision/latest",
+    "anios": "1995 - present"
+  },
+  "7SP": {
+    "nombre": "7 Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/92/7SP.jpg/revision/latest",
+    "anios": "1995-present"
+  },
+  "BlackGYE7SP": {
+    "nombre": "Black 7 Spoke Wheels w/Goodyear lettering",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/3d/Wheels.BlackGYE7SP.100x100.jpg/revision/latest",
+    "anios": "1995 - present"
+  },
+  "5DOT": {
+    "nombre": "5 Dot",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/6c/5DOT.jpg/revision/latest",
+    "anios": "1996 - 2008"
+  },
+  "RL5SP": {
+    "nombre": "Redline 5 Spoke Wheels",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/52/Wheels.RL5SP.100x100.jpg/revision/latest",
+    "anios": "1997 - present"
+  },
+  "PR5": {
+    "nombre": "PR5",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/37/PR5%27s_-_6151bf.jpg/revision/latest",
+    "anios": "2000 - present"
+  },
+  "SK5": {
+    "nombre": "Skinny Wheel",
+    "url_imagen": "",
+    "anios": "2002-present"
+  },
+  "Y5": {
+    "nombre": "",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/1/12/2418bf.jpg/revision/latest",
+    "anios": "2002 - present"
+  },
+  "10SP": {
+    "nombre": "10 Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/ef/10SP.png/revision/latest",
+    "anios": "2003 - present"
+  },
+  "FTE": {
+    "nombre": "",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/c3/2423bf.jpg/revision/latest",
+    "anios": "2005-present"
+  },
+  "MC5 (Muscle)": {
+    "nombre": "Muscle Car 5-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "J5": {
+    "nombre": "Japan/Japanese 5 Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/J5_wheel.JPG/revision/latest",
+    "anios": ""
+  },
+  "SK5SP": {
+    "nombre": "Skinny Wheel 5SP",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RA6": {
+    "nombre": "Ryu Asada 6-Spokes",
+    "url_imagen": "",
+    "anios": "2016 - present"
+  },
+  "DD8": {
+    "nombre": "Deep-Dish 8 Spoke",
+    "url_imagen": "",
+    "anios": "2017 - present"
+  },
+  "Skull": {
+    "nombre": "Skull",
+    "url_imagen": "",
+    "anios": "2017 - present"
+  },
+  "HW50": {
+    "nombre": "Hot Wheels 50 / HW50 Race Team (Anniversary)",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "AeroDisc": {
+    "nombre": "Aero Disc",
+    "url_imagen": "",
+    "anios": "2018-present"
+  },
+  "FC3": {
+    "nombre": "Fraser Campbell 3-Spoke",
+    "url_imagen": "",
+    "anios": "2022-present"
+  },
+  "MicroFC3": {
+    "nombre": "Mini Fraser Campbell 3-Spoke",
+    "url_imagen": "",
+    "anios": "2023-present"
+  },
+  "E10SP": {
+    "nombre": "Exotic 10-Spoke",
+    "url_imagen": "",
+    "anios": "2023-present"
+  },
+  "L4": {
+    "nombre": "L4",
+    "url_imagen": "",
+    "anios": "2023-present"
+  },
+  "WWIM": {
+    "nombre": "Wire Wheel in Motion",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "CT": {
+    "nombre": "Construction Tire",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f6/CT%27s_-_6158bf.jpg/revision/latest",
+    "anios": "1980 - present"
+  },
+  "CTS": {
+    "nombre": "Construction Tire Spoke(Type 2)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/08/ORCT%27s_-_6155bf.jpg/revision/latest",
+    "anios": "1985 - present"
+  },
+  "ORCT": {
+    "nombre": "Off-Road Construction Tire",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/08/ORCT%27s_-_6155bf.jpg/revision/latest",
+    "anios": "1985 - present"
+  },
+  "ORCCT": {
+    "nombre": "Off Road Corgi Construction Tire",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/89/ORCCT.jpeg/revision/latest",
+    "anios": "1994 - 1997"
+  },
+  "CORCT": {
+    "nombre": "Connected Off Road Construction Tire",
+    "url_imagen": "",
+    "anios": "1994 - 1997"
+  },
+  "OR5SP": {
+    "nombre": "Off Road 5 Spoke",
+    "url_imagen": "",
+    "anios": "2002 - present"
+  },
+  "RF": {
+    "nombre": "Ringed Flower",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RG": {
+    "nombre": "Ringed Gear",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "BLOR": {
+    "nombre": "Bedlock Off-Road",
+    "url_imagen": "",
+    "anios": "2015 - present"
+  },
+  "BAJA5": {
+    "nombre": "Baja 5-Spoke",
+    "url_imagen": "",
+    "anios": "2019-present"
+  },
+  "RR": {
+    "nombre": "",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/0a/GHRR%27s_-_6148bf.jpg/revision/latest",
+    "anios": ""
+  },
+  "ORRR": {
+    "nombre": "Off Road Real Riders",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/1/1e/Wheels.ORRR.100x100.jpg/revision/latest",
+    "anios": ""
+  },
+  "DDRR": {
+    "nombre": "Deep Dish Real Riders",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/1/12/Wheels.RR.100x100.jpg/revision/latest",
+    "anios": "1992 - present"
+  },
+  "RT": {
+    "nombre": "Race Car Tires",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "1992 - present"
+  },
+  "RREURO": {
+    "nombre": "Real Rider European",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b1/WRREURO.jpg/revision/latest",
+    "anios": "1998 - present"
+  },
+  "RR5SP": {
+    "nombre": "5 Spoke Mag-Style Real Riders",
+    "url_imagen": "",
+    "anios": "2002 - present"
+  },
+  "RRMAG": {
+    "nombre": "Mag-Style Real Riders",
+    "url_imagen": "",
+    "anios": "2002 - present"
+  },
+  "RR6SP": {
+    "nombre": "6 Spoke Real Riders",
+    "url_imagen": "",
+    "anios": "2002 - present"
+  },
+  "RRPrf": {
+    "nombre": "Preferred Series Real Riders",
+    "url_imagen": "",
+    "anios": "2002 - present"
+  },
+  "RRBNG": {
+    "nombre": "BNG Real Rider",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/92/Wheels.RRBNG.100x100.jpg/revision/latest",
+    "anios": "2003 - present"
+  },
+  "LW5": {
+    "nombre": "Larry Wood 5 Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/98/LW5_Larry_Wood_5_spoke.JPG/revision/latest",
+    "anios": "2009 - present"
+  },
+  "RRDragS": {
+    "nombre": "Real Rider Drag Slick",
+    "url_imagen": "",
+    "anios": "2009 - present"
+  },
+  "Mini RR5SP": {
+    "nombre": "Mini Real Rider 5 Spoke",
+    "url_imagen": "",
+    "anios": "2009 - present"
+  },
+  "DSD12SP": {
+    "nombre": "Dragstrip Demon 12SP",
+    "url_imagen": "",
+    "anios": "2009 - present"
+  },
+  "D7RR": {
+    "nombre": "Double 7-Spoke Real Rider",
+    "url_imagen": "",
+    "anios": "2009 - present"
+  },
+  "RRDragD": {
+    "nombre": "Real Rider Drag Dish",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RRE": {
+    "nombre": "Real Rider Exotic",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b3/RRE_RealRiderExotic.JPG/revision/latest",
+    "anios": ""
+  },
+  "DISH": {
+    "nombre": "Dish",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/82/Dish.jpg/revision/latest",
+    "anios": ""
+  },
+  "RRSteelie": {
+    "nombre": "Real Riders Steelie",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RR8SP": {
+    "nombre": "Real Riders 8 Spoke",
+    "url_imagen": "",
+    "anios": "2011 - present"
+  },
+  "ORRR5SP": {
+    "nombre": "Off-Road 5-Spoke Real Rider",
+    "url_imagen": "",
+    "anios": "2013 - present"
+  },
+  "ORRRPrf": {
+    "nombre": "Off-Road Preferred Real Rider",
+    "url_imagen": "",
+    "anios": "2013 - present"
+  },
+  "WWSRR": {
+    "nombre": "White Wall Slotted Real Riders",
+    "url_imagen": "",
+    "anios": "2014 - present"
+  },
+  "ORDDRR": {
+    "nombre": "Off-Road Deep-Dish Real Riders",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "C4SPRR": {
+    "nombre": "Chrome Classic 4-Spoke Real Rider",
+    "url_imagen": "",
+    "anios": "2016 - present"
+  },
+  "RRMC": {
+    "nombre": "Real Riders Modern Concave wheels (chrome hubs)",
+    "url_imagen": "",
+    "anios": "2016 - present"
+  },
+  "MiniC4SP": {
+    "nombre": "Mini Classic 4-Spoke",
+    "url_imagen": "",
+    "anios": "2017 - present"
+  },
+  "RRA": {
+    "nombre": "Real Rider Aero",
+    "url_imagen": "",
+    "anios": "2017 - present"
+  },
+  "RRF52T": {
+    "nombre": "Real Rider Fifteen52 Turbomac",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RRF52O": {
+    "nombre": "Real Rider Fifteen52 Outlaw",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/88/RRF52O.jpg/revision/latest/scale-to-width-down/193?cb=20180707071552",
+    "anios": "2018 - present"
+  },
+  "RR6SPM": {
+    "nombre": "Gold Real Rider 6 Spoke Mag",
+    "url_imagen": "",
+    "anios": "2018 - present"
+  },
+  "ORRR6SPM": {
+    "nombre": "Off-Road Real Rider 6 Spoke Mag",
+    "url_imagen": "",
+    "anios": "2018 - present"
+  },
+  "RR8DOT": {
+    "nombre": "Real Riders 8 Dot",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/56/RR8DOT.jpg/revision/latest",
+    "anios": "2019 - present"
+  },
+  "RRMUSCLE": {
+    "nombre": "Real Riders Muscle",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/c3/RRMUSCLE.PNG/revision/latest",
+    "anios": "2019 - present"
+  },
+  "RR5SPM": {
+    "nombre": "Real Riders 5-Spoke Modern",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e3/RR5SPMGrey.jpg/revision/latest",
+    "anios": "2020 - present"
+  },
+  "RR10SPM": {
+    "nombre": "Real Riders 10-Spoke Modern",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f8/RR10SPMSilver.jpg/revision/latest",
+    "anios": "2020 - present"
+  },
+  "MiniRR6SPM": {
+    "nombre": "Mini Real Rider 6-Spoke Modern",
+    "url_imagen": "",
+    "anios": "2021 - present"
+  },
+  "RRLACE": {
+    "nombre": "Chrome and Gold Real Rider Lace",
+    "url_imagen": "",
+    "anios": "2021 - present"
+  },
+  "MiniRR5SPM": {
+    "nombre": "Mini Real Rider 5 Spoke Modern",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/07/MiniRR5SPM.jpg/revision/latest",
+    "anios": "2022 - present"
+  },
+  "RRBL10SP": {
+    "nombre": "Real Riders Beadlock 10-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RRAC": {
+    "nombre": "Real Riders Aero Classic",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RRY7": {
+    "nombre": "Real Rider Y 7-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RRMDrag": {
+    "nombre": "Real Riders Modern Drag",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RRBB": {
+    "nombre": "Real Riders BB",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RRDE5": {
+    "nombre": "Real Rider Deutschland 5-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "8SP": {
+    "nombre": "8 Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/4f/Wheels.8SP.100x100.jpg/revision/latest",
+    "anios": "1979 - 1981"
+  },
+  "MC1": {
+    "nombre": "Micro Caster 1",
+    "url_imagen": "",
+    "anios": "1980 - present"
+  },
+  "GY5DOT": {
+    "nombre": "Goodyear 5-Dot Wheels",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "MW": {
+    "nombre": "Micro Wheel",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/84/MW_-_7035bf.jpg/revision/latest",
+    "anios": ""
+  },
+  "XV": {
+    "nombre": "X-V Racers Wheel",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/6d/XVWheel.png/revision/latest",
+    "anios": "1986 - 1987"
+  },
+  "TW": {
+    "nombre": "Turbo Wheels",
+    "url_imagen": "",
+    "anios": "1989 - 1991"
+  },
+  "LTI1": {
+    "nombre": "Lionel Trains Inc. (Type 1)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/0/07/LTI2wheel.png/revision/latest",
+    "anios": ""
+  },
+  "LTI2": {
+    "nombre": "Lionel Trains Inc. (Type 2)",
+    "url_imagen": "",
+    "anios": "1990 - 1991"
+  },
+  "PC5": {
+    "nombre": "5 Spoke Pro-Circuit",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/5f/Wheels_AGENTAIR_55.jpg/revision/latest",
+    "anios": "1992 - present"
+  },
+  "PC6": {
+    "nombre": "6 Spoke Pro-Circuit",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/4e/PC6.jpg/revision/latest",
+    "anios": "1992 - present"
+  },
+  "LIW": {
+    "nombre": "Lime Wheel",
+    "url_imagen": "",
+    "anios": "1992 - 1993"
+  },
+  "SCW": {
+    "nombre": "",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/f/f2/Screamin_wheels.jpg/revision/latest",
+    "anios": "1993 - present"
+  },
+  "MGW": {
+    "nombre": "Micro Gear",
+    "url_imagen": "",
+    "anios": "1993 - 2002"
+  },
+  "CR1": {
+    "nombre": "Construction Rollers (Type 1)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": ""
+  },
+  "CR2": {
+    "nombre": "Construction Rollers (Type 2)",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "CCT": {
+    "nombre": "Corgi Construction Tire",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e9/CCT.jpeg/revision/latest",
+    "anios": "1994 - 1997"
+  },
+  "CCR": {
+    "nombre": "Corgi Construction Roller",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b8/CCR.jpeg/revision/latest",
+    "anios": "1994 - 1997"
+  },
+  "Corgi1": {
+    "nombre": "Corgi (Type 1)",
+    "url_imagen": "",
+    "anios": "1994 - 1997"
+  },
+  "Corgi2": {
+    "nombre": "Corgi (Type 2)",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "Corgi3": {
+    "nombre": "Corgi (Type 3)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/52/Corgi3.jpeg/revision/latest",
+    "anios": "1994 - 1997"
+  },
+  "Corgi4": {
+    "nombre": "Corgi (Type 4)",
+    "url_imagen": "",
+    "anios": "1994 - 1997"
+  },
+  "Corgi5": {
+    "nombre": "Corgi (Type 5)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/9/97/CorgiSlicks.jpeg/revision/latest",
+    "anios": "1994 - 1997"
+  },
+  "GYE10SP": {
+    "nombre": "Goodyear Eagle 10-Spoke Tires",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "HH": {
+    "nombre": "Hot Hubs",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "POW": {
+    "nombre": "Progressive Oval Wheel",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/d/d3/POW.jpg/revision/latest",
+    "anios": ""
+  },
+  "10DOT": {
+    "nombre": "10-Dot",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "MXV": {
+    "nombre": "Motorized X-V Racers Wheel",
+    "url_imagen": "",
+    "anios": "1996 - 2000"
+  },
+  "F1": {
+    "nombre": "Formula 1 Wheels",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/3/33/F1WF.jpg/revision/latest",
+    "anios": "1998 - 1999"
+  },
+  "MJW": {
+    "nombre": "Monster Jam Wheel",
+    "url_imagen": "",
+    "anios": "2000 - 2018"
+  },
+  "GW1": {
+    "nombre": "Golden Wheel (Type 1)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/4c/RRGW1.jpeg/revision/latest",
+    "anios": ""
+  },
+  "GW2": {
+    "nombre": "Golden Wheel (Type 2)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/ee/RRGW2.jpeg/revision/latest",
+    "anios": ""
+  },
+  "Micro5SP": {
+    "nombre": "Micro 5SP (Black Hub)",
+    "url_imagen": "",
+    "anios": "2001 - present"
+  },
+  "MCT1": {
+    "nombre": "Maisto/MC Toy (Type 1)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/ec/RRM3.jpeg/revision/latest",
+    "anios": ""
+  },
+  "MCT2": {
+    "nombre": "Maisto/MC Toy (Type 2)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/1/1e/RRM4.jpeg/revision/latest",
+    "anios": ""
+  },
+  "MCT3": {
+    "nombre": "Maisto/MC Toy (Type 3)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/40/RRM1.jpeg/revision/latest",
+    "anios": ""
+  },
+  "MCT4": {
+    "nombre": "Maisto/MC Toy (Type 4)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/6f/RRM5.jpeg/revision/latest",
+    "anios": ""
+  },
+  "MCT5": {
+    "nombre": "Maisto/MC Toy (Type 5)",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/RRM2.jpeg/revision/latest",
+    "anios": ""
+  },
+  "HF5": {
+    "nombre": "5 spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/2/22/6161bf.jpg/revision/latest",
+    "anios": ""
+  },
+  "CM5": {
+    "nombre": "Co-Molded Wheel",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/85/CM5_-_6345bf.jpg/revision/latest",
+    "anios": "2003 - 2005"
+  },
+  "BLING": {
+    "nombre": "Blings Wheel",
+    "url_imagen": "",
+    "anios": "2004 - present"
+  },
+  "5SP BLING": {
+    "nombre": "5 Spoke Blings",
+    "url_imagen": "",
+    "anios": "2004 - present"
+  },
+  "6SP BLING": {
+    "nombre": "6 Spoke Blings",
+    "url_imagen": "",
+    "anios": "2004 - present"
+  },
+  "TD BLING": {
+    "nombre": "Tear Drop Blings",
+    "url_imagen": "",
+    "anios": "2004 - present"
+  },
+  "10SPBLING": {
+    "nombre": "10 Spoke Blings",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "FFRBW": {
+    "nombre": "Formula Fuelers Racing Bike Wheel",
+    "url_imagen": "",
+    "anios": "2004 - 2005"
+  },
+  "FFMCW": {
+    "nombre": "Formula Fuelers Motorcycle Wheel",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "FFORW": {
+    "nombre": "Formula Fuelers Racing Bike Wheel",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "TT": {
+    "nombre": "Torque-Thrust",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "CM6": {
+    "nombre": "Co-Molded 6-Spoke",
+    "url_imagen": "",
+    "anios": "2005 - 2011"
+  },
+  "SS5SP": {
+    "nombre": "Street Show 5 Spoke",
+    "url_imagen": "",
+    "anios": "2007 - present"
+  },
+  "SSO5SP": {
+    "nombre": "Street Show Open 5 Spoke",
+    "url_imagen": "",
+    "anios": "2007 - present"
+  },
+  "CCRR": {
+    "nombre": "Custom Classics Real Riders",
+    "url_imagen": "",
+    "anios": "2007 - 2008"
+  },
+  "5SP (1:87)": {
+    "nombre": "1:87 5-Spoke",
+    "url_imagen": "",
+    "anios": "2007 - 2009"
+  },
+  "Y8": {
+    "nombre": "Y 8-Spoke",
+    "url_imagen": "",
+    "anios": "2007 - 2009"
+  },
+  "5DOT (1:87)": {
+    "nombre": "1:87 5 Dot",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": ""
+  },
+  "6DOT (1:87)": {
+    "nombre": "1:87 6 Dot",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": ""
+  },
+  "RPR5": {
+    "nombre": "Rumblers Phil Riehlman 5-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "R5SP": {
+    "nombre": "Rumblers 5-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "R10SP": {
+    "nombre": "Rumblers 10-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RBLING": {
+    "nombre": "Rumblers Bling",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "10SP (1:87)": {
+    "nombre": "1:87 10-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RU6SP": {
+    "nombre": "Rev-Ups 6 Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RUOR6SP": {
+    "nombre": "Rev-Ups Offroad 6 Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "BFRSW": {
+    "nombre": "Battle Force 5 Red Sentient Wheel",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RTW": {
+    "nombre": "Rapid Transit Wheel",
+    "url_imagen": "",
+    "anios": "2011 - present"
+  },
+  "GMPB": {
+    "nombre": "General Mills Pull-Back",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/4/45/GMPB2.png/revision/latest",
+    "anios": ""
+  },
+  "APP1": {
+    "nombre": "Apptivity Type 1",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "APP2": {
+    "nombre": "Apptivity Type 2",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "RSW": {
+    "nombre": "Retro Slot Wheels",
+    "url_imagen": "",
+    "anios": "2013 - present"
+  },
+  "SKBU1": {
+    "nombre": "Sky Busters Type 1",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/eb/SKBU1.png/revision/latest",
+    "anios": "2013 - 2020"
+  },
+  "SKBU2": {
+    "nombre": "",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/e/e7/SKBU2.png/revision/latest",
+    "anios": "2013 - 2020"
+  },
+  "MMW": {
+    "nombre": "Mutant Machines Wheel",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/c3/Top_Speed_GT_underside.jpg/revision/latest/scale-to-width-down/200?cb=20140327163831",
+    "anios": ""
+  },
+  "SKBU3": {
+    "nombre": "",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/c/c3/SKBU3.png/revision/latest",
+    "anios": "2015 - 2016"
+  },
+  "SS": {
+    "nombre": "Split Speeders Wheel",
+    "url_imagen": "",
+    "anios": "2016 - 2017"
+  },
+  "AT4SP": {
+    "nombre": "All-Terrain 4-Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "2017 - present"
+  },
+  "AT5SP": {
+    "nombre": "All-Terrain 5-Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "2017 - present"
+  },
+  "AT16SP": {
+    "nombre": "All-Terrain 16-Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "2017 - present"
+  },
+  "ATRA": {
+    "nombre": "All-Terrain Rebel Alliance",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "2017 - present"
+  },
+  "MT5SP": {
+    "nombre": "Monster Truck 5-Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/5/5c/Chrome_MT5SP.jpg/revision/latest?cb=20200817205511",
+    "anios": "2018 - present"
+  },
+  "WTC": {
+    "nombre": "Wooden Track Car",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "BTTFRW": {
+    "nombre": "Back To The Future Railroad Wheel",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "2019 - present"
+  },
+  "MK4S": {
+    "nombre": "Mario Kart 4 Spoke",
+    "url_imagen": "",
+    "anios": "2019 - present"
+  },
+  "MKHub": {
+    "nombre": "Mario Kart Hub",
+    "url_imagen": "",
+    "anios": "2019 - present"
+  },
+  "ID": {
+    "nombre": "ID Wheel",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "ORID": {
+    "nombre": "Off-Road ID Wheel",
+    "url_imagen": "",
+    "anios": "2019 - present"
+  },
+  "MTMAG": {
+    "nombre": "Monster Truck Mag-Style",
+    "url_imagen": "",
+    "anios": "2020 - present"
+  },
+  "ID2": {
+    "nombre": "ID Type 2",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "MTSTAR": {
+    "nombre": "Monster Truck Star Wheel",
+    "url_imagen": "",
+    "anios": "2021 - present"
+  },
+  "MT8DOT": {
+    "nombre": "Monster Truck 8 Dot",
+    "url_imagen": "",
+    "anios": "2022 - present"
+  },
+  "MT6SP": {
+    "nombre": "Monster Truck 6-Spoke",
+    "url_imagen": "",
+    "anios": "2022 - present"
+  },
+  "NS6": {
+    "nombre": "Neon Speeders 6-Spoke",
+    "url_imagen": "",
+    "anios": "2023 - present"
+  },
+  "MM5": {
+    "nombre": "Modern Muscle 5-Spoke",
+    "url_imagen": "",
+    "anios": "2024 - present"
+  },
+  "S5": {
+    "nombre": "Star 5-Spoke",
+    "url_imagen": "",
+    "anios": "2024 - present"
+  },
+  "C5": {
+    "nombre": "Cast 5-Spoke",
+    "url_imagen": "",
+    "anios": "2024 - present"
+  },
+  "5HD": {
+    "nombre": "5 Hole Disc",
+    "url_imagen": "",
+    "anios": "2024 - present"
+  },
+  "ORST": {
+    "nombre": "Off-Road Steelie",
+    "url_imagen": "",
+    "anios": "2024 - present"
+  },
+  "P4": {
+    "nombre": "Plus 4-Spoke",
+    "url_imagen": "",
+    "anios": "2024 - present"
+  },
+  "RWSP": {
+    "nombre": "",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/6/6a/RWSP_Wheel.jpg/revision/latest",
+    "anios": ""
+  },
+  "MC3": {
+    "nombre": "Motorcycle 3-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "MC5": {
+    "nombre": "Motorcycle 5-Spoke",
+    "url_imagen": "",
+    "anios": ""
+  },
+  "MC8DOT": {
+    "nombre": "Motorcycle 8 Dot Wheel",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "2005 - 2012"
+  },
+  "ORMC": {
+    "nombre": "Off-Road Motorcycle",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/7/7c/Wheels.ORMC.100x100.jpg/revision/latest",
+    "anios": "2007 - present"
+  },
+  "RRMC5": {
+    "nombre": "Real Riders Motorcycle 5-Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": ""
+  },
+  "MCPR5": {
+    "nombre": "Motorcycle Phil Riehlman 5-Spoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/b/b5/Image_Not_Available.jpg/revision/latest",
+    "anios": "2010 - 2016"
+  },
+  "MotoWSP": {
+    "nombre": "Clear & Black Motorcycle Wirespoke",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/80/ECTO2WHEEL.png/revision/latest",
+    "anios": ""
+  },
+  "MCCR": {
+    "nombre": "Motorcycle Café Racer",
+    "url_imagen": "https://static.wikia.nocookie.net/hotwheels/images/8/85/MCCR.jpg/revision/latest",
+    "anios": ""
+  }
+}
