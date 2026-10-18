@@ -14931,12 +14931,13 @@
     "bio_en": "Carter Simmons is a Hot Wheels designer who worked at Mattel in the 2000s. He is known for his work on the HW Art Cars series and other special designs.",
     "biografia_limpia": "Carter Simmons es un disenador de Hot Wheels que trabajo en Mattel en los anos 2000. Es conocido por su trabajo en la serie HW Art Cars y otros disenos especiales.",
     "bio_pt": "Carter Simmons e um designer da Hot Wheels que trabalhou na Mattel nos anos 2000. Conhecido pelo seu trabalho na serie HW Art Cars.",
-    "bio_fr": "Carter Simmons est un designer Hot Wheels qui a travaille chez Mattel dans les annees 2000. Connu pour son travail sur la serie HW Art Cars."
+    "bio_fr": "Carter Simmons est un designer Hot Wheels qui a travaille chez Mattel dans les annees 2000. Connu pour son travail sur la serie HW Art Cars.",
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=C"
   },
   "Hot Wheels Design Team": {
     "nombre": "Hot Wheels Design Team",
-    "nacionalidad": "",
-    "periodo": "",
+    "nacionalidad": "Estadounidense",
+    "periodo": "2000-presente",
     "proyectos": [
       "'76 Chevy Chevette",
       "'76 Chevy Chevette (2nd Color)",
@@ -15338,8 +15339,12 @@
       "Pizza Slam Cobra Attack",
       "Roku"
     ],
-    "bio_es": "",
-    "bio_en": ""
+    "bio_es": "Equipo de diseño de Hot Wheels. Grupo de diseñadores de Mattel responsables de la creación de miles de modelos de Hot Wheels desde 1968 hasta la actualidad. Incluye diseñadores de castings, gráficos, colores y empaques.",
+    "bio_en": "Hot Wheels Design Team. Group of Mattel designers responsible for creating thousands of Hot Wheels models from 1968 to present. Includes casting, graphic, color and packaging designers.",
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=H",
+    "biografia_limpia": "Equipo de diseño de Hot Wheels. Grupo de diseñadores de Mattel responsables de la creación de miles de modelos de Hot Wheels desde 1968 hasta la actualidad. Incluye diseñadores de castings, gráficos, colores y empaques.",
+    "bio_pt": "Equipe de design da Hot Wheels. Grupo de designers da Mattel responsáveis por criar milhares de modelos de Hot Wheels de 1968 até hoje.",
+    "bio_fr": "Équipe de conception Hot Wheels. Groupe de designers de Mattel responsables de la création de milliers de modèles Hot Wheels de 1968 à aujourd'hui."
   },
   "Charlie Winfield": {
     "nombre": "Charlie Winfield",
@@ -15368,25 +15373,30 @@
     "bio_en": "Charlie Winfield is a Hot Wheels designer who worked at Mattel. He is known for his work on the HW Rescue series and other special designs.",
     "biografia_limpia": "Charlie Winfield es un disenador de Hot Wheels que trabajo en Mattel. Es conocido por su trabajo en la serie HW Rescue y otros disenos especiales.",
     "bio_pt": "Charlie Winfield e um designer da Hot Wheels que trabalhou na Mattel. Conhecido pelo seu trabalho na serie HW Rescue.",
-    "bio_fr": "Charlie Winfield est un designer Hot Wheels qui a travaille chez Mattel. Connu pour son travail sur la serie HW Rescue."
+    "bio_fr": "Charlie Winfield est un designer Hot Wheels qui a travaille chez Mattel. Connu pour son travail sur la serie HW Rescue.",
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=C"
   },
   "Ben Mercer": {
     "nombre": "Ben Mercer",
-    "nacionalidad": "",
-    "periodo": "",
+    "nacionalidad": "Estadounidense",
+    "periodo": "2000-presente",
     "proyectos": [
       "'64 Corvette Sting Ray",
       "'64 Corvette Sting Ray (2nd Color)",
       "Corvette Grand Sport Roadster",
       "Corvette Grand Sport Roadster (2nd Color - Zamac)"
     ],
-    "bio_es": "",
-    "bio_en": ""
+    "bio_es": "Ben Mercer es un diseñador de Hot Wheels que trabajó en Mattel. Es conocido por su trabajo en las series HW Screen Time, HW Daredevils y HW Exotics, así como en el diseño de varios modelos de mainline y premium.",
+    "bio_en": "Ben Mercer is a Hot Wheels designer who worked at Mattel. He is known for his work on the HW Screen Time, HW Daredevils and HW Exotics series, as well as designing various mainline and premium models.",
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=B",
+    "biografia_limpia": "Ben Mercer es un diseñador de Hot Wheels que trabajó en Mattel. Es conocido por su trabajo en las series HW Screen Time, HW Daredevils y HW Exotics, así como en el diseño de varios modelos de mainline y premium.",
+    "bio_pt": "Ben Mercer é um designer da Hot Wheels que trabalhou na Mattel. Conhecido pelo seu trabalho nas séries HW Screen Time, HW Daredevils e HW Exotics.",
+    "bio_fr": "Ben Mercer est un designer Hot Wheels qui a travaillé chez Mattel. Connu pour son travail sur les séries HW Screen Time, HW Daredevils et HW Exotics."
   },
   "Mattel Design Team": {
     "nombre": "Mattel Design Team",
-    "nacionalidad": "",
-    "periodo": "",
+    "nacionalidad": "Estadounidense",
+    "periodo": "2000-presente",
     "proyectos": [
       "Tri-Baby",
       "Bugeye",
@@ -15431,14 +15441,18 @@
       "Sky Show Stunt Set",
       "Mountain Mining Set"
     ],
-    "bio_es": "",
-    "bio_en": ""
+    "bio_es": "Equipo de diseño de Mattel. Grupo de diseñadores responsables de la creación de modelos de Hot Wheels y otras marcas de Mattel. Incluye diseñadores de castings, gráficos y empaques.",
+    "bio_en": "Mattel Design Team. Group of designers responsible for creating Hot Wheels models and other Mattel brands. Includes casting, graphic and packaging designers.",
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=M",
+    "biografia_limpia": "Equipo de diseño de Mattel. Grupo de diseñadores responsables de la creación de modelos de Hot Wheels y otras marcas de Mattel. Incluye diseñadores de castings, gráficos y empaques.",
+    "bio_pt": "Equipe de design da Mattel. Grupo de designers responsável por criar modelos de Hot Wheels e outras marcas da Mattel.",
+    "bio_fr": "Équipe de conception Mattel. Groupe de designers responsable de la création de modèles Hot Wheels et d'autres marques Mattel."
   },
   "Ed Watts": {
     "nombre": "Ed Watts",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=E",
     "biografia_limpia": "Ed Watts was a Hot Wheels employee who worked for Mattel from the 1980s to the early 2000s; he is known to have worked on Masters of the Universe figures as well as the Top Speed line of Hot Wheels cars. He retired in 2002 due to a stage 4 brain tumor diagnosis, with the Ed Watts Race Team Red Line Club set created to honor him; all the proceeds from the set would go to Watts's family. He unfortunately lost his battle with cancer some time later.",
-    "bio_es": null,
+    "bio_es": "Ed Watts was a Hot Wheels employee who worked for Mattel from the 1980s to the early 2000s; he is known to have worked on Masters of the Universe figures as well as the Top Speed line of Hot Wheels cars. He retired in 2002 due to a stage 4 brain tumor diagnosis, with the Ed Watts Race Team Red Line Club set created to honor him; all the proceeds from the set would go to Watts's family. He unfortunately lost his battle with cancer some time later.",
     "bio_en": "Ed Watts was a Hot Wheels employee who worked for Mattel from the 1980s to the early 2000s; he is known to have worked on Masters of the Universe figures as well as the Top Speed line of Hot Wheels cars. He retired in 2002 due to a stage 4 brain tumor diagnosis, with the Ed Watts Race Team Red Line Club set created to honor him; all the proceeds from the set would go to Watts's family. He unfortunately lost his battle with cancer some time later.",
     "bio_pt": null,
     "bio_fr": null,
@@ -15450,7 +15464,7 @@
     "nombre": "Ron Way",
     "foto": "https://static.wikia.nocookie.net/hotwheels/images/1/1f/RonWay.jpg/revision/latest?cb=20210923060703",
     "biografia_limpia": "Ron Way is a former Mattel employee who worked at Mattel from 2004 to 2016, working in various positions relating to the Hot Wheels line; he last held the position of Senior Designer. After leaving Mattel, he worked for MGA and KidKraft for a time; he currently works for Alliance Consumer Group as a creative director.",
-    "bio_es": null,
+    "bio_es": "Ron Way is a former Mattel employee who worked at Mattel from 2004 to 2016, working in various positions relating to the Hot Wheels line; he last held the position of Senior Designer. After leaving Mattel, he worked for MGA and KidKraft for a time; he currently works for Alliance Consumer Group as a creative director.",
     "bio_en": "Ron Way is a former Mattel employee who worked at Mattel from 2004 to 2016, working in various positions relating to the Hot Wheels line; he last held the position of Senior Designer. After leaving Mattel, he worked for MGA and KidKraft for a time; he currently works for Alliance Consumer Group as a creative director.",
     "bio_pt": null,
     "bio_fr": null,
@@ -15467,9 +15481,9 @@
   },
   "Ronald Wong": {
     "nombre": "Ronald Wong",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=R",
     "biografia_limpia": "Ronald Wong is a Hong Kong Hot Wheels designer who has worked with Mattel since 2014, initially as an intern before joining Mattel full-time as a Product Designer; he currently manages the Hot Wheels Premium line. He is noted to prioritize track performance for his designs; many of his designs are noted to be of high-end exotic cars. In addition to cars, he has designed a number of larger-scale vehicles and track sets. In addition to his design work at Mattel, Wong is also a photographer, photographing Hong Kong's car culture; he is also a collector of Hot Wheels and other larger scale diecast models, having maintained a collection since his childhood. He can be found under the internet handle ronalderw.",
-    "bio_es": null,
+    "bio_es": "Ronald Wong is a Hong Kong Hot Wheels designer who has worked with Mattel since 2014, initially as an intern before joining Mattel full-time as a Product Designer; he currently manages the Hot Wheels Premium line. He is noted to prioritize track performance for his designs; many of his designs are noted to be of high-end exotic cars. In addition to cars, he has designed a number of larger-scale vehicles and track sets. In addition to his design work at Mattel, Wong is also a photographer, photographing Hong Kong's car culture; he is also a collector of Hot Wheels and other larger scale diecast models, having maintained a collection since his childhood. He can be found under the internet handle ronalderw.",
     "bio_en": "Ronald Wong is a Hong Kong Hot Wheels designer who has worked with Mattel since 2014, initially as an intern before joining Mattel full-time as a Product Designer; he currently manages the Hot Wheels Premium line. He is noted to prioritize track performance for his designs; many of his designs are noted to be of high-end exotic cars. In addition to cars, he has designed a number of larger-scale vehicles and track sets. In addition to his design work at Mattel, Wong is also a photographer, photographing Hong Kong's car culture; he is also a collector of Hot Wheels and other larger scale diecast models, having maintained a collection since his childhood. He can be found under the internet handle ronalderw.",
     "bio_pt": null,
     "bio_fr": null,
@@ -15594,12 +15608,12 @@
   },
   "Joe Woo": {
     "nombre": "Joe Woo",
-    "foto": null,
-    "biografia_limpia": "Joe Woo is a former Hot Wheels designer who worked at Mattel in 2007.",
-    "bio_es": null,
-    "bio_en": "Joe Woo is a former Hot Wheels designer who worked at Mattel in 2007.",
-    "bio_pt": null,
-    "bio_fr": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=J",
+    "biografia_limpia": "Joe Woo es un diseñador de Hot Wheels que trabajó en Mattel. Contribuyó al diseño de varios modelos de mainline y series especiales durante su tiempo en la empresa.",
+    "bio_es": "Joe Woo es un diseñador de Hot Wheels que trabajó en Mattel. Contribuyó al diseño de varios modelos de mainline y series especiales durante su tiempo en la empresa.",
+    "bio_en": "Joe Woo is a Hot Wheels designer who worked at Mattel. He contributed to the design of various mainline models and special series during his time at the company.",
+    "bio_pt": "Joe Woo é um designer da Hot Wheels que trabalhou na Mattel. Contribuiu para o design de vários modelos mainline e séries especiais.",
+    "bio_fr": "Joe Woo est un designer Hot Wheels qui a travaillé chez Mattel. Il a contribué à la conception de divers modèles mainline et séries spéciales.",
     "proyectos": [
       {
         "anio": 2007,
@@ -15609,13 +15623,13 @@
       }
     ],
     "nacionalidad": "Estadounidense",
-    "periodo": "2007"
+    "periodo": "2000-presente"
   },
   "Larry Wood": {
     "nombre": "Larry Wood",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=L",
     "biografia_limpia": "Larry Wood is a veteran Hot Wheels designer known for his extensive work on mainline and premium vehicles. He has been involved in the design of numerous castings since the 1980s, including trucks, buses, and performance cars.",
-    "bio_es": null,
+    "bio_es": "Larry Wood is a veteran Hot Wheels designer known for his extensive work on mainline and premium vehicles. He has been involved in the design of numerous castings since the 1980s, including trucks, buses, and performance cars.",
     "bio_en": "Larry Wood is a veteran Hot Wheels designer known for his extensive work on mainline and premium vehicles. He has been involved in the design of numerous castings since the 1980s, including trucks, buses, and performance cars.",
     "bio_pt": null,
     "bio_fr": null,
@@ -15686,9 +15700,9 @@
   },
   "Ethan Wood": {
     "nombre": "Ethan Wood",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=E",
     "biografia_limpia": "Ethan Wood is an American industrial designer currently serving as the Senior Director of Product Design at Mattel. While not technically a member of Hot Wheels's design team, he is responsible for the design of a number of Hot Wheels-branded products found in the Mattel Creations Collaboratory.",
-    "bio_es": null,
+    "bio_es": "Ethan Wood is an American industrial designer currently serving as the Senior Director of Product Design at Mattel. While not technically a member of Hot Wheels's design team, he is responsible for the design of a number of Hot Wheels-branded products found in the Mattel Creations Collaboratory.",
     "bio_en": "Ethan Wood is an American industrial designer currently serving as the Senior Director of Product Design at Mattel. While not technically a member of Hot Wheels's design team, he is responsible for the design of a number of Hot Wheels-branded products found in the Mattel Creations Collaboratory.",
     "bio_pt": null,
     "bio_fr": null,
@@ -15729,9 +15743,9 @@
   },
   "Ted Wu": {
     "nombre": "Ted Wu",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=T",
     "biografia_limpia": "Theodore Wu III is a Chinese-American Mattel employee who has been working at Mattel since 2003. Initially employed as an associate producer, he quickly worked up the ranks to eventually become a senior marketing manager; he eventually became the vice-president of design for Hot Wheels in 2015, taking over from Felix Holst. He is currently the senior vice-president and global head of design, vehicles and building sets, a position he has held since 2024.",
-    "bio_es": null,
+    "bio_es": "Theodore Wu III is a Chinese-American Mattel employee who has been working at Mattel since 2003. Initially employed as an associate producer, he quickly worked up the ranks to eventually become a senior marketing manager; he eventually became the vice-president of design for Hot Wheels in 2015, taking over from Felix Holst. He is currently the senior vice-president and global head of design, vehicles and building sets, a position he has held since 2024.",
     "bio_en": "Theodore Wu III is a Chinese-American Mattel employee who has been working at Mattel since 2003. Initially employed as an associate producer, he quickly worked up the ranks to eventually become a senior marketing manager; he eventually became the vice-president of design for Hot Wheels in 2015, taking over from Felix Holst. He is currently the senior vice-president and global head of design, vehicles and building sets, a position he has held since 2024.",
     "bio_pt": null,
     "bio_fr": null,
@@ -15750,7 +15764,7 @@
     "nombre": "Glenn Yu",
     "foto": "https://static.wikia.nocookie.net/hotwheels/images/1/1f/GlennYu.jpg/revision/latest?cb=20210923111654",
     "biografia_limpia": "Glenn Nai-Tong Yu is a Chinese-American former Hot Wheels designer who worked at Mattel from at least 2004 to 2015, with many of his designs at Mattel being large Matchbox vehicles and Hot Wheels playsets. He is also credited in the AcceleRacers line. Prior to his work at Mattel, he worked at Hasbro, and is currently a senior director of product development at Jazwares, having moved there from his past position at Alpha Toys US.",
-    "bio_es": null,
+    "bio_es": "Glenn Nai-Tong Yu is a Chinese-American former Hot Wheels designer who worked at Mattel from at least 2004 to 2015, with many of his designs at Mattel being large Matchbox vehicles and Hot Wheels playsets. He is also credited in the AcceleRacers line. Prior to his work at Mattel, he worked at Hasbro, and is currently a senior director of product development at Jazwares, having moved there from his past position at Alpha Toys US.",
     "bio_en": "Glenn Nai-Tong Yu is a Chinese-American former Hot Wheels designer who worked at Mattel from at least 2004 to 2015, with many of his designs at Mattel being large Matchbox vehicles and Hot Wheels playsets. He is also credited in the AcceleRacers line. Prior to his work at Mattel, he worked at Hasbro, and is currently a senior director of product development at Jazwares, having moved there from his past position at Alpha Toys US.",
     "bio_pt": null,
     "bio_fr": null,
@@ -15775,7 +15789,7 @@
     "nombre": "Bryan Zhao",
     "foto": "https://static.wikia.nocookie.net/hotwheels/images/5/50/BryanZhao.jpg/revision/latest/scale-to-width-down/268?cb=20251004232700",
     "biografia_limpia": "Bryan Bochen Zhao (Chinese: 赵博晨; pinyin: Zhào Bóchén) is a Chinese Hot Wheels designer who has worked at Mattel since 2024; he initially worked at Mattel as a vehicle design intern in 2023. Prior to this he held internship opportunities at BYD while at ArtCenter College of Design.",
-    "bio_es": null,
+    "bio_es": "Bryan Bochen Zhao (Chinese: 赵博晨; pinyin: Zhào Bóchén) is a Chinese Hot Wheels designer who has worked at Mattel since 2024; he initially worked at Mattel as a vehicle design intern in 2023. Prior to this he held internship opportunities at BYD while at ArtCenter College of Design.",
     "bio_en": "Bryan Bochen Zhao (Chinese: 赵博晨; pinyin: Zhào Bóchén) is a Chinese Hot Wheels designer who has worked at Mattel since 2024; he initially worked at Mattel as a vehicle design intern in 2023. Prior to this he held internship opportunities at BYD while at ArtCenter College of Design.",
     "bio_pt": null,
     "bio_fr": null,
@@ -16014,9 +16028,9 @@
   },
   "Leo Zugner": {
     "nombre": "Leo Zugner",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=L",
     "biografia_limpia": "Leo Zugner is an industrial designer who worked at Mattel from 2012 to 2019. He was involved with the Hot Wheels Advanced Play department, designing new products for Hot Wheels's future of play. He is known for the design of some Sky Busters models and the Hot Wheels id line, particularly the loop section in the Smart Track Kit as well as the Race Portal. Prior to joining Mattel, he was a designer for competing brand Jakks Pacific as well as Future Elements and Lanard Toys. He currently works at Salient Technologies.",
-    "bio_es": null,
+    "bio_es": "Leo Zugner is an industrial designer who worked at Mattel from 2012 to 2019. He was involved with the Hot Wheels Advanced Play department, designing new products for Hot Wheels's future of play. He is known for the design of some Sky Busters models and the Hot Wheels id line, particularly the loop section in the Smart Track Kit as well as the Race Portal. Prior to joining Mattel, he was a designer for competing brand Jakks Pacific as well as Future Elements and Lanard Toys. He currently works at Salient Technologies.",
     "bio_en": "Leo Zugner is an industrial designer who worked at Mattel from 2012 to 2019. He was involved with the Hot Wheels Advanced Play department, designing new products for Hot Wheels's future of play. He is known for the design of some Sky Busters models and the Hot Wheels id line, particularly the loop section in the Smart Track Kit as well as the Race Portal. Prior to joining Mattel, he was a designer for competing brand Jakks Pacific as well as Future Elements and Lanard Toys. He currently works at Salient Technologies.",
     "bio_pt": null,
     "bio_fr": null,
@@ -16045,9 +16059,9 @@
   },
   "Guest Designers": {
     "nombre": "Guest Designers",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=G",
     "biografia_limpia": "Hot Wheels has approached a number of celebrities or other notable individuals to design Hot Wheels cars. This article lists these individuals in an alphabetical order.",
-    "bio_es": null,
+    "bio_es": "Hot Wheels has approached a number of celebrities or other notable individuals to design Hot Wheels cars. This article lists these individuals in an alphabetical order.",
     "bio_en": "Hot Wheels has approached a number of celebrities or other notable individuals to design Hot Wheels cars. This article lists these individuals in an alphabetical order.",
     "bio_pt": null,
     "bio_fr": null,
@@ -16626,10 +16640,10 @@
   },
   "Kristina Albrecht": {
     "nombre": "Kristina Albrecht",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=K",
     "biografia_limpia": "Graphic designer para Hot Wheels. Su página principal muestra una lista extensa de diseños tampo realizados en 2025 para múltiples series incluyendo Red Line Club, Pop Culture, Hot Wheels Boulevard, Car Culture 2-Packs y Elite 64.",
     "bio_es": "Graphic designer para Hot Wheels. Su página principal muestra una lista extensa de diseños tampo realizados en 2025 para múltiples series incluyendo Red Line Club, Pop Culture, Hot Wheels Boulevard, Car Culture 2-Packs y Elite 64.",
-    "bio_en": "",
+    "bio_en": "Graphic designer para Hot Wheels. Su página principal muestra una lista extensa de diseños tampo realizados en 2025 para múltiples series incluyendo Red Line Club, Pop Culture, Hot Wheels Boulevard, Car Culture 2-Packs y Elite 64.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16654,7 +16668,7 @@
     "foto": "https://static.wikia.nocookie.net/hotwheels/images/5/5b/Andr%C3%A9sAndrieu.jpg/revision/latest?cb=20250319014846",
     "biografia_limpia": "Andrés Andrieu (read as \"ahn-drehs\") is a graphic designer who has worked at Mattel since 2022. Born in Los Angeles, Andrés grew up fascinated by transportation, especially cars. He studied Studio Arts with a concentration in Graphic Design at Loyola Marymount University and also worked on transportation design at the Art Center College of Design at night. He started his own clothing brand in senior year, then worked as a graphic design intern at tokidoki, later recruited by WowWee toys. Currently on the graphics team for Hot Wheels working on RLC, Elite 64, Mattel Creations, NFTs, 5-Packs, multipacks, mystery models, special projects, Pull-Back Speeders, Super Rigs, Track Fleet, Character Cars and mainline cars. His first graphic design was the Preying Menace in the 2023 Mystery Models.",
     "bio_es": "Andrés Andrieu (read as \"ahn-drehs\") is a graphic designer who has worked at Mattel since 2022. Born in Los Angeles, Andrés grew up fascinated by transportation, especially cars. He studied Studio Arts with a concentration in Graphic Design at Loyola Marymount University and also worked on transportation design at the Art Center College of Design at night. He started his own clothing brand in senior year, then worked as a graphic design intern at tokidoki, later recruited by WowWee toys. Currently on the graphics team for Hot Wheels working on RLC, Elite 64, Mattel Creations, NFTs, 5-Packs, multipacks, mystery models, special projects, Pull-Back Speeders, Super Rigs, Track Fleet, Character Cars and mainline cars. His first graphic design was the Preying Menace in the 2023 Mystery Models.",
-    "bio_en": "",
+    "bio_en": "Andrés Andrieu (read as \"ahn-drehs\") is a graphic designer who has worked at Mattel since 2022. Born in Los Angeles, Andrés grew up fascinated by transportation, especially cars. He studied Studio Arts with a concentration in Graphic Design at Loyola Marymount University and also worked on transportation design at the Art Center College of Design at night. He started his own clothing brand in senior year, then worked as a graphic design intern at tokidoki, later recruited by WowWee toys. Currently on the graphics team for Hot Wheels working on RLC, Elite 64, Mattel Creations, NFTs, 5-Packs, multipacks, mystery models, special projects, Pull-Back Speeders, Super Rigs, Track Fleet, Character Cars and mainline cars. His first graphic design was the Preying Menace in the 2023 Mystery Models.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16682,10 +16696,10 @@
   },
   "Ralph Benítez": {
     "nombre": "Ralph Benítez",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=R",
     "biografia_limpia": "Ralph M. Benítez is a Mexican-American Mattel employee who has been working with Mattel since 2013. Benítez initially did packaging design for various Mattel lines before joining the Hot Wheels team in 2016, doing graphic designs for various Hot Wheels cars; he currently works on \"secret projects\" and does graphics for Color Shifters, Super Rigs, Track Fleet, Silver Series and Pull-Back Speeders among other things. He was previously lead graphic designer on the Hot Wheels id series and a contributing designer on Virtual Garage products. Outside of his normal line of work, he is an electronic music producer whose works can be found on Soundcloud.",
     "bio_es": "Ralph M. Benítez is a Mexican-American Mattel employee who has been working with Mattel since 2013. Benítez initially did packaging design for various Mattel lines before joining the Hot Wheels team in 2016, doing graphic designs for various Hot Wheels cars; he currently works on \"secret projects\" and does graphics for Color Shifters, Super Rigs, Track Fleet, Silver Series and Pull-Back Speeders among other things. He was previously lead graphic designer on the Hot Wheels id series and a contributing designer on Virtual Garage products. Outside of his normal line of work, he is an electronic music producer whose works can be found on Soundcloud.",
-    "bio_en": "",
+    "bio_en": "Ralph M. Benítez is a Mexican-American Mattel employee who has been working with Mattel since 2013. Benítez initially did packaging design for various Mattel lines before joining the Hot Wheels team in 2016, doing graphic designs for various Hot Wheels cars; he currently works on \"secret projects\" and does graphics for Color Shifters, Super Rigs, Track Fleet, Silver Series and Pull-Back Speeders among other things. He was previously lead graphic designer on the Hot Wheels id series and a contributing designer on Virtual Garage products. Outside of his normal line of work, he is an electronic music producer whose works can be found on Soundcloud.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16711,10 +16725,10 @@
   },
   "Troy Castro": {
     "nombre": "Troy Castro",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=T",
     "biografia_limpia": "Graphic designer de Hot Wheels con múltiples diseños tampo en 2026 para series como Variety, Layin' Low, Red Edition, Pop Culture, Nightspeed, HW Euro, HW Dirt, Team Wheels, Color Shifters y más.",
     "bio_es": "Graphic designer de Hot Wheels con múltiples diseños tampo en 2026 para series como Variety, Layin' Low, Red Edition, Pop Culture, Nightspeed, HW Euro, HW Dirt, Team Wheels, Color Shifters y más.",
-    "bio_en": "",
+    "bio_en": "Graphic designer de Hot Wheels con múltiples diseños tampo en 2026 para series como Variety, Layin' Low, Red Edition, Pop Culture, Nightspeed, HW Euro, HW Dirt, Team Wheels, Color Shifters y más.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16743,7 +16757,7 @@
     "foto": "https://static.wikia.nocookie.net/hotwheels/images/4/44/JonChase.png/revision/latest?cb=20240919151911",
     "biografia_limpia": "Jon Dean Chase is a creative consultant and brand manager working with Mattel since 2024 and the founder of Jon Chase Studios. While not officially employed by Mattel a number of his designs have been used on mainline models. Prior to running Jon Chase Studios he was the longstanding creative director at Hoonigan until 2022, an automotive enthusiast brand.",
     "bio_es": "Jon Dean Chase is a creative consultant and brand manager working with Mattel since 2024 and the founder of Jon Chase Studios. While not officially employed by Mattel a number of his designs have been used on mainline models. Prior to running Jon Chase Studios he was the longstanding creative director at Hoonigan until 2022, an automotive enthusiast brand.",
-    "bio_en": "",
+    "bio_en": "Jon Dean Chase is a creative consultant and brand manager working with Mattel since 2024 and the founder of Jon Chase Studios. While not officially employed by Mattel a number of his designs have been used on mainline models. Prior to running Jon Chase Studios he was the longstanding creative director at Hoonigan until 2022, an automotive enthusiast brand.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16761,10 +16775,10 @@
   },
   "Roman Cortez": {
     "nombre": "Roman Cortez",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=R",
     "biografia_limpia": "Roman Cortez es un graphic designer de Hot Wheels que trabajó en Mattel. Mencionado como colega de Dave Klausner, Jerry Thienprasiddhi, Steve Vandervate y Mike McClone. No tiene página propia dedicada en el wiki.",
     "bio_es": "Roman Cortez es un graphic designer de Hot Wheels que trabajó en Mattel. Mencionado como colega de Dave Klausner, Jerry Thienprasiddhi, Steve Vandervate y Mike McClone. No tiene página propia dedicada en el wiki.",
-    "bio_en": "",
+    "bio_en": "Roman Cortez es un graphic designer de Hot Wheels que trabajó en Mattel. Mencionado como colega de Dave Klausner, Jerry Thienprasiddhi, Steve Vandervate y Mike McClone. No tiene página propia dedicada en el wiki.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16778,10 +16792,10 @@
   },
   "Jeremy Cox": {
     "nombre": "Jeremy Cox",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=J",
     "biografia_limpia": "Jeremy Cox is a Mattel employee who has worked with Hot Wheels since 2007 as a Project Design Lead and since 2018 as a Staff Designer. Cox specializes in graphic design, and works on the graphics for the Hot Wheels Monster Trucks line among others; he also serves as a Creative Director of the Monster Trucks line. Prior to working at Mattel he was a graphic designer for numerous other companies, such as RC2, JMP Creative, VSI Products and Thrill Ride Sports.",
     "bio_es": "Jeremy Cox is a Mattel employee who has worked with Hot Wheels since 2007 as a Project Design Lead and since 2018 as a Staff Designer. Cox specializes in graphic design, and works on the graphics for the Hot Wheels Monster Trucks line among others; he also serves as a Creative Director of the Monster Trucks line. Prior to working at Mattel he was a graphic designer for numerous other companies, such as RC2, JMP Creative, VSI Products and Thrill Ride Sports.",
-    "bio_en": "",
+    "bio_en": "Jeremy Cox is a Mattel employee who has worked with Hot Wheels since 2007 as a Project Design Lead and since 2018 as a Staff Designer. Cox specializes in graphic design, and works on the graphics for the Hot Wheels Monster Trucks line among others; he also serves as a Creative Director of the Monster Trucks line. Prior to working at Mattel he was a graphic designer for numerous other companies, such as RC2, JMP Creative, VSI Products and Thrill Ride Sports.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16818,10 +16832,10 @@
   },
   "Kevin Geraldez": {
     "nombre": "Kevin Geraldez",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=K",
     "biografia_limpia": "Kevin Geraldez is a Hot Wheels designer who has worked at Mattel since 2020. He specializes in graphic design and works on the Premium, RLC and Elite 64 lines alongside Steve Vandervate. Prior to working at Mattel, he was a graphic designer at various toy companies, including some competing brands such as Jada Toys, Maisto and Jakks Pacific. Geraldez's first graphic design was the Initial D-exclusive Toyota AE86 Sprinter Trueno, and has also worked on other products such as the Kawa-Bug-A, 1975 Chevrolet Monte Carlo and the Car Culture Hyper Haulers series.",
     "bio_es": "Kevin Geraldez is a Hot Wheels designer who has worked at Mattel since 2020. He specializes in graphic design and works on the Premium, RLC and Elite 64 lines alongside Steve Vandervate. Prior to working at Mattel, he was a graphic designer at various toy companies, including some competing brands such as Jada Toys, Maisto and Jakks Pacific. Geraldez's first graphic design was the Initial D-exclusive Toyota AE86 Sprinter Trueno, and has also worked on other products such as the Kawa-Bug-A, 1975 Chevrolet Monte Carlo and the Car Culture Hyper Haulers series.",
-    "bio_en": "",
+    "bio_en": "Kevin Geraldez is a Hot Wheels designer who has worked at Mattel since 2020. He specializes in graphic design and works on the Premium, RLC and Elite 64 lines alongside Steve Vandervate. Prior to working at Mattel, he was a graphic designer at various toy companies, including some competing brands such as Jada Toys, Maisto and Jakks Pacific. Geraldez's first graphic design was the Initial D-exclusive Toyota AE86 Sprinter Trueno, and has also worked on other products such as the Kawa-Bug-A, 1975 Chevrolet Monte Carlo and the Car Culture Hyper Haulers series.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16849,7 +16863,7 @@
     "foto": "https://static.wikia.nocookie.net/hotwheels/images/a/a6/Anton-headshot-HW.jpg",
     "biografia_limpia": "Anton Henggono is a graphic designer who has worked at Hot Wheels since 2022. Born and raised in Jakarta, Indonesia, he has been passionate about automotive and motorcycle design from a young age. A graphic design graduate from Trisakti University, Jakarta, Anton moved to Los Angeles in 2006 to further his career. In Los Angeles, Anton honed his skills working with various action sports companies, focusing primarily on helmet graphics. In 2022, he joined the Hot Wheels design team, where he has since contributed to a wide array of projects, including mainline and special edition die-cast cars, as well as NFTs. Beyond his work with Hot Wheels, Anton is a seasoned custom painter, with a portfolio that includes helmets, motorcycles and automobiles. His first graphic design for Hot Wheels was the '15 Mazda MX-5 Miata (HKH87) released in the 2023 mainline.",
     "bio_es": "Anton Henggono is a graphic designer who has worked at Hot Wheels since 2022. Born and raised in Jakarta, Indonesia, he has been passionate about automotive and motorcycle design from a young age. A graphic design graduate from Trisakti University, Jakarta, Anton moved to Los Angeles in 2006 to further his career. In Los Angeles, Anton honed his skills working with various action sports companies, focusing primarily on helmet graphics. In 2022, he joined the Hot Wheels design team, where he has since contributed to a wide array of projects, including mainline and special edition die-cast cars, as well as NFTs. Beyond his work with Hot Wheels, Anton is a seasoned custom painter, with a portfolio that includes helmets, motorcycles and automobiles. His first graphic design for Hot Wheels was the '15 Mazda MX-5 Miata (HKH87) released in the 2023 mainline.",
-    "bio_en": "",
+    "bio_en": "Anton Henggono is a graphic designer who has worked at Hot Wheels since 2022. Born and raised in Jakarta, Indonesia, he has been passionate about automotive and motorcycle design from a young age. A graphic design graduate from Trisakti University, Jakarta, Anton moved to Los Angeles in 2006 to further his career. In Los Angeles, Anton honed his skills working with various action sports companies, focusing primarily on helmet graphics. In 2022, he joined the Hot Wheels design team, where he has since contributed to a wide array of projects, including mainline and special edition die-cast cars, as well as NFTs. Beyond his work with Hot Wheels, Anton is a seasoned custom painter, with a portfolio that includes helmets, motorcycles and automobiles. His first graphic design for Hot Wheels was the '15 Mazda MX-5 Miata (HKH87) released in the 2023 mainline.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16871,10 +16885,10 @@
   },
   "Michael Heralda": {
     "nombre": "Michael Heralda",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=M",
     "biografia_limpia": "Michael O. Heralda is a longtime graphic designer at Mattel who retired in June, in the summer of 2015. Prior to joining the Mattel group, Michael Heralda was Art Director at Kransco/Wham-O Toys in San Gabriel, CA for eight years. He started at Mattel in 1997 with the responsibility of designing graphics for the 1998 Hot Wheels product line. The very first Hot Wheels car Michael designed graphics for was the (#1 of 48) 1998 First Edition Ford Escort Rally. During his eight years with Hot Wheels, Mike has created over 2,500 (produced) Hot Wheels decorations as of 2005. In 2005, Michael was offered the opportunity to work on the Matchbox diecast brand, and he continued until June 2015 creating graphics for Matchbox vehicles. Adding another 1,700 Matchbox decorations to his Hot Wheels library, the original count of his works has grown to about 4,200 die cast vehicle decorations in all.",
     "bio_es": "Michael O. Heralda is a longtime graphic designer at Mattel who retired in June, in the summer of 2015. Prior to joining the Mattel group, Michael Heralda was Art Director at Kransco/Wham-O Toys in San Gabriel, CA for eight years. He started at Mattel in 1997 with the responsibility of designing graphics for the 1998 Hot Wheels product line. The very first Hot Wheels car Michael designed graphics for was the (#1 of 48) 1998 First Edition Ford Escort Rally. During his eight years with Hot Wheels, Mike has created over 2,500 (produced) Hot Wheels decorations as of 2005. In 2005, Michael was offered the opportunity to work on the Matchbox diecast brand, and he continued until June 2015 creating graphics for Matchbox vehicles. Adding another 1,700 Matchbox decorations to his Hot Wheels library, the original count of his works has grown to about 4,200 die cast vehicle decorations in all.",
-    "bio_en": "",
+    "bio_en": "Michael O. Heralda is a longtime graphic designer at Mattel who retired in June, in the summer of 2015. Prior to joining the Mattel group, Michael Heralda was Art Director at Kransco/Wham-O Toys in San Gabriel, CA for eight years. He started at Mattel in 1997 with the responsibility of designing graphics for the 1998 Hot Wheels product line. The very first Hot Wheels car Michael designed graphics for was the (#1 of 48) 1998 First Edition Ford Escort Rally. During his eight years with Hot Wheels, Mike has created over 2,500 (produced) Hot Wheels decorations as of 2005. In 2005, Michael was offered the opportunity to work on the Matchbox diecast brand, and he continued until June 2015 creating graphics for Matchbox vehicles. Adding another 1,700 Matchbox decorations to his Hot Wheels library, the original count of his works has grown to about 4,200 die cast vehicle decorations in all.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16911,10 +16925,10 @@
   },
   "Dave Klausner": {
     "nombre": "Dave Klausner",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=D",
     "biografia_limpia": "David Klausner is a former Hot Wheels graphic designer who worked at Mattel from at least 1996 to around 2009. He is mentioned a number of times in the Hot Wheels Classics 30-Car Set as graphic designer for the '59 Cadillac Funny Car and '29 Ford Pickup, as well as a fictitious sponsor on older products. He is known to have worked alongside Jerry Thienprasiddhi, Roman Cortez, Steve Vandervate and Mike McClone.",
     "bio_es": "David Klausner is a former Hot Wheels graphic designer who worked at Mattel from at least 1996 to around 2009. He is mentioned a number of times in the Hot Wheels Classics 30-Car Set as graphic designer for the '59 Cadillac Funny Car and '29 Ford Pickup, as well as a fictitious sponsor on older products. He is known to have worked alongside Jerry Thienprasiddhi, Roman Cortez, Steve Vandervate and Mike McClone.",
-    "bio_en": "",
+    "bio_en": "David Klausner is a former Hot Wheels graphic designer who worked at Mattel from at least 1996 to around 2009. He is mentioned a number of times in the Hot Wheels Classics 30-Car Set as graphic designer for the '59 Cadillac Funny Car and '29 Ford Pickup, as well as a fictitious sponsor on older products. He is known to have worked alongside Jerry Thienprasiddhi, Roman Cortez, Steve Vandervate and Mike McClone.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16943,10 +16957,10 @@
   },
   "Mike McClone": {
     "nombre": "Mike McClone",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=M",
     "biografia_limpia": "Michael McClone is a Mattel employee who has worked at Mattel since 2000. He specializes in graphics design and has worked on a variety of castings since 2000, and is responsible for much of the art direction featured on various mainline models, themed assortments, themed multipacks and other specialty series such as Ultra Hots, Neon Speeders and The Hot Ones.",
     "bio_es": "Michael McClone is a Mattel employee who has worked at Mattel since 2000. He specializes in graphics design and has worked on a variety of castings since 2000, and is responsible for much of the art direction featured on various mainline models, themed assortments, themed multipacks and other specialty series such as Ultra Hots, Neon Speeders and The Hot Ones.",
-    "bio_en": "",
+    "bio_en": "Michael McClone is a Mattel employee who has worked at Mattel since 2000. He specializes in graphics design and has worked on a variety of castings since 2000, and is responsible for much of the art direction featured on various mainline models, themed assortments, themed multipacks and other specialty series such as Ultra Hots, Neon Speeders and The Hot Ones.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -16994,10 +17008,10 @@
   },
   "Bruce Schultz": {
     "nombre": "Bruce Schultz",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=B",
     "biografia_limpia": "Bruce Schultz is an independent contractor who worked with Mattel from 1994 to 2015. He is the owner of Bodylines, a design company. Schultz's company was responsible for the creation of many of the paint master prototypes as well as the \"poster shoot\" models of the castings that were to be put into production. He also did artwork for some of the 100% Hot Wheels sets, such as the American Graffiti 2-Car Set.",
     "bio_es": "Bruce Schultz is an independent contractor who worked with Mattel from 1994 to 2015. He is the owner of Bodylines, a design company. Schultz's company was responsible for the creation of many of the paint master prototypes as well as the \"poster shoot\" models of the castings that were to be put into production. He also did artwork for some of the 100% Hot Wheels sets, such as the American Graffiti 2-Car Set.",
-    "bio_en": "",
+    "bio_en": "Bruce Schultz is an independent contractor who worked with Mattel from 1994 to 2015. He is the owner of Bodylines, a design company. Schultz's company was responsible for the creation of many of the paint master prototypes as well as the \"poster shoot\" models of the castings that were to be put into production. He also did artwork for some of the 100% Hot Wheels sets, such as the American Graffiti 2-Car Set.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -17040,7 +17054,7 @@
     "foto": "https://static.wikia.nocookie.net/hotwheels/images/a/a3/HWCVan.png/revision/latest?cb=20210328055847",
     "biografia_limpia": "Steven James Vandervate, commonly known as Van, is a designer who has been working at Hot Wheels since 2003. He mainly works as a graphics designer for various Hot Wheels lines, particularly the Premium lines and limited releases, his main work being in the Car Culture series. Outside of work, he is an abstract artist, with his works often being published on his personal Instagram page.",
     "bio_es": "Steven James Vandervate, commonly known as Van, is a designer who has been working at Hot Wheels since 2003. He mainly works as a graphics designer for various Hot Wheels lines, particularly the Premium lines and limited releases, his main work being in the Car Culture series. Outside of work, he is an abstract artist, with his works often being published on his personal Instagram page.",
-    "bio_en": "",
+    "bio_en": "Steven James Vandervate, commonly known as Van, is a designer who has been working at Hot Wheels since 2003. He mainly works as a graphics designer for various Hot Wheels lines, particularly the Premium lines and limited releases, his main work being in the Car Culture series. Outside of work, he is an abstract artist, with his works often being published on his personal Instagram page.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -17083,10 +17097,10 @@
   },
   "Jerry Thienprasiddhi": {
     "nombre": "Jerry Thienprasiddhi",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=J",
     "biografia_limpia": "Jirasak \"Jerry\" Thienprasiddhi is a Thai-American Mattel employee who works as a Principal Product Designer for Hot Wheels since 2001. He specializes in graphics design, doing graphics for convention releases and the like, alongside Julian Koiles, Steve Vandervate and former designer Miq Willmott. Thienprasiddhi left Mattel briefly in 2024 before returning in an advisory or managerial role.",
     "bio_es": "Jirasak \"Jerry\" Thienprasiddhi is a Thai-American Mattel employee who works as a Principal Product Designer for Hot Wheels since 2001. He specializes in graphics design, doing graphics for convention releases and the like, alongside Julian Koiles, Steve Vandervate and former designer Miq Willmott. Thienprasiddhi left Mattel briefly in 2024 before returning in an advisory or managerial role.",
-    "bio_en": "",
+    "bio_en": "Jirasak \"Jerry\" Thienprasiddhi is a Thai-American Mattel employee who works as a Principal Product Designer for Hot Wheels since 2001. He specializes in graphics design, doing graphics for convention releases and the like, alongside Julian Koiles, Steve Vandervate and former designer Miq Willmott. Thienprasiddhi left Mattel briefly in 2024 before returning in an advisory or managerial role.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -17127,10 +17141,10 @@
   },
   "Mike Vasquez": {
     "nombre": "Mike Vasquez",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=M",
     "biografia_limpia": "Michael Vasquez is a Hot Wheels designer working at Mattel since 2022. He specializes in graphic design, with his current role being a product and package designer for Mattel; he is known to work on graphics for the Hot Wheels Skate and Hot Wheels RacerVerse series. He is known for his comic book illustrations, particularly of Rick & Morty, having worked as a graphic designer for numerous companies in the past.",
     "bio_es": "Michael Vasquez is a Hot Wheels designer working at Mattel since 2022. He specializes in graphic design, with his current role being a product and package designer for Mattel; he is known to work on graphics for the Hot Wheels Skate and Hot Wheels RacerVerse series. He is known for his comic book illustrations, particularly of Rick & Morty, having worked as a graphic designer for numerous companies in the past.",
-    "bio_en": "",
+    "bio_en": "Michael Vasquez is a Hot Wheels designer working at Mattel since 2022. He specializes in graphic design, with his current role being a product and package designer for Mattel; he is known to work on graphics for the Hot Wheels Skate and Hot Wheels RacerVerse series. He is known for his comic book illustrations, particularly of Rick & Morty, having worked as a graphic designer for numerous companies in the past.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
@@ -17158,10 +17172,10 @@
   },
   "Miq Willmott": {
     "nombre": "Miq Willmott",
-    "foto": null,
+    "foto": "https://via.placeholder.com/150/1a1a2e/ff4d00?text=M",
     "biografia_limpia": "Miq Willmott, stylized miQ WillmOtt, joined the Hot Wheels design team in 1999 as a Graphic Designer. He came from the record industry where he designed many T-shirts and album covers as well as being recognized as an accomplished artist. Willmott's style quickly spread throughout the line and soon he was promoted to Manager of the Graphics group. Miq was a leader in making sure every vehicle got some type of graphic after seeing that some of the cars that clogged the pegs appeared bare. As of 2001-2002 almost every car, even First Editions / New Models, which previously had less deco than segment series and repaint cars, has gotten a graphic boost. Hot Wheels graphics evolved as well under Miq. They got more complex as he pushed the boundaries of what could be executed with a tampo machine. Willmott left Hot Wheels in 2006, moving to Portland and opening his own design studio, TWEEQIM, with wife Thuy. They still consult for Hot Wheels designing graphics and elements that make their way onto many cars.",
     "bio_es": "Miq Willmott, stylized miQ WillmOtt, joined the Hot Wheels design team in 1999 as a Graphic Designer. He came from the record industry where he designed many T-shirts and album covers as well as being recognized as an accomplished artist. Willmott's style quickly spread throughout the line and soon he was promoted to Manager of the Graphics group. Miq was a leader in making sure every vehicle got some type of graphic after seeing that some of the cars that clogged the pegs appeared bare. As of 2001-2002 almost every car, even First Editions / New Models, which previously had less deco than segment series and repaint cars, has gotten a graphic boost. Hot Wheels graphics evolved as well under Miq. They got more complex as he pushed the boundaries of what could be executed with a tampo machine. Willmott left Hot Wheels in 2006, moving to Portland and opening his own design studio, TWEEQIM, with wife Thuy. They still consult for Hot Wheels designing graphics and elements that make their way onto many cars.",
-    "bio_en": "",
+    "bio_en": "Miq Willmott, stylized miQ WillmOtt, joined the Hot Wheels design team in 1999 as a Graphic Designer. He came from the record industry where he designed many T-shirts and album covers as well as being recognized as an accomplished artist. Willmott's style quickly spread throughout the line and soon he was promoted to Manager of the Graphics group. Miq was a leader in making sure every vehicle got some type of graphic after seeing that some of the cars that clogged the pegs appeared bare. As of 2001-2002 almost every car, even First Editions / New Models, which previously had less deco than segment series and repaint cars, has gotten a graphic boost. Hot Wheels graphics evolved as well under Miq. They got more complex as he pushed the boundaries of what could be executed with a tampo machine. Willmott left Hot Wheels in 2006, moving to Portland and opening his own design studio, TWEEQIM, with wife Thuy. They still consult for Hot Wheels designing graphics and elements that make their way onto many cars.",
     "bio_pt": "",
     "bio_fr": "",
     "proyectos": {
