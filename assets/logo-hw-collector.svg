@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="HW-Collector">
+  <defs>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="100%" y2="10%">
+      <stop offset="0%"   stop-color="#b71000"/>
+      <stop offset="30%"  stop-color="#ff3d00"/>
+      <stop offset="65%"  stop-color="#ff7300"/>
+      <stop offset="100%" stop-color="#ffc400"/>
+    </linearGradient>
+    <linearGradient id="flameInner" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ff8a00"/>
+      <stop offset="100%" stop-color="#fff3b0"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="48%"  stop-color="#f2f7fc"/>
+      <stop offset="52%"  stop-color="#cfdcea"/>
+      <stop offset="100%" stop-color="#8fa3ba"/>
+    </linearGradient>
+    <linearGradient id="chromeDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#4a5b73"/>
+      <stop offset="100%" stop-color="#16202f"/>
+    </linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <!-- ===== FLAMA ===== -->
+  <g filter="url(#soft)">
+    <!-- contorno negro -->
+    <path d="M 46 372
+             C 18 300 62 224 146 186
+             C 126 232 140 268 182 274
+             C 168 216 216 152 296 124
+             C 266 176 280 216 328 226
+             C 320 172 366 112 452 86
+             C 410 142 428 194 486 206
+             C 500 262 474 330 412 368
+             C 322 424 128 438 46 372 Z"
+          fill="#0b0f16" stroke="#0b0f16" stroke-width="26" stroke-linejoin="round"/>
+    <!-- relleno degradado -->
+    <path d="M 46 372
+             C 18 300 62 224 146 186
+             C 126 232 140 268 182 274
+             C 168 216 216 152 296 124
+             C 266 176 280 216 328 226
+             C 320 172 366 112 452 86
+             C 410 142 428 194 486 206
+             C 500 262 474 330 412 368
+             C 322 424 128 438 46 372 Z"
+          fill="url(#flameGrad)"/>
+    <!-- lengua interior clara -->
+    <path d="M 150 330
+             C 138 292 168 252 214 232
+             C 202 262 214 288 246 292
+             C 240 258 268 220 318 202
+             C 296 238 306 268 342 276
+             C 348 316 322 352 280 368
+             C 232 386 172 376 150 330 Z"
+          fill="url(#flameInner)" opacity="0.92"/>
+  </g>
+
+  <!-- ===== HW ===== -->
+  <g transform="translate(486,392) skewX(-11)">
+    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="300" font-weight="900" letter-spacing="-6"
+          fill="#0b0f16" stroke="#0b0f16" stroke-width="30" stroke-linejoin="round">HW</text>
+    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="300" font-weight="900" letter-spacing="-6"
+          fill="url(#chrome)" stroke="#0b0f16" stroke-width="9" stroke-linejoin="round">HW</text>
+  </g>
+
+  <!-- ===== COLLECTOR ===== -->
+  <g transform="translate(506,486) skewX(-11)">
+    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="84" font-weight="900" letter-spacing="15"
+          fill="#0b0f16" stroke="#0b0f16" stroke-width="16" stroke-linejoin="round">COLLECTOR</text>
+    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="84" font-weight="900" letter-spacing="15"
+          fill="url(#flameGrad)" stroke="#0b0f16" stroke-width="5" stroke-linejoin="round">COLLECTOR</text>
+  </g>
+
+  <!-- línea de velocidad -->
+  <g opacity="0.85">
+    <rect x="500" y="516" width="196" height="9" rx="4.5" fill="#ff4d00"/>
+    <rect x="708" y="516" width="112" height="9" rx="4.5" fill="#ff7300"/>
+    <rect x="832" y="516" width="58"  height="9" rx="4.5" fill="#ffc400"/>
+  </g>
+</svg>
