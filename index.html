@@ -793,6 +793,8 @@ const DEM={};
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
 const IMG=f=>{
   if(!f) return '';
+  // Si ya viene proxeada por images.weserv.nl, devolverla tal cual (evita doble-proxy)
+  if(f.indexOf('images.weserv.nl')!==-1) return f;
   // Si ya es una URL absoluta de Wikia/Fandom, usar proxy images.weserv.nl
   if(f.includes('static.wikia.nocookie.net')) {
     return 'https://images.weserv.nl/?url=' + encodeURIComponent(f);
@@ -2295,9 +2297,22 @@ function initPWA(){
   window.addEventListener("appinstalled", function(){ logMsg("a","App instalada en el dispositivo. Ya funciona sin conexión."); });
   window.addEventListener("online", netBadge); window.addEventListener("offline", netBadge); netBadge();
   if("serviceWorker" in navigator && location.protocol!=="file:"){
-    navigator.serviceWorker.register("sw.js").then(function(){
+    var _swReloading=false;
+    navigator.serviceWorker.addEventListener("controllerchange",function(){
+      if(_swReloading) return; _swReloading=true; location.reload();
+    });
+    navigator.serviceWorker.register("sw.js").then(function(reg){
       logMsg("a","Modo app activado: funciona sin conexión y se puede instalar en el celular.",
         "Service worker registrado · "+(navigator.onLine?"en línea":"sin conexión"));
+      try{ reg.update(); }catch(e){}
+      setInterval(function(){ try{ reg.update(); }catch(e){} }, 60000);
+      if(reg.waiting){ try{ reg.waiting.postMessage({type:"SKIP_WAITING"}); }catch(e){} }
+      reg.addEventListener("updatefound",function(){
+        var nw=reg.installing; if(!nw) return;
+        nw.addEventListener("statechange",function(){
+          if(nw.state==="installed" && navigator.serviceWorker.controller){ try{ nw.postMessage({type:"SKIP_WAITING"}); }catch(e){} }
+        });
+      });
     }).catch(function(e){ /* en file:// no aplica */ });
   } else if(location.protocol==="file:"){
     const b=document.getElementById("installbtn");
