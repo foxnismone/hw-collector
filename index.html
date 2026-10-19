@@ -86,6 +86,14 @@ main{padding:16px 18px 60px}
  display:flex;flex-direction:column;text-align:left;padding:0;color:inherit;font:inherit}
 .card:hover{transform:translateY(-6px) scale(1.03);border-color:rgba(255,77,0,.6);box-shadow:0 16px 32px rgba(255,77,0,.2),0 8px 16px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.15)}
 .thumb{aspect-ratio:1/1;background:var(--elev);display:block;width:100%;object-fit:contain;padding:8px}
+.mirror{transform:scaleX(-1)}
+.cardflip{position:absolute;top:7px;right:7px;z-index:3;width:27px;height:27px;border-radius:7px;
+ background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.3);color:#fff;font-size:15px;line-height:1;
+ cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;
+ transition:opacity .18s,background .18s,transform .18s}
+.cardwrap:hover .cardflip{opacity:.92}
+.cardflip:hover{background:#ff4d00;border-color:#fff;transform:scale(1.1)}
+.cardflip.on{opacity:1;background:var(--accent);border-color:#fff;box-shadow:0 0 0 2px rgba(255,77,0,.35)}
 .card .body{padding:9px 10px 10px;display:flex;flex-direction:column;gap:5px;flex:1}
 .card .nm{font-size:13.2px;font-weight:700;line-height:1.25;color:#f6f9fd;letter-spacing:.1px;text-shadow:0 1px 2px rgba(0,0,0,.6)}
 .card .mt{font-size:11px;color:#bcc7d6;font-family:var(--f-mono);font-weight:500}
@@ -343,6 +351,7 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
     <div class="note" style="margin-top:4px;font-size:12px">💡 Buscar por: nombre del modelo, serie, tool # (ej: JBC20), o número de colección</div>
     <select id="fyear"></select><select id="fserie"></select><select id="fcat"></select><select id="fpais"></select>
     <select id="fsort"><option value="rel">Orden: año / nº</option><option value="ind">Índice ↓</option><option value="val">Valor ↓</option></select>
+    <button id="fdir" class="chip" title="Uniformar la orientación de los autos" style="white-space:nowrap">⇄ Mirando: <b id="fdirTxt">→</b></button>
     <div class="chips">
       <button class="chip" data-clase="Mainline" aria-pressed="false">Mainline</button>
       <button class="chip" data-clase="TH" aria-pressed="false">Treasure Hunt</button>
@@ -860,8 +869,32 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='14';
+const IMGV='15';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
+/* Orientación: espejo para uniformar hacia dónde miran los autos.
+   - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
+   - FLIPMAN: lo que el usuario fue volteando a mano (por casting)  {nombre:true}
+   - state.dir: dirección elegida (DER por defecto) */
+const ORI=(typeof ORIENT!=='undefined'&&ORIENT)?ORIENT:{};
+let FLIPMAN={}; try{ FLIPMAN=JSON.parse(localStorage.getItem('hw_flip')||'{}')||{}; }catch(e){ FLIPMAN={}; }
+const castingKey=c=>String((c&&(c.m||c.i))||'').replace(/\s*\(\d+(st|nd|rd|th) Color[^)]*\)\s*$/i,'').replace(/\s*\(Color Variant[^)]*\)\s*$/i,'').trim();
+const FLIP=c=>{
+  if(!c) return false;
+  const k=castingKey(c);
+  if(FLIPMAN[k]!==undefined) return !!FLIPMAN[k];
+  const o=ORI[c.i]; if(!o||!o.d||(o.c||0)<0.55) return false;
+  return o.d!==state.dir;
+};
+window.flipCar=function(ev,id){
+  if(ev){ev.stopPropagation();ev.preventDefault();}
+  const c=(typeof IDX!=='undefined'&&IDX[id])||(typeof CAT!=='undefined'&&CAT.find(x=>x.i===id));
+  if(!c) return;
+  const k=castingKey(c);
+  const ahora=FLIP(c);
+  FLIPMAN[k]=!ahora;
+  try{ localStorage.setItem('hw_flip',JSON.stringify(FLIPMAN)); }catch(e){}
+  render(true);
+};
 const IMG=f=>{
   if(!f) return '';
   // Si ya viene proxeada por images.weserv.nl, devolverla tal cual (evita doble-proxy)
@@ -915,7 +948,7 @@ Object.keys(DEM).forEach(k=>delete DEM[k]);
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ (pair[1]||[]).forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-let state={q:"",year:"",clase:"",serie:"",sort:"rel",page:0,per:60,tab:"catalogo",trending:false};
+let state={q:"",year:"",clase:"",serie:"",sort:"rel",page:0,per:60,tab:"catalogo",trending:false,dir:(localStorage.getItem("hw_dir")||"DER")};
 let col={};
 
 /* ===== moneda ===== */
@@ -979,14 +1012,15 @@ function cardHTML(c){
   const dm=DEM[c.i];
   const pie=(dm?"TOP "+dm.rank:"")+(c.imr?(dm?" · ":"")+"imagen ref":"");
   const dbadge=pie?`<span class="dem">${pie}</span>`:"";
-  const img=c.im?`<img class="thumb" loading="lazy" decoding="async" src="${IMG(c.im)}" alt="" onerror="this.classList.add('imgerr');this.removeAttribute('src');" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`<div class="thumb imgerr"></div>`;
+  const img=c.im?`<img class="thumb${FLIP(c)?' mirror':''}" loading="lazy" decoding="async" src="${IMG(c.im)}" alt="" onerror="this.classList.add('imgerr');this.removeAttribute('src');" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`<div class="thumb imgerr"></div>`;
+  const flipBtn=`<button class="cardflip${FLIP(c)?' on':''}" onclick="flipCar(event,'${c.i}')" title="Voltear este auto (efecto espejo)">⇄</button>`;
   const editBtn=o&&o.q?`<button class="cardedit" onclick="event.stopPropagation();editCar('${c.i}')" title="Editar">✎</button>`:"";
   const delBtn=o&&o.q?`<button class="carddel" onclick="event.stopPropagation();if(confirm('Eliminar ${c.m}?'))delCar('${c.i}')" title="Eliminar">×</button>`:"";
   const bandera=c.pais?`<div style="position:absolute;bottom:4px;right:4px;font-size:14px;background:rgba(0,0,0,.5);border-radius:4px;padding:2px 4px">${c.pais.includes('Malaysia')?'🇲🇾':c.pais.includes('Thailand')?'🇹🇭':c.pais.includes('China')?'🇨🇳':c.pais.includes('Hong Kong')?'🇭🇰':c.pais.includes('USA')?'🇺🇸':'🏳️'}</div>`:'';
   const thLogo=c.k==='TH'?'<div style="position:absolute;top:4px;left:4px;background:#f59e0b;color:#000;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">🔥TH</div>':'';
   const sthLogo=c.k==='STH'?'<div style="position:absolute;top:4px;left:4px;background:#dc2626;color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">💎STH</div>':'';
   const paisInfo=c.pais?`<span style="color:var(--muted-foreground);font-size:11px"> · ${c.pais}</span>`:'';
-  return `<div class="cardwrap">${editBtn}${delBtn}<button class="card" data-id="${c.i}">${badge}${qty}${dbadge}${thLogo}${sthLogo}${img}${bandera}<div class="body">
+  return `<div class="cardwrap">${flipBtn}${editBtn}${delBtn}<button class="card" data-id="${c.i}">${badge}${qty}${dbadge}${thLogo}${sthLogo}${img}${bandera}<div class="body">
     <div class="nm">${c.m}</div><div class="mt">${c.y} · #${c.c} · ${String(c.t)}${paisInfo}</div>
     <div class="idx"><i style="width:${c.x}%;background:${nivelColor(c.x)}"></i></div>
     <div class="idxrow"><span>Índice ${c.x}</span><span>${fmt(c.v)}–${fmt(c.V)}</span></div></div></button></div>`;
@@ -1037,7 +1071,7 @@ function drawer(id){
   const vmHTML=vm.usd?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Valores de mercado</h3><div style="font-size:13px"><b>USD:</b> $${vm.usd} · <b>CLP:</b> $${vm.clp} · <b>EUR:</b> €${vm.eur}</div><div class="note" style="font-size:10px;margin-top:4px">Fuente: ${vm.fuente||'Cálculo automático'} · ${vm.fecha||''}</div></div>`:'';
   const d=document.getElementById("drawer");
   d.innerHTML=`<button class="close" onclick="closeDrawer()">×</button>
-    <div class="dh"><img src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">
+    <div class="dh"><img class="${FLIP(c)?'mirror':''}" src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">
       <div><h2>${c.m}</h2>
         <div class="mt">${c.y} · Nº de colección ${c.c} · Toy # ${c.t}</div>
         ${disHTML}${fichaHTML}${idxHTML}${vmHTML}
@@ -2483,6 +2517,11 @@ function initPage(){
       ' · <b>Series:</b> '+nSeries;
   }
   const so=document.getElementById("fsort"); if(so) so.onchange=()=>{state.sort=so.value;render(true);};
+  // Uniformar orientación de los autos
+  const fd=document.getElementById("fdir"), fdt=document.getElementById("fdirTxt");
+  const pintaDir=()=>{ if(fdt) fdt.textContent=(state.dir==="DER"?"→":"←"); };
+  pintaDir();
+  if(fd) fd.onclick=()=>{ state.dir=(state.dir==="DER"?"IZQ":"DER"); localStorage.setItem("hw_dir",state.dir); pintaDir(); render(true); };
   document.querySelectorAll(".chip[data-clase]").forEach(ch=>ch.onclick=()=>{
     state.clase=(state.clase===ch.dataset.clase)?"":ch.dataset.clase;
     document.querySelectorAll(".chip[data-clase]").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.clase===state.clase)));

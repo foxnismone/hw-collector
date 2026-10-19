@@ -1,5 +1,5 @@
 /* HW Collector — service worker (offline-first) */
-const CACHE = 'hwcollector-v14';
+const CACHE = 'hwcollector-v15';
 const SHELL = ['./','./index.html','./galeria_catalogo.html','./galeria_coleccion.html',
                './manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png'];
 self.addEventListener('install', e => {
