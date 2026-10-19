@@ -10,6 +10,12 @@
       <stop offset="0%"   stop-color="#ff8a00"/>
       <stop offset="100%" stop-color="#fff3b0"/>
     </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#fff6b8"/>
+      <stop offset="20%"  stop-color="#ffd83d"/>
+      <stop offset="58%"  stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#ff8a00"/>
+    </linearGradient>
     <linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%"   stop-color="#ffffff"/>
       <stop offset="48%"  stop-color="#f2f7fc"/>
@@ -60,24 +66,30 @@
           fill="url(#flameInner)" opacity="0.92"/>
   </g>
 
-  <!-- ===== HW ===== -->
+  <!-- ===== HW : dorado con contorno blanco y sombra negra (como la referencia) ===== -->
   <g transform="translate(486,392) skewX(-11)">
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="300" font-weight="900" letter-spacing="-6"
-          fill="#0b0f16" stroke="#0b0f16" stroke-width="30" stroke-linejoin="round">HW</text>
+          fill="#0b0f16" stroke="#0b0f16" stroke-width="36" stroke-linejoin="round">HW</text>
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="300" font-weight="900" letter-spacing="-6"
-          fill="url(#chrome)" stroke="#0b0f16" stroke-width="9" stroke-linejoin="round">HW</text>
+          fill="#ffffff" stroke="#ffffff" stroke-width="22" stroke-linejoin="round">HW</text>
+    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="300" font-weight="900" letter-spacing="-6"
+          fill="url(#gold)">HW</text>
   </g>
 
-  <!-- ===== COLLECTOR ===== -->
+  <!-- ===== COLLECTOR : dorado con contorno blanco ===== -->
   <g transform="translate(506,486) skewX(-11)">
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="84" font-weight="900" letter-spacing="15"
-          fill="#0b0f16" stroke="#0b0f16" stroke-width="16" stroke-linejoin="round">COLLECTOR</text>
+          fill="#0b0f16" stroke="#0b0f16" stroke-width="22" stroke-linejoin="round">COLLECTOR</text>
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="84" font-weight="900" letter-spacing="15"
-          fill="url(#flameGrad)" stroke="#0b0f16" stroke-width="5" stroke-linejoin="round">COLLECTOR</text>
+          fill="#ffffff" stroke="#ffffff" stroke-width="12" stroke-linejoin="round">COLLECTOR</text>
+    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="84" font-weight="900" letter-spacing="15"
+          fill="url(#gold)">COLLECTOR</text>
   </g>
 
   <!-- línea de velocidad -->

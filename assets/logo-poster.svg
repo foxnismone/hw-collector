@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.4" fill="#ffffff" opacity="0.13"/>
+    </pattern>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#1a4fa0"/>
+      <stop offset="65%" stop-color="#123a7d"/>
+      <stop offset="100%" stop-color="#0b2554"/>
+    </radialGradient>
+    <linearGradient id="flameGrad2" x1="0%" y1="100%" x2="100%" y2="10%">
+      <stop offset="0%" stop-color="#c81400"/><stop offset="28%" stop-color="#ff2d00"/>
+      <stop offset="62%" stop-color="#ff7a00"/><stop offset="100%" stop-color="#ffc400"/>
+    </linearGradient>
+    <linearGradient id="flameInner2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9500"/><stop offset="100%" stop-color="#fff6c2"/>
+    </linearGradient>
+    <linearGradient id="gold2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff6b8"/><stop offset="20%" stop-color="#ffd83d"/>
+      <stop offset="58%" stop-color="#ffb300"/><stop offset="100%" stop-color="#ff8a00"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#vig)"/>
+  <rect width="1280" height="720" fill="url(#dots)"/>
+
+  <!-- pista naranja -->
+  <path d="M 60 640 C 200 470 420 430 640 470 C 900 518 1080 470 1220 330"
+        fill="none" stroke="#ff6a00" stroke-width="26" stroke-linecap="round" opacity="0.85"/>
+  <path d="M 60 640 C 200 470 420 430 640 470 C 900 518 1080 470 1220 330"
+        fill="none" stroke="#ffb43a" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+
+  <g transform="translate(40,120) scale(0.92)">
+    <!-- flama -->
+    <path d="M 46 372 C 18 300 62 224 146 186 C 126 232 140 268 182 274 C 168 216 216 152 296 124
+             C 266 176 280 216 328 226 C 320 172 366 112 452 86 C 410 142 428 194 486 206
+             C 500 262 474 330 412 368 C 322 424 128 438 46 372 Z"
+          fill="#0b0f16" stroke="#0b0f16" stroke-width="30" stroke-linejoin="round"/>
+    <path d="M 46 372 C 18 300 62 224 146 186 C 126 232 140 268 182 274 C 168 216 216 152 296 124
+             C 266 176 280 216 328 226 C 320 172 366 112 452 86 C 410 142 428 194 486 206
+             C 500 262 474 330 412 368 C 322 424 128 438 46 372 Z" fill="url(#flameGrad2)"/>
+    <path d="M 150 330 C 138 292 168 252 214 232 C 202 262 214 288 246 292 C 240 258 268 220 318 202
+             C 296 238 306 268 342 276 C 348 316 322 352 280 368 C 232 386 172 376 150 330 Z"
+          fill="url(#flameInner2)" opacity="0.95"/>
+    <!-- HW -->
+    <g transform="translate(486,392) skewX(-11)" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+       font-size="300" font-weight="900" letter-spacing="-6">
+      <text x="0" y="0" fill="#0b0f16" stroke="#0b0f16" stroke-width="36" stroke-linejoin="round">HW</text>
+      <text x="0" y="0" fill="#ffffff" stroke="#ffffff" stroke-width="22" stroke-linejoin="round">HW</text>
+      <text x="0" y="0" fill="url(#gold2)">HW</text>
+    </g>
+    <!-- COLLECTOR -->
+    <g transform="translate(506,486) skewX(-11)" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+       font-size="84" font-weight="900" letter-spacing="15">
+      <text x="0" y="0" fill="#0b0f16" stroke="#0b0f16" stroke-width="22" stroke-linejoin="round">COLLECTOR</text>
+      <text x="0" y="0" fill="#ffffff" stroke="#ffffff" stroke-width="12" stroke-linejoin="round">COLLECTOR</text>
+      <text x="0" y="0" fill="url(#gold2)">COLLECTOR</text>
+    </g>
+    <g>
+      <rect x="500" y="516" width="196" height="10" rx="5" fill="#ff2d00"/>
+      <rect x="708" y="516" width="112" height="10" rx="5" fill="#ff7a00"/>
+      <rect x="832" y="516" width="58" height="10" rx="5" fill="#ffc400"/>
+    </g>
+  </g>
+</svg>

@@ -15,6 +15,12 @@
       <stop offset="0%"   stop-color="#ff8a00"/>
       <stop offset="100%" stop-color="#fff3b0"/>
     </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#fff6b8"/>
+      <stop offset="20%"  stop-color="#ffd83d"/>
+      <stop offset="58%"  stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#ff8a00"/>
+    </linearGradient>
     <linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%"   stop-color="#ffffff"/>
       <stop offset="48%"  stop-color="#f2f7fc"/>
@@ -25,7 +31,7 @@
 
   <!-- fondo redondeado -->
   <rect x="0" y="0" width="512" height="512" fill="url(#bgGrad)"/>
-  <rect x="0" y="0" width="512" height="512" fill="none"/>
+  
 
   <!-- contenido centrado y escalado -->
   <g transform="translate(256,256) scale(0.92) translate(-256,-256)">
@@ -65,10 +71,13 @@
   <g transform="translate(256,392) skewX(-11)">
     <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="190" font-weight="900" letter-spacing="-4"
-          fill="#0b0f16" stroke="#0b0f16" stroke-width="22" stroke-linejoin="round">HW</text>
+          fill="#0b0f16" stroke="#0b0f16" stroke-width="26" stroke-linejoin="round">HW</text>
     <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="190" font-weight="900" letter-spacing="-4"
-          fill="url(#chrome)" stroke="#0b0f16" stroke-width="7" stroke-linejoin="round">HW</text>
+          fill="#ffffff" stroke="#ffffff" stroke-width="15" stroke-linejoin="round">HW</text>
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="190" font-weight="900" letter-spacing="-4"
+          fill="url(#gold)">HW</text>
   </g>
   </g>
 </svg>
