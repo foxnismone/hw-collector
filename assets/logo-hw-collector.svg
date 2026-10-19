@@ -70,10 +70,10 @@
   <g transform="translate(486,392) skewX(-11)">
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="300" font-weight="900" letter-spacing="-6"
-          fill="#0b0f16" stroke="#0b0f16" stroke-width="36" stroke-linejoin="round">HW</text>
+          fill="#7a0b00" stroke="#7a0b00" stroke-width="40" stroke-linejoin="round">HW</text>
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="300" font-weight="900" letter-spacing="-6"
-          fill="#ffffff" stroke="#ffffff" stroke-width="22" stroke-linejoin="round">HW</text>
+          fill="#e11a00" stroke="#e11a00" stroke-width="24" stroke-linejoin="round">HW</text>
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="300" font-weight="900" letter-spacing="-6"
           fill="url(#gold)">HW</text>
@@ -83,10 +83,10 @@
   <g transform="translate(506,486) skewX(-11)">
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="84" font-weight="900" letter-spacing="15"
-          fill="#0b0f16" stroke="#0b0f16" stroke-width="22" stroke-linejoin="round">COLLECTOR</text>
+          fill="#7a0b00" stroke="#7a0b00" stroke-width="26" stroke-linejoin="round">COLLECTOR</text>
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="84" font-weight="900" letter-spacing="15"
-          fill="#ffffff" stroke="#ffffff" stroke-width="12" stroke-linejoin="round">COLLECTOR</text>
+          fill="#e11a00" stroke="#e11a00" stroke-width="14" stroke-linejoin="round">COLLECTOR</text>
     <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
           font-size="84" font-weight="900" letter-spacing="15"
           fill="url(#gold)">COLLECTOR</text>
