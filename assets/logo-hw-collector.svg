@@ -1,101 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="HW-Collector">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-label="HW-Collector">
   <defs>
-    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="100%" y2="10%">
-      <stop offset="0%"   stop-color="#b71000"/>
-      <stop offset="30%"  stop-color="#ff3d00"/>
-      <stop offset="65%"  stop-color="#ff7300"/>
-      <stop offset="100%" stop-color="#ffc400"/>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF1A2E"/>
+      <stop offset="40%" stop-color="#D9001B"/>
+      <stop offset="100%" stop-color="#8B000F"/>
     </linearGradient>
-    <linearGradient id="flameInner" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#ff8a00"/>
-      <stop offset="100%" stop-color="#fff3b0"/>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE44D"/>
+      <stop offset="35%" stop-color="#FFCC00"/>
+      <stop offset="70%" stop-color="#FF9900"/>
+      <stop offset="100%" stop-color="#FF6600"/>
     </linearGradient>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   stop-color="#fff6b8"/>
-      <stop offset="20%"  stop-color="#ffd83d"/>
-      <stop offset="58%"  stop-color="#ffb300"/>
-      <stop offset="100%" stop-color="#ff8a00"/>
+    <linearGradient id="clubGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE44D"/>
+      <stop offset="55%" stop-color="#FFCC00"/>
+      <stop offset="100%" stop-color="#FF6600"/>
     </linearGradient>
-    <linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   stop-color="#ffffff"/>
-      <stop offset="48%"  stop-color="#f2f7fc"/>
-      <stop offset="52%"  stop-color="#cfdcea"/>
-      <stop offset="100%" stop-color="#8fa3ba"/>
-    </linearGradient>
-    <linearGradient id="chromeDark" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   stop-color="#4a5b73"/>
-      <stop offset="100%" stop-color="#16202f"/>
-    </linearGradient>
-    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
-      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000000" flood-opacity="0.42"/>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000000" flood-opacity="0.55"/>
     </filter>
   </defs>
 
-  <!-- ===== FLAMA ===== -->
-  <g filter="url(#soft)">
-    <!-- contorno negro -->
-    <path d="M 46 372
-             C 18 300 62 224 146 186
-             C 126 232 140 268 182 274
-             C 168 216 216 152 296 124
-             C 266 176 280 216 328 226
-             C 320 172 366 112 452 86
-             C 410 142 428 194 486 206
-             C 500 262 474 330 412 368
-             C 322 424 128 438 46 372 Z"
-          fill="#0b0f16" stroke="#0b0f16" stroke-width="26" stroke-linejoin="round"/>
-    <!-- relleno degradado -->
-    <path d="M 46 372
-             C 18 300 62 224 146 186
-             C 126 232 140 268 182 274
-             C 168 216 216 152 296 124
-             C 266 176 280 216 328 226
-             C 320 172 366 112 452 86
-             C 410 142 428 194 486 206
-             C 500 262 474 330 412 368
-             C 322 424 128 438 46 372 Z"
-          fill="url(#flameGrad)"/>
-    <!-- lengua interior clara -->
-    <path d="M 150 330
-             C 138 292 168 252 214 232
-             C 202 262 214 288 246 292
-             C 240 258 268 220 318 202
-             C 296 238 306 268 342 276
-             C 348 316 322 352 280 368
-             C 232 386 172 376 150 330 Z"
-          fill="url(#flameInner)" opacity="0.92"/>
+  <!-- ===== BANNER ROJO CURVO ===== -->
+  <g filter="url(#ds)">
+    <path d="M 55 345
+             C 120 265 300 212 475 212
+             C 640 212 760 252 830 302
+             C 852 332 852 372 830 402
+             C 760 452 640 482 475 482
+             C 300 482 120 442 55 382
+             C 35 362 35 352 55 345 Z"
+          fill="#0B0F16" stroke="#0B0F16" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M 55 345
+             C 120 265 300 212 475 212
+             C 640 212 760 252 830 302
+             C 852 332 852 372 830 402
+             C 760 452 640 482 475 482
+             C 300 482 120 442 55 382
+             C 35 362 35 352 55 345 Z"
+          fill="url(#redGrad)"/>
+    <path d="M 130 282
+             C 220 232 380 212 540 220
+             C 680 228 780 260 820 298"
+          fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" opacity="0.5"/>
   </g>
 
-  <!-- ===== HW : dorado con contorno blanco y sombra negra (como la referencia) ===== -->
-  <g transform="translate(486,392) skewX(-11)">
-    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
-          font-size="300" font-weight="900" letter-spacing="-6"
-          fill="#7a0b00" stroke="#7a0b00" stroke-width="40" stroke-linejoin="round">HW</text>
-    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
-          font-size="300" font-weight="900" letter-spacing="-6"
-          fill="#e11a00" stroke="#e11a00" stroke-width="24" stroke-linejoin="round">HW</text>
-    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
-          font-size="300" font-weight="900" letter-spacing="-6"
-          fill="url(#gold)">HW</text>
+  <!-- ===== TEXTO DENTRO DEL BANNER ===== -->
+  <g transform="translate(472,286)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="18" font-weight="900" letter-spacing="2.2"
+          fill="#0B0F16" stroke="#0B0F16" stroke-width="4" stroke-linejoin="round">Collectors Community</text>
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="18" font-weight="900" letter-spacing="2.2"
+          fill="#FFFFFF">Collectors Community</text>
+  </g>
+  <g transform="translate(472,358)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="52" font-weight="900" font-style="italic" letter-spacing="0.5"
+          fill="#0B0F16" stroke="#0B0F16" stroke-width="9" stroke-linejoin="round">COLLECTOR'S CLUB</text>
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
+          font-size="52" font-weight="900" font-style="italic" letter-spacing="0.5"
+          fill="url(#clubGrad)" stroke="#0B0F16" stroke-width="3.5" stroke-linejoin="round">COLLECTOR'S CLUB</text>
   </g>
 
-  <!-- ===== COLLECTOR : dorado con contorno blanco ===== -->
-  <g transform="translate(506,486) skewX(-11)">
-    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
-          font-size="84" font-weight="900" letter-spacing="15"
-          fill="#7a0b00" stroke="#7a0b00" stroke-width="26" stroke-linejoin="round">COLLECTOR</text>
-    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
-          font-size="84" font-weight="900" letter-spacing="15"
-          fill="#e11a00" stroke="#e11a00" stroke-width="14" stroke-linejoin="round">COLLECTOR</text>
-    <text x="0" y="0" font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif"
-          font-size="84" font-weight="900" letter-spacing="15"
-          fill="url(#gold)">COLLECTOR</text>
+  <!-- ===== HW EN LLAMAS (apuntando a la izquierda) ===== -->
+  <g filter="url(#ds)">
+    <path d="M 35 285
+             C 15 235 55 185 125 160
+             C 110 190 125 215 160 223
+             C 150 185 185 140 245 123
+             C 223 163 235 195 273 203
+             C 267 163 300 120 360 105
+             C 333 145 345 183 393 193
+             C 405 230 385 270 340 295
+             C 275 325 155 335 35 305
+             C 20 297 20 293 35 285 Z"
+          fill="#0B0F16" stroke="#0B0F16" stroke-width="24" stroke-linejoin="round"/>
+    <path d="M 35 285
+             C 15 235 55 185 125 160
+             C 110 190 125 215 160 223
+             C 150 185 185 140 245 123
+             C 223 163 235 195 273 203
+             C 267 163 300 120 360 105
+             C 333 145 345 183 393 193
+             C 405 230 385 270 340 295
+             C 275 325 155 335 35 305
+             C 20 297 20 293 35 285 Z"
+          fill="url(#goldGrad)"/>
+    <path d="M 125 270
+             C 115 243 140 215 175 200
+             C 167 225 177 245 203 250
+             C 198 223 223 195 265 183
+             C 247 211 255 237 287 245
+             C 295 273 275 297 243 307
+             C 205 320 157 313 125 270 Z"
+          fill="#FFF3B0" opacity="0.9"/>
   </g>
 
-  <!-- línea de velocidad -->
-  <g opacity="0.85">
-    <rect x="500" y="516" width="196" height="9" rx="4.5" fill="#ff4d00"/>
-    <rect x="708" y="516" width="112" height="9" rx="4.5" fill="#ff7300"/>
-    <rect x="832" y="516" width="58"  height="9" rx="4.5" fill="#ffc400"/>
+  <!-- ===== "-Collector" BLANCO ===== -->
+  <g transform="translate(415,288) skewX(-10)"
+     font-family="'Arial Black','Arial Bold',Impact,Arial,sans-serif" font-size="125"
+     font-weight="900" letter-spacing="-4">
+    <text x="0" y="0" fill="#0B0F16" stroke="#0B0F16" stroke-width="17" stroke-linejoin="round">-Collector</text>
+    <text x="0" y="0" fill="#FFFFFF" stroke="#0B0F16" stroke-width="5" stroke-linejoin="round">-Collector</text>
+  </g>
+
+  <!-- ===== decoración: pista loop ===== -->
+  <g opacity="0.30" transform="translate(630,55)">
+    <path d="M 65 185 C 25 85 105 25 185 65 C 265 105 245 205 165 225 C 105 240 65 215 65 185 Z"
+          fill="none" stroke="#FF6A00" stroke-width="11" stroke-linecap="round"/>
+    <path d="M 65 185 C 25 85 105 25 185 65 C 265 105 245 205 165 225 C 105 240 65 215 65 185 Z"
+          fill="none" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
   </g>
 </svg>
