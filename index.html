@@ -87,6 +87,9 @@ main{padding:16px 18px 60px}
 .card:hover{transform:translateY(-6px) scale(1.03);border-color:rgba(255,77,0,.6);box-shadow:0 16px 32px rgba(255,77,0,.2),0 8px 16px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.15)}
 .thumb{aspect-ratio:1/1;background:var(--elev);display:block;width:100%;object-fit:contain;padding:8px}
 .mirror{transform:scaleX(-1)}
+.hero-banner{position:relative;width:100%;overflow:hidden;background:#0c0e12;line-height:0}
+.hero-banner img{width:100%;height:auto;display:block;object-fit:cover;object-position:center;max-height:min(360px,42vw)}
+@media(max-width:600px){.hero-banner img{max-height:220px}}
 .cardflip{position:absolute;top:7px;right:7px;z-index:3;width:27px;height:27px;border-radius:7px;
  background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.3);color:#fff;font-size:15px;line-height:1;
  cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;
@@ -344,6 +347,7 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
     <button class="btn ghost" id="installbtn" style="display:none" onclick="instalar()">Instalar app</button>
     <button class="btn ghost" id="sharebtn" onclick="compartirSitio()">📤 Compartir</button></div></div>
   <div class="note" id="currate" style="padding:0 18px 8px"></div></header>
+<div class="hero-banner"><img src="assets/banner-hero.jpg" alt="HW Collector — Timeline 1968 a presente" loading="eager"></div>
 <main>
 <section data-view="catalogo" style="display:block">
   <div class="filters" style="border:1px solid var(--line);margin-bottom:14px">
@@ -869,7 +873,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='16';
+const IMGV='17';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
