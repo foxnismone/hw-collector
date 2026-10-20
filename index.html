@@ -319,21 +319,126 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 .fc-x:hover{background:#ff4d00;border-color:#fff}
 @media(max-width:520px){.fc-hero{flex-direction:column;text-align:center}.fc-name{font-size:26px}.fc-blister{width:132px;height:132px}}
 </style></head><body>
+<style>
+:root{
+  --primary-fire:#FF4500;
+  --accent-gold:#FFD700;
+  --bg-dark:#0E1015;
+  --card-bg:#181B23;
+  --card-bg2:#161922;
+  --card-bg3:#1C202B;
+  --text:#E8EAF0;
+  --muted:#8B93A8;
+  --border:rgba(255,255,255,0.08);
+  --border-glow:0 0 15px rgba(255,69,0,0.5);
+  --radius:12px;
+  --shadow:0 4px 24px rgba(0,0,0,0.4);
+  --font:'Segoe UI',system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg-dark);color:var(--text);font-family:var(--font);min-height:100vh}
+
+/* Blueprint watermark */
+body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cg stroke='%23ffffff' stroke-width='1' fill='none' opacity='0.6'%3E%3Crect x='20' y='20' width='160' height='80' rx='16'/%3E%3Ccircle cx='60' cy='100' r='20'/%3E%3Ccircle cx='140' cy='100' r='20'/%3E%3Cline x1='60' y1='100' x2='140' y2='100'/%3E%3Cline x1='100' y1='20' x2='100' y2='60'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:200px 200px}
+
+/* Cards neumórficas */
+.card{background:linear-gradient(145deg,var(--card-bg2),var(--card-bg3));border-radius:var(--radius);border:1px solid var(--border);padding:16px;transition:all 0.3s ease}
+.card:hover{box-shadow:var(--border-glow);border-color:rgba(255,69,0,0.3)}
+
+/* Botones con glow */
+.btn,.chip,nav.tabs button{background:linear-gradient(145deg,var(--card-bg2),var(--card-bg3));border:1px solid var(--border);border-radius:var(--radius);color:var(--text);padding:10px 18px;cursor:pointer;transition:all 0.3s ease;font-family:var(--font);font-weight:600}
+.btn:hover,.chip:hover,nav.tabs button:hover{box-shadow:var(--border-glow);border-color:rgba(255,69,0,0.5);transform:translateY(-2px)}
+.btn:active,.chip:active,nav.tabs button:active{transform:translateY(0) scale(0.98)}
+
+/* Estado activo con aura de fuego */
+.active,[aria-selected="true"]{box-shadow:var(--border-glow) !important;border-color:var(--primary-fire) !important}
+
+/* Header */
+header.top{position:sticky;top:0;z-index:40;background:linear-gradient(180deg,rgba(14,16,21,0.98) 0%,rgba(14,16,21,0.95) 100%);border-bottom:2px solid transparent;border-image:linear-gradient(90deg,#ff4d00,#ff8c00,#ff4d00) 1;backdrop-filter:blur(12px)}
+.bar{display:flex;align-items:center;gap:14px;padding:10px 18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.brandlogo{height:52px;width:auto;display:block;filter:drop-shadow(0 3px 8px rgba(0,0,0,0.5))}
+.sub{color:var(--muted);font-size:11px;letter-spacing:.6px;text-transform:uppercase}
+
+/* Nav tabs con iconos SVG */
+nav.tabs{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap;align-items:stretch}
+nav.tabs button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:7px 11px;font-size:10px;letter-spacing:.5px;text-transform:uppercase;min-width:66px;border-radius:var(--radius);position:relative;transition:all 0.2s ease}
+nav.tabs button svg{width:24px;height:24px;transition:transform 0.2s ease}
+nav.tabs button:hover svg{transform:scale(1.15)}
+nav.tabs button[aria-selected="true"]{background:linear-gradient(180deg,rgba(255,69,0,0.2),rgba(255,69,0,0.04));color:#fff;border-color:var(--primary-fire);box-shadow:0 0 0 1px rgba(255,69,0,0.3),0 6px 18px rgba(255,69,0,0.22)}
+nav.tabs button[aria-selected="true"]::after{content:'';position:absolute;bottom:-1px;left:22%;right:22%;height:2px;background:linear-gradient(90deg,transparent,#ff4d00,transparent);border-radius:2px}
+
+/* Banner hero */
+.hero-banner{position:relative;width:100%;overflow:hidden;background:var(--bg-dark);line-height:0}
+.hero-banner img{width:100%;height:auto;display:block;object-fit:cover;object-position:center;max-height:min(380px,45vw)}
+@media(max-width:600px){.hero-banner img{max-height:240px}}
+
+/* Action Center */
+.action-center{display:grid;grid-template-columns:280px 1fr 300px;gap:16px;padding:18px;max-width:1400px;margin:0 auto}
+@media(max-width:1100px){.action-center{grid-template-columns:1fr}}
+
+/* Panel izquierdo: lista scrolleable */
+.panel-left{background:linear-gradient(145deg,var(--card-bg2),var(--card-bg3));border-radius:var(--radius);border:1px solid var(--border);padding:14px;overflow-y:auto;max-height:500px}
+.panel-left h3{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.mini-card{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;background:rgba(255,255,255,0.02);margin-bottom:6px;transition:all 0.2s ease;cursor:pointer}
+.mini-card:hover{background:rgba(255,69,0,0.08);transform:translateX(4px)}
+.mini-card img{width:40px;height:40px;object-fit:contain;border-radius:6px;background:var(--card-bg)}
+.mini-card .nm{font-size:11px;font-weight:600;flex:1}
+.mini-card .tag{font-size:9px;padding:2px 6px;border-radius:10px;background:rgba(255,69,0,0.15);color:#ff8c5a}
+
+/* Panel central: velocímetro */
+.panel-center{display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,var(--card-bg2),var(--card-bg3));border-radius:var(--radius);border:1px solid var(--border);padding:24px;position:relative;overflow:hidden}
+.panel-center::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(255,69,0,0.08) 0%,transparent 70%);pointer-events:none}
+.speedometer{width:200px;height:200px;position:relative}
+.speedometer svg{width:100%;height:100%}
+.speedometer .value{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
+.speedometer .value b{display:block;font-size:36px;font-weight:900;background:linear-gradient(180deg,#FFD700,#FF4500);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.speedometer .value span{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+
+/* Panel derecho: métricas */
+.panel-right{display:flex;flex-direction:column;gap:14px}
+.metric-card{background:linear-gradient(145deg,var(--card-bg2),var(--card-bg3));border-radius:var(--radius);border:1px solid var(--border);padding:16px}
+.metric-card h4{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.metric-card .big{font-size:32px;font-weight:900;background:linear-gradient(180deg,#FFD700,#FF4500);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.mini-bars{display:flex;align-items:flex-end;gap:4px;height:40px;margin-top:10px}
+.mini-bars div{flex:1;border-radius:3px 3px 0 0;background:linear-gradient(180deg,#FF4500,#FF8C00);transition:all 0.3s ease}
+.mini-bars div:hover{opacity:0.8}
+
+/* Mirror effect for cars */
+.mirror{transform:scaleX(-1)}
+
+/* Card flip button */
+.cardflip{position:absolute;top:7px;right:7px;z-index:3;width:27px;height:27px;border-radius:7px;background:rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:15px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.18s,background 0.18s,transform 0.18s}
+.cardwrap:hover .cardflip{opacity:.92}
+.cardflip:hover{background:#ff4d00;border-color:#fff;transform:scale(1.1)}
+.cardflip.on{opacity:1;background:var(--primary-fire);border-color:#fff;box-shadow:0 0 0 2px rgba(255,77,0,0.35)}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:var(--card-bg)}
+::-webkit-scrollbar-thumb{background:var(--primary-fire);border-radius:3px}
+
+/* Responsive */
+@media(max-width:600px){.bar{padding:8px 12px}.brandlogo{height:44px}.action-center{padding:12px}.panel-left{max-height:300px}}
+</style>
+<div class="hero-banner"><img src="assets/banner-hero.jpg" alt="HW Collector — Timeline 1968 a presente" loading="eager"></div>
 <header class="top"><div class="bar">
   <div class="brand"><img class="brandlogo" src="assets/logo-header.png" alt="HW Collector" width="140" height="61"><span class="sub">Catálogo · Colección · Mercados</span></div>
   <nav class="tabs">
-    <button data-tab="catalogo" aria-selected="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="12" rx="2" fill="url(#g1)"/><circle cx="7" cy="18" r="2.5" fill="#1a1a2e" stroke="#ff4d00" stroke-width="1.5"/><circle cx="17" cy="18" r="2.5" fill="#1a1a2e" stroke="#ff4d00" stroke-width="1.5"/><path d="M2 10h20M2 14h20" stroke="#ffd700" stroke-width="1.5"/><rect x="9" y="3" width="6" height="3" rx="1" fill="#ff4d00"/><defs><linearGradient id="g1" x1="2" y1="6" x2="22" y2="18"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ff8c00"/></linearGradient></defs></svg>Catálogo</button>
-    <button data-tab="coleccion" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 14l1.5-4.5A2 2 0 016.4 8h11.2a2 2 0 011.9 1.5L21 14" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"/><rect x="3" y="14" width="18" height="5" rx="1.5" fill="url(#g2)"/><circle cx="7" cy="19" r="2" fill="#1a1a2e" stroke="#ffd700" stroke-width="1.5"/><circle cx="17" cy="19" r="2" fill="#1a1a2e" stroke="#ffd700" stroke-width="1.5"/><path d="M6 12h12" stroke="#fff" stroke-width="1.5" opacity=".7"/><defs><linearGradient id="g2" x1="3" y1="8" x2="21" y2="19"><stop stop-color="#ffd700"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs></svg>Mi colección</button>
-    <button data-tab="seguimiento" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="url(#g3)" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="7" r="2" fill="#ff4d00"/><defs><linearGradient id="g3" x1="2" y1="4" x2="22" y2="20"><stop stop-color="#ffd700"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs></svg>Seguimiento</button>
-    <button data-tab="tendencias" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2c1 3-2 4-2 7a4 4 0 008 0c0-1-.5-2-1-3 2 1 3 3 3 5a7 7 0 01-14 0c0-4 4-6 6-9z" fill="url(#g4)"/><path d="M12 22a3 3 0 01-3-3c0-1 .5-2 1-3" stroke="#ffd700" stroke-width="1.5" stroke-linecap="round" opacity=".8"/><defs><linearGradient id="g4" x1="5" y1="2" x2="19" y2="22"><stop stop-color="#ff4d00"/><stop offset=".5" stop-color="#ff8c00"/><stop offset="1" stop-color="#ffd700"/></linearGradient></defs></svg>Tendencias</button>
-    <button data-tab="cajas" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="8" width="18" height="13" rx="2" fill="url(#g5)"/><path d="M3 8l2-4h14l2 4" stroke="#ffd700" stroke-width="2" stroke-linejoin="round"/><path d="M12 8v13" stroke="#1a1a2e" stroke-width="1.5"/><rect x="9" y="5" width="6" height="3" rx="1" fill="#ff4d00"/><path d="M9 9.5h6" stroke="#ffd700" stroke-width="1"/><defs><linearGradient id="g5" x1="3" y1="8" x2="21" y2="21"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ff8c00"/></linearGradient></defs></svg>Cajas</button>
+    <button data-tab="catalogo" aria-selected="true"><img src="assets/icons-svg/catalogo.svg" alt="" width="24" height="24">Catálogo</button>
+    <button data-tab="coleccion" aria-selected="false"><img src="assets/icons-svg/coleccion.svg" alt="" width="24" height="24">Mi colección</button>
+    <button data-tab="seguimiento" aria-selected="false"><img src="assets/icons-svg/seguimiento.svg" alt="" width="24" height="24">Seguimiento</button>
+    <button data-tab="tendencias" aria-selected="false"><img src="assets/icons-svg/tendencias.svg" alt="" width="24" height="24">Tendencias</button>
+    <button data-tab="cajas" aria-selected="false"><img src="assets/icons-svg/cajas.svg" alt="" width="24" height="24">Cajas</button>
     <button data-tab="series" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="8" height="16" rx="1.5" fill="url(#g12)"/><rect x="13" y="4" width="8" height="16" rx="1.5" fill="url(#g13)"/><path d="M5 8h4M5 11h4M5 14h4M15 8h4M15 11h4M15 14h4" stroke="#1a1a2e" stroke-width="1"/><defs><linearGradient id="g12" x1="3" y1="4" x2="11" y2="20"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ff8c00"/></linearGradient><linearGradient id="g13" x1="13" y1="4" x2="21" y2="20"><stop stop-color="#ffd700"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs></svg>Series</button>
-    <button data-tab="ruedas" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="none" stroke="url(#g6)" stroke-width="2.5"/><circle cx="12" cy="12" r="3" fill="#1a1a2e" stroke="#ffd700" stroke-width="1.5"/><path d="M12 3v6M12 15v6M3 12h6M15 12h6" stroke="#ff4d00" stroke-width="2" stroke-linecap="round"/><path d="M6 6l3 3M15 15l3 3M18 6l-3 3M9 15l-3 3" stroke="#ffd700" stroke-width="1.5" stroke-linecap="round"/><defs><linearGradient id="g6" x1="3" y1="3" x2="21" y2="21"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ffd700"/></linearGradient></defs></svg>Ruedas</button>
-    <button data-tab="escanear" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="14" rx="2" fill="none" stroke="url(#g7)" stroke-width="2"/><circle cx="12" cy="13" r="3.5" fill="none" stroke="#ffd700" stroke-width="1.5"/><path d="M8 6l1.5-3h5L16 6" stroke="#ff4d00" stroke-width="2" stroke-linecap="round"/><circle cx="18" cy="10" r="1" fill="#ff4d00"/><defs><linearGradient id="g7" x1="3" y1="6" x2="21" y2="20"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ff8c00"/></linearGradient></defs></svg>Escanear</button>
-    <button data-tab="valorar" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="none" stroke="url(#g8)" stroke-width="2"/><path d="M12 7v10M9 9.5c0-1 1-2 3-2s3 1 3 2-1 2-3 2-3 1-3 2 1 2 3 2 3-1 3-2" stroke="#ffd700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><defs><linearGradient id="g8" x1="3" y1="3" x2="21" y2="21"><stop stop-color="#ffd700"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs></svg>Valorar</button>
+    <button data-tab="ruedas" aria-selected="false"><img src="assets/icons-svg/ruedas.svg" alt="" width="24" height="24">Ruedas</button>
+    <button data-tab="escanear" aria-selected="false"><img src="assets/icons-svg/escanear.svg" alt="" width="24" height="24">Escanear</button>
+    <button data-tab="valorar" aria-selected="false"><img src="assets/icons-svg/valorar.svg" alt="" width="24" height="24">Valorar</button>
     <button data-tab="mercados" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 17l5-5 4 4 6-8" stroke="url(#g9)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7h6v6" stroke="#ff4d00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="3" cy="17" r="1.5" fill="#ffd700"/><circle cx="8" cy="12" r="1.5" fill="#ffd700"/><circle cx="12" cy="16" r="1.5" fill="#ffd700"/><circle cx="18" cy="8" r="1.5" fill="#ff4d00"/><defs><linearGradient id="g9" x1="3" y1="7" x2="21" y2="17"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ffd700"/></linearGradient></defs></svg>Mercados</button>
-    <button data-tab="disenadores" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" fill="url(#g10)"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7" stroke="#ff4d00" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="8" r="1.5" fill="#1a1a2e"/><defs><linearGradient id="g10" x1="8" y1="4" x2="16" y2="12"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ff8c00"/></linearGradient></defs></svg>Diseñadores</button>
-    <button data-tab="asistente" aria-selected="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="4" y="8" width="16" height="12" rx="3" fill="url(#g11)"/><circle cx="9" cy="14" r="2" fill="#1a1a2e" stroke="#ffd700" stroke-width="1"/><circle cx="15" cy="14" r="2" fill="#1a1a2e" stroke="#ffd700" stroke-width="1"/><path d="M9 17h6" stroke="#ffd700" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="4" width="4" height="4" rx="1" fill="#ff4d00"/><path d="M12 4V2" stroke="#ffd700" stroke-width="2" stroke-linecap="round"/><defs><linearGradient id="g11" x1="4" y1="8" x2="20" y2="20"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ffd700"/></linearGradient></defs></svg>Asistente</button>
+    <button data-tab="disenadores" aria-selected="false"><img src="assets/icons-svg/disenadores.svg" alt="" width="24" height="24">Diseñadores</button>
+    <button data-tab="asistente" aria-selected="false"><img src="assets/icons-svg/asistente.svg" alt="" width="24" height="24">Asistente</button>
   </nav>
   <div class="cur"><span class="note">Moneda:</span><select id="cursel"></select>
     <span class="note">En colección: <b id="totcol">0</b></span>
@@ -347,7 +452,7 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
     <button class="btn ghost" id="installbtn" style="display:none" onclick="instalar()">Instalar app</button>
     <button class="btn ghost" id="sharebtn" onclick="compartirSitio()">📤 Compartir</button></div></div>
   <div class="note" id="currate" style="padding:0 18px 8px"></div></header>
-<div class="hero-banner"><img src="assets/banner-hero.jpg" alt="HW Collector — Timeline 1968 a presente" loading="eager"></div>
+
 <main>
 <section data-view="catalogo" style="display:block">
   <div class="filters" style="border:1px solid var(--line);margin-bottom:14px">
@@ -857,7 +962,19 @@ table.t tr.best td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
   </div>
 </div>
 
-<script src="vendor/supabase.js"></script>
+<script src="vendor/supabase.js">
+// Popular lista de recientes
+(function(){
+  var list = document.getElementById('recentList');
+  if(!list || typeof CAT === 'undefined') return;
+  var recientes = CAT.slice(0, 8);
+  list.innerHTML = recientes.map(function(c){
+    var img = c.im ? '<img src="'+IMG(c.im)+'" alt="" onerror="this.style.display=\'none\'">' : '<div style="width:40px;height:40px;background:var(--card-bg)"></div>';
+    return '<div class="mini-card" onclick="drawer(\''+c.i+'\')">' + img + '<span class="nm">'+esc(c.m)+'</span><span class="tag">'+esc(c.y||'')+'</span></div>';
+  }).join('');
+})();
+
+</script>
 <script src="js/supabase-client.js"></script>
 <script src="https://unpkg.com/@zxing/library@0.21.3/umd/index.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
@@ -873,7 +990,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='18';
+const IMGV='19';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
