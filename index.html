@@ -153,6 +153,8 @@ main{padding:16px 18px 60px}
 #decout{font-family:var(--f-mono);font-size:12.5px}
 .idx{height:4px;background:var(--elev);border-radius:2px;overflow:hidden}
 .idx i{display:block;height:100%;background:var(--accent)}
+.catlogo{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:5px;box-shadow:0 1px 3px rgba(0,0,0,.45);vertical-align:middle;margin-left:6px}
+.card .catlogo{position:absolute;top:4px;left:4px;margin:0;z-index:2}
 .fbar2{margin-bottom:11px}
 .fbar2 .fl{font-size:11.5px;color:var(--muted);font-family:var(--f-display);letter-spacing:.4px;margin-bottom:3px}
 .fbar2 .fl b{color:var(--ink)}
@@ -1184,10 +1186,9 @@ function cardHTML(c){
   const editBtn=o&&o.q?`<button class="cardedit" onclick="event.stopPropagation();editCar('${c.i}')" title="Editar">✎</button>`:"";
   const delBtn=o&&o.q?`<button class="carddel" onclick="event.stopPropagation();if(confirm('Eliminar ${c.m}?'))delCar('${c.i}')" title="Eliminar">×</button>`:"";
   const bandera=c.pais?`<div style="position:absolute;bottom:4px;right:4px;font-size:14px;background:rgba(0,0,0,.5);border-radius:4px;padding:2px 4px">${c.pais.includes('Malaysia')?'🇲🇾':c.pais.includes('Thailand')?'🇹🇭':c.pais.includes('China')?'🇨🇳':c.pais.includes('Hong Kong')?'🇭🇰':c.pais.includes('USA')?'🇺🇸':'🏳️'}</div>`:'';
-  const thLogo=c.k==='TH'?'<div style="position:absolute;top:4px;left:4px;background:#f59e0b;color:#000;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">🔥TH</div>':'';
-  const sthLogo=c.k==='STH'?'<div style="position:absolute;top:4px;left:4px;background:#dc2626;color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px">💎STH</div>':'';
+  const catLogo=catLogoSVG(c.k);
   const paisInfo=c.pais?`<span style="color:var(--muted-foreground);font-size:11px"> · ${c.pais}</span>`:'';
-  return `<div class="cardwrap">${flipBtn}${editBtn}${delBtn}<button class="card" data-id="${c.i}">${badge}${qty}${dbadge}${thLogo}${sthLogo}${img}${bandera}<div class="body">
+  return `<div class="cardwrap">${flipBtn}${editBtn}${delBtn}<button class="card" data-id="${c.i}">${badge}${qty}${dbadge}${catLogo}${img}${bandera}<div class="body">
     <div class="nm">${c.m}</div><div class="mt">${c.y} · #${c.c} · ${String(c.t)}${paisInfo}</div>
     <div class="idx"><i style="width:${c.x}%;background:${nivelColor(c.x)}"></i></div>
     <div class="idxrow"><span>Índice ${c.x}</span><span>${fmt(c.v)}–${fmt(c.V)}</span></div></div></button></div>`;
@@ -1236,12 +1237,13 @@ function drawer(id){
   const flang=(typeof document!=='undefined'&&document.documentElement.lang)||'es';
   const fSel=(f[flang]&&Object.keys(f[flang]).length)?f[flang]:f;
   const fichaHTML=(fSel.descripcion||fSel.historia||fSel.curiosidades)?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Ficha del modelo</h3>${fSel.descripcion?'<div style="margin-bottom:6px"><b>Descripción:</b> '+fSel.descripcion+'</div>':''}${fSel.historia?'<div style="margin-bottom:6px"><b>Historia:</b> '+fSel.historia+'</div>':''}${fSel.curiosidades?'<div style="margin-bottom:6px"><b>Curiosidades:</b> '+fSel.curiosidades+'</div>':''}${fSel.conmemorativo?'<div style="margin-bottom:6px"><b>Conmemorativo:</b> Sí</div>':''}${fSel.dato_clave?'<div><b>Dato clave:</b> '+fSel.dato_clave+'</div>':''}${catDesc}</div>`:'';
-  const idxHTML=idx?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Índice de coleccionabilidad</h3><div style="font-size:24px;font-weight:700;color:var(--brand)">${idx}</div><div class="note">de 100</div></div>`:'';
+  const idxHTML=idx?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Índice de coleccionabilidad</h3><div style="font-size:24px;font-weight:700;color:var(--brand)">${idx}</div><div class="note" style="margin-bottom:10px">de 100</div>${Object.keys(det).map(k=>bar(det[k].l,det[k].v)).join('')}</div>`:'';
   const vmHTML=vm.usd?`<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Valores de mercado</h3><div style="font-size:13px"><b>USD:</b> $${vm.usd} · <b>CLP:</b> $${vm.clp} · <b>EUR:</b> €${vm.eur}</div><div class="note" style="font-size:10px;margin-top:4px">Fuente: ${vm.fuente||'Cálculo automático'} · ${vm.fecha||''}</div></div>`:'';
   const d=document.getElementById("drawer");
+  d.dataset.open="1"; d.classList.add("open");
   d.innerHTML=`<button class="close" onclick="closeDrawer()">×</button>
     <div class="dh"><img class="${FLIP(c)?'mirror':''}" src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">
-      <div><h2>${c.m}</h2>
+      <div><h2>${c.m} ${catLogoSVG(c.k)}</h2>
         <div class="mt">${c.y} · Nº de colección ${c.c} · Toy # ${c.t}</div>
         ${disHTML}${fichaHTML}${galeriaHTML(c)}${idxHTML}${vmHTML}
        <div class="mt">${c.s} ${c.n?"("+c.n+")":""}</div>
@@ -2243,7 +2245,35 @@ function decodificar(){
 function setCajYear(y){ cajYear=y; renderCajas(); }
 
 /* ===== visualizaciones del índice ===== */
-function nivelColor(v){ return v>=58?"#2fbf71":(v>=44?"#e8b23a":"#8a94a3"); }
+function nivelColor(v){ return v>=58?"#ff4d00":(v>=44?"#ff8c1a":"#c9ccd4"); }
+function catLogoSVG(k){
+  const L={
+    'Car Culture':'<path d="M12 2 3 6v6c0 5 3.8 8.4 9 10 5.2-1.6 9-5 9-10V6l-9-4zm0 5 4 1.5V13l-4 4-4-4V8.5L12 7z" fill="#fff"/>',
+    'Boulevard':'<path d="M12 2c-1 3-2 5-2 7s1 4 2 5c1-1 2-3 2-5s-1-4-2-7zm0 12v8" stroke="#fff" stroke-width="2" fill="none"/>',
+    'Pop Culture':'<path d="M12 2l2.6 6 6.6.4-5 4.2 1.5 6.4L12 15.5 6.3 19l1.5-6.4-5-4.2 6.6-.4L12 2z" fill="#fff"/>',
+    'Treasure Hunt':'<path d="M12 2c2 3 5 5 5 9a5 5 0 0 1-10 0c0-4 3-6 5-9z" fill="#fff"/><path d="M12 9c1 1.5 2 2.5 2 4a2 2 0 0 1-4 0c0-1.5 1-2.5 2-4z" fill="#f59e0b"/>',
+    'STH':'<path d="M6 3h12l4 6-10 12L2 9l4-6z" fill="#fff"/>',
+    'Super Treasure Hunt':'<path d="M6 3h12l4 6-10 12L2 9l4-6z" fill="#fff"/>',
+    'Gran Escala':'<path d="M3 7h11v8H3zM14 10h4l3 3v2h-7z" fill="#fff"/><circle cx="7" cy="17" r="2" fill="#fff"/><circle cx="17" cy="17" r="2" fill="#fff"/>',
+    'Vintage':'<path d="M12 3 2 8l10 5 10-5-10-5zM4 10v5l8 4 8-4v-5" stroke="#fff" stroke-width="1.8" fill="none"/>',
+    'Mainline':'<path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="#fff"/>',
+    'Mystery Models':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M9.5 9a2.5 2.5 0 1 1 3.6 2.2c-.8.4-1.1 1-1.1 1.8" stroke="#fff" stroke-width="2" fill="none"/><circle cx="12" cy="17" r="1.3" fill="#fff"/>',
+    'Collector Exclusives':'<path d="M6 3h12v4a6 6 0 0 1-12 0V3zm-2 1h2v6H4V4zm16 0h2v6h-2V4zM12 13v4m-4 3h8" stroke="#fff" stroke-width="1.8" fill="none"/>',
+    'Special & Early':'<path d="M12 2a10 10 0 0 0 0 20c2 0 3-1.3 3-2.6 0-1.5-1.4-2.1-1.4-3.4 0-1 .8-2 2-2h2.4A4.4 4.4 0 0 0 22 9.6C22 5.4 17.5 2 12 2z" fill="#fff"/>',
+    'First Editions/New Models':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M11 7h2v10h-2zM9 9h4" stroke="#fff" stroke-width="2" fill="none"/>',
+    'First Editions':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M11 7h2v10h-2zM9 9h4" stroke="#fff" stroke-width="2" fill="none"/>',
+  };
+  const C={
+    'Car Culture':'#ff4d00','Boulevard':'#8b5cf6','Pop Culture':'#ec4899',
+    'Treasure Hunt':'#f59e0b','STH':'#dc2626','Super Treasure Hunt':'#dc2626',
+    'Gran Escala':'#3b82f6','Vintage':'#a16207','Mainline':'#ff4d00',
+    'Mystery Models':'#6366f1','Collector Exclusives':'#eab308',
+    'Special & Early':'#14b8a6','First Editions/New Models':'#ff8c1a','First Editions':'#ff8c1a'
+  };
+  if(!L[k]) return '';
+  return `<span class="catlogo" title="${k}" style="background:${C[k]||'#ff4d00'}"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true">${L[k]}</svg></span>`;
+}
+
 function donut(v,px){
   const R=34, C=2*Math.PI*R, off=C*(1-Math.min(100,v)/100), col=nivelColor(v);
   return '<svg viewBox="0 0 90 90" width="92" height="92">'
