@@ -1056,7 +1056,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='30';
+const IMGV='31';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
@@ -1222,7 +1222,7 @@ function filtered(){
     return true;});
   if(state.sort==="ind") r.sort((a,b)=>b.x-a.x);
   else if(state.sort==="val") r.sort((a,b)=>b.V-a.V);
-  else r.sort((a,b)=>b.y-a.y||a.c.localeCompare(b.c));
+  else r.sort((a,b)=>b.y-a.y||String(a.c||"").localeCompare(String(b.c||"")));
   return r;
 }
 function cardHTML(c){
@@ -1305,7 +1305,7 @@ function drawer(id){
      <span class="k">¿Conmemorativo?</span><span class="v">${_hist(c.m)?.conmemorativo?"Sí":"No"}</span>
      <span class="k">Dato clave</span><span class="v" style="font-size:13px;line-height:1.5">${_hist(c.m)?.dato_clave||"—"}</span>
      <span class="k">Valor ref.</span><span class="v">${fmt(c.v)} – ${fmt(c.V)}</span>
-     <span class="k">En USD / CLP / EUR</span><span class="v" style="font-size:11.5px">US$${c.v.toFixed(2)}–${c.V.toFixed(2)} · $${Math.round(conv(c.v,"CLP"))}–${Math.round(conv(c.V,"CLP"))} · €${conv(c.v,"EUR").toFixed(2)}–${conv(c.V,"EUR").toFixed(2)}</span>
+     <span class="k">En USD / CLP / EUR</span><span class="v" style="font-size:11.5px">US$${(c.v||0).toFixed(2)}–${(c.V||0).toFixed(2)} · $${Math.round(conv(c.v,"CLP"))}–${Math.round(conv(c.V,"CLP"))} · €${conv(c.v,"EUR").toFixed(2)}–${conv(c.V,"EUR").toFixed(2)}</span>
      <span class="k">Venta estimada</span><span class="v">${clsDe(c.k).d[0]}–${clsDe(c.k).d[1]} días</span>
      <span class="k">Caja</span><span class="v">${CASEBY[id]?("Caja "+CASEBY[id].letra+" ("+CASEBY[id].anio+") · "+(CASEBY[id].tipo==="STH"?"Super Treasure Hunt":"Treasure Hunt")):"—"}</span>
      <span class="k">Imagen</span><span class="v" style="font-family:var(--f-body);font-size:11.5px">${c.imr?"referencia del casting (no necesariamente del año/color exacto)":"foto de la ficha del año"}</span>
@@ -1458,7 +1458,7 @@ function responder(txt){
   }
   if(/peso|chile|clp/.test(t)&&/cu[aá]nto|vale|precio/.test(t)){
     const c=buscar(txt);
-    if(c){logMsg("a",`<b>${c.m}</b> (${c.y}): ${fmt(c.v)} – ${fmt(c.V)} en pesos chilenos, o sea US$${c.v.toFixed(2)}–${c.V.toFixed(2)}. `+
+    if(c){logMsg("a",`<b>${c.m}</b> (${c.y}): ${fmt(c.v)} – ${fmt(c.V)} en pesos chilenos, o sea US$${(c.v||0).toFixed(2)}–${(c.V||0).toFixed(2)}. `+
       `Tipo de cambio: 1 USD = $${MKT.monedas.CLP.por_usd.toLocaleString("es-CL")} (mindicador.cl, ${MKT.monedas.CLP.fecha}).`,
       "Fuente: catálogo Hot Wheels Wiki + rangos por clase (confianza baja)");
       tts(`${c.m}. Entre ${hablarMoneda(c.v)} y ${hablarMoneda(c.V)}.`);return;}
