@@ -1056,7 +1056,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='27';
+const IMGV='30';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
