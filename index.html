@@ -102,8 +102,23 @@ main{padding:16px 18px 60px}
 .card .mt{font-size:11px;color:#bcc7d6;font-family:var(--f-mono);font-weight:500}
 .chipc{position:absolute;top:7px;left:7px;font-size:9.5px;font-family:var(--f-display);letter-spacing:.7px;
  padding:2px 6px;border-radius:2px;background:var(--elev);border:1px solid var(--line);color:var(--muted);text-transform:uppercase}
-.chipc.STH{background:#4a1200;border-color:var(--accent);color:#ffb795}
-.chipc.TH{background:#3a2c00;border-color:var(--warn);color:#f0d28a}
+.chipc.super-treasure-hunt{background:#4a1200;border-color:var(--accent);color:#ffb795}
+.chipc.treasure-hunt{background:#3a2c00;border-color:var(--warn);color:#f0d28a}
+.chipc.car-culture{background:#4a1e00;border-color:#ff4d00;color:#ffb795}
+.chipc.boulevard{background:#2a1e4a;border-color:#8b5cf6;color:#d5c9f5}
+.chipc.pop-culture{background:#4a0f2e;border-color:#ec4899;color:#f7c2dd}
+.chipc.monster-trucks{background:#0f2a4a;border-color:#3b82f6;color:#bcd8f7}
+.chipc.gran-escala{background:#0f2a4a;border-color:#3b82f6;color:#bcd8f7}
+.chipc.mystery-models{background:#1e1b4a;border-color:#6366f1;color:#c9c7f7}
+.chipc.flying-colors{background:#4a2a00;border-color:#f97316;color:#f7d5b0}
+.chipc.first-editions{background:#3a2a00;border-color:#ff8c1a;color:#f0d9b0}
+.chipc.new-models{background:#3a2a00;border-color:#ff8c1a;color:#f0d9b0}
+.chipc.elite-64{background:#2e1065;border-color:#a855f7;color:#e0c9f7}
+.chipc.special-early{background:#0f3a38;border-color:#14b8a6;color:#b5ece6}
+.chipc.sizzlers{background:#4a1010;border-color:#ef4444;color:#f7c2c2}
+.chipc.collector-exclusives{background:#3a3200;border-color:#eab308;color:#f0e3a0}
+.chipc.vintage{background:#3a2a10;border-color:#a16207;color:#e8d5b0}
+.chipc.redline{background:#4a1010;border-color:#dc2626;color:#f7c2c2}
 .qty{position:absolute;top:7px;right:7px;background:var(--accent);color:#fff;font-family:var(--f-mono);font-size:11px;}
 .cardwrap{position:relative;display:inline-block}
 .cardedit{position:absolute;top:4px;right:4px;background:var(--elev);border:1px solid var(--line);color:var(--ink);width:44px;height:44px;border-radius:4px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;z-index:2}
@@ -482,9 +497,12 @@ nav.tabs button[aria-selected="true"]::after{content:'';position:absolute;bottom
     <select id="fsort"><option value="rel">Orden: año / nº</option><option value="ind">Índice ↓</option><option value="val">Valor ↓</option></select>
     <button id="fdir" class="chip" title="Uniformar la orientación de los autos" style="white-space:nowrap">⇄ Mirando: <b id="fdirTxt">→</b></button>
     <div class="chips">
-      <button class="chip" data-clase="Mainline" aria-pressed="false">Mainline</button>
-      <button class="chip" data-clase="TH" aria-pressed="false">Treasure Hunt</button>
-      <button class="chip" data-clase="STH" aria-pressed="false">Super TH</button>
+      <button class="chip" data-clase="MAINLINE" aria-pressed="false">MAINLINE</button>
+      <button class="chip" data-clase="TREASURE HUNT" aria-pressed="false">TREASURE HUNT</button>
+      <button class="chip" data-clase="SUPER TREASURE HUNT" aria-pressed="false">SUPER TH</button>
+      <button class="chip" data-clase="CAR CULTURE" aria-pressed="false">CAR CULTURE</button>
+      <button class="chip" data-clase="BOULEVARD" aria-pressed="false">BOULEVARD</button>
+      <button class="chip" data-clase="POP CULTURE" aria-pressed="false">POP CULTURE</button>
       <button class="chip" id="ftrend" aria-pressed="false">Solo trending</button>
     </div>
     <div class="note"><b id="rescount">0</b> de <b id="totcount">0</b> registros · <span id="imgcount"></span></div>
@@ -1077,9 +1095,41 @@ const IMG=f=>{
   // Si es ruta local
   return VER('img/'+f);
 };
-const CLS={STH:{t:"Super Treasure Hunt",v:[85,250],d:[7,28],f:"autoevolution/resellcalendar 2024-2025"},
-           TH:{t:"Treasure Hunt",v:[5,20],d:[7,30],f:"iCollectEverything 2026"},
-           Mainline:{t:"Mainline",v:[1,5],d:[14,90],f:"hobbyDB listings 2024-2025"}};
+const CLS={
+  'MAINLINE':{t:"Mainline",v:[1,5],d:[14,90],f:"hobbyDB listings 2024-2025"},
+  'TREASURE HUNT':{t:"Treasure Hunt",v:[5,20],d:[7,30],f:"iCollectEverything 2026"},
+  'SUPER TREASURE HUNT':{t:"Super Treasure Hunt",v:[85,250],d:[7,28],f:"autoevolution/resellcalendar 2024-2025"},
+  'CAR CULTURE':{t:"Car Culture",v:[6.95,12.5],d:[7,28],f:"eBay listings 2024-2025"},
+  'BOULEVARD':{t:"Boulevard",v:[8,12],d:[7,28],f:"eBay listings 2024-2025"},
+  'POP CULTURE':{t:"Pop Culture",v:[7,14],d:[7,30],f:"eBay listings 2024-2025"},
+  'TEAM TRANSPORT':{t:"Team Transport",v:[12,20],d:[14,40],f:"eBay listings 2024-2025"},
+  'RETRO ENTERTAINMENT':{t:"Retro Entertainment",v:[7,14],d:[14,40],f:"eBay listings 2024-2025"},
+  'RLC · RED LINE CLUB':{t:"RLC · Red Line Club",v:[29.99,84.99],d:[7,28],f:"99diecast.com 2024-2025"},
+  'ELITE 64':{t:"Elite 64",v:[9,15],d:[14,40],f:"eBay listings 2024-2025"},
+  'CONVENTION':{t:"Convention",v:[42.99,140],d:[7,28],f:"hobbyDB Blog 2022-2025"},
+  'FIRST EDITIONS':{t:"First Editions",v:[2,8],d:[14,60],f:"eBay listings 2024-2025"},
+  'NEW MODELS':{t:"New Models",v:[1.5,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'MYSTERY MODELS':{t:"Mystery Models",v:[3,10],d:[7,30],f:"eBay listings 2024-2025"},
+  'CRACK-UPS':{t:"Crack-Ups",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'ULTRA HOTS':{t:"Ultra Hots",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'REAL RIDERS':{t:"Real Riders",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'COLOR SHIFTERS':{t:"Color Shifters",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'REDLINE':{t:"Redline",v:[50,3500],d:[30,180],f:"rarityfinder.com 2026"},
+  '100% HOT WHEELS':{t:"100% Hot Wheels",v:[15,45],d:[14,60],f:"eBay listings 2024-2025"},
+  'MONSTER TRUCKS':{t:"Monster Trucks",v:[4,12],d:[14,60],f:"eBay listings 2024-2025"},
+  'SIZZLERS':{t:"Sizzlers",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'STARSHIPS':{t:"Starships",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'FLYING COLORS':{t:"Flying Colors",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'VINTAGE':{t:"Vintage",v:[5,40],d:[14,90],f:"eBay listings 2024-2025"},
+  'GRAN ESCALA':{t:"Gran Escala",v:[15,45],d:[14,60],f:"eBay listings 2024-2025"},
+  'SPECIAL & EARLY':{t:"Special & Early",v:[2,6],d:[14,60],f:"eBay listings 2024-2025"},
+  'COLLECTOR EXCLUSIVES':{t:"Collector Exclusives",v:[30,140],d:[7,28],f:"hobbyDB Blog 2022-2025"},
+  'ZAMAC':{t:"ZAMAC",v:[4,12],d:[14,60],f:"eBay listings 2024-2025"}
+};
+/* fallback seguro: si una categoria no esta en CLS, usa Mainline (nunca rompe el drawer) */
+const clsDe=(k)=>CLS[k]||CLS['MAINLINE']||{t:String(k||"Mainline"),v:[1,5],d:[14,90],f:""};
+/* slug para clases CSS (categorias en MAYUSCULA -> kebab-case) */
+const slugCat=(k)=>String(k||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const COND={"carded-nuevo":{l:"En tarjeta, nuevo",m:1.0},"carded-dañado":{l:"Tarjeta dañada",m:0.7},
  "loose-mint":{l:"Suelto, impecable",m:0.55},"loose-bueno":{l:"Suelto, buen estado",m:0.4},
  "loose-jugado":{l:"Suelto, jugado",m:0.25}};
@@ -1165,7 +1215,7 @@ function filtered(){
     if(state.year&&String(c.y)!==state.year) return false;
     if(state.clase&&c.k!==state.clase) return false;
     if(state.serie&&c.s!==state.serie) return false;
-    if(state.cat&&!(c.categorias_fandom||[]).some(x=>x.startsWith(state.cat+':'))) return false;
+    if(state.cat&&c.k!==state.cat) return false;
     if(state.pais&&c.pais!==state.pais) return false;
     if(state.trending&&!DEM[c.i]) return false;
     if(q&&!(c.m.toLowerCase().includes(q)||c.s.toLowerCase().includes(q)||String(c.t).toLowerCase().includes(q))) return false;
@@ -1176,7 +1226,7 @@ function filtered(){
   return r;
 }
 function cardHTML(c){
-  const o=col[c.i], badge=`<span class="chipc ${c.k!=="Mainline"?c.k:""}">${c.k}</span>`;
+  const o=col[c.i], _slug=slugCat(c.k), badge=`<span class="chipc ${c.k!=="MAINLINE"?_slug:""}">${String(c.k||"").toUpperCase()}</span>`;
   const qty=o&&o.q?`<span class="qty">×${o.q}</span>`:"";
   const dm=DEM[c.i];
   const pie=(dm?"TOP "+dm.rank:"")+(c.imr?(dm?" · ":"")+"imagen ref":"");
@@ -1247,7 +1297,7 @@ function drawer(id){
         <div class="mt">${c.y} · Nº de colección ${c.c} · Toy # ${c.t}</div>
         ${disHTML}${fichaHTML}${galeriaHTML(c)}${idxHTML}${vmHTML}
        <div class="mt">${c.s} ${c.n?"("+c.n+")":""}</div>
-       <div class="mt">${CLS[c.k].t}${c.nuevo?" · Nuevo modelo":""}${c.variante?" · Variante de color":""}</div></div></div>
+       <div class="mt">${clsDe(c.k).t}${c.nuevo?" · Nuevo modelo":""}${c.variante?" · Variante de color":""}</div></div></div>
    <div class="kv">
      <span class="k">Índice</span><span class="v">${c.x} / 100</span>
      <span class="k">Historia</span><span class="v" style="font-size:13px;line-height:1.5">${_hist(c.m)?.historia||"Sin datos históricos para este modelo."}</span>
@@ -1256,10 +1306,10 @@ function drawer(id){
      <span class="k">Dato clave</span><span class="v" style="font-size:13px;line-height:1.5">${_hist(c.m)?.dato_clave||"—"}</span>
      <span class="k">Valor ref.</span><span class="v">${fmt(c.v)} – ${fmt(c.V)}</span>
      <span class="k">En USD / CLP / EUR</span><span class="v" style="font-size:11.5px">US$${c.v.toFixed(2)}–${c.V.toFixed(2)} · $${Math.round(conv(c.v,"CLP"))}–${Math.round(conv(c.V,"CLP"))} · €${conv(c.v,"EUR").toFixed(2)}–${conv(c.V,"EUR").toFixed(2)}</span>
-     <span class="k">Venta estimada</span><span class="v">${CLS[c.k].d[0]}–${CLS[c.k].d[1]} días</span>
+     <span class="k">Venta estimada</span><span class="v">${clsDe(c.k).d[0]}–${clsDe(c.k).d[1]} días</span>
      <span class="k">Caja</span><span class="v">${CASEBY[id]?("Caja "+CASEBY[id].letra+" ("+CASEBY[id].anio+") · "+(CASEBY[id].tipo==="STH"?"Super Treasure Hunt":"Treasure Hunt")):"—"}</span>
      <span class="k">Imagen</span><span class="v" style="font-family:var(--f-body);font-size:11.5px">${c.imr?"referencia del casting (no necesariamente del año/color exacto)":"foto de la ficha del año"}</span>
-     <span class="k">Fuente valor</span><span class="v" style="font-family:var(--f-body);font-size:11.5px">${CLS[c.k].f}</span></div>
+     <span class="k">Fuente valor</span><span class="v" style="font-family:var(--f-body);font-size:11.5px">${clsDe(c.k).f}</span></div>
    <div class="sec"><h3>Índice de coleccionabilidad ${c.x} / 100</h3>
      <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:6px">
        <div style="text-align:center">${donut(c.x,c.px||0)}<div class="note" style="font-size:10px">fórmula v2</div></div>
@@ -1437,8 +1487,8 @@ function responder(txt){
   const c=buscar(txt);
   if(c){
     const o=col[c.i]||{q:0};
-    logMsg("a",`<b>${c.m}</b> (${c.y}, #${c.c}, ${c.s}). Clase ${CLS[c.k].t}. Índice ${c.x}/100. `+
-      `Valor ref. ${fmt(c.v)}–${fmt(c.V)}. Venta estimada ${CLS[c.k].d[0]}-${CLS[c.k].d[1]} días. Tenés ×${o.q||0}.`,
+    logMsg("a",`<b>${c.m}</b> (${c.y}, #${c.c}, ${c.s}). Clase ${clsDe(c.k).t}. Índice ${c.x}/100. `+
+      `Valor ref. ${fmt(c.v)}–${fmt(c.V)}. Venta estimada ${clsDe(c.k).d[0]}-${clsDe(c.k).d[1]} días. Tenés ×${o.q||0}.`,
       "Fuente: Hot Wheels Wiki (catálogo) + rangos por clase (confianza baja)");
     tts(`${c.m}, año ${c.y}. Índice ${c.x}. Entre ${hablarMoneda(c.v)} y ${hablarMoneda(c.V)}.`);return;
   }
@@ -1462,8 +1512,8 @@ function contextoAuto(c){
   if(!c) return "";
   const h=_hist(c.m);
   return "Auto del catálogo: "+c.m+", año "+c.y+", nº de colección "+c.c+", toy "+c.t+", serie "+c.s+
-    ", clase "+c.k+" ("+CLS[c.k].t+"), índice de coleccionabilidad "+c.x+"/100 (percentil "+c.px+
-    "), valor de referencia US$"+c.v+"-"+c.V+", venta estimada "+CLS[c.k].d[0]+"-"+CLS[c.k].d[1]+" días."+
+    ", clase "+c.k+" ("+clsDe(c.k).t+"), índice de coleccionabilidad "+c.x+"/100 (percentil "+c.px+
+    "), valor de referencia US$"+c.v+"-"+c.V+", venta estimada "+clsDe(c.k).d[0]+"-"+clsDe(c.k).d[1]+" días."+
     (h?" Historia: "+h.historia:"");
 }
 async function preguntarIA(texto){
@@ -2247,28 +2297,46 @@ function setCajYear(y){ cajYear=y; renderCajas(); }
 /* ===== visualizaciones del índice ===== */
 function nivelColor(v){ return v>=58?"#ff4d00":(v>=44?"#ff8c1a":"#c9ccd4"); }
 function catLogoSVG(k){
+  k=String(k||"");
   const L={
-    'Car Culture':'<path d="M12 2 3 6v6c0 5 3.8 8.4 9 10 5.2-1.6 9-5 9-10V6l-9-4zm0 5 4 1.5V13l-4 4-4-4V8.5L12 7z" fill="#fff"/>',
-    'Boulevard':'<path d="M12 2c-1 3-2 5-2 7s1 4 2 5c1-1 2-3 2-5s-1-4-2-7zm0 12v8" stroke="#fff" stroke-width="2" fill="none"/>',
-    'Pop Culture':'<path d="M12 2l2.6 6 6.6.4-5 4.2 1.5 6.4L12 15.5 6.3 19l1.5-6.4-5-4.2 6.6-.4L12 2z" fill="#fff"/>',
-    'Treasure Hunt':'<path d="M12 2c2 3 5 5 5 9a5 5 0 0 1-10 0c0-4 3-6 5-9z" fill="#fff"/><path d="M12 9c1 1.5 2 2.5 2 4a2 2 0 0 1-4 0c0-1.5 1-2.5 2-4z" fill="#f59e0b"/>',
-    'STH':'<path d="M6 3h12l4 6-10 12L2 9l4-6z" fill="#fff"/>',
-    'Super Treasure Hunt':'<path d="M6 3h12l4 6-10 12L2 9l4-6z" fill="#fff"/>',
-    'Gran Escala':'<path d="M3 7h11v8H3zM14 10h4l3 3v2h-7z" fill="#fff"/><circle cx="7" cy="17" r="2" fill="#fff"/><circle cx="17" cy="17" r="2" fill="#fff"/>',
-    'Vintage':'<path d="M12 3 2 8l10 5 10-5-10-5zM4 10v5l8 4 8-4v-5" stroke="#fff" stroke-width="1.8" fill="none"/>',
-    'Mainline':'<path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="#fff"/>',
-    'Mystery Models':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M9.5 9a2.5 2.5 0 1 1 3.6 2.2c-.8.4-1.1 1-1.1 1.8" stroke="#fff" stroke-width="2" fill="none"/><circle cx="12" cy="17" r="1.3" fill="#fff"/>',
-    'Collector Exclusives':'<path d="M6 3h12v4a6 6 0 0 1-12 0V3zm-2 1h2v6H4V4zm16 0h2v6h-2V4zM12 13v4m-4 3h8" stroke="#fff" stroke-width="1.8" fill="none"/>',
-    'Special & Early':'<path d="M12 2a10 10 0 0 0 0 20c2 0 3-1.3 3-2.6 0-1.5-1.4-2.1-1.4-3.4 0-1 .8-2 2-2h2.4A4.4 4.4 0 0 0 22 9.6C22 5.4 17.5 2 12 2z" fill="#fff"/>',
-    'First Editions/New Models':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M11 7h2v10h-2zM9 9h4" stroke="#fff" stroke-width="2" fill="none"/>',
-    'First Editions':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M11 7h2v10h-2zM9 9h4" stroke="#fff" stroke-width="2" fill="none"/>',
+    'MAINLINE':'<path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="#fff"/>',
+    'TREASURE HUNT':'<path d="M12 2c2 3 5 5 5 9a5 5 0 0 1-10 0c0-4 3-6 5-9z" fill="#fff"/><path d="M12 9c1 1.5 2 2.5 2 4a2 2 0 0 1-4 0c0-1.5 1-2.5 2-4z" fill="#f59e0b"/>',
+    'SUPER TREASURE HUNT':'<path d="M6 3h12l4 6-10 12L2 9l4-6z" fill="#fff"/>',
+    'CAR CULTURE':'<path d="M12 2 3 6v6c0 5 3.8 8.4 9 10 5.2-1.6 9-5 9-10V6l-9-4zm0 5 4 1.5V13l-4 4-4-4V8.5L12 7z" fill="#fff"/>',
+    'BOULEVARD':'<path d="M12 2c-1 3-2 5-2 7s1 4 2 5c1-1 2-3 2-5s-1-4-2-7zm0 12v8" stroke="#fff" stroke-width="2" fill="none"/>',
+    'POP CULTURE':'<path d="M12 2l2.6 6 6.6.4-5 4.2 1.5 6.4L12 15.5 6.3 19l1.5-6.4-5-4.2 6.6-.4L12 2z" fill="#fff"/>',
+    'MONSTER TRUCKS':'<path d="M2 15h20l-2 5H4l-2-5zm3-8h14v5H5V7z" fill="#fff"/>',
+    'GRAN ESCALA':'<path d="M3 7h11v8H3zM14 10h4l3 3v2h-7z" fill="#fff"/><circle cx="7" cy="17" r="2" fill="#fff"/><circle cx="17" cy="17" r="2" fill="#fff"/>',
+    'MYSTERY MODELS':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M9.5 9a2.5 2.5 0 1 1 3.6 2.2c-.8.4-1.1 1-1.1 1.8" stroke="#fff" stroke-width="2" fill="none"/><circle cx="12" cy="17" r="1.3" fill="#fff"/>',
+    'FLYING COLORS':'<path d="M12 2l4 8-4 12-4-12 4-8z" fill="#fff"/><path d="M8 12l4 6 4-6" stroke="#fff" stroke-width="1.6" fill="none"/>',
+    'FIRST EDITIONS':'<circle cx="12" cy="12" r="10" stroke="#fff" stroke-width="2" fill="none"/><path d="M11 7h2v10h-2zM9 9h4" stroke="#fff" stroke-width="2" fill="none"/>',
+    'NEW MODELS':'<path d="M12 3v18M5 8l7-5 7 5" stroke="#fff" stroke-width="2" fill="none"/>',
+    'ELITE 64':'<path d="M12 2l3 6 6.6.4-5 4.2 1.5 6.4L12 15.5 6.3 19l1.5-6.4-5-4.2L9.4 8 12 2z" fill="#fff"/>',
+    'SPECIAL & EARLY':'<path d="M12 2a10 10 0 0 0 0 20c2 0 3-1.3 3-2.6 0-1.5-1.4-2.1-1.4-3.4 0-1 .8-2 2-2h2.4A4.4 4.4 0 0 0 22 9.6C22 5.4 17.5 2 12 2z" fill="#fff"/>',
+    'SIZZLERS':'<path d="M12 2c2 4 6 6 6 10a6 6 0 0 1-12 0c0-4 4-6 6-10z" fill="#fff"/>',
+    '100% HOT WHEELS':'<circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="2" fill="none"/><text x="12" y="15" font-size="7" fill="#fff" text-anchor="middle" font-family="Arial">100%</text>',
+    'REAL RIDERS':'<circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="4" stroke="#fff" stroke-width="2" fill="none"/>',
+    'CRACK-UPS':'<path d="M12 2l2 6 4 1-3 3 1 4-4-2-4 2 1-4-3-3 4-1 2-6z" fill="#fff"/>',
+    'COLLECTOR EXCLUSIVES':'<path d="M6 3h12v4a6 6 0 0 1-12 0V3zm-2 1h2v6H4V4zm16 0h2v6h-2V4zM12 13v4m-4 3h8" stroke="#fff" stroke-width="1.8" fill="none"/>',
+    'COLOR SHIFTERS':'<circle cx="12" cy="12" r="9" fill="none" stroke="#fff" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="#fff" opacity=".7"/>',
+    'RLC · RED LINE CLUB':'<path d="M4 12h16M4 8h16M4 16h16" stroke="#fff" stroke-width="2"/>',
+    'VINTAGE':'<path d="M12 3 2 8l10 5 10-5-10-5zM4 10v5l8 4 8-4v-5" stroke="#fff" stroke-width="1.8" fill="none"/>',
+    'REDLINE':'<circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="3" fill="none"/><circle cx="12" cy="12" r="5" stroke="#fff" stroke-width="2" fill="none"/>',
+    'TEAM TRANSPORT':'<path d="M2 7h13v9H2zM15 10h4l3 3v3h-7z" fill="#fff"/>',
+    'RETRO ENTERTAINMENT':'<rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="#fff" stroke-width="2"/><path d="M10 10l5 2-5 2v-4z" fill="#fff"/>',
+    'CONVENTION':'<path d="M12 2l2 6h-4l2-6zm-6 8h12l-2 12H8L6 10z" fill="#fff"/>',
+    'ZAMAC':'<path d="M12 2l9 5v10l-9 5-9-5V7l9-5z" fill="none" stroke="#fff" stroke-width="2"/>'
   };
   const C={
-    'Car Culture':'#ff4d00','Boulevard':'#8b5cf6','Pop Culture':'#ec4899',
-    'Treasure Hunt':'#f59e0b','STH':'#dc2626','Super Treasure Hunt':'#dc2626',
-    'Gran Escala':'#3b82f6','Vintage':'#a16207','Mainline':'#ff4d00',
-    'Mystery Models':'#6366f1','Collector Exclusives':'#eab308',
-    'Special & Early':'#14b8a6','First Editions/New Models':'#ff8c1a','First Editions':'#ff8c1a'
+    'MAINLINE':'#ff4d00','TREASURE HUNT':'#f59e0b','SUPER TREASURE HUNT':'#dc2626',
+    'CAR CULTURE':'#ff4d00','BOULEVARD':'#8b5cf6','POP CULTURE':'#ec4899',
+    'MONSTER TRUCKS':'#3b82f6','GRAN ESCALA':'#3b82f6','MYSTERY MODELS':'#6366f1',
+    'FLYING COLORS':'#f97316','FIRST EDITIONS':'#ff8c1a','NEW MODELS':'#ff8c1a',
+    'ELITE 64':'#a855f7','SPECIAL & EARLY':'#14b8a6','SIZZLERS':'#ef4444',
+    '100% HOT WHEELS':'#0ea5e9','REAL RIDERS':'#64748b','CRACK-UPS':'#f43f5e',
+    'COLLECTOR EXCLUSIVES':'#eab308','COLOR SHIFTERS':'#06b6d4',
+    'RLC · RED LINE CLUB':'#dc2626','VINTAGE':'#a16207','REDLINE':'#dc2626',
+    'TEAM TRANSPORT':'#f97316','RETRO ENTERTAINMENT':'#a855f7','CONVENTION':'#eab308','ZAMAC':'#94a3b8'
   };
   if(!L[k]) return '';
   return `<span class="catlogo" title="${k}" style="background:${C[k]||'#ff4d00'}"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true">${L[k]}</svg></span>`;
@@ -2518,10 +2586,10 @@ async function cicloPuente(){
 function pick(seed,n){ let h=0; const s=String(seed); for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0; return h%n; }
 /* --- guiones por persona, siempre con datos reales --- */
 function guionAsistente(c,o){
-  return c.m+", año "+c.y+", número de colección "+c.c+", serie "+c.s+". Clase "+CLS[c.k].t+". "
+  return c.m+", año "+c.y+", número de colección "+c.c+", serie "+c.s+". Clase "+clsDe(c.k).t+". "
     +"Índice de coleccionabilidad "+c.x+" sobre 100, percentil "+c.px+" del catálogo. "
     +"Valor de referencia entre "+hablarMoneda(c.v)+" y "+hablarMoneda(c.V)+". "
-    +"Tiempo estimado de venta: entre "+CLS[c.k].d[0]+" y "+CLS[c.k].d[1]+" días. "
+    +"Tiempo estimado de venta: entre "+clsDe(c.k).d[0]+" y "+clsDe(c.k).d[1]+" días. "
     +"En tu colección tenés "+(o.q||0)+" unidades en condición "+((COND[o.c]||{l:""}).l)+".";
 }
 function guionPokedex(c,o){
@@ -2632,8 +2700,8 @@ function initPage(){
   if(selY) selY.innerHTML=`<option value="">Todos los años</option>`+ys.map(y=>`<option value="${y}">${y}</option>`).join("");
   const ss=[...new Set(CAT.map(c=>c.s))].sort(), selS=document.getElementById("fserie");
   if(selS) selS.innerHTML=`<option value="">Todas las series</option>`+ss.map(s=>`<option value="${s}">${s}</option>`).join("");
-  const cats=[...new Set(CAT.flatMap(c=>(c.categorias_fandom||[]).map(x=>x.split(':')[0])))].sort(), selC=document.getElementById("fcat");
-  if(selC) selC.innerHTML=`<option value="">Todas las categorías</option>`+cats.map(c=>`<option value="${c}">${c}</option>`).join("");
+  const cats=[...new Set(CAT.map(c=>c.k).filter(Boolean))].sort(), selC=document.getElementById("fcat");
+  if(selC) selC.innerHTML=`<option value="">TODAS LAS CATEGORÍAS</option>`+cats.map(c=>`<option value="${c}">${String(c).toUpperCase()}</option>`).join("");
   const paises=[...new Set(CAT.map(c=>c.pais).filter(Boolean))].sort(), selP=document.getElementById("fpais");
   if(selP) selP.innerHTML=`<option value="">Todos los países</option>`+paises.map(p=>`<option value="${p}">${p}</option>`).join("");
   document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>tabTo(b.dataset.tab));
