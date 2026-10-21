@@ -1,5 +1,5 @@
 /* HW Collector — service worker v20 (FIX ANDROID: no cachear HTML en install) */
-const CACHE = 'hwcollector-v25';
+const CACHE = 'hwcollector-v26';
 const CRITICOS = ['./manifest.webmanifest','./icons/icon-192.jpg','./icons/icon-512.jpg','./icons/apple-touch-icon.jpg'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CRITICOS)).catch(()=>{}).then(() => self.skipWaiting()));
