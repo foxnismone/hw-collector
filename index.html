@@ -1000,48 +1000,7 @@ nav.tabs button[aria-selected="true"]::after{content:'';position:absolute;bottom
   </div>
 </div>
 
-<script src="vendor/supabase.js">
-// Popular lista de recientes
-(function(){
-  var list = document.getElementById('recentList');
-  if(!list || typeof CAT === 'undefined') return;
-  var recientes = CAT.slice(0, 8);
-  list.innerHTML = recientes.map(function(c){
-    var img = c.im ? '<img src="'+IMG(c.im)+'" alt="" onerror="this.style.display=\'none\'">' : '<div style="width:40px;height:40px;background:var(--card-bg)"></div>';
-    return '<div class="mini-card" onclick="drawer(\''+c.i+'\')">' + img + '<span class="nm">'+esc(c.m)+'</span><span class="tag">'+esc(c.y||'')+'</span></div>';
-  }).join('');
-})();
-
-
-/* ===== Galería de la ficha + lightbox ===== */
-window.abrirGaleria=function(urls,idx){
-  if(!urls||!urls.length) return;
-  idx=idx||0;
-  let lb=document.createElement('div'); lb.className='lightbox';
-  const pinta=()=>{
-    lb.innerHTML='<button class="lb-x" onclick="this.parentElement.remove()">&times;</button>'
-      +'<img src="'+VER(urls[idx])+'" alt="" onerror="this.style.opacity=.3">'
-      +'<div class="lb-nav"><button onclick="event.stopPropagation();window._lbPrev()">&larr;</button>'
-      +'<span class="lb-count">'+(idx+1)+' / '+urls.length+'</span>'
-      +'<button onclick="event.stopPropagation();window._lbNext()">&rarr;</button></div>';
-  };
-  window._lbPrev=()=>{ idx=(idx-1+urls.length)%urls.length; pinta(); };
-  window._lbNext=()=>{ idx=(idx+1)%urls.length; pinta(); };
-  lb.onclick=e=>{ if(e.target===lb) lb.remove(); };
-  document.addEventListener('keydown',function k(e){ if(!document.body.contains(lb)){document.removeEventListener('keydown',k);return;} if(e.key==='Escape')lb.remove(); if(e.key==='ArrowLeft')window._lbPrev(); if(e.key==='ArrowRight')window._lbNext(); });
-  document.body.appendChild(lb); pinta();
-};
-window.galeriaHTML=function(c){
-  const g=(c&&c.galeria)||[];
-  if(!g.length) return '';
-  const prim=g[0];
-  const resto=g.slice(1);
-  const thumbs=g.slice(0,8).map((u,i)=>'<img src="'+VER(u)+'" alt="" loading="lazy" onclick="abrirGaleria('+JSON.stringify(g).replace(/"/g,'&quot;')+','+i+')" onerror="this.style.visibility=\'hidden\'">').join('');
-  return '<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Galería ('+g.length+')</h3><div class="galeria-grid">'+thumbs+'</div>'
-    +((g.length>8)?'<div class="galeria-vacia">+ '+(g.length-8)+' imágenes más (hacé clic para recorrerlas)</div>':'')+'</div>';
-};
-
-</script>
+<script src="vendor/supabase.js"></script>
 <script src="js/supabase-client.js"></script>
 <script src="https://unpkg.com/@zxing/library@0.21.3/umd/index.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
@@ -1056,7 +1015,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='33';
+const IMGV='34';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
@@ -1087,8 +1046,10 @@ const IMG=f=>{
   // Si ya viene proxeada por images.weserv.nl, devolverla tal cual (evita doble-proxy)
   if(f.indexOf('images.weserv.nl')!==-1) return VER(f);
   // Si ya es una URL absoluta de Wikia/Fandom, usar proxy images.weserv.nl
+  // OJO: encodeURIComponent rompe la URL (codifica :// y weserv devuelve 404).
+  // Se quita solo el prefijo http(s):// y se deja el resto intacto.
   if(f.includes('static.wikia.nocookie.net')) {
-    return VER('https://images.weserv.nl/?url=' + encodeURIComponent(f));
+    return VER('https://images.weserv.nl/?url=' + f.replace(/^https?:\/\//i,''));
   }
   // Si ya es una URL absoluta http/https, devolver tal cual
   if(/^https?:\/\//.test(f)) return VER(f);
@@ -3140,6 +3101,51 @@ function initRuedas() {
   }
   renderRuedas();
 }
+
+
+
+/* ===== Galeria de la ficha + lightbox (movido aqui: usa IMG/VER del script principal) ===== */
+
+// Popular lista de recientes
+(function(){
+  var list = document.getElementById('recentList');
+  if(!list || typeof CAT === 'undefined') return;
+  var recientes = CAT.slice(0, 8);
+  list.innerHTML = recientes.map(function(c){
+    var img = c.im ? '<img src="'+IMG(c.im)+'" alt="" onerror="this.style.display=\'none\'">' : '<div style="width:40px;height:40px;background:var(--card-bg)"></div>';
+    return '<div class="mini-card" onclick="drawer(\''+c.i+'\')">' + img + '<span class="nm">'+esc(c.m)+'</span><span class="tag">'+esc(c.y||'')+'</span></div>';
+  }).join('');
+})();
+
+
+/* ===== Galería de la ficha + lightbox ===== */
+window.abrirGaleria=function(urls,idx){
+  if(!urls||!urls.length) return;
+  idx=idx||0;
+  let lb=document.createElement('div'); lb.className='lightbox';
+  const pinta=()=>{
+    lb.innerHTML='<button class="lb-x" onclick="this.parentElement.remove()">&times;</button>'
+      +'<img src="'+VER(urls[idx])+'" alt="" onerror="this.style.opacity=.3">'
+      +'<div class="lb-nav"><button onclick="event.stopPropagation();window._lbPrev()">&larr;</button>'
+      +'<span class="lb-count">'+(idx+1)+' / '+urls.length+'</span>'
+      +'<button onclick="event.stopPropagation();window._lbNext()">&rarr;</button></div>';
+  };
+  window._lbPrev=()=>{ idx=(idx-1+urls.length)%urls.length; pinta(); };
+  window._lbNext=()=>{ idx=(idx+1)%urls.length; pinta(); };
+  lb.onclick=e=>{ if(e.target===lb) lb.remove(); };
+  document.addEventListener('keydown',function k(e){ if(!document.body.contains(lb)){document.removeEventListener('keydown',k);return;} if(e.key==='Escape')lb.remove(); if(e.key==='ArrowLeft')window._lbPrev(); if(e.key==='ArrowRight')window._lbNext(); });
+  document.body.appendChild(lb); pinta();
+};
+window.galeriaHTML=function(c){
+  const g=(c&&c.galeria)||[];
+  if(!g.length) return '';
+  const prim=g[0];
+  const resto=g.slice(1);
+  const thumbs=g.slice(0,8).map((u,i)=>'<img src="'+VER(u)+'" alt="" loading="lazy" onclick="abrirGaleria('+JSON.stringify(g).replace(/"/g,'&quot;')+','+i+')" onerror="this.style.visibility=\'hidden\'">').join('');
+  return '<div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px"><h3 style="margin:0 0 8px">Galería ('+g.length+')</h3><div class="galeria-grid">'+thumbs+'</div>'
+    +((g.length>8)?'<div class="galeria-vacia">+ '+(g.length-8)+' imágenes más (hacé clic para recorrerlas)</div>':'')+'</div>';
+};
+
 
 </script>
 </body></html>
