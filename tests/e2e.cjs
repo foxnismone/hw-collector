@@ -25,17 +25,16 @@ function ok(nombre, cond, extra = '') {
   const erroresConsola = [];
   const erroresPagina = [];
   const AVISOS_BENIGNOS = [
-    "frame-ancestors' is ignored when delivered via a <meta>",
-    'X-Frame-Options may only be set via an HTTP header',
+    'ignored when delivered via a <meta',      // frame-ancestors/XFO en meta: el navegador los ignora
+    'may only be set via an HTTP header',      // idem
     'Refused to execute inline script',
     'Progressive Web App',
   ];
   page.on('console', m => {
     if (m.type() !== 'error') return;
     const txt = m.text();
-    if (AVISOS_BENIGNOS.some(a => txt.includes(a))) return;   // limitacion de GitHub Pages (sin headers HTTP)
-    if (/404/.test(txt) && /tts-voices|agent\/status|trends|agent\/|sync\//.test(txt)) return;  // endpoints del puente local
-    erroresConsola.push(txt.slice(0, 200));
+    if (AVISOS_BENIGNOS.some(a => txt.includes(a))) return;
+    erroresConsola.push(txt.slice(0, 200));   // los 404 se filtran al final (el mensaje no trae la URL)
   });
   page.on('pageerror', e => erroresPagina.push(String(e).slice(0, 300)));
   const respuestasFallidas = [];
@@ -46,7 +45,19 @@ function ok(nombre, cond, extra = '') {
   await page.waitForTimeout(4000);
 
   ok('sin errores JS en carga', erroresPagina.length === 0, erroresPagina.slice(0,2).join(' | '));
-  ok('sin errores de consola en carga', erroresConsola.length === 0, erroresConsola.slice(0,2).join(' | '));
+  // Los "Failed to load resource ... 404" no traen la URL en el mensaje: se consideran
+  // benignos si TODAS las peticiones que fallaron son endpoints del puente local
+  // (tts-voices / agent/status / trends), que no existen en el hosting estatico.
+  const NO_ESTATICO = /tts-voices|agent\/status|trends|agent\/|sync\//;
+  const fallosNoEstatico = respuestasFallidas.filter(r => !/favicon|qrserver/.test(r) && !NO_ESTATICO.test(r));
+  const solo404DelPuente = respuestasFallidas.length > 0
+    && fallosNoEstatico.length === 0
+    && respuestasFallidas.every(r => /404/.test(r));
+  const errsConsolaReales = solo404DelPuente
+    ? erroresConsola.filter(e => !/Failed to load resource/.test(e))
+    : erroresConsola;
+  ok('sin errores de consola en carga', errsConsolaReales.length === 0,
+     errsConsolaReales.slice(0,2).join(' | ') || (solo404DelPuente ? '(solo 404 del puente local)' : ''));
   ok('doctype HTML5', (await page.evaluate(() => document.doctype?.name)) === 'html');
   ok('lang="es"', (await page.evaluate(() => document.documentElement.lang)) === 'es');
   ok('charset utf-8', (await page.content()).includes('charset="utf-8"') || (await page.content()).includes('charset=utf-8'));
