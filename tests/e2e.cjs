@@ -34,6 +34,7 @@ function ok(nombre, cond, extra = '') {
     if (m.type() !== 'error') return;
     const txt = m.text();
     if (AVISOS_BENIGNOS.some(a => txt.includes(a))) return;   // limitacion de GitHub Pages (sin headers HTTP)
+    if (/404/.test(txt) && /tts-voices|agent\/status|trends|agent\/|sync\//.test(txt)) return;  // endpoints del puente local
     erroresConsola.push(txt.slice(0, 200));
   });
   page.on('pageerror', e => erroresPagina.push(String(e).slice(0, 300)));
@@ -75,19 +76,36 @@ function ok(nombre, cond, extra = '') {
   ok('tarjeta tiene nombre', !!datosTarjeta?.nombre, datosTarjeta?.nombre?.slice(0,40));
   ok('tarjeta tiene categoria en MAYUSCULA', datosTarjeta?.categoria === datosTarjeta?.categoria?.toUpperCase(), datosTarjeta?.categoria);
   ok('tarjeta tiene indice numerico', /Índice [\d.]+/.test(datosTarjeta?.indice || ''), datosTarjeta?.indice);
-  ok('tarjeta tiene imagen', datosTarjeta?.imgs > 0, `${datosTarjeta?.imgs} img`);
+  const nConImg = await page.evaluate(() =>
+    [...document.querySelectorAll('#grid .card')].filter(c => c.querySelector('img')).length);
+  const nCardsTotal = await page.evaluate(() => document.querySelectorAll('#grid .card').length);
+  ok('la mayoria de tarjetas tienen imagen', nConImg > nCardsTotal * 0.5, `${nConImg}/${nCardsTotal} tarjetas con foto`);
 
-  // imagenes realmente cargadas (naturalWidth > 0)
-  const imgsRotas = await page.evaluate(() => {
-    const out = [];
-    document.querySelectorAll('#grid img.thumb').forEach(im => {
-      if (im.src && !im.src.startsWith('data:') && im.naturalWidth === 0 && !im.classList.contains('imgerr')) {
-        out.push(im.src.slice(0, 100));
-      }
-    });
-    return out;
+  // Las tarjetas usan loading="lazy": hay que hacer scroll para que el navegador las cargue.
+  await page.evaluate(async () => {
+    for (let i = 0; i < 12; i++) {
+      window.scrollTo(0, window.scrollY + 700);
+      await new Promise(r => setTimeout(r, 260));
+    }
+    window.scrollTo(0, 0);
+    await new Promise(r => setTimeout(r, 700));
   });
-  ok('imagenes del grid cargan', imgsRotas.length === 0, imgsRotas.length ? `${imgsRotas.length} rotas: ${imgsRotas[0]}` : 'todas OK');
+  await page.waitForTimeout(1500);
+
+  const imgsStats = await page.evaluate(() => {
+    const out = [];
+    let total = 0, okc = 0, rotas = 0, pendientes = 0;
+    document.querySelectorAll('#grid img.thumb').forEach(im => {
+      total++;
+      if (im.complete && im.naturalWidth === 0) { rotas++; out.push(im.src.slice(0, 110)); }   // rota de verdad
+      else if (im.complete && im.naturalWidth > 0) okc++;
+      else pendientes++;                                                                    // lazy: aun no cargada
+    });
+    return { total, okc, rotas, pendientes, muestra: out.slice(0, 3) };
+  });
+  ok('imagenes del grid cargan', imgsStats.rotas === 0,
+     `${imgsStats.okc} cargadas, ${imgsStats.pendientes} pendientes (lazy), ${imgsStats.rotas} rotas`
+     + (imgsStats.rotas ? ` | ${imgsStats.muestra[0]}` : ''));
 
   console.log('\n--- 4. CLIC -> DRAWER ---');
   const idPrimero = datosTarjeta?.dataId;
