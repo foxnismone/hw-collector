@@ -1,9 +1,11 @@
 <!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://cdn.supabase.co; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://images.weserv.nl https://static.wikia.nocookie.net https://api.qrserver.com https://via.placeholder.com; connect-src 'self' https://api.groq.com https://*.supabase.co; font-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; manifest-src 'self'; worker-src 'self'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
-<meta http-equiv="X-Frame-Options" content="DENY">
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
-<meta name="referrer" content="strict-origin-when-cross-origin">
+<!-- NOTA: X-Frame-Options y frame-ancestors solo funcionan como cabeceras HTTP.
+     GitHub Pages las envía por su cuenta; ponerlos en <meta> es código muerto
+     (los navegadores los ignoran y además ensucian la consola). El CSP de abajo
+     SI se aplica (default-src/script-src/img-src/... y frame-src 'none'). -->
+
 <title>HW Collector — Pasión por Hot Wheels</title>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#ff4d00">
@@ -1024,7 +1026,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='35';
+const IMGV='36';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
