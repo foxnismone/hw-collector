@@ -20,6 +20,7 @@ from .sources import buscar_multiples
 from .validate import validar, elegir_mejor, Verdict
 from .visual import disponible as clip_disponible, score_visual
 from .repair import reparar_catalogo, descargar, _nombre_local
+from .metadata_bridge import adjuntar_metadata
 from .logger import AuditorLog
 from .metadata_bridge import adjuntar_metadata
 
@@ -66,6 +67,18 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None) -> dict:
     if max_reparar:
         rotas = rotas[:max_reparar]
         log.info('auditoria', f'limitado a {len(rotas)} imagenes (--max)')
+
+    # ---------------------------------------------------------- 1b. metadata
+    # Rellena marca/modelo/anio/version/color en cada referencia rota: es lo que
+    # hace que la busqueda encuentre LA foto del vehiculo y no una generica.
+    try:
+        antes_md = sum(1 for r in rotas if r.marca or r.anio or r.version)
+        adjuntar_metadata(rotas, cfg)
+        despues_md = sum(1 for r in rotas if r.marca or r.anio or r.version)
+        log.info('metadata', f'{despues_md}/{len(rotas)} referencias con metadata exacta '
+                             f'(+{despues_md - antes_md} resueltas del catalogo)')
+    except Exception as e:
+        log.aviso('metadata', f'no se pudo adjuntar metadata: {str(e)[:80]}')
 
     # ---------------------------------------------------------- 2. contexto
     planes = planificar_todos(rotas)

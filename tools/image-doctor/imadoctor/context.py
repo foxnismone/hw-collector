@@ -132,8 +132,6 @@ def planificar(ref: ImageRef) -> SearchPlan:
     if fname_limpio and fname_limpio.lower() != modelo.lower():
         plan.filename_hint = fname_limpio
         plan.queries.insert(0, fname_limpio)
-    if serie and modelo:
-        plan.queries.append(f'{modelo} {serie}')
 
     # --- alt y title ---
     for extra in (ref.alt, ref.title):

@@ -25,6 +25,7 @@ from imadoctor.scanner import (scan_all, resumen, scan_directory, scan_catalog_j
                                scan_html, BROKEN, MISSING, CORRUPT, EMPTY, OK)
 from imadoctor.context import planificar, es_placeholder
 from imadoctor.visual import disponible as clip_disponible
+from imadoctor import dom as dom_mod
 
 
 def _pinta_audit(refs, titulo):
@@ -74,6 +75,25 @@ def cmd_scan(cfg: Config, args) -> int:
     return 0
 
 
+def cmd_dom(cfg: Config, args) -> int:
+    """Audita el DOM renderizado: contenedores vacios, imgs rotas, layout."""
+    url = args.dom or 'https://foxnismone.github.io/hw-collector/'
+    print(f'\n=== AUDITORIA DOM: {url} ===')
+    hallazgos = dom_mod.auditar_dom(url, cfg)
+    res = dom_mod.resumen_hallazgos(hallazgos)
+    print(f"  {res['total']} hallazgos | {res['por_tipo']}")
+    for h in hallazgos:
+        icono = {'alta': '\u2717', 'media': '\u26a0', 'baja': '\u2139'}.get(h.severidad, '-')
+        print(f"\n  {icono} [{h.tipo}] ({h.severidad})")
+        print(f"      selector : {h.selector}")
+        print(f"      detalle  : {h.detalle[:110]}")
+        if h.modelo:
+            print(f"      modelo   : {h.modelo[:110]}")
+        print(f"      accion   : {h.accion_sugerida}")
+    print(f"\n  Severidad alta: {res['alta']}")
+    return 0
+
+
 def cmd_run(cfg: Config, args) -> int:
     from imadoctor.pipeline import run
     t0 = time.time()
@@ -113,6 +133,8 @@ def main(argv=None) -> int:
     p.add_argument('--limite', type=int, default=None,
                    help='limitar el escaneo a N referencias (pruebas rapidas)')
     p.add_argument('--solo-http', action='store_true', help='omitir el directorio img/')
+    p.add_argument('--dom', nargs='?', const='https://foxnismone.github.io/hw-collector/',
+                   default=None, help='auditar el DOM renderizado (bloques vacios, imgs rotas)')
     p.add_argument('--quiet', action='store_true', help='menos salida')
     args = p.parse_args(argv)
 
@@ -123,6 +145,8 @@ def main(argv=None) -> int:
         cfg.verbose = False
     cfg.ensure_dirs()
 
+    if args.dom:
+        return cmd_dom(cfg, args)
     if args.scan:
         return cmd_scan(cfg, args)
     return cmd_run(cfg, args)
