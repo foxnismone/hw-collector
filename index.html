@@ -1026,7 +1026,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='38';
+const IMGV='39';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
@@ -1052,6 +1052,23 @@ window.flipCar=function(ev,id){
   try{ localStorage.setItem('hw_flip',JSON.stringify(FLIPMAN)); }catch(e){}
   render(true);
 };
+// URL que siempre se puede servir (sin proxy) para el reintento de onerror
+const IMG_DIRECTA=f=>{
+  if(!f) return '';
+  if(f.indexOf('images.weserv.nl')!==-1) return f;
+  if(/^https?:\/\//.test(f)) return f;
+  return 'img/'+f;
+};
+// Fallback de imagen: reintenta directo y, si tambien falla, deja el placeholder
+// elegante. Garantiza que NUNCA quede un bloque vacio o roto en el DOM.
+const IMGFALLBACK=el=>{
+  el.onerror=null;
+  if(el.dataset.fb){ el.classList.add('imgerr'); el.removeAttribute('src'); return; }
+  el.dataset.fb='1';
+  const d=el.getAttribute('data-directo');
+  if(d){ el.removeAttribute('data-directo'); el.src=d; return; }
+  el.classList.add('imgerr'); el.removeAttribute('src');
+};
 const IMG=f=>{
   if(!f) return '';
   // Si ya viene proxeada por images.weserv.nl, devolverla tal cual (evita doble-proxy)
@@ -1059,7 +1076,10 @@ const IMG=f=>{
   // Si ya es una URL absoluta de Wikia/Fandom, usar proxy images.weserv.nl
   // OJO: encodeURIComponent rompe la URL (codifica :// y weserv devuelve 404).
   // Se quita solo el prefijo http(s):// y se deja el resto intacto.
+  // weserv NO resuelve nombres con %25 (el '%' literal de Fandom, ej. 'Bat - 1989 - 03 100%25.jpg'):
+  // devuelve 404 aunque el archivo exista. Esos cargan directo desde Wikia.
   if(f.includes('static.wikia.nocookie.net')) {
+    if(f.includes('%25')) return VER(f);
     return VER('https://images.weserv.nl/?url=' + f.replace(/^https?:\/\//i,''));
   }
   // Si ya es una URL absoluta http/https, devolver tal cual
@@ -1203,7 +1223,7 @@ function cardHTML(c){
   const dm=DEM[c.i];
   const pie=(dm?"TOP "+dm.rank:"")+(c.imr?(dm?" · ":"")+"imagen ref":"");
   const dbadge=pie?`<span class="dem">${pie}</span>`:"";
-  const img=c.im?`<img alt="" class="thumb${FLIP(c)?' mirror':''}" loading="lazy" decoding="async" src="${escA(IMG(c.im))}" onerror="this.classList.add('imgerr');this.removeAttribute('src');" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`<div class="thumb imgerr"></div>`;
+  const img=c.im?`<img alt="" class="thumb${FLIP(c)?' mirror':''}" loading="lazy" decoding="async" src="${escA(IMG(c.im))}" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`<div class="thumb imgerr"></div>`;
   const flipBtn=`<button class="cardflip${FLIP(c)?' on':''}" onclick="flipCar(event,'${escJ(c.i)}')" title="Voltear este auto (efecto espejo)">⇄</button>`;
   const editBtn=o&&o.q?`<button class="cardedit" onclick="event.stopPropagation();editCar('${escJ(c.i)}')" title="Editar">✎</button>`:"";
   const delBtn=o&&o.q?`<button class="carddel" onclick="event.stopPropagation();if(confirm('Eliminar ${escJ(c.m)}?'))delCar('${escJ(c.i)}')" title="Eliminar">×</button>`:"";
@@ -1264,7 +1284,7 @@ function drawer(id){
   const d=document.getElementById("drawer");
   d.dataset.open="1"; d.classList.add("open");
   d.innerHTML=`<button class="close" onclick="closeDrawer()">×</button>
-    <div class="dh"><img class="${FLIP(c)?'mirror':''}" src="${IMG(c.im)}" alt="" onerror="this.style.visibility='hidden'">
+    <div class="dh"><img class="${FLIP(c)?'mirror':''}" src="${escA(IMG(c.im))}" alt="" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}">
       <div><h2>${escT(c.m)} ${catLogoSVG(c.k)}</h2>
         <div class="mt">${c.y} · Nº de colección ${escT(c.c)} · Toy # ${escT(c.t)}</div>
         ${disHTML}${fichaHTML}${galeriaHTML(c)}${idxHTML}${vmHTML}
@@ -1321,7 +1341,7 @@ function editCar(id){
   const d=document.getElementById("drawer");
   d.dataset.open="1"; d.classList.add("open");
   d.innerHTML=`<button class="close" onclick="closeDrawer()">×</button>
-   <div class="dh"><img alt="" src="${IMG(c.im)}" onerror="this.style.visibility='hidden'"><div><h2>Editar: ${c.m}</h2><div class="mt">${c.y} · #${c.c}</div></div></div>
+   <div class="dh"><img alt="" src="${escA(IMG(c.im))}" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}"><div><h2>Editar: ${c.m}</h2><div class="mt">${c.y} · #${c.c}</div></div></div>
    <div class="sec" style="border:1px solid var(--line);padding:12px;margin-bottom:10px">
      <h3 style="margin-bottom:8px">Cantidad</h3>
      <div class="rowin"><button class="stepper" onclick="editQty('${escJ(id)}',-1)">−</button><span class="stepper q" id="eq">${o.q||0}</span><button class="stepper" onclick="editQty('${escJ(id)}',1)">+</button></div>
