@@ -2,3 +2,4 @@ node_modules/
 tools/clip/*.onnx
 tools/clip/cache/
 cache/scratch/
+__pycache__/
