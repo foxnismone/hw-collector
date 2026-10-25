@@ -39,9 +39,20 @@ function agregar(tipo, detalle) {
   // layout shifts (CLS) acumulado durante la carga
   await page.addInitScript(() => {
     window.__cls = 0;
+    window.__clsFuentes = [];
     new PerformanceObserver(list => {
       for (const e of list.getEntries()) {
-        if (!e.hadRecentInput) window.__cls += e.value;
+        if (!e.hadRecentInput) {
+          window.__cls += e.value;
+          (e.sources || []).forEach(s => {
+            window.__clsFuentes.push({
+              nodo: s.node ? (s.node.className || s.node.tagName || '').toString().slice(0, 40) : '?',
+              antes: [Math.round(s.previousRect?.x || 0), Math.round(s.previousRect?.y || 0)],
+              despues: [Math.round(s.currentRect?.x || 0), Math.round(s.currentRect?.y || 0)],
+              valor: +e.value.toFixed(4),
+            });
+          });
+        }
       }
     }).observe({ type: 'layout-shift', buffered: true });
   });
@@ -65,7 +76,7 @@ function agregar(tipo, detalle) {
     const out = [];
     document.querySelectorAll('#grid .card').forEach((c, i) => {
       const im = c.querySelector('img.thumb, img');
-      const titulo = c.querySelector('h3, h2, .cname, b');
+      const titulo = c.querySelector('.nm, h3, h2, .cname, b');
       const cont = c.querySelector('.thumb, .cimg, img');
       const r = c.getBoundingClientRect();
       out.push({
@@ -76,6 +87,7 @@ function agregar(tipo, detalle) {
         naturalW: im?.naturalWidth || 0,
         naturalH: im?.naturalHeight || 0,
         esPlaceholder: im?.classList.contains('imgerr') || false,
+        falloReal: im?.getAttribute('data-fallback') === '1' || false,
         esDivVacio: !im && !!cont && cont.classList.contains('imgerr'),
         ancho: Math.round(cont?.getBoundingClientRect().width || r.width),
         alto: Math.round(cont?.getBoundingClientRect().height || r.height),
@@ -88,8 +100,12 @@ function agregar(tipo, detalle) {
 
   const total = cards.length;
   const sinImg = cards.filter(c => !c.tieneImg && !c.esDivVacio);
-  const conImgRota = cards.filter(c => c.tieneImg && c.naturalW === 0 && !c.esPlaceholder);
-  const placeholder = cards.filter(c => c.esPlaceholder || c.esDivVacio);
+  // 'esPlaceholder' = el modelo no tiene foto y el sitio muestra el placeholder
+  // elegante a proposito. Eso NO es una imagen rota: es el disenio correcto.
+  // Placeholder elegante = el modelo no tiene foto: es el diseno correcto, NO un error.
+  // Fallo real = la foto existia pero no cargo (data-fallback="1"): ahi si es bug.
+  const conImgRota = cards.filter(c => c.falloReal);
+  const placeholder = cards.filter(c => (c.esPlaceholder || c.esDivVacio) && !c.falloReal);
   const ceroArea = cards.filter(c => c.ancho === 0 || c.alto === 0);
   const sinTitulo = cards.filter(c => !c.titulo);
   const textoVacio = cards.filter(c => c.textoVacio);
@@ -123,6 +139,7 @@ function agregar(tipo, detalle) {
       imgW: img?.naturalWidth || 0,
       imgH: img?.naturalHeight || 0,
       imgEsPlaceholder: img?.classList.contains('imgerr') || false,
+      imgFalloReal: img?.getAttribute('data-fallback') === '1' || false,
       imgSrc: (img?.getAttribute('src') || '').slice(0, 90),
       ancho: Math.round(r.width),
       alto: Math.round(r.height),
@@ -137,8 +154,8 @@ function agregar(tipo, detalle) {
     if (!drawer.abierto) agregar('drawer_no_abre', 'data-open != 1');
     if (drawer.chars < 200) agregar('drawer_casi_vacio', `${drawer.chars} chars`);
     if (!drawer.tieneTitulo) agregar('drawer_sin_titulo', 'sin <h2>');
-    if (drawer.tieneImg && drawer.imgW === 0 && !drawer.imgEsPlaceholder)
-      agregar('drawer_imagen_rota', drawer.imgSrc);
+    if (drawer.imgFalloReal)
+      agregar('drawer_imagen_rota', `la foto existia pero no cargo: ${drawer.imgSrc}`);
     if (drawer.seccionesVacias)
       agregar('drawer_secciones_vacias', `${drawer.seccionesVacias} secciones sin contenido`);
   }
@@ -149,8 +166,13 @@ function agregar(tipo, detalle) {
   });
 
   // ---------------------------------------------------------- 3. CLS
-  const cls = await page.evaluate(() => window.__cls || 0);
-  if (cls > 0.25) agregar('layout_shift_acumulado', `CLS ${cls.toFixed(3)} (umbral 0.25)`);
+  const clsData = await page.evaluate(() => ({ total: window.__cls || 0, fuentes: window.__clsFuentes || [] }));
+  const cls = clsData.total;
+  if (cls > 0.25) {
+    const top = clsData.fuentes.sort((a, b) => b.valor - a.valor).slice(0, 6);
+    agregar('layout_shift_acumulado', `CLS ${cls.toFixed(3)} (umbral 0.25)`,
+            top.map(f => `${f.nodo} ${f.antes} -> ${f.despues} (${f.valor})`));
+  }
 
   // ---------------------------------------------------------- 4. resumen
   const resumen = {
@@ -159,9 +181,10 @@ function agregar(tipo, detalle) {
     tarjetas: {
       total,
       con_imagen_cargada: cards.filter(c => c.tieneImg && c.naturalW > 0).length,
-      placeholder_elegante: placeholder.length,
+      placeholder_elegante: placeholder.length,   // modelos sin foto: diseno correcto, no error
       sin_imagen: sinImg.length,
-      rotas: conImgRota.length,
+      rotas: conImgRota.length,          // foto existia y no cargo (fallo real)
+      sin_foto: placeholder.length,       // modelo sin foto: placeholder elegante (correcto)
       contenedores_vacios: ceroArea.length,
     },
     ficha: drawer.error ? { error: drawer.error } : {
@@ -187,7 +210,8 @@ function agregar(tipo, detalle) {
   console.log(`  Con imagen cargada: ${resumen.tarjetas.con_imagen_cargada}`);
   console.log(`  Placeholder elegante (sin foto): ${resumen.tarjetas.placeholder_elegante}`);
   console.log(`  Sin imagen: ${resumen.tarjetas.sin_imagen}`);
-  console.log(`  Rotas: ${resumen.tarjetas.rotas}`);
+  console.log(`  Rotas (fallo real): ${resumen.tarjetas.rotas}`);
+  console.log(`  Sin foto (placeholder correcto): ${resumen.tarjetas.sin_foto}`);
   console.log(`  Contenedores vacios: ${resumen.tarjetas.contenedores_vacios}`);
   console.log(`  CLS: ${resumen.cls}`);
   console.log(`  Ficha: ${resumen.ficha.chars || 0} chars, img ${resumen.ficha.img || '-'}, secciones vacias ${resumen.ficha.secciones_vacias || 0}`);

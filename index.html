@@ -1026,7 +1026,7 @@ const DEM={};
 [["enero_2026",TEND.demanda_coleccionistas.enero_2026],["febrero_2026",TEND.demanda_coleccionistas.febrero_2026]]
  .forEach(function(pair){ pair[1].forEach(function(d){ (d.catalogo_ids||[]).forEach(function(cid){
    var prev=DEM[cid]; if(!prev||d.rank<prev.rank) DEM[cid]={rank:d.rank,modelo:d.modelo,coleccionistas:d.coleccionistas,mes:pair[0]}; }); }); });
-const IMGV='39';
+const IMGV='40';
 const VER=u=>{ if(!u) return u; if(u.indexOf('data:')===0) return u; return u + (u.indexOf('?')>=0?'&':'?') + 'v='+IMGV; };
 /* Orientación: espejo para uniformar hacia dónde miran los autos.
    - ORIENT (si existe): dirección detectada por imagen  {id:{d:'IZQ'|'DER',c:conf}}
@@ -1061,13 +1061,16 @@ const IMG_DIRECTA=f=>{
 };
 // Fallback de imagen: reintenta directo y, si tambien falla, deja el placeholder
 // elegante. Garantiza que NUNCA quede un bloque vacio o roto en el DOM.
+// data-fallback="1" marca la diferencia entre "el modelo no tiene foto" (diseno
+// correcto) y "la foto existia pero no cargo" (fallo real, detectable en auditoria).
 const IMGFALLBACK=el=>{
   el.onerror=null;
-  if(el.dataset.fb){ el.classList.add('imgerr'); el.removeAttribute('src'); return; }
+  const fallar=()=>{ el.classList.add('imgerr'); el.setAttribute('data-fallback','1'); el.removeAttribute('src'); };
+  if(el.dataset.fb){ fallar(); return; }
   el.dataset.fb='1';
   const d=el.getAttribute('data-directo');
   if(d){ el.removeAttribute('data-directo'); el.src=d; return; }
-  el.classList.add('imgerr'); el.removeAttribute('src');
+  fallar();
 };
 const IMG=f=>{
   if(!f) return '';
