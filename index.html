@@ -83,7 +83,7 @@ main{padding:16px 18px 60px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:12px}
 @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 .thumb.imgerr{background:var(--elev);display:flex;align-items:center;justify-content:center}
-.thumb.imgerr::after{content:"🚫";font-size:20px;opacity:.3}
+.thumb.imgerr{background:var(--elev);display:flex;align-items:center;justify-content:center;border:1px dashed var(--line)} .thumb.placeholder{border:1px dashed var(--line);}
 .card{background:linear-gradient(145deg,#1e2028 0%,#15171f 100%);border:1px solid rgba(255,255,255,.08);border-radius:8px;overflow:hidden;cursor:pointer;position:relative;color:var(--ink);text-align:left;transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s,border-color .3s;box-shadow:0 4px 12px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.05)}
  display:flex;flex-direction:column;text-align:left;padding:0;color:inherit;font:inherit}
 .card:hover{transform:translateY(-6px) scale(1.03);border-color:rgba(255,77,0,.6);box-shadow:0 16px 32px rgba(255,77,0,.2),0 8px 16px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.15)}
@@ -1059,18 +1059,44 @@ const IMG_DIRECTA=f=>{
   if(/^https?:\/\//.test(f)) return f;
   return 'img/'+f;
 };
+// Placeholder profesional para modelos sin foto o fotos rotos.
+// Silueta estilizada de auto Hot Wheels + texto, con vars CSS del tema.
+// Regla: NUNCA dejar un bloque vacio ni un cuadro roto.
+const noPhotoSVG=(w=178,h=178)=>{
+  if(!noPhotoSVG._c){
+    const s=getComputedStyle(document.documentElement);
+    noPhotoSVG._c={
+      bg:s.getPropertyValue('--surface').trim()||'#15181e',
+      ev:s.getPropertyValue('--elev').trim()||'#1d2128',
+      ln:s.getPropertyValue('--line').trim()||'#2a2f38',
+      mu:s.getPropertyValue('--muted-foreground').trim()||'#98a1ad',
+      ac:s.getPropertyValue('--accent').trim()||'#ff4d00',
+      br:s.getPropertyValue('--brand').trim()||'#ff4d00'
+    };
+  }
+  const _r=v=>+(Math.round(v*1000)/1000).toFixed(3); const c=noPhotoSVG._c, m=w*0.106;
+  const cx=w/2, fy=h*0.74, r=w*0.073, wl=cx-w*0.25, wr=cx+w*0.25;
+  const innerH=w-2*m-24, rx=w*0.034;
+  const sv='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'">'+'<rect width="'+w+'" height="'+h+'" rx="'+_r(w*0.042)+'" fill="'+c.bg+'"/>'+'<rect x="'+m+'" y="'+m+'" width="'+_r(w-2*m)+'" height="'+_r(innerH)+'" rx="'+_r(rx)+'" fill="'+c.ev+'" stroke="'+c.ln+'" stroke-width="1"/>'+'<ellipse cx="'+_r(cx)+'" cy="'+_r(fy)+'" rx="'+_r((wr-wl)/2+12)+'" ry="'+_r(r*0.42)+'" fill="'+c.ac+'" opacity=".55"/>'+'<circle cx="'+_r(wl)+'" cy="'+_r(fy)+'" r="'+_r(r)+'" fill="'+c.br+'" opacity=".45"/>'+'<circle cx="'+_r(wr)+'" cy="'+_r(fy)+'" r="'+_r(r)+'" fill="'+c.br+'" opacity=".45"/>'+'<circle cx="'+_r(wl)+'" cy="'+_r(fy)+'" r="'+_r(r*0.4)+'" fill="'+c.bg+'"/>'+'<circle cx="'+_r(wr)+'" cy="'+_r(fy)+'" r="'+_r(r*0.4)+'" fill="'+c.bg+'"/>'+'<path d="M'+_r(cx-13)+' '+_r(fy-r*1.6)+' L'+_r(cx)+' '+_r(fy-r*2.4)+' L'+_r(cx+14)+' '+_r(fy-r*1.6)+' Z" fill="#ffffff" opacity=".75"/>'+'<text x="'+_r(cx)+'" y="'+_r(h-8)+'" font-size="11" fill="'+c.mu+'" text-anchor="middle" font-family="system-ui,monospace">Imagen próximamente</text>'+'</svg>';
+  return 'data:image/svg+xml,'+encodeURIComponent(sv);
+};
 // Fallback de imagen: reintenta directo y, si tambien falla, deja el placeholder
 // elegante. Garantiza que NUNCA quede un bloque vacio o roto en el DOM.
 // data-fallback="1" marca la diferencia entre "el modelo no tiene foto" (diseno
 // correcto) y "la foto existia pero no cargo" (fallo real, detectable en auditoria).
+// Reintenta directo (weserv) y, si también falla, usa el placeholder profesional
+// noPhotoSVG. NUNCA deja un <img> vacío ni queda un bloque roto.
+// data-fallback="1" => foto existía pero no cargó (fallo real, auditoría).
 const IMGFALLBACK=el=>{
-  el.onerror=null;
-  const fallar=()=>{ el.classList.add('imgerr'); el.setAttribute('data-fallback','1'); el.removeAttribute('src'); };
-  if(el.dataset.fb){ fallar(); return; }
-  el.dataset.fb='1';
+  if(el.dataset.fallbackDone) return;
   const d=el.getAttribute('data-directo');
   if(d){ el.removeAttribute('data-directo'); el.src=d; return; }
-  fallar();
+  el.dataset.fallbackDone='1';
+  el.onerror=null;
+  el.classList.add('imgerr');
+  el.setAttribute('data-fallback','1');
+  const w=Math.max(parseInt(getComputedStyle(el).width)||178,120);
+  el.src=noPhotoSVG(w,w);
 };
 const IMG=f=>{
   if(!f) return '';
@@ -1226,7 +1252,7 @@ function cardHTML(c){
   const dm=DEM[c.i];
   const pie=(dm?"TOP "+dm.rank:"")+(c.imr?(dm?" · ":"")+"imagen ref":"");
   const dbadge=pie?`<span class="dem">${pie}</span>`:"";
-  const img=c.im?`<img alt="" class="thumb${FLIP(c)?' mirror':''}" loading="lazy" decoding="async" src="${escA(IMG(c.im))}" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`<div class="thumb imgerr"></div>`;
+  const img=c.im?`<img alt="" class="thumb${FLIP(c)?' mirror':''}" loading="lazy" decoding="async" src="${escA(IMG(c.im))}" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`><img alt="Sin foto: ${escA(c.m)}" class="thumb placeholder" loading="lazy" decoding="async" src="${noPhotoSVG(178,178)}" data-noimg="1">`;
   const flipBtn=`<button class="cardflip${FLIP(c)?' on':''}" onclick="flipCar(event,'${escJ(c.i)}')" title="Voltear este auto (efecto espejo)">⇄</button>`;
   const editBtn=o&&o.q?`<button class="cardedit" onclick="event.stopPropagation();editCar('${escJ(c.i)}')" title="Editar">✎</button>`:"";
   const delBtn=o&&o.q?`<button class="carddel" onclick="event.stopPropagation();if(confirm('Eliminar ${escJ(c.m)}?'))delCar('${escJ(c.i)}')" title="Eliminar">×</button>`:"";
@@ -1287,7 +1313,7 @@ function drawer(id){
   const d=document.getElementById("drawer");
   d.dataset.open="1"; d.classList.add("open");
   d.innerHTML=`<button class="close" onclick="closeDrawer()">×</button>
-    <div class="dh"><img class="${FLIP(c)?'mirror':''}" src="${escA(IMG(c.im))}" alt="" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}">
+    <div class="dh"><img class="${FLIP(c)?'mirror':''}" src="${c.im?escA(IMG(c.im)):escA(noPhotoSVG(120,120))}" alt="${c.im?escA(c.m):escA('Sin foto: '+c.m)}" onerror="IMGFALLBACK(this)" data-directo="${c.im?escA(IMG_DIRECTA(c.im)):escA(noPhotoSVG(120,120))}">
       <div><h2>${escT(c.m)} ${catLogoSVG(c.k)}</h2>
         <div class="mt">${c.y} · Nº de colección ${escT(c.c)} · Toy # ${escT(c.t)}</div>
         ${disHTML}${fichaHTML}${galeriaHTML(c)}${idxHTML}${vmHTML}
