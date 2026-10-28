@@ -11,7 +11,7 @@ from dataclasses import dataclass, field, asdict
 from typing import Iterator
 from urllib.parse import urlparse, unquote
 
-from .config import Config, DEFAULT
+from .config import Config, DEFAULT, headers_imagen
 
 # --------------------------------------------------------------- cache de sondas
 # Probar 12k URLs por HEAD tarda horas; el resultado casi no cambia entre
@@ -183,8 +183,8 @@ def _probe_http(url: str, cfg: Config) -> tuple[str, dict]:
     for intento in range(cfg.retries):
         try:
             req = urllib.request.Request(url, method='HEAD')
-            req.add_header('User-Agent', cfg.ua)
-            req.add_header('Accept', 'image/*,*/*;q=0.8')
+            for k, v in headers_imagen(cfg).items():
+                req.add_header(k, v)
             with urllib.request.urlopen(req, timeout=cfg.timeout) as r:
                 info['http_status'] = r.status
                 info['content_type'] = (r.headers.get('Content-Type') or '').split(';')[0].strip()
@@ -217,7 +217,8 @@ def _probe_http_get(url: str, cfg: Config, info: dict) -> tuple[str, dict]:
     import urllib.request
     try:
         req = urllib.request.Request(url, method='GET')
-        req.add_header('User-Agent', cfg.ua)
+        for k, v in headers_imagen(cfg).items():
+            req.add_header(k, v)
         req.add_header('Range', 'bytes=0-2047')
         with urllib.request.urlopen(req, timeout=cfg.timeout) as r:
             data = r.read(2048)

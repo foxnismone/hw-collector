@@ -1252,7 +1252,7 @@ function cardHTML(c){
   const dm=DEM[c.i];
   const pie=(dm?"TOP "+dm.rank:"")+(c.imr?(dm?" · ":"")+"imagen ref":"");
   const dbadge=pie?`<span class="dem">${pie}</span>`:"";
-  const img=c.im?`<img alt="" class="thumb${FLIP(c)?' mirror':''}" loading="lazy" decoding="async" src="${escA(IMG(c.im))}" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`><img alt="Sin foto: ${escA(c.m)}" class="thumb placeholder" loading="lazy" decoding="async" src="${noPhotoSVG(178,178)}" data-noimg="1">`;
+  const img=c.im?`<img alt="${escA(c.m)}" class=\"thumb${FLIP(c)?' mirror':''}\" loading="lazy" decoding="async" src="${escA(IMG(c.im))}" onerror="IMGFALLBACK(this)" data-directo="${escA(IMG_DIRECTA(c.im))}" style="background:linear-gradient(90deg,var(--elev) 25%,var(--surface) 50%,var(--elev) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite">`:`><img alt="Sin foto: ${escA(c.m)}" class=\"thumb placeholder\" loading="lazy" decoding="async" src="${noPhotoSVG(178,178)}" data-noimg="1">`;
   const flipBtn=`<button class="cardflip${FLIP(c)?' on':''}" onclick="flipCar(event,'${escJ(c.i)}')" title="Voltear este auto (efecto espejo)">⇄</button>`;
   const editBtn=o&&o.q?`<button class="cardedit" onclick="event.stopPropagation();editCar('${escJ(c.i)}')" title="Editar">✎</button>`:"";
   const delBtn=o&&o.q?`<button class="carddel" onclick="event.stopPropagation();if(confirm('Eliminar ${escJ(c.m)}?'))delCar('${escJ(c.i)}')" title="Eliminar">×</button>`:"";

@@ -10,7 +10,7 @@ import json, os, re, shutil, tempfile, hashlib
 from dataclasses import dataclass
 from typing import Callable
 
-from .config import Config, DEFAULT
+from .config import Config, DEFAULT, headers_imagen
 from .scanner import ImageRef, REF_LOCAL, REF_HTTP
 from .validate import Verdict
 
@@ -50,8 +50,8 @@ def descargar(url: str, destino: str, cfg: Config) -> tuple[bool, str]:
     try:
         import urllib.request
         req = urllib.request.Request(url)
-        req.add_header('User-Agent', cfg.ua)
-        req.add_header('Accept', 'image/*,*/*;q=0.8')
+        for k, v in headers_imagen(cfg).items():
+            req.add_header(k, v)
         with urllib.request.urlopen(req, timeout=cfg.timeout) as r:
             datos = r.read(cfg.max_bytes)
         if len(datos) < cfg.min_bytes:

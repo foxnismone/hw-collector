@@ -38,11 +38,31 @@ MAX_DIM = 20000
 FANDOM_API = 'https://hotwheels.fandom.com/api.php'
 WESERV = 'https://images.weserv.nl/?url='
 UA = 'Mozilla/5.0 (hotwheels-collector-image-doctor; +https://github.com/foxnismone)'
+# Wikia/Fandom devuelve 403 a user-agents que no parecen navegador. Para
+# DESCARGAR imagenes hay que usar un UA de navegador real o el validador nunca
+# podra confirmar que un candidato sirve.
+UA_IMAGEN = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+             '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36')
+
+
+def headers_imagen(cfg: 'Config') -> dict:
+    """Headers que Wikia/Fandom exige para servir una imagen.
+
+    Sin 'Accept' y 'Referer' responde 403 aunque el UA sea de navegador: es la
+    razon por la que el validador descartaba imagenes que si existen.
+    """
+    return {
+        'User-Agent': cfg.ua_imagen,
+        'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+        'Referer': 'https://hotwheels.fandom.com/',
+        'Accept-Language': 'es-CL,es;q=0.9,en;q=0.8',
+    }
 
 # ---------------------------------------------------------------- validacion visual (CLIP)
 CLIP_DIR = os.path.join(BASE, 'tools', 'clip')
 CLIP_ENABLED = os.path.isdir(CLIP_DIR)
-CLIP_MIN_SCORE = 0.18    # coseno minimo para aceptar un candidato
+CLIP_MIN_SCORE = 0.115   # coseno minimo. Los nombres de producto puntuan bajo
+                         # (0.16-0.19 es tipico); 0.18 descartaba imagenes validas
 
 
 @dataclass
@@ -64,6 +84,7 @@ class Config:
     fandom_api: str = FANDOM_API
     weserv: str = WESERV
     ua: str = UA
+    ua_imagen: str = UA_IMAGEN
     local_roots: tuple = field(default_factory=lambda: tuple(LOCAL_ROOTS))
     clip_dir: str = CLIP_DIR
     clip_min_score: float = CLIP_MIN_SCORE

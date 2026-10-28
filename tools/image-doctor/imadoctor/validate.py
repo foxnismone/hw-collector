@@ -13,7 +13,7 @@ from dataclasses import dataclass
 from typing import Callable
 import urllib.request, urllib.error
 
-from .config import Config, DEFAULT
+from .config import Config, DEFAULT, headers_imagen
 from .scanner import _dims_from_bytes
 
 
@@ -38,8 +38,8 @@ def _head(url: str, cfg: Config) -> tuple[int, dict]:
     info = {}
     try:
         req = urllib.request.Request(url, method='HEAD')
-        req.add_header('User-Agent', cfg.ua)
-        req.add_header('Accept', 'image/*,*/*;q=0.8')
+        for k, v in headers_imagen(cfg).items():
+            req.add_header(k, v)
         with urllib.request.urlopen(req, timeout=cfg.timeout) as r:
             info['status'] = r.status
             info['ctype'] = (r.headers.get('Content-Type') or '').split(';')[0].strip()
@@ -60,8 +60,8 @@ def _download(url: str, cfg: Config, max_bytes: int | None = None) -> bytes:
     """Descarga con tope de bytes (evita HTML infinitos o binarios enormes)."""
     limite = max_bytes or cfg.max_bytes
     req = urllib.request.Request(url)
-    req.add_header('User-Agent', cfg.ua)
-    req.add_header('Accept', 'image/*,*/*;q=0.8')
+    for k, v in headers_imagen(cfg).items():
+        req.add_header(k, v)
     with urllib.request.urlopen(req, timeout=cfg.timeout) as r:
         return r.read(limite)
 

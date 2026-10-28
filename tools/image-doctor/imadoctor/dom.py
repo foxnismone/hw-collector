@@ -40,35 +40,100 @@ class HallazgoDOM:
 
 
 # ---------------------------------------------------------------- estatico
-THUMB_VACIO_RE = re.compile(r'class="thumb\s+imgerr"', re.I)
-IMG_SIN_ALT_RE = re.compile(r'<img(?![^>]*\balt=)[^>]*class="thumb', re.I)
+# Marcas que usa el frontend (ver index.html / noPhotoSVG):
+#   img.thumb.placeholder + src="data:image/svg+xml,..." -> placeholder profesional (CONTROLADO, ok)
+#   data-noimg="1"                                       -> modelo sin foto (estado correcto)
+#   data-fallback="1"                                    -> foto existia pero no cargo en runtime (alerta)
+#   class="thumb imgerr"                                 -> placeholder legado / cuadro roto (alerta)
+RE_IMG_THUMB = re.compile(r'<img\b[^>]*\bclass="[^"]*thumb[^"]*"[^>]*>', re.I | re.S)
 
 
 def auditar_html_estatico(path: str, cfg: Config = DEFAULT) -> list[HallazgoDOM]:
-    """Chequeo sin navegador: detecta placeholders de imagen ya marcados."""
+    """Chequeo sin navegador: inspecciona cada <img class="thumb..."> del HTML.
+
+    Clasifica:
+      - src='data:image/svg+xml,...'  -> placeholder profesional (controlado, ok)
+      - src vacio/sin src             -> bloque roto (problema, alta)
+      - data-fallback="1"             -> foto existia pero no cargo (alerta, media)
+      - sin alt                       -> accesibilidad (baja)
+    Nunca inventa fotos: solo audita el estado del DOM.
+    """
     out: list[HallazgoDOM] = []
     try:
         with open(path, encoding='utf-8', errors='ignore') as f:
             html = f.read()
     except Exception as e:
-        return [HallazgoDOM('contenedor_vacio', detalle=f'no se pudo leer {path}: {str(e)[:70]}',
-                            severidad='alta')]
+        return [HallazgoDOM('contenedor_vacio',
+                             detalle=f'no se pudo leer {path}: {str(e)[:70]}',
+                             severidad='alta')]
 
-    n_vacios = len(THUMB_VACIO_RE.findall(html))
-    if n_vacios:
+    n_placeholder = 0
+    n_rotos = 0
+    n_fallback = 0
+    n_sin_alt = 0
+    ej_rotos: list[str] = []
+    ej_fallback: list[str] = []
+    for m in RE_IMG_THUMB.finditer(html):
+        tag = m.group(0)
+        if 'data:image/svg+xml' in tag:
+            n_placeholder += 1
+            continue
+        ms = re.search(r'src=(["\']?)(.*?)\1', tag, re.I)
+        src = ms.group(2) if ms else ''
+        if not src.strip():
+            n_rotos += 1
+            if len(ej_rotos) < 8:
+                ej_rotos.append(tag[:120])
+        if 'data-fallback="1"' in tag or "data-fallback='1'" in tag:
+            n_fallback += 1
+            if len(ej_fallback) < 8:
+                ej_fallback.append(tag[:120])
+        if not re.search(r'\balt=', tag, re.I):
+            n_sin_alt += 1
+
+    if n_rotos:
         out.append(HallazgoDOM(
-            'tarjeta_sin_foto', selector='.thumb.imgerr',
-            detalle=f'{n_vacios} contenedores de imagen en estado de error (placeholder)',
-            accion_sugerida='resolver la URL de imagen del vehiculo',
+            'contenedor_vacio', selector='img.thumb',
+            detalle=f'{n_rotos} miniaturas <img class="thumb"> con src vacio (bloque roto)',
+            modelo=ej_rotos[0] if ej_rotos else '',
+            accion_sugerida='asignar placeholder profesional noPhotoSVG() o resolver la imagen',
+            severidad='alta'))
+    if n_fallback:
+        out.append(HallazgoDOM(
+            'img_rota', selector='img[data-fallback="1"]',
+            detalle=f'{n_fallback} imagenes tenian foto pero fallaron al cargar (data-fallback)',
+            modelo=ej_fallback[0] if ej_fallback else '',
+            accion_sugerida='verificar URL y proxy weserv; la imagen original puede estar caida',
             severidad='media'))
-
-    n_sin_alt = len(IMG_SIN_ALT_RE.findall(html))
     if n_sin_alt:
         out.append(HallazgoDOM(
             'sin_alt', selector='img.thumb',
-            detalle=f'{n_sin_alt} imagenes de tarjeta sin atributo alt',
-            accion_sugerida='agregar alt con el nombre del modelo',
+            detalle=f'{n_sin_alt} miniaturas con src real pero sin atributo alt',
+            accion_sugerida='agregar alt con el nombre del modelo (accesibilidad)',
             severidad='baja'))
+    if n_placeholder:
+        out.append(HallazgoDOM(
+            'placeholder_controlado', selector='img.thumb.placeholder',
+            detalle=f'{n_placeholder} miniaturas sin foto mostrando el placeholder '
+                    f'profesional (SVG data-URI). Estado controlado: NO inventa fotos.',
+            accion_sugerida='mantener noPhotoSVG(); re-auditar si aparecen fotos nuevas',
+            severidad='baja'))
+    # Los <img> de la galeria se generan en runtime desde JS (cardHTML), por lo
+    # que el chequeo estatico de etiquetas no las ve. Verifico el patron de
+    # placeholder directamente en el codigo fuente del frontend:
+    if 'noPhotoSVG' in html:
+        out.append(HallazgoDOM(
+            'placeholder_controlado', selector='JS:noPhotoSVG',
+            detalle='El frontend genera placeholders profesionales via noPhotoSVG() '
+                    '(SVG data-URI). La logica NO inventa fotos.',
+            accion_sugerida='re-auditar con --dom si cambia la logica de placeholders',
+            severidad='baja'))
+    if 'thumb imgerr' in html:
+        out.append(HallazgoDOM(
+            'contenedor_vacio', selector='.thumb.imgerr',
+            detalle='Patron legacy "thumb imgerr" (cuadro rojo) presente en HTML/JS',
+            accion_sugerida='reemplazar por noPhotoSVG() placeholder profesional',
+            severidad='alta'))
     return out
 
 
@@ -77,10 +142,13 @@ def auditar_dom(url: str, cfg: Config = DEFAULT,
                 scroll: bool = True) -> list[HallazgoDOM]:
     """Abre el sitio y busca bloques rotos en el DOM real."""
     if not PLAYWRIGHT_OK:
-        return [HallazgoDOM('contenedor_vacio',
-                            detalle='Playwright no disponible: usar auditoria estatica',
-                            accion_sugerida='pip install playwright',
-                            severidad='baja')]
+        local = os.path.join(cfg.base, 'index.html')
+        out = auditar_html_estatico(local, cfg)
+        out.append(HallazgoDOM('contenedor_vacio',
+                    detalle='Playwright no disponible: auditoría estática del HTML local',
+                    accion_sugerida='pip install playwright  # auditoría dinámica + layout shift',
+                    severidad='baja'))
+        return out
 
     out: list[HallazgoDOM] = []
     try:
