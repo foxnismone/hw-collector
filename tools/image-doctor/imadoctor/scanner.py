@@ -176,9 +176,22 @@ def _probe_local(path: str, cfg: Config) -> tuple[str, dict]:
 
 
 def _probe_http(url: str, cfg: Config) -> tuple[str, dict]:
-    """Valida una URL con HEAD (fallback GET). Devuelve (status, info)."""
+    """Valida una URL con HEAD (fallback GET). Devuelve (status, info).
+
+    Lee la cache de sondas ANTES de tocar la red: el escaneo completo dispara
+    ~50k HEADs a weserv/Fandom y cada uno tarda en resolver. Re-runs deben ser
+    instantaneos (la cache persiste en disco). La cache es la regla del flujo
+    image-asset-recovery, no la excepcion.
+    """
     import urllib.request, urllib.error
     info = {}
+    if not _cache_cargada:
+        cargar_cache(cfg)
+    clave = url.split('&v=')[0]
+    cached = _cache_http.get(clave)
+    if cached:
+        info.update(cached.get('info', {}))
+        return cached.get('status', BROKEN), info
     last = ''
     for intento in range(cfg.retries):
         try:

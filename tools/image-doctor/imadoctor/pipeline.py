@@ -14,7 +14,8 @@ import os, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from .config import Config, DEFAULT
-from .scanner import scan_all, resumen, OK, BROKEN, MISSING, CORRUPT, EMPTY
+from .scanner import (scan_all, resumen, OK, BROKEN, MISSING, CORRUPT, EMPTY,
+                      cargar_cache, guardar_cache)
 from .context import planificar, planificar_todos
 from .sources import buscar_multiples
 from .validate import validar, elegir_mejor, Verdict
@@ -37,7 +38,7 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
     t0 = time.time()
     log = AuditorLog(cfg)
     cfg.ensure_dirs()
-
+    cargar_cache(cfg)
     log.info('inicio', f'image-doctor iniciado (dry_run={cfg.dry_run})')
 
     # ---------------------------------------------------------- 1. auditoria
@@ -162,6 +163,7 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
     log.info('fin', f"duracion {round(time.time() - t0, 1)}s")
     log.info('registro', f'JSON: {json_path}')
     log.info('registro', f'Informe: {md_path}')
+    guardar_cache(cfg)
 
     return {
         'resumen': log.resumen(refs, reparaciones, t0),
