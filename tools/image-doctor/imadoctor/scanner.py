@@ -274,6 +274,23 @@ def _dims_from_bytes(data: bytes) -> tuple[int, int]:
     return 0, 0
 
 
+def _ext_de_magic(datos: bytes) -> str | None:
+    """Extension de imagen deducida de magic-bytes (no confiar en '.part' ni url)."""
+    if not datos:
+        return None
+    if datos[:8] == bytes.fromhex('89504e470d0a1a0a'):
+        return '.png'
+    if datos[:3] == bytes.fromhex('ffd8ff'):
+        return '.jpg'
+    if datos[:6] in (b'GIF87a', b'GIF89a'):
+        return '.gif'
+    if datos[:4] == b'RIFF' and datos[8:12] == b'WEBP':
+        return '.webp'
+    if datos[:4] == b'RIFF' and datos[8:12] == b'AVIF':
+        return '.avif'
+    return None
+
+
 # ---------------------------------------------------------------- escaneo
 def scan_catalog_json(path: str, cfg: Config) -> Iterator[ImageRef]:
     """Recorre un JSON de catalogo (lista de modelos con 'im' y 'galeria')."""

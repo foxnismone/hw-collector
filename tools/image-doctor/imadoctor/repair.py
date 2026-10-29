@@ -46,28 +46,51 @@ def _nombre_local(query: str, ext: str = '.jpg') -> str:
 
 
 def descargar(url: str, destino: str, cfg: Config) -> tuple[bool, str]:
-    """Descarga con validacion posterior. Devuelve (ok, error)."""
+    """Descarga una imagen validada. Devuelve (ok, error).
+
+    Valida magic-bytes y dimensiones sobre los bytes en memoria (no confia en
+    la extension de la URL ni del '.part') y usa mkstemp con la extension
+    correcta, de modo que _probe_local no rechace el archivo temporal.
+    """
+    import urllib.request
+    from .scanner import _probe_local, _dims_from_bytes, _ext_de_magic
     try:
-        import urllib.request
         req = urllib.request.Request(url)
         for k, v in headers_imagen(cfg).items():
             req.add_header(k, v)
         with urllib.request.urlopen(req, timeout=cfg.timeout) as r:
             datos = r.read(cfg.max_bytes)
-        if len(datos) < cfg.min_bytes:
-            return False, f'{len(datos)} bytes < minimo'
-        tmp = destino + '.part'
-        with open(tmp, 'wb') as f:
-            f.write(datos)
-        from .scanner import _probe_local
-        st, info = _probe_local(tmp, cfg)
-        if st != 'ok':
-            os.remove(tmp)
-            return False, info.get('error', 'no decodifica')
-        os.replace(tmp, destino)
-        return True, ''
     except Exception as e:
         return False, str(e)[:100]
+
+    if len(datos) < cfg.min_bytes:
+        return False, f'{len(datos)} bytes < minimo {cfg.min_bytes}'
+    ext = _ext_de_magic(datos)
+    if ext is None:
+        return False, 'magic bytes no reconocidos (no es imagen)'
+    w, h = _dims_from_bytes(datos)
+    if w and (w < cfg.min_dim or h < cfg.min_dim):
+        return False, f'dimensiones degeneradas {w}x{h}'
+    if w and w > cfg.max_dim:
+        return False, f'imagen gigante {w}x{h}'
+
+    # forzar extension segun contenido; evita el bug del '.part' rechazado
+    destino = os.path.splitext(destino)[0] + ext
+    ddir = os.path.dirname(destino) or '.'
+    os.makedirs(ddir, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=ddir, suffix=ext)
+    try:
+        with os.fdopen(fd, 'wb') as f:
+            f.write(datos)
+    except Exception:
+        os.remove(tmp)
+        raise
+    st, info = _probe_local(tmp, cfg)
+    if st != 'ok':
+        os.remove(tmp)
+        return False, info.get('error', 'no decodifica')
+    os.replace(tmp, destino)
+    return True, ''
 
 
 # ---------------------------------------------------------------- escritura atomica
