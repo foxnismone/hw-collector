@@ -2,4 +2,7 @@ node_modules/
 tools/clip/*.onnx
 tools/clip/cache/
 cache/scratch/
+cache-2/
+cache/cratch/
 __pycache__/
+logs/
