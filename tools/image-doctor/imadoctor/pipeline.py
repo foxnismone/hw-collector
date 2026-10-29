@@ -31,7 +31,8 @@ def _score_fn(consulta: str, datos: bytes, cfg: Config):
     return lambda q, d: score_visual(q, d, cfg)
 
 
-def run(cfg: Config = DEFAULT, max_reparar: int | None = None) -> dict:
+def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
+        limite: int | None = None) -> dict:
     """Corre el pipeline completo. Devuelve el resumen."""
     t0 = time.time()
     log = AuditorLog(cfg)
@@ -42,7 +43,7 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None) -> dict:
     # ---------------------------------------------------------- 1. auditoria
     log.info('auditoria', 'escaneando fuentes...')
     try:
-        refs = scan_all(cfg)
+        refs = scan_all(cfg, limite=limite)
     except Exception as e:
         log.error('auditoria', f'fallo el escaneo: {str(e)[:120]}')
         return {'error': str(e)[:200]}

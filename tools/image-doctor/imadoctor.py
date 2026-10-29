@@ -100,7 +100,7 @@ def cmd_run(cfg: Config, args) -> int:
     print('=== image-doctor: auditoria + busqueda + reparacion ===')
     print(f"    dry_run={cfg.dry_run} | visual_CLIP={'si' if clip_disponible() else 'no'}")
     print()
-    out = run(cfg, max_reparar=args.max)
+    out = run(cfg, max_reparar=args.max, limite=args.limite)
     print()
     if 'error' in out:
         print(f"FALLO: {out['error']}")
