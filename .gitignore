@@ -4,5 +4,6 @@ tools/clip/cache/
 cache/scratch/
 cache-2/
 cache/cratch/
+cache/imadoctor/
 __pycache__/
 logs/
