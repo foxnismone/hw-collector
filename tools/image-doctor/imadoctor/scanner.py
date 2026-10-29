@@ -421,12 +421,15 @@ def _probar_batch(refs: list[ImageRef], cfg: Config) -> list[ImageRef]:
             ref.status = BROKEN
             ref.error = f'excepcion al sondear: {str(e)[:70]}'
 
-    # las locales son instantaneas: solo paralelizar las remotas
+    # las locales son instantaneas: solo paralelizar las remotas.
+    # Los probes HTTP van a CDN (weserv / Fandom static), NO al API -> concurrencia
+    # alta (24) es segura y no consume el rate-limit de Fandom. La fase de busqueda
+    # (Fandom api.php, 200 req/5min) mantiene cfg.concurrency (8) aislada aqui.
     remotas = [r for r in refs if r.ref_type == REF_HTTP]
     for r in refs:
         if r.ref_type == REF_LOCAL:
             sondear(r)
-    with ThreadPoolExecutor(max_workers=cfg.concurrency) as ex:
+    with ThreadPoolExecutor(max_workers=max(cfg.concurrency, 24)) as ex:
         futs = [ex.submit(sondear, r) for r in remotas]
         for f in futs:
             try:
