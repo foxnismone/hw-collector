@@ -41,16 +41,41 @@ class Reparacion:
 
 # ---------------------------------------------------------------- descarga
 def _nombre_local(query: str, ext: str = '.jpg') -> str:
-    base = re.sub(r'[^A-Za-z0-9]+', '_', (query or 'imagen')).strip('_')[:70]
-    return (base or 'imagen') + ext
+    """Nombre estable y unico derivado del URL completo.
+
+    Se usa md5 del URL completo (no del ultimo segmento) porque Fandom
+    devuelve '.../revision/latest' para archivos distintos: tomando
+    split('/')[-1] todas las imagenes colisionan en 'latest'. El hash de 12 hex
+    coincide con la convencion del catalogo (p.ej. 177ace771cd6c7.webp) y
+    permite reuso/cache. 'ext' se ignora aqui: descargar escribe con la
+    extension de magic-bytes.
+    """
+    h = hashlib.md5((query or '').encode('utf-8', 'ignore')).hexdigest()[:12]
+    return h
 
 
-def descargar(url: str, destino: str, cfg: Config) -> tuple[bool, str]:
-    """Descarga una imagen validada. Devuelve (ok, error).
+def _existe_con_ext(base: str, cfg: Config) -> str:
+    """Path de 'base' con alguna extension de imagen si existe (o '').
 
-    Valida magic-bytes y dimensiones sobre los bytes en memoria (no confia en
-    la extension de la URL ni del '.part') y usa mkstemp con la extension
-    correcta, de modo que _probe_local no rechace el archivo temporal.
+    Necesario porque descargar renombra el destino a la extension de magic-bytes
+    (jpg->webp), luego 'base' sin extension (o con .jpg) no existe todavia.
+    """
+    if os.path.exists(base):
+        return base
+    for ext in cfg.allowed_exts:
+        p = base + ext
+        if os.path.exists(p):
+            return p
+    return ''
+
+
+def descargar(url: str, destino: str, cfg: Config) -> tuple[bool, str, str]:
+    """Descarga una imagen validada. Devuelve (ok, error, path_real).
+
+    'path_real' es el path local efectivamente escrito (con la extension de
+    magic-bytes). Valida magic-bytes y dimensiones sobre los bytes en memoria y
+    usa mkstemp con la extension correcta, de modo que _probe_local no rechace
+    el archivo temporal.
     """
     import urllib.request
     from .scanner import _probe_local, _dims_from_bytes, _ext_de_magic
@@ -61,18 +86,18 @@ def descargar(url: str, destino: str, cfg: Config) -> tuple[bool, str]:
         with urllib.request.urlopen(req, timeout=cfg.timeout) as r:
             datos = r.read(cfg.max_bytes)
     except Exception as e:
-        return False, str(e)[:100]
+        return False, str(e)[:100], ''
 
     if len(datos) < cfg.min_bytes:
-        return False, f'{len(datos)} bytes < minimo {cfg.min_bytes}'
+        return False, f'{len(datos)} bytes < minimo {cfg.min_bytes}', ''
     ext = _ext_de_magic(datos)
     if ext is None:
-        return False, 'magic bytes no reconocidos (no es imagen)'
+        return False, 'magic bytes no reconocidos (no es imagen)', ''
     w, h = _dims_from_bytes(datos)
     if w and (w < cfg.min_dim or h < cfg.min_dim):
-        return False, f'dimensiones degeneradas {w}x{h}'
+        return False, f'dimensiones degeneradas {w}x{h}', ''
     if w and w > cfg.max_dim:
-        return False, f'imagen gigante {w}x{h}'
+        return False, f'imagen gigante {w}x{h}', ''
 
     # forzar extension segun contenido; evita el bug del '.part' rechazado
     destino = os.path.splitext(destino)[0] + ext
@@ -83,14 +108,16 @@ def descargar(url: str, destino: str, cfg: Config) -> tuple[bool, str]:
         with os.fdopen(fd, 'wb') as f:
             f.write(datos)
     except Exception:
-        os.remove(tmp)
+        if os.path.exists(tmp):
+            os.remove(tmp)
         raise
     st, info = _probe_local(tmp, cfg)
     if st != 'ok':
-        os.remove(tmp)
-        return False, info.get('error', 'no decodifica')
+        if os.path.exists(tmp):
+            os.remove(tmp)
+        return False, info.get('error', 'no decodifica'), ''
     os.replace(tmp, destino)
-    return True, ''
+    return True, '', destino
 
 
 # ---------------------------------------------------------------- escritura atomica
@@ -168,11 +195,12 @@ def reparar_catalogo(refs: list[ImageRef], veredictos: dict[str, Verdict],
                                            motivo='sin candidato valido'))
             continue
 
-        nuevo = v.local_path or v.url
         if v.local_path and os.path.exists(v.local_path):
-            nuevo = v.local_path.replace(cfg.base, '').replace('\\', '/').lstrip('/')
+            # PWA sirve 'img/'+im desde web/index.html ; im = filename-only (basename)
+            nuevo = os.path.basename(v.local_path)
             accion = 'descargada_local'
         else:
+            nuevo = v.url
             accion = 'url_actualizada'
 
         if cfg.dry_run:
@@ -217,6 +245,11 @@ def reparar_catalogo(refs: list[ImageRef], veredictos: dict[str, Verdict],
                     gal = item.get('galeria')
                     if isinstance(gal, list) and j < len(gal):
                         gal[j] = nuevo
+                        aplicados += 1
+                elif m and m.group(1) in ('im', 'imagen', 'image', 'foto') \
+                        and int(m.group(2)) == idx:
+                    if item.get(m.group(1)):
+                        item[m.group(1)] = nuevo
                         aplicados += 1
                 elif campo in ('im', 'imagen', 'image', 'foto'):
                     if item.get(campo):

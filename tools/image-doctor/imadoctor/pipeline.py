@@ -20,7 +20,7 @@ from .context import planificar, planificar_todos
 from .sources import buscar_multiples
 from .validate import validar, elegir_mejor, Verdict
 from .visual import disponible as clip_disponible, score_visual
-from .repair import reparar_catalogo, descargar, _nombre_local
+from .repair import reparar_catalogo, descargar, _nombre_local, _existe_con_ext
 from .metadata_bridge import adjuntar_metadata
 from .logger import AuditorLog
 from .metadata_bridge import adjuntar_metadata
@@ -33,18 +33,23 @@ def _score_fn(consulta: str, datos: bytes, cfg: Config):
 
 
 def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
-        limite: int | None = None) -> dict:
-    """Corre el pipeline completo. Devuelve el resumen."""
+        limite: int | None = None, solo_im: bool = False) -> dict:
+    """Corre el pipeline completo. Devuelve el resumen.
+
+    solo_im: auditar solo la imagen principal de cada modelo (omite la galeria
+      weserv y el HTML). El scan pasa de ~50k HEADs (30+ min) a instantaneo,
+      para reparaciones focalizadas de fotos faltantes/corruptas.
+    """
     t0 = time.time()
     log = AuditorLog(cfg)
     cfg.ensure_dirs()
     cargar_cache(cfg)
-    log.info('inicio', f'image-doctor iniciado (dry_run={cfg.dry_run})')
+    log.info('inicio', f'image-doctor iniciado (dry_run={cfg.dry_run}, solo_im={solo_im})')
 
     # ---------------------------------------------------------- 1. auditoria
     log.info('auditoria', 'escaneando fuentes...')
     try:
-        refs = scan_all(cfg, limite=limite)
+        refs = scan_all(cfg, limite=limite, solo_im=solo_im)
     except Exception as e:
         log.error('auditoria', f'fallo el escaneo: {str(e)[:120]}')
         return {'error': str(e)[:200]}
@@ -61,6 +66,10 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
              f"{r['missing_file']} sin archivo, {r['empty']} vacias, {r['corrupt']} corruptas")
 
     rotas = [x for x in refs if x.status in (BROKEN, MISSING, CORRUPT, EMPTY)]
+    # Priorizar fuentes reparables sin archivo / corruptas (fotos faltantes
+    # reales del modelo) antes que galeria weserv rota (patron Batmobile-%25,
+    # unsourcable). Asi --max alcanza primero a las fotos que realmente faltan.
+    rotas.sort(key=lambda r: 0 if r.status in (MISSING, CORRUPT) else 1)
     if not rotas:
         log.info('fin', 'no hay imagenes que reparar')
         log.guardar(refs, [], t0)
@@ -99,7 +108,7 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
     def procesar(plan):
         """Busca y valida una sola imagen rota. Nunca lanza."""
         try:
-            candidatos = buscar_multiples(plan.queries, cfg)
+            candidatos = buscar_multiples(plan.queries[:4], cfg)  # cap 4 queries: Fandom rate limit 200/5min
             if not candidatos:
                 return plan, None, 'sin candidatos'
             consulta = plan.queries[0] if plan.queries else plan.ref.model_name
@@ -136,16 +145,17 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
         for raw, v in veredictos.items():
             if v.local_path and os.path.exists(v.local_path):
                 continue
-            nombre = _nombre_local(v.url.split('/')[-1].split('?')[0] or 'imagen',
-                                   os.path.splitext(v.url.split('?')[0])[1] or '.jpg')
+            nombre = _nombre_local(v.url)
             destino = os.path.join(cfg.img_dir, nombre)
-            if os.path.exists(destino):
-                v.local_path = destino
+            existente = _existe_con_ext(destino, cfg)
+            if existente:
+                v.local_path = existente
+                v.url = os.path.basename(existente)
                 continue
-            ok, err = descargar(v.url, destino, cfg)
+            ok, err, path = descargar(v.url, destino, cfg)
             if ok:
-                v.local_path = destino
-                v.url = destino.replace(cfg.base, '').replace('\\', '/').lstrip('/')
+                v.local_path = path
+                v.url = os.path.basename(path)
             else:
                 v.valid = False
                 v.reason = err
