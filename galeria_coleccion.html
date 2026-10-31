@@ -1176,16 +1176,31 @@ async function abrirScan(){
     await video.play();
     // ZXing: escanear código de barras en tiempo real
     if(typeof ZXing!=='undefined'){
-      scanZX=new ZXing.BrowserMultiFormatReader();
-      scanZX.decodeFromVideoDevice(undefined,video,(result,err)=>{
-        if(result){
-          const code=result.getText();
-          if(code && code.length>=3){
-            detenerScan();
-            procesarCodigo(code);
+      try{
+        scanZX=new ZXing.BrowserMultiFormatReader();
+        const onDecode=(result,err)=>{
+          if(result){
+            const code=result.getText();
+            if(code && code.length>=3){
+              detenerScan();
+              procesarCodigo(code);
+            }
           }
+        };
+        if(typeof scanZX.decodeFromVideoDevice==='function'){
+          scanZX.decodeFromVideoDevice(undefined,video,onDecode);
+        }else if(typeof scanZX.decodeFromVideoElement==='function'){
+          scanZX.decodeFromVideoElement(video,onDecode);
+        }else{
+          throw new Error('API de escaneo no disponible en esta versión de ZXing');
         }
-      });
+        logMsg('i','Escáner ZXing activo. Apuntá al código de barras o tocá "Capturar (OCR)".');
+      }catch(zxErr){
+        logMsg('w','ZXing no disponible ('+zxErr.message+'). Usá Capturar (OCR).');
+        scanZX=null;
+      }
+    }else{
+      logMsg('w','ZXing no cargado. Usá Capturar (OCR) con Tesseract.js.');
     }
     logMsg('i','Escáner activo. Apuntá al código de barras o tocá "Capturar (OCR)".');
   }catch(e){

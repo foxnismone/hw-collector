@@ -440,21 +440,27 @@ def _probar_batch(refs: list[ImageRef], cfg: Config) -> list[ImageRef]:
 
 
 def scan_all(cfg: Config = DEFAULT, limite: int | None = None,
-             solo_http: bool = False) -> list[ImageRef]:
+             solo_http: bool = False, solo_im: bool = False) -> list[ImageRef]:
     """Punto de entrada del flujo 1: junta todas las fuentes.
 
     limite: corta el escaneo (util para pruebas rapidas).
     solo_http: omite el recorrido del directorio img/.
+    solo_im: audita SOLO la imagen principal de cada modelo ('im'); omite la
+             galeria weserv y el HTML. El scan pasa de ~50k HEADs (30+ min) a
+             instantaneo, enfocandose en fotos faltantes/corruptas reparables.
     """
     refs: list[ImageRef] = []
     # 1. catalogo principal
     cat = os.path.join(cfg.data, 'catalog_web.json')
     if os.path.exists(cat):
-        refs.extend(scan_catalog_json(cat, cfg))
+        nuevos = scan_catalog_json(cat, cfg)
+        if solo_im:
+            nuevos = [r for r in nuevos if not r.field_name.startswith('galeria')]
+        refs.extend(nuevos)
     if limite and len(refs) > limite:
         refs = refs[:limite]
-    # 2. HTML del sitio
-    if not limite:
+    # 2. HTML del sitio (solo en escaneos completos; en modo solo_im se omite)
+    if not limite and not solo_im:
         for name in ('index.html', 'galeria_catalogo.html', 'galeria_coleccion.html'):
             p = os.path.join(cfg.base, name)
             if os.path.exists(p):

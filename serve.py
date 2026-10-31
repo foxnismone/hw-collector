@@ -161,6 +161,7 @@ def lan_ip() -> str:
     """IP local de la interfaz que sale a internet (no requiere conexión real)."""
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
+        s.settimeout(2.0)
         s.connect(("8.8.8.8", 80))
         return s.getsockname()[0]
     except Exception:

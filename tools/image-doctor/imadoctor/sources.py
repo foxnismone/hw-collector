@@ -93,7 +93,8 @@ def desde_fandom(query: str, cfg: Config, limite: int = 8) -> list[str]:
     # 1) busqueda directa en File:
     d = _fandom({
         'action': 'query', 'format': 'json',
-        'generator': 'search', 'gsrsearch': f'File:{query}', 'gsrlimit': 12,
+        'generator': 'search', 'gsrsearch': f'File:{query}', 'gsrnamespace': 6,
+        'gsrlimit': 12,
         'prop': 'imageinfo', 'iiprop': 'url|size|mime', 'iilimit': 1,
     }, cfg)
     for p in (d.get('query') or {}).get('pages') or {}:
@@ -102,8 +103,9 @@ def desde_fandom(query: str, cfg: Config, limite: int = 8) -> list[str]:
             if ii.get('mime', '').startswith('image/') and ii.get('url'):
                 resultados.append(_norm_ext(ii['url']))
 
-    # 2) si el query parece un casting, preguntar por su pageimage
-    if len(resultados) < limite:
+    # 2) solo si File: no devolvio nada (ahorra 2 llamadas API por query; el
+    #    rate limit de Fandom es 200/5min, asi que cada llamada cuenta)
+    if not resultados:
         d2 = _fandom({
             'action': 'query', 'format': 'json', 'redirects': 1,
             'titles': query, 'prop': 'pageimages', 'piprop': 'original|thumbnail',
@@ -116,8 +118,8 @@ def desde_fandom(query: str, cfg: Config, limite: int = 8) -> list[str]:
             if u and u not in resultados:
                 resultados.append(_norm_ext(u))
 
-    # 3) casting -> lista de la pagina para rescatar la foto del modelo
-    if len(resultados) < limite:
+    # 3) solo si File: no devolvio nada
+    if not resultados:
         d3 = _fandom({
             'action': 'query', 'format': 'json', 'redirects': 1,
             'titles': query, 'prop': 'images', 'imlimit': 20,

@@ -100,7 +100,7 @@ def cmd_run(cfg: Config, args) -> int:
     print('=== image-doctor: auditoria + busqueda + reparacion ===')
     print(f"    dry_run={cfg.dry_run} | visual_CLIP={'si' if clip_disponible() else 'no'}")
     print()
-    out = run(cfg, max_reparar=args.max, limite=args.limite)
+    out = run(cfg, max_reparar=args.max, limite=args.limite, solo_im=args.solo_im)
     print()
     if 'error' in out:
         print(f"FALLO: {out['error']}")
@@ -133,6 +133,7 @@ def main(argv=None) -> int:
     p.add_argument('--limite', type=int, default=None,
                    help='limitar el escaneo a N referencias (pruebas rapidas)')
     p.add_argument('--solo-http', action='store_true', help='omitir el directorio img/')
+    p.add_argument('--solo-im', action='store_true', help='auditar/reparar solo la imagen principal (im); omite galeria weserv y HTML (scan instantaneo)')
     p.add_argument('--dom', nargs='?', const='https://foxnismone.github.io/hw-collector/',
                    default=None, help='auditar el DOM renderizado (bloques vacios, imgs rotas)')
     p.add_argument('--quiet', action='store_true', help='menos salida')
