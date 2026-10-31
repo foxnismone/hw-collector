@@ -72,8 +72,14 @@ def run(cfg: Config = DEFAULT, max_reparar: int | None = None,
     rotas.sort(key=lambda r: 0 if r.status in (MISSING, CORRUPT) else 1)
     if not rotas:
         log.info('fin', 'no hay imagenes que reparar')
-        log.guardar(refs, [], t0)
-        return {'resumen': resumen(refs), 'reparadas': 0}
+        json_path, md_path = log.guardar(refs, [], t0)
+        return {
+            'resumen': log.resumen(refs, [], t0),
+            'reparadas': 0,
+            'omitidas': 0,
+            'log_json': json_path,
+            'log_md': md_path,
+        }
 
     if max_reparar:
         rotas = rotas[:max_reparar]
