@@ -25,6 +25,7 @@ HTML_FILES = [
     "galeria_coleccion.html",
     os.path.join("web", "galeria_catalogo.html"),
     os.path.join("web", "galeria_coleccion.html"),
+    os.path.join("web", "index.html"),
 ]
 
 # ============================================================
