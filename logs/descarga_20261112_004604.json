@@ -1,0 +1,14 @@
+{
+  "stats": {
+    "descargadas": 0,
+    "fallidas": 216,
+    "ya_local": 5,
+    "ya_existe": 0,
+    "sin_url": 0,
+    "error_url": 0,
+    "otra_url": 0
+  },
+  "resultados": [],
+  "total_resultados": 0,
+  "tiempo_seg": 14.550663471221924
+}
