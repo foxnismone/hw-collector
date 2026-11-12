@@ -32,8 +32,8 @@ header.top{position:sticky;top:0;z-index:40;background:var(--surface);border-bot
 nav.tabs{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
 nav.tabs button{background:transparent;border:1px solid transparent;color:var(--muted);padding:7px 12px;font-size:12.5px;
  font-family:var(--f-display);letter-spacing:.6px;text-transform:uppercase;cursor:pointer;border-radius:2px}
-nav.tabs button:hover{color:var(--ink)}
-nav.tabs button[aria-selected="true"]{background:var(--elev);color:var(--ink);border-color:var(--line)}
+ nav.tabs button:hover{color:var(--ink)}
+ nav.tabs button[aria-selected="true"]{background:var(--elev);color:var(--ink);border-color:var(--line)}
 .cur{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
 .cur select{min-height:30px;padding:5px 8px;font-size:12px}
 .filters{display:flex;gap:10px;align-items:center;padding:10px 18px;border-top:1px solid var(--line);flex-wrap:wrap;background:var(--base)}
@@ -55,7 +55,7 @@ main{padding:16px 18px 60px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:3px;overflow:hidden;cursor:pointer;position:relative;
  display:flex;flex-direction:column;text-align:left;padding:0;color:inherit;font:inherit}
 .card:hover{border-color:var(--accent)}
-.thumb{aspect-ratio:1/1;background:var(--elev);display:block;width:100%;object-fit:contain;padding:8px}
+.thumb{aspect-ratio:1/1;background:var(--elev);display:block;width:100%;object-fit:cover;padding:8px}
 .card .body{padding:9px 10px 10px;display:flex;flex-direction:column;gap:5px;flex:1}
 .card .nm{font-size:12.8px;font-weight:600;line-height:1.25}
 .card .mt{font-size:11px;color:var(--muted);font-family:var(--f-mono)}
@@ -525,7 +525,7 @@ const DATOS_FUENTE=(function(){
       else if(k==="tendencias"){ TEND.demanda_coleccionistas=j.demanda_coleccionistas||TEND.demanda_coleccionistas; }
       else if(k==="mercados"){ MKT.monedas=j.monedas||MKT.monedas; MKT.mercados=j.mercados||MKT.mercados; MKT.calculadora_canales=j.calculadora_canales||MKT.calculadora_canales; }
       else if(k==="precios_referencia"){ PRE.precios=j.precios||PRE.precios; }
-      else if(k==="indice"){ IDXI.estadisticas_catalogo=j.estadisticas_catalogo||IDXI.estadisticas_catalogo; }
+      else if(k==="indice"){ IDXINFO.estadisticas_catalogo=j.estadisticas_catalogo||IDXINFO.estadisticas_catalogo; }
       else if(k==="owned_collection"){ OWNED_DEMO.items=j.items||OWNED_DEMO.items; }
       else if(k==="seguimiento"){ SEG.modelos=j.modelos||SEG.modelos; }
       usados++;
@@ -1228,16 +1228,31 @@ async function abrirScan(){
     await video.play();
     // ZXing: escanear código de barras en tiempo real
     if(typeof ZXing!=='undefined'){
-      scanZX=new ZXing.BrowserMultiFormatReader();
-      scanZX.decodeFromVideoDevice(undefined,video,(result,err)=>{
-        if(result){
-          const code=result.getText();
-          if(code && code.length>=3){
-            detenerScan();
-            procesarCodigo(code);
+      try{
+        scanZX=new ZXing.BrowserMultiFormatReader();
+        const onDecode=(result,err)=>{
+          if(result){
+            const code=result.getText();
+            if(code && code.length>=3){
+              detenerScan();
+              procesarCodigo(code);
+            }
           }
+        };
+        if(typeof scanZX.decodeFromVideoDevice==='function'){
+          scanZX.decodeFromVideoDevice(undefined,video,onDecode);
+        }else if(typeof scanZX.decodeFromVideoElement==='function'){
+          scanZX.decodeFromVideoElement(video,onDecode);
+        }else{
+          throw new Error('API de escaneo no disponible en esta versión de ZXing');
         }
-      });
+        logMsg('i','Escáner ZXing activo. Apuntá al código de barras o tocá "Capturar (OCR)".');
+      }catch(zxErr){
+        logMsg('w','ZXing no disponible ('+zxErr.message+'). Usá Capturar (OCR).');
+        scanZX=null;
+      }
+    }else{
+      logMsg('w','ZXing no cargado. Usá Capturar (OCR) con Tesseract.js.');
     }
     logMsg('i','Escáner activo. Apuntá al código de barras o tocá "Capturar (OCR)".');
   }catch(e){
@@ -1286,25 +1301,30 @@ async function capturarOCR(){
       detenerScan();
       procesarCodigo(codigos[0]);
     } else {
-      logMsg('a','No se detectaron códigos válidos en la imagen.');
+      logMsg('a','No se detectaron códigos válidos en la imagen. Intentá con mejor iluminación o acercá el código al centro del recuadro.');
     }
   }catch(e){
-    logMsg('a','Error en OCR: '+e.message);
+    logMsg('a','Error en OCR: '+e.message+'. Verificá que Tesseract.js se cargó correctamente.');
   }
 }
 
 function extraerCodigos(texto){
   const codigos=[];
-  // Patrones de códigos Hot Wheels
+  // Patrones de códigos Hot Wheels (mejorados)
   const patrones=[
-    /\b[LlCcFfGg]\d{4}\b/,           // Asortación: L2593, C4982, 5785
+    /\b[LlCcFfGg]\d{4}\b/,           // Asortación: L2593, C4982, F5785
     /\b[A-Z]{3}\d{2}\b/,             // Modelo: FRN78, JKX06
     /\b[A-Z]\d{4}-?\d{3}[A-Z]\b/,    // Case: L2593-976K
     /\bAsst\.?\s*[A-Z]?\d{4}\b/i,    // "Asst. C4982"
+    /\b\d{3}[A-Z]\b/,                // Códigos cortos: 976K
+    /\b[A-Z]{2}\d{4}\b/,             // Códigos de 2 letras + 4 números
+    /\b\d{4}[A-Z]\b/,                // Códigos de 4 números + letra
   ];
   for(const p of patrones){
-    const m=texto.match(p);
-    if(m) codigos.push(m[0].toUpperCase());
+    const matches=texto.match(new RegExp(p.source,p.flags.includes('g')?p.flags:p.flags+'g'));
+    if(matches){
+      matches.forEach(m=>codigos.push(m.toUpperCase().replace(/\s+/g,'')));
+    }
   }
   return [...new Set(codigos)];
 }
@@ -1313,8 +1333,10 @@ function procesarCodigo(codigo){
   if(!codigo) return;
   codigo=codigo.trim().toUpperCase();
   const res=document.getElementById('scanresult');
-  // Buscar en el catálogo local
-  const encontrado=buscarPorCodigo(codigo);
+  // Normalizar código para búsqueda (quitar caracteres especiales)
+  const codigoNorm=codigo.replace(/[^A-Z0-9]/g,'');
+  // Buscar en el catálogo local (intento múltiple)
+  const encontrado=buscarPorCodigo(codigo)||buscarPorCodigo(codigoNorm);
   if(encontrado){
     res.innerHTML=`
       <div class="sec" style="border:1px solid var(--brand);padding:12px">
@@ -1345,8 +1367,13 @@ function procesarCodigo(codigo){
 }
 
 function buscarPorCodigo(codigo){
-  // Buscar por ID exacto o por código de asortación
-  return CAT.find(c=>c.i===codigo || c.i.includes(codigo) || codigo.includes(c.i));
+  if(!codigo) return null;
+  const codigoNorm=codigo.replace(/[^A-Z0-9]/g,'').toUpperCase();
+  // Buscar por ID exacto o por código de asortación (normalizado)
+  return CAT.find(c=>{
+    const ciNorm=c.i.replace(/[^A-Z0-9]/g,'').toUpperCase();
+    return c.i===codigo || ciNorm===codigoNorm || ciNorm.includes(codigoNorm) || codigoNorm.includes(ciNorm);
+  });
 }
 
 async function agregarEscaneado(id){
@@ -1361,10 +1388,23 @@ async function agregarEscaneado(id){
 
 async function buscarEnInternet(codigo){
   const res=document.getElementById('scanresult');
-  logMsg('i','🔍 Scraping de rescate para: '+codigo);
-  res.innerHTML='<div class="note">🔍 Buscando en internet...<br><br>Ejecutá el scraper de rescate en tu PC:</div>';
-  res.innerHTML+='<pre class="note" style="background:var(--elev);padding:8px;border-radius:4px;overflow-x:auto;font-size:12px">python build/scraper_rescate.py "'+codigo+'"</pre>';
-  res.innerHTML+='<div class="note" style="margin-top:8px">El scraper buscará en SmartWheelers, HW Wiki, HW Price Guide, Reddit, eBay y Mercado Libre.<br><br>Si el scraper encuentra el modelo, los datos se guardan en caché por 7 días.</div>';
+  logMsg('i','🔍 Búsqueda en internet para: '+codigo);
+  res.innerHTML=`
+    <div class="sec" style="border:1px solid var(--brand);padding:12px">
+      <h4 style="margin:0 0 8px">🔍 Buscar en internet</h4>
+      <div class="note" style="margin-bottom:8px">Para buscar el código <b>${codigo}</b> en internet, ejecutá el siguiente comando en tu terminal:</div>
+      <pre class="note" style="background:var(--elev);padding:12px;border-radius:6px;overflow-x:auto;font-size:13px;margin:0">python build/scraper_rescate.py "${codigo}"</pre>
+      <div class="note" style="margin-top:12px">El scraper buscará en:</div>
+      <ul class="note" style="margin:8px 0;padding-left:20px">
+        <li>SmartWheelers</li>
+        <li>HW Wiki</li>
+        <li>HW Price Guide</li>
+        <li>Reddit</li>
+        <li>eBay</li>
+        <li>Mercado Libre</li>
+      </ul>
+      <div class="note">Si el scraper encuentra el modelo, los datos se guardan en caché por 7 días.</div>
+    </div>`;
 }
 
 function agregarManual(codigo){
@@ -1387,7 +1427,7 @@ function tabTo(t){
   if(t==="valorar") renderVal();
   if(t==="mercados") renderMkt();
   if(t==="seguimiento") renderSeg();
-  if(t==="tendencias") renderSeg();
+  if(t==="tendencias") {} // contenido estático + _cargar_trends_activas();
   if(t==="cajas") renderCajas();
   if(t==="catalogo") render(true);
 }
@@ -1513,7 +1553,7 @@ function spark(hist){
   if(!hist||hist.length<2) return '<span class="note" style="font-size:10px">historial de 1 punto</span>';
   const v=hist.map(function(h){return h.usd;}), mn=Math.min.apply(null,v), mx=Math.max.apply(null,v), r=(mx-mn)||1;
   const pts=v.map(function(y,i){ return (i/(v.length-1)*100).toFixed(1)+","+(26-(y-mn)/r*22).toFixed(1); }).join(" ");
-  return '<svg viewBox="0 0 100 28" preserveAspectRatio="none" style="width:84px;height:24px"><polyline points="'+pts+'" fill="none" stroke="#ff4d00" stroke-width="2"/></svg>';
+  return '<svg viewBox="0 0 100 28" preserveAspectRatio="none" style="width:60px;height:20px;max-width:100%;" display="block" vertical-align="middle"><polyline points="'+pts+'" fill="none" stroke="#ff4d00" stroke-width="2"/></svg>';
 }
 function renderSeg(){
   const wrap=document.getElementById("segrows"); if(!wrap) return;
@@ -1771,7 +1811,7 @@ function ttsNavegador(text){
 }
 
 /* ===== puente celular <-> asistente ===== */
-const PUENTE=(location.protocol==="file:")?null:"./";
+const PUENTE=(location.protocol==="file:"||location.hostname.indexOf("github.io")>=0)?"http://localhost:8081/":"./";
 const COLA_KEY="hw_cola_local", ULTID="hw_ultima_id";
 function colaLocal(){ try{ return JSON.parse(localStorage.getItem(COLA_KEY)||"[]"); }catch(e){ return []; } }
 function guardarCola(c){ try{ localStorage.setItem(COLA_KEY,JSON.stringify(c)); }catch(e){} }
