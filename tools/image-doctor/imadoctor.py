@@ -66,7 +66,7 @@ def cmd_scan(cfg: Config, args) -> int:
     print('\n=== CONTEXTO Y QUERIES (muestra) ===')
     for x in rotas[:8]:
         plan = planificar(x)
-        print(f"  modelo={x.model_name[:34]!r:38} serie={x.series[:18]!r:20} "
+        print(f"  modelo={x.model_name[:34]!r:38} serie={x.serie[:18]!r:20} "
               f"alt={x.alt[:14]!r}")
         print(f"      archivo -> {plan.filename_hint[:50]!r}")
         print(f"      queries -> {plan.queries[:2]}")
