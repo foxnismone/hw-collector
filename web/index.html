@@ -1243,7 +1243,7 @@ function filtered(){
     return true;});
   if(state.sort==="ind") r.sort((a,b)=>b.x-a.x);
   else if(state.sort==="val") r.sort((a,b)=>b.V-a.V);
-  else r.sort((a,b)=>b.y-a.y||String(a.c||"").localeCompare(String(b.c||"")));
+  else r.sort((a,b)=>a.y-b.y||String(a.c||"").localeCompare(String(b.c||"")));
   return r;
 }
 function cardHTML(c){
