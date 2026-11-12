@@ -2219,7 +2219,7 @@ function renderSeg(){
   const bd=g("albadge"); if(bd){ bd.textContent=al.length; bd.style.display=al.length?"inline-block":"none"; }
   wrap.innerHTML=ids.map(function(id){
     const it=segItem(id), fr=frescura(it.fecha_actualizacion), r=DEM[id], d=IDX[id]||{};
-    return '<div class="segrow"><img alt="" src="'+IMG(d.im||"")+'" onerror="this.style.visibility=\'hidden\'">'
+    return '<div class="segrow">'+(d.im?'<img alt="" src="'+IMG(d.im)+'" onerror="this.style.visibility=\'hidden\'">':'')
       +'<div class="sinfo"><b>'+it.modelo+'</b><span class="mt">'+it.anio+' · '+it.clase+' · ×'+it.cantidad+'</span>'
       +(r?'<span class="dem">TOP '+r.rank+' demanda</span>':'')+'</div>'
       +'<div class="sval"><span class="mt">valor actual</span><b>'+fmt(it.valor_actual_usd||0)+'</b>'+spark(it.historial)+'</div>'
@@ -2288,7 +2288,7 @@ function renderCajas(){
       const x=c[t]; if(!x) return '<div class="crow"><span class="tag '+tipo.toLowerCase()+'">'+tipo+'</span><div class="cinfo"><span class="note">'+
         (tipo==="TH"?"La wiki no publica la TH de este año.":"Sin dato")+'</span></div></div>';
       const d=IDX[x.catalogo_id]||{};
-      return '<div class="crow">'+(d.im?'<img alt="" src="'+IMG(d.im)+'" onerror="this.style.visibility=\'hidden\'">':'<img alt="">')
+      return '<div class="crow">'+(d.im?'<img alt="" src="'+IMG(d.im)+'" onerror="this.style.visibility=\'hidden\'">':'')
         +'<div class="cinfo"><span class="tag '+tipo.toLowerCase()+'">'+tipo+'</span><b>'+x.modelo+'</b>'
         +'<span class="mt">'+(x.serie||"")+' · '+(x.col||"")+'</span>'
         +(x.color?'<span class="mt">'+x.color+(x.rueda?' · '+x.rueda:"")+'</span>':'')
