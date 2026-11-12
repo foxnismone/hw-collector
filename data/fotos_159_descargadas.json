@@ -1,0 +1,787 @@
+[
+  {
+    "id": "2026-JJL73",
+    "m": "Twin Tags (2nd Color)",
+    "filename": "b1f37bdb754e.webp"
+  },
+  {
+    "id": "L9953",
+    "m": "Ferrari GTO",
+    "filename": "8b667c93d240.webp"
+  },
+  {
+    "id": "1982-peterbilt_",
+    "m": "peterbilt cement mixer?",
+    "filename": "baf7b36d7f2c.webp"
+  },
+  {
+    "id": "1982-bulldozer?",
+    "m": "bulldozer?",
+    "filename": "167b3673dd36.webp"
+  },
+  {
+    "id": "1984-9211",
+    "m": "Large Charge",
+    "filename": "709770a4aa7a.webp"
+  },
+  {
+    "id": "1995-1299",
+    "m": "3 Window 34",
+    "filename": "5b107e631a61.webp"
+  },
+  {
+    "id": "1971-Mongoose_R",
+    "m": "Mongoose Rail Dragster",
+    "filename": "6ccdc2dd2ddc.webp"
+  },
+  {
+    "id": "2027-2001AudiRS",
+    "m": "2001 Audi RS 4 Avant",
+    "filename": "ea04362a2232.webp"
+  },
+  {
+    "id": "2025-NissanZ20",
+    "m": "Nissan Z (2006)",
+    "filename": "1c3c009dffae.webp"
+  },
+  {
+    "id": "2025-1990HondaC",
+    "m": "1990 Honda Civic EF",
+    "filename": "70c9a2f6f3ee.webp"
+  },
+  {
+    "id": "2025-85HondaCR",
+    "m": "'85 Honda CR-X",
+    "filename": "fb7050d39d2a.webp"
+  },
+  {
+    "id": "2025-16FordFoc",
+    "m": "'16 Ford Focus RS",
+    "filename": "ec61127508b7.webp"
+  },
+  {
+    "id": "2025-18HondaCi",
+    "m": "'18 Honda Civic Type R",
+    "filename": "23bfa03be131.webp"
+  },
+  {
+    "id": "2025-Porsche918",
+    "m": "Porsche 918 Spyder (2018)",
+    "filename": "e2410e5af6fd.webp"
+  },
+  {
+    "id": "2025-FordMustang",
+    "m": "Ford Mustang Funny Car",
+    "filename": "500abb832445.webp"
+  },
+  {
+    "id": "2025-PlymouthCu",
+    "m": "Plymouth 'Cuda Funny Car",
+    "filename": "d07e2df26a4a.webp"
+  },
+  {
+    "id": "2025-64ChevyNo",
+    "m": "'64 Chevy Nova Gasser",
+    "filename": "d3cf864cf456.webp"
+  },
+  {
+    "id": "2025-FormulaEGe",
+    "m": "Formula E Gen 2",
+    "filename": "9a0bd2b3b300.webp"
+  },
+  {
+    "id": "2027-JRN76",
+    "m": "Car Culture 2-Pack — Ferrari",
+    "filename": "2b15fff64576.webp"
+  },
+  {
+    "id": "2027-JRN77",
+    "m": "Car Culture 2-Pack — Performance Sedans",
+    "filename": "c8e7f7868fdf.webp"
+  },
+  {
+    "id": "2027-JRN86",
+    "m": "Car Culture 2-Pack — BRE",
+    "filename": "3d60f66fad37.webp"
+  },
+  {
+    "id": "2027-JRN82",
+    "m": "Car Culture 2-Pack — Audi Avant",
+    "filename": "d7f3fc45384a.webp"
+  },
+  {
+    "id": "2027-JRN80",
+    "m": "Car Culture 2-Pack — Acura NSX",
+    "filename": "03919b4ab5e3.webp"
+  },
+  {
+    "id": "2027-JRN81",
+    "m": "Car Culture 2-Pack — Ford F-Series",
+    "filename": "d64b99905c62.webp"
+  },
+  {
+    "id": "2027-JRN84",
+    "m": "Car Culture 2-Pack — Pontiac Firebird",
+    "filename": "25295a2cdf3f.webp"
+  },
+  {
+    "id": "1976-9210",
+    "m": "Alive '55",
+    "filename": "18fa3df27b41.webp"
+  },
+  {
+    "id": "1977-7662",
+    "m": "American Victory",
+    "filename": "903327de2d0e.webp"
+  },
+  {
+    "id": "1977-6976",
+    "m": "Buzz Off",
+    "filename": "105801043218.webp"
+  },
+  {
+    "id": "1977-6973",
+    "m": "Ferrari 312P",
+    "filename": "801209940fe4.webp"
+  },
+  {
+    "id": "1977-9646",
+    "m": "Show Hoss II",
+    "filename": "d91b6bfc2905.webp"
+  },
+  {
+    "id": "1979-7650",
+    "m": "Emergency Squad",
+    "filename": "9475e917601e.webp"
+  },
+  {
+    "id": "1979-7630",
+    "m": "Top Eliminator",
+    "filename": "2805c2f60b8c.webp"
+  },
+  {
+    "id": "1979-693761",
+    "m": "Corvette Stingray",
+    "filename": "b07eb7817ac6.webp"
+  },
+  {
+    "id": "1979-2877",
+    "m": "Spider-Man Car",
+    "filename": "280ae57ae75a.webp"
+  },
+  {
+    "id": "1982-c383ff",
+    "m": "Royal Flash",
+    "filename": "3f61455b6a5d.webp"
+  },
+  {
+    "id": "1983-dbc997",
+    "m": "Mustang Stocker",
+    "filename": "6cd0d8e72ea8.webp"
+  },
+  {
+    "id": "1984-2855",
+    "m": "Space Vehicle",
+    "filename": "978701db5f65.webp"
+  },
+  {
+    "id": "1994-3853",
+    "m": "Road Roller",
+    "filename": "90105012c78d.webp"
+  },
+  {
+    "id": "1995-12351",
+    "m": "Blazer 4X4",
+    "filename": "fbf54f23e98a.webp"
+  },
+  {
+    "id": "2000-25390",
+    "m": "GT Racer",
+    "filename": "ddb05955cc18.webp"
+  },
+  {
+    "id": "2000-25393",
+    "m": "Sweet 16 II",
+    "filename": "0a2257acb818.webp"
+  },
+  {
+    "id": "2006-J3496",
+    "m": "Bedlam",
+    "filename": "0d75cc52b2af.webp"
+  },
+  {
+    "id": "2007-K7617S",
+    "m": "Hammer Sled",
+    "filename": "51d26d249d29.webp"
+  },
+  {
+    "id": "2007-K7691",
+    "m": "Rapid Transit",
+    "filename": "c5f1fed8fc59.webp"
+  },
+  {
+    "id": "2007-K7629",
+    "m": "Super Comp Dragster",
+    "filename": "b51f3ff881c3.webp"
+  },
+  {
+    "id": "2011-V0016",
+    "m": "'63 Corvette (2nd Color)",
+    "filename": "8f6fce476000.webp"
+  },
+  {
+    "id": "2023-HKK01",
+    "m": "Lolux (2nd Color)",
+    "filename": "66d06827971d.webp"
+  },
+  {
+    "id": "2023-HKL62",
+    "m": "DMC DeLorean (3rd Color)",
+    "filename": "4e43dcfb454c.webp"
+  },
+  {
+    "id": "2026-JJL68",
+    "m": "Nissan Skyline 2000 GT-R (2nd Color)",
+    "filename": "090104a22bad.webp"
+  },
+  {
+    "id": "2027-JNX83",
+    "m": "Porsche 911 GT3 RS",
+    "filename": "acd41f7cc231.webp"
+  },
+  {
+    "id": "2027-JPD61",
+    "m": "Porsche 911 GT3 RS (2nd Color)",
+    "filename": "58017b40e3fb.webp"
+  },
+  {
+    "id": "2027-JNY06",
+    "m": "'68 Lotus Type 49",
+    "filename": "cc7f09a7c280.webp"
+  },
+  {
+    "id": "2027-JNX96",
+    "m": "Ford GT40",
+    "filename": "0125450d21f7.webp"
+  },
+  {
+    "id": "2027-JNY09",
+    "m": "Cadillac CTS-V",
+    "filename": "74196787a7af.webp"
+  },
+  {
+    "id": "2027-JPD58",
+    "m": "Cadillac CTS-V (2nd Color)",
+    "filename": "1ff9f3238363.webp"
+  },
+  {
+    "id": "2027-JNY05",
+    "m": "Pagani Zonda Cinque",
+    "filename": "6684b354184a.webp"
+  },
+  {
+    "id": "2027-JPD72",
+    "m": "Pagani Zonda Cinque (2nd Color)",
+    "filename": "0e68088baa09.webp"
+  },
+  {
+    "id": "2027-JNX75",
+    "m": "Drifty Seven",
+    "filename": "be504b742798.webp"
+  },
+  {
+    "id": "2027-JNX54",
+    "m": "'24 Toyota GR86 Pandem",
+    "filename": "8c500ebd7cea.webp"
+  },
+  {
+    "id": "2027-JNX46",
+    "m": "Ferrari 296 GTS",
+    "filename": "b4a06d4cf1fb.webp"
+  },
+  {
+    "id": "2027-JJH38",
+    "m": "Radford Type 62-2 Roadster",
+    "filename": "933834c15588.webp"
+  },
+  {
+    "id": "2027-JNX36",
+    "m": "Tyco Turbo Hopper",
+    "filename": "a9d526315e9c.webp"
+  },
+  {
+    "id": "2027-JNX44",
+    "m": "Starting Bloc",
+    "filename": "9d0cbcf1532e.webp"
+  },
+  {
+    "id": "2027-JNX49",
+    "m": "2026 Morgan Super Sport",
+    "filename": "ef64dbb5e3cf.webp"
+  },
+  {
+    "id": "2027-JNX60",
+    "m": "1989 Ford Mustang LX",
+    "filename": "35f20e86915c.webp"
+  },
+  {
+    "id": "2027-JNX43",
+    "m": "Cadillac Formula 1 Team",
+    "filename": "e304aa055dbd.webp"
+  },
+  {
+    "id": "2027-JNX52",
+    "m": "'25 Ford Shelby F-150 Super Snake",
+    "filename": "67c1357ca3a6.webp"
+  },
+  {
+    "id": "2027-JNX55",
+    "m": "Rondres W-33",
+    "filename": "2300f38ed8ff.webp"
+  },
+  {
+    "id": "2027-JRP59",
+    "m": "1964 Shelby Cobra Daytona Coupe",
+    "filename": "fb5d7665ad03.webp"
+  },
+  {
+    "id": "2027-JRP77",
+    "m": "1969 AMC SC/Rambler",
+    "filename": "356890c2bd83.webp"
+  },
+  {
+    "id": "2027-JRP75",
+    "m": "1990 Honda NSX",
+    "filename": "dabf096127cd.webp"
+  },
+  {
+    "id": "2027-JRP71",
+    "m": "1995 Mitsubishi Lancer Evolution III",
+    "filename": "f443d23eac78.webp"
+  },
+  {
+    "id": "2027-JRP72",
+    "m": "1999 Pagani Zonda C12 S",
+    "filename": "04c68ffb0dee.webp"
+  },
+  {
+    "id": "2027-JRP63",
+    "m": "2024 GMC Sierra 3500 HD",
+    "filename": "0caf61453a09.webp"
+  },
+  {
+    "id": "0-JRP82",
+    "m": "2027 Car Culture",
+    "filename": "8bda6ad33b74.webp"
+  },
+  {
+    "id": "0-rowspan=\"2\" |JRP56",
+    "m": "2027 Car Culture: Team Transport",
+    "filename": "2030ea7ff334.webp"
+  },
+  {
+    "id": "0-HJV99",
+    "m": "Car Culture Factory Set",
+    "filename": "2c6bb2eb01d2.webp"
+  },
+  {
+    "id": "2027-JRN79",
+    "m": "Toyota 4Runner TRD Pro",
+    "filename": "4a0c6988500d.webp"
+  },
+  {
+    "id": "2027-JRR11",
+    "m": "1974 Chevy C10",
+    "filename": "223cccfab548.webp"
+  },
+  {
+    "id": "2027-JRR10",
+    "m": "2007 Subaru Impreza WRX STI",
+    "filename": "b2acd1cdebf4.webp"
+  },
+  {
+    "id": "2027-JRR08",
+    "m": "2003 Ford Focus RS",
+    "filename": "b336988a211f.webp"
+  },
+  {
+    "id": "2027-JRR07",
+    "m": "2013 Cadillac CTS-V Wagon",
+    "filename": "2dc38c52194d.webp"
+  },
+  {
+    "id": "0-JRR07",
+    "m": "2027 Hot Wheels Boulevard",
+    "filename": "f6b6b15a4fdc.webp"
+  },
+  {
+    "id": "2027-JRP25",
+    "m": "Jerry Station Wagon",
+    "filename": "c43b5fb071f4.webp"
+  },
+  {
+    "id": "2001-N/A",
+    "m": "De JaVu",
+    "filename": "2a7a31a9853b.webp"
+  },
+  {
+    "id": "c-a0269f06",
+    "m": "2003 Pontiac Grand Prix",
+    "filename": "ac203cc0c142.webp"
+  },
+  {
+    "id": "0-GJM68",
+    "m": "Mystery Models (2020, Series 3)",
+    "filename": "f39777167fd0.webp"
+  },
+  {
+    "id": "0-GBD52",
+    "m": "Mystery Models (2019, Series 2)",
+    "filename": "e452e617cd63.webp"
+  },
+  {
+    "id": "0-GJM02",
+    "m": "Mystery Models (2020, Series 2)",
+    "filename": "3286fba544ae.webp"
+  },
+  {
+    "id": "0-GTF13",
+    "m": "Mystery Models (2021, Series 2)",
+    "filename": "77e37b238310.webp"
+  },
+  {
+    "id": "c-61e0ba54",
+    "m": "Mystery Models (2022, Series 1)",
+    "filename": "215589ad5cd1.webp"
+  },
+  {
+    "id": "0-GTF34",
+    "m": "Mystery Models (2021, Series 3)",
+    "filename": "7e803c19f327.webp"
+  },
+  {
+    "id": "2026-JJY51",
+    "m": "1979 Chevy C30 Crew Cab Dually 4×4",
+    "filename": "5b1b00dc6ef9.webp"
+  },
+  {
+    "id": "2027-JRW65",
+    "m": "1999 Mitsubishi Evo VI",
+    "filename": "d9fd34b793d8.webp"
+  },
+  {
+    "id": "2026-JJY48",
+    "m": "2022 Mercedes-AMG ONE",
+    "filename": "53f6337fc7df.webp"
+  },
+  {
+    "id": "2027-JRW61",
+    "m": "Nissan Skyline GT-R (NISMO R34 CRS Ver.)",
+    "filename": "57d524d554a1.webp"
+  },
+  {
+    "id": "0-V0577",
+    "m": "2011 Color Shifters",
+    "filename": "7a4585387bd0.webp"
+  },
+  {
+    "id": "0-W4109",
+    "m": "2012 Color Shifters",
+    "filename": "2bfbd937bf02.webp"
+  },
+  {
+    "id": "0-BHR22",
+    "m": "2014 Color Shifters",
+    "filename": "3b1fd3f914a8.webp"
+  },
+  {
+    "id": "0-BHR42",
+    "m": "2015 Color Shifters",
+    "filename": "2c6cf1cbe991.webp"
+  },
+  {
+    "id": "0-BHR63",
+    "m": "2016 Color Shifters",
+    "filename": "1d9d542c5924.webp"
+  },
+  {
+    "id": "0-BHR41",
+    "m": "2018 Color Shifters",
+    "filename": "3b17ef769045.webp"
+  },
+  {
+    "id": "0-BHR52",
+    "m": "2021 Color Shifters",
+    "filename": "362d5a11092b.webp"
+  },
+  {
+    "id": "0-BHR50",
+    "m": "2020 Color Shifters",
+    "filename": "24015a4dce7b.webp"
+  },
+  {
+    "id": "0-BHR28",
+    "m": "2019 Color Shifters",
+    "filename": "b6f05be4aaf6.webp"
+  },
+  {
+    "id": "0-BHR19",
+    "m": "2023 Color Shifters",
+    "filename": "c95d9d0b0281.webp"
+  },
+  {
+    "id": "0-HXH07",
+    "m": "2024 Color Shifters",
+    "filename": "64b74bc3a4ee.webp"
+  },
+  {
+    "id": "0-JCM32",
+    "m": "2025 Color Shifters",
+    "filename": "d1bc0031f733.webp"
+  },
+  {
+    "id": "0-JKP15",
+    "m": "2026 Color Shifters",
+    "filename": "371d67004d04.webp"
+  },
+  {
+    "id": "2008-M2260",
+    "m": "'69 Dodge Charger (100%)",
+    "filename": "57355dc951bc.webp"
+  },
+  {
+    "id": "2005-J9768",
+    "m": "A/Fuel Dragster",
+    "filename": "35430171bca5.webp"
+  },
+  {
+    "id": "1972-6596",
+    "m": "Goose Pump",
+    "filename": "3246467b5827.webp"
+  },
+  {
+    "id": "1973-4948",
+    "m": "Law Mill",
+    "filename": "7d0a0fefe4e6.webp"
+  },
+  {
+    "id": "1973-5630",
+    "m": "Steering Trailer",
+    "filename": "beb02e476401.webp"
+  },
+  {
+    "id": "2022-HCR71",
+    "m": "Beta (Monster Truck)",
+    "filename": "49f92147623f.webp"
+  },
+  {
+    "id": "c-28e0e201",
+    "m": "Bigfoot Legacy 5-Pack",
+    "filename": "5eda1e7e399a.webp"
+  },
+  {
+    "id": "2022-HGD09",
+    "m": "Bigfoot Bite",
+    "filename": "c08ae1498df4.webp"
+  },
+  {
+    "id": "2023-HKM32",
+    "m": "Board to be Wild",
+    "filename": "ea4ed92517bf.webp"
+  },
+  {
+    "id": "2023-HLR89",
+    "m": "Bread Boyz",
+    "filename": "8fe1c561dc9c.webp"
+  },
+  {
+    "id": "c-6cd0ea97",
+    "m": "Clashing Colors 5-Pack",
+    "filename": "60c09cb069dc.webp"
+  },
+  {
+    "id": "2023-HLB80",
+    "m": "Combo Crasher",
+    "filename": "ceed70de8275.webp"
+  },
+  {
+    "id": "2019-FYK14",
+    "m": "Crash Recruit",
+    "filename": "198de63e0090.webp"
+  },
+  {
+    "id": "2025-JCC85",
+    "m": "Demo Delivery",
+    "filename": "aceeb24d2b54.webp"
+  },
+  {
+    "id": "2021-GTK22",
+    "m": "Donatello (Themed Monster Truck)",
+    "filename": "1b1cd7d48512.webp"
+  },
+  {
+    "id": "2026-JHY88",
+    "m": "Dragon Hunter",
+    "filename": "44920f41a0af.webp"
+  },
+  {
+    "id": "2023-HLR90",
+    "m": "Electric Bigfoot",
+    "filename": "148fdc5d3593.webp"
+  },
+  {
+    "id": "2019-GBT41",
+    "m": "Fire Starter",
+    "filename": "73c837e013a3.webp"
+  },
+  {
+    "id": "2022-HCR70",
+    "m": "Giganotosaurus (Monster Truck)",
+    "filename": "6f274f327784.webp"
+  },
+  {
+    "id": "2026-JHY65",
+    "m": "HW Police Rescue",
+    "filename": "af35d25e91eb.webp"
+  },
+  {
+    "id": "c-6c4f2c01",
+    "m": "Hot Wheels: All Stars 5-Pack",
+    "filename": "07390776d8ba.webp"
+  },
+  {
+    "id": "2023-N/A",
+    "m": "ICPHSO 30th Anniversary",
+    "filename": "197ddaf5e42d.webp"
+  },
+  {
+    "id": "2024-HTM76",
+    "m": "Imperial Shock Trooper (Monster Truck)",
+    "filename": "7e2017224e9c.webp"
+  },
+  {
+    "id": "2020-GJH39",
+    "m": "Jeff Hardy (Monster Truck)",
+    "filename": "fbd832bc7ad4.webp"
+  },
+  {
+    "id": "2021-GTK24",
+    "m": "Leonardo (Themed Monster Truck)",
+    "filename": "b5457d2e8131.webp"
+  },
+  {
+    "id": "2026-JJB13",
+    "m": "Massive Bash",
+    "filename": "cd022f860499.webp"
+  },
+  {
+    "id": "2021-GTK23",
+    "m": "Michelangelo (Themed Monster Truck)",
+    "filename": "2c7f5fe1cd0c.webp"
+  },
+  {
+    "id": "2023-HLT09",
+    "m": "Melon Mauler",
+    "filename": "162599474916.webp"
+  },
+  {
+    "id": "2026-JHY47",
+    "m": "Monster Clucks",
+    "filename": "6fd13b5c09e4.webp"
+  },
+  {
+    "id": "2026-JHY39",
+    "m": "Movie Nite",
+    "filename": "e62d967a87e2.webp"
+  },
+  {
+    "id": "2019-GBT43",
+    "m": "Nessie-Sary Roughness",
+    "filename": "10c8dda84ca9.webp"
+  },
+  {
+    "id": "2020-GKD22",
+    "m": "Patrick (Themed Monster Truck)",
+    "filename": "a1cc9674be84.webp"
+  },
+  {
+    "id": "2022-HDK92",
+    "m": "Rhinomite (Oversized)",
+    "filename": "2d19096d7d3e.webp"
+  },
+  {
+    "id": "2019-GCR98",
+    "m": "Roman Reigns (Monster Truck)",
+    "filename": "efe630805f79.webp"
+  },
+  {
+    "id": "2019-GCT01",
+    "m": "Sasha Banks (Monster Truck)",
+    "filename": "3fcd25ab6410.webp"
+  },
+  {
+    "id": "2020-GJH36",
+    "m": "Seth Rollins (Monster Truck)",
+    "filename": "605de159916d.webp"
+  },
+  {
+    "id": "c-ea72c558",
+    "m": "Smash Squad 5-Pack",
+    "filename": "cecebf441599.webp"
+  },
+  {
+    "id": "2025-JCD66",
+    "m": "Slam Prix",
+    "filename": "37ee21b6204a.webp"
+  },
+  {
+    "id": "2026-JHY48",
+    "m": "Soupreme Slammer",
+    "filename": "964dc730d787.webp"
+  },
+  {
+    "id": "2018-FYJ53",
+    "m": "Stars & Stripes",
+    "filename": "e9a6de084592.webp"
+  },
+  {
+    "id": "2026-JHY89",
+    "m": "Squidnado",
+    "filename": "0df9e050dc37.webp"
+  },
+  {
+    "id": "2024-HWN55",
+    "m": "The Joker (Monster Truck)",
+    "filename": "2eea32d8dc78.webp"
+  },
+  {
+    "id": "2019-GCR96",
+    "m": "The New Day (Monster Truck)",
+    "filename": "a58eb5732bee.webp"
+  },
+  {
+    "id": "2023-HLT06",
+    "m": "Tiger Wrex",
+    "filename": "498feb82e711.webp"
+  },
+  {
+    "id": "2019-GCR99",
+    "m": "Triple H (Monster Truck)",
+    "filename": "191ab4b0979d.webp"
+  },
+  {
+    "id": "2024-HTM42",
+    "m": "Will Eat It All",
+    "filename": "cc3ddbf52bbe.webp"
+  },
+  {
+    "id": "2024-HTM54",
+    "m": "Wild Wrecker",
+    "filename": "3525de0ab94b.webp"
+  },
+  {
+    "id": "2026-JHY76",
+    "m": "Wreckin' Wolf (Big Rigs)",
+    "filename": "870c210dfc05.webp"
+  }
+]
