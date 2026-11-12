@@ -1,0 +1,4517 @@
+{
+  "resumen": {
+    "ejecutado_en": "2026-10-29 02:22:47",
+    "duracion_seg": 6077.9,
+    "dry_run": false,
+    "auditoria": {
+      "total_referencias": 83524,
+      "ok": 83085,
+      "rotas": 387,
+      "missing_file": 42,
+      "vacias": 0,
+      "corruptas": 10
+    },
+    "reparacion": {
+      "descargadas_local": 0,
+      "url_actualizadas": 2,
+      "omitidas": 198,
+      "descartes_validacion": 0
+    }
+  },
+  "entradas": [
+    {
+      "ts": "00:41:29",
+      "fase": "inicio",
+      "nivel": "info",
+      "mensaje": "image-doctor iniciado (dry_run=False)",
+      "datos": {}
+    },
+    {
+      "ts": "00:41:29",
+      "fase": "auditoria",
+      "nivel": "info",
+      "mensaje": "escaneando fuentes...",
+      "datos": {}
+    },
+    {
+      "ts": "01:34:57",
+      "fase": "auditoria",
+      "nivel": "info",
+      "mensaje": "83524 referencias: 83085 ok, 387 rotas, 42 sin archivo, 0 vacias, 10 corruptas",
+      "datos": {}
+    },
+    {
+      "ts": "01:34:57",
+      "fase": "auditoria",
+      "nivel": "info",
+      "mensaje": "limitado a 200 imagenes (--max)",
+      "datos": {}
+    },
+    {
+      "ts": "01:34:58",
+      "fase": "metadata",
+      "nivel": "info",
+      "mensaje": "200/200 referencias con metadata exacta (+0 resueltas del catalogo)",
+      "datos": {}
+    },
+    {
+      "ts": "01:34:58",
+      "fase": "contexto",
+      "nivel": "info",
+      "mensaje": "200/200 con plan de busqueda",
+      "datos": {}
+    },
+    {
+      "ts": "01:34:58",
+      "fase": "validacion",
+      "nivel": "info",
+      "mensaje": "validacion visual por CLIP: activa",
+      "datos": {}
+    },
+    {
+      "ts": "02:22:44",
+      "fase": "busqueda",
+      "nivel": "info",
+      "mensaje": "2 imagenes con candidato valido; 198 sin ninguno",
+      "datos": {}
+    },
+    {
+      "ts": "02:22:47",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Bugeye -> C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\img\\latest",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[4662]",
+        "modelo": "Bugeye",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4a/Lime.jpg",
+        "valor_nuevo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\img\\latest.jpg",
+        "accion": "url_actualizada",
+        "motivo": "959x891 129038b score 0.221",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": ""
+      }
+    },
+    {
+      "ts": "02:22:47",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Peterbilt Cement Mixer -> C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\img\\latest",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[5110]",
+        "modelo": "Peterbilt Cement Mixer",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/eb/x172-4%2C49-2%2C15.jpg",
+        "valor_nuevo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\img\\latest.jpg",
+        "accion": "url_actualizada",
+        "motivo": "877x1346 259202b score 0.207",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": ""
+      }
+    },
+    {
+      "ts": "02:22:47",
+      "fase": "reparacion",
+      "nivel": "aviso",
+      "mensaje": "198 imagenes no pudieron repararse",
+      "datos": {}
+    }
+  ],
+  "descartes": [],
+  "referencias": [
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (3rd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color - Zamac)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color - Zamac)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color - Zamac)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color - Zamac)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (3rd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Dumin' A",
+      "campo": "im[2263]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6e/Dumin%27_A.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Screamin'",
+      "campo": "im[2340]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/3e/Screamin%27.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tipper",
+      "campo": "im[3062]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/9e/Tipper.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Sho-Stopper",
+      "campo": "im[3144]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5e/Sho-Stopper.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Corvette SR-2",
+      "campo": "galeria[6]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e9/Corvette_SR-2_2003_100%25_-_Hot_Wheels_-_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Cadillac Cien",
+      "campo": "im[3253]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b7/2003-100%25_V-Dubyas_Bus_LRW_Shell.1-2_o2b.jpg/revision/latest?cb=20260619141849",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Da'Kar",
+      "campo": "im[3274]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/7e/Da%27Kar.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "The Gov'ner",
+      "campo": "im[3307]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8e/The_Gov%27ner.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "\"Hammerhead\"",
+      "campo": "im[3956]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4e/Hammerhead.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ryura LX",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/85/Tom_%26_Jerry_6-6%3B_Ryura_LX_%282014%29_-_Hot_Wheels_CMJ34_2015_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Bugeye",
+      "campo": "im[4662]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4a/Lime.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Ramblin' Wrecker",
+      "campo": "im[4698]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/mike_Ramblin_Wrecker_blue_tint_window.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tank Gunner",
+      "campo": "im[5096]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f4/gun_bucket_bbw.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tank Gunner",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f4/gun_bucket_bbw.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Peterbilt Cement Mixer",
+      "campo": "im[5110]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/eb/x172-4%2C49-2%2C15.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Deora II",
+      "campo": "im[5761]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/80/Sam%2527s_Club_Deora_II-BBB01.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'57 Chevy Bel Air",
+      "campo": "im[6413]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252757_Bel_Air_-_Bone_Blazers.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'57 Chevy Bel Air",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252757_Bel_Air_-_Bone_Blazers.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'65 Corvette",
+      "campo": "im[6415]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252765_Corvette_CIMG1896.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'65 Corvette",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252765_Corvette_CIMG1896.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'49 Merc",
+      "campo": "im[6423]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5f/Hiway_%252749_Merc_Harnoze.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "What-4-2",
+      "campo": "im[6679]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/57/What-4-2_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "1970 Plymouth Barracuda",
+      "campo": "im[6680]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/14/70_Cuda_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "1970 Plymouth Barracuda",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/14/70_Cuda_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "C6 Corvette",
+      "campo": "im[6681]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0f/C6_Corvette_AGENTAIR_7.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Symbolic",
+      "campo": "im[6682]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ac/Mystery_Symbolic.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Power Rage",
+      "campo": "im[6683]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/Power_Rage_-_MysteryGold.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Power Rage",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/Power_Rage_-_MysteryGold.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (Animated)",
+      "campo": "im[6684]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/7a/Ani_Bat_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (Animated)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/7a/Ani_Bat_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'71 Dodge Demon (2nd Color)",
+      "campo": "im[7287]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/12/2011_%252771_Dodge_Demon_Walmart_50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'67 Pontiac Firebird 400 (3rd Color)",
+      "campo": "im[7293]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/ce/67_Pontiac_Firebird_400_%2528V0025%2529_%2528OH5%2529_1.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Mustang Fastback (3rd Color)",
+      "campo": "im[7300]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/35/Ford_Mustang_Fastback_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Mustang Fastback (3rd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/35/Ford_Mustang_Fastback_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Custom '53 Chevy (2nd Color)",
+      "campo": "im[7303]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/64/Custom_%252753_chevy_002_50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'56 Ford F-100 (3rd Color)",
+      "campo": "im[7309]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/60/2011_%252756_Ford_F100_Plum_004_50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Fish'd & Chip'd (2nd Color)",
+      "campo": "im[7312]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2e/FISH%2527D_%2526_CHIP%2527D.HEAT_FLEET_2011_Satin_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Pass'n Gasser (2nd Color)",
+      "campo": "im[7318]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/Pass%2527n_Gasser_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tail Dragger (3rd Color)",
+      "campo": "im[7321]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/83/Tail_Dragger_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Custom Volkswagen Beetle (2nd Color)",
+      "campo": "im[7323]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/92/S-l1600_%25281%2529-1.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'65 Mustang (2nd Color)",
+      "campo": "im[7325]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c5/65_Ford_Mustang_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'65 Mustang (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c5/65_Ford_Mustang_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'68 El Camino (3rd Color)",
+      "campo": "im[7337]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/84/%252768_El_Camino.2011-104_Metalflake_Purple.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Fright Bike (2nd Color)",
+      "campo": "im[7378]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/be/Fright_Bike_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Acura NSX (3rd Color)",
+      "campo": "im[7392]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c5/Acura_NSX_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Anglia Panel Truck (2nd Color)",
+      "campo": "im[7406]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/89/Ford_Anglia_Panel_Truck_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Buick Grand National (2nd Color)",
+      "campo": "im[7408]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/18/BUICK_G.N._PERFORMANCE_%252711_WHITE.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Buick Grand National (3rd Color)",
+      "campo": "im[7409]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/eb/Buick_Grand_National_%2528V5225%2529.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Volkswagen Type 181 (2nd Color)",
+      "campo": "im[7429]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/94/10de10_volkswagen_type_181_faster_than_ever_%252711_e.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'67 Chevelle SS 396 (2nd Color)",
+      "campo": "im[7431]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/35/%252767_Chevelle_SS_396_CIMG1295.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys (2nd Color)",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys (3rd Color)",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'92 Ford Mustang (2nd Color)",
+      "campo": "im[7449]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/cb/%252792_Ford_Mustang_CIMG1778.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Pontiac Firebird",
+      "campo": "im[7456]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/82/pontiac_firebird_police.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Pontiac Firebird",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/82/pontiac_firebird_police.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tri & Stop Me (2nd Color)",
+      "campo": "im[7473]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/32/Tri_%2526_Stop_Me_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford GT (2nd Color)",
+      "campo": "im[7530]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f6/Ford_GT_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'67 Plymouth GTX (2nd Color)",
+      "campo": "im[7599]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/72/%252767_Plymouth_GTX%252C086_2012_Purple.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'67 Plymouth GTX (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/72/%252767_Plymouth_GTX%252C086_2012_Purple.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'70 Plymouth AAR Cuda (2nd Color)",
+      "campo": "im[7608]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/89/2012-MMM10-70PlymouthAARCuda-Blue_%2528Walmart_Exc%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2010 Chevy Impala",
+      "campo": "im[7609]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/DSC00136.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2010 Chevy Impala",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/DSC00136.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ford Thunderbolt (2nd Color)",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/39/2003_100%25_Preferred_Ford_Burgundy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'86 Monte Carlo SS",
+      "campo": "im[7730]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/63/%252786_Monte_Carlo_SS_-_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'86 Monte Carlo SS (2nd Color)",
+      "campo": "im[7731]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/72/%252786_Monte_Carlo_SS.149_2012_Orange.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'11 Dodge Charger R/T",
+      "campo": "im[7750]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ab/%252711_Dodge_Charger_R-T-SUPER.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'71 Maverick Grabber",
+      "campo": "im[7784]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/84/71_Ford_Maverick_Grabber_-_12_HW_Racing_%2524UPER.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Buzzerk",
+      "campo": "im[7848]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/Buzzerk_code_cars.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tread Air",
+      "campo": "im[7850]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/32/Tread_Air_-_HW_Code_Cars_12_-_V5542.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Go Kart",
+      "campo": "im[7856]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e8/6826577161_17157dc1be_z_%281%29.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Bone Shaker",
+      "campo": "im[8084]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/df/B%2526M_FINDS_004.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'57 Chevy (2nd Color)",
+      "campo": "im[8107]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4e/%252757_Chevy-2013_196_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'69 Camaro (2nd Color)",
+      "campo": "im[8109]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e2/69_Camaro_Convertible_%2528X2023%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'73 Ford Falcon XB (2nd Color)",
+      "campo": "im[8112]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0a/%252773_Ford_Falcon_XB-2013_198_Black.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'64 Corvette Sting Ray (2nd Color)",
+      "campo": "im[8120]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/34/%252764_Corvette_Sting_Ray-2013_204_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'80s Corvette",
+      "campo": "im[8122]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d9/%252780%2527s_Corvette-2013_206_Corvette_60th_Anniversary.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'80s Corvette (2nd Color)",
+      "campo": "im[8123]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e8/%252780%2527s_Corvette-2013_206_Green.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'69 Dodge Coronet Superbee (2nd Color)",
+      "campo": "im[8133]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/%252769_Dodge_Coronet_Super_Bee-2013_212_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'69 Chevelle SS 396 (2nd Color)",
+      "campo": "im[8136]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/ff/%252769_Chevelle_SS_396-2013_214_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'69 Chevelle SS 396 (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/ff/%252769_Chevelle_SS_396-2013_214_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'71 Dodge Demon",
+      "campo": "im[8142]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/66/%252771_Dodge_Demon-Blue0.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'08 Dodge Challenger SRT8 (2nd Color)",
+      "campo": "im[8159]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1b/2013_HW_Workshop_%252708_Dodge_Challenger_SRT8_Black_%25281%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'08 Dodge Challenger SRT8 (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1b/2013_HW_Workshop_%252708_Dodge_Challenger_SRT8_Black_%25281%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'07 Ford Mustang",
+      "campo": "im[8163]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/10/%252707_Ford_Mustang-GREEN.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'65 Mustang 2+2 Fastback (2nd Color)",
+      "campo": "im[8178]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/%252765_Mustang_Fastback-2013_237_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'67 Camaro",
+      "campo": "im[8190]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/94/%252767_Camaro-2013_SS_Treasure_Hunt.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'70 Plymouth AAR Cuda (2nd Color)",
+      "campo": "im[8193]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/42/%252770_Plymouth_AAR_Cuda-2013_247_Metallic_Gray.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'70 Chevelle SS Wagon (2nd Color)",
+      "campo": "im[8195]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8a/70_Chevelle_SS_Wagon_%2528X2042%2529_01.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tire Fryer",
+      "campo": "im[8198]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/bgj63.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "40 Somethin'",
+      "campo": "im[8199]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/bgj64.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Turbo Turret (2nd Color)",
+      "campo": "im[8293]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/bfg08.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Madfast (2nd Color)",
+      "campo": "im[8447]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/23/bff50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Eevil Weevil (2nd Color)",
+      "campo": "im[8699]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/85/cfm19.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Eevil Weevil (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/85/cfm19.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Canyon Carver (2nd Color)",
+      "campo": "im[8720]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d5/cfj29.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "RD-02 (2nd Color)",
+      "campo": "im[8817]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/27/cfl74.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "RD-02 (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/27/cfl74.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Corvette C7.R",
+      "campo": "im[8895]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5a/c7r.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Maximum Leeway (2nd Color)",
+      "campo": "im[8912]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1a/cfl67.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ryura LX",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/85/Tom_%26_Jerry_6-6%3B_Ryura_LX_%282014%29_-_Hot_Wheels_CMJ34_2015_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ryura LX (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/85/Tom_%26_Jerry_6-6%3B_Ryura_LX_%282014%29_-_Hot_Wheels_CMJ34_2015_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'10 Pro Stock Camaro",
+      "campo": "im[9096]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f6/Hot-Wheels-%2525u201910-Pro-Stock-Camaro-Super-T-Hunt.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "im[9149]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/a7/willy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'70 Plymouth AAR Cuda",
+      "campo": "im[9204]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/55/aar.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Camaro Z28",
+      "campo": "im[9206]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/82/z28.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Mad Propz",
+      "campo": "im[9228]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/08/mad.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Volkswagen T2 Pickup (2nd Color)",
+      "campo": "im[9431]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b5/Volks_T2_Pickup_%2528Bra%2529_Art_C_1_-_17_Official.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Cyber Speeder",
+      "campo": "im[9515]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/21/CyberSpeeder_%25281%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Beat All",
+      "campo": "im[9517]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f2/BeatAll_%25281%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hi Beam",
+      "campo": "im[9531]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/bf/HiBeam_%25282%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hi Beam",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/bf/HiBeam_%25282%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (3rd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'49 Volkswagen Beetle Pickup (2nd Color)",
+      "campo": "im[9701]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/2019_%252749_Beetle_Pickup.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'49 Volkswagen Beetle Pickup (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/2019_%252749_Beetle_Pickup.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "1978 Dodge Li'l Red Express Truck (2nd Color)",
+      "campo": "im[9716]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c4/2019_Hot_Wheels_1978_Dodge_Li%2527l_Red_Express_Truck.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'70 Chevelle SS Wagon (2nd Color)",
+      "campo": "im[9718]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b4/2019_HotWheels_%252770_Chevelle_SS_Wagon_2nd_colour.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'87 Dodge D100 (3rd Color)",
+      "campo": "im[9733]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/2019_Hot_Wheels_%252787_Dodge_D100_Red_Edition_Carded.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Justice League Batmobile (2nd Color)",
+      "campo": "im[9737]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/3e/FYF63_066_Justice_League_Batmobile.jpg_%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'65 Mustang 2+2 Fastback (2nd Color - Zamac)",
+      "campo": "im[9748]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/00/%252765_Mustang_2%252B2_Fastback.Muscle_Mania.Zamac.1.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'16 Mercedes-AMG GT3 (2nd Color)",
+      "campo": "im[9753]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/75/2019_Hot_Wheels_%252716_Mercedes_AMG_GT3_2nd_color.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Surf 'N Turf",
+      "campo": "im[9762]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0f/2019_Hot_Wheels_Surf_%2527N_Turf.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'85 Honda City Turbo II",
+      "campo": "im[9766]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e4/2019_Hot_Wheels_%252785_Honda_City_Turbo_II.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Volkswagen T2 Pickup",
+      "campo": "im[9795]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/10/S-l1600_%25281%2529-0.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'10 Camaro SS",
+      "campo": "im[9801]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e0/2019_Hot_Wheels_%252710_Camaro_SS.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'10 Camaro SS (2nd Color)",
+      "campo": "im[9802]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/62/2019_Hot_Wheels_%252710_Camaro_SS_2nd_colour.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'70 Ford Escort RS1600",
+      "campo": "im[9807]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4d/2019_Hot_Wheels_%252770_Ford_Escort_RS1600.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'32 Ford",
+      "campo": "im[9812]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/12/%252732_Ford_%2528FYC13%2529-3.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Custom '69 Volkswagen Squareback (2nd Color - Zamac)",
+      "campo": "im[9868]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/50/2019_Hot_Wheels_Custom_%252769_VW_Squareback_Zamac.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'92 Ford Mustang",
+      "campo": "im[9896]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f8/2019_Hot_Wheels_%252792_Ford_Mustang.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'92 Ford Mustang",
+      "campo": "im[9897]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f9/2019_Hot_Wheels_Super_Treasure_Hunt_%252792_Ford_Mustang.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'96 Porsche Carrera (2nd Color)",
+      "campo": "im[9903]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fb/2019_HotWheels_%252796_Porsche_Carrera_2nd_color.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Fairlady 2000",
+      "campo": "im[9904]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/13/Fairlady_2000_%25282019%2529.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'67 Chevelle SS 396 (2nd Color - Zamac)",
+      "campo": "im[9907]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/2019_Hot_Wheels_%252767_Chevelle_SS_396_Zamac.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Nissan Skyline 2000 GT-R",
+      "campo": "im[9911]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/FYC81_-_Nissan_Skyline_H-T_2000GT-R_%25283%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Nissan Skyline 2000 GT-R",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/FYC81_-_Nissan_Skyline_H-T_2000GT-R_%25283%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'68 Mercury Cougar",
+      "campo": "im[9916]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/58/2019_Hot_Wheels_%252768_Mercury_Cougar_left.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'68 Mercury Cougar",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/58/2019_Hot_Wheels_%252768_Mercury_Cougar_left.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'69 Corvette Racer",
+      "campo": "im[9934]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/80/2019_Hot_Wheels_%252769_Corvete_Racer.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "bgcolor=\"pink\" |'14 Corvette Stingray",
+      "campo": "im[9937]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/24/2019_Hot_Wheels_%252714_Corvette_Stingray_Barbie.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "bgcolor=\"pink\" |'14 Corvette Stingray",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/24/2019_Hot_Wheels_%252714_Corvette_Stingray_Barbie.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'95 Mazda RX-7",
+      "campo": "im[9938]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8d/2020_Hot_Wheels_%252795_Mazda_RX-7_left.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Total Disposal (2nd Color)",
+      "campo": "im[9961]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c3/Total_Disposal_%25282nd_Color%2529_%25282020%2529.PNG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Volvo 850 Estate (2nd Color)",
+      "campo": "im[9965]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/06/Volvo_850_Wagon._2nd_Color_%25282020%2529_2.PNG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'64 Chevy Impala",
+      "campo": "im[9966]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/%252764_Chevy_Impala_Tooned._2019.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'64 Chevy Impala",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/%252764_Chevy_Impala_Tooned._2019.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Geoterra (2nd Color)",
+      "campo": "im[10051]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/bf/GHD85_01.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Runway Res-Q (2nd Color)",
+      "campo": "im[10055]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/%282%29_Runway_Res-Q_2020_%282nd_color%29_HW_Metro_7-10_104-250.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Mod Rod (2nd Color)",
+      "campo": "im[10063]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ad/1996ce3a-55ce-466f-8e28-92c05bc2d121_large.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'70 Volkswagen Baja Bug (2nd Color)",
+      "campo": "im[10093]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/98/2020_Hot_Wheels_%252770_VW_Baja_2nd_colour.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'52 Hudson Hornet (2nd Color)",
+      "campo": "im[10116]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0a/2020ML11_%2528Large%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'52 Hudson Hornet (2nd Color)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0a/2020ML11_%2528Large%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Party Wagon",
+      "campo": "im[10129]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/aa/TMNT_Party_Wagon_%25282020%25292.PNG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "McLaren P1 (3rd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b2/Forza_motorsport_2-6%3B_McLaren_%282013%29_P1-_Hot_Wheels_DWF33_2017_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Honda S2000 (2nd Color)",
+      "campo": "im[10141]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/60/S2000_%2528lime%252C_2020_Multpack%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Twinduction (2nd Color)",
+      "campo": "im[10739]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/22/HW_-_Twinduction_%25282023_-_HKK88%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile (2nd Color)",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman: Arkham Knight Batmobile (2nd Color)",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/Batman%3B_Arkham_Knight_Batmobile_2017.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "galeria[7]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/30/100%25_Preferred_-_Hod_Rod_Magazine_3-4_Jeep_%2741_Willys_Coupe_-Mooneyes-_Yellow_.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[2]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c9/Bat_-_1989_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[3]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fd/Bat_-_Shield_-_03_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[4]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/Bat_-_1995_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batmobile",
+      "campo": "galeria[5]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b8/Bat_-_1997_-_04_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Volkswagen \"Classic Bug\"",
+      "campo": "im[11649]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/62/2019CC-CB-VW_%2528Large%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Volkswagen \"Classic Bug\"",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/62/2019CC-CB-VW_%2528Large%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2019 Car Culture",
+      "campo": "im[11689]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/43/2019_Hot_Wheels_%252760s_Fiat_500_Modificado_Gulf_carded.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2019 Car Culture",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/43/2019_Hot_Wheels_%252760s_Fiat_500_Modificado_Gulf_carded.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2019 Pop Culture",
+      "campo": "im[11853]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c8/2019_Hot_Wheels_Pop_Culture_Pinocchio_%252766_Dodge_Van.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2019 Pop Culture",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c8/2019_Hot_Wheels_Pop_Culture_Pinocchio_%252766_Dodge_Van.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hills",
+      "campo": "im[11906]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/ca/1995_Hill%2527s_Year_in_Review.jpeg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hills",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/ca/1995_Hill%2527s_Year_in_Review.jpeg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Plymouth Barracuda (Fatbax)",
+      "campo": "im[11966]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/grey_window_snake.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Plymouth Barracuda (Fatbax)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/grey_window_snake.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2018 Mystery Models",
+      "campo": "im[12019]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5a/HW_%252713_COPO_CMARARO_FKX29.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2018 Mystery Models",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5a/HW_%252713_COPO_CMARARO_FKX29.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'32 Duesenberg SJ",
+      "campo": "im[12118]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1d/3____1932JS_Duesenberg_Classic_Bodies.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'32 Duesenberg SJ",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1d/3____1932JS_Duesenberg_Classic_Bodies.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'32 Ford Sedan (100%)",
+      "campo": "im[12121]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c7/OrangeCrate_%25281%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'32 Ford Sedan (100%)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c7/OrangeCrate_%25281%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'34 Ford Lakes Coupe",
+      "campo": "im[12124]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/16/%252734_3-WINDOW_BRUCE_MEYER_GALLERY_2001.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'34 Ford Lakes Coupe",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/16/%252734_3-WINDOW_BRUCE_MEYER_GALLERY_2001.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'69 Corvette (1:18)",
+      "campo": "im[12148]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b7/cream69.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "'69 Corvette (1:18)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b7/cream69.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "100% Hot Wheels 40th Anniversary",
+      "campo": "im[12157]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/a2/100%25_Hot_Wheels_40th_Anniversary_2008_Volkswagen_Truck_White_China_M1677.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "100% Hot Wheels 40th Anniversary",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/a2/100%25_Hot_Wheels_40th_Anniversary_2008_Volkswagen_Truck_White_China_M1677.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "100% Hot Wheels 1:43 Scale",
+      "campo": "im[12158]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/dd/100%25_1-43_2001_348_TB_Red_China_25712.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "100% Hot Wheels 1:43 Scale",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/dd/100%25_1-43_2001_348_TB_Red_China_25712.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2000 Corvette",
+      "campo": "im[12178]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/9b/candyc5.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "2000 Corvette",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/9b/candyc5.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman & Robin Batmobile (100%)",
+      "campo": "im[12191]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/de/Bat_-_1997_-_04_100%2525.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman & Robin Batmobile (100%)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/de/Bat_-_1997_-_04_100%2525.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman Forever Batmobile (100%)",
+      "campo": "im[12194]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/67/Bat_-_1995_-_04_100%2525.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Batman Forever Batmobile (100%)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/67/Bat_-_1995_-_04_100%2525.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Custom Woody Pickup",
+      "campo": "im[12210]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/purple_custom_the_woody.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Custom Woody Pickup",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/purple_custom_the_woody.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Dodge Intrepid Stocker (100%)",
+      "campo": "im[12214]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c6/dodge_intrepid_100_22.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Dodge Intrepid Stocker (100%)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c6/dodge_intrepid_100_22.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ferrari 2-Car Set",
+      "campo": "im[12216]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Ferrari250GTO100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Ferrari 2-Car Set",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Ferrari250GTO100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Enzo Ferrari (100%)",
+      "campo": "im[12218]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e2/EnzoFerrari100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Enzo Ferrari (100%)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e2/EnzoFerrari100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hot Wheels Speedster",
+      "campo": "im[12233]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2d/100%25_1-18_2002_Hot_Wheels_Speedster_Orange_China_53830.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hot Wheels Speedster",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2d/100%25_1-18_2002_Hot_Wheels_Speedster_Orange_China_53830.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Mercohaulic",
+      "campo": "im[12237]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4f/15_NEWTON%2527S_1999_MERCOHAULIC.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Mercohaulic",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4f/15_NEWTON%2527S_1999_MERCOHAULIC.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Pontiac Grand Prix Stocker (100%)",
+      "campo": "im[12243]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/71/kyle_petty_is_100_percent_2.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Pontiac Grand Prix Stocker (100%)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/71/kyle_petty_is_100_percent_2.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Pro Street Corvette (1:18)",
+      "campo": "im[12246]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d5/pro64.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Pro Street Corvette (1:18)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d5/pro64.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Shelby Series 1",
+      "campo": "im[12252]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Shelby_Series_1-2002_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Shelby Series 1",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Shelby_Series_1-2002_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Streamliner",
+      "campo": "im[12256]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/af/rojoyblanco.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Streamliner",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/af/rojoyblanco.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "T-Bird Stocker (100%)",
+      "campo": "im[12259]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/02/im_lovin_it_100_per2.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "T-Bird Stocker (100%)",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/02/im_lovin_it_100_per2.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tommy Ivo's AA/F Dragster",
+      "campo": "im[12262]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/2004-100%25_Showcase_Tommy_Ivo_AAF_Dragster_Psychedelic_1c2.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Tommy Ivo's AA/F Dragster",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/2004-100%25_Showcase_Tommy_Ivo_AAF_Dragster_Psychedelic_1c2.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Blind-Sided",
+      "campo": "im[12327]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/honey_i_was_blind_sided.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Blind-Sided",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/honey_i_was_blind_sided.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hot Wheels Fire Rescue",
+      "campo": "im[12403]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/df/%E9%A2%A8%E7%81%AB%E8%BC%AA_FIRE_RESCUE_%26_HW_5_ALARM_%E6%B6%88%E9%98%B2%E7%B5%84_%E6%80%AA%E7%8D%B8%E5%8D%A1%E8%BB%8A%E9%9B%99%E8%BB%8A%E7%B5%84_%E5%A4%A7%E8%85%B3%E8%BB%8A_26C-1.jpg&_HW_5_ALARM_消防組_怪獸卡車雙車組_大腳車_26C-1.jpg",
+      "estado": "broken",
+      "error": "'ascii' codec can't encode characters in position 256-258: ordinal not in range(128)",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Hot Wheels Fire Rescue",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/df/%E9%A2%A8%E7%81%AB%E8%BC%AA_FIRE_RESCUE_%26_HW_5_ALARM_%E6%B6%88%E9%98%B2%E7%B5%84_%E6%80%AA%E7%8D%B8%E5%8D%A1%E8%BB%8A%E9%9B%99%E8%BB%8A%E7%B5%84_%E5%A4%A7%E8%85%B3%E8%BB%8A_26C-1.jpg&_HW_5_ALARM_消防組_怪獸卡車雙車組_大腳車_26C-1.jpg",
+      "estado": "broken",
+      "error": "'ascii' codec can't encode characters in position 256-258: ordinal not in range(128)",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Mighty Mixup",
+      "campo": "im[12449]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/52/20250803_182239.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "Mighty Mixup",
+      "campo": "galeria[0]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/52/20250803_182239.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/catalogo.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/coleccion.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/seguimiento.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/tendencias.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/cajas.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/ruedas.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/escanear.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/valorar.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/disenadores.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "assets/icons-svg/asistente.svg",
+      "estado": "corrupt",
+      "error": "no decodifica: cannot identify image file 'C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\\\a",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${escA(IMG(c.im))}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${noPhotoSVG(178,178)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${c.im?escA(IMG(c.im)):escA(noPhotoSVG(120,120))}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${escA(IMG(c.im))}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${url}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(match.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${avatar}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${encontrado.img}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+IMG(d.im||",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+IMG(d.im)+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${VER(d.foto)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+VER(d.foto)+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${qrUrl}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+s.img+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "' + VER(w.img) + '",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "' + VER(w.img) + '",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+IMG(c.im)+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+VER(urls[idx])+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+VER(u)+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${url}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(match.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${avatar}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${encontrado.img}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+IMG(d.im||",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+IMG(d.im)+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${url}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(c.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${IMG(match.im)}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${avatar}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "${encontrado.img}",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+IMG(d.im||",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    },
+    {
+      "modelo": "",
+      "campo": "<img>.src",
+      "valor": "'+IMG(d.im)+'",
+      "estado": "missing_file",
+      "error": "",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": false
+    }
+  ]
+}

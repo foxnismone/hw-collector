@@ -1,0 +1,10 @@
+html = open('index.html', encoding='utf-8').read()
+import re
+i = html.find('function barrasFactores')
+if i < 0: i = html.find('barrasFactores=')
+print("=== barrasFactores ===")
+print(html[i:i+700])
+print()
+j = html.find('function radar')
+print("=== radar ===")
+print(html[j:j+500])

@@ -1,0 +1,11 @@
+import re
+h = open('index.html', encoding='utf-8').read()
+print("IMG_DIRECTA:", h.count('IMG_DIRECTA'))
+print("IMGFALLBACK:", h.count('IMGFALLBACK'))
+print("onerror viejo:", h.count("this.classList.add('imgerr');this.removeAttribute('src');"))
+print("onerror nuevo:", h.count('IMGFALLBACK(this)'))
+print("data-directo:", h.count('data-directo'))
+i = h.find('const img=c.im?')
+print()
+print("=== render tarjeta ===")
+print(h[i:i+520])

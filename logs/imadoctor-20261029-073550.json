@@ -1,0 +1,4396 @@
+{
+  "resumen": {
+    "ejecutado_en": "2026-10-29 08:05:53",
+    "duracion_seg": 1803.0,
+    "dry_run": false,
+    "auditoria": {
+      "total_referencias": 14310,
+      "ok": 14161,
+      "rotas": 149,
+      "missing_file": 0,
+      "vacias": 0,
+      "corruptas": 0
+    },
+    "reparacion": {
+      "descargadas_local": 149,
+      "url_actualizadas": 0,
+      "omitidas": 0,
+      "descartes_validacion": 0
+    }
+  },
+  "entradas": [
+    {
+      "ts": "07:35:50",
+      "fase": "inicio",
+      "nivel": "info",
+      "mensaje": "image-doctor iniciado (dry_run=False, solo_im=True)",
+      "datos": {}
+    },
+    {
+      "ts": "07:35:50",
+      "fase": "auditoria",
+      "nivel": "info",
+      "mensaje": "escaneando fuentes...",
+      "datos": {}
+    },
+    {
+      "ts": "07:36:09",
+      "fase": "auditoria",
+      "nivel": "info",
+      "mensaje": "14310 referencias: 14161 ok, 149 rotas, 0 sin archivo, 0 vacias, 0 corruptas",
+      "datos": {}
+    },
+    {
+      "ts": "07:36:10",
+      "fase": "metadata",
+      "nivel": "info",
+      "mensaje": "149/149 referencias con metadata exacta (+0 resueltas del catalogo)",
+      "datos": {}
+    },
+    {
+      "ts": "07:36:10",
+      "fase": "contexto",
+      "nivel": "info",
+      "mensaje": "149/149 con plan de busqueda",
+      "datos": {}
+    },
+    {
+      "ts": "07:36:10",
+      "fase": "validacion",
+      "nivel": "info",
+      "mensaje": "validacion visual por CLIP: activa",
+      "datos": {}
+    },
+    {
+      "ts": "08:05:31",
+      "fase": "busqueda",
+      "nivel": "info",
+      "mensaje": "149 imagenes con candidato valido; 0 sin ninguno",
+      "datos": {}
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Da'Kar -> afead285b14c.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[3274]",
+        "modelo": "Da'Kar",
+        "serie": "Mainline[]",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/7e/Da%27Kar.jpg",
+        "valor_nuevo": "afead285b14c.webp",
+        "accion": "descargada_local",
+        "motivo": "1008x708 127782b score 0.218",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "The Gov'ner -> d742a4e889de.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[3307]",
+        "modelo": "The Gov'ner",
+        "serie": "Mainline[]",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8e/The_Gov%27ner.jpg",
+        "valor_nuevo": "d742a4e889de.webp",
+        "accion": "descargada_local",
+        "motivo": "2198x2990 911288b score 0.221",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "\"Hammerhead\" -> b9a8346ba96d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[3956]",
+        "modelo": "\"Hammerhead\"",
+        "serie": "Mainline[]",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4e/Hammerhead.jpg",
+        "valor_nuevo": "b9a8346ba96d.webp",
+        "accion": "descargada_local",
+        "motivo": "640x480 40596b score 0.193",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Bugeye -> 31db15113079.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[4662]",
+        "modelo": "Bugeye",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4a/Lime.jpg",
+        "valor_nuevo": "31db15113079.webp",
+        "accion": "descargada_local",
+        "motivo": "130x130 7784b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Ramblin' Wrecker -> aca3038cb570.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[4698]",
+        "modelo": "Ramblin' Wrecker",
+        "serie": "1975 Flying Colors",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/mike_Ramblin_Wrecker_blue_tint_window.jpg",
+        "valor_nuevo": "aca3038cb570.webp",
+        "accion": "descargada_local",
+        "motivo": "3845x3000 956634b score 0.206",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Tank Gunner -> af0d4d7822e8.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[5096]",
+        "modelo": "Tank Gunner",
+        "serie": "Action Command",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f4/gun_bucket_bbw.JPG",
+        "valor_nuevo": "af0d4d7822e8.webp",
+        "accion": "descargada_local",
+        "motivo": "1333x3624 308590b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Peterbilt Cement Mixer -> a36383876034.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[5110]",
+        "modelo": "Peterbilt Cement Mixer",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/eb/x172-4%2C49-2%2C15.jpg",
+        "valor_nuevo": "a36383876034.webp",
+        "accion": "descargada_local",
+        "motivo": "1720x2564 865598b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Deora II -> 81496d456920.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[5761]",
+        "modelo": "Deora II",
+        "serie": "bgcolor=\"yellow\"|2001 Sam's Club Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/80/Sam%2527s_Club_Deora_II-BBB01.jpg",
+        "valor_nuevo": "81496d456920.webp",
+        "accion": "descargada_local",
+        "motivo": "2559x934 284518b score 0.206",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'57 Chevy Bel Air -> eaf3f01ef2ab.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6413]",
+        "modelo": "'57 Chevy Bel Air",
+        "serie": "bgcolor=\"gray\" |Bone Blazers New in Mainline",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252757_Bel_Air_-_Bone_Blazers.jpg",
+        "valor_nuevo": "eaf3f01ef2ab.webp",
+        "accion": "descargada_local",
+        "motivo": "853x457 32242b score 0.206",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'65 Corvette -> 29391de26491.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6415]",
+        "modelo": "'65 Corvette",
+        "serie": "bgcolor=\"gray\" |Bone Blazers",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252765_Corvette_CIMG1896.JPG",
+        "valor_nuevo": "29391de26491.webp",
+        "accion": "descargada_local",
+        "motivo": "3060x2897 2089636b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'49 Merc -> 1da3579c6ac5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6423]",
+        "modelo": "'49 Merc",
+        "serie": "bgcolor=\"gray\" |Highway Horror",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5f/Hiway_%252749_Merc_Harnoze.jpg",
+        "valor_nuevo": "1da3579c6ac5.webp",
+        "accion": "descargada_local",
+        "motivo": "640x853 82816b score 0.220",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "What-4-2 -> a32d3d2a10ff.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6679]",
+        "modelo": "What-4-2",
+        "serie": "bgcolor=\"black\" |Mystery Car",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/57/What-4-2_-_07_Mystery.JPG%E2%80%8E",
+        "valor_nuevo": "a32d3d2a10ff.webp",
+        "accion": "descargada_local",
+        "motivo": "4032x3024 854302b score 0.203",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "1970 Plymouth Barracuda -> a32d3d2a10ff.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6680]",
+        "modelo": "1970 Plymouth Barracuda",
+        "serie": "bgcolor=\"black\" |Mystery Car",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/14/70_Cuda_-_07_Mystery.JPG%E2%80%8E",
+        "valor_nuevo": "a32d3d2a10ff.webp",
+        "accion": "descargada_local",
+        "motivo": "4032x3024 854302b score 0.207",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "C6 Corvette -> 82a42f4f0468.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6681]",
+        "modelo": "C6 Corvette",
+        "serie": "bgcolor=\"black\" |Mystery Car",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0f/C6_Corvette_AGENTAIR_7.jpg%E2%80%8E",
+        "valor_nuevo": "82a42f4f0468.webp",
+        "accion": "descargada_local",
+        "motivo": "554x323 25422b score 0.208",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Symbolic -> 6a542b4a4e00.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6682]",
+        "modelo": "Symbolic",
+        "serie": "bgcolor=\"black\" |Mystery Car",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ac/Mystery_Symbolic.jpg%E2%80%8E",
+        "valor_nuevo": "6a542b4a4e00.webp",
+        "accion": "descargada_local",
+        "motivo": "432x288 23310b score 0.210",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Power Rage -> 1da3579c6ac5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6683]",
+        "modelo": "Power Rage",
+        "serie": "bgcolor=\"black\" |Mystery Car New in Mainline",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/Power_Rage_-_MysteryGold.JPG%E2%80%8E",
+        "valor_nuevo": "1da3579c6ac5.webp",
+        "accion": "descargada_local",
+        "motivo": "640x853 82816b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Batmobile (Animated) -> dd82856ed14c.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[6684]",
+        "modelo": "Batmobile (Animated)",
+        "serie": "bgcolor=\"black\" |Mystery Car New in Mainline",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/7a/Ani_Bat_-_07_Mystery.JPG%E2%80%8E",
+        "valor_nuevo": "dd82856ed14c.webp",
+        "accion": "descargada_local",
+        "motivo": "2674x2004 392544b score 0.197",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'71 Dodge Demon (2nd Color) -> 4fdbb75064cc.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7287]",
+        "modelo": "'71 Dodge Demon (2nd Color)",
+        "serie": "bgcolor=\"blue\"|Street Beasts Walmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/12/2011_%252771_Dodge_Demon_Walmart_50.jpg",
+        "valor_nuevo": "4fdbb75064cc.webp",
+        "accion": "descargada_local",
+        "motivo": "1000x1400 340440b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'67 Pontiac Firebird 400 (3rd Color) -> 3753352dc852.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7293]",
+        "modelo": "'67 Pontiac Firebird 400 (3rd Color)",
+        "serie": "bgcolor=\"blue\"|Street Beasts",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/ce/67_Pontiac_Firebird_400_%2528V0025%2529_%2528OH5%2529_1.jpg",
+        "valor_nuevo": "3753352dc852.webp",
+        "accion": "descargada_local",
+        "motivo": "400x293 53930b score 0.203",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Ford Mustang Fastback (3rd Color) -> 3a4fcc50ddcf.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7300]",
+        "modelo": "Ford Mustang Fastback (3rd Color)",
+        "serie": "bgcolor=\"blue\"|Street Beasts Walmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/35/Ford_Mustang_Fastback_%2528800x600%2529.jpg",
+        "valor_nuevo": "3a4fcc50ddcf.webp",
+        "accion": "descargada_local",
+        "motivo": "1536x2048 226354b score 0.209",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Custom '53 Chevy (2nd Color) -> 98d4fae98057.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7303]",
+        "modelo": "Custom '53 Chevy (2nd Color)",
+        "serie": "bgcolor=\"blue\"|Heat Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/64/Custom_%252753_chevy_002_50.jpg",
+        "valor_nuevo": "98d4fae98057.webp",
+        "accion": "descargada_local",
+        "motivo": "917x284 41998b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'56 Ford F-100 (3rd Color) -> 30ac90a1b96f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7309]",
+        "modelo": "'56 Ford F-100 (3rd Color)",
+        "serie": "bgcolor=\"blue\"|Heat Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/60/2011_%252756_Ford_F100_Plum_004_50.jpg",
+        "valor_nuevo": "30ac90a1b96f.webp",
+        "accion": "descargada_local",
+        "motivo": "1728x2304 569242b score 0.203",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Fish'd & Chip'd (2nd Color) -> 956feb2fb130.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7312]",
+        "modelo": "Fish'd & Chip'd (2nd Color)",
+        "serie": "bgcolor=\"blue\"|Heat Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2e/FISH%2527D_%2526_CHIP%2527D.HEAT_FLEET_2011_Satin_Blue.jpg",
+        "valor_nuevo": "956feb2fb130.webp",
+        "accion": "descargada_local",
+        "motivo": "1424x971 111116b score 0.197",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Pass'n Gasser (2nd Color) -> 15c420f0eb25.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7318]",
+        "modelo": "Pass'n Gasser (2nd Color)",
+        "serie": "bgcolor=\"blue\"|Heat Fleet Toys R Us Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/Pass%2527n_Gasser_%2528800x600%2529.jpg",
+        "valor_nuevo": "15c420f0eb25.webp",
+        "accion": "descargada_local",
+        "motivo": "4224x5632 1163136b score 0.219",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Tail Dragger (3rd Color) -> e280075f695f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7321]",
+        "modelo": "Tail Dragger (3rd Color)",
+        "serie": "bgcolor=\"blue\"|Heat Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/83/Tail_Dragger_%2528800x600%2529.jpg",
+        "valor_nuevo": "e280075f695f.webp",
+        "accion": "descargada_local",
+        "motivo": "2308x3089 1109468b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Custom Volkswagen Beetle (2nd Color) -> 53568e85a14b.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7323]",
+        "modelo": "Custom Volkswagen Beetle (2nd Color)",
+        "serie": "bgcolor=\"blue\"|Heat Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/92/S-l1600_%25281%2529-1.jpg",
+        "valor_nuevo": "53568e85a14b.webp",
+        "accion": "descargada_local",
+        "motivo": "812x541 76430b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'65 Mustang (2nd Color) -> d910c3a4c46e.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7325]",
+        "modelo": "'65 Mustang (2nd Color)",
+        "serie": "bgcolor=\"blue\"|Heat Fleet Walmart Exclusive New in Mainline",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c5/65_Ford_Mustang_%2528800x600%2529.jpg",
+        "valor_nuevo": "d910c3a4c46e.webp",
+        "accion": "descargada_local",
+        "motivo": "622x932 98250b score 0.216",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'68 El Camino (3rd Color) -> ffb8acd32df7.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7337]",
+        "modelo": "'68 El Camino (3rd Color)",
+        "serie": "bgcolor=\"blue\"|Muscle Mania",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/84/%252768_El_Camino.2011-104_Metalflake_Purple.jpg",
+        "valor_nuevo": "ffb8acd32df7.webp",
+        "accion": "descargada_local",
+        "motivo": "252x144 10504b score 0.212",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Fright Bike (2nd Color) -> 11e39bcc8695.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7378]",
+        "modelo": "Fright Bike (2nd Color)",
+        "serie": "bgcolor=\"blue\"|HW Drag Racers",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/be/Fright_Bike_%2528800x600%2529.jpg",
+        "valor_nuevo": "11e39bcc8695.webp",
+        "accion": "descargada_local",
+        "motivo": "1398x950 192202b score 0.222",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Acura NSX (3rd Color) -> 37a68370d65c.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7392]",
+        "modelo": "Acura NSX (3rd Color)",
+        "serie": "bgcolor=\"blue\"|HW Performance",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c5/Acura_NSX_%2528800x600%2529.jpg",
+        "valor_nuevo": "37a68370d65c.webp",
+        "accion": "descargada_local",
+        "motivo": "2038x1675 780940b score 0.212",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Anglia Panel Truck (2nd Color) -> 11e39bcc8695.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7406]",
+        "modelo": "Anglia Panel Truck (2nd Color)",
+        "serie": "bgcolor=\"blue\"|HW Performance Walmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/89/Ford_Anglia_Panel_Truck_%2528800x600%2529.jpg",
+        "valor_nuevo": "11e39bcc8695.webp",
+        "accion": "descargada_local",
+        "motivo": "1398x950 192202b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Buick Grand National (2nd Color) -> 22216d17ce3d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7408]",
+        "modelo": "Buick Grand National (2nd Color)",
+        "serie": "bgcolor=\"blue\"|HW Performance",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/18/BUICK_G.N._PERFORMANCE_%252711_WHITE.jpg",
+        "valor_nuevo": "22216d17ce3d.webp",
+        "accion": "descargada_local",
+        "motivo": "1659x1936 745704b score 0.202",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Buick Grand National (3rd Color) -> 22216d17ce3d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7409]",
+        "modelo": "Buick Grand National (3rd Color)",
+        "serie": "bgcolor=\"blue\"|HW Performance",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/eb/Buick_Grand_National_%2528V5225%2529.png",
+        "valor_nuevo": "22216d17ce3d.webp",
+        "accion": "descargada_local",
+        "motivo": "1659x1936 745704b score 0.206",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Volkswagen Type 181 (2nd Color) -> 847d0ccaa720.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7429]",
+        "modelo": "Volkswagen Type 181 (2nd Color)",
+        "serie": "bgcolor=\"blue\"|Faster Than Ever",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/94/10de10_volkswagen_type_181_faster_than_ever_%252711_e.jpg",
+        "valor_nuevo": "847d0ccaa720.webp",
+        "accion": "descargada_local",
+        "motivo": "682x1024 119550b score 0.216",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'67 Chevelle SS 396 (2nd Color) -> 4416cdc6732d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7431]",
+        "modelo": "'67 Chevelle SS 396 (2nd Color)",
+        "serie": "bgcolor=\"blue\"|HW Racing",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/35/%252767_Chevelle_SS_396_CIMG1295.JPG",
+        "valor_nuevo": "4416cdc6732d.webp",
+        "accion": "descargada_local",
+        "motivo": "655x338 37658b score 0.195",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'92 Ford Mustang (2nd Color) -> 3a4fcc50ddcf.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7449]",
+        "modelo": "'92 Ford Mustang (2nd Color)",
+        "serie": "bgcolor=\"blue\"|HW Racing",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/cb/%252792_Ford_Mustang_CIMG1778.JPG",
+        "valor_nuevo": "3a4fcc50ddcf.webp",
+        "accion": "descargada_local",
+        "motivo": "1536x2048 226354b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Pontiac Firebird -> e92bb13be0fe.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7456]",
+        "modelo": "Pontiac Firebird",
+        "serie": "bgcolor=\"blue\"|HW Main Street",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/82/pontiac_firebird_police.png",
+        "valor_nuevo": "e92bb13be0fe.webp",
+        "accion": "descargada_local",
+        "motivo": "283x383 30790b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Tri & Stop Me (2nd Color) -> 15c420f0eb25.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7473]",
+        "modelo": "Tri & Stop Me (2nd Color)",
+        "serie": "bgcolor=\"blue\"|HW City Works",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/32/Tri_%2526_Stop_Me_%2528800x600%2529.jpg",
+        "valor_nuevo": "15c420f0eb25.webp",
+        "accion": "descargada_local",
+        "motivo": "4224x5632 1163136b score 0.209",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Ford GT (2nd Color) -> 3a4fcc50ddcf.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7530]",
+        "modelo": "Ford GT (2nd Color)",
+        "serie": "bgcolor=\"red\"|Thrill Racers - Raceway",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f6/Ford_GT_%2528800x600%2529.jpg",
+        "valor_nuevo": "3a4fcc50ddcf.webp",
+        "accion": "descargada_local",
+        "motivo": "1536x2048 226354b score 0.212",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'67 Plymouth GTX (2nd Color) -> 0b84ab6e1e1d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7599]",
+        "modelo": "'67 Plymouth GTX (2nd Color)",
+        "serie": "bgcolor=\"blue\" |Muscle Mania - Mopar New in Mainline",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/72/%252767_Plymouth_GTX%252C086_2012_Purple.jpg",
+        "valor_nuevo": "0b84ab6e1e1d.webp",
+        "accion": "descargada_local",
+        "motivo": "771x1024 149770b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'70 Plymouth AAR Cuda (2nd Color) -> 1033acc3c402.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7608]",
+        "modelo": "'70 Plymouth AAR Cuda (2nd Color)",
+        "serie": "bgcolor=\"blue\" |Muscle Mania - Mopar Walmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/89/2012-MMM10-70PlymouthAARCuda-Blue_%2528Walmart_Exc%2529.jpg",
+        "valor_nuevo": "1033acc3c402.webp",
+        "accion": "descargada_local",
+        "motivo": "984x1488 346786b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "2010 Chevy Impala -> 053daeb6dac2.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7609]",
+        "modelo": "2010 Chevy Impala",
+        "serie": "bgcolor=\"blue\" |Faster Than Ever",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/DSC00136.jpg%E2%80%8E",
+        "valor_nuevo": "053daeb6dac2.webp",
+        "accion": "descargada_local",
+        "motivo": "640x480 90458b score 0.199",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'86 Monte Carlo SS -> c11e17d964d0.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7730]",
+        "modelo": "'86 Monte Carlo SS",
+        "serie": "bgcolor=\"blue\" |HW Performance",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/63/%252786_Monte_Carlo_SS_-_Blue.jpg",
+        "valor_nuevo": "c11e17d964d0.webp",
+        "accion": "descargada_local",
+        "motivo": "462x640 53048b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'86 Monte Carlo SS (2nd Color) -> b05a281a7b8f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7731]",
+        "modelo": "'86 Monte Carlo SS (2nd Color)",
+        "serie": "bgcolor=\"blue\" |HW Performance",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/72/%252786_Monte_Carlo_SS.149_2012_Orange.jpg",
+        "valor_nuevo": "b05a281a7b8f.webp",
+        "accion": "descargada_local",
+        "motivo": "800x543 94916b score 0.195",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'11 Dodge Charger R/T -> d937dc44ec5f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7750]",
+        "modelo": "'11 Dodge Charger R/T",
+        "serie": "bgcolor=\"blue\" |HW Main Street Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ab/%252711_Dodge_Charger_R-T-SUPER.jpg",
+        "valor_nuevo": "d937dc44ec5f.webp",
+        "accion": "descargada_local",
+        "motivo": "1600x2400 645208b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'71 Maverick Grabber -> 35b1fe44d9d1.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7784]",
+        "modelo": "'71 Maverick Grabber",
+        "serie": "bgcolor=\"blue\" |HW Racing Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/84/71_Ford_Maverick_Grabber_-_12_HW_Racing_%2524UPER.JPG",
+        "valor_nuevo": "35b1fe44d9d1.webp",
+        "accion": "descargada_local",
+        "motivo": "1024x525 116034b score 0.209",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Buzzerk -> 1da3579c6ac5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7848]",
+        "modelo": "Buzzerk",
+        "serie": "bgcolor=\"gray\" |HW Code Cars",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/Buzzerk_code_cars.jpg%E2%80%8E",
+        "valor_nuevo": "1da3579c6ac5.webp",
+        "accion": "descargada_local",
+        "motivo": "640x853 82816b score 0.221",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Tread Air -> 21c727ed9aa2.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7850]",
+        "modelo": "Tread Air",
+        "serie": "bgcolor=\"gray\" |HW Code Cars",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/32/Tread_Air_-_HW_Code_Cars_12_-_V5542.jpg%E2%80%8E",
+        "valor_nuevo": "21c727ed9aa2.webp",
+        "accion": "descargada_local",
+        "motivo": "4032x3024 322506b score 0.223",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Go Kart -> bddf35b199e1.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[7856]",
+        "modelo": "Go Kart",
+        "serie": "bgcolor=\"gray\" |HW Code Cars",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e8/6826577161_17157dc1be_z_%281%29.jpg%E2%80%8E",
+        "valor_nuevo": "bddf35b199e1.webp",
+        "accion": "descargada_local",
+        "motivo": "750x555 32756b score 0.221",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Bone Shaker -> 6a488aad60b0.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8084]",
+        "modelo": "Bone Shaker",
+        "serie": "bgcolor=\"purple\" |American Turbo Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/df/B%2526M_FINDS_004.JPG",
+        "valor_nuevo": "6a488aad60b0.webp",
+        "accion": "descargada_local",
+        "motivo": "800x542 69992b score 0.225",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'57 Chevy (2nd Color) -> 1033acc3c402.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8107]",
+        "modelo": "'57 Chevy (2nd Color)",
+        "serie": "bgcolor=\"purple\" |HW Garage",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4e/%252757_Chevy-2013_196_Red.jpg",
+        "valor_nuevo": "1033acc3c402.webp",
+        "accion": "descargada_local",
+        "motivo": "984x1488 346786b score 0.207",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'69 Camaro (2nd Color) -> c18c6cb0bac7.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8109]",
+        "modelo": "'69 Camaro (2nd Color)",
+        "serie": "bgcolor=\"purple\" |HW Garage Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e2/69_Camaro_Convertible_%2528X2023%2529.jpg",
+        "valor_nuevo": "c18c6cb0bac7.webp",
+        "accion": "descargada_local",
+        "motivo": "1094x376 72460b score 0.217",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'73 Ford Falcon XB (2nd Color) -> 8720706143ba.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8112]",
+        "modelo": "'73 Ford Falcon XB (2nd Color)",
+        "serie": "bgcolor=\"purple\" |HW Garage",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0a/%252773_Ford_Falcon_XB-2013_198_Black.jpg",
+        "valor_nuevo": "8720706143ba.webp",
+        "accion": "descargada_local",
+        "motivo": "2146x1675 452194b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'64 Corvette Sting Ray (2nd Color) -> 8720706143ba.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8120]",
+        "modelo": "'64 Corvette Sting Ray (2nd Color)",
+        "serie": "bgcolor=\"purple\" |Corvette 60th New in Mainline",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/34/%252764_Corvette_Sting_Ray-2013_204_Blue.jpg",
+        "valor_nuevo": "8720706143ba.webp",
+        "accion": "descargada_local",
+        "motivo": "2146x1675 452194b score 0.208",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'80s Corvette -> ebb9e1817dea.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8122]",
+        "modelo": "'80s Corvette",
+        "serie": "bgcolor=\"purple\" |Corvette 60th",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d9/%252780%2527s_Corvette-2013_206_Corvette_60th_Anniversary.jpg",
+        "valor_nuevo": "ebb9e1817dea.webp",
+        "accion": "descargada_local",
+        "motivo": "1172x584 103692b score 0.208",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'80s Corvette (2nd Color) -> 94a03a35efb7.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8123]",
+        "modelo": "'80s Corvette (2nd Color)",
+        "serie": "bgcolor=\"purple\" |Corvette 60th",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e8/%252780%2527s_Corvette-2013_206_Green.jpg",
+        "valor_nuevo": "94a03a35efb7.webp",
+        "accion": "descargada_local",
+        "motivo": "1927x3129 615262b score 0.218",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'69 Dodge Coronet Superbee (2nd Color) -> 8720706143ba.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8133]",
+        "modelo": "'69 Dodge Coronet Superbee (2nd Color)",
+        "serie": "bgcolor=\"purple\" |Heat Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/%252769_Dodge_Coronet_Super_Bee-2013_212_Red.jpg",
+        "valor_nuevo": "8720706143ba.webp",
+        "accion": "descargada_local",
+        "motivo": "2146x1675 452194b score 0.198",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'69 Chevelle SS 396 (2nd Color) -> b8a3b81e0dc6.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8136]",
+        "modelo": "'69 Chevelle SS 396 (2nd Color)",
+        "serie": "bgcolor=\"purple\" |Heat Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/ff/%252769_Chevelle_SS_396-2013_214_Red.jpg",
+        "valor_nuevo": "b8a3b81e0dc6.webp",
+        "accion": "descargada_local",
+        "motivo": "720x1052 175096b score 0.188",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'71 Dodge Demon -> e69ef5caa2fc.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8142]",
+        "modelo": "'71 Dodge Demon",
+        "serie": "bgcolor=\"purple\" |Heat Fleet Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/66/%252771_Dodge_Demon-Blue0.jpg",
+        "valor_nuevo": "e69ef5caa2fc.webp",
+        "accion": "descargada_local",
+        "motivo": "960x1280 128424b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'08 Dodge Challenger SRT8 (2nd Color) -> 9d5bae830e7a.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8159]",
+        "modelo": "'08 Dodge Challenger SRT8 (2nd Color)",
+        "serie": "bgcolor=\"purple\" |Then and Now Kmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1b/2013_HW_Workshop_%252708_Dodge_Challenger_SRT8_Black_%25281%2529.jpg",
+        "valor_nuevo": "9d5bae830e7a.webp",
+        "accion": "descargada_local",
+        "motivo": "4032x3024 375474b score 0.217",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'07 Ford Mustang -> 527f3e9fa9de.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8163]",
+        "modelo": "'07 Ford Mustang",
+        "serie": "bgcolor=\"purple\" |Then and Now Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/10/%252707_Ford_Mustang-GREEN.jpg",
+        "valor_nuevo": "527f3e9fa9de.webp",
+        "accion": "descargada_local",
+        "motivo": "622x932 102850b score 0.221",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'65 Mustang 2+2 Fastback (2nd Color) -> 9c1571d388fe.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8178]",
+        "modelo": "'65 Mustang 2+2 Fastback (2nd Color)",
+        "serie": "bgcolor=\"purple\" |Muscle Mania",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/%252765_Mustang_Fastback-2013_237_Blue.jpg",
+        "valor_nuevo": "9c1571d388fe.webp",
+        "accion": "descargada_local",
+        "motivo": "960x1280 188888b score 0.206",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'67 Camaro -> 4416cdc6732d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8190]",
+        "modelo": "'67 Camaro",
+        "serie": "bgcolor=\"purple\" |HW Performance Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/94/%252767_Camaro-2013_SS_Treasure_Hunt.jpg",
+        "valor_nuevo": "4416cdc6732d.webp",
+        "accion": "descargada_local",
+        "motivo": "655x338 37658b score 0.217",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'70 Plymouth AAR Cuda (2nd Color) -> 8720706143ba.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8193]",
+        "modelo": "'70 Plymouth AAR Cuda (2nd Color)",
+        "serie": "bgcolor=\"purple\" |HW Performance",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/42/%252770_Plymouth_AAR_Cuda-2013_247_Metallic_Gray.jpg",
+        "valor_nuevo": "8720706143ba.webp",
+        "accion": "descargada_local",
+        "motivo": "2146x1675 452194b score 0.203",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'70 Chevelle SS Wagon (2nd Color) -> 5bc51437761c.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8195]",
+        "modelo": "'70 Chevelle SS Wagon (2nd Color)",
+        "serie": "bgcolor=\"purple\" |HW Performance",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8a/70_Chevelle_SS_Wagon_%2528X2042%2529_01.jpg",
+        "valor_nuevo": "5bc51437761c.webp",
+        "accion": "descargada_local",
+        "motivo": "438x576 64528b score 0.207",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Tire Fryer -> bfd1106656a6.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8198]",
+        "modelo": "Tire Fryer",
+        "serie": "bgcolor=\"purple\" |Scavenger Hunt Kroger Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/bgj63.jpg",
+        "valor_nuevo": "bfd1106656a6.webp",
+        "accion": "descargada_local",
+        "motivo": "1200x836 142324b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "40 Somethin' -> 16a8a339460f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8199]",
+        "modelo": "40 Somethin'",
+        "serie": "bgcolor=\"purple\" |Scavenger Hunt Kroger Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/bgj64.jpg",
+        "valor_nuevo": "16a8a339460f.webp",
+        "accion": "descargada_local",
+        "motivo": "1080x683 115838b score 0.218",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Turbo Turret (2nd Color) -> 8cce367ede1c.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8293]",
+        "modelo": "Turbo Turret (2nd Color)",
+        "serie": "bgcolor=\"lightblue\" |Future Fleet",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/bfg08.jpg",
+        "valor_nuevo": "8cce367ede1c.webp",
+        "accion": "descargada_local",
+        "motivo": "4032x3024 1189362b score 0.198",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Madfast (2nd Color) -> 15c420f0eb25.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8447]",
+        "modelo": "Madfast (2nd Color)",
+        "serie": "bgcolor=\"red\" |Thrill Racers",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/23/bff50.jpg",
+        "valor_nuevo": "15c420f0eb25.webp",
+        "accion": "descargada_local",
+        "motivo": "4224x5632 1163136b score 0.215",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Eevil Weevil (2nd Color) -> a9b43952b7bf.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8699]",
+        "modelo": "Eevil Weevil (2nd Color)",
+        "serie": "bgcolor=#77B5FE |Street Beasts",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/85/cfm19.jpg",
+        "valor_nuevo": "a9b43952b7bf.webp",
+        "accion": "descargada_local",
+        "motivo": "735x1014 148662b score 0.208",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Canyon Carver (2nd Color) -> aa3333a0104a.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8720]",
+        "modelo": "Canyon Carver (2nd Color)",
+        "serie": "bgcolor=#77B5FE |HW Rescue",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d5/cfj29.jpg",
+        "valor_nuevo": "aa3333a0104a.webp",
+        "accion": "descargada_local",
+        "motivo": "500x333 37954b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "RD-02 (2nd Color) -> 1da3579c6ac5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8817]",
+        "modelo": "RD-02 (2nd Color)",
+        "serie": "bgcolor=\"yellow\" |Ice Mountain",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/27/cfl74.jpg",
+        "valor_nuevo": "1da3579c6ac5.webp",
+        "accion": "descargada_local",
+        "motivo": "640x853 82816b score 0.212",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Corvette C7.R -> ebb9e1817dea.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8895]",
+        "modelo": "Corvette C7.R",
+        "serie": "bgcolor=\"red\" |World Race New for 2015!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5a/c7r.jpg",
+        "valor_nuevo": "ebb9e1817dea.webp",
+        "accion": "descargada_local",
+        "motivo": "1172x584 103692b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Maximum Leeway (2nd Color) -> 15c420f0eb25.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[8912]",
+        "modelo": "Maximum Leeway (2nd Color)",
+        "serie": "bgcolor=\"red\" |Night Storm",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1a/cfl67.jpg",
+        "valor_nuevo": "15c420f0eb25.webp",
+        "accion": "descargada_local",
+        "motivo": "4224x5632 1163136b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'10 Pro Stock Camaro -> bcb7dd78ccc4.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9096]",
+        "modelo": "'10 Pro Stock Camaro",
+        "serie": "bgcolor=\"red\" |HW Mild to Wild Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f6/Hot-Wheels-%2525u201910-Pro-Stock-Camaro-Super-T-Hunt.jpg",
+        "valor_nuevo": "bcb7dd78ccc4.webp",
+        "accion": "descargada_local",
+        "motivo": "600x315 50264b score 0.224",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'41 Willys -> bfff23ed6942.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9149]",
+        "modelo": "'41 Willys",
+        "serie": "bgcolor=\"red\" |HW Flames",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/a7/willy.jpg",
+        "valor_nuevo": "bfff23ed6942.webp",
+        "accion": "descargada_local",
+        "motivo": "637x1024 106440b score 0.206",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'70 Plymouth AAR Cuda -> 38c730c2b918.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9204]",
+        "modelo": "'70 Plymouth AAR Cuda",
+        "serie": "bgcolor=\"orange\" |Muscle Mania",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/55/aar.jpg",
+        "valor_nuevo": "38c730c2b918.webp",
+        "accion": "descargada_local",
+        "motivo": "1789x1400 1073784b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Camaro Z28 -> 181e00112d61.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9206]",
+        "modelo": "Camaro Z28",
+        "serie": "bgcolor=\"orange\" |Muscle Mania",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/82/z28.jpg",
+        "valor_nuevo": "181e00112d61.webp",
+        "accion": "descargada_local",
+        "motivo": "982x1370 351910b score 0.210",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Mad Propz -> 1da3579c6ac5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9228]",
+        "modelo": "Mad Propz",
+        "serie": "bgcolor=\"lightblue\" |Sky Show",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/08/mad.jpg",
+        "valor_nuevo": "1da3579c6ac5.webp",
+        "accion": "descargada_local",
+        "motivo": "640x853 82816b score 0.210",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Volkswagen T2 Pickup (2nd Color) -> 51065e9f16bb.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9431]",
+        "modelo": "Volkswagen T2 Pickup (2nd Color)",
+        "serie": "bgcolor=\"lightblue\" |HW Art Cars New for 2017!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b5/Volks_T2_Pickup_%2528Bra%2529_Art_C_1_-_17_Official.jpg",
+        "valor_nuevo": "51065e9f16bb.webp",
+        "accion": "descargada_local",
+        "motivo": "3000x3964 813002b score 0.216",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Cyber Speeder -> 1d7974653b23.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9515]",
+        "modelo": "Cyber Speeder",
+        "serie": "bgcolor=\"purple\" |HW Glow Wheels New for 2018!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/21/CyberSpeeder_%25281%2529.JPG",
+        "valor_nuevo": "1d7974653b23.webp",
+        "accion": "descargada_local",
+        "motivo": "3024x3024 234120b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Beat All -> 16a8a339460f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9517]",
+        "modelo": "Beat All",
+        "serie": "bgcolor=\"lightblue\" |Street Beasts New for 2018!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f2/BeatAll_%25281%2529.JPG",
+        "valor_nuevo": "16a8a339460f.webp",
+        "accion": "descargada_local",
+        "motivo": "1080x683 115838b score 0.216",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Hi Beam -> 42bf28ed649f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9531]",
+        "modelo": "Hi Beam",
+        "serie": "bgcolor=\"purple\" |HW Glow Wheels New for 2018!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/bf/HiBeam_%25282%2529.JPG",
+        "valor_nuevo": "42bf28ed649f.webp",
+        "accion": "descargada_local",
+        "motivo": "960x1280 210358b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'49 Volkswagen Beetle Pickup (2nd Color) -> a01b76d55d5d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9701]",
+        "modelo": "'49 Volkswagen Beetle Pickup (2nd Color)",
+        "serie": "bgcolor=\"grey\" |Volkswagen New for 2019!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/2019_%252749_Beetle_Pickup.png",
+        "valor_nuevo": "a01b76d55d5d.webp",
+        "accion": "descargada_local",
+        "motivo": "744x1024 132240b score 0.215",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "1978 Dodge Li'l Red Express Truck (2nd Color) -> cee1a81fa1ce.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9716]",
+        "modelo": "1978 Dodge Li'l Red Express Truck (2nd Color)",
+        "serie": "bgcolor=\"orange\" |HW Hot Trucks",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c4/2019_Hot_Wheels_1978_Dodge_Li%2527l_Red_Express_Truck.jpg",
+        "valor_nuevo": "cee1a81fa1ce.webp",
+        "accion": "descargada_local",
+        "motivo": "1277x1936 497718b score 0.201",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'70 Chevelle SS Wagon (2nd Color) -> 89b3e9e594d1.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9718]",
+        "modelo": "'70 Chevelle SS Wagon (2nd Color)",
+        "serie": "bgcolor=\"red\" |HW Flames",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b4/2019_HotWheels_%252770_Chevelle_SS_Wagon_2nd_colour.jpg",
+        "valor_nuevo": "89b3e9e594d1.webp",
+        "accion": "descargada_local",
+        "motivo": "875x875 169156b score 0.191",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'87 Dodge D100 (3rd Color) -> 5b0d81222a54.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9733]",
+        "modelo": "'87 Dodge D100 (3rd Color)",
+        "serie": "bgcolor=\"red\" |Red Edition Target Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/2019_Hot_Wheels_%252787_Dodge_D100_Red_Edition_Carded.jpg",
+        "valor_nuevo": "5b0d81222a54.webp",
+        "accion": "descargada_local",
+        "motivo": "498x678 102350b score 0.218",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Justice League Batmobile (2nd Color) -> fbea9438b70e.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9737]",
+        "modelo": "Justice League Batmobile (2nd Color)",
+        "serie": "bgcolor=\"black\" |Batman",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/3e/FYF63_066_Justice_League_Batmobile.jpg_%E2%80%8E",
+        "valor_nuevo": "fbea9438b70e.webp",
+        "accion": "descargada_local",
+        "motivo": "1998x3060 1741362b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'65 Mustang 2+2 Fastback (2nd Color - Zamac) -> 9c1571d388fe.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9748]",
+        "modelo": "'65 Mustang 2+2 Fastback (2nd Color - Zamac)",
+        "serie": "bgcolor=\"orange\" |Muscle Mania Walmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/00/%252765_Mustang_2%252B2_Fastback.Muscle_Mania.Zamac.1.jpg",
+        "valor_nuevo": "9c1571d388fe.webp",
+        "accion": "descargada_local",
+        "motivo": "960x1280 188888b score 0.208",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'16 Mercedes-AMG GT3 (2nd Color) -> 1c065966a022.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9753]",
+        "modelo": "'16 Mercedes-AMG GT3 (2nd Color)",
+        "serie": "bgcolor=\"black\" |HW Race Day",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/75/2019_Hot_Wheels_%252716_Mercedes_AMG_GT3_2nd_color.jpg",
+        "valor_nuevo": "1c065966a022.webp",
+        "accion": "descargada_local",
+        "motivo": "1016x1600 615442b score 0.210",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Surf 'N Turf -> c949305000e0.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9762]",
+        "modelo": "Surf 'N Turf",
+        "serie": "bgcolor=\"black\" |Rod Squad",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0f/2019_Hot_Wheels_Surf_%2527N_Turf.jpg",
+        "valor_nuevo": "c949305000e0.webp",
+        "accion": "descargada_local",
+        "motivo": "749x332 47740b score 0.217",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'85 Honda City Turbo II -> 8a3237585d13.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9766]",
+        "modelo": "'85 Honda City Turbo II",
+        "serie": "bgcolor=\"black\" |Nightburnerz",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e4/2019_Hot_Wheels_%252785_Honda_City_Turbo_II.jpg",
+        "valor_nuevo": "8a3237585d13.webp",
+        "accion": "descargada_local",
+        "motivo": "1465x2106 578696b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Volkswagen T2 Pickup -> 9f83d2e475ac.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9795]",
+        "modelo": "Volkswagen T2 Pickup",
+        "serie": "bgcolor=\"gray\" |Volkswagen",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/10/S-l1600_%25281%2529-0.jpg",
+        "valor_nuevo": "9f83d2e475ac.webp",
+        "accion": "descargada_local",
+        "motivo": "2139x3127 589930b score 0.219",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'10 Camaro SS -> 7feb0a1926a9.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9801]",
+        "modelo": "'10 Camaro SS",
+        "serie": "bgcolor=\"red\" |HW Rescue",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e0/2019_Hot_Wheels_%252710_Camaro_SS.jpg",
+        "valor_nuevo": "7feb0a1926a9.webp",
+        "accion": "descargada_local",
+        "motivo": "4128x2322 403880b score 0.218",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'10 Camaro SS (2nd Color) -> 7feb0a1926a9.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9802]",
+        "modelo": "'10 Camaro SS (2nd Color)",
+        "serie": "bgcolor=\"red\" |HW Rescue",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/62/2019_Hot_Wheels_%252710_Camaro_SS_2nd_colour.jpg",
+        "valor_nuevo": "7feb0a1926a9.webp",
+        "accion": "descargada_local",
+        "motivo": "4128x2322 403880b score 0.221",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'70 Ford Escort RS1600 -> 2e1672b29e01.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9807]",
+        "modelo": "'70 Ford Escort RS1600",
+        "serie": "bgcolor=\"black\" |HW Race Day",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4d/2019_Hot_Wheels_%252770_Ford_Escort_RS1600.jpg",
+        "valor_nuevo": "2e1672b29e01.webp",
+        "accion": "descargada_local",
+        "motivo": "600x360 15474b score 0.222",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'32 Ford -> 88673bccf49f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9812]",
+        "modelo": "'32 Ford",
+        "serie": "bgcolor=\"black\" |Rod Squad",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/12/%252732_Ford_%2528FYC13%2529-3.jpg",
+        "valor_nuevo": "88673bccf49f.webp",
+        "accion": "descargada_local",
+        "motivo": "1670x2501 639896b score 0.210",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Custom '69 Volkswagen Squareback (2nd Color - Zamac) -> 00fe08768520.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9868]",
+        "modelo": "Custom '69 Volkswagen Squareback (2nd Color - Zamac)",
+        "serie": "bgcolor=\"gray\" |Volkswagen Walmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/50/2019_Hot_Wheels_Custom_%252769_VW_Squareback_Zamac.jpg",
+        "valor_nuevo": "00fe08768520.webp",
+        "accion": "descargada_local",
+        "motivo": "598x734 69204b score 0.203",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'92 Ford Mustang -> c5dc688f735f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9896]",
+        "modelo": "'92 Ford Mustang",
+        "serie": "bgcolor=\"green\" |Speed Blur",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f8/2019_Hot_Wheels_%252792_Ford_Mustang.jpg",
+        "valor_nuevo": "c5dc688f735f.webp",
+        "accion": "descargada_local",
+        "motivo": "807x1209 234526b score 0.210",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'92 Ford Mustang -> e2fcf05f94dd.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9897]",
+        "modelo": "'92 Ford Mustang",
+        "serie": "bgcolor=\"green\" |Speed Blur Super Treasure Hunt",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f9/2019_Hot_Wheels_Super_Treasure_Hunt_%252792_Ford_Mustang.jpg",
+        "valor_nuevo": "e2fcf05f94dd.webp",
+        "accion": "descargada_local",
+        "motivo": "1920x932 100478b score 0.220",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'96 Porsche Carrera (2nd Color) -> 613284425ad8.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9903]",
+        "modelo": "'96 Porsche Carrera (2nd Color)",
+        "serie": "bgcolor=\"black\" |Nightburnerz New for 2019!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fb/2019_HotWheels_%252796_Porsche_Carrera_2nd_color.jpg",
+        "valor_nuevo": "613284425ad8.webp",
+        "accion": "descargada_local",
+        "motivo": "612x910 102512b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Fairlady 2000 -> 8a3237585d13.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9904]",
+        "modelo": "Fairlady 2000",
+        "serie": "bgcolor=\"black\" |Nightburnerz",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/13/Fairlady_2000_%25282019%2529.png",
+        "valor_nuevo": "8a3237585d13.webp",
+        "accion": "descargada_local",
+        "motivo": "1465x2106 578696b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'67 Chevelle SS 396 (2nd Color - Zamac) -> 181e00112d61.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9907]",
+        "modelo": "'67 Chevelle SS 396 (2nd Color - Zamac)",
+        "serie": "bgcolor=\"orange\" |Muscle Mania Walmart Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/2019_Hot_Wheels_%252767_Chevelle_SS_396_Zamac.jpg",
+        "valor_nuevo": "181e00112d61.webp",
+        "accion": "descargada_local",
+        "motivo": "982x1370 351910b score 0.196",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Nissan Skyline 2000 GT-R -> 91470b4057e6.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9911]",
+        "modelo": "Nissan Skyline 2000 GT-R",
+        "serie": "bgcolor=\"red\" |HW Rescue",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/FYC81_-_Nissan_Skyline_H-T_2000GT-R_%25283%2529.jpg",
+        "valor_nuevo": "91470b4057e6.webp",
+        "accion": "descargada_local",
+        "motivo": "960x1280 176146b score 0.217",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'68 Mercury Cougar -> 3cb102117421.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9916]",
+        "modelo": "'68 Mercury Cougar",
+        "serie": "bgcolor=\"red\" |HW Flames",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/58/2019_Hot_Wheels_%252768_Mercury_Cougar_left.jpg",
+        "valor_nuevo": "3cb102117421.webp",
+        "accion": "descargada_local",
+        "motivo": "2317x3297 1620000b score 0.209",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'69 Corvette Racer -> 87bb4715823a.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9934]",
+        "modelo": "'69 Corvette Racer",
+        "serie": "bgcolor=\"black\" |HW Race Day",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/80/2019_Hot_Wheels_%252769_Corvete_Racer.jpg",
+        "valor_nuevo": "87bb4715823a.webp",
+        "accion": "descargada_local",
+        "motivo": "1920x1080 70776b score 0.220",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "bgcolor=\"pink\" |'14 Corvette Stingray -> c09d3b908138.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9937]",
+        "modelo": "bgcolor=\"pink\" |'14 Corvette Stingray",
+        "serie": "bgcolor=\"pink\" |Barbie 60th Anniversary Special Edition",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/24/2019_Hot_Wheels_%252714_Corvette_Stingray_Barbie.jpg",
+        "valor_nuevo": "c09d3b908138.webp",
+        "accion": "descargada_local",
+        "motivo": "600x320 19006b score 0.181",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'95 Mazda RX-7 -> a169ccbd7f0f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9938]",
+        "modelo": "'95 Mazda RX-7",
+        "serie": "bgcolor=\"orange\" |HW Turbo",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8d/2020_Hot_Wheels_%252795_Mazda_RX-7_left.jpg",
+        "valor_nuevo": "a169ccbd7f0f.webp",
+        "accion": "descargada_local",
+        "motivo": "960x1280 108480b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Total Disposal (2nd Color) -> 8b537e584ace.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9961]",
+        "modelo": "Total Disposal (2nd Color)",
+        "serie": "bgcolor=\"silver\" |HW Metro New for 2020!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c3/Total_Disposal_%25282nd_Color%2529_%25282020%2529.PNG",
+        "valor_nuevo": "8b537e584ace.webp",
+        "accion": "descargada_local",
+        "motivo": "4224x5632 1652934b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Volvo 850 Estate (2nd Color) -> 305b86620860.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9965]",
+        "modelo": "Volvo 850 Estate (2nd Color)",
+        "serie": "bgcolor=\"black\" |HW Race Day New for 2020!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/06/Volvo_850_Wagon._2nd_Color_%25282020%2529_2.PNG",
+        "valor_nuevo": "305b86620860.webp",
+        "accion": "descargada_local",
+        "motivo": "880x876 212698b score 0.210",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'64 Chevy Impala -> 3f4a4b83f70c.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[9966]",
+        "modelo": "'64 Chevy Impala",
+        "serie": "bgcolor=\"#5f9ea0\" |Tooned",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/%252764_Chevy_Impala_Tooned._2019.jpg",
+        "valor_nuevo": "3f4a4b83f70c.webp",
+        "accion": "descargada_local",
+        "motivo": "640x480 79214b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Geoterra (2nd Color) -> 1da3579c6ac5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10051]",
+        "modelo": "Geoterra (2nd Color)",
+        "serie": "bgcolor=\"#c8bca4\" |Baja Blazers New for 2020!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/bf/GHD85_01.jpg",
+        "valor_nuevo": "1da3579c6ac5.webp",
+        "accion": "descargada_local",
+        "motivo": "640x853 82816b score 0.209",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Runway Res-Q (2nd Color) -> fd95000fb52a.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10055]",
+        "modelo": "Runway Res-Q (2nd Color)",
+        "serie": "bgcolor=\"silver\" |HW Metro",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/%282%29_Runway_Res-Q_2020_%282nd_color%29_HW_Metro_7-10_104-250.jpg",
+        "valor_nuevo": "fd95000fb52a.webp",
+        "accion": "descargada_local",
+        "motivo": "1600x1556 460182b score 0.200",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Mod Rod (2nd Color) -> 15c420f0eb25.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10063]",
+        "modelo": "Mod Rod (2nd Color)",
+        "serie": "bgcolor=\"grey\" |HW Dream Garage",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ad/1996ce3a-55ce-466f-8e28-92c05bc2d121_large.jpg",
+        "valor_nuevo": "15c420f0eb25.webp",
+        "accion": "descargada_local",
+        "motivo": "4224x5632 1163136b score 0.217",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'70 Volkswagen Baja Bug (2nd Color) -> aca3038cb570.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10093]",
+        "modelo": "'70 Volkswagen Baja Bug (2nd Color)",
+        "serie": "bgcolor=\"#5f9ea0\" |Tooned New for 2020!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/98/2020_Hot_Wheels_%252770_VW_Baja_2nd_colour.jpg",
+        "valor_nuevo": "aca3038cb570.webp",
+        "accion": "descargada_local",
+        "motivo": "3845x3000 956634b score 0.209",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'52 Hudson Hornet (2nd Color) -> 5fb339bb77fa.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10116]",
+        "modelo": "'52 Hudson Hornet (2nd Color)",
+        "serie": "bgcolor=\"black\" |Rod Squad",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0a/2020ML11_%2528Large%2529.JPG",
+        "valor_nuevo": "5fb339bb77fa.webp",
+        "accion": "descargada_local",
+        "motivo": "4160x2340 498942b score 0.200",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Party Wagon -> 9c5e46313c45.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10129]",
+        "modelo": "Party Wagon",
+        "serie": "bgcolor=\"purple\" |HW Screen Time New for 2020!",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/aa/TMNT_Party_Wagon_%25282020%25292.PNG",
+        "valor_nuevo": "9c5e46313c45.webp",
+        "accion": "descargada_local",
+        "motivo": "984x1500 259392b score 0.216",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Honda S2000 (2nd Color) -> c715e148baa8.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10141]",
+        "modelo": "Honda S2000 (2nd Color)",
+        "serie": "bgcolor=\"#3271a8\" |Honda",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/60/S2000_%2528lime%252C_2020_Multpack%2529.JPG",
+        "valor_nuevo": "c715e148baa8.webp",
+        "accion": "descargada_local",
+        "motivo": "42x48 1506b score 0.212",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Twinduction (2nd Color) -> 59c8ebc8116d.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[10739]",
+        "modelo": "Twinduction (2nd Color)",
+        "serie": "bgcolor=\"#FF4F00\" |Muscle Mania",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/22/HW_-_Twinduction_%25282023_-_HKK88%2529.jpg",
+        "valor_nuevo": "59c8ebc8116d.webp",
+        "accion": "descargada_local",
+        "motivo": "674x1016 190252b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Volkswagen \"Classic Bug\" -> 61d23eb6e0bb.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[11649]",
+        "modelo": "Volkswagen \"Classic Bug\"",
+        "serie": "Car Culture: Cruise Boulevard 5/5",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/62/2019CC-CB-VW_%2528Large%2529.JPG",
+        "valor_nuevo": "61d23eb6e0bb.webp",
+        "accion": "descargada_local",
+        "motivo": "670x527 64774b score 0.223",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "2019 Car Culture -> 5bb45a3583a5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[11689]",
+        "modelo": "2019 Car Culture",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/43/2019_Hot_Wheels_%252760s_Fiat_500_Modificado_Gulf_carded.jpg",
+        "valor_nuevo": "5bb45a3583a5.webp",
+        "accion": "descargada_local",
+        "motivo": "400x500 93138b score 0.218",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "2019 Pop Culture -> 67eead0d13cf.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[11853]",
+        "modelo": "2019 Pop Culture",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c8/2019_Hot_Wheels_Pop_Culture_Pinocchio_%252766_Dodge_Van.jpg",
+        "valor_nuevo": "67eead0d13cf.webp",
+        "accion": "descargada_local",
+        "motivo": "1312x1600 415346b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Hills -> 7b85dfe645ee.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[11906]",
+        "modelo": "Hills",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/ca/1995_Hill%2527s_Year_in_Review.jpeg",
+        "valor_nuevo": "7b85dfe645ee.webp",
+        "accion": "descargada_local",
+        "motivo": "1044x1600 354230b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Plymouth Barracuda (Fatbax) -> 83e2e7592f46.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[11966]",
+        "modelo": "Plymouth Barracuda (Fatbax)",
+        "serie": "2004 First Editions 45/100",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/grey_window_snake.JPG",
+        "valor_nuevo": "83e2e7592f46.webp",
+        "accion": "descargada_local",
+        "motivo": "3060x4080 1022420b score 0.217",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "2018 Mystery Models -> b971c0f7670a.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12019]",
+        "modelo": "2018 Mystery Models",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5a/HW_%252713_COPO_CMARARO_FKX29.JPG",
+        "valor_nuevo": "b971c0f7670a.webp",
+        "accion": "descargada_local",
+        "motivo": "669x1000 186900b score 0.215",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'32 Duesenberg SJ -> 0c9e997878dc.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12118]",
+        "modelo": "'32 Duesenberg SJ",
+        "serie": "Classic Bodies 2-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1d/3____1932JS_Duesenberg_Classic_Bodies.JPG",
+        "valor_nuevo": "0c9e997878dc.webp",
+        "accion": "descargada_local",
+        "motivo": "1029x768 147912b score 0.220",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'32 Ford Sedan (100%) -> 0c9e997878dc.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12121]",
+        "modelo": "'32 Ford Sedan (100%)",
+        "serie": "Rod &amp; Custom 2-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c7/OrangeCrate_%25281%2529.JPG",
+        "valor_nuevo": "0c9e997878dc.webp",
+        "accion": "descargada_local",
+        "motivo": "1029x768 147912b score 0.216",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'34 Ford Lakes Coupe -> ebb76ca5a4f7.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12124]",
+        "modelo": "'34 Ford Lakes Coupe",
+        "serie": "Bruce Meyer Gallery 4-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/16/%252734_3-WINDOW_BRUCE_MEYER_GALLERY_2001.JPG",
+        "valor_nuevo": "ebb76ca5a4f7.webp",
+        "accion": "descargada_local",
+        "motivo": "2934x2278 1065488b score 0.197",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "'69 Corvette (1:18) -> ebb9e1817dea.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12148]",
+        "modelo": "'69 Corvette (1:18)",
+        "serie": "Hot Wheels Collectibles 1:18 Scale",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b7/cream69.jpg",
+        "valor_nuevo": "ebb9e1817dea.webp",
+        "accion": "descargada_local",
+        "motivo": "1172x584 103692b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "100% Hot Wheels 40th Anniversary -> 16a8a339460f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12157]",
+        "modelo": "100% Hot Wheels 40th Anniversary",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/a2/100%25_Hot_Wheels_40th_Anniversary_2008_Volkswagen_Truck_White_China_M1677.jpg",
+        "valor_nuevo": "16a8a339460f.webp",
+        "accion": "descargada_local",
+        "motivo": "1080x683 115838b score 0.209",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "100% Hot Wheels 1:43 Scale -> 3815d18fb692.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12158]",
+        "modelo": "100% Hot Wheels 1:43 Scale",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/dd/100%25_1-43_2001_348_TB_Red_China_25712.jpg",
+        "valor_nuevo": "3815d18fb692.webp",
+        "accion": "descargada_local",
+        "motivo": "1024x654 145998b score 0.225",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "2000 Corvette -> ebb9e1817dea.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12178]",
+        "modelo": "2000 Corvette",
+        "serie": "Hot Wheels Collectibles 1:18 Scale",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/9b/candyc5.jpg",
+        "valor_nuevo": "ebb9e1817dea.webp",
+        "accion": "descargada_local",
+        "motivo": "1172x584 103692b score 0.204",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Batman & Robin Batmobile (100%) -> a7ff25db8c27.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12191]",
+        "modelo": "Batman & Robin Batmobile (100%)",
+        "serie": "Showcase Hot Wheels: Batman",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/de/Bat_-_1997_-_04_100%2525.jpg",
+        "valor_nuevo": "a7ff25db8c27.webp",
+        "accion": "descargada_local",
+        "motivo": "2048x1199 190934b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Batman Forever Batmobile (100%) -> a7ff25db8c27.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12194]",
+        "modelo": "Batman Forever Batmobile (100%)",
+        "serie": "Showcase Hot Wheels: Batman 2/3",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/67/Bat_-_1995_-_04_100%2525.jpg",
+        "valor_nuevo": "a7ff25db8c27.webp",
+        "accion": "descargada_local",
+        "motivo": "2048x1199 190934b score 0.220",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Custom Woody Pickup -> a6b69d52b848.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12210]",
+        "modelo": "Custom Woody Pickup",
+        "serie": "Wild Wood 2-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/purple_custom_the_woody.JPG",
+        "valor_nuevo": "a6b69d52b848.webp",
+        "accion": "descargada_local",
+        "motivo": "1600x1200 328604b score 0.199",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Dodge Intrepid Stocker (100%) -> 2b961b6a961e.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12214]",
+        "modelo": "Dodge Intrepid Stocker (100%)",
+        "serie": "2001 Racing Selects",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c6/dodge_intrepid_100_22.JPG",
+        "valor_nuevo": "2b961b6a961e.webp",
+        "accion": "descargada_local",
+        "motivo": "2857x1164 486320b score 0.202",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Ferrari 2-Car Set -> 81d833828c4f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12216]",
+        "modelo": "Ferrari 2-Car Set",
+        "serie": "",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Ferrari250GTO100%25.jpg",
+        "valor_nuevo": "81d833828c4f.webp",
+        "accion": "descargada_local",
+        "motivo": "239x590 48486b score 0.211",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Enzo Ferrari (100%) -> 2b6145cbd5e8.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12218]",
+        "modelo": "Enzo Ferrari (100%)",
+        "serie": "Ferrari 2-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e2/EnzoFerrari100%25.jpg",
+        "valor_nuevo": "2b6145cbd5e8.webp",
+        "accion": "descargada_local",
+        "motivo": "2048x1268 242940b score 0.205",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Hot Wheels Speedster -> 414348fb67fb.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12233]",
+        "modelo": "Hot Wheels Speedster",
+        "serie": "100% Hot Wheels 1:18 Scale",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2d/100%25_1-18_2002_Hot_Wheels_Speedster_Orange_China_53830.jpg",
+        "valor_nuevo": "414348fb67fb.webp",
+        "accion": "descargada_local",
+        "motivo": "1448x1179 342438b score 0.231",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Mercohaulic -> 16a8a339460f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12237]",
+        "modelo": "Mercohaulic",
+        "serie": "Ed Newton's Lowboyz 3-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4f/15_NEWTON%2527S_1999_MERCOHAULIC.jpg",
+        "valor_nuevo": "16a8a339460f.webp",
+        "accion": "descargada_local",
+        "motivo": "1080x683 115838b score 0.206",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Pontiac Grand Prix Stocker (100%) -> dfa177d54053.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12243]",
+        "modelo": "Pontiac Grand Prix Stocker (100%)",
+        "serie": "rowspan=\"4\" |Legends",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/71/kyle_petty_is_100_percent_2.JPG",
+        "valor_nuevo": "dfa177d54053.webp",
+        "accion": "descargada_local",
+        "motivo": "448x1000 157172b score 0.201",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Pro Street Corvette (1:18) -> 414348fb67fb.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12246]",
+        "modelo": "Pro Street Corvette (1:18)",
+        "serie": "100% Hot Wheels 1:18 Scale",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d5/pro64.jpg",
+        "valor_nuevo": "414348fb67fb.webp",
+        "accion": "descargada_local",
+        "motivo": "1448x1179 342438b score 0.229",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Shelby Series 1 -> cd10fa611b05.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12252]",
+        "modelo": "Shelby Series 1",
+        "serie": "Carroll Shelby Cobra 2-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Shelby_Series_1-2002_100%25.jpg",
+        "valor_nuevo": "cd10fa611b05.webp",
+        "accion": "descargada_local",
+        "motivo": "2971x1738 375240b score 0.201",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Streamliner -> c854cdd47004.jpg",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12256]",
+        "modelo": "Streamliner",
+        "serie": "Vintage Drag Experimental Racers 2-Car Set",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/af/rojoyblanco.jpg",
+        "valor_nuevo": "c854cdd47004.jpg",
+        "accion": "descargada_local",
+        "motivo": "600x494 81316b score 0.207",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "T-Bird Stocker (100%) -> 1da3579c6ac5.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12259]",
+        "modelo": "T-Bird Stocker (100%)",
+        "serie": "Legends",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/02/im_lovin_it_100_per2.JPG",
+        "valor_nuevo": "1da3579c6ac5.webp",
+        "accion": "descargada_local",
+        "motivo": "640x853 82816b score 0.222",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Tommy Ivo's AA/F Dragster -> 5ce8d65d6f89.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12262]",
+        "modelo": "Tommy Ivo's AA/F Dragster",
+        "serie": "Showcase Hot Wheels: Racing 4/4",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/2004-100%25_Showcase_Tommy_Ivo_AAF_Dragster_Psychedelic_1c2.jpg",
+        "valor_nuevo": "5ce8d65d6f89.webp",
+        "accion": "descargada_local",
+        "motivo": "619x509 57150b score 0.214",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Blind-Sided -> 2a5c2acadfa7.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12327]",
+        "modelo": "Blind-Sided",
+        "serie": "Hot Wheels Monster Trucks + Crushed Die-Cast Car Packs",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/honey_i_was_blind_sided.JPG",
+        "valor_nuevo": "2a5c2acadfa7.webp",
+        "accion": "descargada_local",
+        "motivo": "4000x3000 2041104b score 0.212",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Hot Wheels Fire Rescue -> 7b9ffe721768.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12403]",
+        "modelo": "Hot Wheels Fire Rescue",
+        "serie": "Hot Wheels Monster Trucks: Champion Crashers 7/8",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/df/%E9%A2%A8%E7%81%AB%E8%BC%AA_FIRE_RESCUE_%26_HW_5_ALARM_%E6%B6%88%E9%98%B2%E7%B5%84_%E6%80%AA%E7%8D%B8%E5%8D%A1%E8%BB%8A%E9%9B%99%E8%BB%8A%E7%B5%84_%E5%A4%A7%E8%85%B3%E8%BB%8A_26C-1.jpg&_HW_5_ALARM_消防組_怪獸卡車雙車組_大腳車_26C-1.jpg",
+        "valor_nuevo": "7b9ffe721768.webp",
+        "accion": "descargada_local",
+        "motivo": "824x1004 232394b score 0.209",
+        "http_status_anterior": 0,
+        "anterior_error": "'ascii' codec can't encode characters in position 256-258: ordinal not in range(128)",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    },
+    {
+      "ts": "08:05:53",
+      "fase": "reparacion",
+      "nivel": "reparado",
+      "mensaje": "Mighty Mixup -> baf281500f2f.webp",
+      "datos": {
+        "source_file": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json",
+        "field_name": "im[12449]",
+        "modelo": "Mighty Mixup",
+        "serie": "Hot Wheels Monster Trucks Live Exclusive",
+        "valor_anterior": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/52/20250803_182239.jpg",
+        "valor_nuevo": "baf281500f2f.webp",
+        "accion": "descargada_local",
+        "motivo": "734x687 163958b score 0.213",
+        "http_status_anterior": 404,
+        "anterior_error": "",
+        "respaldo": "C:/Users/GODZILLA24H2/Desktop/hotwheels_collector\\data\\catalog_web.json.bak"
+      }
+    }
+  ],
+  "descartes": [],
+  "referencias": [
+    {
+      "modelo": "Da'Kar",
+      "campo": "im[3274]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/7e/Da%27Kar.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "The Gov'ner",
+      "campo": "im[3307]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8e/The_Gov%27ner.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "\"Hammerhead\"",
+      "campo": "im[3956]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4e/Hammerhead.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Bugeye",
+      "campo": "im[4662]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4a/Lime.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Ramblin' Wrecker",
+      "campo": "im[4698]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/mike_Ramblin_Wrecker_blue_tint_window.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Tank Gunner",
+      "campo": "im[5096]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f4/gun_bucket_bbw.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Peterbilt Cement Mixer",
+      "campo": "im[5110]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/eb/x172-4%2C49-2%2C15.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Deora II",
+      "campo": "im[5761]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/80/Sam%2527s_Club_Deora_II-BBB01.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'57 Chevy Bel Air",
+      "campo": "im[6413]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252757_Bel_Air_-_Bone_Blazers.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'65 Corvette",
+      "campo": "im[6415]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/ed/%252765_Corvette_CIMG1896.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'49 Merc",
+      "campo": "im[6423]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5f/Hiway_%252749_Merc_Harnoze.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "What-4-2",
+      "campo": "im[6679]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/57/What-4-2_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "1970 Plymouth Barracuda",
+      "campo": "im[6680]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/14/70_Cuda_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "C6 Corvette",
+      "campo": "im[6681]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0f/C6_Corvette_AGENTAIR_7.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Symbolic",
+      "campo": "im[6682]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ac/Mystery_Symbolic.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Power Rage",
+      "campo": "im[6683]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/Power_Rage_-_MysteryGold.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Batmobile (Animated)",
+      "campo": "im[6684]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/7a/Ani_Bat_-_07_Mystery.JPG%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'71 Dodge Demon (2nd Color)",
+      "campo": "im[7287]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/12/2011_%252771_Dodge_Demon_Walmart_50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'67 Pontiac Firebird 400 (3rd Color)",
+      "campo": "im[7293]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/ce/67_Pontiac_Firebird_400_%2528V0025%2529_%2528OH5%2529_1.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Ford Mustang Fastback (3rd Color)",
+      "campo": "im[7300]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/35/Ford_Mustang_Fastback_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Custom '53 Chevy (2nd Color)",
+      "campo": "im[7303]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/64/Custom_%252753_chevy_002_50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'56 Ford F-100 (3rd Color)",
+      "campo": "im[7309]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/60/2011_%252756_Ford_F100_Plum_004_50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Fish'd & Chip'd (2nd Color)",
+      "campo": "im[7312]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2e/FISH%2527D_%2526_CHIP%2527D.HEAT_FLEET_2011_Satin_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Pass'n Gasser (2nd Color)",
+      "campo": "im[7318]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/Pass%2527n_Gasser_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Tail Dragger (3rd Color)",
+      "campo": "im[7321]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/83/Tail_Dragger_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Custom Volkswagen Beetle (2nd Color)",
+      "campo": "im[7323]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/92/S-l1600_%25281%2529-1.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'65 Mustang (2nd Color)",
+      "campo": "im[7325]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c5/65_Ford_Mustang_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'68 El Camino (3rd Color)",
+      "campo": "im[7337]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/84/%252768_El_Camino.2011-104_Metalflake_Purple.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Fright Bike (2nd Color)",
+      "campo": "im[7378]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/be/Fright_Bike_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Acura NSX (3rd Color)",
+      "campo": "im[7392]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c5/Acura_NSX_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Anglia Panel Truck (2nd Color)",
+      "campo": "im[7406]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/89/Ford_Anglia_Panel_Truck_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Buick Grand National (2nd Color)",
+      "campo": "im[7408]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/18/BUICK_G.N._PERFORMANCE_%252711_WHITE.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Buick Grand National (3rd Color)",
+      "campo": "im[7409]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/eb/Buick_Grand_National_%2528V5225%2529.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Volkswagen Type 181 (2nd Color)",
+      "campo": "im[7429]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/94/10de10_volkswagen_type_181_faster_than_ever_%252711_e.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'67 Chevelle SS 396 (2nd Color)",
+      "campo": "im[7431]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/35/%252767_Chevelle_SS_396_CIMG1295.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'92 Ford Mustang (2nd Color)",
+      "campo": "im[7449]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/cb/%252792_Ford_Mustang_CIMG1778.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Pontiac Firebird",
+      "campo": "im[7456]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/82/pontiac_firebird_police.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Tri & Stop Me (2nd Color)",
+      "campo": "im[7473]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/32/Tri_%2526_Stop_Me_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Ford GT (2nd Color)",
+      "campo": "im[7530]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f6/Ford_GT_%2528800x600%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'67 Plymouth GTX (2nd Color)",
+      "campo": "im[7599]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/72/%252767_Plymouth_GTX%252C086_2012_Purple.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'70 Plymouth AAR Cuda (2nd Color)",
+      "campo": "im[7608]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/89/2012-MMM10-70PlymouthAARCuda-Blue_%2528Walmart_Exc%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "2010 Chevy Impala",
+      "campo": "im[7609]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/DSC00136.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'86 Monte Carlo SS",
+      "campo": "im[7730]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/63/%252786_Monte_Carlo_SS_-_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'86 Monte Carlo SS (2nd Color)",
+      "campo": "im[7731]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/72/%252786_Monte_Carlo_SS.149_2012_Orange.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'11 Dodge Charger R/T",
+      "campo": "im[7750]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ab/%252711_Dodge_Charger_R-T-SUPER.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'71 Maverick Grabber",
+      "campo": "im[7784]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/84/71_Ford_Maverick_Grabber_-_12_HW_Racing_%2524UPER.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Buzzerk",
+      "campo": "im[7848]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/Buzzerk_code_cars.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Tread Air",
+      "campo": "im[7850]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/32/Tread_Air_-_HW_Code_Cars_12_-_V5542.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Go Kart",
+      "campo": "im[7856]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e8/6826577161_17157dc1be_z_%281%29.jpg%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Bone Shaker",
+      "campo": "im[8084]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/df/B%2526M_FINDS_004.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'57 Chevy (2nd Color)",
+      "campo": "im[8107]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4e/%252757_Chevy-2013_196_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'69 Camaro (2nd Color)",
+      "campo": "im[8109]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e2/69_Camaro_Convertible_%2528X2023%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'73 Ford Falcon XB (2nd Color)",
+      "campo": "im[8112]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0a/%252773_Ford_Falcon_XB-2013_198_Black.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'64 Corvette Sting Ray (2nd Color)",
+      "campo": "im[8120]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/34/%252764_Corvette_Sting_Ray-2013_204_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'80s Corvette",
+      "campo": "im[8122]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d9/%252780%2527s_Corvette-2013_206_Corvette_60th_Anniversary.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'80s Corvette (2nd Color)",
+      "campo": "im[8123]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e8/%252780%2527s_Corvette-2013_206_Green.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'69 Dodge Coronet Superbee (2nd Color)",
+      "campo": "im[8133]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/%252769_Dodge_Coronet_Super_Bee-2013_212_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'69 Chevelle SS 396 (2nd Color)",
+      "campo": "im[8136]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/ff/%252769_Chevelle_SS_396-2013_214_Red.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'71 Dodge Demon",
+      "campo": "im[8142]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/66/%252771_Dodge_Demon-Blue0.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'08 Dodge Challenger SRT8 (2nd Color)",
+      "campo": "im[8159]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1b/2013_HW_Workshop_%252708_Dodge_Challenger_SRT8_Black_%25281%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'07 Ford Mustang",
+      "campo": "im[8163]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/10/%252707_Ford_Mustang-GREEN.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'65 Mustang 2+2 Fastback (2nd Color)",
+      "campo": "im[8178]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/%252765_Mustang_Fastback-2013_237_Blue.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'67 Camaro",
+      "campo": "im[8190]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/94/%252767_Camaro-2013_SS_Treasure_Hunt.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'70 Plymouth AAR Cuda (2nd Color)",
+      "campo": "im[8193]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/42/%252770_Plymouth_AAR_Cuda-2013_247_Metallic_Gray.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'70 Chevelle SS Wagon (2nd Color)",
+      "campo": "im[8195]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8a/70_Chevelle_SS_Wagon_%2528X2042%2529_01.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Tire Fryer",
+      "campo": "im[8198]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/bgj63.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "40 Somethin'",
+      "campo": "im[8199]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/bgj64.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Turbo Turret (2nd Color)",
+      "campo": "im[8293]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2a/bfg08.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Madfast (2nd Color)",
+      "campo": "im[8447]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/23/bff50.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Eevil Weevil (2nd Color)",
+      "campo": "im[8699]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/85/cfm19.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Canyon Carver (2nd Color)",
+      "campo": "im[8720]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d5/cfj29.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "RD-02 (2nd Color)",
+      "campo": "im[8817]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/27/cfl74.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Corvette C7.R",
+      "campo": "im[8895]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5a/c7r.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Maximum Leeway (2nd Color)",
+      "campo": "im[8912]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1a/cfl67.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'10 Pro Stock Camaro",
+      "campo": "im[9096]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f6/Hot-Wheels-%2525u201910-Pro-Stock-Camaro-Super-T-Hunt.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'41 Willys",
+      "campo": "im[9149]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/a7/willy.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'70 Plymouth AAR Cuda",
+      "campo": "im[9204]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/55/aar.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Camaro Z28",
+      "campo": "im[9206]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/82/z28.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Mad Propz",
+      "campo": "im[9228]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/08/mad.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Volkswagen T2 Pickup (2nd Color)",
+      "campo": "im[9431]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b5/Volks_T2_Pickup_%2528Bra%2529_Art_C_1_-_17_Official.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Cyber Speeder",
+      "campo": "im[9515]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/21/CyberSpeeder_%25281%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Beat All",
+      "campo": "im[9517]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f2/BeatAll_%25281%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Hi Beam",
+      "campo": "im[9531]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/bf/HiBeam_%25282%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'49 Volkswagen Beetle Pickup (2nd Color)",
+      "campo": "im[9701]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/2019_%252749_Beetle_Pickup.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "1978 Dodge Li'l Red Express Truck (2nd Color)",
+      "campo": "im[9716]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c4/2019_Hot_Wheels_1978_Dodge_Li%2527l_Red_Express_Truck.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'70 Chevelle SS Wagon (2nd Color)",
+      "campo": "im[9718]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b4/2019_HotWheels_%252770_Chevelle_SS_Wagon_2nd_colour.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'87 Dodge D100 (3rd Color)",
+      "campo": "im[9733]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/2019_Hot_Wheels_%252787_Dodge_D100_Red_Edition_Carded.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Justice League Batmobile (2nd Color)",
+      "campo": "im[9737]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/3/3e/FYF63_066_Justice_League_Batmobile.jpg_%E2%80%8E",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'65 Mustang 2+2 Fastback (2nd Color - Zamac)",
+      "campo": "im[9748]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/00/%252765_Mustang_2%252B2_Fastback.Muscle_Mania.Zamac.1.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'16 Mercedes-AMG GT3 (2nd Color)",
+      "campo": "im[9753]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/75/2019_Hot_Wheels_%252716_Mercedes_AMG_GT3_2nd_color.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Surf 'N Turf",
+      "campo": "im[9762]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0f/2019_Hot_Wheels_Surf_%2527N_Turf.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'85 Honda City Turbo II",
+      "campo": "im[9766]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e4/2019_Hot_Wheels_%252785_Honda_City_Turbo_II.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Volkswagen T2 Pickup",
+      "campo": "im[9795]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/10/S-l1600_%25281%2529-0.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'10 Camaro SS",
+      "campo": "im[9801]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e0/2019_Hot_Wheels_%252710_Camaro_SS.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'10 Camaro SS (2nd Color)",
+      "campo": "im[9802]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/62/2019_Hot_Wheels_%252710_Camaro_SS_2nd_colour.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'70 Ford Escort RS1600",
+      "campo": "im[9807]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4d/2019_Hot_Wheels_%252770_Ford_Escort_RS1600.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'32 Ford",
+      "campo": "im[9812]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/12/%252732_Ford_%2528FYC13%2529-3.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Custom '69 Volkswagen Squareback (2nd Color - Zamac)",
+      "campo": "im[9868]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/50/2019_Hot_Wheels_Custom_%252769_VW_Squareback_Zamac.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'92 Ford Mustang",
+      "campo": "im[9896]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f8/2019_Hot_Wheels_%252792_Ford_Mustang.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'92 Ford Mustang",
+      "campo": "im[9897]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/f9/2019_Hot_Wheels_Super_Treasure_Hunt_%252792_Ford_Mustang.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'96 Porsche Carrera (2nd Color)",
+      "campo": "im[9903]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fb/2019_HotWheels_%252796_Porsche_Carrera_2nd_color.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Fairlady 2000",
+      "campo": "im[9904]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/13/Fairlady_2000_%25282019%2529.png",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'67 Chevelle SS 396 (2nd Color - Zamac)",
+      "campo": "im[9907]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/2019_Hot_Wheels_%252767_Chevelle_SS_396_Zamac.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Nissan Skyline 2000 GT-R",
+      "campo": "im[9911]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d0/FYC81_-_Nissan_Skyline_H-T_2000GT-R_%25283%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'68 Mercury Cougar",
+      "campo": "im[9916]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/58/2019_Hot_Wheels_%252768_Mercury_Cougar_left.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'69 Corvette Racer",
+      "campo": "im[9934]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/80/2019_Hot_Wheels_%252769_Corvete_Racer.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "bgcolor=\"pink\" |'14 Corvette Stingray",
+      "campo": "im[9937]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/24/2019_Hot_Wheels_%252714_Corvette_Stingray_Barbie.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'95 Mazda RX-7",
+      "campo": "im[9938]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/8/8d/2020_Hot_Wheels_%252795_Mazda_RX-7_left.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Total Disposal (2nd Color)",
+      "campo": "im[9961]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c3/Total_Disposal_%25282nd_Color%2529_%25282020%2529.PNG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Volvo 850 Estate (2nd Color)",
+      "campo": "im[9965]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/06/Volvo_850_Wagon._2nd_Color_%25282020%2529_2.PNG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'64 Chevy Impala",
+      "campo": "im[9966]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/%252764_Chevy_Impala_Tooned._2019.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Geoterra (2nd Color)",
+      "campo": "im[10051]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/bf/GHD85_01.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Runway Res-Q (2nd Color)",
+      "campo": "im[10055]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/f/fc/%282%29_Runway_Res-Q_2020_%282nd_color%29_HW_Metro_7-10_104-250.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Mod Rod (2nd Color)",
+      "campo": "im[10063]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/ad/1996ce3a-55ce-466f-8e28-92c05bc2d121_large.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'70 Volkswagen Baja Bug (2nd Color)",
+      "campo": "im[10093]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/98/2020_Hot_Wheels_%252770_VW_Baja_2nd_colour.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'52 Hudson Hornet (2nd Color)",
+      "campo": "im[10116]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0a/2020ML11_%2528Large%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Party Wagon",
+      "campo": "im[10129]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/aa/TMNT_Party_Wagon_%25282020%25292.PNG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Honda S2000 (2nd Color)",
+      "campo": "im[10141]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/60/S2000_%2528lime%252C_2020_Multpack%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Twinduction (2nd Color)",
+      "campo": "im[10739]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/22/HW_-_Twinduction_%25282023_-_HKK88%2529.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Volkswagen \"Classic Bug\"",
+      "campo": "im[11649]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/62/2019CC-CB-VW_%2528Large%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "2019 Car Culture",
+      "campo": "im[11689]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/43/2019_Hot_Wheels_%252760s_Fiat_500_Modificado_Gulf_carded.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "2019 Pop Culture",
+      "campo": "im[11853]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c8/2019_Hot_Wheels_Pop_Culture_Pinocchio_%252766_Dodge_Van.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Hills",
+      "campo": "im[11906]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/ca/1995_Hill%2527s_Year_in_Review.jpeg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Plymouth Barracuda (Fatbax)",
+      "campo": "im[11966]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/6b/grey_window_snake.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "2018 Mystery Models",
+      "campo": "im[12019]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/5a/HW_%252713_COPO_CMARARO_FKX29.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'32 Duesenberg SJ",
+      "campo": "im[12118]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/1d/3____1932JS_Duesenberg_Classic_Bodies.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'32 Ford Sedan (100%)",
+      "campo": "im[12121]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c7/OrangeCrate_%25281%2529.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'34 Ford Lakes Coupe",
+      "campo": "im[12124]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/16/%252734_3-WINDOW_BRUCE_MEYER_GALLERY_2001.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "'69 Corvette (1:18)",
+      "campo": "im[12148]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/b/b7/cream69.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "100% Hot Wheels 40th Anniversary",
+      "campo": "im[12157]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/a2/100%25_Hot_Wheels_40th_Anniversary_2008_Volkswagen_Truck_White_China_M1677.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "100% Hot Wheels 1:43 Scale",
+      "campo": "im[12158]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/dd/100%25_1-43_2001_348_TB_Red_China_25712.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "2000 Corvette",
+      "campo": "im[12178]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/9/9b/candyc5.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Batman & Robin Batmobile (100%)",
+      "campo": "im[12191]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/de/Bat_-_1997_-_04_100%2525.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Batman Forever Batmobile (100%)",
+      "campo": "im[12194]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/6/67/Bat_-_1995_-_04_100%2525.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Custom Woody Pickup",
+      "campo": "im[12210]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/0d/purple_custom_the_woody.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Dodge Intrepid Stocker (100%)",
+      "campo": "im[12214]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/c/c6/dodge_intrepid_100_22.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Ferrari 2-Car Set",
+      "campo": "im[12216]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Ferrari250GTO100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Enzo Ferrari (100%)",
+      "campo": "im[12218]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/e/e2/EnzoFerrari100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Hot Wheels Speedster",
+      "campo": "im[12233]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/2/2d/100%25_1-18_2002_Hot_Wheels_Speedster_Orange_China_53830.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Mercohaulic",
+      "campo": "im[12237]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/4/4f/15_NEWTON%2527S_1999_MERCOHAULIC.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Pontiac Grand Prix Stocker (100%)",
+      "campo": "im[12243]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/7/71/kyle_petty_is_100_percent_2.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Pro Street Corvette (1:18)",
+      "campo": "im[12246]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/d5/pro64.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Shelby Series 1",
+      "campo": "im[12252]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/56/Shelby_Series_1-2002_100%25.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Streamliner",
+      "campo": "im[12256]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/a/af/rojoyblanco.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "T-Bird Stocker (100%)",
+      "campo": "im[12259]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/02/im_lovin_it_100_per2.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Tommy Ivo's AA/F Dragster",
+      "campo": "im[12262]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/1/11/2004-100%25_Showcase_Tommy_Ivo_AAF_Dragster_Psychedelic_1c2.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Blind-Sided",
+      "campo": "im[12327]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/0/09/honey_i_was_blind_sided.JPG",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Hot Wheels Fire Rescue",
+      "campo": "im[12403]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/d/df/%E9%A2%A8%E7%81%AB%E8%BC%AA_FIRE_RESCUE_%26_HW_5_ALARM_%E6%B6%88%E9%98%B2%E7%B5%84_%E6%80%AA%E7%8D%B8%E5%8D%A1%E8%BB%8A%E9%9B%99%E8%BB%8A%E7%B5%84_%E5%A4%A7%E8%85%B3%E8%BB%8A_26C-1.jpg&_HW_5_ALARM_消防組_怪獸卡車雙車組_大腳車_26C-1.jpg",
+      "estado": "broken",
+      "error": "'ascii' codec can't encode characters in position 256-258: ordinal not in range(128)",
+      "status_http": 0,
+      "dimensiones": "0x0",
+      "reparada": true
+    },
+    {
+      "modelo": "Mighty Mixup",
+      "campo": "im[12449]",
+      "valor": "https://images.weserv.nl/?url=static.wikia.nocookie.net/hotwheels/images/5/52/20250803_182239.jpg",
+      "estado": "broken",
+      "error": "",
+      "status_http": 404,
+      "dimensiones": "0x0",
+      "reparada": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+html = open('index.html', encoding='utf-8').read()
+i = html.find('ftrend')
+j = html.find('function initRuedas', i)
+print("=== entre ftrend y initRuedas ===")
+print(html[i:j][:4000])

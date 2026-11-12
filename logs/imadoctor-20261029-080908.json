@@ -1,0 +1,53 @@
+{
+  "resumen": {
+    "ejecutado_en": "2026-10-29 08:09:17",
+    "duracion_seg": 9.1,
+    "dry_run": false,
+    "auditoria": {
+      "total_referencias": 14426,
+      "ok": 14426,
+      "rotas": 0,
+      "missing_file": 0,
+      "vacias": 0,
+      "corruptas": 0
+    },
+    "reparacion": {
+      "descargadas_local": 0,
+      "url_actualizadas": 0,
+      "omitidas": 0,
+      "descartes_validacion": 0
+    }
+  },
+  "entradas": [
+    {
+      "ts": "08:09:08",
+      "fase": "inicio",
+      "nivel": "info",
+      "mensaje": "image-doctor iniciado (dry_run=False, solo_im=True)",
+      "datos": {}
+    },
+    {
+      "ts": "08:09:08",
+      "fase": "auditoria",
+      "nivel": "info",
+      "mensaje": "escaneando fuentes...",
+      "datos": {}
+    },
+    {
+      "ts": "08:09:17",
+      "fase": "auditoria",
+      "nivel": "info",
+      "mensaje": "14426 referencias: 14426 ok, 0 rotas, 0 sin archivo, 0 vacias, 0 corruptas",
+      "datos": {}
+    },
+    {
+      "ts": "08:09:17",
+      "fase": "fin",
+      "nivel": "info",
+      "mensaje": "no hay imagenes que reparar",
+      "datos": {}
+    }
+  ],
+  "descartes": [],
+  "referencias": []
+}

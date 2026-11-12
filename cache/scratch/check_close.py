@@ -1,0 +1,6 @@
+html = open('index.html', encoding='utf-8').read()
+i = html.find('function closeDrawer')
+print("closeDrawer:", html[i:i+400])
+print()
+i2 = html.find('function editCar')
+print("editCar abre:", html[i2:i2+200])

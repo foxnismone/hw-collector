@@ -1,0 +1,5 @@
+html = open('index.html', encoding='utf-8').read()
+i = html.find('function render(reset)')
+if i < 0: i = html.find('function render(')
+print("render en:", i)
+print(html[i:i+1400])

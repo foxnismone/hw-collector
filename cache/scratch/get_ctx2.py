@@ -1,0 +1,6 @@
+html = open('index.html', encoding='utf-8').read()
+i = html.find('const catDesc=')
+print("catDesc:", html[i:i+200])
+print()
+i2 = html.find('const vmHTML=')
+print("vmHTML:", html[i2:i2+500])
